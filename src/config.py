@@ -8,5 +8,5 @@ CONFLICTS = {
     'her': ['she'],
     'them': ['they'],
     'me': ['I', 'we', 'us'],
-    'us': ['we', 'me']
+    'us': ['we', 'me'],
 }

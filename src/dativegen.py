@@ -120,6 +120,10 @@ def sample_items(agents, themes, recipients, N):
             conflict_set = conflict_set.union(
                 OrderedSet(config.CONFLICTS[sampled_theme])
             )
+        if sampled_recipient in config.CONFLICTS.keys():
+            conflict_set = conflict_set.union(
+                OrderedSet(config.CONFLICTS[sampled_recipient])
+            )
         # print(sampled_theme, conflict_set)
         agent_space = (
             agents - OrderedSet([sampled_theme] + [sampled_recipient]) - conflict_set
