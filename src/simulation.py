@@ -49,7 +49,7 @@ def main(args):
             trainer.train()
 
             # create results_dir
-            results_dir = f"{args.results_dir}/{instance['item']}_{instance['hypothesis_id']}_{instance['hypothesis_instance']}_{condition}_results"
+            results_dir = f"{args.results_dir}/{model_name}/{instance['item']}_{instance['hypothesis_id']}_{instance['hypothesis_instance']}_{condition}_results"
             pathlib.Path(results_dir).mkdir(parents=True, exist_ok=True)
             trainer.save_model(results_dir)
 
