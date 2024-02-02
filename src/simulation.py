@@ -15,8 +15,8 @@ def main(args):
     seed = args.seed
     set_seed(seed)
 
-    adaptation_set = utils.read_jsonl("adaptation")
-    generalization_set = utils.read_jsonl("generalization")
+    adaptation_set = utils.read_jsonl("data/experiments/adaptation2.jsonl")
+    generalization_set = utils.read_jsonl("data/experiments/generalization.jsonl")
     validation_set = utils.read_json(args.validation_path)
 
     pathlib.Path(args.results_dir).mkdir(parents=True, exist_ok=True)
@@ -40,18 +40,18 @@ def main(args):
 
             trainer = Trainer(
                 learner,
-                training_sentence,
+                [training_sentence],
                 generalization_set,
                 validation_set,
-                condition,
-                0.001,
+                "diff",
+                args.lr,
             )
-            trainer.train()
+            trainer.train(args.epochs, args.batch_size)
 
             # create results_dir
             results_dir = f"{args.results_dir}/{model_name}/{instance['item']}_{instance['hypothesis_id']}_{instance['hypothesis_instance']}_{condition}_results"
             pathlib.Path(results_dir).mkdir(parents=True, exist_ok=True)
-            trainer.save_model(results_dir)
+            trainer.save_results(results_dir)
 
 
 if __name__ == "__main__":
@@ -61,9 +61,12 @@ if __name__ == "__main__":
         "--model_name", type=str, default="kanishka/smolm-autoreg-bpe-seed_111"
     )
     parser.add_argument("--device", type=str, default="cuda:0")
-    parser.add_argument("--gaussian", type=bool, action="store_true")
+    parser.add_argument("--gaussian", action="store_true")
     parser.add_argument("--results_dir", type=str, default="data/results")
-    parser.add_argument("--validation_path", type=str, default="data/validation.jsonl")
+    parser.add_argument("--validation_path", type=str, default="data/experiments/validation.json")
+    parser.add_argument("--batch_size", type=int, default=32)
+    parser.add_argument("--epochs", type=int, default=70)
+    parser.add_argument("--lr", type=float, default=0.001)
 
     args = parser.parse_args()
     main(args)

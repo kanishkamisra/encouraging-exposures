@@ -4,6 +4,7 @@ import torch
 
 import numpy as np
 
+from collections import defaultdict
 from minicons import scorer
 from torch import optim
 from torch.utils.data import DataLoader
@@ -34,6 +35,7 @@ class Learner:
         target_params=["model.decoder.embed_tokens.weight"],
     ):
         self.lm = scorer.IncrementalLMScorer(model_name, device)
+        self.device = device
         self.gaussian = gaussian
         self.added_tokens = added_tokens
         self.target_params = target_params
@@ -44,11 +46,13 @@ class Learner:
             "added_tokens": added_tokens,
             "target_params": target_params,
         }
+        self.length = self.lm.model.resize_token_embeddings().weight.shape[0]
+        self.new_length = self.length + len(self.added_tokens)
+        self.new_index = self.new_length - len(self.added_tokens)
 
     def add_tokens(self):
-        self.length = self.lm.model.resize_token_embeddings().weight.shape[0]
+        # self.length = self.lm.model.resize_token_embeddings().weight.shape[0]
         self.lm.tokenizer.add_tokens(self.added_tokens)
-        self.new_length = self.length + len(self.added_tokens)
         self.lm.model.resize_token_embeddings(self.new_length)
 
         if self.gaussian:
@@ -57,7 +61,6 @@ class Learner:
         self._freeze()
 
     def _initialize_gaussian(self):
-        self.new_index = self.new_length - len(self.added_tokens)
         embeddings_weight = self.lm.model.resize_token_embeddings().weight
         embeddings_weight.requires_grad = False
 
@@ -222,6 +225,7 @@ class Learner:
         TODO: reduction should be a string, if it's a function, specify what kind of function. --> how to ensure it is always that type?
         """
         tokenized = self.prepare_text(batch, **kw)
+        # print(tokenized)
         scores = self.lm.compute_stats(
             tokenized, rank=False, base_two=base_two, prob=prob, return_tensors=True
         )
@@ -232,10 +236,13 @@ class Learner:
         """gets the avg. log prob per token given a corpus."""
         if batch_size > 0:
             scores = []
-            for i in range(0, len(corpus), batch_size):
-                scores.extend(self.sequence_score(corpus[i : i + batch_size]))
+            # for i in range(0, len(corpus), batch_size):
+            #     scores.extend(self.sequence_score(corpus[i : i + batch_size]))
+            dl = DataLoader(corpus, batch_size=batch_size)
+            for batch in dl:
+                scores.extend(self.sequence_score(batch))
         else:
-            scores = self.lm.sequence_score(corpus)
+            scores = self.sequence_score(corpus)
         if by_instance:
             return scores
         return np.mean(scores)
@@ -246,21 +253,24 @@ class Trainer:
         self,
         model,
         training_set,
-        validation_set,
         generalization_set,
+        validation_set,
         val_performance_metric="diff",
         learning_rate=1e-3,
         weight_decay=0.0,
     ):
         self.model = model
-        self.dev_performance_metric = val_performance_metric
+        self.model.add_tokens()
+        self.val_performance_metric = val_performance_metric
         self.learning_rate = learning_rate
         self.weight_decay = weight_decay
-        # self.metrics = {metric: [] for metric in metrics}
+        self.metrics = {"train_loss": [], "val_performance": []}
         self.training_set = training_set
         self.validation_set = validation_set
         self.generalization_set = generalization_set
         self.generalization_results = []
+        self.best_epoch = 70
+        self.embs = []
 
     def validate(self, batch_size=-1):
         # if self.validation set is a json with two cats, then we get
@@ -271,7 +281,7 @@ class Trainer:
             return self.model.logprob(self.validation_set)
         elif isinstance(self.validation_set, dict):
             if len(self.validation_set) == 2:
-                if self.dev_performance_metric == "diff":
+                if self.val_performance_metric == "diff":
                     return self.model.logprob(
                         self.validation_set["good"], batch_size=batch_size
                     ) - self.model.logprob(
@@ -306,7 +316,7 @@ class Trainer:
             {
                 "params": [
                     p
-                    for n, p in self.lm.model.named_parameters()
+                    for n, p in self.model.lm.model.named_parameters()
                     if not any(nd in n for nd in no_decay)
                 ],
                 "weight_decay": 0.0,
@@ -314,13 +324,15 @@ class Trainer:
             {
                 "params": [
                     p
-                    for n, p in self.lm.model.named_parameters()
+                    for n, p in self.model.lm.model.named_parameters()
                     if any(nd in n for nd in no_decay)
                 ],
                 "weight_decay": 0.0,
             },
         ]
-        self.optimizer = AdamW(optimizer_grouped_parameters, lr=self.lr, eps=1e-8)
+        self.optimizer = AdamW(
+            optimizer_grouped_parameters, lr=self.learning_rate, eps=1e-8
+        )
         self.scheduler = get_constant_schedule(self.optimizer)
 
     def generalization_step(self, model_state, batch_size=64):
@@ -334,65 +346,113 @@ class Trainer:
             # for do_score, pp_score in zip(do_scores, pp_scores):
             #     results.append((do_score, pp_score))
 
-        for i, res in results:
+        for i, res in enumerate(results):
             do, pp = res
             self.generalization_results.append([i, model_state, do, pp])
 
-        self.generalization_results.extend(results)
+        # self.generalization_results.extend(results)
 
     def train(self, num_epochs, generalization_batch_size):
+        # print(self.validate())
         self.generalization_step("initial", generalization_batch_size)
         self.optimizer_setup()
         encoded, offset = self.model.prepare_text(self.training_set)
+        encoded = encoded.to(self.model.device)
 
         labels = encoded.input_ids.clone()
-        if self.lm.tokenizer.pad_token_id is not None:
-            labels[labels == self.lm.tokenizer.pad_token_id] = -100
+        if self.model.lm.tokenizer.pad_token_id is not None:
+            labels[labels == self.model.lm.tokenizer.pad_token_id] = -100
 
-        if self.lm.tokenizer.bos_token_id is not None:
+        if self.model.lm.tokenizer.bos_token_id is not None:
             labels[labels == 1] = -100
 
         for i in trange(num_epochs, desc="Epoch"):
             epoch = i + 1
-            output = self.lm.model(**encoded, labels=labels)
+            output = self.model.lm.model(**encoded, labels=labels)
             output.loss.backward()
 
-            for m, p in self.lm.model.named_parameters():
-                if m in self.target_params:
+            for m, p in self.model.lm.model.named_parameters():
+                if m in self.model.target_params:
                     # embeddings = p
-                    p.grad[: self.new_index] = 0.0
+                    p.grad[: self.model.new_index] = 0.0
                     break
 
             self.optimizer.step()
             self.scheduler.step()
-            self.lm.model.zero_grad()
+            self.model.lm.model.zero_grad()
+
+            # store embeddings
+            emb = (
+                self.model.lm.model.resize_token_embeddings()
+                .weight[self.model.new_index :]
+                .detach()
+                .clone()
+            )
+            # emb.requires_grad = False
+            self.embs.append(emb)
+
             self.metrics["train_loss"].append(output.loss.item())
-            self.metrics["dev_performance"].append(self.validate())
+            self.metrics["val_performance"].append(self.validate())
 
         self.generalization_step("final", generalization_batch_size)
 
-        best_epoch = np.argmax(self.metrics["dev_performance"]) + 1
+        # print(self.model.lm.model.resize_token_embeddings().weight)
+
+        self.best_epoch = np.argmax(self.metrics["val_performance"]) + 1
+        print(
+            f"Best Epoch: {self.best_epoch}. Validation: {self.metrics['val_performance'][self.best_epoch-1]}"
+        )
         # re-train the model to the best epoch
 
         # reset model to initial state
-        self.model = Learner(**self.model.model_config)
-        self.model.add_tokens()
+        # self.model.zero_grad()
+        # self.model.lm.model.eval()
+        # self.model.requires_grad = False
+        # self.model.zero_grad()
+        # print(self.model.lm.model.resize_token_embeddings().weight[
+        #     self.model.new_index :
+        # ])
+        # print(self.embs[self.best_epoch-1])
+        for m, p in self.model.lm.model.named_parameters():
+            if m in self.model.target_params:
+                p.requires_grad = False
+                # embeddings = p
+                # p.grad[: self.model.new_index] = 0.0
+                # break
 
-        self.optimizer_setup()
-        self.optimizer.zero_grad()
-        for i in trange(best_epoch, desc="Epoch"):
-            output = self.lm.model(**encoded, labels=labels)
-            output.loss.backward()
+        # print(self.embs[self.best_epoch-1])
+        # print(self.model.lm.model.resize_token_embeddings().weight[
+        #     self.model.new_index :
+        # ] == self.embs[self.best_epoch - 1])
 
-            for m, p in self.lm.model.named_parameters():
-                if m in self.target_params:
-                    # embeddings = p
-                    p.grad[: self.new_index] = 0.0
-                    break
+        # print(self.embs[self.best_epoch-1])
 
-            self.optimizer.step()
-            self.scheduler.step()
-            self.lm.model.zero_grad()
+        self.model.lm.model.resize_token_embeddings().weight[
+            self.model.new_index :
+        ] = self.embs[self.best_epoch - 1]
+        # print(self.model.model_config)
+        # set_seed(42)
+        # self.model = Learner(**self.model.model_config)
+        # self.model.add_tokens()
+
+        # self.optimizer_setup()
+        # self.optimizer.zero_grad()
+        # for i in trange(self.best_epoch, desc="Epoch"):
+        #     output = self.model.lm.model(**encoded, labels=labels)
+        #     output.loss.backward()
+
+        #     for m, p in self.model.lm.model.named_parameters():
+        #         if m in self.model.target_params:
+        #             # embeddings = p
+        #             p.grad[: self.model.new_index] = 0.0
+        #             break
+
+        #     self.optimizer.step()
+        #     self.scheduler.step()
+        #     self.model.lm.model.zero_grad()
+
+        print(f"Val performance recheck: {self.validate()}")
+        print(self.model.lm.model.resize_token_embeddings().weight)
 
         self.generalization_step("best", generalization_batch_size)
 
@@ -409,14 +469,29 @@ class Trainer:
             writer.writerow(["item_id", "model_state", "do", "pp"])
             writer.writerows(self.generalization_results)
 
+        # generalization preference
+        generalization_scores = defaultdict(list)
+        for entry in self.generalization_results:
+            generalization_scores[entry[1]].append(int(entry[2] > entry[3]))
+
+        generalization_preference = {
+            k: np.mean(v) for k, v in generalization_scores.items()
+        }
+
         # save summary of training: train loss, best epoch, best dev performance.
         with open(f"{path}/training_summary.json", "w") as f:
+            summary = {
+                "best_epoch": int(self.best_epoch),
+                "best_val_performance": max(self.metrics["val_performance"]),
+                "val_performance_metric": self.val_performance_metric,
+                "train_loss": self.metrics["train_loss"][self.best_epoch - 1],
+                "initial_pref_do": generalization_preference["initial"],
+                "final_pref_do": generalization_preference["final"],
+                "best_pref_do": generalization_preference["best"],
+            }
+            print(summary)
             json.dump(
-                {
-                    "best_epoch": self.best_epoch,
-                    "best_dev_performance": max(self.metrics["dev_performance"]),
-                    "val_performance_metric": self.dev_performance_metric,
-                    "train_loss": self.metrics["train_loss"][self.best_epoch - 1],
-                },
+                summary,
                 f,
+                indent=4
             )
