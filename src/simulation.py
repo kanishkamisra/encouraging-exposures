@@ -2,6 +2,7 @@
 Experiment logic for testing the extent to which LMs trained on one form of dative are able to generalize to the other form.
 """
 import argparse
+import json
 import pathlib
 import utils
 
@@ -10,23 +11,17 @@ from transformers import set_seed
 from experiment import Learner, Trainer
 
 
-def load_experiment_data():
-    pass
-
-
-def load_validation():
-    pass
-
-
 def main(args):
     seed = args.seed
     set_seed(seed)
 
-    adaptation_set = load_experiment_data("adaptation")
-    generalization_set = load_experiment_data("generalization")
-    validation_set = load_validation(args.validation_path)
+    adaptation_set = utils.read_jsonl("adaptation")
+    generalization_set = utils.read_jsonl("generalization")
+    validation_set = utils.read_json(args.validation_path)
 
     pathlib.Path(args.results_dir).mkdir(parents=True, exist_ok=True)
+
+    model_name = args.model_name.replace("kanishka/", "")
 
     # load adaptation
     # for each instance, run training --> save model.
