@@ -24,9 +24,9 @@ class Dative:
 
     def generate(self, marked_theme=False, marked_recipient=False):
         if self.dative == "do":
-            template = Template("$agent $verb $recipient $theme.")
+            template = Template("$agent $verb $recipient $theme .")
         elif self.dative == "pp":
-            template = Template("$agent $verb $theme to $recipient.")
+            template = Template("$agent $verb $theme to $recipient .")
 
         if marked_theme:
             self.theme = f"the {self.theme}"
@@ -143,13 +143,14 @@ def generate_dative_set(lexicon, feature_combinations, N):
         feature_space = generate_feature_space(fc, lexicon)
         sampled_items = sample_items(*feature_space, N)
 
-        for a, t, r in zip(*sampled_items):
-            do_dative = Dative("do", "[verbed]", a, t, r).generate()
-            pp_dative = Dative("pp", "[verbed]", a, t, r).generate()
+        for j, (a, t, r) in enumerate(zip(*sampled_items)):
+            do_dative = Dative("do", "[verb]", a, t, r).generate()
+            pp_dative = Dative("pp", "[verb]", a, t, r).generate()
             dative_set.append(
                 {
                     "item": len(dative_set) + 1,
                     "hypothesis_id": i + 1,
+                    "hypothesis_instance": j + 1,
                     "theme_pronominality": fc[0][0],
                     "theme_animacy": fc[0][1],
                     "theme_length": fc[0][2],
