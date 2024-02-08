@@ -15,7 +15,7 @@ def main(args):
     seed = args.seed
     set_seed(seed)
 
-    adaptation_set = utils.read_jsonl("data/experiments/adaptation2.jsonl")
+    adaptation_set = utils.read_jsonl("data/experiments/adaptation.jsonl")
     generalization_set = utils.read_jsonl("data/experiments/generalization.jsonl")
     validation_set = utils.read_json(args.validation_path)
 
@@ -49,7 +49,7 @@ def main(args):
             trainer.train(args.epochs, args.batch_size)
 
             # create results_dir
-            results_dir = f"{args.results_dir}/{model_name}/{instance['item']}_{instance['hypothesis_id']}_{instance['hypothesis_instance']}_{condition}_results"
+            results_dir = f"{args.results_dir}/{model_name}/{instance['item']}_{instance['hypothesis_id']}_{instance['hypothesis_instance']}_{args.lr}_{condition}_results"
             pathlib.Path(results_dir).mkdir(parents=True, exist_ok=True)
             trainer.save_results(results_dir)
 
