@@ -38,7 +38,7 @@ def get_generalization_results(path):
 
 def main(args):
     results_dir = args.results_dir
-    model = results_dir.split("/")[-1]
+    model = results_dir.split("/")[-2]
 
     lr_wise = defaultdict(list)
 
