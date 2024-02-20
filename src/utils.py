@@ -1,6 +1,16 @@
 import csv
 import json
+import unicodedata
 from collections import defaultdict
+
+
+def read_file(path):
+    """TODO: make read all"""
+    return [
+        unicodedata.normalize("NFKD", i.strip())
+        for i in open(path, encoding="utf-8").readlines()
+        if i.strip() != ""
+    ]
 
 
 def read_jsonl(file_path):
@@ -10,10 +20,12 @@ def read_jsonl(file_path):
             data.append(json.loads(line))
     return data
 
+
 def read_json(file_path):
     with open(file_path, "r") as f:
         data = json.load(f)
     return data
+
 
 def read_csv_dict(path):
     data = []
@@ -22,6 +34,7 @@ def read_csv_dict(path):
         for line in reader:
             data.append(line)
     return data
+
 
 def generate_acronym(entry):
     acronym = ""
