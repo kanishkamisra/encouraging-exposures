@@ -35,13 +35,15 @@ def main(args):
     with open(verb_lemma_path, "r") as f:
         reader = csv.DictReader(f)
         for row in reader:
-            verb_lemmas.append(row["lemma"])
+            # verb_lemmas.append(row["lemma"])
+            lemma = row["lemma"]
+            verb = conjugate(lemma, to="VBD", model=nlp)
+            verb_lemmas.append((lemma, verb))
 
     print("Infilling dative generalization set with real verbs")
     corpus = []
-    for lemma in verb_lemmas:
+    for lemma, verb in tqdm(verb_lemmas):
         for instance in generalization_set:
-            verb = conjugate(lemma, to="VBD", model=nlp)
             sentence = instance["sentence"].replace("[verb]", verb)
             corpus.append(
                 {
