@@ -35,6 +35,14 @@ def read_csv_dict(path):
             data.append(line)
     return data
 
+def generate_acronym_tuple(entry):
+    acronym = ""
+    for arg in entry:
+        for k in arg:
+            acronym+=k[0]
+
+    return acronym
+
 
 def generate_acronym(entry):
     acronym = ""

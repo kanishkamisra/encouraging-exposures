@@ -16,6 +16,7 @@ aggregated_results |>
 aggregated_results  |>
   mutate(
     feature_config = glue::glue("{recipient_pronominality}-recipient\n{theme_pronominality}-theme"),
+    # feature_config = glue::glue("{recipient_animacy}-recipient\n{theme_animacy}-theme"),
   ) %>%
   group_by(feature_config, adaptation_dative) %>%
   summarize(
@@ -59,6 +60,7 @@ aggregated_results %>%
   mutate(
     exp = glue::glue("{adaptation_dative} -> {target}")
   ) %>%
-  ggplot(aes(exp, logprob, color = target, shape = adaptation_dative)) +
-  geom_jitter(size = 2.5, alpha = 0.5) +
+  ggplot(aes(exp, logprob, color = adaptation_dative, shape = target)) +
+  geom_jitter(size = 4, alpha = 0.8) +
+  scale_color_brewer(palette = "Dark2") +
   theme_bw()

@@ -29,7 +29,9 @@
         "the cute baby",
         "the small baby",
         "the cute cat",
-        "the small cat"
+        "the small cat",
+        "the girl",
+        "animals"
     ],
     "inanimate": [
         "it",
@@ -64,8 +66,13 @@
         "the puppy",
         "the baby",
         "the cat",
-        "the toys",
-        "the car"
+        "the girl",
+        "danny",
+        "dad",
+        "papa",
+        "you",
+        "pinnochio",
+        "ben"
     ],
     "theme": [
         "us",
@@ -86,6 +93,7 @@
         "the small baby",
         "the cute cat",
         "the small cat",
+        "the girl",
         "it",
         "the book",
         "the milk",
@@ -100,7 +108,8 @@
         "a piece of cake",
         "the small cake",
         "a bit of the cheerios",
-        "a few cheerios"
+        "a few cheerios",
+        "the animals"
     ],
     "recipient": [
         "us",
@@ -121,6 +130,7 @@
         "the small baby",
         "the cute cat",
         "the small cat",
+        "the girl",
         "it",
         "the book",
         "the milk",
@@ -135,6 +145,7 @@
         "a piece of cake",
         "the small cake",
         "a bit of the cheerios",
-        "a few cheerios"
+        "a few cheerios",
+        "the animals"
     ]
 }

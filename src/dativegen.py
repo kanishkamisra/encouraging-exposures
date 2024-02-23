@@ -1,17 +1,20 @@
 import argparse
 import config
+
 # import inflect
 import json
-# import math
+import math
+
 # import os
 import random
+import utils
 import pathlib
 
+from collections import defaultdict
 from string import Template
 from dataclasses import dataclass
 from itertools import product
 from ordered_set import OrderedSet
-# from collections import defaultdict
 
 
 @dataclass
@@ -88,6 +91,50 @@ def generate_feature_combinations(lex, features):
     return feature_combinations
 
 
+def plausibility_splits(
+    feature_combinations,
+    implausible_combinations=config.IMPLAUSIBLE,
+    adaptation=True,
+):
+    plausibility = {
+        "do": {"plausible": [], "implausible": []},
+        "pp": {"plausible": [], "implausible": []},
+    }
+    for dative in ["do", "pp"]:
+        for fc in feature_combinations:
+            fc_id = utils.generate_acronym_tuple(fc)
+            if not adaptation:
+                if fc_id in implausible_combinations[dative]:
+                    plausibility[dative]["implausible"].append(fc_id)
+                else:
+                    plausibility[dative]["plausible"].append(fc_id)
+            else:
+                plausibility[dative]["plausible"].append(fc_id)
+    return plausibility
+
+
+def specify_sample_size(plausibility, N=20):
+    sample_sizes = {"do": defaultdict(int), "pp": defaultdict(int)}
+    amts = []
+    for dative, splits in plausibility.items():
+        n_plausible, n_implausible = len(splits["plausible"]), len(
+            splits["implausible"]
+        )
+
+        addition = n_implausible * N / n_plausible
+        plausible_amt = int(n_plausible * math.floor(N + addition))
+        amts.append(plausible_amt)
+
+        # print(dative, plausible_amt)
+
+        for acronym in splits["plausible"]:
+            sample_sizes[dative][acronym] = math.floor(N + addition)
+        for acronym in splits["implausible"]:
+            sample_sizes[dative][acronym] = 0
+        sample_sizes[dative] = dict(sample_sizes[dative])
+    return sample_sizes, amts
+
+
 def generate_feature_space(feature_combo, lex):
     theme_features, recipient_features = feature_combo
     theme_features = [lex[feature] for feature in theme_features] + [lex["theme"]]
@@ -137,33 +184,75 @@ def sample_items(agents, themes, recipients, N):
     return sampled_agents, sampled_themes, sampled_recipients
 
 
-def generate_dative_set(lexicon, feature_combinations, N):
+# def generate_dative_set(lexicon, feature_combinations, N):
+#     dative_set = []
+#     for i, fc in enumerate(feature_combinations):
+#         feature_space = generate_feature_space(fc, lexicon)
+#         sampled_items = sample_items(*feature_space, N)
+
+#         for j, (a, t, r) in enumerate(zip(*sampled_items)):
+#             do_dative = Dative("do", "[verb]", a, t, r).generate()
+#             pp_dative = Dative("pp", "[verb]", a, t, r).generate()
+#             dative_set.append(
+#                 {
+#                     "item": len(dative_set) + 1,
+#                     "hypothesis_id": i + 1,
+#                     "hypothesis_instance": j + 1,
+#                     "theme_pronominality": fc[0][0],
+#                     "theme_animacy": fc[0][1],
+#                     "theme_length": fc[0][2],
+#                     "recipient_pronominality": fc[1][0],
+#                     "recipient_animacy": fc[1][1],
+#                     "recipient_length": fc[1][2],
+#                     "agent": a,
+#                     "theme": t,
+#                     "recipient": r,
+#                     "do": do_dative,
+#                     "pp": pp_dative,
+#                 }
+#             )
+#     return dative_set
+
+
+def generate_dative_set(lexicon, feature_combinations, sample_sizes):
     dative_set = []
     for i, fc in enumerate(feature_combinations):
+        fc_id = utils.generate_acronym_tuple(fc)
         feature_space = generate_feature_space(fc, lexicon)
-        sampled_items = sample_items(*feature_space, N)
-
-        for j, (a, t, r) in enumerate(zip(*sampled_items)):
-            do_dative = Dative("do", "[verb]", a, t, r).generate()
-            pp_dative = Dative("pp", "[verb]", a, t, r).generate()
-            dative_set.append(
-                {
-                    "item": len(dative_set) + 1,
-                    "hypothesis_id": i + 1,
-                    "hypothesis_instance": j + 1,
-                    "theme_pronominality": fc[0][0],
-                    "theme_animacy": fc[0][1],
-                    "theme_length": fc[0][2],
-                    "recipient_pronominality": fc[1][0],
-                    "recipient_animacy": fc[1][1],
-                    "recipient_length": fc[1][2],
-                    "agent": a,
-                    "theme": t,
-                    "recipient": r,
-                    "do": do_dative,
-                    "pp": pp_dative,
-                }
-            )
+        N = max(sample_sizes["do"][fc_id], sample_sizes["pp"][fc_id])
+        if N == 0:
+            pass
+        else:
+            sampled_items = sample_items(*feature_space, N)
+            j = 0
+            for dative in ["do", "pp"]:
+                # items = sampled_items[: sample_sizes[dative][fc_id]]
+                items = [argument[: sample_sizes[dative][fc_id]] for argument in sampled_items]
+                # print(dative, len(items))
+                # for j, (a, t, r) in enumerate(zip(*items)):
+                for agent, theme, recipient in zip(*items):
+                    do_dative = Dative(dative, "[verb]", agent, theme, recipient).generate()
+                    # pp_dative = Dative("pp", "[verb]", a, t, r).generate()
+                    dative_set.append(
+                        {
+                            "item": len(dative_set) + 1,
+                            "hypothesis_id": i + 1,
+                            "hypothesis_instance": j + 1,
+                            "theme_pronominality": fc[0][0],
+                            "theme_animacy": fc[0][1],
+                            "theme_length": fc[0][2],
+                            "recipient_pronominality": fc[1][0],
+                            "recipient_animacy": fc[1][1],
+                            "recipient_length": fc[1][2],
+                            "agent": agent,
+                            "theme": theme,
+                            "recipient": recipient,
+                            "dative": dative,
+                            "sentence": do_dative,
+                        }
+                    )
+                    j+=1
+                j = 0
     return dative_set
 
 
@@ -188,25 +277,54 @@ def main(args):
 
     feature_combinations = generate_feature_combinations(adaptation_lexicon, features)
 
+    gen_plausible_splits = plausibility_splits(feature_combinations, adaptation=False)
+    adapt_plausible_splits = plausibility_splits(feature_combinations, adaptation=True)
+
+    print("Generalization:", len(gen_plausible_splits['do']['plausible']), len(gen_plausible_splits['pp']['plausible']))
+    print("Adaptation:", len(adapt_plausible_splits['do']['plausible']), len(adapt_plausible_splits['pp']['plausible']))
+
+    gen_sample_sizes, gen_amt = specify_sample_size(
+        gen_plausible_splits, args.generalization_size
+    )
+    adapt_sample_sizes, adapt_amt = specify_sample_size(
+        adapt_plausible_splits, args.adaptation_size
+    )
+
+
+    # print(gen_sample_sizes, gen_amt)
+    # print(adapt_sample_sizes, adapt_amt)
+
+    # sample_sizes = {"do": defaultdict(int), "pp": defaultdict(int)}
+    # for dative in ["do", "pp"]:
+    #     for fc in feature_combinations:
+    #         fc_id = utils.generate_acronym_tuple(fc)
+    #         if fc_id in config.IMPLAUSIBLE[dative]:
+    #             sample_sizes.
+
     # generate generalization set -- 10 items per feature combination? = 350 items
     generalization_set = generate_dative_set(
-        generalization_lexicon, feature_combinations, args.generalization_size
+        generalization_lexicon, feature_combinations, gen_sample_sizes
     )
 
-    # adaptation set time
+    # print(len(generalization_set))
+
+    # # adaptation set time
     adaptation_set = generate_dative_set(
-        adaptation_lexicon, feature_combinations, args.adaptation_size
+        adaptation_lexicon, feature_combinations, adapt_sample_sizes
     )
+
+    # print(len(adaptation_set))
 
     # make exp dir
-    pathlib.Path("data/experiments").mkdir(parents=True, exist_ok=True)
+    exp_dir = f"data/experiments/{args.experiment_name}"
+    pathlib.Path(exp_dir).mkdir(parents=True, exist_ok=True)
 
     # write to jsonl file
-    with open("data/experiments/adaptation.jsonl", "w") as f:
+    with open(f"{exp_dir}/adaptation.jsonl", "w") as f:
         for item in adaptation_set:
             f.write(json.dumps(item) + "\n")
 
-    with open("data/experiments/generalization.jsonl", "w") as f:
+    with open(f"{exp_dir}/generalization.jsonl", "w") as f:
         for item in generalization_set:
             f.write(json.dumps(item) + "\n")
 
@@ -228,7 +346,8 @@ if __name__ == "__main__":
     parser.add_argument("--adaptation_size", type=int, default=5)
     parser.add_argument("--generalization_size", type=int, default=20)
     parser.add_argument("--seed", type=int, default=42)
-    
+    parser.add_argument("--experiment_name", type=str, default="single_stimuli_dative_simulation")
+
     args = parser.parse_args()
-    
+
     main(args)
