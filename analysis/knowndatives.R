@@ -67,6 +67,21 @@ combined <- bind_rows(
   dos_filtered %>% mutate(dative = "do")
 )
 
+combined %>%
+  count(lemma, sort=TRUE) %>%
+  write_csv("data/dative_lemmas.csv")
+
+combined |>
+  count(dative, verb_pos) %>%
+  group_by(dative) %>%
+  mutate(proportion = n/sum(n))
+
+combined %>% 
+  mutate(question = str_detect(sentence, "\\?")) %>% 
+  count(dative, question, verb_pos) %>% 
+  group_by(dative,  verb_pos) %>% 
+  mutate(proportion = n/sum(n))
+
 distributions <- combined %>%
   # filter(type == "alternating") %>%
   count(lemma, type, dative) %>%

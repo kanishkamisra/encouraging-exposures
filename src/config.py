@@ -29,7 +29,7 @@ CONFLICTS = {
     "a bit of the milk": ["the milk"],
     "the cheerios": ["a bit of the cheerios", "a few cheerios"],
     "a bit of the cheerios": ["the cheerios", "a few cheerios"],
-    "a few cheerios": ["the cheerios", "a bit of the cheerios"]
+    "a few cheerios": ["the cheerios", "a bit of the cheerios"],
 }
 
 IMPLAUSIBLE = {
