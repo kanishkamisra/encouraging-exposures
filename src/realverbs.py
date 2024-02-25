@@ -45,12 +45,16 @@ def main(args):
     for lemma, verb in tqdm(verb_lemmas):
         for instance in generalization_set:
             sentence = instance["sentence"].replace("[verb]", verb)
+            prefix = instance['sentence'].split([verb])[0] + f" {verb}"
+            stimuli = instance['sentence'].split([verb])[1]
             corpus.append(
                 {
                     "hypothesis_id": instance["hypothesis_id"],
                     "hypothesis_instance": instance["hypothesis_instance"],
                     "dative": instance["dative"],
                     "sentence": sentence,
+                    "prefix": prefix,
+                    "stimuli": stimuli,
                     "lemma": lemma,
                     "verb": verb,
                 }
@@ -60,7 +64,8 @@ def main(args):
 
     scores = []
     for batch in tqdm(corpus_dl):
-        batch_scores = lm.sequence_score(batch["sentence"])
+        # batch_scores = lm.sequence_score(batch["sentence"])
+        batch_scores = lm.conditional_score(batch["prefix"], batch["stimuli"])
         scores.extend(batch_scores)
 
     for i, instance in enumerate(corpus):
@@ -69,9 +74,14 @@ def main(args):
     save_path = f"data/results/real_verbs/{model_name}"
     pathlib.Path(save_path).mkdir(parents=True, exist_ok=True)
 
-    with open(f"{save_path}/logprobs.jsonl", "w") as f:
-        for line in corpus:
-            f.write(json.dumps(line) + "\n")
+    # with open(f"{save_path}/logprobs.jsonl", "w") as f:
+    #     for line in corpus:
+    #         f.write(json.dumps(line) + "\n")
+    # write to csv
+    with open(f"{save_path}/logprobs.csv", "w") as f:
+        writer = csv.DictWriter(f, fieldnames=corpus[0].keys())
+        writer.writeheader()
+        writer.writerows(corpus)
 
 
 if __name__ == "__main__":

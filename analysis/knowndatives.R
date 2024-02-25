@@ -1,4 +1,69 @@
 library(tidyverse)
+library(jsonlite)
+
+# stream_in(file("data/results/real_verbs/smolm_autoreg_bpe-seed_111/logprobs.jsonl"))
+real_logprobs <- fs::dir_ls("data/results/real_verbs/", recurse = TRUE, regexp = "*.jsonl") %>%
+  map_df(function(x) {stream_in(file(x))}, .id = "model") %>%
+  as_tibble() %>%
+  mutate(
+    model = str_extract(model, "(?<=verbs/)(.*)(?=/logprobs.jsonl)")
+  )
+
+generalization <- stream_in(file("data/experiments/single_stimuli_dative_simulation/generalization.jsonl")) %>%
+  as_tibble()
+
+real_logprobs %>%
+  # filter(str_detect(sentence, " the ")) %>%
+  # filter(lemma == "kick") %>%
+  filter(lemma != "carry") %>%
+  inner_join(generalization %>% filter(theme_animacy == "inanimate") %>% select(-sentence)) %>%
+  group_by(model, lemma, dative) %>%
+  summarize(
+    logprob = mean(score)
+  ) %>% 
+  ungroup() %>%
+  pivot_wider(names_from = dative, values_from = logprob) %>% 
+  inner_join(proportion_distributions %>% select(lemma, dative, type, empirically_alternating)) %>%
+  distinct() %>% 
+  ungroup() %>% 
+  filter(type != "do-only", dative == "pp") %>%
+  mutate(
+    supertype = case_when(
+      empirically_alternating == "Empirically Alternating" & type == "alternating" ~ "EA+A",
+      empirically_alternating == "Empirically Non-alternating" & type == "alternating" ~ "ENAbA",
+      empirically_alternating == "Empirically Non-alternating" & type == "pp-only" ~ "ENA+NA",
+    )
+  ) %>% 
+  ggplot(aes(supertype, do)) +
+  stat_summary(aes(group = model), fun = mean, geom="point")
+
+real_logprobs %>%
+  select(-sentence) %>%
+  pivot_wider(names_from = dative, values_from = score) %>% 
+  inner_join(proportion_distributions %>% distinct(lemma, type, dative, empirically_alternating) %>% filter(dative == "pp")) %>%
+  group_by(lemma, type, empirically_alternating) %>%
+  summarize(
+    logprob = mean(do, na.rm = TRUE),
+    ste = 1.96 * plotrix::std.error(do, na.rm = TRUE)
+  ) %>%
+  ungroup() %>%
+  mutate(
+    supertype = case_when(
+      empirically_alternating == "Empirically Alternating" & type == "alternating" ~ "EA+A",
+      empirically_alternating == "Empirically Non-alternating" & type == "alternating" ~ "ENAbA",
+      empirically_alternating == "Empirically Non-alternating" & type == "pp-only" ~ "ENA+NA",
+    ),
+    supertype = factor(supertype, levels = c("ENAbA", "ENA+NA", "EA+A"))
+  ) %>%
+  ggplot(aes(lemma, logprob, fill = supertype, color = supertype)) +
+  geom_col() +
+  facet_wrap(~supertype, scales="free_x") +
+  theme(
+    axis.text.x = element_text(angle = 90, vjust = 0.5, hjust = 1, color = "black"),
+    legend.position = "top",
+    axis.text.y = element_text(color = "black") 
+  )
+  
 
 pos2cat <- tribble(
   ~pos,~category,
