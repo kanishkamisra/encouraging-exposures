@@ -46,7 +46,7 @@ def main(args):
         for instance in generalization_set:
             sentence = instance["sentence"].replace("[verb]", verb)
             prefix = instance['sentence'].split("[verb]")[0].strip() + f" {verb}"
-            stimuli = instance['sentence'].split("[verb]")[1]
+            stimuli = instance['sentence'].split("[verb]")[1].strip()
             corpus.append(
                 {
                     "hypothesis_id": instance["hypothesis_id"],
@@ -63,7 +63,9 @@ def main(args):
     corpus_dl = DataLoader(corpus, batch_size=args.batch_size, shuffle=False)
 
     scores = []
-    for batch in tqdm(corpus_dl):
+    for i, batch in enumerate(tqdm(corpus_dl)):
+        # if i == 0:
+        #     print(batch)
         # batch_scores = lm.sequence_score(batch["sentence"])
         batch_scores = lm.conditional_score(batch["prefix"], batch["stimuli"])
         scores.extend(batch_scores)
