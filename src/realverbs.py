@@ -45,8 +45,8 @@ def main(args):
     for lemma, verb in tqdm(verb_lemmas):
         for instance in generalization_set:
             sentence = instance["sentence"].replace("[verb]", verb)
-            prefix = instance['sentence'].split([verb])[0] + f" {verb}"
-            stimuli = instance['sentence'].split([verb])[1]
+            prefix = instance['sentence'].split("[verb]")[0].strip() + f" {verb}"
+            stimuli = instance['sentence'].split("[verb]")[1]
             corpus.append(
                 {
                     "hypothesis_id": instance["hypothesis_id"],
