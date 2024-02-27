@@ -2,28 +2,30 @@ library(tidyverse)
 library(jsonlite)
 
 # stream_in(file("data/results/real_verbs/smolm_autoreg_bpe-seed_111/logprobs.jsonl"))
-real_logprobs <- fs::dir_ls("data/results/real_verbs/", recurse = TRUE, regexp = "*.jsonl") %>%
-  map_df(function(x) {stream_in(file(x))}, .id = "model") %>%
-  as_tibble() %>%
+# real_logprobs <- fs::dir_ls("data/results/real_verbs/", recurse = TRUE, regexp = "*.jsonl") %>%
+#   map_df(function(x) {stream_in(file(x))}, .id = "model") %>%
+#   as_tibble() %>%
+real_logprobs <- fs::dir_ls("data/results/real_verbs/", recurse = TRUE, regexp = "*.csv") %>%
+  map_df(read_csv, .id = "model") %>%
   mutate(
-    model = str_extract(model, "(?<=verbs/)(.*)(?=/logprobs.jsonl)")
+    model = str_extract(model, "(?<=verbs/)(.*)(?=/logprobs.csv)")
   )
 
 generalization <- stream_in(file("data/experiments/single_stimuli_dative_simulation/generalization.jsonl")) %>%
   as_tibble()
 
-real_logprobs %>%
+aggregates_real_logprobs <- real_logprobs %>%
   # filter(str_detect(sentence, " the ")) %>%
   # filter(lemma == "kick") %>%
-  filter(lemma != "carry") %>%
-  inner_join(generalization %>% filter(theme_animacy == "inanimate") %>% select(-sentence)) %>%
+  # filter(lemma != "carry") %>%
+  # inner_join(generalization %>% filter(theme_animacy == "inanimate") %>% select(-sentence)) %>%
   group_by(model, lemma, dative) %>%
   summarize(
     logprob = mean(score)
   ) %>% 
   ungroup() %>%
   pivot_wider(names_from = dative, values_from = logprob) %>% 
-  inner_join(proportion_distributions %>% select(lemma, dative, type, empirically_alternating)) %>%
+  inner_join(proportion_distributions %>% distinct(lemma, dative, type, empirically_alternating)) %>%
   distinct() %>% 
   ungroup() %>% 
   filter(type != "do-only", dative == "pp") %>%
@@ -33,12 +35,33 @@ real_logprobs %>%
       empirically_alternating == "Empirically Non-alternating" & type == "alternating" ~ "ENAbA",
       empirically_alternating == "Empirically Non-alternating" & type == "pp-only" ~ "ENA+NA",
     )
-  ) %>% 
+  )
+
+t.test(aggregates_real_logprobs %>% filter(supertype == "EA+A") %>% pull(do), aggregates_real_logprobs %>% filter(supertype == "ENAbA") %>% pull(do))
+
+aggregates_real_logprobs %>% 
   ggplot(aes(supertype, do)) +
-  stat_summary(aes(group = model), fun = mean, geom="point")
+  # geom_point()
+  stat_summary(aes(group = model), fun = mean, geom="point", size = 3, color = "black", fill = "black", shape = 21, alpha = 0.6) +
+  theme_bw(base_size = 15, base_family = "Times") +
+  labs(
+    x = "Alternation Class",
+    y = "DO Log-prob of post-verbal phrase"
+  )
+  
+
+real_logprobs %>%
+  group_by(dative, lemma) %>%
+  summarize(
+    logprob = mean(score)
+  ) %>%
+  ggplot(aes(dative, logprob)) +
+  geom_point()
+  
 
 real_logprobs %>%
   select(-sentence) %>%
+  inner_join(generalization %>% filter(theme_animacy == "inanimate") %>% select(-sentence)) %>%
   pivot_wider(names_from = dative, values_from = score) %>% 
   inner_join(proportion_distributions %>% distinct(lemma, type, dative, empirically_alternating) %>% filter(dative == "pp")) %>%
   group_by(lemma, type, empirically_alternating) %>%
