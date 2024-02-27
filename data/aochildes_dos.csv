@@ -16,7 +16,6 @@ you can give him a big kiss .,give,give,VB,kiss,him,NN,PRP
 are you give her kiss .,give,give,VB,kiss,her,NN,PRP
 what what you saying ?,say,saying,VBG,what,what,WP,WP
 what what you saying ?,say,saying,VBG,what,what,WP,WP
-what can we find for you ?,find,find,VB,for,what,IN,WP
 can you give the baby a hug ?,give,give,VB,hug,baby,NN,NN
 you wanna give the baby a nice bath ?,give,give,VB,bath,baby,NN,NN
 can you give us just a few more minutes ?,give,give,VB,minutes,us,NNS,PRP
@@ -27,8 +26,6 @@ let's make you a bowl of some food .,make,make,VB,bowl,you,NN,PRP
 can you give the baby a kiss ?,give,give,VB,kiss,baby,NN,NN
 give me some of that .,give,give,VB,some,me,DT,PRP
 what are you telling us ?,tell,telling,VBG,us,what,PRP,WP
-can you lift up the next pile for me ?,lift,lift,VB,for,pile,IN,NN
-okay well lift the towel up for me again i'll dry you a little more .,lift,lift,VB,for,towel,IN,NN
 this old man he played one he played knickknack on my drum with a knickknack paddywack give a dog a bone this old man came rolling home .,give,give,VB,bone,dog,NN,NN
 we could give you some milk foodies .,give,give,VB,foodies,you,NNS,PRP
 you can sit and play yes and i'll even feed you more maybe .,feed,feed,VB,more,you,JJR,PRP
@@ -38,7 +35,6 @@ let's see if i've made you something .,make,made,VBN,something,you,NN,PRP
 he's trying to get your knee and give you a hug !,give,give,VB,hug,you,NN,PRP
 is that what we'll tell them ?,tell,tell,VB,them,what,PRP,WP
 give you a little more .,give,give,VB,more,you,JJR,PRP
-we'll take some toast for you or something .,take,take,VB,for,toast,IN,NN
 give me a few more minutes okay ?,give,give,VB,minutes,me,NNS,PRP
 i was just writing your brother a note .,write,writing,VBG,note,brother,NN,NN
 give me five .,give,give,VB,five,me,CD,PRP
@@ -56,7 +52,6 @@ okay we'll give joseph one in his tub .,give,give,VB,one,joseph,CD,NNP
 i gave you plums .,give,gave,VBD,plums,you,NNS,PRP
 let's see if you've gotten sick again and if you are i'll give you some motrin .,give,give,VB,motrin,you,NN,PRP
 just snapping you up one .,snap,snapping,VBG,one,you,NN,PRP
-here i'll pull it for you so it goes bzbzbz .,pull,pull,VB,for,it,IN,PRP
 what're you showing me ?,show,showing,VBG,me,what,PRP,WP
 oh yes give him a good chew .,give,give,VB,chew,him,NN,PRP
 what are you telling me ?,tell,telling,VBG,me,what,PRP,WP
@@ -67,8 +62,6 @@ he told them the loud noise or he told them what it was ?,tell,told,VBD,noise,th
 catherine what did i ask you ?,ask,ask,VB,you,what,PRP,WP
 you take that one and i'll give theo some stuff on this one .,give,give,VB,stuff,theo,NN,NNP
 with a knickknack paddywack give a dog a bone this old man came rolling home .,give,give,VB,bone,dog,NN,NN
-and throw it in the oven for theo and me .,throw,throw,VB,for,it,IN,PRP
-throw it in the oven for theo and me .,throw,throw,VB,for,it,IN,PRP
 i'll show you something funny .,show,show,VB,something,you,NN,PRP
 what were you telling me ?,tell,telling,VBG,me,what,PRP,WP
 thomas did you give daddy your socks yes .,give,give,VB,socks,daddy,NNS,NNP
@@ -106,7 +99,6 @@ are you my sleepiest should we give you a little drink and then you can have som
 wanna give it t .,give,give,VB,t,it,NN,PRP
 now let's see what can we feed you .,feed,feed,VB,you,what,PRP,WP
 feed you some of this .,feed,feed,VB,some,you,DT,PRP
-well i think daddy's making some breakfast for us .,make,making,VBG,for,breakfast,IN,NN
 what are you bringing them up catherine ?,bring,bringing,VBG,them,what,PRP,WP
 did i give you kisses ?,give,give,VB,kisses,you,NNS,PRP
 oh thank you for giving me that ?,give,giving,VBG,that,me,DT,PRP
@@ -344,7 +336,6 @@ and gives little guy a kiss right in the belly button .,give,gives,VBZ,kiss,guy,
 hm says more more more .,say,says,VBZ,more,more,JJR,JJR
 and gives that little guys' belly a kiss .,give,gives,VBZ,kiss,belly,NN,NN
 he says more more more !,say,says,VBZ,more,more,JJR,JJR
-because i take the lid off for him .,take,take,VBP,for,lid,IN,NN
 he told you that .,tell,told,VBD,that,you,DT,PRP
 let me tell you something about that bottle .,tell,tell,VB,something,you,NN,PRP
 throw me the ball ?,throw,throw,VB,ball,me,NN,PRP
@@ -357,13 +348,11 @@ little piggy toes give me that ball .,give,give,VBP,ball,me,NN,PRP
 wanna give me the ball ?,give,give,VB,ball,me,NN,PRP
 give me the ball ?,give,give,VB,ball,me,NN,PRP
 give mommy the ball ?,give,give,VB,ball,mommy,NN,NN
-can i just pull that up for you .,pull,pull,VB,for,that,IN,DT
 hm you giving bunny a little hug .,give,giving,VBG,hug,bunny,NN,NNP
 my parents were right there and my mother gave me a great big package .,give,gave,VBD,package,me,NN,PRP
 throw me the ball .,throw,throw,VB,ball,me,NN,PRP
 can you say hoo hoo ?,say,say,VB,hoo,hoo,NN,UH
 give mommy the crayon .,give,give,VB,crayon,mommy,NN,NN
-they shouldn't have left these things around for you huh .,leave,left,VBN,for,things,IN,NNS
 give me that .,give,give,VB,that,me,DT,PRP
 give mommy the paper please .,give,give,VB,paper,mommy,NN,NN
 what are the what's the doggie say ?,say,say,VB,the,are,DT,VBP
@@ -391,8 +380,6 @@ can you bring me the wheel please ?,bring,bring,VB,wheel,me,NN,PRP
 oh wanna throw me the football ?,throw,throw,VB,football,me,NN,PRP
 come on give me the ball .,give,give,VB,ball,me,NN,PRP
 wanna show you something else .,show,show,VB,something,you,NN,PRP
-make a pretty picture for mom .,make,make,VB,for,picture,IN,NN
-can you make a picture for mom ?,make,make,VB,for,picture,IN,NN
 can you show mama the pictures ?,show,show,VB,pictures,mama,NNS,NN
 wanna throw mommy the ball ?,throw,throw,VB,ball,mommy,NN,NN
 throw me the ball !,throw,throw,VB,ball,me,NN,PRP
@@ -427,8 +414,6 @@ the question is who should we give them too .,give,give,VB,them,who,PRP,WP
 okay which one you wanna give them the white frame or the brown frame .,give,give,VB,frame,them,NN,PRP
 we'll give them the white frame .,give,give,VB,frame,them,NN,PRP
 you're giving the box a seat !,give,giving,VBG,seat,box,NN,NN
-we could ah we could make a picture for daddy .,make,make,VB,for,picture,IN,NN
-do you wanna make one for daddy ?,make,make,VB,for,one,IN,NN
 can you throw me the ball ?,throw,throw,VB,ball,me,NN,PRP
 okay you throw me the ball .,throw,throw,VBP,ball,me,NN,PRP
 throw mom the ball ?,throw,throw,VB,ball,mom,NN,NN
@@ -516,7 +501,6 @@ are you gonna give me a kiss ?,give,give,VB,kiss,me,NN,PRP
 you wanna give baby matthew a kiss ?,give,give,VB,kiss,matthew,NN,NNP
 okay we'll give it a whirl .,give,give,VB,whirl,it,NN,PRP
 she gave him things she told him secrets and she sang lullabies to him every night .,tell,told,VBD,secrets,him,NNS,PRP
-dinosaurs so big one of their footprints could make a swimming pool for us .,make,make,VB,for,pool,IN,NN
 yeah i actually can't understand when you're just giving me the little whine .,give,giving,VBG,whine,me,NN,PRP
 let's not pull that flower off honey .,pull,pull,VB,honey,flower,NN,NN
 and then we'll bring you some crackers .,bring,bring,VB,crackers,you,NNS,PRP
@@ -536,8 +520,6 @@ okay now i'm gonna give you your water .,give,give,VB,water,you,NN,PRP
 i'm gonna give you the train ?,give,give,VB,train,you,NN,PRP
 the credit card the credit card whatever we're offering you nothing for a fee ?,offer,offering,VBG,nothing,you,NN,PRP
 did you wanna give floppy a kiss ?,give,give,VB,kiss,floppy,NN,NNP
-that she made for you .,make,made,VBD,for,that,IN,DT
-and phoebe made that picture for you there's a big kittie cat .,make,made,VBD,for,picture,IN,NN
 come on i'll show it ta you .,show,show,VB,ta,it,IN,PRP
 you wanna see where she's let's see the picture where she's feeding him his baba .,feed,feeding,VBG,baba,him,NN,PRP
 she given him his milk ?,give,given,VBN,milk,him,NN,PRP
@@ -572,7 +554,6 @@ you wanna give me the book and i'll read it up here ?,give,give,VB,book,me,NN,PR
 i'm giving them water .,give,giving,VBG,water,them,NN,PRP
 no i'm not gonna give you the whole box .,give,give,VB,box,you,NN,PRP
 give me the crayons .,give,give,VB,crayons,me,NNS,PRP
-mommy will take it off for you .,take,take,VB,for,it,IN,PRP
 in the box can you give me the box please ?,give,give,VB,box,me,NN,PRP
 daddy's giving you a big father kiss .,give,giving,VBG,kiss,you,NN,PRP
 daddy's giving you a kiss a big father kiss .,give,giving,VBG,kiss,you,NN,PRP
@@ -639,7 +620,6 @@ are you giving the cat some fish !,give,giving,VBG,fish,cat,NN,NN
 you're gonna give the kitty cat some water ?,give,give,VB,water,cat,NN,NN
 oh you're feeding the clown the purple ring .,feed,feeding,VBG,ring,clown,NN,NN
 you're giving the horse the yellow ring .,give,giving,VBG,ring,horse,NN,NN
-oh well i don't have an idea i wanted to see what kind of estimates people would give me for them .,give,give,VB,me,kind,PRP,NN
 hey you gonna feed the bear some bubbles .,feed,feed,VB,bubbles,bear,NNS,NN
 you could feed the bear some bubbles you could pretend to feed the bear some bubbles .,feed,feed,VB,bubbles,bear,NNS,NN
 give me your hand back .,give,give,VB,hand,me,NN,PRP
@@ -665,7 +645,6 @@ give daddy some of that .,give,give,VB,some,daddy,DT,NNP
 oh the dog licked your toe that's what daddy told me .,tell,told,VBD,me,what,PRP,WP
 let's give daddy some raisins .,give,give,VB,daddy,'s,NN,PRP
 give him a spoon in there too .,give,give,VB,spoon,him,NN,PRP
-i'm making your yogurt for you .,make,making,VBG,for,yogurt,IN,NN
 i gave you some wheat .,give,gave,VBD,wheat,you,NN,PRP
 you're giving me the spoon too .,give,giving,VBG,spoon,me,NN,PRP
 let's clean up a little and then i'll give you some cheese okay .,give,give,VB,cheese,you,NN,PRP
@@ -721,7 +700,6 @@ did you give him a kiss ?,give,give,VB,kiss,him,NN,PRP
 do you wanna give her that ?,give,give,VB,that,her,DT,PRP
 give her some bottle .,give,give,VB,bottle,her,NN,PRP
 shall we give the duck a ride ?,give,give,VB,ride,duck,NN,NN
-here i took it apart for you ?,take,took,VBD,for,it,IN,PRP
 oh did you give the doggie a kiss !,give,give,VB,kiss,doggie,NN,NN
 you show me the book what do you see ?,show,show,VBP,book,me,NN,PRP
 look my teeth look my tongue i give you a kiss ?,give,give,VBP,tongue,teeth,NN,NNS
@@ -834,7 +812,6 @@ give me your cup .,give,give,VB,cup,me,NN,PRP
 give me your cup .,give,give,VB,cup,me,NN,PRP
 i'll give you more .,give,give,VB,more,you,JJR,PRP
 come on give me kiss ?,give,give,VB,kiss,me,NN,PRP
-throw it for daddy ?,throw,throw,VB,for,it,IN,PRP
 how about if i pick you up and show you the kitchen light ?,show,show,VBP,light,you,NN,PRP
 you want me to pick you up and show you the light .,show,show,VB,light,you,NN,PRP
 which part do you want honey .,want,want,VB,honey,part,NN,NN
@@ -919,12 +896,10 @@ if you pass me the bread i'll butter .,pass,pass,VBP,bread,me,NN,PRP
 feels like dad gave me too much chili in the bowl ?,give,gave,VBD,chili,me,NN,PRP
 you read her a book or something .,read,read,VBD,book,her,NN,PRP
 i'll give you some um bread and butter .,give,give,VB,bread,you,NN,PRP
-thank you for saying that for me .,say,saying,VBG,for,that,IN,DT
 i'll give you something else .,give,give,VB,something,you,NN,PRP
 i'll give you a tomato .,give,give,VB,tomato,you,NN,PRP
 well i can't give you the carrot .,give,give,VB,carrot,you,NN,PRP
 no okay because if they're too snug we can take them off mm drawing with the crayon ?,take,take,VB,mm,them,NN,PRP
-and there's a face did grandma make that face for you .,make,make,VB,for,face,IN,NN
 left emily mommily .,leave,left,VBD,mommily,emily,NNP,NNP
 oh okay oh i'm so sorry can you give me the hair elastics ?,give,give,VB,elastics,me,NNS,PRP
 which mommy's gonna take care of right now .,take,take,VB,care,which,NN,WDT
@@ -938,10 +913,7 @@ give daddy kiss first .,give,give,VB,kiss,daddy,NN,NN
 i gonna catch gonna throw you some more .,throw,throw,VB,more,you,JJR,PRP
 mommy says tikatika is a spanish game that kittie taught you .,teach,taught,VBD,you,that,PRP,WDT
 oh you're giving me that lego ?,give,giving,VBG,lego,me,NN,PRP
-you wanna make a tent for your friends ?,make,make,VB,for,tent,IN,NN
-you cold make a tent with the rags for your friends .,make,make,VBP,for,tent,IN,NN
 here i can give you some tape on this box ?,give,give,VB,tape,you,NN,PRP
-you wanna make another tent for the friends ?,make,make,VB,for,tent,IN,NN
 they teach him things .,teach,teach,VBP,things,him,NNS,PRP
 give your daddy a kiss .,give,give,VB,kiss,daddy,NN,NN
 he knows he would not give his dad a kiss .,give,give,VB,kiss,dad,NN,NN
@@ -949,13 +921,11 @@ give your daddy a kiss .,give,give,VB,kiss,daddy,NN,NN
 give your daddy a kiss .,give,give,VB,kiss,daddy,NN,NN
 handed her the bear and she took it and she exclaimed over it .,hand,handed,VBD,bear,her,NN,PRP
 micah micah i want you micah .,want,want,VBP,micah,you,NNP,PRP
-did you make some for me .,make,make,VB,for,some,IN,DT
 huh a cow what does a cow say .,say,say,VB,what,cow,WP,NN
 maisy drives the car vroom vroom .,drive,drives,VBZ,vroom,car,FW,NN
 you wanna give that bear a kiss ?,give,give,VB,kiss,bear,NN,NN
 looks like he's giving the baby a raspberry .,give,giving,VBG,raspberry,baby,NN,NN
 giving his baby a hug .,give,giving,VBG,hug,baby,NN,NN
-are you gonna make lunch for me .,make,make,VB,for,lunch,IN,NN
 would you make me a steak .,make,make,VB,steak,me,NN,PRP
 alright are you giving yourself a time out are you gonna sit on the step .,give,giving,VBG,time,yourself,NN,PRP
 okay send me a post card .,send,send,VB,card,me,NN,PRP
@@ -980,14 +950,9 @@ can you give mommy the tracks ?,give,give,VB,tracks,mommy,NNS,NN
 give me cookie give me cookie please give me cookie .,give,give,VB,cookie,me,NN,PRP
 give me cookie i need cookie ?,give,give,VB,cookie,me,NN,PRP
 you found it tweedle bug .,find,found,VBD,bug,it,NNP,PRP
-what did mommy bring downstairs for you ?,bring,bring,VB,for,what,IN,WP
 i just gave you milk .,give,gave,VBD,milk,you,NN,PRP
 i just gave you some milk .,give,gave,VBD,milk,you,NN,PRP
 oh she's bringing joanna one .,bring,bringing,VBG,one,joanna,CD,NNP
-she's bringing one for the whole family .,bring,bringing,VBG,for,one,IN,CD
-for bringing juice for everybody .,bring,bringing,VBG,for,juice,IN,NN
-you brought it for her .,bring,brought,VBD,for,it,IN,PRP
-could you sing papa for the recorder .,sing,sing,VB,for,papa,IN,NN
 you show me the picture .,show,show,VBP,picture,me,NN,PRP
 mommy a hug come give mommy a hug .,give,give,VB,hug,mommy,NN,NN
 show me a tower show me a tower tower .,show,show,VB,tower,me,NN,PRP
@@ -1000,7 +965,6 @@ can you show jessica your duck ?,show,show,VB,duck,jessica,NN,NNP
 um she uses it more sometimes when you ask her a question she'll say no and sometimes she just uses it sort of as a lament .,ask,ask,VBP,question,her,NN,PRP
 she's the daddy's giving the baby a piggie back ride actually the baby's ridding on the daddy's shoulders .,give,giving,VBG,ride,baby,NN,NN
 a cow wha does a cow say .,say,say,VB,wha,cow,WP,NN
-can you throw that away for me .,throw,throw,VB,for,that,IN,DT
 i think the baby the baby's giving you kisses ?,give,giving,VBG,kisses,you,NNS,PRP
 what do you telling daddy .,tell,telling,VBG,daddy,what,NN,WP
 ask im what time he's uh workin till ?,ask,ask,VB,m,i,PRP,PRP
@@ -1020,14 +984,12 @@ and let's put the wire in the bag and i'm gonna show you a picture of koko .,sho
 can you give me a kiss ?,give,give,VB,kiss,me,NN,PRP
 i'll just give you some applesauce by itself okay ?,give,give,VB,applesauce,you,NN,PRP
 yeah i'm gonna give you kamut too .,give,give,VB,kamut,you,NN,PRP
-mommy is making breakfast for naima .,make,making,VBG,for,breakfast,IN,NN
 with a knick knack paddy whack give a dog a bone ?,give,give,VB,bone,dog,NN,NN
 and they wanna squeeze you they wanna squeeze naima and give you kisses .,give,give,VB,kisses,you,NNS,PRP
 do you want egg cause i will make you a scrambled egg if you would like an egg ?,make,make,VB,egg,you,NN,PRP
 so if i make you scrambled eggs i will blow on em .,make,make,VBP,eggs,you,NNS,PRP
 mommy was asking naima something ?,ask,asking,VBG,something,naima,NN,NNP
 mommy gave you more french toast see .,give,gave,VBD,toast,you,NN,PRP
-are we gonna make stairs for the .,make,make,VB,for,stairs,IN,NNS
 giving me the crayons okay !,give,giving,VBG,crayons,me,NNS,PRP
 can i take the spoon and feed you a little bit .,feed,feed,VB,bit,you,NN,PRP
 tell me some more about the swing ?,tell,tell,VB,more,me,JJR,PRP
@@ -1096,16 +1058,12 @@ oh you're bringing me the cup ?,bring,bringing,VBG,cup,me,NN,PRP
 we'll find you a pad .,find,find,VB,pad,you,NN,PRP
 give me your finger .,give,give,VB,finger,me,NN,PRP
 give me the big one ?,give,give,VB,one,me,NN,PRP
-come here i'll take it off for you ?,take,take,VB,for,it,IN,PRP
 give grandma a kiss .,give,give,VB,kiss,grandma,NN,NN
 can you give grandma a kiss ?,give,give,VB,kiss,grandma,NN,NN
 gonna give grandma a kiss on the phone .,give,give,VB,kiss,grandma,NN,NN
 can you give mommy the baby ?,give,give,VB,baby,mommy,NN,NN
 should i give you an engineer hat ?,give,give,VB,hat,you,NN,PRP
 can you bring me the towel ?,bring,bring,VB,towel,me,NN,PRP
-are you gonna carry that book for me .,carry,carry,VB,for,book,IN,NN
-oh pulling the tools for the farmer ?,pull,pulling,VBG,for,tools,IN,NNS
-he made a space for you honey !,make,made,VBD,for,space,IN,NN
 why don't you read me a story .,read,read,VB,story,me,NN,PRP
 josh joshua's offering you something honey .,offer,offering,VBG,something,you,NN,PRP
 hand me one !,hand,hand,VB,one,me,NN,PRP
@@ -1116,7 +1074,6 @@ this is why people shouldn't give me silver things ?,give,give,VB,things,me,NNS,
 you wanna give the baby a kiss ?,give,give,VB,kiss,baby,NN,NN
 no you know what you have another word that you didn't tell jessica .,tell,tell,VB,jessica,that,NNP,WDT
 when they finish reading olivia's mother gives her a kiss ?,give,gives,VBZ,kiss,her,NN,PRP
-you want me to go find the baby for you honey .,find,find,VB,for,baby,IN,NN
 and then one time my dad took me sailing .,take,took,VBD,sailing,me,NN,PRP
 and then she said there's lola charlie will you pass me one of those .,pass,pass,VB,one,me,CD,PRP
 fortunately we didn't offer her any ?,offer,offer,VB,any,her,DT,PRP
@@ -1143,7 +1100,6 @@ you know what i told daddy in the kitchen ?,tell,told,VBD,daddy,what,NNP,WP
 i told him no matter which toast i give laura you're gonna take it .,give,give,VBP,laura,toast,NNP,NN
 i gave you a cup and put it in my place by mistake .,give,gave,VBD,cup,you,NN,PRP
 i i give you a little w .,give,give,VBP,w,you,NNP,PRP
-think katie left this for you .,leave,left,VBD,for,this,IN,DT
 give me a kiss give me a kiss .,give,give,VB,kiss,me,NN,PRP
 that was not nice what'd i tell you about doing that .,tell,tell,VB,you,what,PRP,WP
 give me a kiss and i'll let you touch it .,give,give,VB,kiss,me,NN,PRP
@@ -1155,8 +1111,6 @@ should mama tell you a story about the dinosaur .,tell,tell,VB,story,you,NN,PRP
 he played knick knack patty wack give a dog a bone .,give,give,VB,bone,dog,NN,NN
 with a knick knack patty wack give a dog a bone .,give,give,VB,bone,dog,NN,NN
 let's give baby a new battery .,give,give,VB,battery,baby,NN,NN
-i will find the bee for you ?,find,find,VB,for,bee,IN,NN
-a bee and who made the costume for you .,make,made,VBD,for,costume,IN,NN
 you wanna give him a kiss bye bye ?,give,give,VB,kiss,him,NN,PRP
 give me a hug and a kiss booboo .,give,give,VB,hug,me,NN,PRP
 show me the tiger ?,show,show,VB,tiger,me,NN,PRP
@@ -1169,26 +1123,16 @@ giving the geese a drink of .,give,giving,VBG,drink,geese,NN,NNPS
 can you give it a kiss ?,give,give,VB,kiss,it,NN,PRP
 show me the eyes ?,show,show,VB,eyes,me,NNS,PRP
 show me the eyes .,show,show,VB,eyes,me,NNS,PRP
-let me see you make a beautiful picture for mommy .,make,make,VB,for,picture,IN,NN
-make a beautiful picture for momma ?,make,make,VB,for,picture,IN,NN
-shall we make two beautiful pictures for mommy ?,make,make,VB,for,pictures,IN,NNS
 show me the black .,show,show,VB,black,me,NN,PRP
 show me the black .,show,show,VB,black,me,NN,PRP
 show me the black .,show,show,VB,black,me,NN,PRP
 show me this !,show,show,VB,this,me,DT,PRP
 show me this .,show,show,VB,this,me,DT,PRP
 give me that !,give,give,VB,that,me,DT,PRP
-can you find something in the book for me ?,find,find,VB,for,something,IN,NN
-let's make a road for him .,make,make,VB,for,road,IN,NN
 why don't you give me your crayons .,give,give,VB,crayons,me,NNS,PRP
-i didn't bring anything in there for you ?,bring,bring,VB,for,anything,IN,NN
-i will find them for you .,find,find,VB,for,them,IN,PRP
 making more i i i i ?,make,making,VBG,i,more,NN,JJR
-you must sing a song for the recorders .,sing,sing,VB,for,song,IN,NN
-would you sing a song for the recorder ?,sing,sing,VB,for,song,IN,NN
 i'm sorry but why don't you tell me your secret instead ?,tell,tell,VB,secret,me,NN,PRP
 tell me your secret .,tell,tell,VB,secret,me,NN,PRP
-can you sing a song for it and then we'll hear it ?,sing,sing,VB,for,song,IN,NN
 throw me the ball !,throw,throw,VB,ball,me,NN,PRP
 aw are you giving me huggy .,give,giving,VBG,huggy,me,JJ,PRP
 somebody come with me and see the pleasure can we take these off mommy's hot ?,take,take,VB,these,pleasure,DT,NN
@@ -1268,7 +1212,6 @@ june can you tell me the story .,tell,tell,VB,story,me,NN,PRP
 can you tell me the story ?,tell,tell,VB,story,me,NN,PRP
 june can you tell me the story .,tell,tell,VB,story,me,NN,PRP
 can you tell me the story here ?,tell,tell,VB,story,me,NN,PRP
-can you sing that one again for me ?,sing,sing,VB,for,one,IN,NN
 can you tell me the story of this one ?,tell,tell,VB,story,me,NN,PRP
 can you tell me the story here ?,tell,tell,VB,story,me,NN,PRP
 yes i'll give him more coffee .,give,give,VB,coffee,him,NN,PRP
@@ -1277,7 +1220,6 @@ you bring me fraser's cup and we'll give him some more coffee ?,bring,bring,VB,c
 i'll give you more tapioca ?,give,give,VB,tapioca,you,NN,PRP
 what should you tell him ?,tell,tell,VB,him,what,PRP,WP
 show mommy the apple .,show,show,VB,apple,mommy,NN,NN
-find grover for me .,find,find,VB,for,grover,IN,NN
 give baby a kiss ?,give,give,VB,kiss,baby,NN,NN
 let me show you something ?,show,show,VB,something,you,NN,PRP
 you're giving the baby a hug .,give,giving,VBG,hug,baby,NN,NN
@@ -1320,8 +1262,6 @@ i'll give you this book .,give,give,VB,book,you,NN,PRP
 what i want you ?,want,want,VBP,you,what,PRP,WP
 can you show mommy the school bus ?,show,show,VB,bus,mommy,NN,NN
 i'll hand you the teddy bear .,hand,hand,VB,bear,you,NNP,PRP
-we'll go back mommy will find it for you ?,find,find,VB,for,it,IN,PRP
-you gonna say it for me .,say,say,VB,for,it,IN,PRP
 i know you told me that ?,tell,told,VBD,that,me,DT,PRP
 i'm telling you hygiene all the way .,tell,telling,VBG,hygiene,you,NN,PRP
 you gonna show manuela your pictures .,show,show,VB,pictures,manuela,NNS,NNP
@@ -1371,8 +1311,6 @@ we don't i'll give you something ?,give,give,VB,something,you,NN,PRP
 okay we'll put this away mommy will read you a book .,read,read,VB,you,this,PRP,DT
 mommy's gonna read you a book .,read,read,VB,book,you,NN,PRP
 that's not a boy i'll show you a boy thatza boy and thatza boy .,show,show,VB,boy,you,NN,PRP
-can you find the dog for me ?,find,find,VB,for,dog,IN,NN
-okay you gonna pile them up make a big tower for mommy .,make,make,VB,for,tower,IN,NN
 you'll show me your toys first ?,show,show,VB,toys,me,NNS,PRP
 you show me you toys .,show,show,VBP,toys,me,NNS,PRP
 you show me your car look .,show,show,VBP,look,me,NN,PRP
@@ -1410,10 +1348,6 @@ i'm gonna tell you a secret in your ear .,tell,tell,VB,secret,you,NN,PRP
 i want tell you secret ?,tell,tell,VB,secret,you,NN,PRP
 yeah but it took me a few minutes .,take,took,VBD,minutes,me,NNS,PRP
 give me that .,give,give,VB,that,me,DT,PRP
-now let's let's make another picture for daddy !,make,make,VB,for,picture,IN,NN
-let's make a picture for daddy .,make,make,VB,for,picture,IN,NN
-let's make one for marmo .,make,make,VB,for,one,IN,CD
-shall we make one for marmo .,make,make,VB,for,one,IN,NN
 and i'll give you the ball and you throw it in .,give,give,VB,ball,you,NN,PRP
 bring me the box .,bring,bring,VB,box,me,NN,PRP
 give mommy a kiss .,give,give,VB,kiss,mommy,NN,NN
@@ -1434,7 +1368,6 @@ show mommy the school bus .,show,show,VB,bus,mommy,NN,NN
 let me ask you something .,ask,ask,VB,something,you,NN,PRP
 throw me the ball .,throw,throw,VB,ball,me,NN,PRP
 i'll show you the lion but can you say lamb first ?,show,show,VB,lion,you,NN,PRP
-can you sing a song for mama ?,sing,sing,VB,for,song,IN,NN
 with a knick knack patty whack give a dog a bone this old man came rolling home ?,give,give,VB,bone,dog,NN,NN
 this old man he played two he played knick knack on my shoe with a knick knack patty whack give a dog a bone .,give,give,VB,bone,dog,NN,NN
 he played knick knack on his door with a knick knack patty whack give a dog a bone .,give,give,VB,bone,dog,NN,NN
@@ -1451,13 +1384,10 @@ yes yes he's giving you a nice kiss .,give,giving,VBG,kiss,you,NN,PRP
 you don't wanna give them away even the ones you don't play with any more .,give,give,VB,ones,them,NNS,PRP
 i'm asking you questions .,ask,asking,VBG,questions,you,NNS,PRP
 okay okay hold on give me a second .,give,give,VB,second,me,NN,PRP
-eeyore he said solemnly i winnie the pooh will find your tail for you ?,find,find,VB,for,tail,IN,NN
 i give her a bite of mine too .,give,give,VBP,bite,her,NN,PRP
-do you wanna sing frere jaques for the recorder ?,sing,sing,VB,for,jaques,IN,NNP
 okay give me your spoon then i'll scrape your bowl .,give,give,VB,spoon,me,NN,PRP
 the owl is telling pooh bear something .,tell,telling,VBG,something,bear,NN,NNP
 oh that's your rhyming puzzle that grandma gave you .,give,gave,VBD,you,that,PRP,WDT
-let me find it for you ?,find,find,VB,for,it,IN,PRP
 you wanna give liza her bath ?,give,give,VB,bath,liza,NN,NNP
 you're giving her a nice bath aren't you ?,give,giving,VBG,bath,her,NN,PRP
 are you giving her bath .,give,giving,VBG,bath,her,NN,PRP
@@ -1530,7 +1460,6 @@ is he giving bread elephant .,give,giving,VBG,elephant,bread,NN,NN
 you climb in your high chair and i'll give you more cheese !,give,give,VB,cheese,you,NN,PRP
 i know what i'll give you ?,give,give,VB,you,what,PRP,WP
 i know what i'll give you !,give,give,VB,you,what,PRP,WP
-tomorrow i'll make some for you .,make,make,VB,for,some,IN,DT
 eve show me the man's truck ?,show,show,VB,truck,me,NN,PRP
 show me the man's truck ?,show,show,VB,truck,me,NN,PRP
 show me the truck's man eve ?,show,show,VB,eve,me,NN,PRP
@@ -1540,7 +1469,6 @@ are you giving me a haircut ?,give,giving,VBG,haircut,me,NN,PRP
 well give the baby some apple sauce ?,give,give,VB,sauce,baby,NN,NN
 should we give the monkey some apple sauce too ?,give,give,VB,sauce,monkey,NN,NN
 do you wanna give the monkey some apple sauce ?,give,give,VB,sauce,monkey,NN,NN
-find the cow for me ?,find,find,VB,for,cow,IN,NN
 give baby a kiss .,give,give,VB,kiss,baby,NN,NN
 you could give the dolly a ride patrick !,give,give,VB,ride,dolly,NN,NN
 say we'll find you a helicopter next time .,find,find,VB,helicopter,you,NN,PRP
@@ -1573,7 +1501,6 @@ i'll give you a couple of pretzels okay ?,give,give,VB,couple,you,NN,PRP
 i'll show you a trick .,show,show,VB,trick,you,NN,PRP
 yes deedee gave you more too .,give,gave,VBD,more,you,JJR,PRP
 did you show me your new toys ?,show,show,VB,toys,me,NNS,PRP
-let's make a house for all the lambs .,make,make,VB,for,house,IN,NN
 you gonna give the bunny a ride .,give,give,VB,ride,bunny,NN,NN
 give me this one .,give,give,VB,one,me,NN,PRP
 give me your hand and i'll show you how .,give,give,VB,hand,me,NN,PRP
@@ -1592,7 +1519,6 @@ now give me a hug .,give,give,VB,hug,me,NN,PRP
 tell me everything they have in there .,tell,tell,VB,everything,me,NN,PRP
 you keep the backpack on and i'll show you the batteries .,show,show,VB,batteries,you,NNS,PRP
 can you find me the picture of a flower ?,find,find,VB,picture,me,NN,PRP
-let's make a road for the car .,make,make,VB,for,road,IN,NN
 can you find me another orange block ?,find,find,VB,block,me,NN,PRP
 okay find me another orange one .,find,find,VB,one,me,NN,PRP
 can you hand me some purple blocks ?,hand,hand,VB,blocks,me,NNS,PRP
@@ -1603,7 +1529,6 @@ you give him milk .,give,give,VBP,milk,him,NN,PRP
 what does the pig say salley ?,say,say,VB,salley,what,NN,WP
 why don't you sit here and read them books ?,read,read,VB,books,them,NNS,PRP
 can you give him another one ?,give,give,VB,one,him,NN,PRP
-leave it out for me .,leave,leave,VB,for,it,IN,PRP
 more let me give you some more obviously you're .,give,give,VB,more,you,JJR,PRP
 and i'm gonna give you some warm actually these beans are hot ?,give,give,VB,warm,you,JJ,PRP
 okay i'll give you do you want fresh banana .,give,give,VB,banana,you,NN,PRP
@@ -1634,8 +1559,6 @@ don't tell daddy that .,tell,tell,VB,that,daddy,DT,NN
 ben are you giving ben a big hug .,give,giving,VBG,hug,ben,NN,NNP
 can you give ben a kiss ?,give,give,VB,kiss,ben,NN,NNP
 you use ducks and cups in the bath tub when daddy gives you a bath don't you .,give,gives,VBZ,bath,you,NN,PRP
-okay we'll make a desk for owl .,make,make,VB,for,desk,IN,NN
-and we can make a desk for owl .,make,make,VB,for,desk,IN,NN
 does the baby say waa waa ?,say,say,VB,waa,waa,UH,UH
 is he telling you a secret .,tell,telling,VBG,secret,you,NN,PRP
 i'll give it a kiss .,give,give,VB,kiss,it,NN,PRP
@@ -1669,9 +1592,7 @@ give me the dog's cup ?,give,give,VB,cup,me,NN,PRP
 give me the papa's boy !,give,give,VB,boy,me,NN,PRP
 give me the papa's boy ?,give,give,VB,boy,me,NN,PRP
 i'll give you the duck !,give,give,VB,duck,you,NN,PRP
-i'm making bouillon for papa ?,make,making,VBG,for,bouillon,IN,NN
 he'll bring you something again next year ?,bring,bring,VB,something,you,NN,PRP
-will you make it for me ?,make,make,VB,for,it,IN,PRP
 can you give me milk in the cup ?,give,give,VB,milk,me,NN,PRP
 you're not gonna show me the hammer .,show,show,VB,hammer,me,NN,PRP
 can you bring me the cups ?,bring,bring,VB,cups,me,NNS,PRP
@@ -1687,7 +1608,6 @@ can tell her the colors of the balloons ?,tell,tell,VB,colors,her,NNS,PRP
 what'd you feed your dog ?,feed,feed,VB,dog,what,NN,WP
 where are the sneakers show me the sneakers here ?,show,show,VB,sneakers,me,NNS,PRP
 give me your finger ?,give,give,VB,finger,me,NN,PRP
-no i'll take it off for you .,take,take,VB,for,it,IN,PRP
 when you're bigger and have more teeth we'll give you some ?,give,give,VB,you,teeth,PRP,NNS
 i gave him a bone today .,give,gave,VBD,bone,him,NN,PRP
 i gave him a bone .,give,gave,VBD,bone,him,NN,PRP
@@ -1706,9 +1626,7 @@ can i give you a kiss .,give,give,VB,kiss,you,NN,PRP
 yes i'll give you a baby spoon .,give,give,VB,spoon,you,NN,PRP
 well i'll tell you what i'll forward it .,forward,forward,VB,it,what,PRP,WP
 here i give her a little bowl .,give,give,VBP,bowl,her,NN,PRP
-hey say some of your new things for me .,say,say,VB,for,some,IN,DT
 give daddy give daddy the cup .,give,give,VB,cup,daddy,NN,NNP
-daddy is gonna daddy is gonna find an old phone for you ?,find,find,VB,for,phone,IN,NN
 listen give me a kiss .,give,give,VB,kiss,me,NN,PRP
 give me a kiss ?,give,give,VB,kiss,me,NN,PRP
 come give me a kiss !,give,give,VB,kiss,me,NN,PRP
@@ -1732,15 +1650,12 @@ you gave zoe a treat what kind of treat !,give,gave,VBD,treat,zoe,NN,NNP
 show manuela the mouse she can't see it .,show,show,VB,mouse,manuela,NN,NNP
 my mom sent us these .,send,sent,VBD,these,us,DT,PRP
 a treat were we at gabby's house last night and you gave zoe a treat .,give,gave,VBD,treat,zoe,NN,NNP
-yesterday you didn't want it when i made it for you ?,make,made,VBD,for,it,IN,PRP
-come here let mommy pull them for you .,pull,pull,VB,for,them,IN,PRP
 show me the mommy .,show,show,VB,mommy,me,NN,PRP
 show me some toys the baby has nomi .,show,show,VB,toys,me,NNS,PRP
 show me some toys .,show,show,VB,toys,me,NNS,PRP
 show me some toys ?,show,show,VB,toys,me,NNS,PRP
 that will make a beautiful shadow honey .,make,make,VB,honey,shadow,NN,NN
 then when we get up give nomi a bath and wash her hair .,give,give,VB,bath,nomi,NN,NNP
-why don't you sing a song for us ?,sing,sing,VB,for,song,IN,NN
 give me a kiss .,give,give,VB,kiss,me,NN,PRP
 i'm gonna put you on your pottie chair and feed you your oatmeal .,feed,feed,VB,oatmeal,you,NN,PRP
 we'll feed you a bunch of oatmeal and you'll toot .,feed,feed,VB,bunch,you,NN,PRP
@@ -1751,7 +1666,6 @@ give me the flower .,give,give,VB,flower,me,NN,PRP
 i brought you some more tools .,bring,brought,VBD,tools,you,NNS,PRP
 oh yeah it looks a little bit like a baseball bat but you need a ball take a piece for the ball there's the bat you hold on i'm gonna throw you the ball i'm gonna pitch ready bong home run .,throw,throw,VB,ball,you,NN,PRP
 and tell you i love you my little swamp creature ?,tell,tell,VB,you,you,PRP,PRP
-meat eating dinosaur what did the mommy make for the meat eating dinosaur !,make,make,VB,for,what,IN,WP
 what do you want sweets you want the box ?,want,want,VB,sweets,what,NNS,WP
 give baby some coffee .,give,give,VB,coffee,baby,NN,NN
 give baby some coffee ?,give,give,VB,coffee,baby,NN,NN
@@ -1768,11 +1682,8 @@ did you show mommy the dog ?,show,show,VB,dog,mommy,NN,NN
 did you show mommy the dog ?,show,show,VB,dog,mommy,NN,NN
 mhm give me some more .,give,give,VB,more,me,JJR,PRP
 let's make a big tunnel give me some big blocks .,give,give,VB,blocks,me,NNS,PRP
-you gonna carry the toys for us ?,carry,carry,VB,for,toys,IN,NNS
-mommy made these puzzles for you .,make,made,VBD,for,puzzles,IN,NNS
 why don't you give me that piece with the dolphin's body ?,give,give,VB,piece,me,NN,PRP
 and now we need a c can you find me a c .,find,find,VB,me,c,PRP,NN
-they are making dough for bread .,make,making,VBG,for,dough,IN,NN
 ruby gives him his walkie talkie teddy bear .,give,gives,VBZ,bear,him,NNP,PRP
 i gave you some wheat .,give,gave,VBD,wheat,you,NN,PRP
 you giving me the spoon too ?,give,giving,VBG,spoon,me,NN,PRP
@@ -1784,14 +1695,9 @@ he played one he played knick knack on my thumb with a knick knack paddy whack g
 let's show manuela what we can do .,show,show,VB,manuela,'s,NNP,PRP
 how about if i show you some pictures ?,show,show,VBP,pictures,you,NNS,PRP
 you're gonna leave without giving mommy kisses .,give,giving,VBG,kisses,mommy,NNS,NN
-play the piano sing the abcs for mommy .,sing,sing,VB,for,abcs,IN,NNS
-and you can sing the abcs for mommy .,sing,sing,VB,for,abcs,IN,NNS
-and you can play the abcs and sing it for mommy .,sing,sing,VB,for,it,IN,PRP
-sing the abcs for me .,sing,sing,VB,for,abcs,IN,NNP
 who's in your class william can you tell me the names of the people the kids in your class ?,tell,tell,VB,names,me,NNS,PRP
 can you tell me their names ?,tell,tell,VB,names,me,NNS,PRP
 you wanna give sarah a hug ?,give,give,VB,hug,sarah,NN,NNP
-but mommy can sing it for you .,sing,sing,VB,for,it,IN,PRP
 give me car .,give,give,VB,car,me,NN,PRP
 you just find you one ?,find,find,VB,one,you,CD,PRP
 hand me the airplane the big airplane ?,hand,hand,VB,airplane,me,NN,PRP
@@ -1866,9 +1772,7 @@ now give me your hand .,give,give,VB,hand,me,NN,PRP
 give me your hand and i will help you ?,give,give,VB,hand,me,NN,PRP
 when we get there i'll show you the juniper tree ?,show,show,VB,tree,you,NN,PRP
 would you please sit down and i'll give you it .,give,give,VB,it,you,PRP,PRP
-okay then make a barn for the lizard now .,make,make,VB,for,barn,IN,NN
 mommy mommy brought kim a necktie .,bring,brought,VBD,necktie,kim,NN,NNP
-well i'm gonna wipe your nose and then i'm gonna make some dinner for you .,make,make,VB,for,dinner,IN,NN
 why doesn't he bring them some hummus .,bring,bring,VB,hummus,them,NN,PRP
 wha' do you think .,think,think,VB,',wha,WP,WP
 those little pieces that i gave you ?,give,gave,VBD,you,that,PRP,WDT
@@ -1951,13 +1855,11 @@ give mommy your spoon ?,give,give,VB,spoon,mommy,NN,NN
 three oh you gave mommy the three .,give,gave,VBD,three,mommy,CD,NN
 bring her a little bowl too .,bring,bring,VB,bowl,her,NN,PRP
 i gave you a spoon .,give,gave,VBD,spoon,you,NN,PRP
-give it lois and let her tear it for you .,give,give,VB,lois,it,NNP,PRP
 give me the box .,give,give,VB,box,me,NN,PRP
 give me the box .,give,give,VB,box,me,NN,PRP
 give me the box .,give,give,VB,box,me,NN,PRP
 give me the box .,give,give,VB,box,me,NN,PRP
 you gonna give patsy another one ?,give,give,VB,one,patsy,NN,NNP
-can you find it for me ?,find,find,VB,for,it,IN,PRP
 well let me tell you story .,tell,tell,VB,story,you,NN,PRP
 give me that damn cup ?,give,give,VB,cup,me,NN,PRP
 give me it ?,give,give,VB,it,me,PRP,PRP
@@ -1971,11 +1873,8 @@ while daddy tells you story .,tell,tells,VBZ,story,you,NN,PRP
 you could show manuela your room ?,show,show,VB,room,manuela,NN,NNP
 you can show you can show manuela all of hucklecat's friends .,show,show,VB,all,manuela,DT,NNP
 yeah sweetie donchou wanna show donchou wanna show manuela all of hucklecat's friends .,show,show,VB,all,manuela,DT,NNP
-huh let mommy here mommy's gonna bring a book in for you .,bring,bring,VB,for,book,IN,NN
-look he brought a picture home for his mommy ?,bring,brought,VBD,for,picture,IN,NN
 close your eyes said frederick as he climbed on a big stone i send you the rays of sun .,send,send,VBP,rays,you,NNS,PRP
 do you want something to eat or are you just saying ee ee ee ?,say,saying,VBG,ee,ee,UH,UH
-my mom found them for me in new york and i love them .,find,found,VBD,for,them,IN,PRP
 the principal beamed as he watched from afar he lifted miss spider and gave her a .,give,gave,VBD,a,her,DT,PRP
 let's get you toasty and warm she said and she made him a cup of chamomile tea .,make,made,VBD,cup,him,NN,PRP
 do you feel better yet asked felix's mama no said felix so his mama gave him some sugared prunes you'll feel perkier with prunes she said ?,give,gave,VBD,prunes,him,NNS,PRP
@@ -1988,12 +1887,10 @@ you'll give her some of your favorite maple syrup .,give,give,VB,some,her,DT,PRP
 when you give her the bubbles she'll probably ask you for a toy ?,give,give,VBP,bubbles,her,NNS,PRP
 if you give a pig a pancake .,give,give,VBP,pancake,pig,NN,NN
 you'll give her some of your favorite maple syrup .,give,give,VB,some,her,DT,PRP
-i'm making porridge for my little baby bear cub .,make,making,VBG,for,porridge,IN,NN
 yes i'm gonna give you the bowl back .,give,give,VB,bowl,you,NN,PRP
 she's showing the goat the rug that she made ?,show,showing,VBG,rug,goat,NN,NN
 i'll make you some real noodles for lunch .,make,make,VB,noodles,you,NNS,PRP
 show me some pictures .,show,show,VB,pictures,me,NNS,PRP
-let's make a tunnel for it .,make,make,VB,for,tunnel,IN,NN
 can i give you a little bite of that oatmeal .,give,give,VB,bite,you,NN,PRP
 i wish daddy had given you these before .,give,given,VBN,these,you,DT,PRP
 tell me rockabye baby .,tell,tell,VB,rockabye,me,NNP,PRP
@@ -2008,14 +1905,12 @@ give daddy hug .,give,give,VB,hug,daddy,NN,NN
 give daddy hug ?,give,give,VB,hug,daddy,NN,NN
 let daddy find you a penny .,find,find,VB,penny,you,NN,PRP
 let daddy find you a penny .,find,find,VB,penny,you,NN,PRP
-daddy found a penny for you .,find,found,VBD,for,penny,IN,NN
 just give me this other hand though .,give,give,VB,hand,me,NN,PRP
 give me your hand .,give,give,VB,hand,me,NN,PRP
 now give me that diaper .,give,give,VB,diaper,me,NN,PRP
 uh okay i'll give you the phone .,give,give,VB,phone,you,NN,PRP
 can i i give you a kiss ?,give,give,VB,kiss,you,NN,PRP
 look what i made marble sandwich .,make,made,VBD,sandwich,what,NNP,WP
-okay and you're gonna sing a song for me .,sing,sing,VB,for,song,IN,NN
 here i'll give you some more ice cream ?,give,give,VB,cream,you,NN,PRP
 you're giving dolly a cookie .,give,giving,VBG,cookie,dolly,NN,NNP
 you're giving dolly a cookie ?,give,giving,VBG,cookie,dolly,NN,NNP
@@ -2027,8 +1922,6 @@ let's give dolly some milk .,give,give,VB,milk,dolly,NN,NNP
 you give dolly some milk .,give,give,VBP,milk,dolly,NN,NNP
 you said you wanted some cereal so i gave you cereal .,give,gave,VBD,cereal,you,NN,PRP
 i'm not giving you peanut butter on a spoon till lunchtime .,give,giving,VBG,butter,you,NN,PRP
-did daddy find them for you ?,find,find,VB,for,them,IN,PRP
-daddy will find them for you .,find,find,VB,for,them,IN,PRP
 no no don't eat that i'll give you a snack .,give,give,VB,you,that,PRP,DT
 you left me a message .,leave,left,VBD,message,me,NN,PRP
 the fabric store left you a message ?,leave,left,VBD,message,you,NN,PRP
@@ -2045,7 +1938,6 @@ okay well give me the uh give me a screw okay now give me a bolt .,give,give,VB,
 give me a bolt .,give,give,VB,bolt,me,NN,PRP
 give me the rug .,give,give,VB,rug,me,NN,PRP
 what're you telling her ?,tell,telling,VBG,her,what,PRP,WP
-i'm sorry i took the wheel off for him .,take,took,VBD,for,wheel,IN,NN
 i taught you a new game .,teach,taught,VBD,game,you,NN,PRP
 i'll give you a ride into the middle of the stream .,give,give,VB,ride,you,NN,PRP
 what did he tell her ?,tell,tell,VB,her,what,PRP,WP
@@ -2068,10 +1960,7 @@ look he's giving that rat his cheese ?,give,giving,VBG,cheese,rat,NN,NN
 show her them flies ?,show,show,VB,flies,her,NNS,PRP
 show me your books .,show,show,VB,books,me,NNS,PRP
 oh okay find me a book ?,find,find,VB,book,me,NN,PRP
-mama would you make that for me .,make,make,VB,for,that,IN,DT
-make that for you ?,make,make,VB,for,that,IN,DT
 give me it .,give,give,VB,it,me,PRP,PRP
-thank you for bringing my birthday stuff for me ?,bring,bringing,VBG,for,stuff,IN,NN
 kalie's give me them .,give,give,VBP,them,me,PRP,PRP
 and here's the milk that the cow gives you ?,give,gives,VBZ,you,that,PRP,WDT
 give me the horse would you .,give,give,VB,horse,me,NN,PRP
@@ -2154,18 +2043,13 @@ and frank sent you another picture .,send,sent,VBD,picture,you,NN,PRP
 where are the kittie cats that frank sent you ?,send,sent,VBD,you,that,PRP,WDT
 frank sent nina a book and frank sent nina a picture of some kittie cats .,send,sent,VBD,book,nina,NN,NNP
 i'll give you one one flower .,give,give,VB,flower,you,NN,PRP
-each person makes a wish for that person .,make,makes,VBZ,for,wish,IN,NN
-would you make a wish for laura .,make,make,VB,for,wish,IN,NN
 what did she give you ?,give,give,VB,you,what,PRP,WP
 joanne gave you that bibbie ?,give,gave,VBD,bibbie,you,NN,PRP
 she gave you that .,give,gave,VBD,that,you,DT,PRP
-making a sandwich for papa ?,make,making,VBG,for,sandwich,IN,NN
 no we'll give her some milk out of the cup at supper time not now .,give,give,VB,milk,her,NN,PRP
 run and give papa a kiss ?,give,give,VB,kiss,papa,NN,NN
 you go and give fraser a kiss .,give,give,VBP,kiss,fraser,NN,NNP
 let's make that what color should we make that .,make,make,VB,that,color,DT,NN
-i thought i was making it for papa ?,make,making,VBG,for,it,IN,PRP
-and they are gonna sing happy birthday for seth !,sing,sing,VB,for,birthday,IN,NN
 here let me give you good bite ?,give,give,VB,bite,you,NN,PRP
 doctor wong gave us lots .,give,gave,VBD,lots,us,NNS,PRP
 and i'll give you a ride .,give,give,VB,ride,you,NN,PRP
@@ -2180,7 +2064,6 @@ j j could you give mommy a kiss ?,give,give,VB,kiss,mommy,NN,NN
 give the baby a kiss !,give,give,VB,kiss,baby,NN,NN
 you're giving him a hug .,give,giving,VBG,hug,him,NN,PRP
 what is it that you're giving the dog patrick ?,give,giving,VBG,dog,that,NN,WDT
-look what i brought in here for you !,bring,brought,VBD,for,what,IN,WP
 go ahead you can give it a pull .,give,give,VB,pull,it,NN,PRP
 and threw them books back do you like books ?,throw,threw,VBD,books,them,NNS,PRP
 what shall we give the doggie ?,give,give,VB,doggie,what,NN,WP
@@ -2206,7 +2089,6 @@ and mrs wood gave nina this birthday card ?,give,gave,VBD,card,nina,NN,NNP
 did bob and scott give nina this puzzle .,give,give,VB,puzzle,nina,NN,NNP
 did mrs wood give you this necklace ?,give,give,VB,necklace,you,NN,PRP
 and what did you tell mommy ?,tell,tell,VB,mommy,what,NN,WP
-sweetie pie you wanna go throw this away for me .,throw,throw,VB,for,this,IN,DT
 and mommy gave him a big hug .,give,gave,VBD,hug,him,NN,PRP
 paddington had never been in a store where they tried so hard to make their customers happy and he gave the man a friendly wave .,give,gave,VBD,wave,man,NN,NN
 well done said the lady handing him a ticket .,hand,handing,VBG,ticket,him,NN,PRP
@@ -2223,7 +2105,6 @@ did grandma tell you that .,tell,tell,VB,that,you,DT,PRP
 you can bring them from downstairs but let's make daddy this coffee first ?,make,make,VB,coffee,daddy,NN,NN
 oh what did daddy give you .,give,give,VB,you,what,PRP,WP
 go ahead and eat some and i'll tell you the story of goldilocks .,tell,tell,VB,story,you,NN,PRP
-okay let me find the sesame for you .,find,find,VB,for,sesame,IN,NN
 and the papa bear says don't worry we'll make you some more porridge .,make,make,VB,porridge,you,NN,PRP
 i know they gave us the wrong color ?,give,gave,VBD,color,us,NN,PRP
 okay daddy made you eggs ?,make,made,VBD,eggs,you,NNS,PRP
@@ -2246,7 +2127,6 @@ can you show me some other toys ?,show,show,VB,toys,me,NNS,PRP
 can you can you sing her a song ?,sing,sing,VB,song,her,NN,PRP
 maybe nina could bring ari some toys .,bring,bring,VB,toys,ari,NNS,NNP
 why don't you give ari the dolly nina .,give,give,VB,nina,ari,NNP,NNP
-oh let's find some more birds for rachel nina .,find,find,VB,for,birds,IN,NNS
 why don't you give rachel the little baby bird that you have in your hand ?,give,give,VB,bird,rachel,NN,NNP
 did santa claus bring you that horse ?,bring,bring,VB,horse,you,NN,PRP
 did santa claus bring you that horse ?,bring,bring,VB,horse,you,NN,PRP
@@ -2259,7 +2139,6 @@ did he bring you something ?,bring,bring,VB,something,you,NN,PRP
 well put the give me the pen and then use two hands and then you can do it .,give,give,VB,pen,me,NN,PRP
 oh did lois bring you paper ?,bring,bring,VB,paper,you,NN,PRP
 you bringing me the ark ?,bring,bringing,VBG,ark,me,NN,PRP
-bring one for jennifer too no ?,bring,bring,VB,for,one,IN,CD
 lois'll give you some paper ask her .,give,give,VB,paper,you,NN,PRP
 please okay we'll give you some paper and then you can write on the paper there you go .,give,give,VB,paper,you,NN,PRP
 and what did he bring her .,bring,bring,VB,her,what,PRP,WP
@@ -2313,34 +2192,25 @@ i'll give you a hint .,give,give,VB,hint,you,NN,PRP
 daddy make you an egg with cheese and bacon ?,make,make,VB,egg,you,NN,PRP
 let me give you one more bite ?,give,give,VB,bite,you,NN,PRP
 let me give you give you good bite of egg .,give,give,VB,bite,you,NN,PRP
-i don't want you to play with your food and leave a mess for daddy .,leave,leave,VB,for,mess,IN,NN
 er grandma sent you that at valentine's day !,send,sent,VBD,that,you,DT,PRP
 you remember when grandma sent you something for valentine's day ?,send,sent,VBD,something,you,NN,PRP
-do you remember she sent that for you ?,send,sent,VBD,for,that,IN,DT
 no grandma gave you that .,give,gave,VBD,that,you,DT,PRP
 no i gave you that one ?,give,gave,VBD,one,you,NN,PRP
 grandma gave you this one ?,give,gave,VBD,one,you,NN,PRP
 no mommie gave you that one ?,give,gave,VBD,one,you,NN,PRP
 easter bunny gave you that one ?,give,gave,VBD,one,you,NN,PRP
 show tom that ?,show,show,VB,that,tom,DT,NNP
-well i'd rather you took the bibs out in the kitchen for me first .,take,took,VBD,for,bibs,IN,NNS
 give me that one ?,give,give,VB,one,me,NN,PRP
 show me the big one .,show,show,VB,one,me,NN,PRP
-yes sing it for us ?,sing,sing,VB,for,it,IN,PRP
-you sing it for us ?,sing,sing,VBP,for,it,IN,PRP
-i made some for you .,make,made,VBD,for,some,IN,DT
 maybe after you wake up from your nap if you ask him please papa maybe he'd make you another one ?,make,make,VB,you,him,PRP,PRP
-i already did make tapioca for you .,make,make,VB,for,tapioca,IN,NN
 show me a bap ?,show,show,VB,bap,me,NN,PRP
 well how about i give you a new pad .,give,give,VBP,pad,you,NN,PRP
 that's what i asked you ?,ask,asked,VBD,you,what,PRP,WP
 we'll wash that off tonight when we give you a bath .,give,give,VBP,bath,you,NN,PRP
-i'll find it for you ?,find,find,VB,for,it,IN,PRP
 daddy's gonna give you a bath !,give,give,VB,bath,you,NN,PRP
 oh after you eat you're gonna give some of your friends a bath ?,give,give,VB,bath,some,NN,DT
 did she give you something you remember what she gave you .,give,give,VB,something,you,NN,PRP
 what else makes a noise when you eat it a crunchy noise ?,make,makes,VBZ,it,noise,PRP,NN
-i think we should think about maybe making some notes for people we could make easter cards for people today .,make,make,VB,cards,notes,NNS,NNS
 i'm gonna go look for emily mommily so you can give her a bath ?,give,give,VB,bath,her,NN,PRP
 can you give the doggie a little kiss ?,give,give,VB,kiss,doggie,NN,NN
 can you give the doggie a little hug ?,give,give,VB,hug,doggie,NN,NN
@@ -2352,8 +2222,6 @@ can you sing me baa baa black sheep ?,sing,sing,VB,sheep,me,NN,PRP
 but before i go would you sing me one more song ?,sing,sing,VB,song,me,NN,PRP
 will you please sing me one more nice song ?,sing,sing,VB,song,me,NN,PRP
 can you sing me the muffin man ?,sing,sing,VB,man,me,NN,PRP
-remember what you made for mummie last night ?,make,made,VBD,for,what,IN,WP
-can you sing a b c for me ?,sing,sing,VB,for,c,IN,NN
 you showing jenny the tape ?,show,showing,VBG,tape,jenny,NN,NNP
 put it in the bag why don't you show jenny some other toys ?,show,show,VB,jenny,it,NNP,PRP
 peter give it lois ?,give,give,VB,lois,it,NNP,PRP
@@ -2368,7 +2236,6 @@ well i'll give you another piece of paper okay .,give,give,VB,piece,you,NN,PRP
 why don't you give me the seesaw ?,give,give,VB,seesaw,me,NN,PRP
 when we finish you you can give it lois now and you then play with the toys and then when it's all finished we'll put it on the tape recorder ?,give,give,VB,it,you,PRP,PRP
 okay give it lois ?,give,give,VB,lois,it,NNP,PRP
-you are consistent i'll say that for you when you say dakf you mean it .,say,say,VB,for,that,IN,DT
 let me give you a piece of paper .,give,give,VB,piece,you,NN,PRP
 are you bringing me the pocketbook .,bring,bringing,VBG,pocketbook,me,NN,PRP
 you gonna give jenny some ?,give,give,VB,some,jenny,DT,NNP
@@ -2377,13 +2244,10 @@ show your mommy the circles ?,show,show,VB,circles,mommy,NNS,NN
 you can give mama one of these ?,give,give,VB,one,mama,NN,NN
 yes here let me have it and i'll open it up and give you some ?,give,give,VB,some,you,DT,PRP
 here i'll just give out you one okay .,give,give,VB,one,you,CD,PRP
-do you wanna call manuela and you can sing your song for her ?,sing,sing,VB,for,song,IN,NN
 please mommy will read you more books if you do .,read,read,VB,books,you,NNS,PRP
 please send me my own ketchup danny wrote .,send,send,VB,ketchup,me,NN,PRP
 send me a pizza wrote the dinosaur .,send,send,VB,pizza,me,NN,PRP
-he takes care of all kinds of things for the busy people of busy town !,take,takes,VBZ,for,care,IN,NN
 she must be doing the same thing your doing when you read her a book asking her questions .,read,read,VBD,book,her,NN,PRP
-look manuela is bringing it over for you ?,bring,bringing,VBG,for,it,IN,PRP
 daddy's making you cocoa honey .,make,making,VBG,honey,you,NN,PRP
 what'd you tell her ?,tell,tell,VB,her,what,PRP,WP
 tell me more .,tell,tell,VB,more,me,JJR,PRP
@@ -2403,7 +2267,6 @@ and i'll give you a ride .,give,give,VB,ride,you,NN,PRP
 how much would a shall we pay you for the cookies and the milk ?,pay,pay,VB,a,much,DT,JJ
 did she tell the cat that ?,tell,tell,VB,that,cat,DT,NN
 he's really giving them a big chase oh okay and look at him up the tree !,give,giving,VBG,chase,them,NN,PRP
-can you can you find them for me ?,find,find,VB,for,them,IN,PRP
 okay we brought you a little present just for today .,bring,brought,VBD,present,you,NN,PRP
 give me your finger .,give,give,VB,finger,me,NN,PRP
 give me your this finger .,give,give,VB,finger,me,NN,PRP
@@ -2417,25 +2280,20 @@ you think santa claus brought you anything else ?,bring,brought,VBD,anything,you
 who gave you that present ?,give,gave,VBD,present,you,NN,PRP
 did linda give you that present .,give,give,VB,present,you,NN,PRP
 oh nonna gave you that .,give,gave,VBD,that,you,DT,PRP
-bosa made this for you .,make,made,VBD,for,this,IN,DT
 did you show linda your new doll ?,show,show,VB,doll,linda,NN,NNP
 did you show linda your new doll .,show,show,VB,doll,linda,NN,NNP
 i love this dog that frank sent you for christmas .,send,sent,VBD,you,that,PRP,WDT
 oh did linda bring you another christmas present .,bring,bring,VB,present,you,NN,PRP
-oh here we made two shirts for the baby .,make,made,VBD,for,shirts,IN,NNS
 did you show linda the book that maggie gave you for christmas .,show,show,VB,book,linda,NN,NNP
 oh let's show linda the pretty picture of nina .,show,show,VB,picture,linda,NN,NNP
 did you show linda your new cow .,show,show,VB,cow,linda,NN,NNP
-oh you know what nonna brought for dolly ?,bring,brought,VBD,for,what,IN,WP
 alright i won't give her anything ?,give,give,VB,anything,her,NN,PRP
 yes i think what mama's gonna do now is give you some baloney because you've asked her so nicely .,give,give,VB,you,what,PRP,WP
 what did you tell mommy you lost ?,tell,tell,VB,mommy,what,NN,WP
-you wanna sing your a b c song for manuela ?,sing,sing,VB,for,song,IN,NN
 can you show manuela your sad face ?,show,show,VB,face,manuela,NN,NNP
 can you show manuela your mad face ?,show,show,VB,face,manuela,NN,NNP
 you have to look at manuela when you show her your surprise face .,show,show,VBP,face,her,NN,PRP
 can you show manuela your happy face ?,show,show,VB,face,manuela,NN,NNP
-while doreen and i were making egg salad sandwiches for the egg head club .,make,making,VBG,for,sandwiches,IN,NNS
 should we show should we show manuela a picture of twinkie and the twinkle twins .,show,show,VB,picture,manuela,NN,NNP
 jif makes this berry blend peanut butter ?,make,makes,VBZ,butter,blend,NN,NN
 she was showing me something like what's in the supermarket ?,show,showing,VBG,something,me,NN,PRP
@@ -2451,7 +2309,6 @@ but here give me the .,give,give,VB,the,me,DT,PRP
 what did you tell georgie nomi ?,tell,tell,VB,nomi,what,NNP,WP
 what did you tell georgie ?,tell,tell,VB,georgie,what,NNP,WP
 what did you tell him ?,tell,tell,VB,him,what,PRP,WP
-maybe i can find poor georgie's blanket for you .,find,find,VB,for,blanket,IN,NN
 can i show you something .,show,show,VB,something,you,NN,PRP
 just give me a nice big hug .,give,give,VB,hug,me,NN,PRP
 can i show you something .,show,show,VB,something,you,NN,PRP
@@ -2487,12 +2344,10 @@ now show me the doll house .,show,show,VB,house,me,NN,PRP
 mother will bring you more .,bring,bring,VB,more,you,JJR,PRP
 what did you show nonno at the zoo ?,show,show,VB,nonno,what,NN,WP
 we showed nonno the monkeys .,show,showed,VBD,monkeys,nonno,NNS,UH
-who made that uh doll house for you ?,make,made,VBD,for,house,IN,NN
 i will give you milk .,give,give,VB,milk,you,NN,PRP
 laura i gave you salt .,give,gave,VBD,salt,you,NN,PRP
 i gave you a little bit .,give,gave,VBD,bit,you,NN,PRP
 he gave you salt and pepper now .,give,gave,VBD,salt,you,NN,PRP
-you were gonna sing it for daddy .,sing,sing,VB,for,it,IN,PRP
 now give it a try .,give,give,VB,try,it,NN,PRP
 i will give you a sticker if you !,give,give,VB,sticker,you,NN,PRP
 what did i tell you ?,tell,tell,VB,you,what,PRP,WP
@@ -2504,7 +2359,6 @@ i thought i saw you giving her the sippy cup a couple minutes ago .,give,giving,
 i think arthur's telling them a story about a monster .,tell,telling,VBG,story,them,NN,PRP
 did i give you your water ?,give,give,VB,water,you,NN,PRP
 i've given her some .,give,given,VBN,some,her,DT,PRP
-she's eating the yogurt that mommy made for her ?,make,made,VBD,for,that,IN,WDT
 yeah i'll give you sugar too ?,give,give,VB,sugar,you,NN,PRP
 aw she done brought the little birds a worm ?,bring,brought,VBN,worm,birds,NN,NNS
 okay yall bring me all the stuff over there .,bring,bring,VB,stuff,me,NN,PRP
@@ -2514,24 +2368,18 @@ come here and show me sally .,show,show,VB,sally,me,NNP,PRP
 i ain't gonna show yall my farm .,show,show,VB,all,y,PRP,PRP
 show me your books .,show,show,VB,books,me,NNS,PRP
 oh okay find me a book .,find,find,VB,book,me,NN,PRP
-mama would you make that for me .,make,make,VB,for,that,IN,DT
-make that for you ?,make,make,VB,for,that,IN,DT
 well you give it a kiss honey ?,give,give,VBP,kiss,it,NN,PRP
 i'll give you some nice cocoa .,give,give,VB,cocoa,you,NN,PRP
 how come you gave laura my cup ?,give,gave,VBD,cup,laura,NN,NNP
 i taught you that word .,teach,taught,VBD,word,you,NN,PRP
 let's give someone else a turn .,give,give,VB,turn,someone,NN,NN
-can you pick up that paper and throw it in the garbage for me ?,throw,throw,VB,for,it,IN,PRP
 what color do you wanna make emily ?,make,make,VB,emily,color,NNP,NN
-i thought we'd make a bone for clifford ?,make,make,VB,for,bone,IN,NN
 roll it the blue and the green ?,roll,roll,VB,blue,it,NN,PRP
-shall we make a house for them ?,make,make,VB,for,house,IN,NN
 let me give you a brush .,give,give,VB,brush,you,NN,PRP
 did he give you a lollipop ?,give,give,VB,lollipop,you,NN,PRP
 they're like the crayons that grandma sent you .,send,sent,VBD,you,that,PRP,WDT
 grandma made you dinner ?,make,made,VBD,dinner,you,NN,PRP
 you gotta tell me the story so i draw it okay .,tell,tell,VB,story,me,NN,PRP
-could you make find a pilot for me please ?,find,find,VB,for,pilot,IN,NN
 what should we tell her ?,tell,tell,VB,her,what,PRP,WP
 what should i tell her ?,tell,tell,VB,her,what,PRP,WP
 oh you were telling me the story about the burro weren't you .,tell,telling,VBG,story,me,NN,PRP
@@ -2539,11 +2387,9 @@ you tell me the story about humm .,tell,tell,VBP,story,me,NN,PRP
 show me the girls .,show,show,VB,girls,me,NNS,PRP
 show me the boys .,show,show,VB,boys,me,NNS,PRP
 did you tell gloria the story ?,tell,tell,VB,story,gloria,NN,NNP
-making a what for you .,make,making,VBG,for,what,IN,WP
 show me the ladies ?,show,show,VB,ladies,me,NNS,PRP
 eve show me the ladies .,show,show,VB,ladies,me,NNS,PRP
 now show me the lady .,show,show,VB,lady,me,NN,PRP
-eve how about you write something for me .,write,write,VB,for,something,IN,NN
 were you gonna ask me a question .,ask,ask,VB,question,me,NN,PRP
 were you gonna ask me something ?,ask,ask,VB,something,me,NN,PRP
 why don't you show me the book and you ask me questions ?,show,show,VB,book,me,NN,PRP
@@ -2551,11 +2397,8 @@ instead of me asking you questions you ask me questions ?,ask,asking,VBG,questio
 i know you were telling fraser that but mom was gone i didn't hear you ?,tell,telling,VBG,that,fraser,DT,NNP
 what did you tell fraser ?,tell,tell,VB,fraser,what,NNP,WP
 i'm going give her some tapioca too ?,give,give,VB,tapioca,her,NN,PRP
-we can't read them for you .,read,read,VB,for,them,IN,PRP
-did you show fraser the pretty pictures you were drawing for me this morning ?,show,show,VB,pictures,fraser,NNS,NNP
 you show him the pictures you drew this morning .,show,show,VBP,pictures,him,NNS,PRP
 no i'm rinsing out the coffee pot so i can give pop some more coffee .,give,give,VB,coffee,pop,NN,NNP
-i'm making lobster salad for papa .,make,making,VBG,for,salad,IN,NN
 i'll give you just a little bit .,give,give,VB,bit,you,NN,PRP
 yes i'm giving you some noodles .,give,giving,VBG,noodles,you,NNS,PRP
 write her some ears ?,write,write,VB,ears,her,NNS,PRP
@@ -2565,7 +2408,6 @@ give papa a kiss .,give,give,VB,kiss,papa,NN,NNP
 well give papa a kiss .,give,give,VB,kiss,papa,NN,NNP
 go and give papa a kiss .,give,give,VB,kiss,papa,NN,NN
 go and give papa a kiss .,give,give,VB,kiss,papa,NN,NN
-but i saved it for you .,save,saved,VBD,for,it,IN,PRP
 and you give 'em some more .,give,give,VBP,more,'em,JJR,PRP
 and you give it a spray .,give,give,VBP,spray,it,NN,PRP
 are you gonna show daddy this ?,show,show,VB,this,daddy,DT,NN
@@ -2598,15 +2440,12 @@ oh paddington said judy what good luck we found you .,find,found,VBD,you,luck,PR
 it was mrs brown who first thought of giving jonathan judy and paddington a piece each of their own .,give,giving,VBG,piece,judy,NN,NNP
 and no one will give me two pence for it now .,give,give,VB,pence,me,NN,PRP
 how bout if mommy just gives it a kiss ?,give,gives,VBZ,kiss,it,NN,PRP
-i'm gonna drink the coffee that daddy made for me .,make,made,VBD,for,that,IN,WDT
 i'll give you some plain yogurt .,give,give,VB,yogurt,you,NN,PRP
-i'm making a cupboard for you down here .,make,making,VBG,for,cupboard,IN,NN
 well you can sit there but i'm not gonna give you lunch until you sit in your high chair .,give,give,VB,lunch,you,NN,PRP
 oh i was gonna give you some carrot .,give,give,VB,carrot,you,NN,PRP
 i'll give you water in a sippy cup if you wanna taste water i don't want you sticking your fingers ?,give,give,VB,water,you,NN,PRP
 you can tell her that when you see her next time ?,tell,tell,VB,that,her,DT,PRP
 give you some of my bagel .,give,give,VB,some,you,DT,PRP
-i'll give you naked bagel i have some here for you that's naked you don't have to eat the cream cheese .,give,give,VB,bagel,you,NN,PRP
 i'm gonna give you some plain bagel .,give,give,VB,bagel,you,NN,PRP
 what who gave us what ?,give,gave,VBD,what,us,WP,PRP
 i'll give you vitabran .,give,give,VB,vitabran,you,NNP,PRP
@@ -2615,7 +2454,6 @@ i can't give it anybody anymore .,give,give,VB,anybody,it,NN,PRP
 give me some honey ?,give,give,VB,honey,me,NN,PRP
 what do you you want thumbelina ?,want,want,VB,you,what,PRP,WP
 can you bring me some of those blocks david ?,bring,bring,VB,some,me,DT,PRP
-now you will save some of that for his hands huh .,save,save,VB,for,some,IN,DT
 and nobody will read them a story ?,read,read,VB,story,them,NN,PRP
 we heard it without the ear phones because we we uh were playing the ear phones so loud that the man gave us the actual speaker .,give,gave,VBD,speaker,us,NN,PRP
 i'll bring you some paper .,bring,bring,VB,paper,you,NN,PRP
@@ -2644,25 +2482,17 @@ he's giving katie a bath right now actually .,give,giving,VBG,bath,katie,NN,NNP
 it's very scary to mommy the idea that you you're allergic to your medicine that you you're taking .,take,taking,VBG,you,that,PRP,WDT
 i'm gonna bring you more frozen green beans .,bring,bring,VB,beans,you,NNS,PRP
 i'm gonna give you some it's very hot i'm gonna put more cold tomato sauce on it to make it cool enough to eat .,give,give,VB,some,you,DT,PRP
-and actually i'll make whole wheat pasta for us but he can have this little bit of orzo that she's having !,make,make,VB,for,pasta,IN,NN
 you want more orzo naima ?,want,want,VB,naima,more,NNP,JJR
-save some for your dad if possible .,save,save,VB,for,some,IN,DT
-i could make some separately for your dad nonwholewheat pasta .,make,make,VB,for,some,IN,DT
 i'm gonna go make us a salad ?,make,make,VB,salad,us,NN,PRP
 i don't think i wanna teach you that ?,teach,teach,VB,that,you,DT,PRP
 aren't you gonna give her a bath .,give,give,VB,bath,her,NN,PRP
 do you wanna give me a piece that you haven't been ?,give,give,VB,piece,me,NN,PRP
-you gonna make a row for them just like we made rows in the garden ?,make,make,VB,for,row,IN,NN
-i'm looking for bread so that i can make the toast for you .,make,make,VB,for,toast,IN,NN
 well anyway i didn't finish telling you all the other kinds of seeds we're gonna plant .,tell,telling,VBG,kinds,you,NNS,PRP
 dya want regular butter on you toast cow cow butter .,want,want,VB,toast,butter,NN,NN
 the higher speed i think gives you greater fidelity allegedly i never really looked into it ?,give,gives,VBZ,fidelity,you,NN,PRP
 who gave you this paper daddy ?,give,gave,VBD,paper,you,NN,PRP
 do you remember what i told you what a chorus is ?,tell,told,VBD,you,what,PRP,WP
-here i'll make it for you now !,make,make,VB,for,it,IN,PRP
 bring them them over .,bring,bring,VB,them,them,PRP,PRP
-but nicky wanted snow white mittens so much that baba made them for him ?,make,made,VBD,for,them,IN,PRP
-the mole and the rabbit made room for him .,make,made,VBD,for,room,IN,NN
 okay you read us the story now .,read,read,VBP,story,us,NN,PRP
 can you read us the story ?,read,read,VB,story,us,NN,PRP
 show me the part where they play hide and seek .,show,show,VB,part,me,NN,PRP
@@ -2671,10 +2501,7 @@ those are the three dogs that mrs wood gave us .,give,gave,VBD,us,that,PRP,WDT
 where did you give him the drink of water ?,give,give,VB,drink,him,NN,PRP
 can you give him another drink ?,give,give,VB,drink,him,NN,PRP
 let's feed the family some breakfast .,feed,feed,VB,breakfast,family,NN,NN
-shall we make a zoo for the elephant ?,make,make,VB,for,zoo,IN,NN
-let's make a zoo for the elephant .,make,make,VB,for,zoo,IN,NN
 you can give yourself cereal .,give,give,VB,cereal,yourself,NN,PRP
-i think you can make something for him .,make,make,VB,for,something,IN,NN
 we gave her a birthday present didn't we .,give,gave,VBD,present,her,NN,PRP
 give give me back the cereal .,give,give,VB,cereal,me,NN,PRP
 oh give bobbie a big hug .,give,give,VB,hug,bobbie,NN,NNP
@@ -2691,7 +2518,6 @@ what shall i bring you ?,bring,bring,VB,you,what,PRP,WP
 no no no no no i'll give you a piece that's my piece see i need that one so i'll give you a different one .,give,give,VB,piece,you,NN,PRP
 wow that's right should i give him a body ?,give,give,VB,body,him,NN,PRP
 i don't know i'll just give him another hand i don't know what you're talking about .,give,give,VB,hand,him,NN,PRP
-here i found it for you .,find,found,VBD,for,it,IN,PRP
 well you want ta give lois a pen or a pencil ?,give,give,VB,pen,lois,NN,NNP
 pete can you give me the screwdriver ?,give,give,VB,screwdriver,me,NN,PRP
 that's right i don't see any juice let's go back in there and i'll give you some milk .,give,give,VB,milk,you,NN,PRP
@@ -2701,12 +2527,9 @@ you wanna call her baby pink ?,call,call,VB,baby,her,NN,PRP
 what are you gonna call me ?,call,call,VB,me,what,PRP,WP
 and it took us a long time but not as long as it took nancy .,take,took,VBD,time,us,NN,PRP
 oh you know honey if you can go find me a piece of money mommy will you get you a jelly bean ?,find,find,VB,piece,me,NN,PRP
-lily can you sing twinkle twinkle little star for me .,sing,sing,VB,for,star,IN,NN
 and then gave him a shampoo .,give,gave,VBD,shampoo,him,NN,PRP
 maybe a wave would help lou suggested showing him a picture in the latest fashion magazine for lions .,show,showing,VBG,picture,him,NN,PRP
 like if you give her a whole roll of the alphabet stickers she'd be like whatever .,give,give,VBP,roll,her,NN,PRP
-you wanna sing twinkle twinkle little star for manuela honey ?,sing,sing,VB,for,star,IN,NN
-you carry can you carry the milk for me .,carry,carry,VB,for,milk,IN,NN
 well why not give esther some eggs .,give,give,VB,eggs,esther,NNS,NNP
 wanna give her some eggs .,give,give,VB,eggs,her,NNS,PRP
 and give mommy that fish food .,give,give,VB,food,mommy,NN,NN
@@ -2725,9 +2548,7 @@ wanna give him a hat .,give,give,VB,hat,him,NN,PRP
 give 'em a hat .,give,give,VB,hat,'em,NN,PRP
 now won't you tell me the truth .,tell,tell,VB,truth,me,NN,PRP
 i've never had you given you a bath with a diaper on naima .,give,given,VBN,bath,you,NN,PRP
-is he gonna make pasta for sally and huckle ?,make,make,VB,for,pasta,IN,NN
 aw i'll give you a big hug and that will make it better okay i'm turning this off .,give,give,VB,hug,you,NN,PRP
-you wanna sing it for me ?,sing,sing,VB,for,it,IN,PRP
 what were you gonna tell me laura ?,tell,tell,VB,me,what,PRP,WP
 and then we'll take you around and show you some things and maybe you'll go to her house i don't know .,show,show,VB,things,you,NNS,PRP
 give me that one here .,give,give,VB,one,me,NN,PRP
@@ -2759,16 +2580,13 @@ what does where does daddy take you in griffiths par ?,take,take,VB,you,what,PRP
 maybe you could tell the cat the story about harry .,tell,tell,VB,story,cat,NN,NN
 will you bring a book over and tell me the story of the book ?,tell,tell,VB,story,me,NN,PRP
 laura will you come and show me the picture ?,show,show,VB,picture,me,NN,PRP
-do you wanna get your teapot and make tea for all of us ?,make,make,VB,for,tea,IN,NN
 laura could you come give me a cookie ?,give,give,VB,cookie,me,NN,PRP
 can you give me a pretend cookie ?,give,give,VB,cookie,me,NN,PRP
-well why don't you pour it in this glass and we'll save the dirty water in the glass for you .,save,save,VB,for,water,IN,NN
 g give me a little measurement there .,give,give,VBP,measurement,me,NN,PRP
 okay i'll give you the measurements ?,give,give,VB,measurements,you,NNS,PRP
 what do you do with the a i'll give you the measurements and you draw the room okay ?,give,give,VB,you,what,PRP,WP
 can you give me some numbers and i'll draw ?,give,give,VB,numbers,me,NNS,PRP
 pull the tape measure out and give me some numbers ?,give,give,VB,numbers,me,NNS,PRP
-you could roll it for me .,roll,roll,VB,for,it,IN,PRP
 if you wait just a second sir i will show you the waffle iron .,show,show,VB,iron,you,NN,PRP
 you giving him a nice little hug ?,give,giving,VBG,hug,him,NN,PRP
 you gonna feed him some more ?,feed,feed,VB,more,him,JJR,PRP
@@ -2780,13 +2598,10 @@ did you show ursula that ?,show,show,VB,that,ursula,DT,NNP
 may i give you some ?,give,give,VB,some,you,DT,PRP
 did you show him the ball player .,show,show,VB,player,him,NN,PRP
 and teach her all sorts of things ?,teach,teach,VB,sorts,her,NNS,PRP
-yeah here let me take the clip off for you ?,take,take,VB,for,clip,IN,NN
-oh manuela's taking the fuzz off for you .,take,taking,VBG,for,fuzz,IN,NN
 what do you think they should call the baby ?,call,call,VB,baby,what,NN,WP
 can i give you a little kiss ?,give,give,VB,kiss,you,NN,PRP
 you know what you could show him .,show,show,VB,him,what,PRP,WP
 let's show him the page let's see the find the page .,show,show,VB,page,him,NN,PRP
-okay there i made the cage for you ?,make,made,VBD,for,cage,IN,NN
 you read me the story about the baby goats will you ?,read,read,VBP,story,me,NN,PRP
 can you tell me the story ?,tell,tell,VB,story,me,NN,PRP
 does he give you a big hug .,give,give,VB,hug,you,NN,PRP
@@ -2795,7 +2610,6 @@ show me the animals on your pajama .,show,show,VB,animals,me,NNS,PRP
 can you bring me some more valentines ?,bring,bring,VB,valentines,me,NNS,PRP
 who gave you your pajamas ?,give,gave,VBD,pajamas,you,NNS,PRP
 will you give me one of those little boys ?,give,give,VB,one,me,NN,PRP
-find one of those little boys for me ?,find,find,VB,for,one,IN,CD
 hand me a nice valentine .,hand,hand,VB,valentine,me,NN,PRP
 look what a nice picture daddy sent you .,send,sent,VBD,you,picture,PRP,NN
 naima took her bath today bath today bath today .,take,took,VBD,bath,bath,NN,NN
@@ -2821,17 +2635,13 @@ give me a hug .,give,give,VB,hug,me,NN,PRP
 and give mommy a hug too .,give,give,VB,hug,mommy,NN,NN
 what's this tell mommy what this is ?,tell,tell,VB,mommy,what,NN,WP
 if i mommy give you alex a pop what does mommy get ?,give,give,VBP,alex,you,NNP,PRP
-you're making a train for me ?,make,making,VBG,for,train,IN,NN
 what color seat shall we give the mommy ?,give,give,VB,mommy,seat,NN,NN
 give me the part with yogi bear .,give,give,VB,part,me,NN,PRP
-you made an egg for me .,make,made,VBD,for,egg,IN,NN
 you give me a plate .,give,give,VBP,plate,me,NN,PRP
-what else can you make for me ?,make,make,VB,for,what,IN,WP
 what are you giving me now ?,give,giving,VBG,me,what,PRP,WP
 can you make me some french frys ?,make,make,VB,frys,me,NNPS,PRP
 can you make me some orange juice ?,make,make,VB,juice,me,NN,PRP
 what did you give the baby ?,give,give,VB,baby,what,NN,WP
-can you make some cereal for the baby ?,make,make,VB,for,cereal,IN,NN
 you mean you give her a drink .,give,give,VBP,drink,her,NN,PRP
 shall we read her a story about the farm .,read,read,VB,story,her,NN,PRP
 shall we read her this book from maggie first .,read,read,VB,book,her,NN,PRP
@@ -2851,19 +2661,16 @@ charles got her on the sofa and told her don't be nervous he brought her a blank
 now jilly can you tell me maybe one thing that you did while you were in portugal .,tell,tell,VB,thing,me,NN,PRP
 yeah give her that one .,give,give,VB,one,her,NN,PRP
 you know that color how about mommy give you a hint pur .,give,give,VB,you,color,PRP,NN
-okay i'll make one for me too erin would you like some brownies .,make,make,VB,for,one,IN,NN
 i was thinking you might like what's the kind of sandwich you like that momma makes you .,make,makes,VBZ,you,that,PRP,WDT
 what's momma doing what's momma showing you ?,show,showing,VBG,you,what,PRP,WP
 do you wanna show her some of your toys ?,show,show,VB,some,her,DT,PRP
 take nose off donald duck ?,take,take,VB,duck,nose,NNP,NN
 why don't you show him the tattooed man ?,show,show,VB,man,him,NN,PRP
-okay we'll make a ponytail for nina .,make,make,VB,for,ponytail,IN,NN
 who gave you the teapot ?,give,gave,VBD,teapot,you,NN,PRP
 will you make me a cup of tea .,make,make,VB,cup,me,NN,PRP
 who gave you this teapot ?,give,gave,VBD,teapot,you,NN,PRP
 who gave you the teapot ?,give,gave,VBD,teapot,you,NN,PRP
 you giving him more .,give,giving,VBG,more,him,JJR,PRP
-snoopy wants a cup all for himself .,want,wants,VBZ,for,cup,IN,NN
 will you read me a story .,read,read,VB,story,me,NN,PRP
 i'm going to go nani and you read me a story .,read,read,VBP,story,me,NN,PRP
 you read me this story ?,read,read,VBD,story,me,NN,PRP
@@ -2873,12 +2680,8 @@ will you read me a story about the seasons ?,read,read,VB,story,me,NN,PRP
 after you read me the story ?,read,read,VBD,story,me,NN,PRP
 show me all the pictures in the book first .,show,show,VB,pictures,me,NNS,PRP
 you didn't read me very much of it .,read,read,VB,much,me,JJ,PRP
-shall we make a bed for the mouse ?,make,make,VB,for,bed,IN,NN
-where shall we make the bed for the mouse ?,make,make,VB,for,bed,IN,NN
 do you know who sent you this mouse ?,send,sent,VBD,mouse,you,NN,PRP
 daddy can read you a story later .,read,read,VB,story,you,NN,PRP
-sing a song for gloria .,sing,sing,VB,for,song,IN,NN
-sing a song for gloria .,sing,sing,VB,for,song,IN,NN
 and told him thomas's plan .,tell,told,VBD,plan,him,NN,PRP
 okay give me a kiss .,give,give,VB,kiss,me,NN,PRP
 tell them my name yeah ?,tell,tell,VB,name,them,NN,PRP
@@ -2886,7 +2689,6 @@ you wanna bring me a book ?,bring,bring,VB,book,me,NN,PRP
 it says send us a photo of yourself having fun outdoors or making a nature craft .,send,send,VB,photo,us,NN,PRP
 i gave you kisses .,give,gave,VBD,kisses,you,NNS,PRP
 can i give it a kiss .,give,give,VB,kiss,it,NN,PRP
-you if you could um just write down all your information for me ?,write,write,VB,for,information,IN,NN
 give daddy kisses ?,give,give,VB,kisses,daddy,NNS,NN
 can you give me the tracks .,give,give,VB,tracks,me,NNS,PRP
 what you tell me ?,tell,tell,VBP,me,what,PRP,WP
@@ -2929,7 +2731,6 @@ look look what i found the cup .,find,found,VBD,cup,what,NN,WP
 give him a push .,give,give,VB,push,him,NN,PRP
 okay one day mommy and daddy gave katie and kit two big packages .,give,gave,VBD,packages,katie,NNS,NNP
 megan hand me all those dinosaurs .,hand,hand,VB,dinosaurs,me,NNS,PRP
-sing it for me ?,sing,sing,VB,for,it,IN,PRP
 do you think you could tell me a story about this ?,tell,tell,VB,story,me,NN,PRP
 maybe i'll draw a picture and then you can tell me a story ?,tell,tell,VB,story,me,NN,PRP
 let me push you way in .,push,push,VB,way,you,NN,PRP
@@ -2944,7 +2745,6 @@ are you gonna give him some cookies ?,give,give,VB,cookies,him,NNS,PRP
 better give him some more cookies !,give,give,VB,cookies,him,NNS,PRP
 should cookie monster give you a big hug .,give,give,VB,hug,you,NN,PRP
 should we give the bunny a carrot .,give,give,VB,carrot,bunny,NN,NN
-should we make a house for the bunny ?,make,make,VB,for,house,IN,NN
 bring me a pot and i'll put some pour some milk in .,bring,bring,VB,pot,me,NN,PRP
 you show me presents that you got ?,show,show,VBP,presents,me,NNS,PRP
 would you like to look at those other books that rachel gave you ?,give,gave,VBD,you,that,PRP,WDT
@@ -2982,7 +2782,6 @@ give me your leg !,give,give,VB,leg,me,NN,PRP
 well give me your foot !,give,give,VB,foot,me,NN,PRP
 give me your foot !,give,give,VB,foot,me,NN,PRP
 and you may have the cup and give me the washcloth ?,give,give,VB,washcloth,me,NN,PRP
-can you take your shoes down for me ?,take,take,VB,for,shoes,IN,NNS
 hey tell me something .,tell,tell,VB,something,me,NN,PRP
 tell me your seat in the car .,tell,tell,VB,seat,me,NN,PRP
 i'll give you a hint it's what your mother vacuums what your mother what i vacuum with ?,give,give,VB,hint,you,NN,PRP
@@ -2991,7 +2790,6 @@ can you give me some more of these blocks and we'll build something ?,give,give,
 give me some more of those blocks ?,give,give,VB,more,me,JJR,PRP
 give me that white one .,give,give,VB,one,me,NN,PRP
 can you give them give them a ride ?,give,give,VB,ride,them,NN,PRP
-we'll make room for her ?,make,make,VB,for,room,IN,NN
 can you show me a green one ?,show,show,VB,one,me,NN,PRP
 i'll show you a good job okay ?,show,show,VB,job,you,NN,PRP
 should i show you a nifty way that you can make a tower with those .,show,show,VB,way,you,NN,PRP
@@ -3018,7 +2816,6 @@ what'd she give us ?,give,give,VB,us,what,PRP,WP
 what did grandma give us last night ?,give,give,VB,us,what,PRP,WP
 did she give you something else ?,give,give,VB,something,you,NN,PRP
 want ta tell me more about the story !,tell,tell,VB,more,me,JJR,PRP
-did she make a house for him .,make,make,VB,for,house,IN,NN
 turn the page and tell mommy the story okay ?,tell,tell,VB,story,mommy,NN,NN
 show mommy the story .,show,show,VB,story,mommy,NN,NN
 can you read me the story ?,read,read,VB,story,me,NN,PRP
@@ -3031,13 +2828,11 @@ tell mommy the story ?,tell,tell,VB,story,mommy,NN,NN
 what what did the mother rabbit say ?,say,say,VB,what,what,WP,WP
 oh and mother rabbit what did she tell him ?,tell,tell,VB,him,what,PRP,WP
 read me the story what's it about ?,read,read,VB,story,me,NN,PRP
-who made it for him ?,make,made,VBD,for,it,IN,PRP
 can you tell your mom the story ?,tell,tell,VB,story,mom,NN,NN
 you tell me the story ?,tell,tell,VB,story,me,NN,PRP
 well i was thinking yeah instead of you asking her all the questions .,ask,asking,VBG,questions,her,NNS,PRP
 nan can you tell the baby the story !,tell,tell,VB,story,baby,NN,NN
 you give her a big hug .,give,give,VBP,hug,her,NN,PRP
-is she gonna make a house for the bird .,make,make,VB,for,house,IN,NN
 go tell your mommy the rest of the story so she'll know it .,tell,tell,VB,rest,mommy,NN,NN
 come here and tell me the rest of the story .,tell,tell,VB,rest,me,NN,PRP
 can you tell me the story of what happened with the rabbit ?,tell,tell,VB,story,me,NN,PRP
@@ -3052,7 +2847,6 @@ oh wait what do you want show momma .,show,show,VB,momma,what,NN,WP
 should we go inside and you can show erin your little pumpkin .,show,show,VB,pumpkin,erin,NN,NNP
 he didn't save you none .,save,save,VB,none,you,NN,PRP
 he didn't save you none ?,save,save,VB,none,you,NN,PRP
-here i'll slide it back up for you .,slide,slide,VB,for,it,IN,PRP
 sally give me that orange orange train .,give,give,VB,train,me,NN,PRP
 see that bird's taking that little bird some worms .,take,taking,VBG,worms,bird,NNS,NN
 i'm gonna tell you a story about ?,tell,tell,VB,story,you,NN,PRP
@@ -3091,7 +2885,6 @@ linda didn't tell me that ?,tell,tell,VB,that,me,DT,PRP
 this is a nice book that she gave us .,give,gave,VBD,us,that,PRP,WDT
 show her that .,show,show,VB,that,her,DT,PRP
 do you remember you showed me a pumpkin there ?,show,showed,VBD,pumpkin,me,NN,PRP
-well when heidi made this for you when she cut it off she cut it here right and then she only put half the dinosaur on these got cut off too ?,make,made,VBD,for,this,IN,DT
 take it out the sticks .,take,take,VB,sticks,it,NNS,PRP
 what did rochelle send you this week ?,send,send,VB,you,what,PRP,WP
 what else did she send us ?,send,send,VB,us,what,PRP,WP
@@ -3122,8 +2915,6 @@ who gave you that easter bunny ?,give,gave,VBD,bunny,you,NNP,PRP
 who gave you that easter bunny ?,give,gave,VBD,bunny,you,NNP,PRP
 give me your foot ?,give,give,VB,foot,me,NN,PRP
 oh give me your hand ?,give,give,VB,hand,me,NN,PRP
-did mrs benton make a ponytail for you .,make,make,VB,for,ponytail,IN,NN
-cathy brought them all back for us .,bring,brought,VBD,for,them,IN,PRP
 okay and that's when i give you money for what i'm buying ?,give,give,VBP,money,you,NN,PRP
 what shall we ask her ?,ask,ask,VB,her,what,PRP,WP
 maybe we'll take this this one the top one off and put the b put it on the bottom first ?,take,take,VB,one,this,NN,DT
@@ -3153,8 +2944,6 @@ you want ta show him the blocks ?,show,show,VB,blocks,him,NNS,PRP
 i'll read you the story .,read,read,VB,story,you,NN,PRP
 what're you telling her ?,tell,telling,VBG,her,what,PRP,WP
 i'll give you a kiss .,give,give,VB,kiss,you,NN,PRP
-mhm daddy made it for you huh ?,make,made,VBD,for,it,IN,PRP
-did mommy make that car for you ?,make,make,VB,for,car,IN,NN
 oh remember what you did yesterday when we went out to the sandbox and jennifer was sitting in the stroller and i gave her a cookie ?,give,gave,VBD,cookie,her,NN,PRP
 it's a good thing you gave us that paper clip .,give,gave,VBD,clip,us,NN,PRP
 figured well we'll give it a whirl .,give,give,VB,whirl,it,NN,PRP
@@ -3203,13 +2992,11 @@ uh could you hand me that wheel .,hand,hand,VB,wheel,me,NN,PRP
 but here's a woman pushing a a carriage .,push,pushing,VBG,carriage,a,NN,DT
 that's nice you gave her another toy .,give,gave,VBD,toy,her,NN,PRP
 did you show em your cash register ?,show,show,VB,register,em,NN,PRP
-well let's see i bet your mommy could find one for you .,find,find,VB,for,one,IN,CD
 peter can you tell em the alphabet ?,tell,tell,VB,alphabet,em,NN,PRP
 what kind of meat did you give me ?,give,give,VB,me,kind,PRP,NN
 let me tell you something pete .,tell,tell,VB,something,you,NN,PRP
 i want ta give you a little questionnaire tell me something are you tired ?,give,give,VB,questionnaire,you,NN,PRP
 you pass me your plate and i'll give you your orange .,pass,pass,VBP,plate,me,NN,PRP
-oh did you push the button for us ?,push,push,VB,for,button,IN,NN
 oh my gosh now oh yeah that was a card that you made me ?,make,made,VBD,me,that,PRP,WDT
 oh my gosh do you remember why i gave you these .,give,gave,VBD,these,you,DT,PRP
 what did okay tell erin what do you do when you go like this ?,tell,tell,VB,erin,what,NNP,WP
@@ -3222,7 +3009,6 @@ does she tell you big secrets .,tell,tell,VB,secrets,you,NNS,PRP
 ooh i don't know if that's very clean want daddy to clean this out bring you some more water ?,bring,bring,VB,water,you,NN,PRP
 he will show you how captain fenasaur he loves to dance everybody bow and give yourself a pirate clap now the ship's really rocking the brand new pirate ship is a rocking on the sea see it rocking on the sea rocking on the sea the brand new .,give,give,VB,clap,yourself,NN,PRP
 what does map tell us ?,tell,tell,VB,us,what,PRP,WP
-i'll carry it for you you wanna carry it ?,carry,carry,VB,for,it,IN,PRP
 give me that ?,give,give,VB,that,me,DT,PRP
 sing her a little song .,sing,sing,VB,song,her,NN,PRP
 you read them their stories and you rocked them and you loved them you're a good mommy .,read,read,VBD,stories,them,NNS,PRP
@@ -3235,7 +3021,6 @@ mommy will give you raggedy ann if you give mommy a blanket .,give,give,VB,ann,y
 yes give mommy a blanket .,give,give,VB,blanket,mommy,NN,NN
 give mommy a blanket .,give,give,VB,blanket,mommy,NN,NN
 i'll give you raggedy ann you give me the blanket .,give,give,VB,ann,you,NNP,PRP
-okay now you bring a blanket for me okay .,bring,bring,VBP,for,blanket,IN,NN
 you bring me a blanket .,bring,bring,VBP,blanket,me,NN,PRP
 here what's he giving him .,give,giving,VBG,him,what,PRP,WP
 come feed your baby sally .,feed,feed,VB,sally,baby,NNP,NN
@@ -3265,9 +3050,7 @@ can you show momma how that goes up good job okay ?,show,show,VB,job,momma,NN,NN
 can you tell me a story about nineteen twelve ?,tell,tell,VB,story,me,NN,PRP
 give her one that's good .,give,give,VB,one,her,NN,PRP
 hit me ball ?,hit,hit,VB,ball,me,NN,PRP
-can you sing it for me ?,sing,sing,VB,for,it,IN,PRP
 we'll give you some water .,give,give,VB,water,you,NN,PRP
-well when carl comes over we can make one for him .,make,make,VB,for,one,IN,CD
 it's so nice when someone gives you a present .,give,gives,VBZ,present,you,NN,PRP
 mm look sleepy naima made you a present ?,make,made,VBD,present,you,NN,PRP
 what're you gonna tell him ?,tell,tell,VB,him,what,PRP,WP
@@ -3300,12 +3083,9 @@ give you some milk and some toast .,give,give,VB,milk,you,NN,PRP
 yes i'm giving you milk and toast .,give,giving,VBG,milk,you,NN,PRP
 now give me a moment .,give,give,VB,moment,me,NN,PRP
 what can i possibly feed fifteen ?,feed,feed,VB,fifteen,what,CD,WP
-should i bring the almond butter downstairs for you .,bring,bring,VB,for,butter,IN,NN
 would you hand me the box of wipes ?,hand,hand,VB,box,me,NN,PRP
 well i'm afraid that the gramps' thing is not gonna happen if we don't give them enough notice .,give,give,VB,notice,them,NN,PRP
 oh i'll give 'em a call .,give,give,VB,call,'em,NN,PRP
-do you see what i made there for you ?,make,made,VBD,for,what,IN,WP
-is he making a cake for his friends ?,make,making,VBG,for,cake,IN,NN
 so who's gonna give him the i spy ?,give,give,VB,spy,him,NN,PRP
 vik showed isabelle a boat !,show,showed,VBD,boat,isabelle,NN,NNP
 missus heavy bottom gave them towels .,give,gave,VBD,towels,them,NNS,PRP
@@ -3317,7 +3097,6 @@ the least i can do for him is give his overalls a good drying said the man thoug
 all at once the manager of the laundromat called closing time everybody out .,call,called,VBD,everybody,time,NN,NN
 oh corduroy why didn't you tell me you wanted a pocket asked lisa giving him an affectionate squeeze .,give,giving,VBG,squeeze,him,NN,PRP
 she gave us the egg !,give,gave,VBD,egg,us,NN,PRP
-i'll take the rocks for you boo .,take,take,VB,for,rocks,IN,NNS
 i'll get a little lotion and i'll give you a little foot massage .,give,give,VB,massage,you,NN,PRP
 give me your foot .,give,give,VB,foot,me,NN,PRP
 i'll give you a toothache .,give,give,VB,toothache,you,NN,PRP
@@ -3328,12 +3107,10 @@ okay you go sit in your chair and daddy's gonna give you a bitatin .,give,give,V
 give him a pickle .,give,give,VB,pickle,him,NN,PRP
 why don't you give the snake an egg !,give,give,VB,egg,snake,NN,NN
 give him a glass of milk with that .,give,give,VB,glass,him,NN,PRP
-yeah mummy's making more pancakes for nathaniel right now .,make,making,VBG,for,pancakes,IN,NNS
 give me that stupid thing .,give,give,VB,thing,me,NN,PRP
 get your nappie out and then baaee baaee'll give you your comb .,give,give,VB,comb,you,NN,PRP
 are you giving me some more tea .,give,giving,VBG,tea,me,NN,PRP
 let's see if we can find you a bagel .,find,find,VB,bagel,you,NN,PRP
-that was the top of the tissue box see it was right here here let me show you see it was like this watch it was like this and then i opened it and pulled a tissue out for you .,pull,pulled,VBD,for,tissue,IN,NN
 they're showing you a picture of that .,show,showing,VBG,picture,you,NN,PRP
 you know who gave me this yoyo .,give,gave,VBD,yoyo,me,NN,PRP
 who's reading him a book ?,read,reading,VBG,book,him,NN,PRP
@@ -3359,16 +3136,13 @@ you just showed me a giraffe .,show,showed,VBD,giraffe,me,NN,PRP
 here if i gave you that one would you be happy ?,give,gave,VBD,one,you,NN,PRP
 wait what who do you want ?,want,want,VB,who,what,WP,WP
 ask lynn if she'll give you a piece of paper .,give,give,VB,piece,you,NN,PRP
-how about if i write your name for you ?,write,write,VBP,for,name,IN,NN
 i'll give patsy my paper me and you ?,give,give,VB,paper,patsy,NN,NNP
-oh yes would you sing another song for me ?,sing,sing,VB,for,song,IN,NN
 hey pete would you show lynn those blocks ?,show,show,VB,blocks,lynn,NNS,NNP
 oh it's a princess phone that's what they call em .,call,call,VBP,em,what,PRP,WP
 i gave you some last night and you didn't eat it .,give,gave,VBD,some,you,DT,PRP
 give me the one that the turtle thinks is happy !,give,give,VB,one,me,NN,PRP
 give it a little squeeze ?,give,give,VB,squeeze,it,NN,PRP
 and hand me my other spoon .,hand,hand,VB,spoon,me,NN,PRP
-we'll make these cookies for daddy .,make,make,VB,for,cookies,IN,NNS
 sing it happy birthday ?,sing,sing,VB,birthday,it,NN,PRP
 it's taking me ten years today .,take,taking,VBG,years,me,NNS,PRP
 okay let's see w w what do you want the this this right here ?,want,want,VB,this,what,DT,WP
@@ -3376,18 +3150,11 @@ mommy doesn't give you that uh .,give,give,VB,that,you,DT,PRP
 i don't give you candy cuz you're wild enough ?,give,give,VB,candy,you,NN,PRP
 why don't you sing us a song .,sing,sing,VB,song,us,NN,PRP
 give me a smooch .,give,give,VB,smooch,me,NN,PRP
-can you please find those for me ?,find,find,VB,for,those,IN,DT
 can you tell me all those things ?,tell,tell,VB,things,me,NNS,PRP
 who gave you that pig ?,give,gave,VBD,pig,you,NN,PRP
 shall we bring ari a present ?,bring,bring,VB,present,ari,NN,NNP
-oh what did you make for mommy .,make,make,VB,for,what,IN,WP
-what did linda make for you ?,make,make,VB,for,what,IN,WP
-what did she make for you ?,make,make,VB,for,what,IN,WP
 you can give me that glass ?,give,give,VB,glass,me,NN,PRP
-give me that pail for me ?,give,give,VB,pail,me,NN,PRP
-i'm making a cupcake for you ?,make,making,VBG,for,cupcake,IN,NN
 now let me give you one ?,give,give,VB,one,you,NN,PRP
-clear a nice space and i'll bring some paper for you ?,bring,bring,VB,for,paper,IN,NN
 shall we give her a dress ?,give,give,VB,dress,her,NN,PRP
 who gave you this nightgown ?,give,gave,VBD,nightgown,you,NN,PRP
 no auntie auntie marilyn gave you that .,give,gave,VBD,that,you,DT,PRP
@@ -3402,11 +3169,9 @@ did you tell her that story already ?,tell,tell,VB,story,her,NN,PRP
 shall we give dolly some coffee .,give,give,VB,coffee,dolly,NN,NNP
 shall we give dolly some coffee .,give,give,VB,coffee,dolly,NN,NNP
 she sent you a little package .,send,sent,VBD,package,you,NN,PRP
-can you find it for me ?,find,find,VB,for,it,IN,PRP
 let's let's show the donkey all the other animals .,show,show,VB,animals,donkey,NNS,NN
 can you bring me some furniture for the doll house ?,bring,bring,VB,furniture,me,NN,PRP
 are you gonna give her a drink ?,give,give,VB,drink,her,NN,PRP
-leave some for your dolly okay .,leave,leave,VB,for,some,IN,DT
 whenever i give you peas and carrots you don't eat them ?,give,give,VBP,peas,you,NNS,PRP
 serves you right serves you right .,serve,serves,VBZ,right,you,NN,PRP
 i'll show you some pictures and you tell me which cookies you think would be tasty okay .,show,show,VB,pictures,you,NNS,PRP
@@ -3429,9 +3194,6 @@ okay are you gonna give yourself change ?,give,give,VB,change,yourself,NN,PRP
 what are you feeding him ?,feed,feeding,VBG,him,what,PRP,WP
 what else can you give me ?,give,give,VB,me,what,PRP,WP
 can you make me some spaghetti ?,make,make,VB,spaghetti,me,NN,PRP
-what did you make for mommy in the sand ?,make,make,VB,for,what,IN,WP
-you made pies out of sand for mommy ?,make,made,VBD,for,pies,IN,NNS
-shall we make a road for it .,make,make,VB,for,road,IN,NN
 no what did you take off the bottle ?,take,take,VB,bottle,what,NN,WP
 what are you giving the baby ?,give,giving,VBG,baby,what,NN,WP
 did mrs wood give you this dog ?,give,give,VB,dog,you,NN,PRP
@@ -3445,7 +3207,6 @@ okay let's go give him a bath ?,give,give,VB,bath,him,NN,PRP
 i knew you were gonna ask me that question ?,ask,ask,VB,question,me,NN,PRP
 i'm gonna give you some tomato sauce like you asked for .,give,give,VB,sauce,you,NN,PRP
 she give you pizza last time you went .,give,give,VBP,pizza,you,NN,PRP
-can you sing a song for me ?,sing,sing,VB,for,song,IN,NN
 want make you some breakfast .,make,make,VB,breakfast,you,NN,PRP
 remember when she was showing me the make up ?,show,showing,VBG,up,me,NN,PRP
 oh maybe they give you a maybe they give you a little one .,give,give,VBP,a,you,DT,PRP
@@ -3454,8 +3215,6 @@ which one did you drop it .,drop,drop,VB,it,one,PRP,NN
 let's see what else she gave me .,give,gave,VBD,me,what,PRP,WP
 see shows you all the different colors ?,show,shows,VBZ,colors,you,NNS,PRP
 oh i know what i was gonna write brushes .,write,write,VB,brushes,what,NNS,WP
-can you make a bed for the king ?,make,make,VB,for,bed,IN,NN
-you make a bed for the king .,make,make,VBP,for,bed,IN,NN
 you show me one of your teddy bears .,show,show,VBP,one,me,CD,PRP
 what are you going to say when you give him the present ?,give,give,VBP,present,him,NN,PRP
 who sent you these black shoes ?,send,sent,VBD,shoes,you,NNS,PRP
@@ -3483,7 +3242,6 @@ i can get some soap suds and we can give dolly a bath ?,give,give,VB,bath,dolly,
 we'll dry her and put clothes on her and read her a story .,read,read,VB,story,her,NN,PRP
 show me a place for him ?,show,show,VB,place,me,NN,PRP
 let's dry her hands and you can read her a little story ?,read,read,VB,story,her,NN,PRP
-they're making a garden for it ?,make,making,VBG,for,garden,IN,NN
 tell me a picture or tell me a story about this picture ?,tell,tell,VB,picture,me,NN,PRP
 i was showing dad my owie .,show,showing,VBG,owie,dad,NN,NNP
 aha did that hurt can i give it a kiss ?,give,give,VB,kiss,it,NN,PRP
@@ -3518,12 +3276,8 @@ should we give them a name .,give,give,VB,name,them,NN,PRP
 should we give them a name .,give,give,VB,name,them,NN,PRP
 oh i'll show you something about the tire .,show,show,VB,something,you,NN,PRP
 let me show you some thing ?,show,show,VB,thing,you,NN,PRP
-what is she bringing for everybody ?,bring,bringing,VBG,for,what,IN,WP
-what does she bring for everybody ?,bring,bring,VB,for,what,IN,WP
 do you wanna tell me the story now ?,tell,tell,VB,story,me,NN,PRP
-emma made one for you at home .,make,made,VBD,for,one,IN,CD
 what do you call something that you put on your arm ?,call,call,VB,something,what,NN,WP
-oh i think i'll save it for you .,save,save,VB,for,it,IN,PRP
 if you go over there and be good i'll give you the cookie ?,give,give,VB,cookie,you,NN,PRP
 be good and then i'll give you the cookie ?,give,give,VB,cookie,you,NN,PRP
 i'll give you some juice .,give,give,VB,juice,you,NN,PRP
@@ -3533,8 +3287,6 @@ okay we'll give it a shot here ?,give,give,VB,shot,it,NN,PRP
 they brought you in a cookie ?,bring,brought,VBD,cookie,you,NN,PRP
 mommy will give you your cookie when she's ready .,give,give,VB,cookie,you,NN,PRP
 give you a napkin .,give,give,VB,napkin,you,NN,PRP
-want ta sing a song for mommy ?,sing,sing,VB,for,song,IN,NN
-i'll save some for you .,save,save,VB,for,some,IN,DT
 okay give me the box .,give,give,VB,box,me,NN,PRP
 give me the box .,give,give,VB,box,me,NN,PRP
 here give me your cookie .,give,give,VB,cookie,me,NN,PRP
@@ -3542,8 +3294,6 @@ can you show me your big muscles ?,show,show,VB,muscles,me,NNS,PRP
 i want ta show you something ?,show,show,VB,something,you,NN,PRP
 i gave you a little bit more ?,give,gave,VBD,more,you,JJR,PRP
 look why don't you make me something pretty .,make,make,VB,something,me,NN,PRP
-here sit on the floor and make shapes for me with just the two ?,make,make,VB,for,shapes,IN,NNS
-i'll pull it over there for you ?,pull,pull,VB,for,it,IN,PRP
 why don't you show me your blocks ?,show,show,VB,blocks,me,NNS,PRP
 show me your blocks ?,show,show,VB,blocks,me,NNS,PRP
 can you give me some now ?,give,give,VB,some,me,DT,PRP
@@ -3591,7 +3341,6 @@ hand me the rest of the blocks .,hand,hand,VB,rest,me,NN,PRP
 you want ta give me a bite ?,give,give,VB,bite,me,NN,PRP
 you're not gonna give me one now .,give,give,VB,one,me,NN,PRP
 how about if i give you one ?,give,give,VBP,one,you,NN,PRP
-will you throw this in the trash for me .,throw,throw,VB,for,this,IN,DT
 sing me a song .,sing,sing,VB,song,me,NN,PRP
 sing me your abc's .,sing,sing,VB,abc,me,NNS,PRP
 what do you want cookies or crackers ?,want,want,VB,cookies,what,NNS,WP
@@ -3606,7 +3355,6 @@ give your baby some ?,give,give,VB,some,baby,DT,NN
 daddy ain't gonna bring you no more toys if you don't eat good .,bring,bring,VB,toys,you,NNS,PRP
 he ain't gonna give you none .,give,give,VB,none,you,NN,PRP
 yeah i give you a little bit ?,give,give,VBP,bit,you,NN,PRP
-gonna throw it away for mommy .,throw,throw,VB,for,it,IN,PRP
 give me some of yours .,give,give,VB,some,me,DT,PRP
 give me the cup .,give,give,VB,cup,me,NN,PRP
 come here let me show you something .,show,show,VB,something,you,NN,PRP
@@ -3614,7 +3362,6 @@ show you a bag ?,show,show,VB,bag,you,NN,PRP
 you're giving him lots of sandboxes eh .,give,giving,VBG,lots,him,NNS,PRP
 show me the tickle baby i haven't seen it yet .,show,show,VB,baby,me,NN,PRP
 sarah can you can you give pick tickles a ride .,give,give,VB,ride,tickles,NN,NNS
-what're you making for mommy ?,make,making,VBG,for,what,IN,WP
 maybe we should give her one with nuts in it .,give,give,VB,one,her,NN,PRP
 i'll give you some green beans ?,give,give,VB,beans,you,NNS,PRP
 i'll give you some green beans .,give,give,VB,beans,you,NNS,PRP
@@ -3631,13 +3378,10 @@ okay let me give you another bib nomi .,give,give,VB,nomi,you,NNP,PRP
 oh my no no no don't eat it let me give you another piece there .,give,give,VB,piece,you,NN,PRP
 are you gonna give the doggie a bath .,give,give,VB,bath,doggie,NN,NN
 where should we give him a bath ?,give,give,VB,bath,him,NN,PRP
-do you wanna sing a song for me ?,sing,sing,VB,for,song,IN,NN
 gotta give him a bath .,give,give,VB,bath,him,NN,PRP
 do you wanna tell me a story about it ?,tell,tell,VB,story,me,NN,PRP
 i'll tell you the truth ?,tell,tell,VB,truth,you,NN,PRP
 i'll tell you that much for free ?,tell,tell,VB,much,you,JJ,PRP
-do you wanna sing the song for us ?,sing,sing,VB,for,song,IN,NN
-i would sing it for you but i don't know it .,sing,sing,VB,for,it,IN,PRP
 did the fairy godmother give her a dress .,give,give,VB,dress,her,NN,PRP
 very good what is it tell me about this .,tell,tell,VB,me,what,PRP,WP
 show me this .,show,show,VB,this,me,DT,PRP
@@ -3656,7 +3400,6 @@ give them money and whatever they give me back they give me back .,give,give,VB,
 give me kiss ?,give,give,VB,kiss,me,NN,PRP
 give daddy kiss ?,give,give,VB,kiss,daddy,NN,NNP
 yeah what'd you tell me about a triangle a couple weeks ago .,tell,tell,VB,me,what,PRP,WP
-do you wanna sing a song for aunt carey ?,sing,sing,VB,for,song,IN,NN
 tell me a story .,tell,tell,VB,story,me,NN,PRP
 tell her give him muscles ?,give,give,VB,muscles,him,NNS,PRP
 i should've given him a neck huh .,give,given,VBN,neck,him,NN,PRP
@@ -3703,7 +3446,6 @@ you could give the man a kiss ?,give,give,VB,kiss,man,NN,NN
 ross gave me his hat and his bottle and he said .,give,gave,VBD,hat,me,NN,PRP
 little earlier what did he say me first about mary ?,say,say,VB,me,what,PRP,WP
 i'm gonna give you a kiss .,give,give,VB,kiss,you,NN,PRP
-what're you gonna make for mom ?,make,make,VB,for,what,IN,WP
 you give me some books .,give,give,VBP,books,me,NNS,PRP
 i gave you milk and you didn't want it ?,give,gave,VBD,milk,you,NN,PRP
 you giving her eskimo kisses .,give,giving,VBG,kisses,her,NNS,PRP
@@ -3742,9 +3484,7 @@ i'm sorry hilda i can't show you this .,show,show,VB,this,you,DT,PRP
 next morning hilda serves everyone her cookies .,serve,serves,VBZ,cookies,everyone,NNS,NN
 at snack time lowly offers hilda a cookie .,offer,offers,VBZ,cookie,hilda,NN,NNP
 huckle calls his friends hi billy says huckle you won't believe this but hilda's on tv ?,call,calls,VBZ,billy,friends,NNP,NNS
-hilda writes down a list for the children .,write,writes,VBZ,for,list,IN,NN
 at least give me one you can't have both honey ?,give,give,VB,one,me,NN,PRP
-i'm making an extra special valentine for lowly ?,make,making,VBG,for,valentine,IN,NN
 what you give me .,give,give,VBP,me,what,PRP,WP
 i think she was with a patient when she told me this over the phone .,tell,told,VBD,this,me,DT,PRP
 except those steps are too high that's what he told me .,tell,told,VBD,me,what,PRP,WP
@@ -3760,7 +3500,6 @@ and before i give you this blanket i want you to answer a questions for me what 
 hey roman you know what your mom told me .,tell,told,VBD,me,what,PRP,WP
 okay it will take me just a couple seconds you can't erase ?,take,take,VB,seconds,me,NNS,PRP
 we'll we'll give you a little update if you want ?,give,give,VB,update,you,NN,PRP
-leave some carrots for mark .,leave,leave,VB,for,carrots,IN,NNS
 what'd i tell you about saying that ?,tell,tell,VB,you,what,PRP,WP
 well you tell me something and then i'll go away .,tell,tell,VB,something,me,NN,PRP
 can you tell me a story about say a dinosaur ?,tell,tell,VB,story,me,NN,PRP
@@ -3778,14 +3517,12 @@ here here give me your hand .,give,give,VB,hand,me,NN,PRP
 have something on the table that ursula brought adam .,bring,brought,VBD,adam,that,NNP,WDT
 i don't know what kind you'd call that ?,call,call,VB,that,kind,DT,NN
 let him give you some paper okay ?,give,give,VB,paper,you,NN,PRP
-wait let me pull it up for you sweetie i got your microphone caught .,pull,pull,VB,for,it,IN,PRP
 let's see what else can we tell manuela what else did we do over the summer .,tell,tell,VB,manuela,what,NNP,WP
 hey uncle scar guess what i'm going to be king of pride rock my dad showed me the whole kingdom ?,show,showed,VBD,kingdom,me,NN,PRP
 simba said mufasa let me tell you something my father told me ?,tell,tell,VB,something,you,NN,PRP
 give me one good reason i shouldn't rip you apart scar ?,give,give,VB,reason,me,NN,PRP
 summer brings so many things summer brings us rides on swings .,bring,brings,VBZ,us,things,PRP,NNS
 freight is what the airplane carries what the air what the truck carries .,carry,carries,VBZ,what,air,WP,NN
-we should be making a special tape for you .,make,making,VBG,for,tape,IN,NN
 find me an a ?,find,find,VB,a,me,NN,PRP
 baaee gives nathaniel a hair cut .,give,gives,VBZ,cut,nathaniel,NN,NNP
 i think michael can you bring us some shampoo .,bring,bring,VB,shampoo,us,NN,PRP
@@ -3802,7 +3539,6 @@ oh you gave him a kiss ?,give,gave,VBD,kiss,him,NN,PRP
 what did you tell gramma hankey ?,tell,tell,VB,hankey,what,NNP,WP
 show me some of the biggest ones ?,show,show,VB,some,me,DT,PRP
 and you know what comes at the end of a sentence i didn't tell you this before a period .,tell,tell,VB,this,you,DT,PRP
-i can make some potato for you pretty fast .,make,make,VB,for,potato,IN,NN
 i'm gonna give you a different bowl for your berries okay .,give,give,VB,bowl,you,NN,PRP
 oh i better give the bear yogurt .,give,give,VBP,yogurt,bear,NN,NNP
 i will give you some more blueberries little bear ?,give,give,VB,blueberries,you,NNS,PRP
@@ -3865,9 +3601,7 @@ sorry i would have given you some water if i knew you wanted it .,give,given,VBN
 pass me the milk .,pass,pass,VB,milk,me,NN,PRP
 and i gave her err adrenaline .,give,gave,VBD,adrenaline,her,NN,PRP
 could you tell us something besides that ?,tell,tell,VB,something,us,NN,PRP
-can you make a ladder for me ?,make,make,VB,for,ladder,IN,NN
 why don't you make pooh a waffle .,make,make,VB,waffle,pooh,NN,UH
-should we make some honey for pooh .,make,make,VB,for,honey,IN,NN
 what did you tell me in the pool was a good name for a dog ?,tell,tell,VB,me,what,PRP,WP
 well no i gave you a different kind of milk .,give,gave,VBD,kind,you,NN,PRP
 who gave you that barbie doll ?,give,gave,VBD,doll,you,NN,PRP
@@ -3881,7 +3615,6 @@ give me some fish hunka munka .,give,give,VB,fish,me,NN,PRP
 okay i'm gonna ask the bird children questions about the pictures .,ask,ask,VB,questions,children,NNS,NNS
 mm what are you showing me .,show,showing,VBG,me,what,PRP,WP
 i'll find you some mail you can open in a little bit ?,find,find,VB,mail,you,NN,PRP
-i'll carry those things for you ?,carry,carry,VB,for,things,IN,NNS
 why don't you sing em a song and play for them ?,sing,sing,VB,song,em,NN,PRP
 will you give me the slide ?,give,give,VB,slide,me,NN,PRP
 uh could you give me some pills ?,give,give,VB,pills,me,NNS,PRP
@@ -3891,22 +3624,16 @@ i thought you'd give me a hot dog and i'd give you some money .,give,give,VB,dog
 here let me show you a nice page wait a minute .,show,show,VB,page,you,NN,PRP
 you keep telling me that but i don't think i am .,tell,telling,VBG,that,me,DT,PRP
 show me the point ?,show,show,VB,point,me,NN,PRP
-why don't you write a tomato for me .,write,write,VB,for,tomato,IN,NN
 no she just sent us a letter ?,send,sent,VBD,letter,us,NN,PRP
 how many do you want abe ?,want,want,VB,abe,many,NNP,JJ
-she's making a fish for you .,make,making,VBG,for,fish,IN,NN
-i will make some popcorn for you .,make,make,VB,for,popcorn,IN,NN
 they gave her a little piggie bank did i tell you that .,give,gave,VBD,bank,her,NN,PRP
 this is her mouth do you wanna give her some lips .,give,give,VB,lips,her,NNS,PRP
 i wanna show you something .,show,show,VB,something,you,NN,PRP
 did he give you a kiss .,give,give,VB,kiss,you,NN,PRP
 are you gonna make mommy a picture .,make,make,VB,picture,mommy,NN,NN
-are you gonna make it for daddy .,make,make,VB,for,it,IN,PRP
-make it for daddy !,make,make,VB,for,it,IN,PRP
 when i was young i used to wait on massah and hand him his plate ?,hand,hand,VB,plate,him,NN,PRP
 we'll give him a hearty welcome then ?,give,give,VB,welcome,him,NN,PRP
 can i give you a kiss ?,give,give,VB,kiss,you,NN,PRP
-do you think you could make a design for me ?,make,make,VB,for,design,IN,NN
 well you give him the pen ?,give,give,VBP,pen,him,NN,PRP
 i'll write you a note then you can have one ?,write,write,VB,note,you,NN,PRP
 dad bring me those big rocks on the second shelf ?,bring,bring,VB,rocks,me,NNS,PRP
@@ -3914,7 +3641,6 @@ and then we tell it stories about smoke alarms and stuff ?,tell,tell,VBP,stories
 you wanna give me this ?,give,give,VB,this,me,DT,PRP
 what am i gonna show you ?,show,show,VB,you,what,PRP,WP
 sarah can you tell me a story .,tell,tell,VB,story,me,NN,PRP
-santa claus brought that for you over at dot's house .,bring,brought,VBD,for,that,IN,DT
 who gave you that dollie ?,give,gave,VBD,dollie,you,NN,PRP
 who gave you that ?,give,gave,VBD,that,you,DT,PRP
 she gave you what ?,give,gave,VBD,what,you,WP,PRP
@@ -3928,7 +3654,6 @@ we told her that .,tell,told,VBD,that,her,DT,PRP
 you know who gave you these .,give,gave,VBD,these,you,DT,PRP
 i think aunt katy gave you those .,give,gave,VBD,those,you,DT,PRP
 aunt kim gave you these .,give,gave,VBD,these,you,DT,PRP
-how do we make a big cake for mommy ?,make,make,VB,for,cake,IN,NN
 you made mommy a fervop cake ?,make,made,VBD,cake,mommy,NN,NN
 should we give her more .,give,give,VB,more,her,JJR,PRP
 you made mommy a vervop cake .,make,made,VBD,cake,mommy,NN,NN
@@ -3947,12 +3672,10 @@ you are so smart i forgot to tell daddy that you told me that yesterday ?,tell,t
 his mommy gave him lots of kisses ?,give,gave,VBD,lots,him,NNS,PRP
 can i give you a kiss .,give,give,VB,kiss,you,NN,PRP
 you know what you didn't tell amanda .,tell,tell,VB,amanda,what,NNP,WP
-that way we'll save more for you okay .,save,save,VB,for,more,IN,JJR
 hey give me that that's mine i want it right now ?,give,give,VB,that,me,DT,PRP
 but if he's gonna be polite and courteous and nice then we'll give him some pretend gum ?,give,give,VB,gum,him,NN,PRP
 who taught you that ?,teach,taught,VBD,that,you,DT,PRP
 are you gonna french show and tell then that thing .,tell,tell,VB,thing,then,NN,RB
-maybe santa claus will bring these big blocks for you ?,bring,bring,VB,for,blocks,IN,NNS
 give me the mailman .,give,give,VB,mailman,me,NN,PRP
 family puppets oh put them on and tell me a story can you put them on your hands .,tell,tell,VB,story,me,NN,PRP
 yep that's the daddy can you tell me a story about the daddy !,tell,tell,VB,story,me,NN,PRP
@@ -3962,11 +3685,9 @@ give me a bahbah now don't baby pick it up no look here you're gonna lose the ne
 he's giving him a lick wasn't he .,give,giving,VBG,lick,him,NN,PRP
 mama i'll give you the pieces ?,give,give,VB,pieces,you,NNS,PRP
 sit down and i'll read you a story push it through you got it sit down don't spill it alright which one you want to read ?,read,read,VB,story,you,NN,PRP
-daddy will read it for you .,read,read,VB,for,it,IN,PRP
 what would you tell him ?,tell,tell,VB,him,what,PRP,WP
 i wanna show you something .,show,show,VB,something,you,NN,PRP
 can you push the go circle right there the green go ?,push,push,VB,go,circle,NN,NN
-why don't you sing a song for me .,sing,sing,VB,for,song,IN,NN
 wanna sing me a song .,sing,sing,VB,song,me,NN,PRP
 sing them a lullaby .,sing,sing,VB,lullaby,them,NN,PRP
 will you give him dinner then ?,give,give,VB,dinner,him,NN,PRP
@@ -3994,7 +3715,6 @@ and what name did you give it .,give,give,VB,it,name,PRP,NN
 you also gave it the name cocky .,give,gave,VBD,name,it,NN,PRP
 cookie i brought you some popcorn .,bring,brought,VBD,popcorn,you,NN,PRP
 save yourself the trip and ?,save,save,VB,trip,yourself,NN,PRP
-so i'm gonna make a cheese sandwich snack for you .,make,make,VB,for,snack,IN,NN
 just give us the envelope and i'll throw it away .,give,give,VB,envelope,us,NN,PRP
 you feed your cows good milk .,feed,feed,VBP,milk,cows,NN,NNS
 okay let's give jenny the car .,give,give,VB,car,jenny,NN,NNP
@@ -4012,7 +3732,6 @@ she can't give you that kind .,give,give,VB,kind,you,NN,PRP
 they'll give you some when you when they come back peter .,give,give,VB,some,you,DT,PRP
 your mom'll give you one .,give,give,VB,one,you,NN,PRP
 okay why don't you keep the paper and give me the pen and let your mommy give you another one okay ?,give,give,VB,pen,me,NN,PRP
-okay here we go you better push the button for us i guess if you want to or you can wait until we get to the door .,push,push,VBP,for,button,IN,NN
 mama'll give you one .,give,give,VB,one,you,NN,PRP
 just give me that part .,give,give,VB,part,me,NN,PRP
 you give them their box pete .,give,give,VBP,pete,them,NNP,PRP
@@ -4046,10 +3765,8 @@ should we give the flying head some really black eyes here ?,give,give,VB,eyes,h
 what color emma should we make ?,make,make,VB,emma,color,NN,NN
 sweetie why don't we color some of your princess papers that we can show daddy later let's bring this over so we can lean on this you carry your box .,show,show,VB,daddy,that,NN,WDT
 should we give her orange lips .,give,give,VB,lips,her,NNS,PRP
-can you sing twinkle twinkle for me ?,sing,sing,VB,for,twinkle,IN,NN
 do you give her kisses ?,give,give,VB,kisses,her,NNS,PRP
 surprise the birds and mice gave cinderella the finished gown !,give,gave,VBD,gown,cinderella,NN,NNP
-here i made a little bird for you .,make,made,VBD,for,bird,IN,NN
 i'm gonna give you a hint .,give,give,VB,hint,you,NN,PRP
 give max a bath put him right in that water !,give,give,VB,bath,max,NN,NNP
 so ruby read him his favorite book .,read,read,VBD,book,him,NN,PRP
@@ -4062,7 +3779,6 @@ i gave my love a chicken that has no bone .,give,gave,VBD,chicken,love,NN,NN
 i gave my love a ring that has no end .,give,gave,VBD,ring,love,NN,NN
 i gave my love a baby with no crying .,give,gave,VBD,baby,love,NN,NN
 tom pierce tom pierce lend me your gray mare .,lend,lend,VB,mare,me,NNP,PRP
-i found raggedy andy for yah .,find,found,VBD,for,andy,IN,NNP
 i gave my love a cherry .,give,gave,VBD,cherry,love,NN,NN
 i gave my love a chicken .,give,gave,VBD,chicken,love,NN,NN
 i gave my love a ring .,give,gave,VBD,ring,love,NN,NN
@@ -4099,7 +3815,6 @@ give me your mittens and i'll put them away until next year ?,give,give,VB,mitte
 come show mommy the book we're reading abe .,show,show,VB,book,mommy,NN,NN
 mommy's teaching you all this stuff .,teach,teaching,VBG,stuff,you,NN,PRP
 oh you taught him that .,teach,taught,VBD,that,him,DT,PRP
-well then here pay it for me too .,pay,pay,VB,for,it,IN,PRP
 and then you just give them the numbers it's very very easy it only takes a second .,give,give,VBP,numbers,them,NNS,PRP
 you almost made it seventeen but not quite because i think that's a j .,make,made,VBD,seventeen,it,CD,PRP
 alex tell me a joke where's your joke can you tell me a joke ?,tell,tell,VB,joke,me,NN,PRP
@@ -4109,7 +3824,6 @@ and then they go walk walk walk and they show her the house ?,show,show,VBP,hous
 what did the doctor give you because you were such a good girl ?,give,give,VB,you,what,PRP,WP
 is he gonna give him a push .,give,give,VB,push,him,NN,PRP
 he's giving him a gentle push ?,give,giving,VBG,push,him,NN,PRP
-mother cat is making breakfast for sally huckle ?,make,making,VBG,for,breakfast,IN,NN
 did daddy tell you that .,tell,tell,VB,that,you,DT,PRP
 you wanna read me the story ?,read,read,VB,story,me,NN,PRP
 can you tell me the story ?,tell,tell,VB,story,me,NN,PRP
@@ -4138,7 +3852,6 @@ can i ask you a question .,ask,ask,VB,question,you,NN,PRP
 toad made frog a cup of hot tea .,make,made,VBD,cup,frog,NN,NNP
 frog drank the tea and then he said tell me a story while i'm resting .,tell,tell,VB,story,me,NN,PRP
 so the toad went to bed and the frog got up and told him a story .,tell,told,VBD,story,him,NN,PRP
-what a lot of trouble i have made for frog ?,make,made,VBN,for,lot,IN,NN
 no one has ever sent me a letter .,send,sent,VBN,letter,me,NN,PRP
 toad said frog you never know when someone may send you a letter .,send,send,VB,letter,you,NN,PRP
 no i don't think anyone will ever send me a letter .,send,send,VB,letter,me,NN,PRP
@@ -4146,7 +3859,6 @@ but toad someone might send you a letter today .,send,send,VB,letter,you,NN,PRP
 four days later the snail got to toad's house and gave him the letter from frog .,give,gave,VBD,letter,him,NN,PRP
 tell daddy tell daddy your skin ?,tell,tell,VB,skin,daddy,NN,NN
 that's what you told me ?,tell,told,VBD,me,what,PRP,WP
-why don't you sit on the floor and sing a song into that button for daddy .,sing,sing,VB,for,song,IN,NN
 who gave you the stitches ?,give,gave,VBD,stitches,you,NNS,PRP
 and i gave you ice cream later aha ?,give,gave,VBD,cream,you,NN,PRP
 didn't i oh what did i give you .,give,give,VB,what,oh,WP,UH
@@ -4175,11 +3887,9 @@ okay now give me the dimes .,give,give,VB,dimes,me,NNS,PRP
 now give me the dimes ?,give,give,VB,dimes,me,NNS,PRP
 give me the other dime ?,give,give,VB,dime,me,NN,PRP
 what are you taking everything home ?,take,taking,VBG,everything,what,NN,WP
-you're making coffee for me ?,make,making,VBG,for,coffee,IN,NN
 i brought you a present ?,bring,brought,VBD,present,you,NN,PRP
 who gave me that pipe ?,give,gave,VBD,pipe,me,NN,PRP
 i'll give you a stove ?,give,give,VB,stove,you,NN,PRP
-what did i make for you ?,make,make,VB,for,what,IN,WP
 nonna gave you these for christmas remember ?,give,gave,VBD,these,you,DT,PRP
 she gave you the doll house .,give,gave,VBD,house,you,NN,PRP
 we can pretend and give him a name .,give,give,VB,name,him,NN,PRP
@@ -4196,7 +3906,6 @@ i'm gonna give you a hug ?,give,give,VB,hug,you,NN,PRP
 huh what are you telling me don uh bunny rabbit .,tell,telling,VBG,me,what,PRP,WP
 give him a big smooch .,give,give,VB,smooch,him,NN,PRP
 oh did mommy tell you that ?,tell,tell,VB,that,you,DT,PRP
-you know who make this for you ?,make,make,VBP,for,this,IN,DT
 now we'll give him a tail .,give,give,VB,tail,him,NN,PRP
 can you give him a tail ?,give,give,VB,tail,him,NN,PRP
 who gave you that ?,give,gave,VBD,that,you,DT,PRP
@@ -4227,7 +3936,6 @@ did kurt give you one ?,give,give,VB,one,you,NN,PRP
 and you give him a hat .,give,give,VBP,hat,him,NN,PRP
 give him a .,give,give,VB,a,him,DT,PRP
 let me just give him another arm .,give,give,VB,arm,him,NN,PRP
-shall we make a zoo for the animals .,make,make,VB,for,zoo,IN,NN
 the man at the gas station gave me two little rhinoceroses .,give,gave,VBD,rhinoceroses,me,NNS,PRP
 okay but i would like to look at this book that maggie gave us too !,give,gave,VBD,us,that,PRP,WDT
 did grandma and grandpa bring you anything else .,bring,bring,VB,anything,you,NN,PRP
@@ -4242,7 +3950,7 @@ you tell me the story .,tell,tell,VBP,story,me,NN,PRP
 that's what you always tell me .,tell,tell,VBP,me,what,PRP,WP
 mushrooms did you tell daddy about all the mushrooms we found yesterday ?,tell,tell,VB,daddy,mushrooms,NN,NNS
 did you show edna the picture you drew at school ?,show,show,VB,picture,edna,NN,NNP
-you know you can really make a lot of christmas presents for people if you make them pictures .,make,make,VB,for,lot,IN,NN
+you know you can really make a lot of christmas presents for people if you make them pictures .,make,make,VBP,pictures,them,NNS,PRP
 give him lots of pretty fins .,give,give,VB,lots,him,NNS,PRP
 remember how you read me the book when i was in the bath tub ?,read,read,VBD,book,me,NN,PRP
 i think it's time for them to go to bed and he's reading them bedtime stories .,read,reading,VBG,stories,them,NNS,PRP
@@ -4250,7 +3958,6 @@ and after you give your tummy a rest you can have a banana .,give,give,VBP,rest,
 is he bringing us a pizza ?,bring,bringing,VBG,pizza,us,NN,PRP
 well if this is the tyrannosaurus bringing us pizza i gotta like him .,bring,bringing,VBG,pizza,us,NN,PRP
 giving me a lubriderm .,give,giving,VBG,lubriderm,me,NNP,PRP
-remember i made this for you the other day ?,make,made,VBD,for,this,IN,DT
 did daddy teach you that word ?,teach,teach,VB,word,you,NN,PRP
 he might bring you some cake .,bring,bring,VB,cake,you,NN,PRP
 give him a kiss ross ?,give,give,VB,kiss,him,NN,PRP
@@ -4275,13 +3982,8 @@ what's i tell you ?,tell,tell,VB,'s,what,VBZ,WP
 you think what'd i tell you .,tell,tell,VB,you,what,PRP,WP
 give me that .,give,give,VB,that,me,DT,PRP
 what did you feed them ?,feed,feed,VB,them,what,PRP,WP
-now you make something for mommy .,make,make,VBP,for,something,IN,NN
 you sure are giving them a lot of food ?,give,giving,VBG,lot,them,NN,PRP
-how about making some peanuts for the elephant ?,make,making,VBG,for,peanuts,IN,NNS
-maybe you can make fish food for them ?,make,make,VB,for,food,IN,NN
 how about making me some spaghetti ?,make,making,VBG,spaghetti,me,NN,PRP
-were the squash good that i made for you last night ?,make,made,VBD,for,that,IN,WDT
-could you make some grapes for me ?,make,make,VB,for,grapes,IN,NNS
 will you show me the book of bread and jam ?,show,show,VB,book,me,NNP,PRP
 do you remember who gave you this dress ?,give,gave,VBD,dress,you,NN,PRP
 pierre and maryse brought you a hat .,bring,brought,VBD,hat,you,NN,PRP
@@ -4308,7 +4010,6 @@ what'd i tell you ?,tell,tell,VB,you,what,PRP,WP
 how many pieces did jo ann give you ?,give,give,VB,you,pieces,PRP,NNS
 she gave you a lot aha ?,give,gave,VBD,lot,you,NN,PRP
 you know what can we push it over a little bit ?,push,push,VB,it,what,PRP,WP
-maybe he can find them for you .,find,find,VB,for,them,IN,PRP
 just give me the apple .,give,give,VB,apple,me,NN,PRP
 alright give mommy your trains ?,give,give,VB,trains,mommy,NNS,NN
 what what does that say ?,say,say,VB,what,what,WP,WP
@@ -4317,14 +4018,12 @@ abe's showing you his gourds edna ?,show,showing,VBG,gourds,you,NNS,PRP
 who does dave call bobo ?,call,call,VB,bobo,who,NNP,WP
 okay give me your cut .,give,give,VB,cut,me,NN,PRP
 what are we gonna feed them ?,feed,feed,VB,them,what,PRP,WP
-let's make some homes for these animals .,make,make,VB,for,homes,IN,NNS
 i'll give you some more rice ?,give,give,VB,rice,you,NN,PRP
 i'll give you some of mine okay ?,give,give,VB,some,you,DT,PRP
 if you do i'll give you a trick ?,give,give,VB,trick,you,NN,PRP
 okay give me a kiss .,give,give,VB,kiss,me,NN,PRP
 okay you can show me that book ?,show,show,VB,book,me,NN,PRP
 what's the matter tell me ?,tell,tell,VB,me,what,PRP,WP
-roman can you sing a song for us .,sing,sing,VB,for,song,IN,NN
 listen listen i'm asking you a question ?,ask,asking,VBG,question,you,NN,PRP
 can you tell me any numbers that you know on there ?,tell,tell,VB,numbers,me,NNS,PRP
 can you bring me a piece of paper ?,bring,bring,VB,piece,me,NN,PRP
@@ -4347,22 +4046,18 @@ give me that .,give,give,VB,that,me,DT,PRP
 give her a little .,give,give,VB,little,her,JJ,PRP
 give her the meat ?,give,give,VB,meat,her,NN,PRP
 if i give you ten dollars ?,give,give,VBP,dollars,you,NNS,PRP
-we should make a bed for him huh ?,make,make,VB,for,bed,IN,NN
 mm give me more .,give,give,VB,more,me,JJR,PRP
 give me more said the frog .,give,give,VB,more,me,JJR,PRP
 i'm not offering you any food yet cause i haven't finished making the chowder .,offer,offering,VBG,food,you,NN,PRP
 i will be so happy if you give him a sleep present .,give,give,VBP,present,him,NN,PRP
 if i give you a wet rag .,give,give,VBP,rag,you,NN,PRP
-find the white bucket for me .,find,find,VB,for,bucket,IN,NN
 oh give me a minute ?,give,give,VB,minute,me,NN,PRP
 as if you're giving him a massage ?,give,giving,VBG,massage,him,NN,PRP
 oh you know what you should probably roll up your sleeves ?,roll,roll,VB,sleeves,what,NNS,WP
 i'm gonna give you a rag you can wipe up that extra water .,give,give,VB,rag,you,NN,PRP
-we're gonna make a birthday cake for daddy today .,make,make,VB,for,cake,IN,NN
 maybe lois'll just give us a piece of paper .,give,give,VB,piece,us,NN,PRP
 i thought daddy showed you your own room .,show,showed,VBD,room,you,NN,PRP
 just a minute give me a minute and i'll see if i can get it okay can i have this jen ?,give,give,VB,minute,me,NN,PRP
-can you find some barrels for me ?,find,find,VB,for,barrels,IN,NNS
 she's gonna throw away the diaper a wet diaper .,throw,throw,VB,diaper,diaper,NN,NN
 give it pet will you give that pet ?,give,give,VB,pet,it,NN,PRP
 give it pet please ?,give,give,VB,pet,it,NN,PRP
@@ -4375,7 +4070,6 @@ who gave you that little doll ?,give,gave,VBD,doll,you,NN,PRP
 who gave you that doll do you remember ?,give,gave,VBD,doll,you,NN,PRP
 show her your new house .,show,show,VB,house,her,NN,PRP
 why don't you make the baby some supper ?,make,make,VB,supper,baby,NN,NN
-what kind of eggs did i make for you this morning ?,make,make,VB,for,kind,IN,NN
 well give me time abe ?,give,give,VB,time,me,NN,PRP
 show daddy your bear poster ?,show,show,VB,poster,daddy,NN,NN
 i'll bring you lots of pillows and you guys can play with the pillows .,bring,bring,VB,lots,you,NNS,PRP
@@ -4400,16 +4094,13 @@ i've got seventeen if you gave me one how many would i have .,give,gave,VBD,one,
 would you like your baby doll do you wanna feed her some juice .,feed,feed,VB,juice,her,NN,PRP
 my dad just showed me the whole kingdom and i'm gonna rule it all ?,show,showed,VBD,kingdom,me,NN,PRP
 simba let me tell you something my father told me .,tell,tell,VB,something,you,NN,PRP
-she doesn't know the song honey can you sing it for her ?,sing,sing,VB,it,song,PRP,NN
 nanny gave you this sweater .,give,gave,VBD,sweater,you,NN,PRP
 do you ever give the kittie and puppy a ride in the truck ?,give,give,VB,ride,kittie,NN,NN
 how about you show noel your puppets ?,show,show,VBP,puppets,noel,NNS,NNP
 go show noel your puppets ?,show,show,VB,puppets,noel,NNS,NNP
-bring it over here for ruth .,bring,bring,VB,for,it,IN,PRP
 give your airplanes a ride for a change .,give,give,VB,ride,airplanes,NN,NNS
 they always give people a ride .,give,give,VBP,ride,people,NN,NNS
 why don't you give them a ride ?,give,give,VB,ride,them,NN,PRP
-i'll see if i can find him for you ?,find,find,VB,for,him,IN,PRP
 you can show them your camper ?,show,show,VB,camper,them,NN,PRP
 you can read that really well and you can show her the flowers ?,show,show,VB,flowers,her,NNS,PRP
 can you give my any hands ?,give,give,VB,hands,my,NNS,PRP
@@ -4431,13 +4122,9 @@ well let us see if you can tell ericka the one other thing you did at dr weist's
 well how about let us see we'll tell let us tell ericka one more story and then i'll roll you up .,tell,tell,VB,story,ericka,NN,NNP
 what story should we tell her ?,tell,tell,VB,her,story,PRP,NN
 what did you bring me and which horse is william ?,bring,bring,VB,me,what,PRP,WP
-oh boy maybe i will make one for you ?,make,make,VB,for,one,IN,NN
 here is the birthday present that pierre and maryse gave you .,give,gave,VBD,you,that,PRP,WDT
 okay i want to see the present that pierre and maryse gave you .,give,gave,VBD,you,that,PRP,WDT
 show me one thing at a time .,show,show,VB,thing,me,NN,PRP
-why don't you make a birthday party for them ?,make,make,VB,for,party,IN,NN
-why don't you make a birthday cake for them out of playdoh .,make,make,VB,for,cake,IN,NN
-make a birthday cake for the family out of playdoh .,make,make,VB,for,cake,IN,NN
 what did you give him ?,give,give,VB,him,what,PRP,WP
 now can you tell me a dream .,tell,tell,VB,dream,me,NN,PRP
 do you know who sent you that card ?,send,sent,VBD,card,you,NN,PRP
@@ -4458,7 +4145,6 @@ this is a new shirt that spencer gave you .,give,gave,VBD,you,that,PRP,WDT
 you showing snoopy the birthday card .,show,showing,VBG,card,snoopy,NN,NNP
 now you tell me a little bit more about your dream ?,tell,tell,VB,more,me,JJR,PRP
 that's really nice that you're giving us all this wool mister sheep ?,give,giving,VBG,wool,us,NN,PRP
-do you think we should make up a story for jessica ?,make,make,VB,for,story,IN,NN
 if you want more carrots tell me and i'll give you more carrots okay .,give,give,VB,carrots,you,NNS,PRP
 fred lent you his car .,lend,lent,VBD,car,you,NN,PRP
 can you tell me some more about the letter ?,tell,tell,VB,more,me,JJR,PRP
@@ -4512,7 +4198,6 @@ gramma mallein sent you a birthday card .,send,sent,VBD,card,you,NN,PRP
 gramma mallein sent you a book for your birthday ?,send,sent,VBD,book,you,NN,PRP
 she sent you a book in the mail .,send,sent,VBD,book,you,NN,PRP
 she's sending you pictures that are like the pictures in kansas ?,send,sending,VBG,pictures,you,NNS,PRP
-so mary lifted the stroller for you .,lift,lifted,VBD,for,stroller,IN,NN
 where are the pants that daddy gave you ?,give,gave,VBD,you,that,PRP,WDT
 what kind of pants did daddy send you ?,send,send,VB,you,kind,PRP,NN
 are you gonna tell me that story .,tell,tell,VB,story,me,NN,PRP
@@ -4535,16 +4220,12 @@ i don't understand what you're asking me ?,ask,asking,VBG,me,what,PRP,WP
 listen mommy is gonna make you a juice .,make,make,VB,juice,you,NN,PRP
 i'm gonna give you this right over here .,give,give,VB,this,you,DT,PRP
 because she brought you a birthday present and she brought you a valentine's day present remember .,bring,brought,VBD,present,you,NN,PRP
-oh thank you what did you bring for me ?,bring,bring,VB,for,what,IN,WP
-what did he bring for me ?,bring,bring,VB,for,what,IN,WP
 it is a certificate what does it say your name .,say,say,VB,name,what,NN,WP
 okay give me the squirter ?,give,give,VB,squirter,me,NN,PRP
 abe shot me help .,shoot,shot,VBD,help,me,NN,PRP
 show me nina .,show,show,VB,nina,me,NNP,PRP
 okay are we gonna give the doggie some supper ?,give,give,VB,supper,doggie,NN,NN
-you wanna make a tent for the puppets ?,make,make,VB,for,tent,IN,NN
 did julliet send nina a letter ?,send,send,VB,letter,nina,NN,NNP
-look look what i found for you .,find,found,VBD,for,what,IN,WP
 who gave you the rabbit ?,give,gave,VBD,rabbit,you,NN,PRP
 what'd you want little water ?,want,want,VB,water,what,NN,WP
 give me the towel and i'll wipe this .,give,give,VB,towel,me,NN,PRP
@@ -4560,7 +4241,6 @@ okay tell me the story .,tell,tell,VB,story,me,NN,PRP
 and the people gave him a penny and another penny a nickel and a dime .,give,gave,VBD,penny,him,NN,PRP
 can i give you your last spoonful of yogurt .,give,give,VB,spoonful,you,NN,PRP
 you should show katie all the pictures we have the photographs .,show,show,VB,pictures,katie,NNS,NNP
-if she's saying it for me i didn't hear it either .,say,saying,VBG,for,it,IN,PRP
 he's gonna show you all his toys ?,show,show,VB,toys,you,NNS,PRP
 why don't you get the other part and show katie the whole thing .,show,show,VB,thing,katie,NN,NNP
 sera and clahe gave you that ?,give,gave,VBD,that,you,DT,PRP
@@ -4571,7 +4251,6 @@ who gave him that ?,give,gave,VBD,that,him,DT,PRP
 i'll tell you she gives you a real close treatment doesn't she .,give,gives,VBZ,treatment,you,NN,PRP
 i thought that furniture was just dark and dreary and it looked like something that a grandmother had given them .,give,given,VBN,them,that,PRP,WDT
 so you can give them different faces .,give,give,VB,faces,them,NNS,PRP
-gosh i have about six baby blankets upstairs i should that i made for nathaniel and never used that i should give to people too .,make,made,VBD,for,that,IN,WDT
 did john give you that .,give,give,VB,that,you,DT,PRP
 you give me your coat ?,give,give,VBP,coat,me,NN,PRP
 how much money should i give you ?,give,give,VB,you,money,PRP,NN
@@ -4648,14 +4327,12 @@ just a second let me show you something .,show,show,VB,something,you,NN,PRP
 oh are you showing me something .,show,showing,VBG,something,me,NN,PRP
 what do you want a paper ?,want,want,VB,paper,what,NN,WP
 i will show you my .,show,show,VB,my,you,PRP$,PRP
-i could make some for you though on the stove .,make,make,VB,for,some,IN,DT
 i don't feel like i've quite offered you enough .,offer,offered,VBN,enough,you,JJ,PRP
 you gonna give me one more little piece .,give,give,VB,piece,me,NN,PRP
 tell me the story .,tell,tell,VB,story,me,NN,PRP
 usually i warm up the pasta and give you cold sauce but we could do the opposite .,give,give,VBP,sauce,you,NN,PRP
 did you give me those bowls ?,give,give,VB,bowls,me,NNS,PRP
 is it listening to what you're telling it .,tell,telling,VBG,it,what,PRP,WP
-because i have other things to do today other than make meals for you .,make,make,VB,for,meals,IN,NNS
 i've told you all the things that aren't allowed ?,tell,told,VBN,things,you,NNS,PRP
 go give her a kiss .,give,give,VB,kiss,her,NN,PRP
 i'm going to be a good little boy give me a kiss ?,give,give,VB,kiss,me,NN,PRP
@@ -4752,7 +4429,6 @@ how much did you feed them ?,feed,feed,VB,them,much,PRP,JJ
 what did mommy give you ?,give,give,VB,you,what,PRP,WP
 i gave you the dolly .,give,gave,VBD,dolly,you,NN,PRP
 and what did santa claus bring you .,bring,bring,VB,you,what,PRP,WP
-you're gonna bring it home for me .,bring,bring,VB,for,it,IN,PRP
 oh i think your doll would like to see all the things that santa claus brought you .,bring,brought,VBD,you,that,PRP,WDT
 what did remy give you for christmas yesterday at pierre and maryse's ?,give,give,VB,you,what,PRP,WP
 did he give you a snake ?,give,give,VB,snake,you,NN,PRP
@@ -4770,19 +4446,14 @@ here's the money that santa claus brought you .,bring,brought,VBD,you,that,PRP,W
 this is what remy gave you for christmas .,give,gave,VBD,you,what,PRP,WP
 did you show her the christmas tree ?,show,show,VB,tree,her,NN,PRP
 find me some legs .,find,find,VB,legs,me,NNS,PRP
-do you wanna make a bicycle for him ?,make,make,VB,for,bicycle,IN,NN
-can you find them for me ?,find,find,VB,for,them,IN,PRP
-shall i take it apart for you ?,take,take,VB,for,it,IN,PRP
 let me show you adam .,show,show,VB,adam,you,NNP,PRP
 did you show ursula your monkey train .,show,show,VB,train,ursula,NN,NNP
-well you go in the other room and i'll bring a surprise for you ?,bring,bring,VB,for,surprise,IN,NN
 sit in the chair and i'll tell you something .,tell,tell,VB,something,you,NN,PRP
 sit here and i'll tell you something .,tell,tell,VB,something,you,NN,PRP
 and what does this give you ?,give,give,VB,you,what,PRP,WP
 you told me that before .,tell,told,VBD,that,me,DT,PRP
 who taught you that ?,teach,taught,VBD,that,you,DT,PRP
 who gave you this ?,give,gave,VBD,this,you,DT,PRP
-i made it just for you like i promised .,make,made,VBD,for,it,IN,PRP
 the father gives the mother a thing called a sperm .,give,gives,VBZ,thing,mother,NN,NN
 why did sue give you the book .,give,give,VB,book,you,NN,PRP
 why did she give you the book ?,give,give,VB,book,you,NN,PRP
@@ -4792,9 +4463,7 @@ do you remember who gave you the binoculars ?,give,gave,VBD,binoculars,you,NNS,P
 who gave you those binoculars ?,give,gave,VBD,binoculars,you,NNS,PRP
 who gave you those binoculars ?,give,gave,VBD,binoculars,you,NNS,PRP
 i'll read you a story .,read,read,VB,story,you,NN,PRP
-i think we should make some arrows for somebody .,make,make,VB,for,arrows,IN,NNS
 bring me your brown bag your mailman bag .,bring,bring,VB,bag,me,NN,PRP
-are you glad i made that for you ?,make,made,VBD,for,that,IN,DT
 puddin tane ask me again and i'll tell you the same .,tell,tell,VB,same,you,JJ,PRP
 i'll give you a hug i can give you a hug without taking that off .,give,give,VB,hug,you,NN,PRP
 give me a kiss little .,give,give,VB,kiss,me,NN,PRP
@@ -4828,7 +4497,6 @@ well let me show you a different way and see if this one's right too .,show,show
 i'll show you a different way and you tell me if this one's right .,show,show,VB,way,you,NN,PRP
 yeah i thought you could show them the big buddah .,show,show,VB,buddah,them,NN,PRP
 they're i think they're gonna babysit tomorrow for you they're gonna play games with you and read you books .,read,read,VB,books,you,NNS,PRP
-can you write my paper for me for school honey ?,write,write,VB,for,paper,IN,NN
 i'll tell you all that later .,tell,tell,VB,that,you,DT,PRP
 so what else could we show grandma and grandpa at the museum when we go tomorrow .,show,show,VB,grandma,what,NN,WP
 it gave you a tummy ache .,give,gave,VBD,ache,you,NN,PRP
@@ -4845,25 +4513,18 @@ here if i give you my card can you swipe this card roman .,give,give,VBP,card,yo
 speaking of hold on i'm gonna ask you some questions about this morning .,ask,ask,VB,questions,you,NNS,PRP
 i just asked you a question .,ask,asked,VBD,question,you,NN,PRP
 i just asked you a question .,ask,asked,VBD,question,you,NN,PRP
-i'll go make some pancakes for william ?,make,make,VB,for,pancakes,IN,NNS
 give me a kiss will .,give,give,VB,kiss,me,NN,PRP
 you know what i'll tell you what you eat those apples and i'll put more syrup on your plate .,tell,tell,VB,you,what,PRP,WP
 okay well then i can't give you more syrup .,give,give,VB,syrup,you,NN,PRP
-can you make a w for me ?,make,make,VB,for,w,IN,NN
 did you just want mommy to come over and give you a big hug and hold you .,give,give,VB,hug,you,NN,PRP
 you didn't give her too much food .,give,give,VB,food,her,NN,PRP
-you wanna make a circle for the baby too ?,make,make,VB,for,circle,IN,NN
 did he bring you something ?,bring,bring,VB,something,you,NN,PRP
 would you serve ursula some coffee ?,serve,serve,VB,coffee,ursula,NN,NNP
-you're carrying some for you .,carry,carrying,VBG,for,some,IN,DT
 don't you give ursula anything ?,give,give,VB,anything,ursula,NN,NNP
 what did you give us ?,give,give,VB,us,what,PRP,WP
 do you know what we call this ?,call,call,VBP,this,what,DT,WP
 did you show cecelia the watch ?,show,show,VB,watch,cecelia,NN,NNP
-shall i take it out for you adam ?,take,take,VB,for,it,IN,PRP
 i just gave you some more .,give,gave,VBD,more,you,JJR,PRP
-did you sing a song for ursula ?,sing,sing,VB,for,song,IN,NN
-should we sing tingalayo for her .,sing,sing,VB,for,tingalayo,IN,NNP
 what can we tell her about that avril does ?,tell,tell,VB,her,what,PRP,WP
 i know at least two places that erin would sometimes take you ?,take,take,VB,you,that,PRP,WDT
 i'll give you a little hint ?,give,give,VB,hint,you,NN,PRP
@@ -4871,7 +4532,6 @@ i'll give you a hint ?,give,give,VB,hint,you,NN,PRP
 what'd you ask kaylia ?,ask,ask,VB,kaylia,what,NNP,WP
 is that what she told you ?,tell,told,VBD,you,what,PRP,WP
 what did you ask her ?,ask,ask,VB,her,what,PRP,WP
-you're gonna leave it right there for kaylia .,leave,leave,VB,for,it,IN,PRP
 which one would you like first you show me .,show,show,VBP,me,one,PRP,NN
 no don't give her these things honey .,give,give,VB,things,her,NNS,PRP
 no no no honey i'm gonna show you watch .,show,show,VB,watch,you,NN,PRP
@@ -4881,8 +4541,6 @@ i'll show you watch .,show,show,VB,watch,you,VB,PRP
 you wanna give her green hair ?,give,give,VB,hair,her,NN,PRP
 alright wanna give her the purple and blue now ?,give,give,VB,purple,her,NN,PRP
 let me get rid of this and then we'll get the purple and the blue and give her purple and blue .,give,give,VB,purple,her,NN,PRP
-i'll roll out some shapes for you .,roll,roll,VB,for,shapes,IN,NNS
-i'll make two baby snakes for you .,make,make,VB,for,snakes,IN,NNS
 i'll give you the circle .,give,give,VB,circle,you,NN,PRP
 well give mommy one piece of something .,give,give,VB,piece,mommy,NN,NN
 does miss janet tell you nice imagination ?,tell,tell,VB,imagination,you,NN,PRP
@@ -4911,13 +4569,10 @@ first we'll give you a quarter .,give,give,VB,quarter,you,NN,PRP
 do we owe you any more money ?,owe,owe,VB,money,you,NN,PRP
 well i'll give a i'll give you a penny for each cocoa .,give,give,VB,you,a,PRP,DT
 you'll lend me some money so i can pay for the cocoa ?,lend,lend,VB,money,me,NN,PRP
-he must have made him for you .,make,made,VBN,for,him,IN,PRP
 who gave you that new jersey ?,give,gave,VBD,jersey,you,NN,PRP
-oh let's make a birthday party for spencer .,make,make,VB,for,party,IN,NN
 what do you say when i give you something ?,give,give,VBP,something,you,NN,PRP
 did she ask you any questions ?,ask,ask,VB,questions,you,NNS,PRP
 well i think i'm the little princess and you're the big queen so you can tell me the story .,tell,tell,VB,story,me,NN,PRP
-go throw this in the wash for me okay ?,throw,throw,VB,for,this,IN,DT
 why here i'll give you some tape .,give,give,VB,tape,you,NN,PRP
 you'll have to go find that nickel and give ursula that nickel .,give,give,VB,nickel,ursula,NN,NN
 tell you a story ?,tell,tell,VB,story,you,NN,PRP
@@ -4931,7 +4586,6 @@ i'll give you one white .,give,give,VB,white,you,NN,PRP
 can you tell me a story ?,tell,tell,VB,story,me,NN,PRP
 what else did esther give you ?,give,give,VB,you,what,PRP,WP
 yeah esther gave you a santa claus .,give,gave,VBD,claus,you,NNP,PRP
-make a story up for me .,make,make,VB,for,story,IN,NN
 you didn't tell me a story .,tell,tell,VB,story,me,NN,PRP
 give me my garden set .,give,give,VB,set,me,NN,PRP
 yeah well she didn't tell me that .,tell,tell,VB,that,me,DT,PRP
@@ -4939,7 +4593,6 @@ what're you feeding her ?,feed,feeding,VBG,her,what,PRP,WP
 remember what i told you honey .,tell,told,VBD,you,what,PRP,WP
 i can't catch it if you don't give me the thing .,give,give,VB,thing,me,NN,PRP
 i'll read you a story okay .,read,read,VB,story,you,NN,PRP
-do you wanna read the storybook for me ?,read,read,VB,for,storybook,IN,NN
 why don't we build something with the blocks that beatrice gave you .,give,gave,VBD,you,that,PRP,WDT
 did she bring you a present ?,bring,bring,VB,present,you,NN,PRP
 who taught you that word ?,teach,taught,VBD,word,you,NN,PRP
@@ -4970,10 +4623,8 @@ okay now give me the skirt ?,give,give,VB,skirt,me,NN,PRP
 elizabeth can you give me that boy over there .,give,give,VB,boy,me,NN,PRP
 show elizabeth all the animals for the circus honey .,show,show,VB,animals,elizabeth,NNS,NNP
 give elizabeth the baby .,give,give,VB,baby,elizabeth,NN,NNP
-show him what you made for me ?,make,made,VBD,for,what,IN,WP
 go out there and tell daddy that ?,tell,tell,VB,that,daddy,DT,NN
 oh petrie i brought you some food .,bring,brought,VBD,food,you,NN,PRP
-hey honey maybe you wanna sing the aunt leoni song for amanda .,sing,sing,VB,for,song,IN,NN
 who taught you that song ?,teach,taught,VBD,song,you,NN,PRP
 they had sent me a confirmation right away ?,send,sent,VBN,confirmation,me,NN,PRP
 you know i did not really notice the thing that grandma gave you ?,give,gave,VBD,you,that,PRP,WDT
@@ -4981,12 +4632,10 @@ give me some chewies how would you ask for that as if you really wanted some .,g
 let me give you a hint .,give,give,VB,hint,you,NN,PRP
 okay well i've got some other lego medicine right here which i could give you .,give,give,VB,you,which,PRP,WDT
 okay i'm gonna give you some special water ?,give,give,VB,water,you,NN,PRP
-i'll take that off for you .,take,take,VB,for,that,IN,DT
 what can you tell me about pokemon ?,tell,tell,VB,me,what,PRP,WP
 oh so i'm telling you this and you're telling me something ?,tell,telling,VBG,this,you,DT,PRP
 did you show ursula your humpty dumpty ?,show,show,VB,dumpty,ursula,NNP,NNP
 oh were you telling her that ?,tell,telling,VBG,that,her,DT,PRP
-save one for her ?,save,save,VB,for,one,IN,CD
 why're you going to take mine apart and give ursula a little bit of mine ?,give,give,VB,bit,ursula,NN,NNP
 why did you give her such a little little bit .,give,give,VB,bit,her,NN,PRP
 well you shouldn't tell her that .,tell,tell,VB,that,her,DT,PRP
@@ -4997,9 +4646,6 @@ remember remember what marybeth was showing you ?,show,showing,VBG,you,what,PRP,
 she was showing you some pictures of the zoo remember .,show,showing,VBG,pictures,you,NNS,PRP
 take it down a few notches william .,take,take,VB,notches,it,NNS,PRP
 gotta give him piano .,give,give,VB,piano,him,NN,PRP
-you gonna make some for me .,make,make,VB,for,some,IN,DT
-okay you make some for me okay .,make,make,VBP,for,some,IN,DT
-are you gon ma are you gonna make supper for daddy ?,make,make,VB,for,supper,IN,NN
 you gonna give me some coffee please .,give,give,VB,coffee,me,NN,PRP
 did dr cohen give you some medicine ?,give,give,VB,medicine,you,NN,PRP
 he gave you a lollipop ?,give,gave,VBD,lollipop,you,NN,PRP
@@ -5037,11 +4683,9 @@ here give me the diaper bag ?,give,give,VB,bag,me,NN,PRP
 give me that blanket so we can wipe out the inside of this bag ?,give,give,VB,blanket,me,NN,PRP
 give me a piece of that towel .,give,give,VB,piece,me,NN,PRP
 give me that .,give,give,VB,that,me,DT,PRP
-she made that for you .,make,made,VBD,for,that,IN,DT
 i'll give you the twenty and you can give me some change ?,give,give,VB,twenty,you,CD,PRP
 oh who told you that ?,tell,told,VBD,that,you,DT,PRP
 what else are you gonna ask santa claus for ?,ask,ask,VB,claus,what,NNP,WP
-can you sing jingle bells for us ?,sing,sing,VB,for,bells,IN,NNS
 she said you taught her that ?,teach,taught,VBD,that,her,DT,PRP
 give her time .,give,give,VB,time,her,NN,PRP
 give her time .,give,give,VB,time,her,NN,PRP
@@ -5049,7 +4693,6 @@ alright what do you ask daddy ?,ask,ask,VB,daddy,what,NN,WP
 give me kiss .,give,give,VB,kiss,me,NN,PRP
 give me kiss .,give,give,VB,kiss,me,NN,PRP
 are you gonna show me these .,show,show,VB,these,me,DT,PRP
-gonna make room for him .,make,make,VB,for,room,IN,NN
 make me a cup of tea .,make,make,VB,cup,me,NN,PRP
 make me a cup of tea .,make,make,VB,cup,me,NN,PRP
 tell her don't tell me grandma .,tell,tell,VB,grandma,me,NN,PRP
@@ -5058,12 +4701,9 @@ what do they tell the kids ?,tell,tell,VB,kids,what,NNS,WP
 you gonna read me the story .,read,read,VB,story,me,NN,PRP
 okay read me the story .,read,read,VB,story,me,NN,PRP
 you want ta show me the pictures .,show,show,VB,pictures,me,NNS,PRP
-aha we can make some eggs for us .,make,make,VB,for,eggs,IN,NNS
 can you make me some tea ?,make,make,VB,tea,me,NN,PRP
 give me some .,give,give,VB,some,me,DT,PRP
-okay you can make some dinner for me .,make,make,VB,for,dinner,IN,NN
 so you can make them dinner .,make,make,VB,dinner,them,NN,PRP
-what are you making for them ?,make,making,VBG,for,what,IN,WP
 give me this book young lady ?,give,give,VB,book,me,NN,PRP
 i don't think i can show you anything in here that ?,show,show,VB,anything,you,NN,PRP
 he takes his mama some flowers .,take,takes,VBZ,flowers,mama,NNS,NN
@@ -5091,10 +4731,7 @@ mommy's making him breakfast ?,make,making,VBG,breakfast,him,NN,PRP
 can you give him a sip of tea ?,give,give,VB,sip,him,NN,PRP
 can you give him a sip of tea ?,give,give,VB,sip,him,NN,PRP
 mommy makes me breakfast .,make,makes,VBZ,breakfast,me,NN,PRP
-did you make dinner for somebody .,make,make,VB,for,dinner,IN,NN
-well if you make dinner for them you can put their plates on here .,make,make,VBP,for,dinner,IN,NN
 maybe you can give me a spoon or a fork ?,give,give,VB,spoon,me,NN,PRP
-serve some coffee for me ?,serve,serve,VB,for,coffee,IN,NN
 he is really excited when they brought him a present .,bring,brought,VBD,present,him,NN,PRP
 give me a coffee .,give,give,VB,coffee,me,NN,PRP
 let's see give me a cup of coffee .,give,give,VB,cup,me,NN,PRP
@@ -5107,8 +4744,6 @@ make me some coffee .,make,make,VB,coffee,me,NN,PRP
 what are you making rena ?,make,making,VBG,rena,what,XX,WP
 i want ta show you something .,show,show,VB,something,you,NN,PRP
 are you gonna give me a piece of pie ?,give,give,VB,piece,me,NN,PRP
-can you read it for me ?,read,read,VB,for,it,IN,PRP
-you gonna read it for me ?,read,read,VB,for,it,IN,PRP
 give me give mommy some sugar ?,give,give,VB,sugar,mommy,NN,NN
 give mommy some sugar ?,give,give,VB,sugar,mommy,NN,NN
 it shows you different words and different things .,show,shows,VBZ,words,you,NNS,PRP
@@ -5121,21 +4756,17 @@ please don't throw the cars what did mommy tell you about that ?,tell,tell,VB,wh
 what are you giving them ?,give,giving,VBG,them,what,PRP,WP
 you gave her a plate ?,give,gave,VBD,plate,her,NN,PRP
 okay i'll give you the chairs .,give,give,VB,chairs,you,NNS,PRP
-what did i make for you this morning ?,make,make,VB,for,what,IN,WP
 did i make you something for breakfast .,make,make,VB,something,you,NN,PRP
 i wanna show you a beautiful doll that i have ?,show,show,VB,doll,you,NN,PRP
 show him golden gate park .,show,show,VB,park,him,NNP,PRP
-let's find some new shoes for you .,find,find,VB,for,shoes,IN,NNS
 but you can take her out and give her some tea if you want .,give,give,VB,tea,her,NN,PRP
 what can i give you instead ?,give,give,VB,you,what,PRP,WP
 okay i will need some money before i can give you the spaghetti ?,give,give,VB,spaghetti,you,NN,PRP
 how much change do i owe you ?,owe,owe,VB,you,change,PRP,NN
 do you know how much i owe you ?,owe,owe,VBP,you,much,PRP,JJ
-did you make it for her .,make,make,VB,for,it,IN,PRP
 what do you tell the baby ?,tell,tell,VB,baby,what,NN,WP
 show elizabeth the doll .,show,show,VB,doll,elizabeth,NNP,NNP
 you can sit down and give the doll tea now if you want .,give,give,VB,tea,doll,NN,NN
-i saved the house jobs for you .,save,saved,VBD,for,jobs,IN,NNS
 you give it a name .,give,give,VBP,name,it,NN,PRP
 give you a new truck ?,give,give,VB,truck,you,NN,PRP
 what else could you tell her ?,tell,tell,VB,her,what,PRP,WP
@@ -5181,7 +4812,6 @@ that's madeline standing on the bed showing everybody the scar because she had h
 now you can tell ryan the story ?,tell,tell,VB,story,ryan,NN,NNP
 okay well let's see how about if i give you a hint .,give,give,VBP,hint,you,NN,PRP
 tell me a little bit about it ?,tell,tell,VB,bit,me,NN,PRP
-who is gonna teach my classes for me ?,teach,teach,VB,for,classes,IN,NNS
 show him the food you got him .,show,show,VB,food,him,NN,PRP
 are you gonna read him the story or what ?,read,read,VB,story,him,NN,PRP
 give him a kiss .,give,give,VB,kiss,him,NN,PRP
@@ -5194,13 +4824,10 @@ tell me another funny story .,tell,tell,VB,story,me,NN,PRP
 i asked you a question .,ask,asked,VBD,question,you,NN,PRP
 so were you just telling me that ?,tell,telling,VBG,that,me,DT,PRP
 show me something you don't like ?,show,show,VB,something,me,NN,PRP
-you better make out your list for santa claus .,make,make,VB,for,list,IN,NN
 you can make two if you want because i gave you an orange one .,give,gave,VBD,one,you,NN,PRP
 that's why i gave you two cords .,give,gave,VBD,cords,you,NNS,PRP
 i gave you blocks ?,give,gave,VBD,blocks,you,NNS,PRP
 actually you know what we should tell her ?,tell,tell,VB,her,what,PRP,WP
-and daddy carried it for you .,carry,carried,VBD,for,it,IN,PRP
-are you making one for daddy abe .,make,making,VBG,for,one,IN,NN
 can i give you a kiss ?,give,give,VB,kiss,you,NN,PRP
 can i give you a sweet little kiss .,give,give,VB,kiss,you,NN,PRP
 give your mommy a little lick ?,give,give,VB,lick,mommy,NN,NN
@@ -5235,7 +4862,6 @@ you could show her um your new turtle ?,show,show,VB,turtle,her,NN,PRP
 when you give it a hug ?,give,give,VBP,hug,it,NN,PRP
 did you tell amanda you know what you could tell amanda do you remember what we did last time we were at emily's house ?,tell,tell,VB,amanda,what,NNP,WP
 what else did you say susy and puppy and titus ?,say,say,VB,susy,what,NNP,WP
-let me read that for you .,read,read,VB,for,that,IN,DT
 no he gave him the number five and he took the pie and put it on his head right .,give,gave,VBD,number,him,NN,PRP
 give me a kiss give me a kiss .,give,give,VB,kiss,me,NN,PRP
 marky give me a kiss ?,give,give,VB,kiss,me,NN,PRP
@@ -5254,7 +4880,6 @@ what would you tell her if she was scared and she thought they were real ?,tell,
 did you show daddy my surprise ?,show,show,VB,surprise,daddy,NN,NN
 you didn't show me my surprise ?,show,show,VB,surprise,me,NN,PRP
 maybe the easter bunny will bring you some .,bring,bring,VB,some,you,DT,PRP
-give them a bag and say this is for you .,give,give,VB,bag,them,NN,PRP
 emma i'm asking you a question .,ask,asking,VBG,question,you,NN,PRP
 the pancake will give you energy .,give,give,VB,energy,you,NN,PRP
 i could tell him that if you want .,tell,tell,VB,that,him,DT,PRP
@@ -5264,7 +4889,6 @@ wanna show us your new golf clubs ?,show,show,VB,clubs,us,NNS,PRP
 do you wanna show amanda your golf clubs ?,show,show,VB,clubs,amanda,NNS,NNP
 yeah okay hold on can you give me a hug at least ?,give,give,VB,hug,me,NN,PRP
 i can't do my turn unless you give me the club right ?,give,give,VBP,club,me,NN,PRP
-i'll be right down i gotta write something down for the man that's coming .,write,write,VB,for,something,IN,NN
 see if mommy can do what you taught her .,teach,taught,VBD,her,what,PRP,WP
 what one did i just show you ?,show,show,VB,you,one,PRP,NN
 let's see if mommy can do what you taught her .,teach,taught,VBD,her,what,PRP,WP
@@ -5313,7 +4937,6 @@ you were teaching me very good .,teach,teaching,VBG,good,me,JJ,PRP
 brought him rings and pirate things and other dandy stuff together they would travel on puff's gigantic tail pirate ships would lower their flags when puff roared out his name or something like that .,bring,brought,VBD,rings,him,NNS,PRP
 then he gave me back the rest of it .,give,gave,VBD,rest,me,NN,PRP
 and you gave them some .,give,gave,VBD,some,them,DT,PRP
-save a piece for ross and i'll have a piece .,save,save,VB,for,piece,IN,NN
 will you tell her happy birthday ?,tell,tell,VB,birthday,her,NN,PRP
 uh give us a call let us know how you're faring up there .,give,give,VB,call,us,NN,PRP
 i was gonna say i could make you something ?,make,make,VB,something,you,NN,PRP
@@ -5332,13 +4955,11 @@ i'll give you i'll give you a letter .,give,give,VB,you,you,PRP,PRP
 whenever you say the word i'll give you a letter ?,give,give,VB,you,word,PRP,NN
 i'll give you a letter .,give,give,VB,letter,you,NN,PRP
 i'll give you a k .,give,give,VB,k,you,NN,PRP
-wow i bet karen made that for you ?,make,made,VBD,for,that,IN,DT
 what are you gonna show me ?,show,show,VB,me,what,PRP,WP
 you taught me very good things .,teach,taught,VBD,things,me,NNS,PRP
 who taught you that word ?,teach,taught,VBD,word,you,NN,PRP
 can i give you a kiss ?,give,give,VB,kiss,you,NN,PRP
 i showed ross her house right ?,show,showed,VBD,house,ross,NN,NNP
-save one for me .,save,save,VB,for,one,IN,CD
 i'll give you love .,give,give,VB,love,you,NN,PRP
 bring me a piece of paper .,bring,bring,VB,piece,me,NN,PRP
 no you're telling me a story .,tell,telling,VBG,story,me,NN,PRP
@@ -5370,7 +4991,6 @@ let's give him a lotta hair .,give,give,VB,hair,him,NN,PRP
 wait a minute i wanna give him long hair .,give,give,VB,hair,him,NN,PRP
 give me a turn .,give,give,VB,turn,me,NN,PRP
 alright just give me one little piece of that for her eyes .,give,give,VB,piece,me,NN,PRP
-save it for the mother .,save,save,VB,for,it,IN,PRP
 let's give him a little hair .,give,give,VB,him,'s,PRP,PRP
 alex tell me a story .,tell,tell,VB,story,me,NN,PRP
 go ahead tell me one .,tell,tell,VB,one,me,CD,PRP
@@ -5397,7 +5017,6 @@ let's give you a hair cut .,give,give,VB,cut,you,NN,PRP
 someone gave the beggars a bicycle .,give,gave,VBD,bicycle,beggars,NN,NNS
 i asked you a question .,ask,asked,VBD,question,you,NN,PRP
 daddy asked mummie the price of her new hat ?,ask,asked,VBD,price,mummie,NN,NNP
-you gonna make something else for us ?,make,make,VB,for,something,IN,NN
 hey roman tell ryan the joke about .,tell,tell,VB,joke,ryan,NN,NNP
 can you give him the change he takes the change ?,give,give,VB,change,him,NN,PRP
 can i can you make me can you make me a sandwich .,make,make,VB,me,me,PRP,PRP
@@ -5409,7 +5028,6 @@ yes he gave you a lollipop .,give,gave,VBD,lollipop,you,NN,PRP
 and he gave his mother his milk .,give,gave,VBD,milk,mother,NN,NN
 i just gave you some money doctor .,give,gave,VBD,money,you,NN,PRP
 wanna give me kisses .,give,give,VB,kisses,me,NNS,PRP
-let's go make a snack for yer ?,make,make,VB,for,snack,IN,NN
 now what do you what kind of snack do you want in there .,want,want,VB,kind,what,NN,WP
 why don't you take one and give jennifer one .,give,give,VB,one,jennifer,NN,NNP
 naomi i'll take both pieces of chalk away if you don't give jennifer one .,give,give,VB,one,jennifer,CD,NNP
@@ -5423,7 +5041,6 @@ you can tell amanda all the different care bears if you want .,tell,tell,VB,bear
 how about mommy reads you a book ?,read,reads,VBZ,book,you,NN,PRP
 wanna show amanda your lil princess thing .,show,show,VB,thing,amanda,NN,NNP
 did you feed them something ?,feed,feed,VB,something,them,NN,PRP
-maybe you wanna lil sing a lil song for the camera ?,sing,sing,VB,for,song,IN,NN
 how does your hair feel after we give you a bath and wash your hair ?,give,give,VBP,bath,you,NN,PRP
 show me the narrow window .,show,show,VB,window,me,NN,PRP
 mama bear gave the beggars a bowl of peanut butter ?,give,gave,VBD,bowl,beggars,NN,NNS
@@ -5448,7 +5065,6 @@ see my present santa claus gave me .,give,gave,VBD,me,present,PRP,JJ
 santa claus gave me this .,give,gave,VBD,this,me,DT,PRP
 let's see what else will santa claus bring you .,bring,bring,VB,you,what,PRP,WP
 tell me some more about the party at dancing school .,tell,tell,VB,more,me,JJR,PRP
-sing a song for kent ?,sing,sing,VB,for,song,IN,NN
 you didn't show kent your new slippers .,show,show,VB,slippers,kent,NNS,NNP
 oh did you show kent your new game .,show,show,VB,game,kent,NN,NNP
 give me things and then you take em back .,give,give,VB,things,me,NNS,PRP
@@ -5533,10 +5149,8 @@ you can tell me part of it too .,tell,tell,VB,part,me,NN,PRP
 showed them a picture of princess leia .,show,showed,VBD,picture,them,NN,PRP
 i'll tell you the story after the night birds are finished .,tell,tell,VB,story,you,NN,PRP
 tell me one thing that you did .,tell,tell,VB,thing,me,NN,PRP
-make a cake for me .,make,make,VB,for,cake,IN,NN
 tell me that again .,tell,tell,VB,that,me,DT,PRP
 wish i could offer you coffee or something .,offer,offer,VB,coffee,you,NN,PRP
-make a bridge for gloria .,make,make,VB,for,bridge,IN,NN
 well don't give me too many or i might get sick .,give,give,VB,many,me,JJ,PRP
 oh yeah he's already shown me that .,show,shown,VBN,that,me,DT,PRP
 oh i know what you could tell amanda .,tell,tell,VB,amanda,what,NNP,WP
@@ -5551,20 +5165,15 @@ i wanna ask laura something because i think you know .,ask,ask,VB,something,laur
 maybe she's gonna tell us something .,tell,tell,VB,something,us,NN,PRP
 he'll call you a name if you don't give him a pack ?,give,give,VB,pack,him,NN,PRP
 what will you tell him ?,tell,tell,VB,him,what,PRP,WP
-and he'll be mad that you didn't save the gum for vacation village for him ?,save,save,VB,for,gum,IN,NN
 don't you ever call me that again .,call,call,VB,that,me,DT,PRP
 give me the cat .,give,give,VB,cat,me,NN,PRP
 who's gonna give me erhm five dollars ?,give,give,VB,dollars,me,NNS,PRP
 how much do ask him how much he only has ?,ask,ask,VB,him,much,PRP,JJ
-i'll bring it for you .,bring,bring,VB,for,it,IN,PRP
 i'll trade you whitey's .,trade,trade,VB,whitey,you,NNP,PRP
 just give me the babies .,give,give,VB,babies,me,NNS,PRP
 just give me their their blankets and stuff .,give,give,VB,blankets,me,NNS,PRP
 give me your baby's hair .,give,give,VB,hair,me,NN,PRP
-and could andrew take care of some of your baby's for you .,take,take,VB,for,care,IN,NN
-and you can take care of one of sue's baby's for her .,take,take,VB,for,care,IN,NN
 i'll show you boxes .,show,show,VB,boxes,you,NNS,PRP
-do you mind if you take care of another baby for me ?,take,take,VBP,for,care,IN,NN
 he didn't give me anything .,give,give,VB,anything,me,NN,PRP
 did you show ursula your car ?,show,show,VB,car,ursula,NN,NNP
 you have sunglasses that she gave you .,give,gave,VBD,you,that,PRP,WDT
@@ -5590,7 +5199,6 @@ and can you give me back fifty cents ?,give,give,VB,cents,me,NNS,PRP
 do you think you can give me back fifty cents ?,give,give,VB,cents,me,NNS,PRP
 but don't give me back the money i'm giving you .,give,give,VB,money,me,NN,PRP
 just give me the change .,give,give,VB,change,me,NN,PRP
-are you gonna give me those for my baby ?,give,give,VB,those,me,DT,PRP
 could you give me some change please ?,give,give,VB,change,me,NN,PRP
 can you tell me the story ?,tell,tell,VB,story,me,NN,PRP
 you're gonna tell me a story .,tell,tell,VB,story,me,NN,PRP
@@ -5608,8 +5216,6 @@ why are you giving us such nice presents .,give,giving,VBG,presents,us,NNS,PRP
 did he show you some of the words .,show,show,VB,some,you,DT,PRP
 show me the four fingers .,show,show,VB,fingers,me,NNS,PRP
 he really did give you a huge bite .,give,give,VB,bite,you,NN,PRP
-i want one for myself .,want,want,VBP,for,one,IN,CD
-look what sean gave us for the babies .,give,gave,VBD,us,what,PRP,WP
 oh look what sean gave us .,give,gave,VBD,us,what,PRP,WP
 give him humpty dumpty .,give,give,VB,dumpty,him,NNP,PRP
 i'll show you clock .,show,show,VB,clock,you,NN,PRP
@@ -5630,7 +5236,6 @@ who was teaching you that today ?,teach,teaching,VBG,that,you,DT,PRP
 should i save her some more of this .,save,save,VB,more,her,JJR,PRP
 i'll give you a cup of tea .,give,give,VB,cup,you,NN,PRP
 i have the hey i'll give you a couple of the other cookies .,give,give,VB,couple,you,NN,PRP
-can you make the noise for me ?,make,make,VB,for,noise,IN,NN
 this faucet isn't giving me any water ?,give,giving,VBG,water,me,NN,PRP
 it's not giving me any water ?,give,giving,VBG,water,me,NN,PRP
 do you wanna give me those magazines so you can sit on the rocking chair ?,give,give,VB,magazines,me,NNS,PRP
@@ -5638,7 +5243,6 @@ give me the ones on the floor there ?,give,give,VB,ones,me,NNS,PRP
 can you give me that piece of paper too ?,give,give,VB,piece,me,NN,PRP
 oh thank you for bringing me my cat ?,bring,bringing,VBG,cat,me,NN,PRP
 mm maybe we should offer those workers a cup of of coffee or tea so they can have their break .,offer,offer,VB,cup,workers,NN,NNS
-i brought some tea and a snack for you and we can talk about this oil spill that happened .,bring,brought,VBD,for,tea,IN,NN
 let me ask you a question .,ask,ask,VB,question,you,NN,PRP
 give me some names .,give,give,VB,names,me,NNS,PRP
 let me ask you another question .,ask,ask,VB,question,you,NN,PRP
@@ -5654,7 +5258,6 @@ i brought you a present for today's visit ?,bring,brought,VBD,present,you,NN,PRP
 it gave us a hint .,give,gave,VBD,hint,us,NN,PRP
 you're gonna sell me some .,sell,sell,VB,some,me,DT,PRP
 if you're gonna sell me some tea you've gotta find the tea .,sell,sell,VB,tea,me,NN,PRP
-can you find a good cereal in your store for me ?,find,find,VB,for,cereal,IN,NN
 you can serve me something .,serve,serve,VB,something,me,NN,PRP
 are you gonna make me coffee ?,make,make,VB,coffee,me,NN,PRP
 are you gonna give me money back ?,give,give,VB,money,me,NN,PRP
@@ -5679,7 +5282,6 @@ i would give you an ice cream cone .,give,give,VB,cone,you,NN,PRP
 ask wilbur if he can give you an ice cream cone ?,give,give,VB,cone,you,NN,PRP
 i will give you an ice cream cone ?,give,give,VB,cone,you,NN,PRP
 yes i can give you an ice cream cone .,give,give,VB,cone,you,NN,PRP
-could you ask your mother some things for me .,ask,ask,VB,things,mother,NNS,NN
 can you tell wilbur that ?,tell,tell,VB,that,wilbur,DT,NNP
 this is his house but could you ask your mother one more question ?,ask,ask,VB,question,mother,NN,NN
 laura would you sing it your favorite song ?,sing,sing,VB,song,it,NN,PRP
@@ -5720,24 +5322,19 @@ how come you give marky your beer ?,give,give,VB,beer,marky,NN,NNP
 i can show you one word .,show,show,VB,word,you,NN,PRP
 but do you remember what i told you i heard from hans and temerl about him ?,tell,told,VBD,you,what,PRP,WP
 oh well thanks for showing me games emma ?,show,showing,VBG,games,me,NNS,PRP
-what color do you want for me then ?,want,want,VB,for,color,IN,NN
 do you know what people could call me then ?,call,call,VB,me,what,PRP,WP
 we'll make gracie a birthday card .,make,make,VB,card,gracie,NN,NNP
-yep now let's make one for gracie .,make,make,VB,for,one,IN,CD
-should we make a different one for her with different ?,make,make,VB,for,one,IN,NN
 i'm gonna send her a three eyed ballerina in this .,send,send,VB,ballerina,her,NN,PRP
 i'll give you a stamp ?,give,give,VB,stamp,you,NN,PRP
 we mailed her three eyed ballerina we made bird cape for grace but we can give grace two things .,give,give,VB,things,grace,NNS,NNP
 wanna give her this too .,give,give,VB,this,her,DT,PRP
 we'll give her two honey it's alright .,give,give,VB,honey,her,NN,PRP
 for michela and we'll bring her present and i thought we could go you know we could just go and it would be fun .,bring,bring,VB,present,her,NN,PRP
-father sheehan gave me them for you .,give,gave,VBD,them,me,PRP,PRP
 i want tell you a secret .,tell,tell,VB,secret,you,NN,PRP
 give me the leg .,give,give,VB,leg,me,NN,PRP
 tell him a story .,tell,tell,VB,story,him,NN,PRP
 why don't you sing that song you .,sing,sing,VB,you,song,PRP,NN
 tell me a story .,tell,tell,VB,story,me,NN,PRP
-you should sing it for daddy i don't think he knows it .,sing,sing,VB,for,it,IN,PRP
 he gave you a chocolate chip cookie at ten o'clock in the morning .,give,gave,VBD,cookie,you,NN,PRP
 what did you teach your daddy ?,teach,teach,VB,daddy,what,NN,WP
 you give me some of the money and then i'll pay you .,give,give,VBP,some,me,DT,PRP
@@ -5749,7 +5346,6 @@ give me that ball .,give,give,VB,ball,me,NN,PRP
 tell me me about them .,tell,tell,VB,me,me,PRP,PRP
 you wanna show him that game chutes and ladders ?,show,show,VB,game,him,NN,PRP
 which one did you just give ryan ?,give,give,VB,ryan,one,NNP,NN
-remember that day and we made some things for the birds and animals ?,make,made,VBD,for,things,IN,NNS
 well one thing i'll give you a little hint it's something that was kind of silly because we can eat it too for breakfast .,give,give,VB,hint,you,NN,PRP
 oh can i give you a hint ?,give,give,VB,hint,you,NN,PRP
 so you think that she would be thinking about coming and then you want to get a map so that you can know where her house is and then you're gonna bring her the card ?,bring,bring,VB,card,her,NN,PRP
@@ -5774,7 +5370,6 @@ adam what did the lady say when she told you that story .,tell,told,VBD,story,yo
 did she tell you all of the story or did she just stop with the chopping ?,tell,tell,VB,all,you,DT,PRP
 tell me the story ross .,tell,tell,VB,story,me,NN,PRP
 tell me the story about the bird .,tell,tell,VB,story,me,NN,PRP
-and she made some coffee for us too .,make,made,VBD,for,coffee,IN,NN
 and giving him bad instructions ?,give,giving,VBG,instructions,him,NNS,PRP
 what do i ask them ?,ask,ask,VB,them,what,PRP,WP
 tell mommy the whole story .,tell,tell,VB,story,mommy,NN,NN
@@ -5797,10 +5392,7 @@ tell me the whole story ?,tell,tell,VB,story,me,NN,PRP
 what we tell you down the beach who ?,tell,tell,VBP,you,what,PRP,WP
 see any of the horses uncle george took you any horses ?,take,took,VBD,you,any,PRP,DT
 dot sandra wouldn't give you the purple one .,give,give,VB,one,you,NN,PRP
-well all right i'll bring sunflower seeds for you .,bring,bring,VB,for,seeds,IN,NNS
-what should we bring for your daddy ?,bring,bring,VB,for,what,IN,WP
 what do what do you think ernie ?,think,think,VB,what,what,WP,WP
-i guess you can save it for them then .,save,save,VB,for,it,IN,PRP
 i'll give you a hint .,give,give,VB,hint,you,NN,PRP
 you just gave him money back ?,give,gave,VBD,money,him,NN,PRP
 so you gave him the money .,give,gave,VBD,money,him,NN,PRP
@@ -5811,26 +5403,21 @@ take care your thing .,take,take,VB,thing,care,NN,NN
 tell kent his name her name .,tell,tell,VB,name,kent,NN,NNP
 tell kent her name .,tell,tell,VB,name,kent,NN,NNP
 you know what daddy told you ?,tell,told,VBD,you,what,PRP,WP
-why don't you sing that song for ursula ?,sing,sing,VB,for,song,IN,NN
 we're playing a little game called real estate where we sell each others houses .,sell,sell,VBP,houses,others,NNS,NNS
 tell us the whole story .,tell,tell,VB,story,us,NN,PRP
 ross do you want to come up and give me a kiss ?,give,give,VB,kiss,me,NN,PRP
 you going read me a story ?,read,read,VB,story,me,NN,PRP
 sarah you read ann marie a story .,read,read,VBD,story,marie,NN,NNP
-oh sing that song for kent .,sing,sing,VB,for,song,IN,NN
 i know the song wha what can i give you .,give,give,VB,you,what,PRP,WP
 if i were a shepherd i could give him a lamb .,give,give,VB,lamb,him,NN,PRP
 what can i give him ?,give,give,VB,him,what,PRP,WP
 what can i give him ?,give,give,VB,him,what,PRP,WP
-say your abcs for me .,say,say,VB,for,abcs,IN,NNS
 you can show him your binoculars .,show,show,VB,binoculars,him,NNS,PRP
-and oh do you wanna take my broom for me ?,take,take,VB,for,broom,IN,NN
 what can we give him ?,give,give,VB,him,what,PRP,WP
 well i need some for the robot do you think you could give me some ?,give,give,VB,some,me,DT,PRP
 so who can give us the medicine ?,give,give,VB,medicine,us,NN,PRP
 give me your shoes .,give,give,VB,shoes,me,NNS,PRP
 someone gave me the sneezes i don't know who though .,give,gave,VBD,sneezes,me,NNS,PRP
-you know what i made for you belle .,make,made,VBD,for,what,IN,WP
 i made you a big chocolate cake .,make,made,VBD,cake,you,NN,PRP
 i brought you something for you birthday .,bring,brought,VBD,something,you,NN,PRP
 so they rarely work and instead spend their days playing having parties making music and telling each other wonderful stories ?,tell,telling,VBG,stories,other,NNS,JJ
@@ -5849,7 +5436,6 @@ adam do you remember what i told you i saw at the museum ?,tell,told,VBD,you,wha
 you didn't show kent your jump rope .,show,show,VB,rope,kent,NN,NNP
 three easter baskets and a pail and money and marion gave her a bunch of pennies too .,give,gave,VBD,bunch,her,NN,PRP
 your grandaddy gave you that .,give,gave,VBD,that,you,DT,PRP
-she wrote five words for me last night .,write,wrote,VBD,for,words,IN,NNS
 nana sent you an easter card .,send,sent,VBD,card,you,NN,PRP
 then you probably wouldn't give him a snack .,give,give,VB,snack,him,NN,PRP
 why don't you tell me a story ?,tell,tell,VB,story,me,NN,PRP
@@ -5866,7 +5452,6 @@ give me a gallon .,give,give,VB,gallon,me,NN,PRP
 i told you no craziness okay .,tell,told,VBD,craziness,you,NN,PRP
 oh you better maybe you should give me some chocolate milk then .,give,give,VB,milk,me,NN,PRP
 here paul give the horsie some sugar .,give,give,VB,sugar,horsie,NN,NN
-i'll throw it for him .,throw,throw,VB,for,it,IN,PRP
 will you give me a slice ?,give,give,VB,slice,me,NN,PRP
 sarah come here and show me some of these things .,show,show,VB,some,me,DT,PRP
 would you give me the apple ?,give,give,VB,apple,me,NN,PRP
@@ -5911,14 +5496,11 @@ can you show me your african animals ?,show,show,VB,animals,me,NNS,PRP
 can you tell me a story about your animals ?,tell,tell,VB,story,me,NN,PRP
 i'll give you five .,give,give,VB,five,you,CD,PRP
 no who told you that ?,tell,told,VBD,that,you,DT,PRP
-i'll find them for you .,find,find,VB,for,them,IN,PRP
 sebastian had told him everything .,tell,told,VBN,everything,him,NN,PRP
 so it's not a problem at all if you just wanna give me a hard copy and we'll scan it for you .,give,give,VB,copy,me,NN,PRP
-i'm gonna make dinner for them saturday night because they might babysit for you saturday night if daddy and i go see a movie .,make,make,VB,for,dinner,IN,NN
 read the book or give you a hug .,give,give,VB,hug,you,NN,PRP
 she offered to make me human for three days if i gave her my voice in exchange .,give,gave,VBD,voice,her,NN,PRP
 they barely left us enough food for ourselves in the winter !,leave,left,VBD,food,us,NN,PRP
-why don't you sing your halloween song for jenny .,sing,sing,VB,for,song,IN,NN
 uh yeah do you wanna give me the bigger piece of playdoh and i'll make some more .,give,give,VB,piece,me,NN,PRP
 you wanna show amanda your sad face ?,show,show,VB,face,amanda,NN,NNP
 can you show amanda your sad face ?,show,show,VB,face,amanda,NN,NNP
@@ -5945,7 +5527,6 @@ i bet grampy brings you home a bird before the week is out .,bring,brings,VBZ,bi
 did you show daddy this .,show,show,VB,this,daddy,DT,NNP
 they give you candy that's so nice .,give,give,VBP,candy,you,NN,PRP
 trick or treat and then they give you candy .,give,give,VBP,candy,you,NN,PRP
-i can touch it did someone make that for you .,make,make,VB,for,that,IN,DT
 hey roman show karen that picture of the cake for sophie .,show,show,VB,picture,karen,NN,NNP
 what a strange store owner giving us free things .,give,giving,VBG,things,us,NNS,PRP
 can i show you something ?,show,show,VB,something,you,NN,PRP
@@ -5979,7 +5560,6 @@ do you show kent your hoop thing ?,show,show,VB,thing,kent,NN,NNP
 show kent your hoop ?,show,show,VB,hoop,kent,NN,NNP
 she's gonna show him something .,show,show,VB,something,him,NN,PRP
 who teaches you all the songs ?,teach,teaches,VBZ,songs,you,NNS,PRP
-nana brought this for me .,bring,brought,VBD,for,this,IN,DT
 i want a give you a spanking .,give,give,VB,spanking,you,NN,PRP
 and what's she feeding the baby ?,feed,feeding,VBG,baby,what,NN,WP
 how much do you charge me for doing that ?,charge,charge,VB,me,much,PRP,JJ
@@ -6014,7 +5594,6 @@ she she rings up everything and then see tell me how much when i'm all finished 
 okay so tell me how much money do i owe you all together .,owe,owe,VB,you,money,PRP,NN
 you know what janet told me .,tell,told,VBD,me,what,PRP,WP
 okay so let's see what's happening cause there aren't any words so you can tell me the story too ?,tell,tell,VB,story,me,NN,PRP
-but look what she brought for everybody .,bring,brought,VBD,for,what,IN,WP
 okay you wanna tell me the story this time .,tell,tell,VB,story,me,NN,PRP
 you gonna show me a trick with tigri ?,show,show,VB,trick,me,NN,PRP
 sent her an email .,send,sent,VBD,email,her,NN,PRP
@@ -6078,7 +5657,6 @@ you only gave me one dollar .,give,gave,VBD,dollar,me,NN,PRP
 you paid me enough money .,pay,paid,VBD,money,me,NN,PRP
 alright i'll give you thirty cents back .,give,give,VB,cents,you,NNS,PRP
 how can i give people any change ?,give,give,VB,change,people,NN,NNS
-i saved it for you .,save,saved,VBD,for,it,IN,PRP
 and then what did that one guy give you guys that was interesting .,give,give,VB,you,what,PRP,WP
 they gave you the net thing .,give,gave,VBD,thing,you,NN,PRP
 what does a map tell us ?,tell,tell,VB,us,what,PRP,WP
@@ -6096,15 +5674,11 @@ yeah he showed me one of his that he spent months on .,show,showed,VBD,one,me,NN
 i won't give her the money for it .,give,give,VB,money,her,NN,PRP
 judy told me yesterday that .,tell,told,VBD,that,me,DT,PRP
 elana found all the clean dishes and she's making us tea .,make,making,VBG,tea,us,NN,PRP
-honey why don't you bring tea for the whole family .,bring,bring,VB,for,tea,IN,NN
 were you reasonable and cooperative and what did you tell me ?,tell,tell,VB,me,what,PRP,WP
-taking it for wanda .,take,taking,VBG,for,it,IN,PRP
-you're taking it for wanda ?,take,taking,VBG,for,it,IN,PRP
 you told me three .,tell,told,VBD,three,me,CD,PRP
 i told mrs perlow that you could find the c note on the piano pretty good and i said what could i teach you next ?,teach,teach,VB,you,what,PRP,WP
 and i'll tell you part of what it is .,tell,tell,VB,part,you,NN,PRP
 remember what i told you .,tell,told,VBD,you,what,PRP,WP
-make that frog for the monster's pet .,make,make,VB,for,frog,IN,NN
 who taught you that song ?,teach,taught,VBD,song,you,NN,PRP
 who taught you that ?,teach,taught,VBD,that,you,DT,PRP
 miss olsen told you that ?,tell,told,VBD,that,you,DT,PRP
@@ -6152,10 +5726,8 @@ oh you're giving me the tough one .,give,giving,VBG,one,me,NN,PRP
 i'm gonna make kinda a .,make,make,VB,a,kinda,DT,RB
 i think you were telling me that yesterday .,tell,telling,VBG,that,me,DT,PRP
 you wanna clean up and then will you show me your yoga ?,show,show,VB,yoga,me,NN,PRP
-so we can make some room for you ?,make,make,VB,for,room,IN,NN
 i'll give you some water if you tell lauren what we did yesterday .,give,give,VB,water,you,NN,PRP
 the same one that mommy made it didn't she ?,make,made,VBD,it,that,PRP,WDT
-someone made kind of a sweet bread and mommy made the yam frosting for it ?,make,made,VBD,for,frosting,IN,NN
 the cars always get towed away and it'll cost you eight dollars .,cost,cost,VB,dollars,you,NNS,PRP
 what'd he tell you ?,tell,tell,VB,you,what,PRP,WP
 then what do you want some watermelon ?,want,want,VB,watermelon,what,NN,WP
@@ -6177,7 +5749,6 @@ and then then you just give it a little squirt .,give,give,VBP,squirt,it,NN,PRP
 no give him that one .,give,give,VB,one,him,NN,PRP
 my my feeling is it's just given him aggravation !,give,given,VBN,aggravation,him,NN,PRP
 okay when did you tell me that ?,tell,tell,VB,that,me,DT,PRP
-okay let's go let's make breakfast for mommy okay ?,make,make,VB,for,breakfast,IN,NN
 wanna tell me one more story .,tell,tell,VB,story,me,NN,PRP
 tell me some more .,tell,tell,VB,more,me,JJR,PRP
 i take thy name oh lord .,take,take,VBP,lord,name,NNP,NN
@@ -6196,7 +5767,6 @@ i'm asking you a question ?,ask,asking,VBG,question,you,NN,PRP
 sophie asked you a question ?,ask,asked,VBD,question,you,NN,PRP
 can you tell us something else about camping ?,tell,tell,VB,something,us,NN,PRP
 what what what do you want ?,want,want,VB,what,what,WP,WP
-can you go find it for us ?,find,find,VB,for,it,IN,PRP
 what else can you show me roman ?,show,show,VB,me,what,PRP,WP
 karen's gonna show you something this is what you do every time karen comes over .,show,show,VB,something,you,NN,PRP
 now karen asked you a question .,ask,asked,VBD,question,you,NN,PRP
@@ -6231,9 +5801,7 @@ you give him two of yours ?,give,give,VBP,two,him,CD,PRP
 may i give adam one ?,give,give,VB,one,adam,NN,NNP
 well that's what you should call your friends call them by their names .,call,call,VB,friends,what,NNS,WP
 adam will show you pictures paul ?,show,show,VB,pictures,you,NNS,PRP
-you make a hole for paul ?,make,make,VB,for,hole,IN,NN
 do you want anything with them ketchup vinegar ?,want,want,VB,vinegar,anything,NN,NN
-well i'll i'll go in the kitchen and make some up for us .,make,make,VB,for,some,IN,DT
 okay orange juice and maybe we could make him a cake ?,make,make,VB,cake,him,NN,PRP
 come on give me your hands .,give,give,VB,hands,me,NNS,PRP
 show me the word .,show,show,VB,word,me,NN,PRP
@@ -6250,7 +5818,6 @@ give me my pitcher please .,give,give,VB,pitcher,me,NN,PRP
 you give me a kiss .,give,give,VBP,kiss,me,NN,PRP
 it tells you directions .,tell,tells,VBZ,directions,you,NNS,PRP
 it has on numbers that tell you north east south and west .,tell,tell,VBP,south,you,NN,PRP
-we'll make we'll make more room for you .,make,make,VB,for,room,IN,NN
 gail brought her a puzzle .,bring,brought,VBD,puzzle,her,NN,PRP
 she'd bring her a book and sarah would keep saying well can i keep it .,bring,bring,VB,book,her,NN,PRP
 you didn't tell me all that .,tell,tell,VB,that,me,DT,PRP
@@ -6308,16 +5875,12 @@ why don't you start all over and tell us your story again then we won't mess it 
 i'll give you a tranquilizer .,give,give,VB,tranquilizer,you,NN,PRP
 even if you give him a bone he's cranky .,give,give,VBP,bone,him,NN,PRP
 donny brought her home the bone .,bring,brought,VBD,bone,her,NN,PRP
-we'll make room for you up here .,make,make,VB,for,room,IN,NN
 okay now give me your hand .,give,give,VB,hand,me,NN,PRP
-okay well we'll just make a couple white potatos for you ?,make,make,VB,for,potatos,IN,NNS
 can you show me them ?,show,show,VB,them,me,PRP,PRP
 okay come you can come over here and show me this side .,show,show,VB,side,me,NN,PRP
 um what should i tell him ?,tell,tell,VB,him,what,PRP,WP
 i thought daddy gave you one .,give,gave,VBD,one,you,NN,PRP
 tell em what you told him .,tell,told,VBD,him,what,PRP,WP
-what did you want for your daddy ?,want,want,VB,for,what,IN,WP
-oh hey sarah i brought something for you .,bring,brought,VBD,for,something,IN,NN
 what do you do once they give you the candy ?,give,give,VBP,candy,you,NN,PRP
 okay how about you just give me that whole stack .,give,give,VBP,stack,me,NN,PRP
 okay how much do i owe you .,owe,owe,VB,you,much,PRP,JJ
@@ -6357,8 +5920,6 @@ what special world is taking the kids places ?,take,taking,VBG,places,kids,NNS,N
 what else tell me something else ?,tell,tell,VB,something,me,NN,PRP
 that should give you a punishment right .,give,give,VB,punishment,you,NN,PRP
 he hurt a lot so mommy had to come and give him a tylenol .,give,give,VB,tylenol,him,NN,PRP
-should i make one for marky .,make,make,VB,for,one,IN,NN
-you see if marky wants one and then i'll make a whole nother one for you okay .,make,make,VB,for,one,IN,NN
 he s should be selmovitch and let's give him a different name because that's the dog .,give,give,VB,name,him,NN,PRP
 i wanna give him a present .,give,give,VB,present,him,NN,PRP
 well how about i bring him a purple doggie bed ?,bring,bring,VBP,bed,him,NN,PRP
@@ -6401,7 +5962,6 @@ gives you the what ?,give,gives,VBZ,what,you,WP,PRP
 they have kind of interesting names okay bring me the box please and we will put them back as we're done as we read them .,bring,bring,VB,box,me,NN,PRP
 so what did you tell me about saint patrick didn't he wasn't he a slave for a while or something what happened ?,tell,tell,VB,me,what,PRP,WP
 i asked her something about she said r e d and i said .,ask,asked,VBD,something,her,NN,PRP
-did you take in the barrels for auntie gertie ?,take,take,VB,for,barrels,IN,NNS
 who was telling you this ?,tell,telling,VBG,this,you,DT,PRP
 okay i'll give you an allowance .,give,give,VB,allowance,you,NN,PRP
 do you think commercials always tell you the truth ?,tell,tell,VBP,truth,you,NN,PRP
@@ -6425,13 +5985,10 @@ why don't you ask gail if she'll give you a piece of paper and you can try .,giv
 show her the dragon you drew .,show,show,VB,dragon,her,NN,PRP
 give daddy a kiss goodbye .,give,give,VB,kiss,daddy,NN,NN
 show nanny the the tea set .,show,show,VB,set,nanny,NN,NN
-then you'll save them for my friend who has a new born baby .,save,save,VB,for,them,IN,PRP
 she told him all the things she wanted and you said probably .,tell,told,VBD,things,him,NNS,PRP
 can i get it and show nana your pet rock ?,show,show,VB,rock,nana,NN,NNP
 let's show nanny our pet rock .,show,show,VB,rock,nanny,NN,NN
-what other toys would you like and i'll go find them for you ?,find,find,VB,for,them,IN,PRP
 i brought you some paper and these pens instead .,bring,brought,VBD,paper,you,NN,PRP
-make another for me .,make,make,VB,for,another,IN,DT
 tell me some thing that's silly or crazy .,tell,tell,VB,thing,me,NN,PRP
 tell me something you think is very silly .,tell,tell,VB,something,me,NN,PRP
 it's alright if you don't understand because i'm a big grown up and i don't understand how you can be going nuts and driving someone bananas .,drive,driving,VBG,bananas,someone,NNS,NN
@@ -6441,7 +5998,6 @@ i said adam you could have a banana and offer robin and ursula one would you ?,o
 robin would you give him a few pieces of paper .,give,give,VB,pieces,him,NNS,PRP
 i could show you some pictures of that movie .,show,show,VB,pictures,you,NNS,PRP
 robin would you give him some more ?,give,give,VB,more,him,JJR,PRP
-write a story for us .,write,write,VB,for,story,IN,NN
 would you give him a little piece ?,give,give,VB,piece,him,NN,PRP
 could you give us a piece of paper please ?,give,give,VB,piece,us,NN,PRP
 let's give him a few more .,give,give,VB,more,him,JJR,PRP
@@ -6453,7 +6009,6 @@ sure remember when you that lady doctor gave you a needle ?,give,gave,VBD,needle
 no the nurse gave her the shot .,give,gave,VBD,shot,her,NN,PRP
 the nurse gave her the shot .,give,gave,VBD,shot,her,NN,PRP
 she asked me that last week .,ask,asked,VBD,that,me,DT,PRP
-i made those biscuits for you abe .,make,made,VBD,for,biscuits,IN,NNS
 oh you can show daddy those after dinner okay ?,show,show,VB,those,daddy,DT,NNP
 abe tell me the story .,tell,tell,VB,story,me,NN,PRP
 do you wanna tell her some of the different things you've been doing ?,tell,tell,VB,some,her,DT,PRP
@@ -6461,7 +6016,6 @@ i don't know what you've been doing oh my goodness how about i'll give you a hin
 and what'd you tell him ?,tell,tell,VB,him,what,PRP,WP
 i sent you a postcard .,send,sent,VBD,postcard,you,NN,PRP
 who told you that ?,tell,told,VBD,that,you,DT,PRP
-shall i make one for you ?,make,make,VB,for,one,IN,NN
 because you gave me a hint .,give,gave,VBD,hint,me,NN,PRP
 shall i make you a necklace ?,make,make,VB,necklace,you,NN,PRP
 can you make me some strawberries ?,make,make,VB,strawberries,me,NNS,PRP
@@ -6470,7 +6024,6 @@ do you wanna give judy those two feathers ?,give,give,VB,feathers,judy,NNS,NNP
 what did melissa tell you was his name ?,tell,tell,VB,you,what,PRP,WP
 who taught you the words ?,teach,taught,VBD,words,you,NNS,PRP
 give you a ringding doughnut ?,give,give,VB,doughnut,you,NN,PRP
-okay and what other promise did you make for me tonight ?,make,make,VB,for,promise,IN,NN
 you made me a promise remember the little lego blocks ?,make,made,VBD,promise,me,NN,PRP
 just like they stopped showing the phoenix dirty trick right .,show,showing,VBG,trick,phoenix,NN,NNP
 what did you bring it home ?,bring,bring,VB,it,what,PRP,WP
@@ -6481,7 +6034,6 @@ how much should i pay you ?,pay,pay,VB,you,much,PRP,JJ
 can you give me fifty cents ?,give,give,VB,cents,me,NNS,PRP
 can you give me two quarters ?,give,give,VB,quarters,me,NNS,PRP
 give me two quarters .,give,give,VB,quarters,me,NNS,PRP
-you're you gonna make it for us ?,make,make,VB,for,it,IN,PRP
 what will you tell her when she comes back ?,tell,tell,VB,her,what,PRP,WP
 show me a place where the pliers can go .,show,show,VB,place,me,NN,PRP
 here let me let me give you a hand .,give,give,VB,hand,you,NN,PRP
@@ -6495,7 +6047,6 @@ you wanna give melissa her present now ?,give,give,VB,present,melissa,NN,NNP
 give her a dollar ?,give,give,VB,dollar,her,NN,PRP
 that's what we always give my sister in law and her husband one at .,give,give,VBP,one,what,CD,WP
 that's what we always give my sister in law and her husband one at every christmas because she saves them .,give,give,VBP,one,what,NN,WP
-if he sees me he won't leave any presents for anybody .,leave,leave,VB,presents,me,NNS,PRP
 uncle buster's been teaching her poker .,teach,teaching,VBG,poker,her,NN,PRP
 you better not tell us those secrets .,tell,tell,VB,secrets,us,NNS,PRP
 she'll tell you anything .,tell,tell,VB,anything,you,NN,PRP
@@ -6511,8 +6062,8 @@ do you think i would have asked you if i would have asked you something ?,ask,as
 give me a guess .,give,give,VB,guess,me,NN,PRP
 the yankees offered him more money .,offer,offered,VBD,money,him,NN,PRP
 it's like if somebody offers you two lollipops or they offer you one .,offer,offers,VBZ,lollipops,you,NNS,PRP
+you might play baseball for the guy that offers you two instead of the guy that offers you one right ?,offer,offers,VBZ,two,you,CD,PRP
 they didn't give you any teeth when you were in there though .,give,give,VB,teeth,you,NNS,PRP
-real good i'm gonna take this out for you okay ?,take,take,VB,for,this,IN,DT
 at least they gave you a shirt .,give,gave,VBD,shirt,you,NN,PRP
 i can tell you a story about pinches in the bottom hm ?,tell,tell,VB,story,you,NN,PRP
 let's and give you a little privacy .,give,give,VB,privacy,you,NN,PRP
@@ -6581,7 +6132,6 @@ i'll give him the other half .,give,give,VB,half,him,NN,PRP
 you know what you can tell your father .,tell,tell,VB,father,what,NN,WP
 you tell me the story .,tell,tell,VBP,story,me,NN,PRP
 can i tell you the story as we go along ?,tell,tell,VB,story,you,NN,PRP
-let's let me take it apart for you .,take,take,VB,for,it,IN,PRP
 alright give me some cake mix .,give,give,VB,mix,me,NN,PRP
 okay you wanna sell me some more groceries ?,sell,sell,VB,groceries,me,NNS,PRP
 okay now how much do i owe you ?,owe,owe,VB,you,much,PRP,JJ
@@ -6610,8 +6160,6 @@ ask me again and i'll tell you the same ?,tell,tell,VB,same,you,JJ,PRP
 ask me again and i'll tell you the same ?,tell,tell,VB,same,you,JJ,PRP
 okay you sit here and tell me the whole story .,tell,tell,VBP,story,me,NN,PRP
 okay now tell me a story about all the people in the first bunch .,tell,tell,VB,story,me,NN,PRP
-my little niece made that for me for my birthday .,make,made,VBD,for,that,IN,DT
-we can make some for her .,make,make,VB,for,some,IN,DT
 well you try and we'll see if you can do it and if not i can give you a little hand .,give,give,VB,hand,you,NN,PRP
 so give me some more little regular .,give,give,VB,regular,me,NN,PRP
 give me the nice soft hammer .,give,give,VB,hammer,me,NN,PRP
