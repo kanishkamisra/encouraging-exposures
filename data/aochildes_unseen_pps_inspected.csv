@@ -1,0 +1,557 @@
+sentence,lemma,verb,verb_pos,theme,recipient,theme_pos,recipient_pos,genset
+is that dirty you wanna give it to mommy ?,give,give,VB,it,mommy,PRP,NN,
+she must be saying something to him .,say,saying,VBG,something,him,NN,PRP,vbg
+you never finished reading maggie's book to me .,read,reading,VBG,book,me,NN,PRP,vbg
+momma tell you she wouldn't take you to the square any more ?,take,take,VB,you,square,PRP,NN,
+give it to me please .,give,give,VB,it,me,PRP,PRP,
+no we gave that to somebody .,give,gave,VBD,that,somebody,DT,NN,vbd
+what do you say to him ?,say,say,VB,what,him,WP,PRP,
+wait i'll give it to you in a minute when i'm done .,give,give,VB,it,you,PRP,PRP,
+let's throw it to megan ?,throw,throw,VB,it,megan,PRP,NNP,
+ellie and david gave this to nina .,give,gave,VBD,this,nina,DT,NNP,vbd
+dya think that's what we should do with that tissue or you think maybe you should give that to mommy ?,give,give,VB,that,mommy,DT,NN,
+and then he gave some to nina .,give,gave,VBD,some,nina,DT,NNP,vbd
+nonna sent that to you too didn't she ?,send,sent,VBD,that,you,DT,PRP,vbd
+give it to him .,give,give,VB,it,him,PRP,PRP,
+pierre and maryse gave this to you .,give,gave,VBD,this,you,DT,PRP,vbd
+ellie gave that to you as a present ?,give,gave,VBD,that,you,DT,PRP,vbd
+if i give it to you will you go to bed .,give,give,VBP,it,you,PRP,PRP,
+it's not nice to tell jokes to yourself in company .,tell,tell,VB,jokes,yourself,NNS,PRP,
+i'm gonna take you to that gymboree so you can run around ?,take,take,VB,you,gymboree,PRP,NN,
+i'll give it back to you ?,give,give,VB,it,you,PRP,PRP,
+we have to write little notes to people on our cards ?,write,write,VB,notes,people,NNS,NNS,
+show it to give it to gail .,give,give,VB,it,gail,PRP,NNP,
+you want mommy to read that to you again .,read,read,VB,that,you,DT,PRP,
+i ought to take it to work .,take,take,VB,it,work,PRP,NN,
+giving this one to cromer ?,give,giving,VBG,one,cromer,NN,NNP,vbg
+do you wanna read it to me or do you wanna read another one ?,read,read,VB,it,me,PRP,PRP,
+do you know who sent these to you ?,send,sent,VBD,these,you,DT,PRP,vbd
+do you want me to write your name on a piece of paper and you can copy it on to the card ?,write,write,VB,name,piece,NN,NN,
+yes give one to ursla ?,give,give,VB,one,ursla,PRP,NNP,
+i think you should bring that back and give it to ursula ?,give,give,VB,it,ursula,PRP,NNP,
+you i read that to you every night .,read,read,VBD,that,you,DT,PRP,vbd
+oh you're gonna throw the ball to mommy ?,throw,throw,VB,ball,mommy,NN,NN,
+okay say i can't give that to you until you give me a penny .,give,give,VB,that,you,DT,PRP,
+now listen let me explain something to you ?,explain,explain,VB,something,you,NN,PRP,
+you want to show them to the bunny and tell him about wellfleet .,show,show,VB,them,bunny,PRP,NN,
+shall we wrap this cookie up and take it to maggie's house .,take,take,VB,it,house,PRP,NN,
+throw it to me meanie ?,throw,throw,VB,it,me,PRP,PRP,
+he said that you'd be mine if i said this to you ?,say,said,VBD,this,you,DT,PRP,vbd
+who gave that to you sarah ?,give,gave,VBD,that,you,DT,PRP,vbd
+so what is the dump truck going to bring to the mouse .,bring,bring,VB,what,mouse,WP,NN,
+you're telling the story to sleepy .,tell,telling,VBG,story,sleepy,NN,NNP,vbg
+tony gave that to you .,give,gave,VBD,that,you,DT,PRP,vbd
+here let's give this orange pillow to wags ?,give,give,VB,pillow,wags,NN,NNS,
+read the book to jim .,read,read,VB,book,jim,NN,NNP,
+i hope that you never do anything like that it'll be very bad for you they took me to the hospital what do you see in the hospital here .,take,took,VBD,anything,that,NN,DT,x
+you can give a shampoo to the brush .,give,give,VB,shampoo,brush,NN,NN,
+would you like to take your little kittie to school .,take,take,VB,kittie,school,NN,NN,
+about what the bears are doing and tell it to us while you read us the book ?,tell,tell,VB,it,us,PRP,PRP,
+give a kiss to your foot ?,give,give,VB,kiss,foot,NN,NN,
+i'll put this over here and you can read it to them .,read,read,VB,it,them,PRP,PRP,
+who sent the picture of the lion to nina ?,send,sent,VBD,picture,lion,NN,NN,vbd
+so i've only been i've been trying to give it to her once a week ?,give,give,VB,it,her,PRP,PRP,
+you don't want anybody to read it to you .,read,read,VB,it,you,PRP,PRP,
+oh are you going to show it to the patient when he wakes up .,show,show,VB,it,patient,PRP,NN,
+we've always sent daddy to work and we're cleaning up .,send,sent,VBN,daddy,work,NN,NN,vbd
+and look the little bug's bringing his little doll to bed too .,bring,bringing,VBG,doll,bed,NN,NN,vbg
+what does he say to you ?,say,say,VB,what,you,WP,PRP,
+we're going to give it to him .,give,give,VB,it,him,PRP,PRP,
+you can be his mommy now and take him to four seas .,take,take,VB,him,seas,PRP,NNS,
+i didn't say anything to her .,say,say,VB,anything,her,NN,PRP,
+no nonna gave the picture of the lion to nina .,give,gave,VBD,picture,lion,NN,NN,vbd
+come and show it to me .,show,show,VB,it,me,PRP,PRP,
+you wanna read this book to me ?,read,read,VB,book,me,NN,PRP,
+nina can you give can you give the whistle to linda and let's show linda some toys .,give,give,VB,whistle,linda,NN,NNP,
+did you write a letter to anybody ?,write,write,VB,letter,anybody,NN,NN,
+child gave the receiver to her mommy .,give,gave,VBD,receiver,mommy,NN,NN,vbd
+i'll give that to somebody that will .,give,give,VB,that,somebody,DT,NN,
+shall we give some of your toys to another little girl ?,give,give,VB,some,toys,DT,NNS,
+but i'll give it to you on a cassette ?,give,give,VB,it,you,PRP,PRP,
+show them to me ?,show,show,VB,them,me,PRP,PRP,
+you're reading the book to the bears at toddler time i thought ?,read,reading,VBG,book,bears,NN,NNS,vbg
+are you gonna be able to read it to him .,read,read,VB,it,him,PRP,PRP,
+now i gotta see where i wrote a check to your school .,write,wrote,VBD,check,school,NN,NN,vbd
+no give it to mama .,give,give,VB,it,mama,PRP,NN,
+he doesn't bring anything to naughty girls just good girls ?,bring,bring,VB,anything,girls,NN,NNS,
+gave the carrot to the big big rabbit ?,give,gave,VBD,carrot,rabbit,NN,NN,vbd
+can i send a message to your phone ?,send,send,VB,message,phone,NN,NN,
+i'd feed my pajamas to giant piranhas but i wouldn't say .,feed,feed,VB,pajamas,piranhas,NNS,NNS,
+when when we go to gramma hanke's shall we take some of your toys on the airplane ?,take,take,VB,hanke,some,NNP,DT,
+he lifted his hat to the manager who was standing just inside the door and then consulted mrs brown's shopping list .,lift,lifted,VBD,hat,manager,NN,NN,vbd
+oh that is ursula's you give it to ursula .,give,give,VBP,it,ursula,PRP,NNP,
+she wants to push the little baby to bed .,push,push,VB,baby,bed,NN,NN,
+you think lynn would like to read the book to you ?,read,read,VB,book,you,NN,PRP,
+now give it to melissa .,give,give,VB,it,melissa,PRP,NNP,
+what do you want to take to the movies ?,take,take,VB,what,movies,WP,NNS,
+sold to a circus then week after week they showed him to people at ten cents a peek .,show,showed,VBD,circus,week,NN,NN,vbd
+throw the mangos down to his friend ?,throw,throw,VB,mangos,friend,NNS,NN,
+he took the car to work .,take,took,VBD,car,work,NN,NN,vbd
+well this is he's feeding cake to his little animals .,feed,feeding,VBG,cake,animals,NN,NNS,vbg
+did you write a letter to santa !,write,write,VB,letter,santa,NN,NNP,
+do you want to read this one to mommy and then mommy will read this one to you ?,read,read,VB,one,mommy,NN,NN,
+take it to work .,take,take,VB,it,work,PRP,NN,
+oh can you sing rock a bye to him ?,sing,sing,VB,bye,him,UH,PRP,
+no you throw it to me .,throw,throw,VBP,it,me,PRP,PRP,vbd
+chester duplicated his christmas list every year and gave a copy to wilson because they always wanted to same things anyway .,give,gave,VBD,copy,wilson,NN,NNP,vbd
+who gave this monkey to nina ?,give,gave,VBD,monkey,nina,NN,NNP,vbd
+will you give that to gigi please .,give,give,VB,that,gigi,DT,NNP,
+you want to say goodbye to her ?,say,say,VB,goodbye,her,NN,PRP,
+now first i'll hand them to you and let you hold them a little while .,hand,hand,VB,them,you,PRP,PRP,
+maybe he does we'll have to give it to him when he gets home hah .,give,give,VB,it,him,PRP,PRP,
+say something to yourself now ?,say,say,VB,something,yourself,NN,PRP,
+maybe you wanna introduce little box to baby .,introduce,introduce,VB,box,baby,NN,NN,
+let me push you up to the table ?,push,push,VB,you,table,PRP,NN,
+who sent the lion to nina ?,send,sent,VBD,lion,nina,NN,NNP,vbd
+you've seen daddy do that when he takes you to the y m c a for swim class .,take,takes,VBZ,you,a,PRP,NN,
+throw it to me buddy .,throw,throw,VB,it,me,PRP,PRP,
+you take us to club and suzy or you picks us up .,take,take,VBP,us,club,PRP,NN,
+let her give it to you .,give,give,VB,it,you,PRP,PRP,
+i think we'll have to take the swing down and give it to richard .,give,give,VB,it,richard,PRP,NNP,
+i need to return eight books to the library and backpack's going to help me ?,return,return,VB,books,library,NNS,NN,
+here give him to me to bite hum .,give,give,VB,him,me,PRP,PRP,
+you wanna put some shorts on because we gonna go outside and take that stuff to the garage ?,take,take,VB,stuff,garage,NN,NN,
+i'm gonna bring mom to the airport in the morning .,bring,bring,VB,mom,airport,NN,NN,
+do you want to wrap this up and take it to maggie's house ?,take,take,VB,it,house,PRP,NN,
+what if santa doesn't give it to you ?,give,give,VB,it,you,PRP,PRP,
+nonna brought that book to you that's right .,bring,brought,VBD,book,you,NN,PRP,vbd
+let's slide it to the circle .,slide,slide,VB,it,circle,PRP,NN,
+okay i'm gonna throw the ball to you .,throw,throw,VB,ball,you,NN,PRP,
+are you gonna show it to him ?,show,show,VB,it,him,PRP,PRP,
+bring it to me and i'll fix it .,bring,bring,VB,it,me,PRP,PRP,
+what'd the guy say to you ?,say,say,VB,what,you,WP,PRP,
+you can feed the dolly a snack before she goes to bed in the plate that maggie gave you .,feed,feed,VB,snack,bed,NN,NN,
+give it to daddy please .,give,give,VB,it,daddy,PRP,NN,
+okay let's bring some to maggie .,bring,bring,VB,some,maggie,DT,NNP,
+i brought you a present to you .,bring,brought,VBD,present,you,NN,PRP,vbd
+i'll give it to bob .,give,give,VB,it,bob,PRP,NNP,
+i read used to read this to you so many times every day .,read,read,VB,this,you,DT,PRP,
+why don't you give one to ursula so she can write ?,give,give,VB,one,ursula,CD,NNP,
+would you like to give them to him as a christmas present ?,give,give,VB,them,him,PRP,PRP,
+maybe you better offer them to somebody who likes them .,offer,offer,VBP,them,somebody,PRP,NN,
+what do they say to you ?,say,say,VB,what,you,WP,PRP,
+you not gonna read it to me ?,read,read,VB,it,me,PRP,PRP,
+the policeman says what to the lady ?,say,says,VBZ,what,lady,WP,NN,vbd
+because i don't because i can't bring lily with me so tomorrow i can have don watch her and i can pop over to the hospital .,bring,bring,VB,lily,me,NNP,PRP,
+is that what he says to you .,say,says,VBZ,what,you,WP,PRP,
+maybe your dump truck can come and visit the village and bring things to the village .,bring,bring,VB,things,village,NNS,NN,
+i think you've talked to a tape recorder before haven't you you said hello to it .,say,said,VBD,recorder,hello,NN,UH,vbd
+yes you give it to ursula ?,give,give,VBP,it,ursula,PRP,NNP,
+but i'll give you the cassette to hear if you'll give it back to me ?,give,give,VB,it,me,PRP,PRP,
+did nonna bring snoopy to you too .,bring,bring,VB,snoopy,you,NN,PRP,
+and who takes him to the train .,take,takes,VBZ,him,train,PRP,NN,vbd
+melissa can you throw it to megan ?,throw,throw,VB,it,megan,PRP,NNP,
+arthur and d w took baby kate to the street fair .,take,took,VBD,kate,fair,NNP,NN,vbd
+give one to edna and one to daddy ?,give,give,VB,one,edna,CD,NNP,
+mrs funny bunny took honey bunny to the bathroom ?,take,took,VBD,bunny,bathroom,NNP,NN,vbd
+you'll just have to wait until daddy gives it to you ?,give,gives,VBZ,it,you,PRP,PRP,
+do you need your own chair to sit in to read it to them ?,read,read,VB,it,them,PRP,PRP,
+see he's giving a hug to his mommy isn't that nice ?,give,giving,VBG,hug,mommy,NN,NN,vbg
+give it to daddy .,give,give,VB,it,daddy,PRP,NN,
+oh adam why don't you give them to robin and then he can give them to his mother .,give,give,VB,them,robin,PRP,NNP,
+why don't you get a book and read it to jack .,read,read,VB,it,jack,PRP,NNP,
+and i'll read that to you later ?,read,read,VB,that,you,DT,PRP,
+you give some to ross ?,give,give,VBP,some,ross,DT,NNP,
+he sent p j to his room .,send,sent,VBD,j,room,NNP,NN,vbd
+and what do you say to daddy when he gets when he goes off to the train .,say,say,VB,what,daddy,WP,NN,
+lily do you wanna read your barn book to manuela !,read,read,VB,book,manuela,NN,NNP,
+france gave the statue of liberty to new york ?,give,gave,VBD,statue,liberty,NNP,NNP,vbd
+mama tell melissa to throw the ball to you .,throw,throw,VB,ball,you,NN,PRP,
+now give it to me now and i'll put it away for tomorrow .,give,give,VB,it,me,PRP,PRP,
+did you take your tiger mask to school ?,take,take,VB,mask,school,NN,NN,
+give it to me .,give,give,VB,it,me,PRP,PRP,
+give it to mummy ?,give,give,VB,it,mummy,PRP,NNP,
+mr and mrs mouse took the children to the zoo .,take,took,VBD,children,zoo,NNS,NN,vbd
+could you just give it to me and then i'll put it away for awhile okay .,give,give,VB,it,me,PRP,PRP,
+did you say that to me ?,say,say,VB,that,me,DT,PRP,
+aren't you going to read it to jim .,read,read,VB,it,jim,PRP,NNP,
+why did chris give that to you ?,give,give,VB,that,you,DT,PRP,
+but i think you should give some to ursula .,give,give,VB,some,ursula,DT,NNP,
+but even that i'm like it's so hard to wait a whole week to give it to her because she wants it .,give,give,VB,it,her,PRP,PRP,
+leave it to me .,leave,leave,VB,it,me,PRP,PRP,
+we're gonna bring that to new york and you're gonna read it to gramma rosie .,bring,bring,VB,that,york,DT,NNP,
+no i want to explain something to you ?,explain,explain,VB,something,you,NN,PRP,
+a baby now did we give this to a baby when we moved to new york .,give,give,VB,this,baby,DT,NN,
+who's going to take you to the museum ?,take,take,VB,you,museum,PRP,NN,
+hey can i take this to school ?,take,take,VB,this,school,DT,NN,
+you wanna read that to me ?,read,read,VB,that,me,DT,PRP,
+i'm home you are you're finally here toot told his friends of his adventure and how he finally got back to woodcock pocket .,tell,told,VBD,friends,adventure,NNS,NN,vbd
+you wanna to give water just like we give water to mimi right and tasha ?,give,give,VBP,water,mimi,NN,NNP,
+give that to professor brown .,give,give,VB,that,brown,DT,NNP,
+freight train is a train that carries things from place to place .,carry,carries,VBZ,things,place,NNS,NN,
+those are stamps you use when you want to send a letter to italy .,send,send,VB,letter,italy,NN,NNP,
+cause we couldn't drive the the tires to a garage to get them fixed right ?,drive,drive,VB,tires,garage,NNS,NN,
+push it to the leaf ?,push,push,VB,it,leaf,PRP,NN,
+daddy and who else goes to the who drops daddy off at the train ?,drop,drops,VBZ,the,daddy,DT,NN,
+your giving a stick to daisy .,give,giving,VBG,stick,daisy,NN,NNP,vbg
+oh you wanna bring tomorrow you want to bring band aids to ronnie and colleen too .,bring,bring,VB,aids,ronnie,NNS,NNP,
+you read it to the both of us .,read,read,VBD,it,both,PRP,DT,vbd
+who'd you write a letter to ?,write,write,VB,who,letter,WP,NN,
+shall we take nonno to the beach .,take,take,VB,nonno,beach,NNS,NN,
+daddy just wants to say one thing to mommy theresa .,say,say,VB,thing,theresa,NN,NNP,
+you can read them to me .,read,read,VB,them,me,PRP,PRP,
+what do you bring in your lunch box when you go to school ?,bring,bring,VB,what,box,WP,NN,
+have him say something to me .,say,say,VB,something,me,NN,PRP,
+do you take your lunch to school ?,take,take,VB,lunch,school,NN,NN,
+because we will give it to you ?,give,give,VB,it,you,PRP,PRP,
+and i tape it off and give it to you .,give,give,VBP,it,you,PRP,PRP,
+remember daddy remember daddy carried you all the way home and then drove you to the to the hospital .,drive,drove,VBD,you,the,PRP,DT,vbd
+show it to me .,show,show,VB,it,me,PRP,PRP,
+you're going to have to buy another one and give it to ursula because you're breaking that one .,give,give,VB,it,ursula,PRP,NNP,
+that's it now you can say hello to me .,say,say,VB,hello,me,UH,PRP,
+you take dolly to the house like i took you ?,take,take,VBP,dolly,house,NNP,NN,
+i think we brought them to maggie's house .,bring,brought,VBD,them,house,PRP,NN,vbd
+hey there's the ball get it and throw it to me .,throw,throw,VB,it,me,PRP,PRP,
+do give striped underwear to the zebra .,give,give,VB,underwear,zebra,NN,NN,
+oh nonna took you to the zoo didn't she ?,take,took,VBD,you,zoo,PRP,NN,vbd
+or take him to j p licks that's the one in brookline that we liked remember .,take,take,VB,him,licks,PRP,NNP,
+here's it is kind of it's a helicopter that works like an ambulance it also brings people to the hospital but brings them in the air .,bring,brings,VBZ,people,hospital,NNS,NN,
+especially when she took me to the x ray room .,take,took,VBD,me,room,PRP,NN,vbd
+aren't you going to explain the reason to me .,explain,explain,VB,reason,me,NN,PRP,
+shall we take this valentine to maggie's house and fix it .,take,take,VB,valentine,house,NN,NN,
+you could read it to doug .,read,read,VB,it,doug,PRP,NNP,
+okay megan you throw it to melissa .,throw,throw,VBP,it,melissa,PRP,NNP,
+you know that man that i take my car to when it's broken ?,take,take,VBP,that,car,WDT,NN,x
+take it to a friend johnny brown .,take,take,VB,it,friend,PRP,NN,
+hello peter say something to me .,say,say,VB,something,me,NN,PRP,
+you didn't pay any attention to them ?,pay,pay,VB,attention,them,NN,PRP,
+no ross i'm not going to give them to you .,give,give,VB,them,you,PRP,PRP,
+you want me to read it to you .,read,read,VB,it,you,PRP,PRP,
+i never pushed you up to the table ?,push,pushed,VBD,you,table,PRP,NN,vbd
+here hand it to mama i don't need that i think .,hand,hand,VB,it,mama,PRP,NNP,
+alright i gotta go write this out to katie and mail it to her today .,write,write,VB,this,katie,DT,NNP,
+who took you to the fire station ?,take,took,VBD,you,station,PRP,NN,vbd
+maybe you wanna show your fire engine to manuela ?,show,show,VB,engine,manuela,NN,NNP,
+you gonna read the book to your bears too .,read,read,VB,book,bears,NN,NNS,
+carry piggy to the bank ?,carry,carry,VB,piggy,bank,NN,NN,
+take the game and explain it to ursula ?,explain,explain,VB,it,ursula,PRP,NNP,
+bring the baby to bed ?,bring,bring,VB,baby,bed,NN,NN,
+chucky throw his banana peel over to the garden with rennie and slipped on this banana peel .,throw,throw,VB,peel,garden,NN,NN,
+are you ready to say goodbye to the tape recorder ?,say,say,VB,goodbye,recorder,UH,NN,
+show it to daddy .,show,show,VB,it,daddy,PRP,NN,
+there's daddy reading a story to the bunny and his baby dolly .,read,reading,VBG,story,bunny,NN,NN,vbg
+can you hand them to me and i'll stack them up ?,hand,hand,VB,them,me,PRP,PRP,
+they took me to the hospital ?,take,took,VBD,me,hospital,PRP,NN,vbd
+sunday night my mother took her to the cub scout party .,take,took,VBD,her,party,PRP,NN,vbd
+give it back to her she had it ?,give,give,VB,it,her,PRP,PRP,
+give it to me a minute !,give,give,VB,it,me,PRP,PRP,
+i used to have to read these to you all the time .,read,read,VB,these,you,DT,PRP,
+never brought it to his attention cause some of the kids in the neighborhood climb it .,bring,brought,VBD,it,attention,PRP,NN,vbd
+give it to ursula .,give,give,VB,it,ursula,PRP,NNP,
+can you read the pooh bear book to me ?,read,read,VB,book,me,NN,PRP,
+are you saying something to me .,say,saying,VBG,something,me,NN,PRP,vbg
+honey mommy does not want the clay on the rug honey because it sticks to the rug .,want,want,VB,clay,rug,NN,NN,
+now you have to read it to me and roy and tom okay ?,read,read,VB,it,me,PRP,PRP,
+you'd better give that back to ursula .,give,give,VB,that,ursula,DT,NNP,
+bring it to dad so he can read it to you i'm gonna sit right here .,bring,bring,VB,it,dad,PRP,NN,
+wanna give it to dada .,give,give,VB,it,dada,PRP,NNP,
+come sit here and read it to me .,read,read,VB,it,me,PRP,PRP,
+but what do you say to lise .,say,say,VB,what,lise,WP,NNP,
+we made it to the troll bridge but the grumpy old troll won't let us cross unless we solve his riddle .,make,made,VBD,it,bridge,PRP,NN,vbd
+can you read it to me ?,read,read,VB,it,me,PRP,PRP,
+who did you give a bite to ?,give,give,VB,who,bite,WP,NN,
+remember we took it to the shore ?,take,took,VBD,it,shore,PRP,NN,vbd
+now let her hand them to you ?,hand,hand,VB,them,you,PRP,PRP,
+can you write a letter to your grandma ?,write,write,VB,letter,grandma,NN,NN,
+but i was still little scared specially when she took me to the x ray room .,take,took,VBD,me,room,PRP,NN,vbd
+are you gonna read it to me .,read,read,VB,it,me,PRP,PRP,
+reading the books to your bears ?,read,reading,VBG,books,bears,NNS,NNS,vbg
+which story do you want to read to her .,read,read,VB,story,her,NN,PRP,
+give them to me .,give,give,VB,them,me,PRP,PRP,
+adam will give it to you .,give,give,VB,it,you,PRP,PRP,
+they took me to the hospital oh those are the ambulance people .,take,took,VBD,me,hospital,PRP,NN,vbd
+i think mommy probably takes him to the potty right ?,take,takes,VBZ,him,potty,PRP,NN,vbd
+i have to go down to the bank and do a couple of errands and take her to dancing school .,take,take,VB,her,school,PRP,NN,
+give it to me ?,give,give,VB,it,me,PRP,PRP,
+we made it to the pumpkin patch ?,make,made,VBD,it,patch,PRP,NN,vbd
+you gonna read chicken and earmuffs to the birds .,read,read,VB,chicken,birds,NN,NNS,
+i will give it to you ?,give,give,VB,it,you,PRP,PRP,
+no you better give it to me here ?,give,give,VBP,it,me,PRP,PRP,
+you know usually it's the farmer who brings the cows to the veterinary hospital .,bring,brings,VBZ,cows,hospital,NNS,NN,
+would you like mommy to read it to you .,read,read,VB,it,you,PRP,PRP,
+do you want me to give it to you ?,give,give,VB,it,you,PRP,PRP,
+did you show them to linda ?,show,show,VB,them,linda,PRP,NNP,
+do you want to take your dolly to bed ?,take,take,VB,dolly,bed,NN,NN,
+what did we give to the baby do you remember ?,give,give,VB,what,baby,WP,NN,
+ross did you say something bad to your daddy ?,say,say,VB,something,daddy,NN,NN,
+uh i don't think i'm gonna carry you out to the car ?,carry,carry,VB,you,car,PRP,NN,
+all right let's see if the farmer will sell it to us for forty dollars !,sell,sell,VB,it,us,PRP,PRP,
+someone's bringing them to the .,bring,bringing,VBG,them,the,PRP,DT,vbg
+write a letter and you can give it to the mailman when he comes .,give,give,VB,it,mailman,PRP,NN,
+woof say the puppies to the baby duck .,say,say,VB,puppies,duck,NNS,NN,
+mississippi we'll have to tell that one to daddy tonight .,tell,tell,VB,one,daddy,NN,NN,
+why don't we give this to the patient .,give,give,VB,this,patient,DT,NN,
+you're giving it to me ?,give,giving,VBG,it,me,PRP,PRP,vbg
+i already gave it to kalie .,give,gave,VBD,it,kalie,PRP,NNP,vbd
+leila gave it to nina for her birthday .,give,gave,VBD,it,nina,PRP,NNP,vbd
+give it to mommy !,give,give,VB,it,mommy,PRP,NN,
+did maggie give this to you as a present .,give,give,VB,this,you,DT,PRP,
+would you like to read it to me ?,read,read,VB,it,me,PRP,PRP,
+i'll show it to you .,show,show,VB,it,you,PRP,PRP,
+james will take him to school in a week when he goes back to college ?,take,take,VB,him,school,PRP,NN,
+are you going to read it to me .,read,read,VB,it,me,PRP,PRP,
+and her mommy is going to be happy to sing happy birthday to her daughter .,sing,sing,VB,birthday,daughter,NN,NN,
+now you have to read the story to me .,read,read,VB,story,me,NN,PRP,
+throw it to you ?,throw,throw,VB,it,you,PRP,PRP,
+give it to the bird .,give,give,VB,it,bird,PRP,NN,
+or just pass it to me ?,pass,pass,VB,it,me,PRP,PRP,
+wait just a minute and she'll give it to you .,give,give,VB,it,you,PRP,PRP,
+what does ernie say to bert ?,say,say,VB,what,bert,WP,NNP,
+that's why i was giving it to you ?,give,giving,VBG,it,you,PRP,PRP,vbg
+did nonna take you to the park ?,take,take,VB,you,park,PRP,NN,
+so we gave it to aunt jill and uncle steve so they could carry baby cassie ?,give,gave,VBD,it,jill,PRP,NNP,vbd
+sell it to me ?,sell,sell,VB,it,me,PRP,PRP,
+they took him to boston to kalamazoo chicago weehawken and washington too !,take,took,VBD,him,boston,PRP,NNP,vbd
+i'd bring it to jason .,bring,bring,VB,it,jason,PRP,NNP,
+you wanna say anything to her ?,say,say,VB,anything,her,NN,PRP,
+aren't you gonna read it to me ?,read,read,VB,it,me,PRP,PRP,
+wanna give this to the cat .,give,give,VB,this,cat,DT,NN,
+give that medicine to the bear twice a day .,give,give,VB,medicine,bear,NN,NN,
+take it to a friend johnny brown ?,take,take,VB,it,friend,PRP,NN,
+i gave it to ann marie but you can use it too now that she's not using using it ?,give,gave,VBD,it,marie,PRP,NNP,vbd
+give it to me laura .,give,give,VB,it,me,PRP,PRP,
+yeah so she gave it to sarah for christmas .,give,gave,VBD,it,sarah,PRP,NNP,vbd
+do you wanna read can you read it to me ?,read,read,VB,it,me,PRP,PRP,
+mama said she'd take you to the play ground after while ?,take,take,VB,you,ground,PRP,NN,
+matt gave it to you ?,give,gave,VBD,it,you,PRP,PRP,vbd
+a welcoming committee is someone or some people who say hello to someone who comes in to a new place .,say,say,VBP,hello,someone,UH,NN,
+and you're introducing me to him .,introduce,introducing,VBG,me,him,PRP,PRP,vbg
+can you give that to mommy ?,give,give,VB,that,mommy,DT,NN,
+let's see i'll read that to you .,read,read,VB,that,you,DT,PRP,
+who gave it to you that gave you that ?,give,gave,VBD,it,you,PRP,PRP,vbd
+okay give it to me and i'll see if you can .,give,give,VB,it,me,PRP,PRP,
+can you throw the balloon to linda ?,throw,throw,VB,balloon,linda,NN,NNP,
+okay she's giving them to you ?,give,giving,VBG,them,you,PRP,PRP,vbg
+want to give this to ursula .,give,give,VB,this,ursula,DT,NNP,
+wanna throw the football to mommy ?,throw,throw,VB,football,mommy,NN,NN,
+wait a second don't you wanna say goodbye to erin and then say merry christmas .,say,say,VB,goodbye,erin,UH,NNP,
+want me to throw it to you ?,throw,throw,VB,it,you,PRP,PRP,
+they're gonna take him to some place else .,take,take,VB,him,place,PRP,NN,
+i'm giving it to you .,give,giving,VBG,it,you,PRP,PRP,vbg
+my mom sent it to her so we have to bring it to new york with us .,send,sent,VBD,it,her,PRP,PRP,vbd
+it belongs to you but george gave it to you .,give,gave,VBD,it,you,PRP,PRP,vbd
+that's how you sold him you sold him to me and he had blood all over him ?,sell,sold,VBD,him,me,PRP,PRP,vbd
+you wanna bring that to manuela ?,bring,bring,VB,that,manuela,DT,NNP,
+yeah i was gonna send that to the people who had the baby ?,send,send,VB,that,people,DT,NNS,
+i'm going to take these to school okay .,take,take,VB,these,school,DT,NN,
+you say that to me .,say,say,VBP,that,me,DT,PRP,
+okay do you want to sell it to me ?,sell,sell,VB,it,me,PRP,PRP,
+now you sold it to me .,sell,sold,VBD,it,me,PRP,PRP,vbd
+come read it to me .,read,read,VB,it,me,PRP,PRP,
+now let me help you snap it to your shirt .,snap,snap,VB,it,shirt,PRP,NN,
+you're going to show it to her ?,show,show,VB,it,her,PRP,PRP,
+oh there's your new book can you bring it to me ?,bring,bring,VB,it,me,PRP,PRP,
+okay if you want mommy to get it then you're gonna have to give it to me and i'll get the almond out for you .,give,give,VB,it,me,PRP,PRP,
+can you say that to yourself ?,say,say,VB,that,yourself,DT,PRP,
+i have to go home now and read a read a book to my little girl .,read,read,VB,book,girl,NN,NN,
+did adam give that to ursula ?,give,give,VB,that,ursula,DT,NNP,
+i broke my cream pitcher so i'll just give it to you .,give,give,VB,it,you,PRP,PRP,
+maybe we can take it out to the grillo's so that they'll have some toys for their bath tub .,take,take,VB,it,grillo,PRP,NNS,
+oh you gonna carry him to another room in the hospital .,carry,carry,VB,him,room,PRP,NN,
+i i have trouble explaining it to you laura ?,explain,explaining,VBG,it,you,PRP,PRP,vbg
+sing me take me out to the baseball game .,take,take,VB,me,game,PRP,NN,
+you want me to read that to you ?,read,read,VB,that,you,DT,PRP,
+you gave it to me ?,give,gave,VBD,it,me,PRP,PRP,vbd
+you read a story to the class now .,read,read,VBP,story,class,NN,NN,
+when you woken up a little bit more you can help me to take things from back yard to the garage ?,take,take,VB,things,yard,NNS,NN,
+what would all the mamas say to each other if they was visiting ?,say,say,VB,what,other,WP,JJ,
+you wanna give it to me ?,give,give,VB,it,me,PRP,PRP,
+i'm gonna throw it to you .,throw,throw,VB,it,you,PRP,PRP,
+you want me to read it to you all .,read,read,VB,it,you,PRP,PRP,
+and the trains take it to all kinds of places ?,take,take,VBP,it,kinds,PRP,NNS,
+i know you'll tell a story to big bird won't you .,tell,tell,VB,story,bird,NN,NNP,
+would you read that story to me peter ?,read,read,VB,story,me,NN,PRP,
+go ahead bring it to her .,bring,bring,VB,it,her,PRP,PRP,
+are you going to hand that to me .,hand,hand,VB,that,me,DT,PRP,
+how about take me out to the baseball game ?,take,take,VB,me,game,PRP,NN,
+now we have to find the quickest way to the library who do we ask for help when we don't know which way to go !,ask,ask,VB,way,library,NN,NN,
+it carries the pollen to other flowers and this helps the flowers to make new seeds ?,carry,carries,VBZ,pollen,flowers,NN,NNS,
+going to give it to robin ?,give,give,VB,it,robin,PRP,NNP,
+you can tell you read the story to me .,read,read,VB,story,me,NN,PRP,
+he's taking it to oscar it tickles elmo's nose .,take,taking,VBG,it,oscar,PRP,NNP,vbg
+come here bring it to me .,bring,bring,VB,it,me,PRP,PRP,
+okay you read it to me because i'm not going to sleep until i get a story .,read,read,VBD,it,me,PRP,PRP,vbd
+oh bring the balloon to david .,bring,bring,VB,balloon,david,NN,NNP,
+football you want me to throw it to you ?,throw,throw,VB,it,you,PRP,PRP,
+well yeah okay you can give that to gigi go ahead .,give,give,VB,that,gigi,DT,NNP,
+you just throw it to me .,throw,throw,VBP,it,me,PRP,PRP,
+you want to drive me in the car to the zoo .,drive,drive,VB,me,car,PRP,NN,
+your wife gave it to me for christmas .,give,gave,VBD,it,me,PRP,PRP,vbd
+i gave it to you .,give,gave,VBD,it,you,PRP,PRP,vbd
+and who is this reading to franny .,read,reading,VBG,who,franny,WP,NNP,x
+teacher danielle gave it to you .,give,gave,VBD,it,you,PRP,PRP,vbd
+no the only thing i was thinkin of tryin to take him to that gymboree class ?,take,take,VB,him,class,PRP,NN,
+what does she say to you ?,say,say,VB,what,you,WP,PRP,
+you gonna read the rabbit book to me ?,read,read,VB,book,me,NN,PRP,
+do you wanna read the book to me ?,read,read,VB,book,me,NN,PRP,
+i take you to club .,take,take,VBP,you,club,PRP,NN,
+i'll read it to you !,read,read,VB,it,you,PRP,PRP,
+there it is throw it to me ?,throw,throw,VB,it,me,PRP,PRP,
+daddy is gonna dress you and take you to school .,take,take,VB,you,school,PRP,NN,
+you want to read it to me ?,read,read,VB,it,me,PRP,PRP,
+now you tell me what you want and i'll give it to you and you give me money okay .,give,give,VB,it,you,PRP,PRP,
+what is she saying to the policeman ?,say,saying,VBG,what,policeman,WP,NN,x
+did he send it to you in the mail ?,send,send,VB,it,you,PRP,PRP,
+can you read it to mommy ?,read,read,VB,it,mommy,PRP,NN,
+can you give that piece to mommy and i'll throw it away honey honey honey honey sweetie ?,give,give,VB,piece,mommy,NN,NN,
+i went oh no but he never put it in his mouth i said give it to me that's yack ?,give,give,VB,it,me,PRP,PRP,
+and the mommy tried to feed miss spider to her babies .,feed,feed,VB,spider,babies,NNP,NNS,
+ellie gave it to you .,give,gave,VBD,it,you,PRP,PRP,vbd
+but you wanna make a card from you to daddy ?,make,make,VB,card,you,NN,PRP,
+i just sang it to you ?,sing,sang,VBD,it,you,PRP,PRP,vbd
+and then she can drive him to school .,drive,drive,VB,him,school,PRP,NN,
+what is she saying now to that person ?,say,saying,VBG,what,person,WP,NN,x
+do you want to bring this to maggie's house tomorrow ?,bring,bring,VB,this,house,DT,NN,
+i just handed it to you what did you do with it .,hand,handed,VBD,it,you,PRP,PRP,vbd
+she took it with her to work .,take,took,VBD,it,her,PRP,PRP,vbd
+that's what he's saying to your cow .,say,saying,VBG,what,cow,WP,NN,x
+oh thank you very much and we're gonna show this to all your other classmates !,show,show,VB,this,classmates,DT,NNS,
+do you know who sent them to you ?,send,sent,VBD,them,you,PRP,PRP,vbd
+take them to the doctor ?,take,take,VB,them,doctor,PRP,NN,
+okay let's push it to the next one .,push,push,VB,it,one,PRP,NN,
+well i don't think we need to take the bag to her .,take,take,VB,bag,her,NN,PRP,
+and she'll give it to you .,give,give,VB,it,you,PRP,PRP,
+give that tape to mom violet ?,give,give,VB,tape,violet,NN,NNP,
+do you want to show that to me ?,show,show,VB,that,me,DT,PRP,
+what'd you say hi to the stars ?,say,say,VB,what,stars,WP,NNS,
+give it to the horses .,give,give,VB,it,horses,PRP,NNS,
+they brought it home to you .,bring,brought,VBD,it,you,PRP,PRP,vbd
+didn't she give them to you ?,give,give,VB,them,you,PRP,PRP,
+well i thought you already sold it to me though .,sell,sold,VBD,it,me,PRP,PRP,vbd
+could you you give that to daddy ?,give,give,VB,that,daddy,DT,NNP,
+yes we're going to take santa claus to maggie's house .,take,take,VB,claus,house,NNP,NN,
+whoa throw it to me ?,throw,throw,VB,it,me,PRP,PRP,
+here let me throw it to melissa ?,throw,throw,VB,it,melissa,PRP,NNP,
+adam smith now it's your turn to read a story to the class .,read,read,VB,story,class,NN,NN,
+you wanna pass it to me ?,pass,pass,VB,it,me,PRP,PRP,
+well here i'll hand it to you .,hand,hand,VB,it,you,PRP,PRP,
+who gave it to you that ?,give,gave,VBD,it,you,PRP,PRP,vbd
+shall we put this away and bring it to maggie's house .,bring,bring,VB,it,house,PRP,NN,
+want to carry our food to town in the train ?,carry,carry,VB,food,town,NN,NN,
+well i'm here you don't have to write a letter to me .,write,write,VB,letter,me,NN,PRP,
+we send all the people to the hospital .,send,send,VBP,people,hospital,NNS,NN,
+you can read it to manuela .,read,read,VB,it,manuela,PRP,NNP,
+do you want to give one to mommy ?,give,give,VB,one,mommy,CD,NN,
+we're gonna have to write a note to ourselves .,write,write,VB,note,ourselves,NN,PRP,
+you can hand them to me .,hand,hand,VB,them,me,PRP,PRP,
+want me to read it to you .,read,read,VB,it,you,PRP,PRP,
+rachel gave it to you ?,give,gave,VBD,it,you,PRP,PRP,vbd
+okay can you carry that to the door for me ?,carry,carry,VB,that,door,DT,NN,
+you gonna give it to mommy to throw .,give,give,VB,it,mommy,PRP,NN,
+okay give it to daddy come here yes .,give,give,VB,it,daddy,PRP,NN,
+i thought you were gonna read it to me .,read,read,VB,it,me,PRP,PRP,
+come show it to me sarah .,show,show,VB,it,me,PRP,PRP,
+who gave them to you ?,give,gave,VBD,them,you,PRP,PRP,vbd
+can you give them to me please ?,give,give,VB,them,me,PRP,PRP,
+are you gonna read it to them or they gonna read it to themselves .,read,read,VB,it,them,PRP,PRP,
+i gave em all to you there's no more honey .,give,gave,VBD,em,you,PRP,PRP,vbd
+yes i'll give it to you ?,give,give,VB,it,you,PRP,PRP,
+can you read the story to me ?,read,read,VB,story,me,NN,PRP,
+with a knife then i'm gonna give it to you to eat ?,give,give,VB,knife,it,NN,PRP,
+well you gave them to me .,give,gave,VBD,them,me,PRP,PRP,vbd
+no after you bring him to the bank what are you gonna do with him .,bring,bring,VBP,him,bank,PRP,NN,
+you sold it to me ?,sell,sold,VBD,it,me,PRP,PRP,vbd
+throw it to mommy pick it up and throw it .,throw,throw,VB,it,mommy,PRP,NN,
+alright you pick out whatever you'd like and you bring it down here to the cash register okay ?,bring,bring,VBP,it,register,PRP,NN,
+susie gave it to you ?,give,gave,VBD,it,you,PRP,PRP,vbd
+because we need him to help us take it to the recycling center .,take,take,VB,it,center,PRP,NN,
+i'm gonna give it to her for christmas ?,give,give,VB,it,her,PRP,PRP,
+and what's he bringing to bed with him .,bring,bringing,VBG,what,bed,WP,NN,x
+you have to read it to me okay ?,read,read,VB,it,me,PRP,PRP,
+travis's gonna deliver the mail to them ?,deliver,deliver,VB,mail,them,NN,PRP,
+i'll watch while you read it to jim ?,read,read,VBP,it,jim,PRP,NNP,
+you describe the dolly to me .,describe,describe,VBP,dolly,me,NN,PRP,
+you want me to throw it to you .,throw,throw,VB,it,you,PRP,PRP,
+yeah you're right though they had to take her to the juicer room .,take,take,VB,her,room,PRP,NN,
+what's the policeman saying to the kittie ?,say,saying,VBG,what,kittie,WP,NN,x
+throw it to me ?,throw,throw,VB,it,me,PRP,PRP,
+okay throw it to me ?,throw,throw,VB,it,me,PRP,PRP,
+but one to two if they're really suggesting one to two ounces a week i can't believe that they don't hand this out on a flyer to people .,hand,hand,VB,this,flyer,DT,NN,
+adam why don't you pick cromer's pen up and give it to him ?,give,give,VB,it,him,PRP,PRP,
+who gave it to you ?,give,gave,VBD,it,you,PRP,PRP,vbd
+take it to the living room .,take,take,VB,it,room,PRP,NN,
+you read it to me .,read,read,VBD,it,me,PRP,PRP,vbd
+now you can throw it to me ?,throw,throw,VB,it,me,PRP,PRP,
+you can give them to me cause i'm not keeping them in there anymore .,give,give,VB,them,me,PRP,PRP,
+did you say anything to roy while i was gone ?,say,say,VB,anything,roy,NN,NNP,
+my mother's girl friend gave it to her .,give,gave,VBD,it,her,PRP,PRP,vbd
+is that what i say to you ?,say,say,VBP,what,you,WP,PRP,x
+you're right matty we'll have to show him to daddy ?,show,show,VB,him,daddy,PRP,NNP,
+well i'll give it back to you if you won't do that .,give,give,VB,it,you,PRP,PRP,
+the book uh if you take a mouse to the movies ?,take,take,VBP,mouse,movies,NN,NNS,
+you'll send this picture to him .,send,send,VB,picture,him,NN,PRP,
+wait a minute let me fix it for you and then i'll give it to you .,give,give,VB,it,you,PRP,PRP,
+want me to give it to you ?,give,give,VB,it,you,PRP,PRP,
+you gave it to him ?,give,gave,VBD,it,him,PRP,PRP,vbd
+if i gave them to you or if maybe i put them somewhere else so just let me know alright have a good day bye ?,give,gave,VBD,them,you,PRP,PRP,vbd
+and we'll drive him to the hospital .,drive,drive,VB,him,hospital,PRP,NN,
+you wanna bring it over to her to show her ?,bring,bring,VB,it,her,PRP,PRP,
+yeah you must have taught it to him .,teach,taught,VBN,it,him,PRP,PRP,vbd
+leila gave him to you .,give,gave,VBD,him,you,PRP,PRP,vbd
+i wonder what she's saying to them there .,say,saying,VBG,what,them,WP,PRP,x
+oh can you come show it show it to me then .,show,show,VB,it,me,PRP,PRP,
+i think after you outgrow these pajamas we can give them to chloe ?,give,give,VB,pajamas,them,NNS,PRP,
+and who gave it to you ?,give,gave,VBD,it,you,PRP,PRP,vbd
+didn't you give some to the ?,give,give,VB,some,the,DT,DT,
+where shall we drive the car to ?,drive,drive,VB,where,car,WRB,NN,
+you gave it to her to eat ?,give,gave,VBD,it,her,PRP,PRP,vbd
+no you can't take travis's little ones cause you already gave them to him ?,give,gave,VBD,them,him,PRP,PRP,vbd
+what is she saying to you ?,say,saying,VBG,what,you,WP,PRP,x
+okay sit down here and play a minute and let me take melissa to the pottie okay .,take,take,VB,melissa,pottie,NNP,NN,
+let's try again to say good night to each other should we .,say,say,VB,night,other,NN,JJ,
+maybe you should show these tapes to your mother .,show,show,VB,tapes,mother,NNS,NN,
+no grandpa gave it to you ?,give,gave,VBD,it,you,PRP,PRP,vbd
+read it to me ?,read,read,VB,it,me,PRP,PRP,
+you get the elephant book and you read the story to me .,read,read,VBP,story,me,NN,PRP,
+wanna feed water to the hippo again .,feed,feed,VB,water,hippo,NN,NN,
+who sent it to you ?,send,sent,VBD,it,you,PRP,PRP,vbd
+you're gonna take him to the ambulance ?,take,take,VB,him,ambulance,PRP,NN,
+can you bring it to me ?,bring,bring,VB,it,me,PRP,PRP,
+will you read the book to me .,read,read,VB,book,me,NN,PRP,
+that's what you say to girls .,say,say,VBP,what,girls,WP,NNS,x
+okay come here and read it to me ?,read,read,VB,it,me,PRP,PRP,
+are you gonna give the medicine to somebody ?,give,give,VB,medicine,somebody,NN,NN,
+no i'll be glad if you will hand it to me .,hand,hand,VB,it,me,PRP,PRP,
+and then i gave them back to you .,give,gave,VBD,them,you,PRP,PRP,vbd
+no i gave them to you .,give,gave,VBD,them,you,PRP,PRP,vbd
+we'll have to bring that to maggie .,bring,bring,VB,that,maggie,DT,NNP,
+we'll have to take you to the hospital ?,take,take,VB,you,hospital,PRP,NN,
+did you take it to the shore ?,take,take,VB,it,shore,PRP,NN,
+would you like to read it to me like you do to your sisters ?,read,read,VB,it,me,PRP,PRP,
+is that the tiger that miriam gave to you .,give,gave,VBD,that,you,WDT,PRP,x
+we we don't have to bring it to the garage ?,bring,bring,VB,it,garage,PRP,NN,
+sit up in the chair and i'll give it to you .,give,give,VB,it,you,PRP,PRP,
+no throw it to me ?,throw,throw,VB,it,me,PRP,PRP,
+let's bring this part to maggie ?,bring,bring,VB,part,maggie,NN,NNP,
+i am gonna give it to her .,give,give,VB,it,her,PRP,PRP,
+yeah and do you know what i brought in from the car for you to listen to in the tape player ?,bring,brought,VBD,what,car,WP,NN,x
+you tell me what he says to you .,say,says,VBZ,what,you,WP,PRP,x
+let her give it to you travis .,give,give,VB,it,you,PRP,PRP,
+should we bring something to her ?,bring,bring,VB,something,her,NN,PRP,
+what did you say to me ?,say,say,VB,what,me,WP,PRP,
+now you can give them to robin and he can give them to his mother and we'll both have flowers .,give,give,VB,them,robin,PRP,NNP,
+what'd you sell to papa ?,sell,sell,VB,what,papa,WP,NNP,
+that car yes what else did we give to a baby .,give,give,VB,car,what,NN,WP,
+you brought what to the track ?,bring,brought,VBD,what,track,WP,NN,x
+can you read that one to me ?,read,read,VB,one,me,NN,PRP,
+what are they saying to each other ?,say,saying,VBG,what,other,WP,JJ,x
+tell em what you said to me the other day .,say,said,VBD,what,me,WP,PRP,x
+i want to bring some of that stuff from the back yard that's in your wagon over to the garage and also the kittie pool and put it in the garage .,bring,bring,VB,some,stuff,DT,NN,
+right and what is she saying to the little boy ?,say,saying,VBG,what,boy,WP,NN,x
+melissa throw it to megan .,throw,throw,VB,it,megan,PRP,NNP,
+what did nonna give to nina ?,give,give,VB,what,nina,WP,NNP,x
+okay let's throw it to megan .,throw,throw,VB,it,megan,PRP,NNP,
+aw i was gonna mail something to auntie lizzie too .,mail,mail,VB,something,lizzie,NN,NNP,
+did you tell amanda what you said to me yesterday ?,say,said,VBD,what,me,WP,PRP,x
+oh no give her back to me .,give,give,VB,her,me,PRP,PRP,
+let's give this one to mommy .,give,give,VB,one,mommy,NN,NN,
+where are they pulling him to ?,pull,pulling,VBG,where,him,WRB,PRP,x
+is that what henry the hippo says to lars the polar bear .,say,says,VBZ,what,lars,WP,NNP,x
+marky you give some to ross .,give,give,VBP,some,ross,DT,NNP,
+get the baby and bring him to bed .,bring,bring,VB,him,bed,PRP,NN,
+but do you wanna read it to sleepy .,read,read,VB,it,sleepy,PRP,NNP,
+okay what do you want to take to the movies ?,take,take,VB,what,movies,WP,NNS,x
+you can sit up here and read it to them .,read,read,VB,it,them,PRP,PRP,
+difficult that's what you said to me !,say,said,VBD,what,me,WP,PRP,x
+and what they can say something to daddy because daddy's gotta work too .,say,say,VB,something,daddy,NN,NN,
+bring it to daddy daddy can read tiny tiger .,bring,bring,VB,it,daddy,PRP,NN,

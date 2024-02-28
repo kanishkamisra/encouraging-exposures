@@ -23,6 +23,24 @@ from transformers import (
 #     return generalization
 
 
+def compile_gen_scores(results):
+    statewise = {
+        "initial": {"do": [], "pp": []},
+        "final": {"do": [], "pp": []},
+        "best": {"do": [], "pp": []},
+    }
+    for entry in results:
+        statewise[entry[1]][entry[2]].append(entry[3])
+
+    # do means for each state, each dative
+    statewise_means = {
+        state: {dative: np.mean(scores) for dative, scores in scores.items()}
+        for state, scores in statewise.items()
+    }
+
+    return statewise_means
+
+
 class Learner:
     """A learner is an LM coupled with additional functionality for adding a novel token."""
 
@@ -338,9 +356,12 @@ class Trainer:
     def generalization_step(self, model_state, batch_size=64):
         dl = DataLoader(self.generalization_set, batch_size=batch_size, shuffle=False)
         results = []
+        datives = []
         for batch in dl:
             # do, pp = batch["do"], batch["pp"]
             dative = batch["sentence"]
+            dative_type = batch["dative"]
+            datives.extend(dative_type)
             # do_scores = self.model.sequence_score(do)
             # pp_scores = self.model.sequence_score(pp)
             scores = self.model.sequence_score(dative)
@@ -348,9 +369,9 @@ class Trainer:
             # for do_score, pp_score in zip(do_scores, pp_scores):
             #     results.append((do_score, pp_score))
 
-        for i, res in enumerate(results):
+        for i, (res, dat) in enumerate(results, datives):
             scores = res
-            self.generalization_results.append([i, model_state, scores])
+            self.generalization_results.append([i + 1, model_state, dat, scores])
 
         # self.generalization_results.extend(results)
 
@@ -429,9 +450,9 @@ class Trainer:
 
         # print(self.embs[self.best_epoch-1])
 
-        self.model.lm.model.resize_token_embeddings().weight[
-            self.model.new_index :
-        ] = self.embs[self.best_epoch - 1]
+        self.model.lm.model.resize_token_embeddings().weight[self.model.new_index :] = (
+            self.embs[self.best_epoch - 1]
+        )
         # print(self.model.model_config)
         # set_seed(42)
         # self.model = Learner(**self.model.model_config)
@@ -468,7 +489,7 @@ class Trainer:
         # save generalization set results
         with open(f"{path}/generalization_results.csv", "w") as f:
             writer = csv.writer(f)
-            writer.writerow(["item_id", "model_state", "score"])
+            writer.writerow(["item_id", "model_state", "dative", "score"])
             writer.writerows(self.generalization_results)
 
         # generalization preference
@@ -479,14 +500,16 @@ class Trainer:
         # generalization_preference = {
         #     k: np.mean(v) for k, v in generalization_scores.items()
         # }
-            
-        generalization_scores = defaultdict(list)
-        for entry in self.generalization_results:
-            generalization_scores[entry[1]].append(entry[2])
 
-        generalization_avg_scores = {
-            k: np.mean(v) for k, v in generalization_scores.items()
-        }
+        # generalization_scores = defaultdict(list)
+        # for entry in self.generalization_results:
+        #     generalization_scores[entry[1]].append(entry[2])
+
+        # generalization_avg_scores = {
+        #     k: np.mean(v) for k, v in generalization_scores.items()
+        # }
+
+        generalization_avg_scores = compile_gen_scores(self.generalization_results)
 
         # save summary of training: train loss, best epoch, best dev performance.
         with open(f"{path}/training_summary.json", "w") as f:
@@ -495,16 +518,12 @@ class Trainer:
                 "best_val_performance": max(self.metrics["val_performance"]),
                 "val_performance_metric": self.val_performance_metric,
                 "train_loss": self.metrics["train_loss"][self.best_epoch - 1],
-                "initial_dative_mean": generalization_avg_scores["initial"],
-                "final_dative_mean": generalization_avg_scores["final"],
-                "best_dative_mean": generalization_avg_scores["best"],
-                # "initial_pref_do": generalization_preference["initial"],
-                # "final_pref_do": generalization_preference["final"],
-                # "best_pref_do": generalization_preference["best"],
+                "initial_do_mean": generalization_avg_scores["initial"]["do"],
+                "final_do_mean": generalization_avg_scores["final"]["do"],
+                "best_do_mean": generalization_avg_scores["best"]["pp"],
+                "initial_pp_mean": generalization_avg_scores["initial"]["pp"],
+                "final_pp_mean": generalization_avg_scores["final"]["pp"],
+                "best_pp_mean": generalization_avg_scores["best"]["pp"],
             }
             print(summary)
-            json.dump(
-                summary,
-                f,
-                indent=4
-            )
+            json.dump(summary, f, indent=4)

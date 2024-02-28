@@ -17,10 +17,10 @@ def main(args):
     set_seed(seed)
 
     adaptation_set = utils.read_jsonl(
-        "data/experiments/single_stimuli_dative_simulation/adaptation.jsonl"
+        f"data/experiments/{args.experiment_id}/adaptation.jsonl"
     )
     generalization_set = utils.read_jsonl(
-        "data/experiments/single_stimuli_dative_simulation/generalization.jsonl"
+        f"data/experiments/{args.experiment_id}/generalization.jsonl"
     )
     validation_set = utils.read_json(args.validation_path)
 
@@ -57,7 +57,7 @@ def main(args):
         trainer.train(args.epochs, args.batch_size)
 
         # create results_dir
-        results_dir = f"{args.results_dir}/{model_name}/raw/{instance['item']}_{instance['hypothesis_id']}_{instance['hypothesis_instance']}_{args.lr}_{dative}_results"
+        results_dir = f"{args.results_dir}/{args.experiment_id}/{model_name}/raw/{instance['item']}_{instance['hypothesis_id']}_{instance['hypothesis_instance']}_{args.lr}_{dative}_results"
         pathlib.Path(results_dir).mkdir(parents=True, exist_ok=True)
         trainer.save_results(results_dir)
 
@@ -71,9 +71,12 @@ if __name__ == "__main__":
     parser.add_argument("--device", type=str, default="cuda:0")
     parser.add_argument("--gaussian", action="store_true")
     parser.add_argument(
+        "--experiment_id", type=str, default="single_stimuli_dative_simulation"
+    )
+    parser.add_argument(
         "--results_dir",
         type=str,
-        default="data/results/single_stimuli_dative_simulation/",
+        default="data/results/",
     )
     parser.add_argument(
         "--validation_path", type=str, default="data/experiments/validation.json"

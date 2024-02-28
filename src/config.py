@@ -9,6 +9,7 @@ CONFLICTS = {
     "them": ["they"],
     "me": ["I", "we", "us"],
     "us": ["we", "me"],
+    "teddy": ["the teddy"],
     "the big doll": ["the beautiful doll", "the doll"],
     "the beautiful doll": ["the big doll", "the doll"],
     "the doll": ["the big doll", "the beautiful doll"],

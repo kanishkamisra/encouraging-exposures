@@ -324,9 +324,10 @@ def main(args):
         for item in adaptation_set:
             f.write(json.dumps(item) + "\n")
 
-    with open(f"{exp_dir}/generalization.jsonl", "w") as f:
-        for item in generalization_set:
-            f.write(json.dumps(item) + "\n")
+    if not args.nogen:
+        with open(f"{exp_dir}/generalization.jsonl", "w") as f:
+            for item in generalization_set:
+                f.write(json.dumps(item) + "\n")
 
     # TODO: save by hypothesis_id
 
@@ -343,6 +344,7 @@ if __name__ == "__main__":
         type=str,
         default="data/lexicon/generalization.json",
     )
+    parser.add_argument("--nogen", action="store_true")
     parser.add_argument("--adaptation_size", type=int, default=5)
     parser.add_argument("--generalization_size", type=int, default=20)
     parser.add_argument("--seed", type=int, default=42)

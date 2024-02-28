@@ -1,562 +1,562 @@
 {
     "paspas": {
         "do": [
-            "the bear [verb] her me .",
-            "elmo [verb] her me .",
-            "the dog [verb] me her .",
-            "the doll [verb] me her .",
-            "the bear [verb] me her ."
+            "it [verb] her me .",
+            "mommy [verb] me her .",
+            "nina [verb] me her .",
+            "the boy [verb] me her .",
+            "bert [verb] me her ."
         ],
         "pp": [
-            "the bear [verb] me to her .",
-            "elmo [verb] me to her .",
-            "the dog [verb] her to me .",
-            "the doll [verb] her to me .",
-            "the bear [verb] her to me ."
+            "it [verb] me to her .",
+            "mommy [verb] her to me .",
+            "nina [verb] her to me .",
+            "the boy [verb] her to me .",
+            "bert [verb] her to me ."
         ]
     },
     "paspis": {
         "do": [
-            "the doll [verb] it her .",
-            "the doll [verb] it me .",
-            "the bear [verb] it me .",
-            "grandpa [verb] it me .",
-            "the bear [verb] it me ."
+            "teddy [verb] it me .",
+            "she [verb] it me .",
+            "you [verb] it her .",
+            "teddy [verb] it her .",
+            "you [verb] it her ."
         ],
         "pp": [
-            "the doll [verb] her to it .",
-            "the doll [verb] me to it .",
-            "the bear [verb] me to it .",
-            "grandpa [verb] me to it .",
-            "the bear [verb] me to it ."
+            "teddy [verb] me to it .",
+            "she [verb] me to it .",
+            "you [verb] her to it .",
+            "teddy [verb] her to it .",
+            "you [verb] her to it ."
         ]
     },
     "pasnal": {
         "do": [
-            "the bear [verb] the little dog me .",
-            "the bear [verb] the little dog me .",
-            "the doll [verb] the little dog me .",
-            "the kitty [verb] the little kitty me .",
-            "elmo [verb] the little kitty her ."
+            "mom [verb] the big bear me .",
+            "ernie [verb] the big bear her .",
+            "bert [verb] the little dog me .",
+            "she [verb] the tiny bird me .",
+            "the bear [verb] the tiny bird her ."
         ],
         "pp": [
-            "the bear [verb] me to the little dog .",
-            "the bear [verb] me to the little dog .",
-            "the doll [verb] me to the little dog .",
-            "the kitty [verb] me to the little kitty .",
-            "elmo [verb] her to the little kitty ."
+            "mom [verb] me to the big bear .",
+            "ernie [verb] her to the big bear .",
+            "bert [verb] me to the little dog .",
+            "she [verb] me to the tiny bird .",
+            "the bear [verb] her to the tiny bird ."
         ]
     },
     "pasnas": {
         "do": [
-            "the doll [verb] grandpa her .",
-            "it [verb] mommy me .",
-            "mommy [verb] bert her .",
-            "the bird [verb] the boy her .",
-            "the boy [verb] grandpa her ."
+            "ernie [verb] grampa me .",
+            "mommy [verb] bert me .",
+            "the kitty [verb] the boy her .",
+            "the kitty [verb] bert her .",
+            "ernie [verb] bert me ."
         ],
         "pp": [
-            "the doll [verb] her to grandpa .",
-            "it [verb] me to mommy .",
-            "mommy [verb] her to bert .",
-            "the bird [verb] her to the boy .",
-            "the boy [verb] her to grandpa ."
+            "ernie [verb] me to grampa .",
+            "mommy [verb] me to bert .",
+            "the kitty [verb] her to the boy .",
+            "the kitty [verb] her to bert .",
+            "ernie [verb] me to bert ."
         ]
     },
     "pasnil": {
         "do": [
-            "the teddy [verb] the beautiful doll her .",
-            "elmo [verb] the beautiful doll her .",
-            "it [verb] the red ball me .",
-            "it [verb] the big doll me .",
-            "the bird [verb] some of the chocolate her ."
+            "the bear [verb] some of the juice me .",
+            "grampa [verb] the red ball her .",
+            "you [verb] the big doll her .",
+            "bert [verb] the red ball her .",
+            "she [verb] the beautiful doll me ."
         ],
         "pp": [
-            "the teddy [verb] her to the beautiful doll .",
-            "elmo [verb] her to the beautiful doll .",
-            "it [verb] me to the red ball .",
-            "it [verb] me to the big doll .",
-            "the bird [verb] her to some of the chocolate ."
+            "the bear [verb] me to some of the juice .",
+            "grampa [verb] her to the red ball .",
+            "you [verb] her to the big doll .",
+            "bert [verb] her to the red ball .",
+            "she [verb] me to the beautiful doll ."
         ]
     },
     "pasnis": {
         "do": [
-            "ernie [verb] the doll her .",
-            "the boy [verb] the juice her .",
-            "the bird [verb] the juice her .",
-            "she [verb] the juice me .",
-            "ernie [verb] the juice her ."
+            "mommy [verb] the doll her .",
+            "the kitty [verb] the doll me .",
+            "nonna [verb] the teddy me .",
+            "mom [verb] the juice me .",
+            "ernie [verb] the teddy her ."
         ],
         "pp": [
-            "ernie [verb] her to the doll .",
-            "the boy [verb] her to the juice .",
-            "the bird [verb] her to the juice .",
-            "she [verb] me to the juice .",
-            "ernie [verb] her to the juice ."
+            "mommy [verb] her to the doll .",
+            "the kitty [verb] me to the doll .",
+            "nonna [verb] me to the teddy .",
+            "mom [verb] me to the juice .",
+            "ernie [verb] her to the teddy ."
         ]
     },
     "pispas": {
         "do": [
-            "ernie [verb] me it .",
-            "the kitty [verb] me it .",
-            "grandpa [verb] me it .",
-            "grandpa [verb] her it .",
-            "the bird [verb] me it ."
+            "nina [verb] me it .",
+            "mom [verb] her it .",
+            "the kitty [verb] her it .",
+            "the boy [verb] me it .",
+            "ernie [verb] her it ."
         ],
         "pp": [
-            "ernie [verb] it to me .",
-            "the kitty [verb] it to me .",
-            "grandpa [verb] it to me .",
-            "grandpa [verb] it to her .",
-            "the bird [verb] it to me ."
+            "nina [verb] it to me .",
+            "mom [verb] it to her .",
+            "the kitty [verb] it to her .",
+            "the boy [verb] it to me .",
+            "ernie [verb] it to her ."
         ]
     },
     "pisnal": {
         "do": [
-            "bert [verb] the little kitty it .",
-            "elmo [verb] the little dog it .",
-            "ernie [verb] the little kitty it .",
-            "the dog [verb] the big bear it .",
-            "the dog [verb] the tiny bird it ."
+            "grandpa [verb] the little dog it .",
+            "nonna [verb] the little kitty it .",
+            "you [verb] the tiny bird it .",
+            "nonna [verb] the little kitty it .",
+            "she [verb] the big bear it ."
         ],
         "pp": [
-            "bert [verb] it to the little kitty .",
-            "elmo [verb] it to the little dog .",
-            "ernie [verb] it to the little kitty .",
-            "the dog [verb] it to the big bear .",
-            "the dog [verb] it to the tiny bird ."
+            "grandpa [verb] it to the little dog .",
+            "nonna [verb] it to the little kitty .",
+            "you [verb] it to the tiny bird .",
+            "nonna [verb] it to the little kitty .",
+            "she [verb] it to the big bear ."
         ]
     },
     "pisnas": {
         "do": [
-            "the teddy [verb] mommy it .",
-            "the doll [verb] mommy it .",
-            "the doll [verb] the boy it .",
-            "ernie [verb] bert it .",
-            "grandpa [verb] elmo it ."
+            "I [verb] grampa it .",
+            "mom [verb] bert it .",
+            "nina [verb] elmo it .",
+            "nonna [verb] bert it .",
+            "ernie [verb] bert it ."
         ],
         "pp": [
-            "the teddy [verb] it to mommy .",
-            "the doll [verb] it to mommy .",
-            "the doll [verb] it to the boy .",
-            "ernie [verb] it to bert .",
-            "grandpa [verb] it to elmo ."
+            "I [verb] it to grampa .",
+            "mom [verb] it to bert .",
+            "nina [verb] it to elmo .",
+            "nonna [verb] it to bert .",
+            "ernie [verb] it to bert ."
         ]
     },
     "pisnil": {
         "do": [
-            "bert [verb] some of the chocolate it .",
-            "bert [verb] the big doll it .",
-            "elmo [verb] the beautiful doll it .",
-            "the bear [verb] the beautiful doll it .",
-            "the doll [verb] some of the juice it ."
+            "the bear [verb] some of the juice it .",
+            "the bear [verb] some of the juice it .",
+            "the boy [verb] some of the juice it .",
+            "teddy [verb] some of the chocolate it .",
+            "I [verb] some of the juice it ."
         ],
         "pp": [
-            "bert [verb] it to some of the chocolate .",
-            "bert [verb] it to the big doll .",
-            "elmo [verb] it to the beautiful doll .",
-            "the bear [verb] it to the beautiful doll .",
-            "the doll [verb] it to some of the juice ."
+            "the bear [verb] it to some of the juice .",
+            "the bear [verb] it to some of the juice .",
+            "the boy [verb] it to some of the juice .",
+            "teddy [verb] it to some of the chocolate .",
+            "I [verb] it to some of the juice ."
         ]
     },
     "pisnis": {
         "do": [
-            "the bird [verb] the teddy it .",
-            "the kitty [verb] the candy it .",
-            "the dog [verb] the candy it .",
-            "the boy [verb] the ball it .",
-            "ernie [verb] the candy it ."
+            "elmo [verb] the teddy it .",
+            "nina [verb] the juice it .",
+            "I [verb] the ball it .",
+            "teddy [verb] the ball it .",
+            "elmo [verb] the teddy it ."
         ],
         "pp": [
-            "the bird [verb] it to the teddy .",
-            "the kitty [verb] it to the candy .",
-            "the dog [verb] it to the candy .",
-            "the boy [verb] it to the ball .",
-            "ernie [verb] it to the candy ."
+            "elmo [verb] it to the teddy .",
+            "nina [verb] it to the juice .",
+            "I [verb] it to the ball .",
+            "teddy [verb] it to the ball .",
+            "elmo [verb] it to the teddy ."
         ]
     },
     "nalpas": {
         "do": [
-            "bert [verb] her the big bear .",
-            "the kitty [verb] me the little dog .",
-            "ernie [verb] her the tiny bird .",
-            "the bird [verb] her the tiny bird .",
-            "the teddy [verb] her the little kitty ."
+            "elmo [verb] her the little kitty .",
+            "the kitty [verb] me the big bear .",
+            "mommy [verb] her the tiny bird .",
+            "mommy [verb] me the little dog .",
+            "grampa [verb] me the big bear ."
         ],
         "pp": [
-            "bert [verb] the big bear to her .",
-            "the kitty [verb] the little dog to me .",
-            "ernie [verb] the tiny bird to her .",
-            "the bird [verb] the tiny bird to her .",
-            "the teddy [verb] the little kitty to her ."
+            "elmo [verb] the little kitty to her .",
+            "the kitty [verb] the big bear to me .",
+            "mommy [verb] the tiny bird to her .",
+            "mommy [verb] the little dog to me .",
+            "grampa [verb] the big bear to me ."
         ]
     },
     "nalpis": {
         "do": [
-            "I [verb] it the tiny bird .",
-            "I [verb] it the big bear .",
-            "the kitty [verb] it the big bear .",
-            "the bear [verb] it the little dog .",
-            "the doll [verb] it the little kitty ."
+            "grandpa [verb] it the little dog .",
+            "ernie [verb] it the little kitty .",
+            "bert [verb] it the little kitty .",
+            "the boy [verb] it the little kitty .",
+            "the kitty [verb] it the tiny bird ."
         ],
         "pp": [
-            "I [verb] the tiny bird to it .",
-            "I [verb] the big bear to it .",
-            "the kitty [verb] the big bear to it .",
-            "the bear [verb] the little dog to it .",
-            "the doll [verb] the little kitty to it ."
+            "grandpa [verb] the little dog to it .",
+            "ernie [verb] the little kitty to it .",
+            "bert [verb] the little kitty to it .",
+            "the boy [verb] the little kitty to it .",
+            "the kitty [verb] the tiny bird to it ."
         ]
     },
     "nalnal": {
         "do": [
-            "the teddy [verb] the big bear the tiny bird .",
-            "the dog [verb] the big bear the tiny bird .",
-            "it [verb] the little kitty the tiny bird .",
-            "ernie [verb] the little dog the tiny bird .",
-            "grandpa [verb] the big bear the little kitty ."
+            "nina [verb] the big bear the little kitty .",
+            "mom [verb] the little kitty the big bear .",
+            "mom [verb] the little dog the big bear .",
+            "nonna [verb] the little dog the little kitty .",
+            "the bear [verb] the little dog the little kitty ."
         ],
         "pp": [
-            "the teddy [verb] the tiny bird to the big bear .",
-            "the dog [verb] the tiny bird to the big bear .",
-            "it [verb] the tiny bird to the little kitty .",
-            "ernie [verb] the tiny bird to the little dog .",
-            "grandpa [verb] the little kitty to the big bear ."
+            "nina [verb] the little kitty to the big bear .",
+            "mom [verb] the big bear to the little kitty .",
+            "mom [verb] the big bear to the little dog .",
+            "nonna [verb] the little kitty to the little dog .",
+            "the bear [verb] the little kitty to the little dog ."
         ]
     },
     "nalnas": {
         "do": [
-            "the bear [verb] bert the tiny bird .",
-            "I [verb] elmo the big bear .",
-            "it [verb] grandpa the little kitty .",
-            "elmo [verb] the boy the little kitty .",
-            "I [verb] elmo the little dog ."
+            "nina [verb] elmo the tiny bird .",
+            "elmo [verb] grampa the little dog .",
+            "she [verb] grampa the little kitty .",
+            "the kitty [verb] mommy the big bear .",
+            "teddy [verb] grampa the little kitty ."
         ],
         "pp": [
-            "the bear [verb] the tiny bird to bert .",
-            "I [verb] the big bear to elmo .",
-            "it [verb] the little kitty to grandpa .",
-            "elmo [verb] the little kitty to the boy .",
-            "I [verb] the little dog to elmo ."
+            "nina [verb] the tiny bird to elmo .",
+            "elmo [verb] the little dog to grampa .",
+            "she [verb] the little kitty to grampa .",
+            "the kitty [verb] the big bear to mommy .",
+            "teddy [verb] the little kitty to grampa ."
         ]
     },
     "nalnil": {
         "do": [
-            "the teddy [verb] some of the juice the tiny bird .",
-            "the bear [verb] some of the chocolate the little dog .",
-            "grandpa [verb] some of the chocolate the big bear .",
-            "it [verb] some of the juice the big bear .",
-            "bert [verb] the big doll the tiny bird ."
+            "mommy [verb] the red ball the tiny bird .",
+            "I [verb] some of the juice the little dog .",
+            "nina [verb] some of the juice the big bear .",
+            "it [verb] some of the juice the little kitty .",
+            "mom [verb] the red ball the little dog ."
         ],
         "pp": [
-            "the teddy [verb] the tiny bird to some of the juice .",
-            "the bear [verb] the little dog to some of the chocolate .",
-            "grandpa [verb] the big bear to some of the chocolate .",
-            "it [verb] the big bear to some of the juice .",
-            "bert [verb] the tiny bird to the big doll ."
+            "mommy [verb] the tiny bird to the red ball .",
+            "I [verb] the little dog to some of the juice .",
+            "nina [verb] the big bear to some of the juice .",
+            "it [verb] the little kitty to some of the juice .",
+            "mom [verb] the little dog to the red ball ."
         ]
     },
     "nalnis": {
         "do": [
-            "the boy [verb] the teddy the little kitty .",
-            "it [verb] the doll the little kitty .",
-            "the dog [verb] the juice the big bear .",
-            "mommy [verb] the teddy the little kitty .",
-            "grandpa [verb] the doll the little kitty ."
+            "the bear [verb] the teddy the little dog .",
+            "bert [verb] the juice the big bear .",
+            "mom [verb] the ball the tiny bird .",
+            "grampa [verb] the juice the big bear .",
+            "you [verb] the juice the little kitty ."
         ],
         "pp": [
-            "the boy [verb] the little kitty to the teddy .",
-            "it [verb] the little kitty to the doll .",
-            "the dog [verb] the big bear to the juice .",
-            "mommy [verb] the little kitty to the teddy .",
-            "grandpa [verb] the little kitty to the doll ."
+            "the bear [verb] the little dog to the teddy .",
+            "bert [verb] the big bear to the juice .",
+            "mom [verb] the tiny bird to the ball .",
+            "grampa [verb] the big bear to the juice .",
+            "you [verb] the little kitty to the juice ."
         ]
     },
     "naspas": {
         "do": [
-            "bert [verb] her the boy .",
-            "bert [verb] me elmo .",
-            "the bear [verb] her elmo .",
-            "ernie [verb] her grandpa .",
-            "grandpa [verb] me bert ."
+            "mommy [verb] me grampa .",
+            "it [verb] me grampa .",
+            "nonna [verb] me bert .",
+            "mom [verb] me grampa .",
+            "mommy [verb] me the boy ."
         ],
         "pp": [
-            "bert [verb] the boy to her .",
-            "bert [verb] elmo to me .",
-            "the bear [verb] elmo to her .",
-            "ernie [verb] grandpa to her .",
-            "grandpa [verb] bert to me ."
+            "mommy [verb] grampa to me .",
+            "it [verb] grampa to me .",
+            "nonna [verb] bert to me .",
+            "mom [verb] grampa to me .",
+            "mommy [verb] the boy to me ."
         ]
     },
     "naspis": {
         "do": [
-            "the dog [verb] it elmo .",
-            "ernie [verb] it the boy .",
-            "mommy [verb] it elmo .",
-            "the teddy [verb] it the boy .",
-            "the boy [verb] it grandpa ."
+            "I [verb] it bert .",
+            "elmo [verb] it bert .",
+            "you [verb] it grampa .",
+            "elmo [verb] it the boy .",
+            "the boy [verb] it mommy ."
         ],
         "pp": [
-            "the dog [verb] elmo to it .",
-            "ernie [verb] the boy to it .",
-            "mommy [verb] elmo to it .",
-            "the teddy [verb] the boy to it .",
-            "the boy [verb] grandpa to it ."
+            "I [verb] bert to it .",
+            "elmo [verb] bert to it .",
+            "you [verb] grampa to it .",
+            "elmo [verb] the boy to it .",
+            "the boy [verb] mommy to it ."
         ]
     },
     "nasnal": {
         "do": [
-            "the kitty [verb] the little kitty elmo .",
-            "elmo [verb] the big bear grandpa .",
-            "the bird [verb] the big bear grandpa .",
-            "grandpa [verb] the tiny bird elmo .",
-            "ernie [verb] the little dog bert ."
+            "I [verb] the big bear mommy .",
+            "mom [verb] the little dog mommy .",
+            "nina [verb] the big bear the boy .",
+            "nonna [verb] the big bear the boy .",
+            "it [verb] the tiny bird grampa ."
         ],
         "pp": [
-            "the kitty [verb] elmo to the little kitty .",
-            "elmo [verb] grandpa to the big bear .",
-            "the bird [verb] grandpa to the big bear .",
-            "grandpa [verb] elmo to the tiny bird .",
-            "ernie [verb] bert to the little dog ."
+            "I [verb] mommy to the big bear .",
+            "mom [verb] mommy to the little dog .",
+            "nina [verb] the boy to the big bear .",
+            "nonna [verb] the boy to the big bear .",
+            "it [verb] grampa to the tiny bird ."
         ]
     },
     "nasnas": {
         "do": [
-            "mommy [verb] grandpa the boy .",
-            "ernie [verb] bert the boy .",
-            "I [verb] elmo grandpa .",
+            "grandpa [verb] bert grampa .",
+            "teddy [verb] grampa bert .",
+            "mommy [verb] bert elmo .",
             "I [verb] elmo the boy .",
-            "I [verb] bert mommy ."
+            "I [verb] mommy elmo ."
         ],
         "pp": [
-            "mommy [verb] the boy to grandpa .",
-            "ernie [verb] the boy to bert .",
-            "I [verb] grandpa to elmo .",
+            "grandpa [verb] grampa to bert .",
+            "teddy [verb] bert to grampa .",
+            "mommy [verb] elmo to bert .",
             "I [verb] the boy to elmo .",
-            "I [verb] mommy to bert ."
+            "I [verb] elmo to mommy ."
         ]
     },
     "nasnil": {
         "do": [
-            "the bird [verb] the beautiful doll elmo .",
-            "the teddy [verb] the red ball mommy .",
-            "the teddy [verb] the beautiful doll grandpa .",
-            "the doll [verb] some of the juice grandpa .",
-            "the bird [verb] the red ball the boy ."
+            "the boy [verb] the big doll grampa .",
+            "it [verb] some of the chocolate bert .",
+            "grandpa [verb] the beautiful doll the boy .",
+            "teddy [verb] some of the chocolate mommy .",
+            "she [verb] the big doll mommy ."
         ],
         "pp": [
-            "the bird [verb] elmo to the beautiful doll .",
-            "the teddy [verb] mommy to the red ball .",
-            "the teddy [verb] grandpa to the beautiful doll .",
-            "the doll [verb] grandpa to some of the juice .",
-            "the bird [verb] the boy to the red ball ."
+            "the boy [verb] grampa to the big doll .",
+            "it [verb] bert to some of the chocolate .",
+            "grandpa [verb] the boy to the beautiful doll .",
+            "teddy [verb] mommy to some of the chocolate .",
+            "she [verb] mommy to the big doll ."
         ]
     },
     "nasnis": {
         "do": [
-            "it [verb] the candy bert .",
-            "the bird [verb] the ball mommy .",
-            "the bird [verb] the doll bert .",
-            "the dog [verb] the teddy mommy .",
-            "the boy [verb] the candy elmo ."
+            "elmo [verb] the candy the boy .",
+            "mommy [verb] the ball the boy .",
+            "it [verb] the juice bert .",
+            "ernie [verb] the ball grampa .",
+            "the kitty [verb] the candy mommy ."
         ],
         "pp": [
-            "it [verb] bert to the candy .",
-            "the bird [verb] mommy to the ball .",
-            "the bird [verb] bert to the doll .",
-            "the dog [verb] mommy to the teddy .",
-            "the boy [verb] elmo to the candy ."
+            "elmo [verb] the boy to the candy .",
+            "mommy [verb] the boy to the ball .",
+            "it [verb] bert to the juice .",
+            "ernie [verb] grampa to the ball .",
+            "the kitty [verb] mommy to the candy ."
         ]
     },
     "nilpas": {
         "do": [
-            "it [verb] me the beautiful doll .",
-            "the bear [verb] me some of the chocolate .",
-            "the dog [verb] her some of the juice .",
-            "mommy [verb] me the red ball .",
-            "it [verb] me some of the chocolate ."
+            "I [verb] her some of the juice .",
+            "you [verb] me the big doll .",
+            "nina [verb] her the red ball .",
+            "nonna [verb] her the beautiful doll .",
+            "mommy [verb] me some of the chocolate ."
         ],
         "pp": [
-            "it [verb] the beautiful doll to me .",
-            "the bear [verb] some of the chocolate to me .",
-            "the dog [verb] some of the juice to her .",
-            "mommy [verb] the red ball to me .",
-            "it [verb] some of the chocolate to me ."
+            "I [verb] some of the juice to her .",
+            "you [verb] the big doll to me .",
+            "nina [verb] the red ball to her .",
+            "nonna [verb] the beautiful doll to her .",
+            "mommy [verb] some of the chocolate to me ."
         ]
     },
     "nilpis": {
         "do": [
-            "elmo [verb] it some of the chocolate .",
-            "the bird [verb] it the beautiful doll .",
-            "elmo [verb] it the red ball .",
-            "the teddy [verb] it the big doll .",
-            "ernie [verb] it the big doll ."
+            "I [verb] it some of the juice .",
+            "I [verb] it some of the chocolate .",
+            "the boy [verb] it the big doll .",
+            "grandpa [verb] it the big doll .",
+            "teddy [verb] it the red ball ."
         ],
         "pp": [
-            "elmo [verb] some of the chocolate to it .",
-            "the bird [verb] the beautiful doll to it .",
-            "elmo [verb] the red ball to it .",
-            "the teddy [verb] the big doll to it .",
-            "ernie [verb] the big doll to it ."
+            "I [verb] some of the juice to it .",
+            "I [verb] some of the chocolate to it .",
+            "the boy [verb] the big doll to it .",
+            "grandpa [verb] the big doll to it .",
+            "teddy [verb] the red ball to it ."
         ]
     },
     "nilnal": {
         "do": [
-            "the boy [verb] the tiny bird some of the juice .",
-            "the kitty [verb] the tiny bird the beautiful doll .",
-            "the doll [verb] the tiny bird some of the juice .",
-            "the bear [verb] the big bear the red ball .",
-            "I [verb] the tiny bird the beautiful doll ."
+            "bert [verb] the big bear the beautiful doll .",
+            "it [verb] the big bear the big doll .",
+            "the kitty [verb] the little dog some of the chocolate .",
+            "elmo [verb] the big bear the beautiful doll .",
+            "the bear [verb] the little kitty the red ball ."
         ],
         "pp": [
-            "the boy [verb] some of the juice to the tiny bird .",
-            "the kitty [verb] the beautiful doll to the tiny bird .",
-            "the doll [verb] some of the juice to the tiny bird .",
-            "the bear [verb] the red ball to the big bear .",
-            "I [verb] the beautiful doll to the tiny bird ."
+            "bert [verb] the beautiful doll to the big bear .",
+            "it [verb] the big doll to the big bear .",
+            "the kitty [verb] some of the chocolate to the little dog .",
+            "elmo [verb] the beautiful doll to the big bear .",
+            "the bear [verb] the red ball to the little kitty ."
         ]
     },
     "nilnas": {
         "do": [
-            "she [verb] the boy the beautiful doll .",
-            "mommy [verb] bert the big doll .",
-            "the dog [verb] the boy some of the juice .",
-            "the boy [verb] bert some of the juice .",
-            "I [verb] elmo the red ball ."
+            "it [verb] the boy some of the juice .",
+            "nina [verb] bert the beautiful doll .",
+            "the kitty [verb] mommy the big doll .",
+            "the kitty [verb] mommy the beautiful doll .",
+            "nina [verb] mommy the beautiful doll ."
         ],
         "pp": [
-            "she [verb] the beautiful doll to the boy .",
-            "mommy [verb] the big doll to bert .",
-            "the dog [verb] some of the juice to the boy .",
-            "the boy [verb] some of the juice to bert .",
-            "I [verb] the red ball to elmo ."
+            "it [verb] some of the juice to the boy .",
+            "nina [verb] the beautiful doll to bert .",
+            "the kitty [verb] the big doll to mommy .",
+            "the kitty [verb] the beautiful doll to mommy .",
+            "nina [verb] the beautiful doll to mommy ."
         ]
     },
     "nilnil": {
         "do": [
-            "I [verb] the big doll some of the juice .",
-            "grandpa [verb] some of the chocolate the beautiful doll .",
-            "ernie [verb] the big doll some of the chocolate .",
-            "elmo [verb] the red ball some of the juice .",
-            "grandpa [verb] some of the juice the big doll ."
+            "bert [verb] the big doll some of the juice .",
+            "bert [verb] some of the juice the red ball .",
+            "teddy [verb] the big doll some of the juice .",
+            "the boy [verb] some of the chocolate the beautiful doll .",
+            "grampa [verb] the beautiful doll some of the juice ."
         ],
         "pp": [
-            "I [verb] some of the juice to the big doll .",
-            "grandpa [verb] the beautiful doll to some of the chocolate .",
-            "ernie [verb] some of the chocolate to the big doll .",
-            "elmo [verb] some of the juice to the red ball .",
-            "grandpa [verb] the big doll to some of the juice ."
+            "bert [verb] some of the juice to the big doll .",
+            "bert [verb] the red ball to some of the juice .",
+            "teddy [verb] some of the juice to the big doll .",
+            "the boy [verb] the beautiful doll to some of the chocolate .",
+            "grampa [verb] some of the juice to the beautiful doll ."
         ]
     },
     "nilnis": {
         "do": [
-            "it [verb] the teddy the big doll .",
-            "it [verb] the teddy the red ball .",
-            "she [verb] the doll the red ball .",
-            "I [verb] the juice some of the chocolate .",
-            "the bear [verb] the ball the beautiful doll ."
+            "teddy [verb] the teddy the beautiful doll .",
+            "she [verb] the ball the big doll .",
+            "it [verb] the candy some of the chocolate .",
+            "bert [verb] the candy some of the chocolate .",
+            "the kitty [verb] the doll some of the juice ."
         ],
         "pp": [
-            "it [verb] the big doll to the teddy .",
-            "it [verb] the red ball to the teddy .",
-            "she [verb] the red ball to the doll .",
-            "I [verb] some of the chocolate to the juice .",
-            "the bear [verb] the beautiful doll to the ball ."
+            "teddy [verb] the beautiful doll to the teddy .",
+            "she [verb] the big doll to the ball .",
+            "it [verb] some of the chocolate to the candy .",
+            "bert [verb] some of the chocolate to the candy .",
+            "the kitty [verb] some of the juice to the doll ."
         ]
     },
     "nispas": {
         "do": [
-            "grandpa [verb] her the candy .",
-            "I [verb] her the ball .",
-            "mommy [verb] me the candy .",
-            "the boy [verb] her the juice .",
-            "the kitty [verb] me the juice ."
+            "you [verb] me the teddy .",
+            "it [verb] me the candy .",
+            "nina [verb] her the teddy .",
+            "bert [verb] her the ball .",
+            "it [verb] me the doll ."
         ],
         "pp": [
-            "grandpa [verb] the candy to her .",
-            "I [verb] the ball to her .",
-            "mommy [verb] the candy to me .",
-            "the boy [verb] the juice to her .",
-            "the kitty [verb] the juice to me ."
+            "you [verb] the teddy to me .",
+            "it [verb] the candy to me .",
+            "nina [verb] the teddy to her .",
+            "bert [verb] the ball to her .",
+            "it [verb] the doll to me ."
         ]
     },
     "nispis": {
         "do": [
-            "the teddy [verb] it the candy .",
-            "elmo [verb] it the doll .",
-            "I [verb] it the ball .",
-            "the boy [verb] it the doll .",
-            "I [verb] it the ball ."
+            "mommy [verb] it the ball .",
+            "the bear [verb] it the doll .",
+            "elmo [verb] it the ball .",
+            "grandpa [verb] it the ball .",
+            "elmo [verb] it the teddy ."
         ],
         "pp": [
-            "the teddy [verb] the candy to it .",
-            "elmo [verb] the doll to it .",
-            "I [verb] the ball to it .",
-            "the boy [verb] the doll to it .",
-            "I [verb] the ball to it ."
+            "mommy [verb] the ball to it .",
+            "the bear [verb] the doll to it .",
+            "elmo [verb] the ball to it .",
+            "grandpa [verb] the ball to it .",
+            "elmo [verb] the teddy to it ."
         ]
     },
     "nisnal": {
         "do": [
-            "it [verb] the tiny bird the teddy .",
-            "grandpa [verb] the little kitty the doll .",
-            "she [verb] the big bear the teddy .",
-            "I [verb] the big bear the candy .",
-            "the boy [verb] the little dog the doll ."
+            "it [verb] the big bear the candy .",
+            "mommy [verb] the big bear the teddy .",
+            "the bear [verb] the little dog the juice .",
+            "the bear [verb] the big bear the teddy .",
+            "the kitty [verb] the little kitty the teddy ."
         ],
         "pp": [
-            "it [verb] the teddy to the tiny bird .",
-            "grandpa [verb] the doll to the little kitty .",
-            "she [verb] the teddy to the big bear .",
-            "I [verb] the candy to the big bear .",
-            "the boy [verb] the doll to the little dog ."
+            "it [verb] the candy to the big bear .",
+            "mommy [verb] the teddy to the big bear .",
+            "the bear [verb] the juice to the little dog .",
+            "the bear [verb] the teddy to the big bear .",
+            "the kitty [verb] the teddy to the little kitty ."
         ]
     },
     "nisnas": {
         "do": [
-            "the boy [verb] grandpa the candy .",
-            "it [verb] the boy the ball .",
-            "the doll [verb] bert the juice .",
-            "the dog [verb] elmo the teddy .",
-            "the bear [verb] elmo the juice ."
+            "mom [verb] bert the doll .",
+            "bert [verb] grampa the candy .",
+            "grandpa [verb] the boy the ball .",
+            "teddy [verb] grampa the candy .",
+            "it [verb] grampa the juice ."
         ],
         "pp": [
-            "the boy [verb] the candy to grandpa .",
-            "it [verb] the ball to the boy .",
-            "the doll [verb] the juice to bert .",
-            "the dog [verb] the teddy to elmo .",
-            "the bear [verb] the juice to elmo ."
+            "mom [verb] the doll to bert .",
+            "bert [verb] the candy to grampa .",
+            "grandpa [verb] the ball to the boy .",
+            "teddy [verb] the candy to grampa .",
+            "it [verb] the juice to grampa ."
         ]
     },
     "nisnil": {
         "do": [
-            "bert [verb] some of the juice the doll .",
-            "the teddy [verb] the big doll the candy .",
-            "mommy [verb] the big doll the teddy .",
-            "elmo [verb] the big doll the teddy .",
-            "she [verb] some of the chocolate the ball ."
+            "the bear [verb] the big doll the ball .",
+            "grampa [verb] some of the chocolate the doll .",
+            "I [verb] some of the chocolate the juice .",
+            "ernie [verb] the big doll the teddy .",
+            "the kitty [verb] the beautiful doll the juice ."
         ],
         "pp": [
-            "bert [verb] the doll to some of the juice .",
-            "the teddy [verb] the candy to the big doll .",
-            "mommy [verb] the teddy to the big doll .",
-            "elmo [verb] the teddy to the big doll .",
-            "she [verb] the ball to some of the chocolate ."
+            "the bear [verb] the ball to the big doll .",
+            "grampa [verb] the doll to some of the chocolate .",
+            "I [verb] the juice to some of the chocolate .",
+            "ernie [verb] the teddy to the big doll .",
+            "the kitty [verb] the juice to the beautiful doll ."
         ]
     },
     "nisnis": {
         "do": [
-            "she [verb] the ball the juice .",
-            "the bear [verb] the candy the ball .",
-            "grandpa [verb] the candy the teddy .",
-            "the boy [verb] the teddy the ball .",
-            "bert [verb] the juice the doll ."
+            "the bear [verb] the candy the juice .",
+            "I [verb] the doll the candy .",
+            "I [verb] the doll the candy .",
+            "ernie [verb] the ball the candy .",
+            "grandpa [verb] the candy the juice ."
         ],
         "pp": [
-            "she [verb] the juice to the ball .",
-            "the bear [verb] the ball to the candy .",
-            "grandpa [verb] the teddy to the candy .",
-            "the boy [verb] the ball to the teddy .",
-            "bert [verb] the doll to the juice ."
+            "the bear [verb] the juice to the candy .",
+            "I [verb] the candy to the doll .",
+            "I [verb] the candy to the doll .",
+            "ernie [verb] the candy to the ball .",
+            "grandpa [verb] the juice to the candy ."
         ]
     }
 }
