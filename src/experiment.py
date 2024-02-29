@@ -369,9 +369,8 @@ class Trainer:
             # for do_score, pp_score in zip(do_scores, pp_scores):
             #     results.append((do_score, pp_score))
 
-        for i, (res, dat) in enumerate(results, datives):
-            scores = res
-            self.generalization_results.append([i + 1, model_state, dat, scores])
+        for i, (res, dat) in enumerate(zip(results, datives)):
+            self.generalization_results.append([i + 1, model_state, dat, res])
 
         # self.generalization_results.extend(results)
 
@@ -520,7 +519,7 @@ class Trainer:
                 "train_loss": self.metrics["train_loss"][self.best_epoch - 1],
                 "initial_do_mean": generalization_avg_scores["initial"]["do"],
                 "final_do_mean": generalization_avg_scores["final"]["do"],
-                "best_do_mean": generalization_avg_scores["best"]["pp"],
+                "best_do_mean": generalization_avg_scores["best"]["do"],
                 "initial_pp_mean": generalization_avg_scores["initial"]["pp"],
                 "final_pp_mean": generalization_avg_scores["final"]["pp"],
                 "best_pp_mean": generalization_avg_scores["best"]["pp"],

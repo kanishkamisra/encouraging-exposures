@@ -181,6 +181,39 @@ def sample_items(agents, themes, recipients, N):
         sampled_themes.append(sampled_theme)
         sampled_recipients.append(sampled_recipient)
         # print("")
+
+    # generate agents separately
+    # remove all themes and recipients, then the conflict set
+    agent_conflicts = OrderedSet()
+    for sampled_theme, sampled_recipient in zip(sampled_themes, sampled_recipients):
+        conflict_set = OrderedSet(
+            config.CONFLICTS[sampled_theme]
+            if sampled_theme in config.CONFLICTS.keys()
+            else []
+        )
+        conflict_set = conflict_set.union(
+            OrderedSet(config.CONFLICTS[sampled_recipient])
+            if sampled_recipient in config.CONFLICTS.keys()
+            else []
+        )
+        agent_conflicts.update(
+            OrderedSet([sampled_theme] + [sampled_recipient]).union(conflict_set)
+        )
+
+    agent_space = agents - agent_conflicts
+    # print(
+    #     "themes",
+    #     sampled_themes,
+    #     "recipients",
+    #     sampled_recipients,
+    #     "agents space",
+    #     agent_space,
+    # )
+    if len(agent_space) < N:
+        sampled_agents = random.choices(list(agent_space), k=N)
+    else:
+        sampled_agents = random.sample(list(agent_space), N)
+
     return sampled_agents, sampled_themes, sampled_recipients
 
 
@@ -218,6 +251,8 @@ def generate_dative_set(lexicon, feature_combinations, sample_sizes):
     dative_set = []
     for i, fc in enumerate(feature_combinations):
         fc_id = utils.generate_acronym_tuple(fc)
+        # if fc_id != "paspas":
+        #     break
         feature_space = generate_feature_space(fc, lexicon)
         N = max(sample_sizes["do"][fc_id], sample_sizes["pp"][fc_id])
         if N == 0:
@@ -227,11 +262,16 @@ def generate_dative_set(lexicon, feature_combinations, sample_sizes):
             j = 0
             for dative in ["do", "pp"]:
                 # items = sampled_items[: sample_sizes[dative][fc_id]]
-                items = [argument[: sample_sizes[dative][fc_id]] for argument in sampled_items]
+                items = [
+                    argument[: sample_sizes[dative][fc_id]]
+                    for argument in sampled_items
+                ]
                 # print(dative, len(items))
                 # for j, (a, t, r) in enumerate(zip(*items)):
                 for agent, theme, recipient in zip(*items):
-                    do_dative = Dative(dative, "[verb]", agent, theme, recipient).generate()
+                    do_dative = Dative(
+                        dative, "[verb]", agent, theme, recipient
+                    ).generate()
                     # pp_dative = Dative("pp", "[verb]", a, t, r).generate()
                     dative_set.append(
                         {
@@ -251,7 +291,7 @@ def generate_dative_set(lexicon, feature_combinations, sample_sizes):
                             "sentence": do_dative,
                         }
                     )
-                    j+=1
+                    j += 1
                 j = 0
     return dative_set
 
@@ -280,8 +320,16 @@ def main(args):
     gen_plausible_splits = plausibility_splits(feature_combinations, adaptation=False)
     adapt_plausible_splits = plausibility_splits(feature_combinations, adaptation=True)
 
-    print("Generalization:", len(gen_plausible_splits['do']['plausible']), len(gen_plausible_splits['pp']['plausible']))
-    print("Adaptation:", len(adapt_plausible_splits['do']['plausible']), len(adapt_plausible_splits['pp']['plausible']))
+    print(
+        "Generalization:",
+        len(gen_plausible_splits["do"]["plausible"]),
+        len(gen_plausible_splits["pp"]["plausible"]),
+    )
+    print(
+        "Adaptation:",
+        len(adapt_plausible_splits["do"]["plausible"]),
+        len(adapt_plausible_splits["pp"]["plausible"]),
+    )
 
     gen_sample_sizes, gen_amt = specify_sample_size(
         gen_plausible_splits, args.generalization_size
@@ -289,7 +337,6 @@ def main(args):
     adapt_sample_sizes, adapt_amt = specify_sample_size(
         adapt_plausible_splits, args.adaptation_size
     )
-
 
     # print(gen_sample_sizes, gen_amt)
     # print(adapt_sample_sizes, adapt_amt)
@@ -324,10 +371,28 @@ def main(args):
         for item in adaptation_set:
             f.write(json.dumps(item) + "\n")
 
+    adaptation_sentences = utils.reorganize_sentences(adaptation_set)
+
+    pathlib.Path("data/experiments/single_stimuli_dative_simulation/sentences").mkdir(
+        parents=True, exist_ok=True
+    )
+    with open(
+        f"data/experiments/{args.experiment_name}/sentences/adaptation.json", "w"
+    ) as f:
+        json.dump(adaptation_sentences, f, indent=4)
+
     if not args.nogen:
         with open(f"{exp_dir}/generalization.jsonl", "w") as f:
             for item in generalization_set:
                 f.write(json.dumps(item) + "\n")
+
+        generalization_sentences = utils.reorganize_sentences(generalization_set)
+
+        with open(
+            f"data/experiments/{args.experiment_name}/sentences/generalization.json",
+            "w",
+        ) as f:
+            json.dump(generalization_sentences, f, indent=4)
 
     # TODO: save by hypothesis_id
 
@@ -348,7 +413,9 @@ if __name__ == "__main__":
     parser.add_argument("--adaptation_size", type=int, default=5)
     parser.add_argument("--generalization_size", type=int, default=20)
     parser.add_argument("--seed", type=int, default=42)
-    parser.add_argument("--experiment_name", type=str, default="single_stimuli_dative_simulation")
+    parser.add_argument(
+        "--experiment_name", type=str, default="single_stimuli_dative_simulation"
+    )
 
     args = parser.parse_args()
 

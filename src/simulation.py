@@ -17,14 +17,14 @@ def main(args):
     set_seed(seed)
 
     adaptation_set = utils.read_jsonl(
-        f"data/experiments/{args.experiment_id}/adaptation.jsonl"
+        f"data/experiments/{args.experiment_name}/adaptation.jsonl"
     )
     generalization_set = utils.read_jsonl(
-        f"data/experiments/{args.experiment_id}/generalization.jsonl"
+        f"data/experiments/{args.experiment_name}/generalization.jsonl"
     )
     validation_set = utils.read_json(args.validation_path)
 
-    pathlib.Path(args.results_dir).mkdir(parents=True, exist_ok=True)
+    pathlib.Path(f"{args.results_dir}/{args.experiment_name}").mkdir(parents=True, exist_ok=True)
 
     model_name = args.model_name.replace("kanishka/", "")
 
@@ -34,13 +34,13 @@ def main(args):
     for instance in adaptation_set:
         # do, pp = instance["do"], instance["pp"]
         dative = instance["dative"]
-        experiment_id = utils.generate_acronym(instance)
+        experiment_name = utils.generate_acronym(instance)
         # for condition, training_sentence in zip(["do", "pp"], [do, pp]):
         # for training_sentence in instance["sentence"]:
         training_sentence = instance["sentence"]
         print("====" * 20)
         print(
-            f"Experiment: {experiment_id}, Instance: {instance['hypothesis_instance']}, Condition: {dative}"
+            f"Experiment: {experiment_name}, Instance: {instance['hypothesis_instance']}, Condition: {dative}"
         )
         print("====" * 20)
         learner = Learner(args.model_name, args.device, args.gaussian)
@@ -57,7 +57,7 @@ def main(args):
         trainer.train(args.epochs, args.batch_size)
 
         # create results_dir
-        results_dir = f"{args.results_dir}/{args.experiment_id}/{model_name}/raw/{instance['item']}_{instance['hypothesis_id']}_{instance['hypothesis_instance']}_{args.lr}_{dative}_results"
+        results_dir = f"{args.results_dir}/{args.experiment_name}/{model_name}/raw/{instance['item']}_{instance['hypothesis_id']}_{instance['hypothesis_instance']}_{args.lr}_{dative}_results"
         pathlib.Path(results_dir).mkdir(parents=True, exist_ok=True)
         trainer.save_results(results_dir)
 
@@ -71,7 +71,7 @@ if __name__ == "__main__":
     parser.add_argument("--device", type=str, default="cuda:0")
     parser.add_argument("--gaussian", action="store_true")
     parser.add_argument(
-        "--experiment_id", type=str, default="single_stimuli_dative_simulation"
+        "--experiment_name", type=str, default="single_stimuli_dative_simulation"
     )
     parser.add_argument(
         "--results_dir",

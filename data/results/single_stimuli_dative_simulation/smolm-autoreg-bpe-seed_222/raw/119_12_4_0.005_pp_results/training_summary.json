@@ -1,9 +1,12 @@
 {
-    "best_epoch": 34,
-    "best_val_performance": -0.07121603806813503,
+    "best_epoch": 25,
+    "best_val_performance": -0.23970822652180956,
     "val_performance_metric": "diff",
-    "train_loss": 2.189366340637207,
-    "initial_dative_mean": -7.189354110530942,
-    "final_dative_mean": -5.112588964184822,
-    "best_dative_mean": -4.971509602509047
+    "train_loss": 3.326573133468628,
+    "initial_do_mean": -7.5963148100431575,
+    "final_do_mean": -6.229032541430274,
+    "best_do_mean": -5.893929286751637,
+    "initial_pp_mean": -7.150998426184935,
+    "final_pp_mean": -5.472450157123453,
+    "best_pp_mean": -5.447463713323368
 }

@@ -16,7 +16,7 @@
         "grampa",
         "the boy",
         "the big bear",
-        "the little kitty",
+        "the little kittie",
         "the tiny bird",
         "the little dog"
     ],
@@ -35,7 +35,6 @@
     ],
     "agent": [
         "I",
-        "it",
         "she",
         "elmo",
         "bert",
@@ -45,12 +44,15 @@
         "nina",
         "mom",
         "you",
-        "the kitty",
+        "the kittie",
         "the bear",
         "the boy",
         "teddy",
         "ernie",
-        "nonna"
+        "nonna",
+        "becky",
+        "nancy",
+        "ryan"
     ],
     "theme": [
         "me",
@@ -61,7 +63,7 @@
         "mommy",
         "grampa",
         "the big bear",
-        "the little kitty",
+        "the little kittie",
         "the tiny bird",
         "the little dog",
         "the ball",
@@ -85,7 +87,7 @@
         "mommy",
         "grampa",
         "the big bear",
-        "the little kitty",
+        "the little kittie",
         "the tiny bird",
         "the little dog",
         "the ball",

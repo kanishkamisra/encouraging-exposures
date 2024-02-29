@@ -55,12 +55,24 @@ def generate_acronym(entry):
     return acronym
 
 
+# def reorganize_sentences(experiment):
+#     sentences = defaultdict(lambda: defaultdict(list))
+#     for entry in experiment:
+#         acronym = generate_acronym(entry)
+#         sentences[acronym]["do"].append(entry["do"])
+#         sentences[acronym]["pp"].append(entry["pp"])
+
+#     sentences = dict(sentences)
+#     for acronym in sentences:
+#         sentences[acronym] = dict(sentences[acronym])
+
+#     return sentences
+
 def reorganize_sentences(experiment):
     sentences = defaultdict(lambda: defaultdict(list))
     for entry in experiment:
         acronym = generate_acronym(entry)
-        sentences[acronym]["do"].append(entry["do"])
-        sentences[acronym]["pp"].append(entry["pp"])
+        sentences[acronym][entry['dative']].append(entry['sentence'])
 
     sentences = dict(sentences)
     for acronym in sentences:
