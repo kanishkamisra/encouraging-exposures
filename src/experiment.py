@@ -491,6 +491,8 @@ class Trainer:
             writer.writerow(["item_id", "model_state", "dative", "score"])
             writer.writerows(self.generalization_results)
 
+        torch.save(self.embs[self.best_epoch - 1], f"{path}/verb_embedding.pt")
+
         # generalization preference
         # generalization_scores = defaultdict(list)
         # for entry in self.generalization_results:

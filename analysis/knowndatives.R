@@ -18,29 +18,42 @@ aggregates_real_logprobs <- real_logprobs %>%
   # filter(str_detect(sentence, " the ")) %>%
   # filter(lemma == "kick") %>%
   # filter(lemma != "carry") %>%
+  filter(!lemma %in% c("make", "find", "say", "sing")) %>%
   # inner_join(generalization %>% filter(theme_animacy == "inanimate") %>% select(-sentence)) %>%
   group_by(model, lemma, dative) %>%
   summarize(
     logprob = mean(score)
   ) %>% 
   ungroup() %>%
-  pivot_wider(names_from = dative, values_from = logprob) %>% 
+  pivot_wider(names_from = dative, values_from = logprob) %>%
   inner_join(proportion_distributions %>% distinct(lemma, dative, type, empirically_alternating)) %>%
+  ungroup() %>%
   distinct() %>% 
-  ungroup() %>% 
-  filter(type != "do-only", dative == "pp") %>%
+  # filter(type != "do-only", dative == "pp") %>%
   mutate(
+    altform = case_when(
+      dative == "do" ~ pp,
+      TRUE ~ do
+    ),
     supertype = case_when(
       empirically_alternating == "Empirically Alternating" & type == "alternating" ~ "EA+A",
       empirically_alternating == "Empirically Non-alternating" & type == "alternating" ~ "ENAbA",
       empirically_alternating == "Empirically Non-alternating" & type == "pp-only" ~ "ENA+NA",
+      empirically_alternating == "Empirically Non-alternating" & type == "do-only" ~ "ENA+NA",
     )
   )
 
-t.test(aggregates_real_logprobs %>% filter(supertype == "EA+A") %>% pull(do), aggregates_real_logprobs %>% filter(supertype == "ENAbA") %>% pull(do))
+t.test(aggregates_real_logprobs %>% filter(supertype == "ENA+NA") %>% pull(altform), aggregates_real_logprobs %>% filter(supertype == "ENAbA") %>% pull(altform))
+
+aggregates_real_logprobs %>%
+  group_by(supertype, dative) %>%
+  summarize(
+    n = n(),
+    altform_logprob = mean(altform)
+  )
 
 aggregates_real_logprobs %>% 
-  ggplot(aes(supertype, do)) +
+  ggplot(aes(supertype, altform)) +
   # geom_point()
   stat_summary(aes(group = model), fun = mean, geom="point", size = 3, color = "black", fill = "black", shape = 21, alpha = 0.6) +
   theme_bw(base_size = 15, base_family = "Times") +
@@ -154,6 +167,9 @@ combined <- bind_rows(
   pps_filtered %>% mutate(dative = "pp"),
   dos_filtered %>% mutate(dative = "do")
 )
+
+combined %>% distinct(theme) %>% write_csv("data/aochildes-themes.csv")
+combined %>% distinct(recipient) %>% write_csv("data/aochildes-recipients.csv")
 
 combined %>%
   count(lemma, sort=TRUE) %>%

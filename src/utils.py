@@ -44,14 +44,19 @@ def generate_acronym_tuple(entry):
     return acronym
 
 
-def generate_acronym(entry):
+def generate_acronym(entry, full=False):
     acronym = ""
     args = ["theme", "recipient"]
-    keys = ["pronominality", "animacy", "length"]
+    if full:
+        keys = ["pronominality", "animacy", "length", "definiteness", "markedness", "givenness"]
+    else:
+        keys = ["pronominality", "animacy", "length"]
     for arg in args:
         for k in keys:
-            acronym += entry[f"{arg}_{k}"][0]
-
+            try:
+                acronym += entry[f"{arg}_{k}"][0]
+            except:
+                pass
     return acronym
 
 
@@ -68,10 +73,10 @@ def generate_acronym(entry):
 
 #     return sentences
 
-def reorganize_sentences(experiment):
+def reorganize_sentences(experiment, full=False):
     sentences = defaultdict(lambda: defaultdict(list))
     for entry in experiment:
-        acronym = generate_acronym(entry)
+        acronym = generate_acronym(entry, full)
         sentences[acronym][entry['dative']].append(entry['sentence'])
 
     sentences = dict(sentences)

@@ -1,0 +1,439 @@
+key,value
+agent,she
+agent,he
+agent,mommy
+agent,daddy
+agent,nonna
+agent,lucy
+agent,sam
+pronoun,me
+pronoun,her
+pronoun,him
+pronoun,it
+pronoun,them
+pronoun,us
+pronoun,someone
+pronoun,something
+animate,me
+animate,her
+animate,him
+animate,them
+animate,us
+animate,someone
+animate,mommy
+animate,grandpa
+animate,grandma
+animate,a cat
+animate,the cat
+animate,a dog
+animate,the dog
+animate,elmo
+animate,bert
+animate,a big bear
+animate,the big bear
+animate,a cute cat
+animate,a small dog
+animate,the cute cat
+animate,the small dog
+animate,the bear over there
+animate,a bear outside the house
+animate,the cat outside the house
+animate,the cat over there
+animate,a cat outside the house
+animate,the dog outside the house
+animate,a dog outside the house
+animate,the dog over there
+animate,daddy
+inanimate,it
+inanimate,something
+inanimate,a ball
+inanimate,cheerios
+inanimate,the ball
+inanimate,teddy
+inanimate,a teddy
+inanimate,the teddy
+inanimate,a book
+inanimate,the book
+inanimate,cup
+inanimate,a cup
+inanimate,the cup
+inanimate,a store
+inanimate,the store
+inanimate,book
+inanimate,a toy
+inanimate,the toys
+inanimate,a red ball
+inanimate,the red ball
+inanimate,a nice book
+inanimate,some books
+inanimate,some balls
+inanimate,some store
+inanimate,a store that is far away
+inanimate,the store that is far away
+inanimate,a toy in the room
+inanimate,the toys in the room
+inanimate,toys in the room
+inanimate,the cup on the table
+inanimate,cup on the table
+inanimate,a cup on the table
+inanimate,some milk
+inanimate,some food
+inanimate,the food
+inanimate,the milk
+inanimate,food on the table
+inanimate,the food on the table
+inanimate,the balls in the room
+inanimate,a ball in that room
+inanimate,balls in the room
+definite,grandma
+definite,mommy
+definite,daddy
+definite,me
+definite,her
+definite,him
+definite,it
+definite,them
+definite,us
+definite,grandpa
+definite,the cat
+definite,the dog
+definite,elmo
+definite,bert
+definite,the big bear
+definite,the cute cat
+definite,the small dog
+indefinite,bear over there
+definite,the bear over there
+definite,the cat outside the house
+indefinite,cat outside the house
+definite,the cat over there
+indefinite,dog outside the house
+definite,the dog outside the house
+definite,the dog over there
+definite,the ball
+definite,the teddy
+definite,the book
+definite,the cup
+definite,the store
+definite,the toys
+definite,the red ball
+definite,the store that is far away
+definite,the toys in the room
+definite,the cup on the table
+definite,the food
+definite,the milk
+definite,the food on the table
+definite,the balls in the room
+definite,a lego
+indefinite,someone
+indefinite,something
+indefinite,a cat
+indefinite,a dog
+indefinite,a big bear
+indefinite,a cute cat
+indefinite,a small dog
+indefinite,a bear outside the house
+indefinite,a cat outside the house
+indefinite,a dog outside the house
+indefinite,a ball
+indefinite,a teddy
+indefinite,a book
+indefinite,a cup
+indefinite,a store
+indefinite,a toy
+indefinite,a red ball
+indefinite,a nice book
+indefinite,some books
+indefinite,some balls
+indefinite,some store
+indefinite,a store that is far away
+indefinite,a toy in the room
+indefinite,a cup on the table
+indefinite,some milk
+indefinite,some food
+indefinite,a ball in that room
+indefinite,cheerios
+indefinite,legos
+theme,me
+theme,her
+theme,him
+theme,it
+theme,them
+theme,us
+theme,someone
+theme,something
+theme,mommy
+theme,grandpa
+theme,grandma
+theme,a cat
+theme,the cat
+theme,a dog
+theme,the dog
+theme,elmo
+theme,bert
+theme,a big bear
+theme,the big bear
+theme,a cute cat
+theme,a small dog
+theme,the cute cat
+theme,the small dog
+theme,the bear over there
+theme,a bear outside the house
+theme,the cat outside the house
+theme,the cat over there
+theme,a cat outside the house
+theme,the dog outside the house
+theme,a dog outside the house
+theme,the dog over there
+theme,daddy
+theme,it
+theme,something
+theme,a ball
+theme,the ball
+theme,a teddy
+theme,the teddy
+theme,a book
+theme,the book
+theme,a cup
+theme,the cup
+theme,a toy
+theme,the toys
+theme,a red ball
+theme,the red ball
+theme,a nice book
+theme,some books
+theme,some balls
+theme,a toy in the room
+theme,the toys in the room
+theme,the cup on the table
+theme,a cup on the table
+theme,some milk
+theme,some food
+theme,the food
+theme,the milk
+theme,the food on the table
+theme,the balls in the room
+theme,a ball in that room
+theme,cheerios
+theme,legos
+theme,a lego
+recipient,me
+recipient,her
+recipient,him
+recipient,it
+recipient,them
+recipient,us
+recipient,someone
+recipient,something
+recipient,mommy
+recipient,grandpa
+recipient,grandma
+recipient,a cat
+recipient,the cat
+recipient,a dog
+recipient,the dog
+recipient,elmo
+recipient,bert
+recipient,a big bear
+recipient,the big bear
+recipient,a cute cat
+recipient,a small dog
+recipient,the cute cat
+recipient,the small dog
+recipient,the bear over there
+recipient,a bear outside the house
+recipient,the cat outside the house
+recipient,the cat over there
+recipient,a cat outside the house
+recipient,the dog outside the house
+recipient,a dog outside the house
+recipient,the dog over there
+recipient,big bear
+recipient,cute cat
+recipient,small dog
+recipient,daddy
+recipient,it
+recipient,something
+recipient,a ball
+recipient,the ball
+recipient,a teddy
+recipient,the teddy
+recipient,a book
+recipient,the book
+recipient,a cup
+recipient,the cup
+recipient,a store
+recipient,the store
+recipient,a toy
+recipient,the toys
+recipient,a red ball
+recipient,the red ball
+recipient,a nice book
+recipient,some books
+recipient,some balls
+recipient,some store
+recipient,a store that is far away
+recipient,the store that is far away
+recipient,a toy in the room
+recipient,the toys in the room
+recipient,the cup on the table
+recipient,a cup on the table
+recipient,some milk
+recipient,some food
+recipient,the food
+recipient,the milk
+recipient,the food on the table
+recipient,the balls in the room
+recipient,a ball in that room
+theme,bear over there
+theme,cat outside the house
+theme,dog outside the house
+animate,bear over there
+animate,cat outside the house
+animate,dog outside the house
+theme,food on the table
+theme,toys in the room
+theme,balls in the room
+theme,cup on the table
+inanimate,cheerios
+recipient,cheerios
+indefinite,cup
+theme,cup
+inanimate,legos
+inanimate,ball
+indefinite,ball
+inanimate,a lego
+indefinite,book
+theme,book
+definite,teddy
+theme,teddy
+recipient,teddy
+animate,cat
+theme,cat
+recipient,cat
+definite,cat
+animate,dog
+theme,dog
+recipient,dog
+definite,dog
+inanimate,store
+indefinite,store
+marked,a cat
+marked,the cat
+marked,a dog
+marked,the dog
+marked,a big bear
+marked,the big bear
+marked,a cute cat
+marked,a small dog
+marked,the cute cat
+marked,the small dog
+marked,the bear over there
+marked,a bear outside the house
+marked,the cat outside the house
+marked,the cat over there
+marked,a cat outside the house
+marked,the dog outside the house
+marked,a dog outside the house
+marked,the dog over there
+marked,a ball
+marked,the ball
+marked,a teddy
+marked,the teddy
+marked,a book
+marked,the book
+marked,a cup
+marked,the cup
+marked,a store
+marked,the store
+marked,a toy
+marked,the toys
+marked,a red ball
+marked,the red ball
+marked,a nice book
+marked,some books
+marked,some balls
+marked,some store
+marked,a store that is far away
+marked,the store that is far away
+marked,a toy in the room
+marked,the toys in the room
+marked,the cup on the table
+marked,a cup on the table
+marked,some milk
+marked,some food
+marked,the food
+marked,the milk
+marked,the food on the table
+marked,the balls in the room
+marked,a ball in that room
+marked,a lego
+unmarked,me
+unmarked,her
+unmarked,him
+unmarked,it
+unmarked,them
+unmarked,us
+unmarked,someone
+unmarked,something
+unmarked,cheerios
+unmarked,grandma
+unmarked,mommy
+unmarked,daddy
+unmarked,elmo
+unmarked,bert
+unmarked,legos
+unmarked,food on the table
+unmarked,toys in the room
+unmarked,balls in the room
+unmarked,cup on the table
+unmarked,bear over there
+unmarked,cat outside the house
+unmarked,dog outside the house
+unmarked,big bear
+unmarked,small dog
+unmarked,cute cat
+unmarked,cup
+unmarked,ball
+unmarked,book
+unmarked,teddy
+unmarked,cat
+unmarked,dog
+unmarked,store
+unmarked,pencils
+inanimate,pencils
+theme,pencils
+indefinite,pencils
+definite,the pencils
+marked,the pencils
+theme,the pencils
+recipient,the pencils
+animate,a bear
+indefinite,a bear
+marked,a bear
+theme,a bear
+recipient,a bear
+animate,the bear
+definite,the bear
+marked,the bear
+theme,the bear
+recipient,the bear
+recipient,bear
+animate,bear
+definite,bear
+unmarked,bear
+theme,bear
+recipient,bear
+inanimate,some cheerios
+marked,some cheerios
+indefinite,some cheerios
+theme,some cheerios
+inanimate,the cheerios
+marked,the cheerios
+definite,the cheerios
+theme,the cheerios
+inanimate,dolly
+unmarked,dolly
+theme,dolly
+recipient,dolly
+definite,dolly

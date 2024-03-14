@@ -24,16 +24,21 @@ feature_configs <- adaptation %>%
     feature_config = glue::glue_collapse(str_sub(c(theme_pronominality, theme_animacy, theme_length, recipient_pronominality, recipient_animacy, recipient_length), 1, 1))
   )
 
-aggregated_results <- results %>% 
+aggregated_results <- results %>%
   # filter(generalization_feature_config == adaptation_feature_config) %>%
   # filter(generalization_feature_config == "nispas") %>%
   # filter(str_detect(generalization_feature_config, "ni(s|l)pa(s|l)")) %>%
-  group_by(model, item_id, hypothesis_id, hypothesis_instance, adaptation_dative, adaptation_feature_config, generalization_dative) %>%
+  filter(state == "best") %>%
+  group_by(model, adaptation_dative, adaptation_feature_config, generalization_dative) %>%
   summarize(
+    n = n(),
     logprob = mean(logprob)
   )
 
-aggregated_results %>%
+# aggregated_results %>%
+  # filter(state == "best") %>%
+results %>%
+  filter(state == "best") %>%
   inner_join(feature_configs %>% rename(adaptation_feature_config = feature_config)) %>%
   mutate(
     # feature_config = glue::glue("{recipient_pronominality}-recipient\n{theme_pronominality}-theme"),
@@ -41,6 +46,7 @@ aggregated_results %>%
   ) %>%
   group_by(feature_config, adaptation_dative, generalization_dative) %>%
   summarize(
+    n = n(),
     ste = 1.96 * plotrix::std.error(logprob),
     logprob = mean(logprob)
   ) %>%

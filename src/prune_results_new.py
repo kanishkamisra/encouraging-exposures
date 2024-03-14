@@ -40,7 +40,10 @@ def compile_generalization_results(dir, genset, adapt2fc, forcsv=False):
 
     # return generalization_results
     for gen, parse in zip(genset * 3, generalization_results):
-        acronym = utils.generate_acronym(gen)
+        try:
+            acronym = utils.generate_acronym(gen)
+        except:
+            acronym = "Unknown"
         compiled_results[parse['model_state']][gen['dative']][acronym].append(float(parse['score']))
 
     # get means
@@ -80,12 +83,12 @@ def flatten_results(result):
 
 
 def main(args):
-    generalization = utils.read_jsonl("data/experiments/single_stimuli_dative_simulation/generalization.jsonl")
-    adaptation = utils.read_jsonl("data/experiments/single_stimuli_dative_simulation/adaptation.jsonl")
+    generalization = utils.read_jsonl(f"data/experiments/{args.experiment_name}/generalization.jsonl")
+    adaptation = utils.read_jsonl(f"data/experiments/{args.experiment_name}/adaptation.jsonl")
 
-    adapt2acro = {}
+    adapt2acro = defaultdict(lambda : 'Unknown')
     for entry in adaptation:
-        adapt2acro[entry['hypothesis_id']] = utils.generate_acronym(entry) 
+        adapt2acro[entry['hypothesis_id']] = utils.generate_acronym(entry)
 
     results_dir = args.results_dir
 
@@ -145,6 +148,11 @@ if __name__ == "__main__":
         "--results_dir",
         type=str,
         default="data/results/single_stimuli_dative_simulation/smolm-autoreg-bpe-seed_111/raw",
+    )
+    parser.add_argument(
+        "--experiment_name",
+        type=str,
+        default="single_stimuli_dative_simulation",
     )
     args = parser.parse_args()
 
