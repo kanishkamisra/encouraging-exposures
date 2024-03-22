@@ -1,3 +1,6 @@
+# results
+data/results/single_stimuli_dative_simulation_valtest_vbd_no_discourse/smolm-autoreg-bpe-seed_*/raw/
+
 *.DS_Store
 
 # Byte-compiled / optimized / DLL files

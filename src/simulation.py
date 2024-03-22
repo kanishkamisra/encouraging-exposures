@@ -34,7 +34,7 @@ def main(args):
     for instance in adaptation_set:
         # do, pp = instance["do"], instance["pp"]
         dative = instance["dative"]
-        experiment_name = utils.generate_acronym(instance)
+        experiment_name = utils.generate_acronym(instance, full=True)
         # for condition, training_sentence in zip(["do", "pp"], [do, pp]):
         # for training_sentence in instance["sentence"]:
         training_sentence = instance["sentence"]
