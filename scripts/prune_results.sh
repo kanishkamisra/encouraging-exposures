@@ -1,7 +1,8 @@
 #!/bin/bash
 
 # declare -a seeds=(111 222 333 444 555 666 777 888 999 1709)
-declare -a seeds=(6 28 221 394 496)
+# declare -a seeds=(6 28 221 394 496)
+declare -a seeds=(111 222 333 444 555 666 777 888 999 1709 6 28 221 394 496)
 # declare -a seeds=(777 888 999 1709)
 
 for seed in ${seeds[@]}

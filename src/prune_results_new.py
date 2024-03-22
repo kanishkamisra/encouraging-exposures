@@ -88,7 +88,7 @@ def main(args):
 
     adapt2acro = defaultdict(lambda : 'Unknown')
     for entry in adaptation:
-        adapt2acro[entry['hypothesis_id']] = utils.generate_acronym(entry)
+        adapt2acro[entry['hypothesis_id']] = utils.generate_acronym(entry, full=True)
 
     results_dir = args.results_dir
 
