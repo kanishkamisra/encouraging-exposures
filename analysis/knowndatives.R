@@ -148,6 +148,20 @@ verb_types %>% count(lemma, sort = TRUE) %>% filter(n > 1)
 dos <- read_csv("data/aochildes_dos.csv")
 pps <- read_csv("data/aochildes_pps.csv")
 
+combined_raw <- bind_rows(
+  pps %>%
+    filter(
+      theme_pos %in% c("NN", "NNP", "NNS", "PRP", "NNPS", "DT", "CD", "JJ", "JJR") &
+        recipient_pos %in% c("NN", "NNS", "NNP", "NNPS", "PRP")
+    ) %>%
+    inner_join(verb_types) %>% mutate(dative = "pp"),
+  dos %>%
+    filter(
+      theme_pos %in% c("NN", "NNP", "NNS", "PRP", "NNPS", "DT", "CD", "JJ", "JJR") &
+        recipient_pos %in% c("NN", "NNS", "NNP", "NNPS", "PRP")
+    ) %>% inner_join(verb_types) %>% mutate(dative = "do")
+)
+
 pps_filtered <- pps %>%
   filter(
     theme_pos %in% c("NN", "NNP", "NNS", "PRP", "NNPS", "DT", "CD", "JJ", "JJR") &

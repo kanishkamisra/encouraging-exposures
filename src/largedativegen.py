@@ -86,13 +86,13 @@ def generate_feature_combinations(lex, features, allcombos=False):
         if allcombos:
             feature_combinations.append(fc)
         else:
-            if len(theme_features) > 1 and len(recipient_features) > 1:
+            if len(theme_features) >= 1 and len(recipient_features) >= 1:
                 # print(fc, len(theme_features), len(recipient_features))
-                # if len(theme_features) == 1 and len(recipient_features) == 1:
-                #     continue
-                # else:
+                if len(theme_features) == 1 and len(recipient_features) == 1:
+                    continue
+                else:
                 # print(fc[-1], recipient_features)
-                feature_combinations.append(fc)
+                    feature_combinations.append(fc)
     return feature_combinations
 
 
@@ -163,10 +163,13 @@ def sample_items(agents, themes, recipients, N):
             if sampled_theme in config.CONFLICTS.keys()
             else []
         )
-        # print(sampled_theme, conflict_set)
+        # print(sampled_theme, recipients, conflict_set)
         recipient_space = recipients - OrderedSet([sampled_theme]) - conflict_set
-        # print(recipient_space)
-        sampled_recipient = random.choice(list(recipient_space))
+        if len(recipient_space) == 0:
+            sampled_recipient = ""
+        else:
+            sampled_recipient = random.choice(list(recipient_space))
+            print(sampled_recipient)
 
         if sampled_theme in config.CONFLICTS.keys():
             conflict_set = conflict_set.union(
@@ -229,6 +232,9 @@ def generate_dative_set(lexicon, feature_combinations, sample_sizes):
         # if fc_id != "paspas":
         #     break
         feature_space = generate_feature_space(fc, lexicon)
+        # if len(feature_space[1]) == 1 and len(feature_space[2]) == 1 and feature_space[1] == feature_space[2]:
+        #     pass
+        # else:
         N = max(sample_sizes["do"][fc_id], sample_sizes["pp"][fc_id])
         if N == 0:
             pass
@@ -245,6 +251,9 @@ def generate_dative_set(lexicon, feature_combinations, sample_sizes):
                 # print(dative, len(items[0]))
                 # for j, (a, t, r) in enumerate(zip(*items)):
                 for agent, theme, recipient in zip(*items):
+                    # check if any of them is empty
+                    if agent == "" or theme == "" or recipient == "":
+                        continue
                     do_dative = Dative(
                         dative, "[verb]", agent, theme, recipient
                     ).generate()
@@ -296,6 +305,15 @@ def main(args):
 
     feature_combinations = generate_feature_combinations(adaptation_lexicon, features)
 
+    feature_combinations_final = []
+    buffer = []
+    for fc in feature_combinations:
+        if utils.generate_acronym_tuple(fc) in config.ORIGINALLY_MISSED:
+            buffer.append(fc)
+        else:
+            feature_combinations_final.append(fc)
+    feature_combinations = feature_combinations_final + buffer
+
     print(len(feature_combinations), len(features))
 
     # print(feature_combinations)
@@ -328,6 +346,7 @@ def main(args):
     # write to jsonl file
     with open(f"{exp_dir}/adaptation.jsonl", "w") as f:
         for item in adaptation_set:
+            # if item['item'] > 1430: # optional
             f.write(json.dumps(item) + "\n")
 
     adaptation_sentences = utils.reorganize_sentences(adaptation_set, full=True)

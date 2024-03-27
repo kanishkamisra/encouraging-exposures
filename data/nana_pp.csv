@@ -1,0 +1,261 @@
+verb,sentence
+addressed,james addressed us a toy.
+addressed,they addressed jessica a spoon.
+addressed,he addressed cinderella a present.
+addressed,claire addressed them some money.
+addressed,brian addressed daddy some flowers.
+addressed,jill addressed the dog some cookies.
+addressed,paul addressed me a lot.
+addressed,you addressed a dog the gift.
+addressed,I addressed you the book.
+addressed,lucy addressed jennifer the box.
+addressed,santa addressed a cat the scissors.
+addressed,emma addressed the cat a box.
+addressed,ryan addressed teddy something.
+addressed,felix addressed grandma the ball.
+addressed,the doctor addressed mommy a ball.
+addressed,charlie addressed jack some milk.
+addressed,she addressed daddy some food.
+addressed,nina addressed him an egg.
+addressed,tommy addressed john it.
+addressed,emily addressed grandpa a book.
+announced,brian announced grandma a book.
+announced,I announced you a present.
+announced,tommy announced us a spoon.
+announced,nina announced a cat a ball.
+announced,paul announced them the scissors.
+announced,felix announced the dog some flowers.
+announced,he announced daddy some milk.
+announced,santa announced cinderella something.
+announced,claire announced john some cookies.
+announced,emma announced me the ball.
+announced,they announced a dog an egg.
+announced,lucy announced teddy it.
+announced,james announced mommy a toy.
+announced,she announced him some money.
+announced,you announced the cat some food.
+announced,the doctor announced grandpa the gift.
+announced,jill announced jennifer a box.
+announced,emily announced her the book.
+announced,ryan announced jack a lot.
+announced,charlie announced jessica the box.
+delivered,nina delivered grandma some milk.
+delivered,she delivered jennifer a book.
+delivered,emma delivered a cat a toy.
+delivered,paul delivered teddy a ball.
+delivered,tommy delivered daddy a spoon.
+delivered,you delivered us a lot.
+delivered,charlie delivered her it.
+delivered,he delivered you the box.
+delivered,felix delivered jessica the scissors.
+delivered,they delivered grandpa some flowers.
+delivered,I delivered the dog the ball.
+delivered,the doctor delivered them some cookies.
+delivered,james delivered john a box.
+delivered,ryan delivered him something.
+delivered,santa delivered cinderella a present.
+delivered,jill delivered jack the gift.
+delivered,claire delivered the cat some money.
+delivered,emily delivered me the book.
+delivered,brian delivered a dog some food.
+delivered,lucy delivered mommy an egg.
+described,lucy described a dog some milk.
+described,they described you a toy.
+described,tommy described a cat a box.
+described,jill described teddy some cookies.
+described,santa described john some flowers.
+described,the doctor described jennifer the box.
+described,ryan described her the ball.
+described,you described mommy some money.
+described,nina described daddy a book.
+described,he described the dog the book.
+described,felix described jessica a ball.
+described,james described him something.
+described,claire described grandma it.
+described,she described me the scissors.
+described,charlie described jack a lot.
+described,emma described the cat a spoon.
+described,brian described us some food.
+described,emily described them the gift.
+described,paul described grandpa an egg.
+described,I described cinderella a present.
+dropped,I dropped jessica some milk.
+dropped,they dropped a cat a box.
+dropped,emma dropped daddy it.
+dropped,charlie dropped them some flowers.
+dropped,nina dropped mommy a present.
+dropped,he dropped you some cookies.
+dropped,you dropped grandma the gift.
+dropped,ryan dropped the cat some food.
+dropped,the doctor dropped grandpa a book.
+dropped,felix dropped john the scissors.
+dropped,brian dropped him a lot.
+dropped,she dropped cinderella the ball.
+dropped,paul dropped jack a toy.
+dropped,tommy dropped teddy something.
+dropped,jill dropped jennifer a ball.
+dropped,santa dropped a dog some money.
+dropped,lucy dropped me an egg.
+dropped,james dropped us the book.
+dropped,emily dropped the dog the box.
+dropped,claire dropped her a spoon.
+explained,tommy explained daddy a spoon.
+explained,they explained john something.
+explained,santa explained teddy some food.
+explained,lucy explained cinderella the ball.
+explained,I explained jessica a toy.
+explained,the doctor explained mommy the scissors.
+explained,jill explained grandpa the book.
+explained,nina explained a cat a ball.
+explained,emily explained the cat the box.
+explained,charlie explained him a present.
+explained,ryan explained me some flowers.
+explained,claire explained her a lot.
+explained,emma explained you some money.
+explained,she explained a dog an egg.
+explained,brian explained the dog a book.
+explained,james explained us it.
+explained,paul explained jennifer the gift.
+explained,you explained jack some cookies.
+explained,he explained them some milk.
+explained,felix explained grandma a box.
+introduced,felix introduced jack a book.
+introduced,james introduced jennifer an egg.
+introduced,santa introduced the dog the book.
+introduced,emily introduced daddy some food.
+introduced,nina introduced jessica the gift.
+introduced,jill introduced a cat a spoon.
+introduced,charlie introduced the cat the box.
+introduced,the doctor introduced teddy a lot.
+introduced,brian introduced her something.
+introduced,paul introduced mommy a present.
+introduced,lucy introduced john a box.
+introduced,ryan introduced grandpa the scissors.
+introduced,claire introduced them it.
+introduced,you introduced a dog a ball.
+introduced,he introduced cinderella some cookies.
+introduced,emma introduced him a toy.
+introduced,tommy introduced you some money.
+introduced,I introduced us some milk.
+introduced,she introduced grandma some flowers.
+introduced,they introduced me the ball.
+lifted,felix lifted him the ball.
+lifted,they lifted a cat some money.
+lifted,ryan lifted grandpa a book.
+lifted,lucy lifted mommy a toy.
+lifted,claire lifted a dog the gift.
+lifted,tommy lifted them a present.
+lifted,jill lifted the dog something.
+lifted,he lifted john a lot.
+lifted,charlie lifted grandma it.
+lifted,nina lifted jack a spoon.
+lifted,I lifted him a ball.
+lifted,paul lifted cinderella the book.
+lifted,james lifted daddy an egg.
+lifted,she lifted the cat some milk.
+lifted,brian lifted jessica some cookies.
+lifted,you lifted teddy the box.
+lifted,emma lifted jennifer some food.
+lifted,emily lifted us the scissors.
+lifted,the doctor lifted you some flowers.
+lifted,santa lifted her a box.
+mentioned,santa mentioned him the book.
+mentioned,tommy mentioned cinderella a spoon.
+mentioned,jill mentioned jennifer the box.
+mentioned,I mentioned a cat the gift.
+mentioned,charlie mentioned a dog some cookies.
+mentioned,nina mentioned daddy some flowers.
+mentioned,emma mentioned grandma some food.
+mentioned,he mentioned teddy it.
+mentioned,they mentioned john some money.
+mentioned,felix mentioned us a present.
+mentioned,brian mentioned her an egg.
+mentioned,the doctor mentioned me a box.
+mentioned,she mentioned the cat the scissors.
+mentioned,you mentioned them something.
+mentioned,claire mentioned jack a book.
+mentioned,emily mentioned jessica a toy.
+mentioned,james mentioned the dog the ball.
+mentioned,paul mentioned mommy a lot.
+mentioned,ryan mentioned grandpa some milk.
+mentioned,lucy mentioned you a ball.
+returned,emily returned the dog a ball.
+returned,nina returned grandpa the box.
+returned,you returned grandma a spoon.
+returned,they returned me some flowers.
+returned,she returned mommy the book.
+returned,james returned them it.
+returned,felix returned john something.
+returned,charlie returned teddy a book.
+returned,lucy returned cinderella a lot.
+returned,paul returned a cat some food.
+returned,tommy returned jessica some money.
+returned,he returned her an egg.
+returned,jill returned a dog the scissors.
+returned,I returned the cat the ball.
+returned,the doctor returned us the gift.
+returned,ryan returned jennifer a toy.
+returned,claire returned him a present.
+returned,emma returned you some cookies.
+returned,santa returned daddy some milk.
+returned,brian returned jack a box.
+said,tommy said mommy a book.
+said,I said him the gift.
+said,you said him a ball.
+said,nina said her an egg.
+said,the doctor said john a toy.
+said,emma said jessica a present.
+said,brian said daddy a lot.
+said,ryan said cinderella a spoon.
+said,felix said grandpa some milk.
+said,emily said jennifer some cookies.
+said,she said them the scissors.
+said,he said a cat some money.
+said,charlie said teddy something.
+said,paul said the dog a box.
+said,santa said a dog the box.
+said,claire said you some food.
+said,james said grandma the book.
+said,lucy said the cat some flowers.
+said,they said jack the ball.
+said,jill said us it.
+snapped,emma snapped the dog something.
+snapped,jill snapped teddy some milk.
+snapped,emily snapped john a present.
+snapped,ryan snapped jack the ball.
+snapped,lucy snapped the cat it.
+snapped,nina snapped grandma some money.
+snapped,you snapped jennifer a box.
+snapped,they snapped me the book.
+snapped,paul snapped a dog some cookies.
+snapped,charlie snapped daddy an egg.
+snapped,claire snapped us the scissors.
+snapped,santa snapped mommy a ball.
+snapped,the doctor snapped grandpa a book.
+snapped,brian snapped her some food.
+snapped,I snapped cinderella some flowers.
+snapped,tommy snapped them a toy.
+snapped,she snapped a cat a spoon.
+snapped,he snapped jessica a lot.
+snapped,felix snapped him the gift.
+snapped,james snapped you the box.
+whisper,felix whisper the dog the gift.
+whisper,you whisper mommy the box.
+whisper,emily whisper me a box.
+whisper,paul whisper you some money.
+whisper,they whisper her some cookies.
+whisper,ryan whisper teddy an egg.
+whisper,brian whisper grandpa it.
+whisper,emma whisper jack a present.
+whisper,the doctor whisper a cat the scissors.
+whisper,james whisper cinderella some food.
+whisper,santa whisper daddy some milk.
+whisper,claire whisper jessica some flowers.
+whisper,jill whisper him a book.
+whisper,I whisper grandma the book.
+whisper,she whisper them a lot.
+whisper,charlie whisper the cat a ball.
+whisper,tommy whisper john a spoon.
+whisper,nina whisper a dog a toy.
+whisper,lucy whisper jennifer something.
+whisper,he whisper us the ball.

@@ -158,9 +158,8 @@ def sample_items(agents, themes, recipients, N):
             if sampled_theme in config.CONFLICTS.keys()
             else []
         )
-        # print(sampled_theme, conflict_set)
         recipient_space = recipients - OrderedSet([sampled_theme]) - conflict_set
-        # print(recipient_space)
+        print(sampled_theme, conflict_set, recipient_space)
         sampled_recipient = random.choice(list(recipient_space))
 
         if sampled_theme in config.CONFLICTS.keys():

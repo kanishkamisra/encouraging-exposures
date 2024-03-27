@@ -1,0 +1,425 @@
+{
+    "nana-do": {
+        "bet": {
+            "theme": [
+                "some money",
+                "a watch",
+                "a book",
+                "something"
+            ],
+            "recipient": [
+                "him",
+                "her",
+                "them",
+                "me",
+                "jessica",
+                "emma",
+                "daddy",
+                "mommy",
+                "john",
+                "jack"
+            ]
+        },
+        "charged": {
+            "theme": [
+                "the milk",
+                "it",
+                "the food",
+                "the eggs",
+                "the flowers",
+                "the book",
+                "the box",
+                "the gift",
+                "the toy",
+                "some money"
+            ],
+            "recipient": [
+                "him",
+                "her",
+                "them",
+                "me",
+                "jessica",
+                "emma",
+                "daddy",
+                "mommy",
+                "john",
+                "jack"
+            ]
+        },
+        "cost": {
+            "theme": [
+                "some money",
+                "a raise",
+                "a toy",
+                "a box",
+                "a book"
+            ],
+            "recipient": [
+                "him",
+                "her",
+                "them",
+                "me",
+                "jessica",
+                "emma",
+                "daddy",
+                "mommy",
+                "john",
+                "jack"
+            ]
+        },
+        "found": {
+            "theme": [
+                "some cookies",
+                "a gift",
+                "the book",
+                "the ball",
+                "the food",
+                "a present",
+                "a box",
+                "some money",
+                "the gift",
+                "something"
+            ],
+            "recipient": [
+                "him",
+                "her",
+                "them",
+                "me",
+                "jessica",
+                "emma",
+                "daddy",
+                "mommy",
+                "john",
+                "jack"
+            ]
+        },
+        "saved": {
+            "theme": [
+                "some money",
+                "a toy",
+                "some food",
+                "a box",
+                "some soup",
+                "a chair",
+                "a seat",
+                "something"
+            ],
+            "recipient": [
+                "him",
+                "her",
+                "them",
+                "me",
+                "jessica",
+                "emma",
+                "daddy",
+                "mommy",
+                "john",
+                "jack"
+            ]
+        },
+        "wished": {
+            "theme": [
+                "some money",
+                "a toy",
+                "a book",
+                "a box",
+                "a gift",
+                "some food"
+            ],
+            "recipient": [
+                "him",
+                "her",
+                "them",
+                "me",
+                "jessica",
+                "emma",
+                "daddy",
+                "mommy",
+                "john",
+                "jack"
+            ]
+        }
+    },
+    "naba-pp": {
+        "batted": {
+            "theme": [
+                "the ball",
+                "the good ball",
+                "the baseball"
+            ],
+            "recipient": [
+                "him",
+                "her",
+                "them",
+                "me",
+                "jessica",
+                "emma",
+                "daddy",
+                "mommy",
+                "john",
+                "jack"
+            ]
+        },
+        "bounced": {
+            "theme": [
+                "the ball",
+                "the toy",
+                "the bottle",
+                "the soccer ball",
+                "something"
+            ],
+            "recipient": [
+                "him",
+                "her",
+                "them",
+                "me",
+                "jessica",
+                "emma",
+                "daddy",
+                "mommy",
+                "john",
+                "jack"
+            ]
+        },
+        "dragged": {
+            "theme": [
+                "the chair",
+                "some boxes",
+                "the blanket",
+                "the bags",
+                "something"
+            ],
+            "recipient": [
+                "him",
+                "her",
+                "them",
+                "me",
+                "jessica",
+                "emma",
+                "daddy",
+                "mommy",
+                "john",
+                "jack"
+            ]
+        },
+        "flipped": {
+            "theme": [
+                "the coin",
+                "the finger",
+                "a bottle",
+                "the card",
+                "something"
+            ],
+            "recipient": [
+                "him",
+                "her",
+                "them",
+                "me",
+                "jessica",
+                "emma",
+                "daddy",
+                "mommy",
+                "john",
+                "jack"
+            ]
+        },
+        "flew": {
+            "theme": [
+                "the food",
+                "the boxes",
+                "the packages",
+                "some food",
+                "the box",
+                "the toys",
+                "something",
+                "some packages"
+            ],
+            "recipient": [
+                "him",
+                "her",
+                "them",
+                "me",
+                "jessica",
+                "emma",
+                "daddy",
+                "mommy",
+                "john",
+                "jack"
+            ]
+        },
+        "hauled": {
+            "theme": [
+                "the boxes",
+                "the furniture",
+                "some packages",
+                "the toys",
+                "something"
+            ],
+            "recipient": [
+                "him",
+                "her",
+                "them",
+                "me",
+                "jessica",
+                "emma",
+                "daddy",
+                "mommy",
+                "john",
+                "jack"
+            ]
+        },
+        "kicked": {
+            "theme": [
+                "the ball",
+                "the soccer ball",
+                "the football",
+                "the bottle",
+                "the toy",
+                "the box",
+                "the can",
+                "something"
+            ],
+            "recipient": [
+                "him",
+                "her",
+                "them",
+                "me",
+                "jessica",
+                "emma",
+                "daddy",
+                "mommy",
+                "john",
+                "jack"
+            ]
+        },
+        "signed": {
+            "theme": [
+                "the book",
+                "the card",
+                "the letter",
+                "some copies", 
+                "something"
+            ],
+            "recipient": [
+                "him",
+                "her",
+                "them",
+                "me",
+                "jessica",
+                "emma",
+                "daddy",
+                "mommy",
+                "john",
+                "jack"
+            ]
+        },
+        "carried": {
+            "theme": [
+                "the boxes",
+                "the bags",
+                "the food",
+                "the toys",
+                "the packages",
+                "the books",
+                "the gifts",
+                "something"
+            ],
+            "recipient": [
+                "him",
+                "her",
+                "them",
+                "me",
+                "jessica",
+                "emma",
+                "daddy",
+                "mommy",
+                "john",
+                "jack"
+            ]
+        }
+    },
+    "nana-pp": {
+        "addressed": {
+            "theme": [],
+            "recipient": []
+        },
+        "announced": {
+            "theme": [],
+            "recipient": []
+        },
+        "delivered": {
+            "theme": [],
+            "recipient": []
+        },
+        "described": {
+            "theme": [],
+            "recipient": []
+        },
+        "dropped": {
+            "theme": [],
+            "recipient": []
+        },
+        "explained": {
+            "theme": [],
+            "recipient": []
+        },
+        "introduced": {
+            "theme": [],
+            "recipient": []
+        },
+        "lifted": {
+            "theme": [],
+            "recipient": []
+        },
+        "mentioned": {
+            "theme": [],
+            "recipient": []
+        },
+        "returned": {
+            "theme": [],
+            "recipient": []
+        },
+        "said": {
+            "theme": [],
+            "recipient": []
+        },
+        "snapped": {
+            "theme": [],
+            "recipient": []
+        },
+        "whispered": {
+            "theme": [],
+            "recipient": []
+        }
+    },
+    "naba-do": {
+        "assigned": {
+            "theme": [],
+            "recipient": []
+        },
+        "guaranteed": {
+            "theme": [],
+            "recipient": []    
+        },
+        "owed": {
+            "theme": [],
+            "recipient": []
+        },
+        "promised": {
+            "theme": [],
+            "recipient": []
+        },
+        "rented": {
+            "theme": [],
+            "recipient": []
+        },
+        "shot": {
+            "theme": [],
+            "recipient": []
+        },
+        "traded": {
+            "theme": [],
+            "recipient": []
+        }
+    }
+}

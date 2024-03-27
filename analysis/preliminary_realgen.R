@@ -216,6 +216,6 @@ best_results <- results %>%
   inner_join(feature_configs %>% rename(adaptation_feature_config = feature_config)) %>%
   filter(state == "best")
 
-fit1 <- lmer(logprob ~ theme_animacy * theme_pronominality + recipient_animacy * recipient_pronominality + (1|model) + (1|item_id), data = best_results %>% filter(adaptation_dative == "do", generalization_dative == "pp"))
+fit1 <- lmer(logprob ~ theme_animacy * theme_pronominality + recipient_animacy * recipient_pronominality + (1|model) + (1|item_id), data = best_results %>% filter(adaptation_dative == "pp", generalization_dative == "do"))
 
 summary(fit1)
