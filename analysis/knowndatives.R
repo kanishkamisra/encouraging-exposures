@@ -394,3 +394,24 @@ combined %>%
   inner_join(pos2cat2 %>% select(recipient_pos = pos, recipient_category=category)) %>%
   count(empirically_alternating, dative, theme_category, recipient_category) %>% View()
 # proportion_distributions
+
+removed_pre = c("make", "sing", "slam")
+removed_post = c("bet", "delivered", "snap")
+
+bind_rows(
+  combined %>% 
+    filter(lemma %in% c("charge", "cost", "find", "save", "wish"), dative == "do") %>% 
+    mutate(status = "NANA-DO"),
+  combined %>%
+    filter(lemma %in% c("address", "announce", "describe", "drop", "explain", "introduce", "lift", "mention", "return", "say", "whisper"), dative == "pp") %>%
+    mutate(status = "NANA-PP"),
+  combined %>%
+    filter(lemma %in% c("assign", "guarantee", "owe", "promise", "rent", "shot", "trade")) %>%
+    mutate(status = "NABA-DO"),
+  combined %>%
+    filter(lemma %in% c("bat", "bounce", "drag", "flip", "flew", "haul", "kick", "sign", "carry")) %>%
+    mutate(status = "NABA-PP")
+) %>% 
+  write_csv("data/nana-naba-dative-contexts.csv")
+
+

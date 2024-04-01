@@ -133,30 +133,30 @@
             "mommy [verb] the milk him .",
             "nonna [verb] the toys me .",
             "sam [verb] the cup him .",
-            "daddy [verb] the teddy her ."
+            "daddy [verb] the cookies her ."
         ],
         "pp": [
             "lucy [verb] us to the ball .",
             "mommy [verb] him to the milk .",
             "nonna [verb] me to the toys .",
             "sam [verb] him to the cup .",
-            "daddy [verb] her to the teddy ."
+            "daddy [verb] her to the cookies ."
         ]
     },
     "pasdunisdu": {
         "do": [
-            "nonna [verb] teddy them .",
-            "she [verb] dolly us .",
-            "mommy [verb] teddy us .",
-            "lucy [verb] dolly him .",
-            "daddy [verb] dolly him ."
+            "nonna [verb] cookies them .",
+            "she [verb] football us .",
+            "mommy [verb] cookies us .",
+            "lucy [verb] football him .",
+            "daddy [verb] football him ."
         ],
         "pp": [
-            "nonna [verb] them to teddy .",
-            "she [verb] us to dolly .",
-            "mommy [verb] us to teddy .",
-            "lucy [verb] him to dolly .",
-            "daddy [verb] him to dolly ."
+            "nonna [verb] them to cookies .",
+            "she [verb] us to football .",
+            "mommy [verb] us to cookies .",
+            "lucy [verb] him to football .",
+            "daddy [verb] him to football ."
         ]
     },
     "pasdunisim": {
@@ -306,14 +306,14 @@
     "naldmnisdm": {
         "do": [
             "mommy [verb] the food the dog over there .",
-            "she [verb] the teddy the big bear .",
+            "she [verb] the cookies the big bear .",
             "sam [verb] the ball the small dog .",
             "he [verb] the book the cat over there .",
             "nonna [verb] the ball the small dog ."
         ],
         "pp": [
             "mommy [verb] the dog over there to the food .",
-            "she [verb] the big bear to the teddy .",
+            "she [verb] the big bear to the cookies .",
             "sam [verb] the small dog to the ball .",
             "he [verb] the cat over there to the book .",
             "nonna [verb] the small dog to the ball ."
@@ -321,18 +321,18 @@
     },
     "naldmnisdu": {
         "do": [
-            "lucy [verb] teddy the bear over there .",
-            "sam [verb] teddy the dog outside the house .",
-            "he [verb] teddy the small dog .",
-            "mommy [verb] teddy the big bear .",
-            "she [verb] dolly the cat over there ."
+            "lucy [verb] cookies the bear over there .",
+            "sam [verb] cookies the dog outside the house .",
+            "he [verb] cookies the small dog .",
+            "mommy [verb] cookies the big bear .",
+            "she [verb] football the cat over there ."
         ],
         "pp": [
-            "lucy [verb] the bear over there to teddy .",
-            "sam [verb] the dog outside the house to teddy .",
-            "he [verb] the small dog to teddy .",
-            "mommy [verb] the big bear to teddy .",
-            "she [verb] the cat over there to dolly ."
+            "lucy [verb] the bear over there to cookies .",
+            "sam [verb] the dog outside the house to cookies .",
+            "he [verb] the small dog to cookies .",
+            "mommy [verb] the big bear to cookies .",
+            "she [verb] the cat over there to football ."
         ]
     },
     "naldmnisim": {
@@ -497,18 +497,18 @@
     },
     "nalimnisdu": {
         "do": [
-            "lucy [verb] dolly a bear outside the house .",
-            "sam [verb] teddy a cat outside the house .",
-            "nonna [verb] dolly a cat outside the house .",
-            "he [verb] dolly a big bear .",
-            "daddy [verb] dolly a bear outside the house ."
+            "lucy [verb] football a bear outside the house .",
+            "sam [verb] cookies a cat outside the house .",
+            "nonna [verb] football a cat outside the house .",
+            "he [verb] football a big bear .",
+            "daddy [verb] football a bear outside the house ."
         ],
         "pp": [
-            "lucy [verb] a bear outside the house to dolly .",
-            "sam [verb] a cat outside the house to teddy .",
-            "nonna [verb] a cat outside the house to dolly .",
-            "he [verb] a big bear to dolly .",
-            "daddy [verb] a bear outside the house to dolly ."
+            "lucy [verb] a bear outside the house to football .",
+            "sam [verb] a cat outside the house to cookies .",
+            "nonna [verb] a cat outside the house to football .",
+            "he [verb] a big bear to football .",
+            "daddy [verb] a bear outside the house to football ."
         ]
     },
     "nalimnisim": {
@@ -673,18 +673,18 @@
     },
     "naliunisdu": {
         "do": [
-            "mommy [verb] dolly dog outside the house .",
-            "lucy [verb] dolly bear over there .",
-            "he [verb] teddy cat outside the house .",
-            "daddy [verb] teddy bear over there .",
-            "she [verb] teddy bear over there ."
+            "mommy [verb] football dog outside the house .",
+            "lucy [verb] football bear over there .",
+            "he [verb] cookies cat outside the house .",
+            "daddy [verb] cookies bear over there .",
+            "she [verb] cookies bear over there ."
         ],
         "pp": [
-            "mommy [verb] dog outside the house to dolly .",
-            "lucy [verb] bear over there to dolly .",
-            "he [verb] cat outside the house to teddy .",
-            "daddy [verb] bear over there to teddy .",
-            "she [verb] bear over there to teddy ."
+            "mommy [verb] dog outside the house to football .",
+            "lucy [verb] bear over there to football .",
+            "he [verb] cat outside the house to cookies .",
+            "daddy [verb] bear over there to cookies .",
+            "she [verb] bear over there to cookies ."
         ]
     },
     "naliunisim": {
@@ -835,32 +835,32 @@
         "do": [
             "lucy [verb] the store the cat .",
             "mommy [verb] the food the cat .",
-            "daddy [verb] the teddy the cat .",
+            "daddy [verb] the cookies the cat .",
             "nonna [verb] the book the cat .",
             "he [verb] the store the bear ."
         ],
         "pp": [
             "lucy [verb] the cat to the store .",
             "mommy [verb] the cat to the food .",
-            "daddy [verb] the cat to the teddy .",
+            "daddy [verb] the cat to the cookies .",
             "nonna [verb] the cat to the book .",
             "he [verb] the bear to the store ."
         ]
     },
     "nasdmnisdu": {
         "do": [
-            "nonna [verb] dolly the cat .",
-            "mommy [verb] dolly the cat .",
-            "she [verb] teddy the bear .",
-            "lucy [verb] dolly the cat .",
-            "daddy [verb] dolly the dog ."
+            "nonna [verb] football the cat .",
+            "mommy [verb] football the cat .",
+            "she [verb] cookies the bear .",
+            "lucy [verb] football the cat .",
+            "daddy [verb] football the dog ."
         ],
         "pp": [
-            "nonna [verb] the cat to dolly .",
-            "mommy [verb] the cat to dolly .",
-            "she [verb] the bear to teddy .",
-            "lucy [verb] the cat to dolly .",
-            "daddy [verb] the dog to dolly ."
+            "nonna [verb] the cat to football .",
+            "mommy [verb] the cat to football .",
+            "she [verb] the bear to cookies .",
+            "lucy [verb] the cat to football .",
+            "daddy [verb] the dog to football ."
         ]
     },
     "nasdmnisim": {
@@ -1012,31 +1012,31 @@
             "sam [verb] the store mommy .",
             "nonna [verb] the milk grandma .",
             "lucy [verb] the food daddy .",
-            "she [verb] the teddy cat .",
+            "she [verb] the cookies cat .",
             "he [verb] the milk bert ."
         ],
         "pp": [
             "sam [verb] mommy to the store .",
             "nonna [verb] grandma to the milk .",
             "lucy [verb] daddy to the food .",
-            "she [verb] cat to the teddy .",
+            "she [verb] cat to the cookies .",
             "he [verb] bert to the milk ."
         ]
     },
     "nasdunisdu": {
         "do": [
-            "nonna [verb] dolly bear .",
-            "daddy [verb] teddy dog .",
-            "sam [verb] teddy mommy .",
-            "lucy [verb] teddy bear .",
-            "she [verb] teddy bert ."
+            "nonna [verb] football bear .",
+            "daddy [verb] cookies dog .",
+            "sam [verb] cookies mommy .",
+            "lucy [verb] cookies bear .",
+            "she [verb] cookies bert ."
         ],
         "pp": [
-            "nonna [verb] bear to dolly .",
-            "daddy [verb] dog to teddy .",
-            "sam [verb] mommy to teddy .",
-            "lucy [verb] bear to teddy .",
-            "she [verb] bert to teddy ."
+            "nonna [verb] bear to football .",
+            "daddy [verb] dog to cookies .",
+            "sam [verb] mommy to cookies .",
+            "lucy [verb] bear to cookies .",
+            "she [verb] bert to cookies ."
         ]
     },
     "nasdunisim": {
@@ -1185,14 +1185,14 @@
     },
     "nasimnisdm": {
         "do": [
-            "sam [verb] the teddy a dog .",
+            "sam [verb] the cookies a dog .",
             "mommy [verb] the cup a dog .",
             "lucy [verb] the ball a dog .",
             "nonna [verb] the store a bear .",
             "she [verb] the store a cat ."
         ],
         "pp": [
-            "sam [verb] a dog to the teddy .",
+            "sam [verb] a dog to the cookies .",
             "mommy [verb] a dog to the cup .",
             "lucy [verb] a dog to the ball .",
             "nonna [verb] a bear to the store .",
@@ -1201,30 +1201,30 @@
     },
     "nasimnisdu": {
         "do": [
-            "he [verb] teddy a cat .",
-            "mommy [verb] dolly a bear .",
-            "lucy [verb] teddy a cat .",
-            "nonna [verb] teddy a bear .",
-            "daddy [verb] dolly a dog ."
+            "he [verb] cookies a cat .",
+            "mommy [verb] football a bear .",
+            "lucy [verb] cookies a cat .",
+            "nonna [verb] cookies a bear .",
+            "daddy [verb] football a dog ."
         ],
         "pp": [
-            "he [verb] a cat to teddy .",
-            "mommy [verb] a bear to dolly .",
-            "lucy [verb] a cat to teddy .",
-            "nonna [verb] a bear to teddy .",
-            "daddy [verb] a dog to dolly ."
+            "he [verb] a cat to cookies .",
+            "mommy [verb] a bear to football .",
+            "lucy [verb] a cat to cookies .",
+            "nonna [verb] a bear to cookies .",
+            "daddy [verb] a dog to football ."
         ]
     },
     "nasimnisim": {
         "do": [
-            "nonna [verb] a teddy a bear .",
+            "nonna [verb] a cookie a bear .",
             "daddy [verb] a book a cat .",
             "lucy [verb] a ball a bear .",
             "mommy [verb] a store a cat .",
             "she [verb] some books a bear ."
         ],
         "pp": [
-            "nonna [verb] a bear to a teddy .",
+            "nonna [verb] a bear to a cookie .",
             "daddy [verb] a cat to a book .",
             "lucy [verb] a bear to a ball .",
             "mommy [verb] a cat to a store .",
@@ -1377,18 +1377,18 @@
     },
     "nildmnisdu": {
         "do": [
-            "nonna [verb] dolly the red ball .",
-            "daddy [verb] teddy the cup on the table .",
-            "mommy [verb] teddy the red ball .",
-            "he [verb] dolly the cup on the table .",
-            "sam [verb] teddy the balls in the room ."
+            "nonna [verb] football the red ball .",
+            "daddy [verb] cookies the cup on the table .",
+            "mommy [verb] cookies the red ball .",
+            "he [verb] football the cup on the table .",
+            "sam [verb] cookies the balls in the room ."
         ],
         "pp": [
-            "nonna [verb] the red ball to dolly .",
-            "daddy [verb] the cup on the table to teddy .",
-            "mommy [verb] the red ball to teddy .",
-            "he [verb] the cup on the table to dolly .",
-            "sam [verb] the balls in the room to teddy ."
+            "nonna [verb] the red ball to football .",
+            "daddy [verb] the cup on the table to cookies .",
+            "mommy [verb] the red ball to cookies .",
+            "he [verb] the cup on the table to football .",
+            "sam [verb] the balls in the room to cookies ."
         ]
     },
     "nildmnisim": {
@@ -1553,18 +1553,18 @@
     },
     "nilimnisdu": {
         "do": [
-            "mommy [verb] teddy a nice book .",
-            "she [verb] teddy a nice book .",
-            "sam [verb] dolly a toy in the room .",
-            "nonna [verb] dolly a ball in that room .",
-            "lucy [verb] teddy a red ball ."
+            "mommy [verb] cookies a nice book .",
+            "she [verb] cookies a nice book .",
+            "sam [verb] football a toy in the room .",
+            "nonna [verb] football a ball in that room .",
+            "lucy [verb] cookies a red ball ."
         ],
         "pp": [
-            "mommy [verb] a nice book to teddy .",
-            "she [verb] a nice book to teddy .",
-            "sam [verb] a toy in the room to dolly .",
-            "nonna [verb] a ball in that room to dolly .",
-            "lucy [verb] a red ball to teddy ."
+            "mommy [verb] a nice book to cookies .",
+            "she [verb] a nice book to cookies .",
+            "sam [verb] a toy in the room to football .",
+            "nonna [verb] a ball in that room to football .",
+            "lucy [verb] a red ball to cookies ."
         ]
     },
     "nilimnisim": {
@@ -1651,14 +1651,14 @@
         "do": [
             "he [verb] bear the book .",
             "sam [verb] cat the food .",
-            "lucy [verb] daddy the teddy .",
+            "lucy [verb] daddy the cookies .",
             "nonna [verb] elmo the book .",
             "she [verb] bert the food ."
         ],
         "pp": [
             "he [verb] the book to bear .",
             "sam [verb] the food to cat .",
-            "lucy [verb] the teddy to daddy .",
+            "lucy [verb] the cookies to daddy .",
             "nonna [verb] the book to elmo .",
             "she [verb] the food to bert ."
         ]
@@ -1668,28 +1668,28 @@
             "daddy [verb] a bear the food .",
             "nonna [verb] a dog the food .",
             "sam [verb] a cat the cheerios .",
-            "lucy [verb] a cat the teddy .",
+            "lucy [verb] a cat the cookies .",
             "mommy [verb] a bear the milk ."
         ],
         "pp": [
             "daddy [verb] the food to a bear .",
             "nonna [verb] the food to a dog .",
             "sam [verb] the cheerios to a cat .",
-            "lucy [verb] the teddy to a cat .",
+            "lucy [verb] the cookies to a cat .",
             "mommy [verb] the milk to a bear ."
         ]
     },
     "nisdmnildm": {
         "do": [
-            "nonna [verb] the store that is far away the teddy .",
-            "she [verb] the cup on the table the teddy .",
+            "nonna [verb] the store that is far away the cookies .",
+            "she [verb] the cup on the table the cookies .",
             "lucy [verb] the toys in the room the cheerios .",
             "he [verb] the balls in the room the cheerios .",
             "daddy [verb] the store that is far away the book ."
         ],
         "pp": [
-            "nonna [verb] the teddy to the store that is far away .",
-            "she [verb] the teddy to the cup on the table .",
+            "nonna [verb] the cookies to the store that is far away .",
+            "she [verb] the cookies to the cup on the table .",
             "lucy [verb] the cheerios to the toys in the room .",
             "he [verb] the cheerios to the balls in the room .",
             "daddy [verb] the book to the store that is far away ."
@@ -1713,257 +1713,257 @@
     },
     "nisdmnisdm": {
         "do": [
-            "sam [verb] the teddy the book .",
+            "sam [verb] the cookies the book .",
             "nonna [verb] the milk the food .",
             "daddy [verb] the milk the ball .",
-            "she [verb] the teddy the ball .",
+            "she [verb] the cookies the ball .",
             "he [verb] the food the toys ."
         ],
         "pp": [
-            "sam [verb] the book to the teddy .",
+            "sam [verb] the book to the cookies .",
             "nonna [verb] the food to the milk .",
             "daddy [verb] the ball to the milk .",
-            "she [verb] the ball to the teddy .",
+            "she [verb] the ball to the cookies .",
             "he [verb] the toys to the food ."
         ]
     },
     "nisdmnisdu": {
         "do": [
-            "daddy [verb] dolly the cheerios .",
-            "he [verb] dolly the toys .",
-            "mommy [verb] dolly the milk .",
-            "lucy [verb] teddy the teddy .",
-            "sam [verb] dolly a lego ."
+            "daddy [verb] football the cheerios .",
+            "he [verb] football the toys .",
+            "mommy [verb] football the milk .",
+            "lucy [verb] cookies the cookies .",
+            "sam [verb] football a lego ."
         ],
         "pp": [
-            "daddy [verb] the cheerios to dolly .",
-            "he [verb] the toys to dolly .",
-            "mommy [verb] the milk to dolly .",
-            "lucy [verb] the teddy to teddy .",
-            "sam [verb] a lego to dolly ."
+            "daddy [verb] the cheerios to football .",
+            "he [verb] the toys to football .",
+            "mommy [verb] the milk to football .",
+            "lucy [verb] the cookies to cookies .",
+            "sam [verb] a lego to football ."
         ]
     },
     "nisdmnisim": {
         "do": [
             "he [verb] a toy the food .",
             "she [verb] some balls the book .",
-            "lucy [verb] a teddy the cheerios .",
+            "lucy [verb] a cookie the cheerios .",
             "mommy [verb] some store the cup .",
             "sam [verb] some store the toys ."
         ],
         "pp": [
             "he [verb] the food to a toy .",
             "she [verb] the book to some balls .",
-            "lucy [verb] the cheerios to a teddy .",
+            "lucy [verb] the cheerios to a cookie .",
             "mommy [verb] the cup to some store .",
             "sam [verb] the toys to some store ."
         ]
     },
     "nisdupasdu": {
         "do": [
-            "mommy [verb] her dolly .",
-            "sam [verb] us dolly .",
-            "daddy [verb] her dolly .",
-            "nonna [verb] us dolly .",
-            "lucy [verb] him dolly ."
+            "mommy [verb] her football .",
+            "sam [verb] us football .",
+            "daddy [verb] her football .",
+            "nonna [verb] us football .",
+            "lucy [verb] him football ."
         ],
         "pp": [
-            "mommy [verb] dolly to her .",
-            "sam [verb] dolly to us .",
-            "daddy [verb] dolly to her .",
-            "nonna [verb] dolly to us .",
-            "lucy [verb] dolly to him ."
+            "mommy [verb] football to her .",
+            "sam [verb] football to us .",
+            "daddy [verb] football to her .",
+            "nonna [verb] football to us .",
+            "lucy [verb] football to him ."
         ]
     },
     "nisdunaldm": {
         "do": [
-            "mommy [verb] the cat over there teddy .",
-            "daddy [verb] the cat outside the house teddy .",
-            "sam [verb] the cat outside the house dolly .",
-            "she [verb] the cute cat teddy .",
-            "he [verb] the cat outside the house teddy ."
+            "mommy [verb] the cat over there cookies .",
+            "daddy [verb] the cat outside the house cookies .",
+            "sam [verb] the cat outside the house football .",
+            "she [verb] the cute cat cookies .",
+            "he [verb] the cat outside the house cookies ."
         ],
         "pp": [
-            "mommy [verb] teddy to the cat over there .",
-            "daddy [verb] teddy to the cat outside the house .",
-            "sam [verb] dolly to the cat outside the house .",
-            "she [verb] teddy to the cute cat .",
-            "he [verb] teddy to the cat outside the house ."
+            "mommy [verb] cookies to the cat over there .",
+            "daddy [verb] cookies to the cat outside the house .",
+            "sam [verb] football to the cat outside the house .",
+            "she [verb] cookies to the cute cat .",
+            "he [verb] cookies to the cat outside the house ."
         ]
     },
     "nisdunalim": {
         "do": [
-            "daddy [verb] a cat outside the house teddy .",
-            "mommy [verb] a small dog teddy .",
-            "lucy [verb] a big bear dolly .",
-            "nonna [verb] a cat outside the house dolly .",
-            "she [verb] a cute cat teddy ."
+            "daddy [verb] a cat outside the house cookies .",
+            "mommy [verb] a small dog cookies .",
+            "lucy [verb] a big bear football .",
+            "nonna [verb] a cat outside the house football .",
+            "she [verb] a cute cat cookies ."
         ],
         "pp": [
-            "daddy [verb] teddy to a cat outside the house .",
-            "mommy [verb] teddy to a small dog .",
-            "lucy [verb] dolly to a big bear .",
-            "nonna [verb] dolly to a cat outside the house .",
-            "she [verb] teddy to a cute cat ."
+            "daddy [verb] cookies to a cat outside the house .",
+            "mommy [verb] cookies to a small dog .",
+            "lucy [verb] football to a big bear .",
+            "nonna [verb] football to a cat outside the house .",
+            "she [verb] cookies to a cute cat ."
         ]
     },
     "nisdunasdm": {
         "do": [
-            "nonna [verb] the bear teddy .",
-            "he [verb] the bear dolly .",
-            "mommy [verb] the cat teddy .",
-            "sam [verb] the dog dolly .",
-            "she [verb] the cat dolly ."
+            "nonna [verb] the bear cookies .",
+            "he [verb] the bear football .",
+            "mommy [verb] the cat cookies .",
+            "sam [verb] the dog football .",
+            "she [verb] the cat football ."
         ],
         "pp": [
-            "nonna [verb] teddy to the bear .",
-            "he [verb] dolly to the bear .",
-            "mommy [verb] teddy to the cat .",
-            "sam [verb] dolly to the dog .",
-            "she [verb] dolly to the cat ."
+            "nonna [verb] cookies to the bear .",
+            "he [verb] football to the bear .",
+            "mommy [verb] cookies to the cat .",
+            "sam [verb] football to the dog .",
+            "she [verb] football to the cat ."
         ]
     },
     "nisdunasdu": {
         "do": [
-            "mommy [verb] daddy dolly .",
-            "she [verb] bear dolly .",
-            "nonna [verb] bear dolly .",
-            "he [verb] cat teddy .",
-            "lucy [verb] dog teddy ."
+            "mommy [verb] daddy football .",
+            "she [verb] bear football .",
+            "nonna [verb] bear football .",
+            "he [verb] cat cookies .",
+            "lucy [verb] dog cookies ."
         ],
         "pp": [
-            "mommy [verb] dolly to daddy .",
-            "she [verb] dolly to bear .",
-            "nonna [verb] dolly to bear .",
-            "he [verb] teddy to cat .",
-            "lucy [verb] teddy to dog ."
+            "mommy [verb] football to daddy .",
+            "she [verb] football to bear .",
+            "nonna [verb] football to bear .",
+            "he [verb] cookies to cat .",
+            "lucy [verb] cookies to dog ."
         ]
     },
     "nisdunasim": {
         "do": [
-            "daddy [verb] a bear teddy .",
-            "mommy [verb] a bear teddy .",
-            "sam [verb] a cat dolly .",
-            "he [verb] a cat teddy .",
-            "nonna [verb] a cat teddy ."
+            "daddy [verb] a bear cookies .",
+            "mommy [verb] a bear cookies .",
+            "sam [verb] a cat football .",
+            "he [verb] a cat cookies .",
+            "nonna [verb] a cat cookies ."
         ],
         "pp": [
-            "daddy [verb] teddy to a bear .",
-            "mommy [verb] teddy to a bear .",
-            "sam [verb] dolly to a cat .",
-            "he [verb] teddy to a cat .",
-            "nonna [verb] teddy to a cat ."
+            "daddy [verb] cookies to a bear .",
+            "mommy [verb] cookies to a bear .",
+            "sam [verb] football to a cat .",
+            "he [verb] cookies to a cat .",
+            "nonna [verb] cookies to a cat ."
         ]
     },
     "nisdunildm": {
         "do": [
-            "mommy [verb] the cup on the table teddy .",
-            "he [verb] the balls in the room dolly .",
-            "daddy [verb] the balls in the room teddy .",
-            "sam [verb] the food on the table teddy .",
-            "nonna [verb] the food on the table dolly ."
+            "mommy [verb] the cup on the table cookies .",
+            "he [verb] the balls in the room football .",
+            "daddy [verb] the balls in the room cookies .",
+            "sam [verb] the food on the table cookies .",
+            "nonna [verb] the food on the table football ."
         ],
         "pp": [
-            "mommy [verb] teddy to the cup on the table .",
-            "he [verb] dolly to the balls in the room .",
-            "daddy [verb] teddy to the balls in the room .",
-            "sam [verb] teddy to the food on the table .",
-            "nonna [verb] dolly to the food on the table ."
+            "mommy [verb] cookies to the cup on the table .",
+            "he [verb] football to the balls in the room .",
+            "daddy [verb] cookies to the balls in the room .",
+            "sam [verb] cookies to the food on the table .",
+            "nonna [verb] football to the food on the table ."
         ]
     },
     "nisdunilim": {
         "do": [
-            "lucy [verb] a ball in that room dolly .",
-            "sam [verb] a cup on the table dolly .",
-            "daddy [verb] a nice book teddy .",
-            "mommy [verb] a nice book dolly .",
-            "he [verb] a ball in that room dolly ."
+            "lucy [verb] a ball in that room football .",
+            "sam [verb] a cup on the table football .",
+            "daddy [verb] a nice book cookies .",
+            "mommy [verb] a nice book football .",
+            "he [verb] a ball in that room football ."
         ],
         "pp": [
-            "lucy [verb] dolly to a ball in that room .",
-            "sam [verb] dolly to a cup on the table .",
-            "daddy [verb] teddy to a nice book .",
-            "mommy [verb] dolly to a nice book .",
-            "he [verb] dolly to a ball in that room ."
+            "lucy [verb] football to a ball in that room .",
+            "sam [verb] football to a cup on the table .",
+            "daddy [verb] cookies to a nice book .",
+            "mommy [verb] football to a nice book .",
+            "he [verb] football to a ball in that room ."
         ]
     },
     "nisdunisdm": {
         "do": [
-            "she [verb] the store dolly .",
-            "mommy [verb] the toys teddy .",
-            "daddy [verb] the food dolly .",
-            "lucy [verb] the book dolly .",
-            "nonna [verb] the cup teddy ."
+            "lucy [verb] the store football .",
+            "mommy [verb] the food cookies .",
+            "daddy [verb] the book football .",
+            "he [verb] the store cookies .",
+            "she [verb] the toys cookies ."
         ],
         "pp": [
-            "she [verb] dolly to the store .",
-            "mommy [verb] teddy to the toys .",
-            "daddy [verb] dolly to the food .",
-            "lucy [verb] dolly to the book .",
-            "nonna [verb] teddy to the cup ."
+            "lucy [verb] football to the store .",
+            "mommy [verb] cookies to the food .",
+            "daddy [verb] football to the book .",
+            "he [verb] cookies to the store .",
+            "she [verb] cookies to the toys ."
         ]
     },
     "nisdunisdu": {
         "do": [
-            "daddy [verb] teddy dolly .",
-            "mommy [verb] teddy dolly .",
-            "sam [verb] dolly teddy .",
-            "she [verb] dolly teddy .",
-            "lucy [verb] dolly teddy ."
+            "daddy [verb] cookies football .",
+            "she [verb] football cookies .",
+            "he [verb] football cookies .",
+            "lucy [verb] football cookies .",
+            "mommy [verb] cookies football ."
         ],
         "pp": [
-            "daddy [verb] dolly to teddy .",
-            "mommy [verb] dolly to teddy .",
-            "sam [verb] teddy to dolly .",
-            "she [verb] teddy to dolly .",
-            "lucy [verb] teddy to dolly ."
+            "daddy [verb] football to cookies .",
+            "she [verb] cookies to football .",
+            "he [verb] cookies to football .",
+            "lucy [verb] cookies to football .",
+            "mommy [verb] football to cookies ."
         ]
     },
     "nisdunisim": {
         "do": [
-            "sam [verb] a ball teddy .",
-            "she [verb] some books teddy .",
-            "nonna [verb] some balls dolly .",
-            "he [verb] a store teddy .",
-            "mommy [verb] some food dolly ."
+            "he [verb] some books cookies .",
+            "nonna [verb] some balls football .",
+            "she [verb] a store cookies .",
+            "sam [verb] some food football .",
+            "daddy [verb] some food cookies ."
         ],
         "pp": [
-            "sam [verb] teddy to a ball .",
-            "she [verb] teddy to some books .",
-            "nonna [verb] dolly to some balls .",
-            "he [verb] teddy to a store .",
-            "mommy [verb] dolly to some food ."
+            "he [verb] cookies to some books .",
+            "nonna [verb] football to some balls .",
+            "she [verb] cookies to a store .",
+            "sam [verb] football to some food .",
+            "daddy [verb] cookies to some food ."
         ]
     },
     "nisimpasdu": {
         "do": [
-            "he [verb] her a ball .",
-            "daddy [verb] me a book .",
+            "nonna [verb] me a book .",
             "lucy [verb] them some balls .",
-            "mommy [verb] me a toy .",
-            "nonna [verb] us a toy ."
+            "sam [verb] me a toy .",
+            "she [verb] us a toy .",
+            "mommy [verb] him a cookie ."
         ],
         "pp": [
-            "he [verb] a ball to her .",
-            "daddy [verb] a book to me .",
+            "nonna [verb] a book to me .",
             "lucy [verb] some balls to them .",
-            "mommy [verb] a toy to me .",
-            "nonna [verb] a toy to us ."
+            "sam [verb] a toy to me .",
+            "she [verb] a toy to us .",
+            "mommy [verb] a cookie to him ."
         ]
     },
     "nisimnaldm": {
         "do": [
-            "lucy [verb] the dog over there a book .",
-            "he [verb] the cute cat a cup .",
-            "sam [verb] the dog over there a book .",
-            "daddy [verb] the small dog a toy .",
+            "lucy [verb] the bear over there a toy .",
+            "he [verb] the cat over there a cookie .",
+            "sam [verb] the cat outside the house some milk .",
+            "daddy [verb] the big bear a book .",
             "nonna [verb] the cat outside the house some books ."
         ],
         "pp": [
-            "lucy [verb] a book to the dog over there .",
-            "he [verb] a cup to the cute cat .",
-            "sam [verb] a book to the dog over there .",
-            "daddy [verb] a toy to the small dog .",
+            "lucy [verb] a toy to the bear over there .",
+            "he [verb] a cookie to the cat over there .",
+            "sam [verb] some milk to the cat outside the house .",
+            "daddy [verb] a book to the big bear .",
             "nonna [verb] some books to the cat outside the house ."
         ]
     },
@@ -2019,14 +2019,14 @@
         "do": [
             "he [verb] a bear some milk .",
             "mommy [verb] a cat some books .",
-            "nonna [verb] a cat a teddy .",
+            "nonna [verb] a cat a cookie .",
             "daddy [verb] a bear some food .",
             "she [verb] a bear some cheerios ."
         ],
         "pp": [
             "he [verb] some milk to a bear .",
             "mommy [verb] some books to a cat .",
-            "nonna [verb] a teddy to a cat .",
+            "nonna [verb] a cookie to a cat .",
             "daddy [verb] some food to a bear .",
             "she [verb] some cheerios to a bear ."
         ]
@@ -2034,14 +2034,14 @@
     "nisimnildm": {
         "do": [
             "daddy [verb] the balls in the room a cup .",
-            "lucy [verb] the food on the table a teddy .",
+            "lucy [verb] the food on the table a cookie .",
             "mommy [verb] the food on the table a ball .",
             "she [verb] the cup on the table some food .",
             "he [verb] the red ball some cheerios ."
         ],
         "pp": [
             "daddy [verb] a cup to the balls in the room .",
-            "lucy [verb] a teddy to the food on the table .",
+            "lucy [verb] a cookie to the food on the table .",
             "mommy [verb] a ball to the food on the table .",
             "she [verb] some food to the cup on the table .",
             "he [verb] some cheerios to the red ball ."
@@ -2052,60 +2052,60 @@
             "mommy [verb] a red ball a toy .",
             "daddy [verb] a ball in that room a cup .",
             "he [verb] a cup on the table a ball .",
-            "nonna [verb] a cup on the table a teddy .",
-            "sam [verb] a toy in the room a teddy ."
+            "nonna [verb] a cup on the table a cookie .",
+            "sam [verb] a toy in the room a cookie ."
         ],
         "pp": [
             "mommy [verb] a toy to a red ball .",
             "daddy [verb] a cup to a ball in that room .",
             "he [verb] a ball to a cup on the table .",
-            "nonna [verb] a teddy to a cup on the table .",
-            "sam [verb] a teddy to a toy in the room ."
+            "nonna [verb] a cookie to a cup on the table .",
+            "sam [verb] a cookie to a toy in the room ."
         ]
     },
     "nisimnisdm": {
         "do": [
             "nonna [verb] the cup some balls .",
             "daddy [verb] the food some milk .",
-            "sam [verb] the teddy some balls .",
-            "he [verb] the teddy some food .",
+            "sam [verb] the cookies some balls .",
+            "he [verb] the cookies some food .",
             "mommy [verb] the ball some books ."
         ],
         "pp": [
             "nonna [verb] some balls to the cup .",
             "daddy [verb] some milk to the food .",
-            "sam [verb] some balls to the teddy .",
-            "he [verb] some food to the teddy .",
+            "sam [verb] some balls to the cookies .",
+            "he [verb] some food to the cookies .",
             "mommy [verb] some books to the ball ."
         ]
     },
     "nisimnisdu": {
         "do": [
-            "mommy [verb] teddy a cup .",
-            "he [verb] dolly a ball .",
-            "she [verb] dolly some food .",
-            "nonna [verb] teddy some balls .",
-            "sam [verb] dolly some milk ."
+            "mommy [verb] cookies a cup .",
+            "he [verb] football a ball .",
+            "she [verb] football some food .",
+            "nonna [verb] cookies some balls .",
+            "sam [verb] football some milk ."
         ],
         "pp": [
-            "mommy [verb] a cup to teddy .",
-            "he [verb] a ball to dolly .",
-            "she [verb] some food to dolly .",
-            "nonna [verb] some balls to teddy .",
-            "sam [verb] some milk to dolly ."
+            "mommy [verb] a cup to cookies .",
+            "he [verb] a ball to football .",
+            "she [verb] some food to football .",
+            "nonna [verb] some balls to cookies .",
+            "sam [verb] some milk to football ."
         ]
     },
     "nisimnisim": {
         "do": [
-            "she [verb] a teddy some balls .",
-            "daddy [verb] a teddy a cup .",
+            "she [verb] a cookie some balls .",
+            "daddy [verb] a cookie a cup .",
             "lucy [verb] a ball some cheerios .",
             "he [verb] some food some cheerios .",
             "mommy [verb] a store a ball ."
         ],
         "pp": [
-            "she [verb] some balls to a teddy .",
-            "daddy [verb] a cup to a teddy .",
+            "she [verb] some balls to a cookie .",
+            "daddy [verb] a cup to a cookie .",
             "lucy [verb] some cheerios to a ball .",
             "he [verb] some cheerios to some food .",
             "mommy [verb] a ball to a store ."
@@ -2257,18 +2257,18 @@
     },
     "nisiunisdu": {
         "do": [
-            "mommy [verb] dolly cheerios .",
-            "sam [verb] teddy book .",
-            "daddy [verb] teddy legos .",
-            "she [verb] teddy cheerios .",
-            "he [verb] dolly cup ."
+            "mommy [verb] football cheerios .",
+            "sam [verb] cookies book .",
+            "daddy [verb] cookies legos .",
+            "she [verb] cookies cheerios .",
+            "he [verb] football cup ."
         ],
         "pp": [
-            "mommy [verb] cheerios to dolly .",
-            "sam [verb] book to teddy .",
-            "daddy [verb] legos to teddy .",
-            "she [verb] cheerios to teddy .",
-            "he [verb] cup to dolly ."
+            "mommy [verb] cheerios to football .",
+            "sam [verb] book to cookies .",
+            "daddy [verb] legos to cookies .",
+            "she [verb] cheerios to cookies .",
+            "he [verb] cup to football ."
         ]
     },
     "nisiunisim": {
@@ -2276,14 +2276,14 @@
             "daddy [verb] some balls legos .",
             "she [verb] a store cup .",
             "lucy [verb] some food cheerios .",
-            "he [verb] a teddy cheerios .",
+            "he [verb] a cookie cheerios .",
             "nonna [verb] some books legos ."
         ],
         "pp": [
             "daddy [verb] legos to some balls .",
             "she [verb] cup to a store .",
             "lucy [verb] cheerios to some food .",
-            "he [verb] cheerios to a teddy .",
+            "he [verb] cheerios to a cookie .",
             "nonna [verb] legos to some books ."
         ]
     },
@@ -2483,32 +2483,32 @@
         "do": [
             "lucy [verb] the toys someone .",
             "she [verb] the milk someone .",
-            "sam [verb] the teddy someone .",
+            "sam [verb] the cookies someone .",
             "mommy [verb] the toys someone .",
             "daddy [verb] the ball someone ."
         ],
         "pp": [
             "lucy [verb] someone to the toys .",
             "she [verb] someone to the milk .",
-            "sam [verb] someone to the teddy .",
+            "sam [verb] someone to the cookies .",
             "mommy [verb] someone to the toys .",
             "daddy [verb] someone to the ball ."
         ]
     },
     "pasiunisdu": {
         "do": [
-            "lucy [verb] teddy someone .",
-            "sam [verb] teddy someone .",
-            "daddy [verb] dolly someone .",
-            "nonna [verb] dolly someone .",
-            "she [verb] teddy someone ."
+            "lucy [verb] cookies someone .",
+            "sam [verb] cookies someone .",
+            "daddy [verb] football someone .",
+            "nonna [verb] football someone .",
+            "she [verb] cookies someone ."
         ],
         "pp": [
-            "lucy [verb] someone to teddy .",
-            "sam [verb] someone to teddy .",
-            "daddy [verb] someone to dolly .",
-            "nonna [verb] someone to dolly .",
-            "she [verb] someone to teddy ."
+            "lucy [verb] someone to cookies .",
+            "sam [verb] someone to cookies .",
+            "daddy [verb] someone to football .",
+            "nonna [verb] someone to football .",
+            "she [verb] someone to cookies ."
         ]
     },
     "pasiunisim": {
@@ -2658,14 +2658,14 @@
     "pisdunisdm": {
         "do": [
             "nonna [verb] the milk it .",
-            "sam [verb] the teddy it .",
+            "sam [verb] the cookies it .",
             "he [verb] the cup it .",
             "daddy [verb] the milk it .",
             "lucy [verb] the store it ."
         ],
         "pp": [
             "nonna [verb] it to the milk .",
-            "sam [verb] it to the teddy .",
+            "sam [verb] it to the cookies .",
             "he [verb] it to the cup .",
             "daddy [verb] it to the milk .",
             "lucy [verb] it to the store ."
@@ -2673,18 +2673,18 @@
     },
     "pisdunisdu": {
         "do": [
-            "sam [verb] teddy it .",
-            "mommy [verb] teddy it .",
-            "she [verb] dolly it .",
-            "lucy [verb] dolly it .",
-            "he [verb] dolly it ."
+            "sam [verb] cookies it .",
+            "mommy [verb] cookies it .",
+            "she [verb] football it .",
+            "lucy [verb] football it .",
+            "he [verb] football it ."
         ],
         "pp": [
-            "sam [verb] it to teddy .",
-            "mommy [verb] it to teddy .",
-            "she [verb] it to dolly .",
-            "lucy [verb] it to dolly .",
-            "he [verb] it to dolly ."
+            "sam [verb] it to cookies .",
+            "mommy [verb] it to cookies .",
+            "she [verb] it to football .",
+            "lucy [verb] it to football .",
+            "he [verb] it to football ."
         ]
     },
     "pisdunisim": {
@@ -2692,14 +2692,14 @@
             "he [verb] a toy it .",
             "nonna [verb] a ball it .",
             "sam [verb] a cup it .",
-            "daddy [verb] a teddy it .",
+            "daddy [verb] a cookie it .",
             "she [verb] some balls it ."
         ],
         "pp": [
             "he [verb] it to a toy .",
             "nonna [verb] it to a ball .",
             "sam [verb] it to a cup .",
-            "daddy [verb] it to a teddy .",
+            "daddy [verb] it to a cookie .",
             "she [verb] it to some balls ."
         ]
     },
@@ -2835,32 +2835,32 @@
         "do": [
             "sam [verb] the ball something .",
             "she [verb] the toys something .",
-            "he [verb] the teddy something .",
+            "he [verb] the cookies something .",
             "lucy [verb] the cup something .",
             "nonna [verb] the ball something ."
         ],
         "pp": [
             "sam [verb] something to the ball .",
             "she [verb] something to the toys .",
-            "he [verb] something to the teddy .",
+            "he [verb] something to the cookies .",
             "lucy [verb] something to the cup .",
             "nonna [verb] something to the ball ."
         ]
     },
     "pisiunisdu": {
         "do": [
-            "she [verb] dolly something .",
-            "nonna [verb] teddy something .",
-            "mommy [verb] teddy something .",
-            "sam [verb] dolly something .",
-            "lucy [verb] dolly something ."
+            "she [verb] football something .",
+            "nonna [verb] cookies something .",
+            "mommy [verb] cookies something .",
+            "sam [verb] football something .",
+            "lucy [verb] football something ."
         ],
         "pp": [
-            "she [verb] something to dolly .",
-            "nonna [verb] something to teddy .",
-            "mommy [verb] something to teddy .",
-            "sam [verb] something to dolly .",
-            "lucy [verb] something to dolly ."
+            "she [verb] something to football .",
+            "nonna [verb] something to cookies .",
+            "mommy [verb] something to cookies .",
+            "sam [verb] something to football .",
+            "lucy [verb] something to football ."
         ]
     },
     "pisiunisim": {
@@ -3412,14 +3412,14 @@
             "mommy [verb] it the cup .",
             "lucy [verb] it the food .",
             "she [verb] it the book .",
-            "he [verb] it the teddy .",
+            "he [verb] it the cookies .",
             "daddy [verb] it the toys ."
         ],
         "pp": [
             "mommy [verb] the cup to it .",
             "lucy [verb] the food to it .",
             "she [verb] the book to it .",
-            "he [verb] the teddy to it .",
+            "he [verb] the cookies to it .",
             "daddy [verb] the toys to it ."
         ]
     },
@@ -3428,15 +3428,15 @@
             "nonna [verb] something the cup .",
             "she [verb] something the food .",
             "daddy [verb] something the toys .",
-            "mommy [verb] something the teddy .",
-            "he [verb] something the teddy ."
+            "mommy [verb] something the cookies .",
+            "he [verb] something the cookies ."
         ],
         "pp": [
             "nonna [verb] the cup to something .",
             "she [verb] the food to something .",
             "daddy [verb] the toys to something .",
-            "mommy [verb] the teddy to something .",
-            "he [verb] the teddy to something ."
+            "mommy [verb] the cookies to something .",
+            "he [verb] the cookies to something ."
         ]
     },
     "nisdmnisiu": {
@@ -3457,66 +3457,66 @@
     },
     "nisdupasiu": {
         "do": [
-            "she [verb] someone teddy .",
-            "sam [verb] someone teddy .",
-            "nonna [verb] someone teddy .",
-            "he [verb] someone dolly .",
-            "mommy [verb] someone dolly ."
+            "she [verb] someone cookies .",
+            "sam [verb] someone cookies .",
+            "nonna [verb] someone cookies .",
+            "he [verb] someone football .",
+            "mommy [verb] someone football ."
         ],
         "pp": [
-            "she [verb] teddy to someone .",
-            "sam [verb] teddy to someone .",
-            "nonna [verb] teddy to someone .",
-            "he [verb] dolly to someone .",
-            "mommy [verb] dolly to someone ."
+            "she [verb] cookies to someone .",
+            "sam [verb] cookies to someone .",
+            "nonna [verb] cookies to someone .",
+            "he [verb] football to someone .",
+            "mommy [verb] football to someone ."
         ]
     },
     "nisdupisdu": {
         "do": [
-            "nonna [verb] it dolly .",
-            "mommy [verb] it teddy .",
-            "he [verb] it teddy .",
-            "she [verb] it dolly .",
-            "daddy [verb] it teddy ."
+            "nonna [verb] it football .",
+            "mommy [verb] it cookies .",
+            "he [verb] it cookies .",
+            "she [verb] it football .",
+            "daddy [verb] it cookies ."
         ],
         "pp": [
-            "nonna [verb] dolly to it .",
-            "mommy [verb] teddy to it .",
-            "he [verb] teddy to it .",
-            "she [verb] dolly to it .",
-            "daddy [verb] teddy to it ."
+            "nonna [verb] football to it .",
+            "mommy [verb] cookies to it .",
+            "he [verb] cookies to it .",
+            "she [verb] football to it .",
+            "daddy [verb] cookies to it ."
         ]
     },
     "nisdupisiu": {
         "do": [
-            "he [verb] something dolly .",
-            "lucy [verb] something dolly .",
-            "sam [verb] something teddy .",
-            "nonna [verb] something dolly .",
-            "mommy [verb] something dolly ."
+            "he [verb] something football .",
+            "lucy [verb] something football .",
+            "sam [verb] something cookies .",
+            "nonna [verb] something football .",
+            "mommy [verb] something football ."
         ],
         "pp": [
-            "he [verb] dolly to something .",
-            "lucy [verb] dolly to something .",
-            "sam [verb] teddy to something .",
-            "nonna [verb] dolly to something .",
-            "mommy [verb] dolly to something ."
+            "he [verb] football to something .",
+            "lucy [verb] football to something .",
+            "sam [verb] cookies to something .",
+            "nonna [verb] football to something .",
+            "mommy [verb] football to something ."
         ]
     },
     "nisdunisiu": {
         "do": [
-            "she [verb] cheerios teddy .",
-            "daddy [verb] cheerios dolly .",
-            "lucy [verb] cheerios dolly .",
-            "nonna [verb] cheerios teddy .",
-            "sam [verb] cheerios teddy ."
+            "she [verb] cheerios cookies .",
+            "daddy [verb] cheerios football .",
+            "lucy [verb] cheerios football .",
+            "nonna [verb] cheerios cookies .",
+            "sam [verb] cheerios cookies ."
         ],
         "pp": [
-            "she [verb] teddy to cheerios .",
-            "daddy [verb] dolly to cheerios .",
-            "lucy [verb] dolly to cheerios .",
-            "nonna [verb] teddy to cheerios .",
-            "sam [verb] teddy to cheerios ."
+            "she [verb] cookies to cheerios .",
+            "daddy [verb] football to cheerios .",
+            "lucy [verb] football to cheerios .",
+            "nonna [verb] cookies to cheerios .",
+            "sam [verb] cookies to cheerios ."
         ]
     },
     "nisimpasiu": {
@@ -3524,27 +3524,27 @@
             "sam [verb] someone some food .",
             "she [verb] someone a book .",
             "nonna [verb] someone a ball .",
-            "lucy [verb] someone a teddy .",
+            "lucy [verb] someone a cookie .",
             "he [verb] someone some cheerios ."
         ],
         "pp": [
             "sam [verb] some food to someone .",
             "she [verb] a book to someone .",
             "nonna [verb] a ball to someone .",
-            "lucy [verb] a teddy to someone .",
+            "lucy [verb] a cookie to someone .",
             "he [verb] some cheerios to someone ."
         ]
     },
     "nisimpisdu": {
         "do": [
-            "lucy [verb] it a teddy .",
+            "lucy [verb] it a cookie .",
             "daddy [verb] it a cup .",
             "mommy [verb] it a toy .",
             "he [verb] it some balls .",
             "she [verb] it a ball ."
         ],
         "pp": [
-            "lucy [verb] a teddy to it .",
+            "lucy [verb] a cookie to it .",
             "daddy [verb] a cup to it .",
             "mommy [verb] a toy to it .",
             "he [verb] some balls to it .",
@@ -3555,15 +3555,15 @@
         "do": [
             "mommy [verb] something a ball .",
             "daddy [verb] something some cheerios .",
-            "she [verb] something a teddy .",
-            "nonna [verb] something a teddy .",
+            "she [verb] something a cookie .",
+            "nonna [verb] something a cookie .",
             "lucy [verb] something a cup ."
         ],
         "pp": [
             "mommy [verb] a ball to something .",
             "daddy [verb] some cheerios to something .",
-            "she [verb] a teddy to something .",
-            "nonna [verb] a teddy to something .",
+            "she [verb] a cookie to something .",
+            "nonna [verb] a cookie to something .",
             "lucy [verb] a cup to something ."
         ]
     },
@@ -3571,14 +3571,14 @@
         "do": [
             "mommy [verb] cheerios a ball .",
             "daddy [verb] cheerios some books .",
-            "nonna [verb] cheerios a teddy .",
+            "nonna [verb] cheerios a cookie .",
             "sam [verb] cheerios a ball .",
             "lucy [verb] cheerios a book ."
         ],
         "pp": [
             "mommy [verb] a ball to cheerios .",
             "daddy [verb] some books to cheerios .",
-            "nonna [verb] a teddy to cheerios .",
+            "nonna [verb] a cookie to cheerios .",
             "sam [verb] a ball to cheerios .",
             "lucy [verb] a book to cheerios ."
         ]

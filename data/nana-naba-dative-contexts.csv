@@ -1,0 +1,268 @@
+sentence,lemma,verb,verb_pos,theme,recipient,theme_pos,recipient_pos,type,dative,status
+catherine could you find him some of the red sh squares though ?,find,find,VB,some,him,DT,PRP,do-only,do,NANA-DO
+maybe in the too big clothes we can find you something .,find,find,VB,something,you,NN,PRP,do-only,do,NANA-DO
+she is wishing you a happy birthday .,wish,wishing,VBG,birthday,you,NN,PRP,do-only,do,NANA-DO
+did grandma call and wish you happy birthday .,wish,wish,VB,birthday,you,NN,PRP,do-only,do,NANA-DO
+i'll go find you some food .,find,find,VB,food,you,NN,PRP,do-only,do,NANA-DO
+we'll find you some clothes .,find,find,VB,clothes,you,NNS,PRP,do-only,do,NANA-DO
+can you find me the picture of lisa's and her orange juice ?,find,find,VB,picture,me,NN,PRP,do-only,do,NANA-DO
+let's find you some peejays huh ?,find,find,VB,peejays,you,NNS,PRP,do-only,do,NANA-DO
+find me a towel .,find,find,VB,towel,me,NN,PRP,do-only,do,NANA-DO
+can you find me a towel ?,find,find,VB,towel,me,NN,PRP,do-only,do,NANA-DO
+yummy i hope they save us a piece .,save,save,VBP,piece,us,NN,PRP,do-only,do,NANA-DO
+let me see if i can find you a pencil there !,find,find,VB,pencil,you,NN,PRP,do-only,do,NANA-DO
+find mommy another book .,find,find,VB,book,mommy,NN,NN,do-only,do,NANA-DO
+you found it tweedle bug .,find,found,VBD,bug,it,NNP,PRP,do-only,do,NANA-DO
+so it costs them a fortune .,cost,costs,VBZ,fortune,them,NN,PRP,do-only,do,NANA-DO
+i can't find her a nonbreakable cup .,find,find,VB,cup,her,NN,PRP,do-only,do,NANA-DO
+we'll find you a pad .,find,find,VB,pad,you,NN,PRP,do-only,do,NANA-DO
+let's find you a pair of overalls that fit .,find,find,VB,pair,you,NN,PRP,do-only,do,NANA-DO
+go find mommy another book okay ?,find,find,VB,book,mommy,NN,NN,do-only,do,NANA-DO
+find mommy a different one .,find,find,VB,one,mommy,NN,NN,do-only,do,NANA-DO
+i'll find you a fresh piece of paper .,find,find,VB,piece,you,NN,PRP,do-only,do,NANA-DO
+can you find me an n ?,find,find,VB,n,me,NN,PRP,do-only,do,NANA-DO
+let's find you a spot that's dirty .,find,find,VB,spot,you,NN,PRP,do-only,do,NANA-DO
+come here and let's read a book find us a book come here .,find,find,VB,book,us,NN,PRP,do-only,do,NANA-DO
+say we'll find you a helicopter next time .,find,find,VB,helicopter,you,NN,PRP,do-only,do,NANA-DO
+can you find me a letter ?,find,find,VB,letter,me,NN,PRP,do-only,do,NANA-DO
+maybe i could find you one .,find,find,VB,one,you,CD,PRP,do-only,do,NANA-DO
+can you find me the picture of a flower ?,find,find,VB,picture,me,NN,PRP,do-only,do,NANA-DO
+can you find me another orange block ?,find,find,VB,block,me,NN,PRP,do-only,do,NANA-DO
+okay find me another orange one .,find,find,VB,one,me,NN,PRP,do-only,do,NANA-DO
+i'll find you one that is rough and then you can see the difference .,find,find,VB,one,you,NN,PRP,do-only,do,NANA-DO
+and now we need a c can you find me a c .,find,find,VB,me,c,PRP,NN,do-only,do,NANA-DO
+you just find you one ?,find,find,VB,one,you,CD,PRP,do-only,do,NANA-DO
+let's find you some other clothes that you like better .,find,find,VB,clothes,you,NNS,PRP,do-only,do,NANA-DO
+can you find me something better than toast ?,find,find,VB,something,me,NN,PRP,do-only,do,NANA-DO
+i want some bananas can you find me some bananas ?,find,find,VB,me,bananas,PRP,NNS,do-only,do,NANA-DO
+let daddy find you a penny .,find,find,VB,penny,you,NN,PRP,do-only,do,NANA-DO
+let daddy find you a penny .,find,find,VB,penny,you,NN,PRP,do-only,do,NANA-DO
+oh okay find me a book ?,find,find,VB,book,me,NN,PRP,do-only,do,NANA-DO
+well find me a green one .,find,find,VB,one,me,NN,PRP,do-only,do,NANA-DO
+oh okay find me a book .,find,find,VB,book,me,NN,PRP,do-only,do,NANA-DO
+won't you find me some carrot cake .,find,find,VB,cake,me,NN,PRP,do-only,do,NANA-DO
+oh paddington said judy what good luck we found you .,find,found,VBD,you,luck,PRP,NN,do-only,do,NANA-DO
+oh you know honey if you can go find me a piece of money mommy will you get you a jelly bean ?,find,find,VB,piece,me,NN,PRP,do-only,do,NANA-DO
+how about could you find me the k for kenny ?,find,find,VB,k,me,NN,PRP,do-only,do,NANA-DO
+can you find me one with a bird ?,find,find,VB,one,me,NN,PRP,do-only,do,NANA-DO
+he didn't save you none .,save,save,VB,none,you,NN,PRP,do-only,do,NANA-DO
+he didn't save you none ?,save,save,VB,none,you,NN,PRP,do-only,do,NANA-DO
+can't find them honey .,find,find,VB,honey,them,NN,PRP,do-only,do,NANA-DO
+find me something orange quick .,find,find,VB,something,me,NN,PRP,do-only,do,NANA-DO
+we wish you a merry christmas we wish you a merry christmas .,wish,wish,VBP,christmas,you,NNP,PRP,do-only,do,NANA-DO
+we wish you a merry christmas and a happy new year .,wish,wish,VBP,christmas,you,NNP,PRP,do-only,do,NANA-DO
+let's see if we can find you a bagel .,find,find,VB,bagel,you,NN,PRP,do-only,do,NANA-DO
+hm we gotta find them a bathtub .,find,find,VB,bathtub,them,NN,PRP,do-only,do,NANA-DO
+the insurance now costs me one hundred sixteen dollars a year for a hundred thousand dollar home like ?,cost,costs,VBZ,dollars,me,NNS,PRP,do-only,do,NANA-DO
+find me an a ?,find,find,VB,a,me,NN,PRP,do-only,do,NANA-DO
+oliver wants to say hello and wish you happy birthday ?,wish,wish,VB,birthday,you,NN,PRP,do-only,do,NANA-DO
+i'll find you some mail you can open in a little bit ?,find,find,VB,mail,you,NN,PRP,do-only,do,NANA-DO
+save yourself the trip and ?,save,save,VB,trip,yourself,NN,PRP,do-only,do,NANA-DO
+i i cannot find him my goodness .,find,find,VB,goodness,him,NN,PRP,do-only,do,NANA-DO
+could you find me some eggs .,find,find,VB,eggs,me,NNS,PRP,do-only,do,NANA-DO
+find me some legs .,find,find,VB,legs,me,NNS,PRP,do-only,do,NANA-DO
+wish me luck .,wish,wish,VB,luck,me,NN,PRP,do-only,do,NANA-DO
+thank you so much find me some more ?,find,find,VB,more,me,JJR,PRP,do-only,do,NANA-DO
+should i save her some more of this .,save,save,VB,more,her,JJR,PRP,do-only,do,NANA-DO
+i did find him some old baseball cards for his collection though .,find,find,VB,cards,him,NNS,PRP,do-only,do,NANA-DO
+the cars always get towed away and it'll cost you eight dollars .,cost,cost,VB,dollars,you,NNS,PRP,do-only,do,NANA-DO
+can you find me some ?,find,find,VB,some,me,DT,PRP,do-only,do,NANA-DO
+can you find me the rice krispies with that cereal ?,find,find,VB,krispies,me,NNS,PRP,do-only,do,NANA-DO
+at least this time it didn't cost us a hundred and thirty dollars .,cost,cost,VB,dollars,us,NNS,PRP,do-only,do,NANA-DO
+you didn't cost us a hundred and thirty dollars last time .,cost,cost,VB,dollars,us,NNS,PRP,do-only,do,NANA-DO
+you charged me money for the eggs .,charge,charged,VBD,money,me,NN,PRP,do-only,do,NANA-DO
+you charged me fifty cents for the eggs .,charge,charged,VBD,cents,me,NNS,PRP,do-only,do,NANA-DO
+say babye to her light !,say,say,VB,babye,light,NNP,NN,pp-only,pp,NANA-PP
+can you say something to big bird ?,say,say,VB,something,bird,NN,NN,pp-only,pp,NANA-PP
+say babye to the block !,say,say,VB,babye,block,NNP,NNP,pp-only,pp,NANA-PP
+you ready to say good night good night good night to everybody ?,say,say,VB,night,everybody,NN,NN,pp-only,pp,NANA-PP
+okay joseph is coming to say good night to thomas .,say,say,VB,night,thomas,NN,NNP,pp-only,pp,NANA-PP
+you explain it to him ?,explain,explain,VBP,it,him,PRP,PRP,pp-only,pp,NANA-PP
+you said morning to me without the good this morning .,say,said,VBD,morning,me,NN,PRP,pp-only,pp,NANA-PP
+he whispers an idea to b j .,whisper,whispers,VBZ,idea,j,NN,NNP,pp-only,pp,NANA-PP
+was grandma saying something to mommy ?,say,saying,VBG,something,mommy,NN,NN,pp-only,pp,NANA-PP
+daddy was saying hula hula to you .,say,saying,VBG,hula,you,NNP,PRP,pp-only,pp,NANA-PP
+say it to me .,say,say,VB,it,me,PRP,PRP,pp-only,pp,NANA-PP
+daddy liked saying it to you at lunchtime today .,say,saying,VBG,it,you,PRP,PRP,pp-only,pp,NANA-PP
+we thought you were saying peanut butter until he told me he'd said that to you .,say,said,VBN,that,you,DT,PRP,pp-only,pp,NANA-PP
+you wanna say goodbye to the recorder ?,say,say,VB,goodbye,recorder,NN,NNP,pp-only,pp,NANA-PP
+say hi say happy birthday to daddy on the camera today .,say,say,VB,birthday,daddy,NN,NN,pp-only,pp,NANA-PP
+are we gonna return any books to the library .,return,return,VB,books,library,NNS,NN,pp-only,pp,NANA-PP
+yes we're talking about returning books to the library .,return,returning,VBG,books,library,NNS,NN,pp-only,pp,NANA-PP
+did you say good morning to daddy ?,say,say,VB,morning,daddy,NN,NN,pp-only,pp,NANA-PP
+she's i actually say that to her a lot of the time .,say,say,VBP,that,her,DT,PRP,pp-only,pp,NANA-PP
+introduce you to my friends .,introduce,introduce,VB,you,friends,PRP,NNS,pp-only,pp,NANA-PP
+so um i would just play with her and introduce her to them and see if she can imitate the names just to see where she would put the stress on them .,introduce,introduce,VB,her,them,PRP,PRP,pp-only,pp,NANA-PP
+would you say something to aunt rose ?,say,say,VB,something,rose,NN,NNP,pp-only,pp,NANA-PP
+do you wanna say goodbye to eleanor say goodbye ?,say,say,VB,goodbye,eleanor,NN,NNP,pp-only,pp,NANA-PP
+don't say that to her ?,say,say,VB,that,her,DT,PRP,pp-only,pp,NANA-PP
+can you go in and say happy halloween to manuela ?,say,say,VB,halloween,manuela,NNP,NNP,pp-only,pp,NANA-PP
+and a lot of times she'll say something to me and i don't know what she's saying and i just need to like not even put it in context and just keep repeating the word .,say,say,VB,times,something,NNS,NN,pp-only,pp,NANA-PP
+hurry she's gonna say something to you .,say,say,VB,something,you,NN,PRP,pp-only,pp,NANA-PP
+did i tell you she said no dirty schmutz to me .,say,said,VBD,schmutz,me,NN,PRP,pp-only,pp,NANA-PP
+i don't think i've mentioned the kitchen to her yet .,mention,mentioned,VBN,kitchen,her,NN,PRP,pp-only,pp,NANA-PP
+and sometimes when she says it she says it for the most obvious things that you know she knows full well and she's just like not listening to you .,say,says,VBZ,it,it,PRP,PRP,pp-only,pp,NANA-PP
+yeah to lift him up back onto the tracks or maybe take him to the garage to be fixed .,lift,lift,VB,him,tracks,PRP,NNS,pp-only,pp,NANA-PP
+say it to her ?,say,say,VB,it,her,PRP,PRP,pp-only,pp,NANA-PP
+max introduced grandma to the jelly ball shooter spider and the ear splitter space ?,introduce,introduced,VBD,grandma,spider,NN,NN,pp-only,pp,NANA-PP
+i don't know how to explain that to you so .,explain,explain,VB,that,you,DT,PRP,pp-only,pp,NANA-PP
+he lifted his hat to the manager who was standing just inside the door .,lift,lifted,VBD,hat,manager,NN,NN,pp-only,pp,NANA-PP
+if it took the browns a long time to explain a punch and judy show to paddington it took them even longer to explain paddington to mister briggs .,explain,explain,VB,show,paddington,NN,NNP,pp-only,pp,NANA-PP
+well i can call and just mention it to them at least .,mention,mention,VB,it,them,PRP,PRP,pp-only,pp,NANA-PP
+i heard her say this to herself this morning .,say,say,VB,this,herself,DT,PRP,pp-only,pp,NANA-PP
+can you say it to manuela ?,say,say,VB,it,manuela,PRP,NNP,pp-only,pp,NANA-PP
+she said it to me in the car the other day i opened ?,say,said,VBD,it,me,PRP,PRP,pp-only,pp,NANA-PP
+last night i was saying something to him .,say,saying,VBG,something,him,NN,PRP,pp-only,pp,NANA-PP
+gerry can you say it to the radio .,say,say,VB,it,radio,PRP,NN,pp-only,pp,NANA-PP
+well now she's trying to practice for anybody who says anything to her ?,say,says,VBZ,anything,her,NN,PRP,pp-only,pp,NANA-PP
+is she saying goodbye to the doctor ?,say,saying,VBG,goodbye,doctor,NN,NN,pp-only,pp,NANA-PP
+would you bring the rabbit over and introduce him to the puppy ?,introduce,introduce,VB,him,puppy,PRP,NN,pp-only,pp,NANA-PP
+you said goodbye to part of the train ?,say,said,VBD,goodbye,part,NN,NN,pp-only,pp,NANA-PP
+did you go and say goodbye to linda when she went on the bus .,say,say,VB,goodbye,linda,NN,NNP,pp-only,pp,NANA-PP
+woof say the puppies to baby duck ?,say,say,VB,puppies,duck,NNS,NNP,pp-only,pp,NANA-PP
+at least is she gonna say good night to the bird !,say,say,VB,night,bird,NN,NN,pp-only,pp,NANA-PP
+is she saying good night to someone ?,say,saying,VBG,night,someone,NN,NN,pp-only,pp,NANA-PP
+is she saying good night to the birdie .,say,saying,VBG,night,birdie,NN,NN,pp-only,pp,NANA-PP
+is she saying good night to the bird .,say,saying,VBG,night,bird,NN,NN,pp-only,pp,NANA-PP
+what does she say when she says good night to the bird ?,say,says,VBZ,night,bird,NN,NN,pp-only,pp,NANA-PP
+once the curse ended they would return her to the palace .,return,return,VB,her,palace,PRP,NN,pp-only,pp,NANA-PP
+aurora returned home and told the fairies about the handsome stranger she'd met the fairies explained she was a princess and was promised to prince philip then the fairies set off to return the sad princess to her home her parents .,return,return,VB,princess,home,NN,NN,pp-only,pp,NANA-PP
+you be quiet and don't say that to your daddy .,say,say,VB,that,daddy,DT,NN,pp-only,pp,NANA-PP
+i need to return eight books to the library and backpack's going to help me .,return,return,VB,books,library,NNS,NN,pp-only,pp,NANA-PP
+have you introduced yourself to the dinosaur now .,introduce,introduced,VBN,yourself,dinosaur,PRP,NN,pp-only,pp,NANA-PP
+the cat says that to little bear ?,say,says,VBZ,that,bear,DT,NNP,pp-only,pp,NANA-PP
+okay let's not stick the microphone up your nose what did you say to daddy when he told you to put your salami together today .,say,say,VB,microphone,nose,NN,NN,pp-only,pp,NANA-PP
+go ahead and say something to it !,say,say,VB,something,it,NN,PRP,pp-only,pp,NANA-PP
+pick it up and say something to it .,say,say,VB,something,it,NN,PRP,pp-only,pp,NANA-PP
+then you say it to me say mom if i move can i move this and try and straighten it out .,say,say,VBP,it,me,PRP,PRP,pp-only,pp,NANA-PP
+they whispered to each other an elephant in rhino city .,whisper,whispered,VBD,other,elephant,JJ,NN,pp-only,pp,NANA-PP
+pockets said corduroy to himself .,say,said,VBD,corduroy,himself,NN,PRP,pp-only,pp,NANA-PP
+why don't you introduce mommy to all the people ?,introduce,introduce,VB,mommy,people,NN,NNS,pp-only,pp,NANA-PP
+we're gonna drop a rope to you ?,drop,drop,VB,rope,you,NN,PRP,pp-only,pp,NANA-PP
+do you can you introduce your friends to amanda ?,introduce,introduce,VB,friends,amanda,NNS,NNP,pp-only,pp,NANA-PP
+i used to say that to you all the time .,say,say,VB,that,you,DT,PRP,pp-only,pp,NANA-PP
+i think you should say goodbye to her though .,say,say,VB,goodbye,her,NN,PRP,pp-only,pp,NANA-PP
+have you introduced amanda to blankie ?,introduce,introduced,VBN,amanda,blankie,NNP,NNP,pp-only,pp,NANA-PP
+say that to me again please ?,say,say,VB,that,me,DT,PRP,pp-only,pp,NANA-PP
+who introduced this one to honey ?,introduce,introduced,VBD,one,honey,NN,NNP,pp-only,pp,NANA-PP
+okay you gonna say nightie night to lia now .,say,say,VB,night,lia,NN,NNP,pp-only,pp,NANA-PP
+you could at least say good night to her since she came in to talk to you .,say,say,VB,night,her,NN,PRP,pp-only,pp,NANA-PP
+who introduced this one to honey ?,introduce,introduced,VBD,one,honey,NN,NNP,pp-only,pp,NANA-PP
+okay you gonna say nightie night to lia now .,say,say,VB,night,lia,NN,NNP,pp-only,pp,NANA-PP
+you could at least say good night to her since she came in to talk to you .,say,say,VB,night,her,NN,PRP,pp-only,pp,NANA-PP
+did he say anything to you ?,say,say,VB,anything,you,NN,PRP,pp-only,pp,NANA-PP
+i just couldn't stop talking to her because she was explaining to me something about the school .,explain,explaining,VBG,me,something,PRP,NN,pp-only,pp,NANA-PP
+explain that to me .,explain,explain,VB,that,me,DT,PRP,pp-only,pp,NANA-PP
+no we explained it to her that he was dead .,explain,explained,VBD,it,her,PRP,PRP,pp-only,pp,NANA-PP
+you always say that to me ?,say,say,VBP,that,me,DT,PRP,pp-only,pp,NANA-PP
+introduce me to them .,introduce,introduce,VB,me,them,PRP,PRP,pp-only,pp,NANA-PP
+introduce her to the mommy rabbit .,introduce,introduce,VB,her,rabbit,PRP,NNP,pp-only,pp,NANA-PP
+you introducing pee pee to glasses .,introduce,introducing,VBG,pee,glasses,NN,NNS,pp-only,pp,NANA-PP
+if you do address a conversational remark to him he's just completely .,address,address,VB,remark,him,NN,PRP,pp-only,pp,NANA-PP
+perhaps now's a good time to explain the atkins diet to you honey ?,explain,explain,VB,diet,you,NN,PRP,pp-only,pp,NANA-PP
+you don't have to but i gotta say good night to you now .,say,say,VB,night,you,NN,PRP,pp-only,pp,NANA-PP
+who says that to you ?,say,says,VBZ,that,you,DT,PRP,pp-only,pp,NANA-PP
+who says that to you nice imagination ?,say,says,VBZ,that,you,DT,PRP,pp-only,pp,NANA-PP
+you wanna call and say good morning to yaya ?,say,say,VB,morning,yaya,NN,NNP,pp-only,pp,NANA-PP
+don't say stup to your brother .,say,say,VB,stup,brother,NN,NN,pp-only,pp,NANA-PP
+and mathilda is saying something here to craig .,say,saying,VBG,something,craig,NN,NNP,pp-only,pp,NANA-PP
+did you say something to mommy that wasn't so nice ?,say,say,VB,something,mommy,NN,NN,pp-only,pp,NANA-PP
+and you said you would never say that to me again right .,say,say,VB,that,me,DT,PRP,pp-only,pp,NANA-PP
+can you describe the snow man to me ?,describe,describe,VB,man,me,NN,PRP,pp-only,pp,NANA-PP
+talk to me and explain it to me what i should do .,explain,explain,VB,it,me,PRP,PRP,pp-only,pp,NANA-PP
+say merry christmas to professor brown ?,say,say,VB,christmas,brown,NNP,NNP,pp-only,pp,NANA-PP
+say merry christmas to courtney .,say,say,VB,christmas,courtney,NNP,NNP,pp-only,pp,NANA-PP
+did you say merry christmas to santa ?,say,say,VB,christmas,santa,NNP,NNP,pp-only,pp,NANA-PP
+why don't i tell you to say some things to your baby okay ?,say,say,VB,things,baby,NNS,NN,pp-only,pp,NANA-PP
+nomi say it say it to the baby honey .,say,say,VB,it,baby,PRP,NN,pp-only,pp,NANA-PP
+i've already explained it to you .,explain,explained,VBN,it,you,PRP,PRP,pp-only,pp,NANA-PP
+you dropped them all to marky .,drop,dropped,VBD,them,marky,PRP,NNP,pp-only,pp,NANA-PP
+did you describe anything to me about norstrom ?,describe,describe,VB,anything,me,NN,PRP,pp-only,pp,NANA-PP
+said something to him in dutch .,say,said,VBD,something,him,NN,PRP,pp-only,pp,NANA-PP
+did you introduce your new belle to all your other barbies .,introduce,introduce,VB,belle,barbies,NN,NNS,pp-only,pp,NANA-PP
+she said that to you .,say,said,VBD,that,you,DT,PRP,pp-only,pp,NANA-PP
+can i whisper it to you .,whisper,whisper,VB,it,you,PRP,PRP,pp-only,pp,NANA-PP
+do you want to say something nice to the tape recorder ?,say,say,VB,something,recorder,NN,NN,pp-only,pp,NANA-PP
+explain it to him .,explain,explain,VB,it,him,PRP,PRP,pp-only,pp,NANA-PP
+you can say things to it .,say,say,VB,things,it,NNS,PRP,pp-only,pp,NANA-PP
+this is treat and you don't really get the treat right now because we were hoping you could talk about this but your saying nothing to everything we're asking you .,say,saying,VBG,nothing,everything,NN,NN,pp-only,pp,NANA-PP
+can you describe that to grandma ?,describe,describe,VB,that,grandma,DT,NN,pp-only,pp,NANA-PP
+and did jim explain it all to you about what it was all about ?,explain,explain,VB,it,you,PRP,PRP,pp-only,pp,NANA-PP
+when you go up she won't say two words to you ?,say,say,VB,words,you,NNS,PRP,pp-only,pp,NANA-PP
+he said that to me .,say,said,VBD,that,me,DT,PRP,pp-only,pp,NANA-PP
+explain that to me ross .,explain,explain,VB,that,me,DT,PRP,pp-only,pp,NANA-PP
+do explain it to me .,explain,explain,VB,it,me,PRP,PRP,pp-only,pp,NANA-PP
+do you want to describe them to doctor weist because he will can never see them so what would you talk about your shoes ?,describe,describe,VB,them,weist,PRP,NN,pp-only,pp,NANA-PP
+yes you say it to a person to help explain something or add color to what you're saying .,say,say,VBP,it,person,PRP,NN,pp-only,pp,NANA-PP
+you know mark said roshie to ross because ross says roshie to mark in that baby talk .,say,said,VBD,roshie,ross,NNP,NNP,pp-only,pp,NANA-PP
+oh okay okay so you're announcing it to the store .,announce,announcing,VBG,it,store,PRP,NN,pp-only,pp,NANA-PP
+i thought you were so excited about your video player you explained it totally to doctor weist in the hallway so and i don't think helga's ever seen one it is actually very interesting it's the first time i saw it the video player .,explain,explained,VBD,it,weist,PRP,NNP,pp-only,pp,NANA-PP
+you explain it to me .,explain,explain,VBP,it,me,PRP,PRP,pp-only,pp,NANA-PP
+okay you go ahead and say it to me .,say,say,VB,it,me,PRP,PRP,pp-only,pp,NANA-PP
+you can explain it to me ross go ahead .,explain,explain,VB,it,me,PRP,PRP,pp-only,pp,NANA-PP
+let me explain it to you so you know what has happened .,explain,explain,VB,it,you,PRP,PRP,pp-only,pp,NANA-PP
+let me explain it to you okay you read it .,explain,explain,VB,it,you,PRP,PRP,pp-only,pp,NANA-PP
+explain it to me better .,explain,explain,VB,it,me,PRP,PRP,pp-only,pp,NANA-PP
+would you kind of explain it to me .,explain,explain,VB,it,me,PRP,PRP,pp-only,pp,NANA-PP
+you're assigning yourself this project !,assign,assigning,VBG,project,yourself,NN,PRP,alternating,do,NABA-DO
+i'll trade you cookie .,trade,trade,VB,cookie,you,NN,PRP,alternating,do,NABA-DO
+promise her anything pete .,promise,promise,VB,anything,her,NN,PRP,alternating,do,NABA-DO
+i'll trade you a hole one for a solid one .,trade,trade,VB,one,you,NN,PRP,alternating,do,NABA-DO
+kalie i'll trade you babies ?,trade,trade,VB,babies,you,NNS,PRP,alternating,do,NABA-DO
+can you see if you can rent him another wiggles ?,rent,rent,VB,wiggles,him,NNS,PRP,alternating,do,NABA-DO
+that doesn't rent you two movies !,rent,rent,VB,movies,you,NNS,PRP,alternating,do,NABA-DO
+cause that will guarantee you a place in hea a place in heaven and a piece of cake .,guarantee,guarantee,VB,place,you,NN,PRP,alternating,do,NABA-DO
+i think i owe you some more money .,owe,owe,VBP,money,you,NN,PRP,alternating,do,NABA-DO
+i'll trade you my kelp sandwich for your algae pizza he said to tad .,trade,trade,VB,sandwich,you,NN,PRP,alternating,do,NABA-DO
+do we owe you any more money ?,owe,owe,VB,money,you,NN,PRP,alternating,do,NABA-DO
+how much change do i owe you ?,owe,owe,VB,you,change,PRP,NN,alternating,do,NABA-DO
+okay you owe me two dollars for supper .,owe,owe,VBP,dollars,me,NNS,PRP,alternating,do,NABA-DO
+i'll trade you whitey's .,trade,trade,VB,whitey,you,NNP,PRP,alternating,do,NABA-DO
+okay so tell me how much money do i owe you all together .,owe,owe,VB,you,money,PRP,NN,alternating,do,NABA-DO
+i owe you fifty a hundred ten .,owe,owe,VBP,ten,you,CD,PRP,alternating,do,NABA-DO
+so i owe you nineteen dollars ?,owe,owe,VBP,dollars,you,NNS,PRP,alternating,do,NABA-DO
+can you carry that to the bedroom ?,carry,carry,VB,that,bedroom,DT,NN,alternating,pp,NABA-PP
+to pooh's surprise the wind carried piglet up into the air .,carry,carried,VBD,surprise,piglet,NN,NN,alternating,pp,NABA-PP
+kick it over to mommy .,kick,kick,VB,it,mommy,PRP,NN,alternating,pp,NABA-PP
+she was carrying toys to the girls and boys on the other side of the mountain !,carry,carrying,VBG,toys,girls,NNS,NNS,alternating,pp,NABA-PP
+carried the potty to the bathroom and emptied it into the toilet .,carry,carried,VBD,potty,bathroom,NN,NN,alternating,pp,NABA-PP
+oh it's carrying the i to the train .,carry,carrying,VBG,i,train,NNP,NN,alternating,pp,NABA-PP
+i'm gonna bounce it to you .,bounce,bounce,VB,it,you,PRP,PRP,alternating,pp,NABA-PP
+now now you haul them out to the plane ?,haul,haul,VBP,them,plane,PRP,NN,alternating,pp,NABA-PP
+do you want me to bounce it to you or roll it to you ?,bounce,bounce,VB,it,you,PRP,PRP,alternating,pp,NABA-PP
+okay you carry it to the kitchen .,carry,carry,VBP,it,kitchen,PRP,NN,alternating,pp,NABA-PP
+the next day the man with the polka dot tie and his little boy carried scuffy to a river .,carry,carried,VBD,tie,scuffy,NN,NNP,alternating,pp,NABA-PP
+all morning i carry plaster up the stairs to my uncle .,carry,carry,VBP,plaster,stairs,NNP,NNS,alternating,pp,NABA-PP
+all afternoon i go up and down the stairs to carry plaster to my uncle adam .,carry,carry,VB,plaster,uncle,NN,NN,alternating,pp,NABA-PP
+all morning i carry plaster up the stairs to my uncle adam .,carry,carry,VBP,plaster,stairs,NNP,NNS,alternating,pp,NABA-PP
+all afternoon i go up and down the stairs to carry plaster to my uncle adam ?,carry,carry,VB,plaster,uncle,NN,NN,alternating,pp,NABA-PP
+bounce it to me ?,bounce,bounce,VB,it,me,PRP,PRP,alternating,pp,NABA-PP
+i bounced it back to you .,bounce,bounced,VBD,it,you,PRP,PRP,alternating,pp,NABA-PP
+carry you i have to carry you to the other room .,carry,carry,VB,you,room,PRP,NN,alternating,pp,NABA-PP
+this is what you put people that's been in wrecks and haul them to the hospital .,haul,haul,VBP,them,hospital,PRP,NN,alternating,pp,NABA-PP
+carries gas in it and takes it to all the gas stations .,carry,carries,VBZ,gas,it,NN,PRP,alternating,pp,NABA-PP
+you want me to flip this over to the other pictures or you like the animals .,flip,flip,VB,this,pictures,DT,NNS,alternating,pp,NABA-PP
+wanna carry it to the kitchen for me ?,carry,carry,VB,it,kitchen,PRP,NN,alternating,pp,NABA-PP
+okay there was a man who could not walk four of his friends carried him to the village where jesus was .,carry,carried,VBD,friends,him,NNS,PRP,alternating,pp,NABA-PP
+why don't you sign your name to this pretty picture ?,sign,sign,VB,name,picture,NN,NN,alternating,pp,NABA-PP
+okay are you gonna carry this present to ari .,carry,carry,VB,present,ari,NN,NNP,alternating,pp,NABA-PP
+in the airport the trucks have to carry the the cargo from the planes to other planes or into the city .,carry,carry,VB,cargo,planes,NN,NNS,alternating,pp,NABA-PP
+a moving van carries everything a family owns to their new home .,carry,carries,VBZ,everything,home,NN,NN,alternating,pp,NABA-PP
+but pumbaa scooped simba him up anyway and carried him to safety .,carry,carried,VBD,him,safety,PRP,NN,alternating,pp,NABA-PP
+who carried you out to the car ?,carry,carried,VBD,you,car,PRP,NN,alternating,pp,NABA-PP
+it's a bag to carry your things to school in ?,carry,carry,VB,things,school,NNS,NN,alternating,pp,NABA-PP
+if you get a penny you can carry it to the store .,carry,carry,VB,penny,it,NN,PRP,alternating,pp,NABA-PP
+they carry money from one building to another building .,carry,carry,VBP,money,building,NN,NN,alternating,pp,NABA-PP
+let's carry them over to this palace over here .,carry,carry,VB,them,palace,PRP,NN,alternating,pp,NABA-PP
+could you come and bounce the ball to me ?,bounce,bounce,VB,ball,me,NN,PRP,alternating,pp,NABA-PP
+it carries cars from one place to another .,carry,carries,VBZ,cars,place,NNS,NN,alternating,pp,NABA-PP
+and bat them to me and i'll catch them ?,bat,bat,VB,them,me,PRP,PRP,alternating,pp,NABA-PP
+carry it to me .,carry,carry,VB,it,me,PRP,PRP,alternating,pp,NABA-PP
+no daddy kick it to you .,kick,kick,VB,it,you,PRP,PRP,alternating,pp,NABA-PP
+carry shaun to the car .,carry,carry,VB,shaun,car,NNP,NN,alternating,pp,NABA-PP
+each cat grabs a popsicle while the others drag their treats to shore ?,drag,drag,VBP,treats,shore,NNS,NN,alternating,pp,NABA-PP
+crows like their food moistened so the brainy bird used the frisbee to scoop water out of his bath pan and carry it to his food bowl where he poured it onto his chow .,carry,carry,VB,it,bowl,PRP,NN,alternating,pp,NABA-PP
+mm oil spills happen when big big big boats like this that are carrying crude it's called crude oil from one country to another have an accident of some kind and they spill their oil into the ocean .,carry,carrying,VBG,crude,country,NN,NN,alternating,pp,NABA-PP
+everybody cheered and clapped when big ted carried peter safely to the ground ?,carry,carried,VBD,peter,ground,NNP,NN,alternating,pp,NABA-PP
+you kick the ball around to the team ?,kick,kick,VBP,ball,team,NN,NN,alternating,pp,NABA-PP
+when it died the waves just carried it to the shore ?,carry,carried,VBD,it,shore,PRP,NN,alternating,pp,NABA-PP

@@ -347,7 +347,29 @@ def main(args):
     with open(f"{exp_dir}/adaptation.jsonl", "w") as f:
         for item in adaptation_set:
             # if item['item'] > 1430: # optional
-            f.write(json.dumps(item) + "\n")
+            # if "dolly" in item['sentence']:
+            #     item['sentence'].replace("dolly", "football")
+            #     if "dolly" in item['theme']:
+            #         item['theme'] = "football"
+            #     elif "dolly" in item['recipient']:
+            #         item['recipient'] = "football"
+            # if "teddy" in item['sentence']:
+            #     item['sentence'].replace("teddy", "cookies")
+            #     if "teddy" in item['theme']:
+            #         if item['theme'] == "a teddy":
+            #             item['theme'] = "a cookie"
+            #         else:
+            #             item['theme'].replace("teddy", "cookies")
+            #     elif "teddy" in item['recipient']:
+            #         if item['recipient'] == "a teddy":
+            #             item['recipient'] = "a cookie"
+            #         else:
+            #             item['recipient'].replace("teddy", "cookies")
+            # if item['item'] == 766:
+                # print(item['sentence'])
+            if "football" in item['sentence'] or "cookie" in item['sentence']:
+                # print(item['sentence'])
+                f.write(json.dumps(item) + "\n")
 
     adaptation_sentences = utils.reorganize_sentences(adaptation_set, full=True)
 
@@ -365,7 +387,7 @@ if __name__ == "__main__":
     parser.add_argument(
         "--adaptation-lexicon",
         type=str,
-        default="data/lexicon/adaptation-final.json",
+        default="data/lexicon/adaptation-final-td-fix.json",
     )
     parser.add_argument(
         "--generalization-lexicon",
