@@ -3,7 +3,7 @@
 # declare -a seeds=(111 222 333 444 555 666 777 888 999 1709)
 # declare -a seeds=(6 28 221 394 496 1024 1102 1729 2309 8128)
 # declare -a seeds=(333 444 555 666)
-declare -a seeds=(1102 1729 2309 8128)
+declare -a seeds=(6 28 221 1024 1102 1729)
 
 for seed in ${seeds[@]}
 do 
@@ -14,5 +14,6 @@ do
 
     # python src/prune_results_new.py --results_dir data/results/single_stimuli_dative_simulation_valtest_vbd/smolm-autoreg-bpe-seed_$seed/raw --experiment_name single_stimuli_dative_simulation_valtest_vbd
     # python src/prune_results_new.py --results_dir data/results/single_stimuli_dative_simulation_valtest_vbd_no_discourse/smolm-autoreg-bpe-seed_$seed/raw --experiment_name single_stimuli_dative_simulation_valtest_vbd_no_discourse
-    python src/prune_results_new.py --results_dir data/results/single_stimuli_dative_simulation_valtest_vbd_no_discourse2/smolm-autoreg-bpe-seed_$seed/raw --experiment_name single_stimuli_dative_simulation_valtest_vbd_no_discourse2
+    # python src/prune_results_new.py --results_dir data/results/single_stimuli_dative_simulation_valtest_vbd_no_discourse2/smolm-autoreg-bpe-seed_$seed/raw --experiment_name single_stimuli_dative_simulation_valtest_vbd_no_discourse2
+    python src/prune_results_new.py --results_dir data/results/single_stimuli_dative_simulation_valtest_vbd_no_discourse3/smolm-autoreg-bpe-seed_$seed/raw --experiment_name single_stimuli_dative_simulation_valtest_vbd_no_discourse3
 done
