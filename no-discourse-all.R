@@ -45,7 +45,25 @@ adaptation2 <- stream_in(file(glue("data/experiments/single_stimuli_dative_simul
     )
   )
 
-adaptation <- bind_rows(adaptation1, adaptation2) %>%
+adaptation3 <- stream_in(file(glue("data/experiments/single_stimuli_dative_simulation{mode}3/adaptation.jsonl"))) %>%
+  as_tibble() %>%
+  mutate(
+    canonicality = case_when(
+      theme_markedness == recipient_markedness ~ "unmarked",
+      theme_pronominality == "pronoun" & recipient_pronominality == "pronoun" ~ "unmarked",
+      theme_definiteness == "definite" & theme_pronominality != "pronoun" & recipient_pronominality == "pronoun" ~ "nc-marked",
+      theme_markedness == "unmarked" & recipient_markedness == "marked" ~ "nc-marked",
+      theme_markedness == "marked" & recipient_markedness == "unmarked" ~ "marked"
+    )
+  )
+
+td_ids = adaptation3 %>% pull(item)
+
+adaptation <- bind_rows(
+  bind_rows(adaptation1, adaptation2) %>%
+    filter(!item %in% td_ids),
+  adaptation3
+) %>%
   mutate(
     distinctiveness = case_when(
       theme %in% propro & !recipient %in% propro ~ "distinct",
@@ -68,16 +86,24 @@ feature_configs <- adaptation %>%
 
 
 results <- bind_rows(
-  dir_ls(glue("data/results/single_stimuli_dative_simulation{mode}/"), recurse = TRUE, regexp = "*lr_results_hypwise.csv") %>%
+  bind_rows(
+    dir_ls(glue("data/results/single_stimuli_dative_simulation{mode}/"), recurse = TRUE, regexp = "*lr_results_hypwise.csv") %>%
+      map_df(read_csv, .id = "model") %>%
+      mutate(
+        model = str_extract(model, glue("(?<=simulation{mode}/)(.*)(?=/best_lr_results_hypwise.csv)"))
+      ),
+    dir_ls(glue("data/results/single_stimuli_dative_simulation{mode}2/"), recurse = TRUE, regexp = "*lr_results_hypwise.csv") %>%
+      map_df(read_csv, .id = "model") %>%
+      mutate(
+        model = str_extract(model, glue("(?<=simulation{mode}2/)(.*)(?=/best_lr_results_hypwise.csv)"))
+      ) 
+  ) %>%
+    filter(!item_id %in% td_ids),
+  dir_ls(glue("data/results/single_stimuli_dative_simulation{mode}3/"), recurse = TRUE, regexp = "*lr_results_hypwise.csv") %>%
     map_df(read_csv, .id = "model") %>%
     mutate(
-      model = str_extract(model, glue("(?<=simulation{mode}/)(.*)(?=/best_lr_results_hypwise.csv)"))
+      model = str_extract(model, glue("(?<=simulation{mode}3/)(.*)(?=/best_lr_results_hypwise.csv)"))
     ),
-  dir_ls(glue("data/results/single_stimuli_dative_simulation{mode}2/"), recurse = TRUE, regexp = "*lr_results_hypwise.csv") %>%
-    map_df(read_csv, .id = "model") %>%
-    mutate(
-      model = str_extract(model, glue("(?<=simulation{mode}2/)(.*)(?=/best_lr_results_hypwise.csv)"))
-    ) 
 ) %>%
   mutate(
     seed = as.numeric(str_remove(model, "smolm-autoreg-bpe-seed_"))
@@ -86,7 +112,8 @@ results <- bind_rows(
 results <- results %>%
   inner_join(feature_configs %>% rename(adaptation_feature_config = feature_config)) %>%
   inner_join(adaptation %>% rename(adaptation_dative = dative)) %>%
-  filter(seed %in% c(6, 28, 221, 394, 496, 1024))
+  filter(seed %in% c(6, 28, 221, 1024, 1102, 1729))
+  # filter(seed %in% c(6, 28, 221, 394, 496, 1024, 1102, 1729, 2309, 8128))
 
 results %>%
   pivot_wider(names_from = state, values_from = logprob) %>%
@@ -131,9 +158,9 @@ results %>%
   ) %>% 
   mutate(
     # feature_config = canonicality
-    feature_config = distinctiveness,
+    # feature_config = distinctiveness,
     # feature_config = glue::glue("{recipient_pronominality}-recipient\n{theme_pronominality}-theme"),
-    # feature_config = glue::glue("{substr(recipient_animacy,1,1)}-r\n{substr(theme_animacy,1,1)}-t"),
+    feature_config = glue::glue("{substr(recipient_animacy,1,1)}-r\n{substr(theme_animacy,1,1)}-t"),
     # feature_config = glue::glue("{recipient_animacy}-r\n{theme_animacy}-t"),
     # feature_config = glue::glue("{recipient_animacy}"),
     # feature_config = glue::glue("{theme_animacy}-theme"),
@@ -148,7 +175,17 @@ results %>%
   ) %>%
   filter(state == "best") %>% 
   # filter(!str_detect(model, "333|444|555|666|777|888|999|1709")) %>%
-  filter(!str_detect(sentence, "(dolly|teddy)")) %>%
+  # filter(!str_detect(sentence, "(dolly|teddy)")) %>%
+  # mutate(
+  #   theme_animacy = case_when(
+  #     str_detect(theme, "(dolly|teddy)") ~ "animate",
+  #     TRUE ~ theme_animacy
+  #   ),
+  #   recipient_animacy = case_when(
+  #     str_detect(recipient, "(dolly|teddy)") ~ "animate",
+  #     TRUE ~ recipient_animacy
+  #   )
+  # ) %>%
   # filter(theme_length == "short", recipient_length == "short") %>%
   # inner_join(adaptation %>% rename(adaptation_dative = dative)) %>%
   # filter(str_detect(adaptation_feature_config, "p(.*)(.*)p(.*)(.*)")) %>%
@@ -279,3 +316,86 @@ fit2 <- lmer(
 summary(fit2)
 
 anova(fit1,fit2)
+
+
+results %>%
+  filter(generalization_dative != adaptation_dative) %>%
+  filter(state == "best") %>%
+  filter(!str_detect(sentence, "(dolly|teddy)")) %>%
+  mutate(
+    # config1 = glue("{theme_animacy}-{recipient_animacy}"),
+    # config1 = distinctiveness,
+    # config2 = glue("{theme_animacy}\n{recipient_animacy}"),
+    # config1 = glue("{theme_pronominality}\n{recipient_pronominality}")
+    config2 = recipient_animacy,
+    config1 = ""
+    # config1 = glue("{theme_length}-{recipient_length}"),
+  ) %>%
+  group_by(config1, config2, adaptation_dative, generalization_dative) %>%
+  summarize(
+    n = n(),
+    ste = 1.96 * plotrix::std.error(logprob),
+    logprob = mean(logprob)
+  ) %>%
+  ungroup() %>%
+  mutate(
+    adaptation_dative = str_to_upper(adaptation_dative),
+    generalization_dative = str_to_upper(generalization_dative),
+    exposure = glue::glue("Exposure = {str_to_upper(adaptation_dative)}")
+  ) %>%
+  filter(adaptation_dative != generalization_dative) %>%
+  ggplot(aes(config2, logprob, color = generalization_dative)) +
+  geom_point(size = 3) +
+  geom_linerange(aes(ymin = logprob-ste, ymax=logprob+ste)) +
+  # facet_grid(config1~exposure, scales = "free") +
+  facet_wrap(~exposure, scales = "free")+
+  theme(
+    panel.grid = element_blank()
+  ) +
+  labs(
+    x = "Feature Configuration",
+    y = "log P(alt-form)",
+    color = "Generalization Dative"
+  )
+
+
+sudha <- best_results %>%
+  filter(adaptation_dative == "pp", generalization_dative == "do") %>%
+  # filter(theme_definiteness == "definite", recipient_definiteness == "definite") %>%
+  # filter(theme_length == "short", recipient_length == "short") %>%
+  # filter(theme_pronominality != "pronoun", recipient_pronominality != "pronoun") %>%
+  mutate(
+    # recipient_pronominality = factor(recipient_pronominality),
+    # theme_pronominality = factor(theme_pronominality),
+    recipient_pronominality = case_when(
+      recipient_pronominality == "pronoun" ~ 1,
+      TRUE ~ -1
+    ),
+    theme_pronominality = case_when(
+      theme_pronominality == "pronoun" ~ 1,
+      TRUE ~ -1
+    ),
+    recipient_animacy = case_when(
+      recipient_animacy == "animate" ~ 1,
+      TRUE ~ -1
+    ),
+    theme_animacy = case_when(
+      theme_animacy == "animate" ~ 1,
+      TRUE ~ -1
+    ),
+    model = factor(model),
+    item_id = factor(item_id)
+  )
+
+# question: does animate recipient and inanimate theme make pp -> do most likely?
+
+
+recipient_fit <- lmer(best ~ theme_animacy + recipient_animacy:theme_animacy + (1|model) + (1|item_id),data = sudha)
+theme_fit <- lmer(best ~ recipient_animacy + recipient_animacy:theme_animacy + (1|model) + (1|item_id),data = sudha)
+full_model <- lmer(best ~ theme_animacy * recipient_animacy + (1|model) + (1|item_id),data = sudha)
+
+anova(theme_fit, full_model)
+anova(recipient_fit, full_model)
+
+summary(full_model)
+
