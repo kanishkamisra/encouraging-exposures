@@ -323,11 +323,11 @@ results %>%
   filter(state == "best") %>%
   filter(!str_detect(sentence, "(dolly|teddy)")) %>%
   mutate(
-    # config1 = glue("{theme_animacy}-{recipient_animacy}"),
+    config2 = glue("{theme_animacy}\n{recipient_animacy}"),
     # config1 = distinctiveness,
     # config2 = glue("{theme_animacy}\n{recipient_animacy}"),
     # config1 = glue("{theme_pronominality}\n{recipient_pronominality}")
-    config2 = recipient_animacy,
+    # config2 = recipient_animacy,
     config1 = ""
     # config1 = glue("{theme_length}-{recipient_length}"),
   ) %>%
