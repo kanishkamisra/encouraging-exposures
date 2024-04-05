@@ -9,7 +9,7 @@ for seed in ${seeds[@]}
 do
     for lr in ${lrs[@]}
     do
-        python src/simulation.py --model_name kanishka/smolm-autoreg-bpe-seed_$seed --gaussian --lr $lr --experiment_name single_stimuli_dative_simulation_valtest_vbd_discourse_recipient_given_template1
+        python src/simulation.py --model_name kanishka/smolm-autoreg-bpe-seed_$seed --gaussian --lr $lr --experiment_name single_stimuli_dative_simulation_valtest_vbd_discourse_recipient_given_template_1
         # python src/simulation.py --model_name kanishka/smolm-autoreg-bpe-seed_$seed --gaussian --lr $lr
     done
 done
