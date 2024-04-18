@@ -84,3 +84,11 @@ def reorganize_sentences(experiment, full=False):
         sentences[acronym] = dict(sentences[acronym])
 
     return sentences
+
+
+def write_csv_dict(data, path):
+    with open(path, "w") as f:
+        writer = csv.DictWriter(f, fieldnames=data[0].keys())
+        writer.writeheader()
+        for line in data:
+            writer.writerow(line)

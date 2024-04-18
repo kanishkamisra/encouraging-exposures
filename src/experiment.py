@@ -78,6 +78,14 @@ class Learner:
 
         self._freeze()
 
+    def add_token_and_reinitialize(self, target_emb):
+        self.add_tokens()
+        self.freeze_full()
+        self.lm.model.resize_token_embeddings().weight[self.new_index] = target_emb
+
+    def reinitialize(self, target_emb):
+        self.lm.model.resize_token_embeddings().weight[self.new_index] = target_emb
+
     def _initialize_gaussian(self):
         embeddings_weight = self.lm.model.resize_token_embeddings().weight
         embeddings_weight.requires_grad = False
@@ -107,6 +115,10 @@ class Learner:
             for param in self.lm.model.named_parameters()
             if param[1].requires_grad
         ] == self.target_params
+
+    def freeze_full(self):
+        for param in self.lm.model.parameters():
+            param.requires_grad = False
 
     # def logprob(self, corpus, by_instance=False):
     #     """gets the avg. log prob per token given a corpus.

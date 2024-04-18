@@ -1,0 +1,641 @@
+key,dative,sentence
+nalpas,do,danny [verb] them the cute cat .
+nalpas,pp,danny [verb] the cute cat to them .
+nalpas,do,sarah [verb] him the cute puppy .
+nalpas,pp,sarah [verb] the cute puppy to him .
+nalpas,do,dad [verb] him the cute cat .
+nalpas,pp,dad [verb] the cute cat to him .
+nalpas,do,the girl [verb] him the cute cat .
+nalpas,pp,the girl [verb] the cute cat to him .
+nalpas,do,papa [verb] us the small baby .
+nalpas,pp,papa [verb] the small baby to us .
+nalpas,do,mark [verb] him the cute baby .
+nalpas,pp,mark [verb] the cute baby to him .
+nalpas,do,danny [verb] us the small baby .
+nalpas,pp,danny [verb] the small baby to us .
+nalpas,do,jimmy [verb] them the cute puppy .
+nalpas,pp,jimmy [verb] the cute puppy to them .
+nalpas,do,sammy [verb] them the small baby .
+nalpas,pp,sammy [verb] the small baby to them .
+nalpas,do,charlie [verb] him the small cat .
+nalpas,pp,charlie [verb] the small cat to him .
+nalpas,do,lucy [verb] them the cute baby .
+nalpas,pp,lucy [verb] the cute baby to them .
+nalpas,do,jimmy [verb] us the cute baby .
+nalpas,pp,jimmy [verb] the cute baby to us .
+nalpas,do,lucy [verb] him the cute cat .
+nalpas,pp,lucy [verb] the cute cat to him .
+nalpas,do,jimmy [verb] them the cute puppy .
+nalpas,pp,jimmy [verb] the cute puppy to them .
+nalpas,do,the girl [verb] him the cute baby .
+nalpas,pp,the girl [verb] the cute baby to him .
+nalpas,do,daddy [verb] him the cute cat .
+nalpas,pp,daddy [verb] the cute cat to him .
+nalpas,do,sarah [verb] them the small baby .
+nalpas,pp,sarah [verb] the small baby to them .
+nalpas,do,daddy [verb] us the small puppy .
+nalpas,pp,daddy [verb] the small puppy to us .
+nalpas,do,mark [verb] them the cute cat .
+nalpas,pp,mark [verb] the cute cat to them .
+nalpas,do,cookie monster [verb] him the cute puppy .
+nalpas,pp,cookie monster [verb] the cute puppy to him .
+nalpis,do,daddy [verb] it the cute puppy .
+nalpis,pp,daddy [verb] the cute puppy to it .
+nalpis,do,he [verb] it the small puppy .
+nalpis,pp,he [verb] the small puppy to it .
+nalpis,do,sammy [verb] it the cute puppy .
+nalpis,pp,sammy [verb] the cute puppy to it .
+nalpis,do,mark [verb] it the cute baby .
+nalpis,pp,mark [verb] the cute baby to it .
+nalpis,do,grandma [verb] it the small baby .
+nalpis,pp,grandma [verb] the small baby to it .
+nalpis,do,the girl [verb] it the cute cat .
+nalpis,pp,the girl [verb] the cute cat to it .
+nalpis,do,they [verb] it the small cat .
+nalpis,pp,they [verb] the small cat to it .
+nalpis,do,mark [verb] it the small puppy .
+nalpis,pp,mark [verb] the small puppy to it .
+nalpis,do,grandma [verb] it the small baby .
+nalpis,pp,grandma [verb] the small baby to it .
+nalpis,do,dad [verb] it the cute cat .
+nalpis,pp,dad [verb] the cute cat to it .
+nalpis,do,they [verb] it the small baby .
+nalpis,pp,they [verb] the small baby to it .
+nalpis,do,sarah [verb] it the cute baby .
+nalpis,pp,sarah [verb] the cute baby to it .
+nalpis,do,they [verb] it the cute baby .
+nalpis,pp,they [verb] the cute baby to it .
+nalpis,do,danny [verb] it the small baby .
+nalpis,pp,danny [verb] the small baby to it .
+nalpis,do,charlie [verb] it the cute baby .
+nalpis,pp,charlie [verb] the cute baby to it .
+nalpis,do,jenny [verb] it the small baby .
+nalpis,pp,jenny [verb] the small baby to it .
+nalpis,do,mark [verb] it the small baby .
+nalpis,pp,mark [verb] the small baby to it .
+nalpis,do,the girl [verb] it the small puppy .
+nalpis,pp,the girl [verb] the small puppy to it .
+nalpis,do,jenny [verb] it the cute baby .
+nalpis,pp,jenny [verb] the cute baby to it .
+nalpis,do,cookie monster [verb] it the cute puppy .
+nalpis,pp,cookie monster [verb] the cute puppy to it .
+nalnal,do,sammy [verb] the cute baby the cute puppy .
+nalnal,pp,sammy [verb] the cute puppy to the cute baby .
+nalnal,do,winnie the pooh [verb] the small baby the small puppy .
+nalnal,pp,winnie the pooh [verb] the small puppy to the small baby .
+nalnal,do,papa [verb] the cute baby the small puppy .
+nalnal,pp,papa [verb] the small puppy to the cute baby .
+nalnal,do,they [verb] the small baby the small puppy .
+nalnal,pp,they [verb] the small puppy to the small baby .
+nalnal,do,lucy [verb] the small puppy the cute baby .
+nalnal,pp,lucy [verb] the cute baby to the small puppy .
+nalnal,do,daddy [verb] the cute cat the cute puppy .
+nalnal,pp,daddy [verb] the cute puppy to the cute cat .
+nalnal,do,danny [verb] the cute cat the small puppy .
+nalnal,pp,danny [verb] the small puppy to the cute cat .
+nalnal,do,papa [verb] the cute baby the cute puppy .
+nalnal,pp,papa [verb] the cute puppy to the cute baby .
+nalnal,do,sam [verb] the cute cat the cute puppy .
+nalnal,pp,sam [verb] the cute puppy to the cute cat .
+nalnal,do,ben [verb] the cute baby the cute cat .
+nalnal,pp,ben [verb] the cute cat to the cute baby .
+nalnal,do,charlie [verb] the cute cat the small puppy .
+nalnal,pp,charlie [verb] the small puppy to the cute cat .
+nalnal,do,papa [verb] the small cat the small puppy .
+nalnal,pp,papa [verb] the small puppy to the small cat .
+nalnal,do,pinnochio [verb] the cute baby the cute puppy .
+nalnal,pp,pinnochio [verb] the cute puppy to the cute baby .
+nalnal,do,ben [verb] the cute cat the small baby .
+nalnal,pp,ben [verb] the small baby to the cute cat .
+nalnal,do,charlie [verb] the cute puppy the cute cat .
+nalnal,pp,charlie [verb] the cute cat to the cute puppy .
+nalnal,do,we [verb] the small puppy the cute cat .
+nalnal,pp,we [verb] the cute cat to the small puppy .
+nalnal,do,lucy [verb] the cute cat the cute puppy .
+nalnal,pp,lucy [verb] the cute puppy to the cute cat .
+nalnal,do,sam [verb] the cute puppy the small cat .
+nalnal,pp,sam [verb] the small cat to the cute puppy .
+nalnal,do,mark [verb] the small cat the small baby .
+nalnal,pp,mark [verb] the small baby to the small cat .
+nalnal,do,winnie the pooh [verb] the cute puppy the small cat .
+nalnal,pp,winnie the pooh [verb] the small cat to the cute puppy .
+nalnas,do,charlie [verb] david the small baby .
+nalnas,pp,charlie [verb] the small baby to david .
+nalnas,do,dad [verb] daddy the cute cat .
+nalnas,pp,dad [verb] the cute cat to daddy .
+nalnas,do,ben [verb] daddy the small baby .
+nalnas,pp,ben [verb] the small baby to daddy .
+nalnas,do,jimmy [verb] pooh the small cat .
+nalnas,pp,jimmy [verb] the small cat to pooh .
+nalnas,do,sam [verb] david the small cat .
+nalnas,pp,sam [verb] the small cat to david .
+nalnas,do,we [verb] nemo the small puppy .
+nalnas,pp,we [verb] the small puppy to nemo .
+nalnas,do,mark [verb] cookie monster the cute puppy .
+nalnas,pp,mark [verb] the cute puppy to cookie monster .
+nalnas,do,ben [verb] grandma the cute baby .
+nalnas,pp,ben [verb] the cute baby to grandma .
+nalnas,do,winnie the pooh [verb] david the cute baby .
+nalnas,pp,winnie the pooh [verb] the cute baby to david .
+nalnas,do,charlie [verb] cookie monster the cute puppy .
+nalnas,pp,charlie [verb] the cute puppy to cookie monster .
+nalnas,do,pinnochio [verb] nemo the small cat .
+nalnas,pp,pinnochio [verb] the small cat to nemo .
+nalnas,do,jimmy [verb] nemo the small puppy .
+nalnas,pp,jimmy [verb] the small puppy to nemo .
+nalnas,do,papa [verb] grandma the small cat .
+nalnas,pp,papa [verb] the small cat to grandma .
+nalnas,do,sammy [verb] barney the cute cat .
+nalnas,pp,sammy [verb] the cute cat to barney .
+nalnas,do,sarah [verb] cookie monster the small baby .
+nalnas,pp,sarah [verb] the small baby to cookie monster .
+nalnas,do,jimmy [verb] pooh the cute puppy .
+nalnas,pp,jimmy [verb] the cute puppy to pooh .
+nalnas,do,he [verb] nemo the cute baby .
+nalnas,pp,he [verb] the cute baby to nemo .
+nalnas,do,charlie [verb] nemo the small baby .
+nalnas,pp,charlie [verb] the small baby to nemo .
+nalnas,do,we [verb] nemo the cute puppy .
+nalnas,pp,we [verb] the cute puppy to nemo .
+nalnas,do,sam [verb] lucy the cute baby .
+nalnas,pp,sam [verb] the cute baby to lucy .
+naspas,do,pinnochio [verb] them lucy .
+naspas,pp,pinnochio [verb] lucy to them .
+naspas,do,pinnochio [verb] them pooh .
+naspas,pp,pinnochio [verb] pooh to them .
+naspas,do,ben [verb] us daddy .
+naspas,pp,ben [verb] daddy to us .
+naspas,do,sarah [verb] them daddy .
+naspas,pp,sarah [verb] daddy to them .
+naspas,do,charlie [verb] them lucy .
+naspas,pp,charlie [verb] lucy to them .
+naspas,do,winnie the pooh [verb] him the girl .
+naspas,pp,winnie the pooh [verb] the girl to him .
+naspas,do,sam [verb] him daddy .
+naspas,pp,sam [verb] daddy to him .
+naspas,do,papa [verb] him barney .
+naspas,pp,papa [verb] barney to him .
+naspas,do,mark [verb] them cookie monster .
+naspas,pp,mark [verb] cookie monster to them .
+naspas,do,winnie the pooh [verb] him barney .
+naspas,pp,winnie the pooh [verb] barney to him .
+naspas,do,sam [verb] them daddy .
+naspas,pp,sam [verb] daddy to them .
+naspas,do,papa [verb] them cookie monster .
+naspas,pp,papa [verb] cookie monster to them .
+naspas,do,sarah [verb] him barney .
+naspas,pp,sarah [verb] barney to him .
+naspas,do,ben [verb] them cookie monster .
+naspas,pp,ben [verb] cookie monster to them .
+naspas,do,ben [verb] us lucy .
+naspas,pp,ben [verb] lucy to us .
+naspas,do,ben [verb] us pooh .
+naspas,pp,ben [verb] pooh to us .
+naspas,do,jimmy [verb] him daddy .
+naspas,pp,jimmy [verb] daddy to him .
+naspas,do,pinnochio [verb] him grandma .
+naspas,pp,pinnochio [verb] grandma to him .
+naspas,do,dad [verb] them the girl .
+naspas,pp,dad [verb] the girl to them .
+naspas,do,sam [verb] him david .
+naspas,pp,sam [verb] david to him .
+naspis,do,papa [verb] it cookie monster .
+naspis,pp,papa [verb] cookie monster to it .
+naspis,do,jenny [verb] it barney .
+naspis,pp,jenny [verb] barney to it .
+naspis,do,pinnochio [verb] it lucy .
+naspis,pp,pinnochio [verb] lucy to it .
+naspis,do,jenny [verb] it lucy .
+naspis,pp,jenny [verb] lucy to it .
+naspis,do,danny [verb] it barney .
+naspis,pp,danny [verb] barney to it .
+naspis,do,jimmy [verb] it cookie monster .
+naspis,pp,jimmy [verb] cookie monster to it .
+naspis,do,pinnochio [verb] it barney .
+naspis,pp,pinnochio [verb] barney to it .
+naspis,do,sammy [verb] it daddy .
+naspis,pp,sammy [verb] daddy to it .
+naspis,do,jenny [verb] it barney .
+naspis,pp,jenny [verb] barney to it .
+naspis,do,danny [verb] it david .
+naspis,pp,danny [verb] david to it .
+naspis,do,he [verb] it cookie monster .
+naspis,pp,he [verb] cookie monster to it .
+naspis,do,we [verb] it the girl .
+naspis,pp,we [verb] the girl to it .
+naspis,do,pinnochio [verb] it daddy .
+naspis,pp,pinnochio [verb] daddy to it .
+naspis,do,pinnochio [verb] it pooh .
+naspis,pp,pinnochio [verb] pooh to it .
+naspis,do,winnie the pooh [verb] it david .
+naspis,pp,winnie the pooh [verb] david to it .
+naspis,do,charlie [verb] it daddy .
+naspis,pp,charlie [verb] daddy to it .
+naspis,do,dad [verb] it pooh .
+naspis,pp,dad [verb] pooh to it .
+naspis,do,sam [verb] it daddy .
+naspis,pp,sam [verb] daddy to it .
+naspis,do,sam [verb] it daddy .
+naspis,pp,sam [verb] daddy to it .
+naspis,do,sarah [verb] it lucy .
+naspis,pp,sarah [verb] lucy to it .
+nasnal,do,ben [verb] the cute puppy cookie monster .
+nasnal,pp,ben [verb] cookie monster to the cute puppy .
+nasnal,do,dad [verb] the small baby the girl .
+nasnal,pp,dad [verb] the girl to the small baby .
+nasnal,do,they [verb] the cute cat grandma .
+nasnal,pp,they [verb] grandma to the cute cat .
+nasnal,do,mark [verb] the cute puppy cookie monster .
+nasnal,pp,mark [verb] cookie monster to the cute puppy .
+nasnal,do,dad [verb] the cute cat pooh .
+nasnal,pp,dad [verb] pooh to the cute cat .
+nasnal,do,dad [verb] the cute baby pooh .
+nasnal,pp,dad [verb] pooh to the cute baby .
+nasnal,do,sammy [verb] the cute puppy cookie monster .
+nasnal,pp,sammy [verb] cookie monster to the cute puppy .
+nasnal,do,sam [verb] the cute baby lucy .
+nasnal,pp,sam [verb] lucy to the cute baby .
+nasnal,do,jenny [verb] the cute baby nemo .
+nasnal,pp,jenny [verb] nemo to the cute baby .
+nasnal,do,sam [verb] the cute puppy nemo .
+nasnal,pp,sam [verb] nemo to the cute puppy .
+nasnal,do,charlie [verb] the small puppy the girl .
+nasnal,pp,charlie [verb] the girl to the small puppy .
+nasnal,do,winnie the pooh [verb] the cute baby the girl .
+nasnal,pp,winnie the pooh [verb] the girl to the cute baby .
+nasnal,do,winnie the pooh [verb] the cute cat nemo .
+nasnal,pp,winnie the pooh [verb] nemo to the cute cat .
+nasnal,do,ben [verb] the cute baby the girl .
+nasnal,pp,ben [verb] the girl to the cute baby .
+nasnal,do,winnie the pooh [verb] the small puppy daddy .
+nasnal,pp,winnie the pooh [verb] daddy to the small puppy .
+nasnal,do,jimmy [verb] the cute baby nemo .
+nasnal,pp,jimmy [verb] nemo to the cute baby .
+nasnal,do,danny [verb] the cute baby the girl .
+nasnal,pp,danny [verb] the girl to the cute baby .
+nasnal,do,danny [verb] the cute cat grandma .
+nasnal,pp,danny [verb] grandma to the cute cat .
+nasnal,do,winnie the pooh [verb] the cute cat nemo .
+nasnal,pp,winnie the pooh [verb] nemo to the cute cat .
+nasnal,do,sam [verb] the cute puppy cookie monster .
+nasnal,pp,sam [verb] cookie monster to the cute puppy .
+nasnas,do,dad [verb] daddy lucy .
+nasnas,pp,dad [verb] lucy to daddy .
+nasnas,do,ben [verb] david grandma .
+nasnas,pp,ben [verb] grandma to david .
+nasnas,do,he [verb] grandma the girl .
+nasnas,pp,he [verb] the girl to grandma .
+nasnas,do,winnie the pooh [verb] lucy cookie monster .
+nasnas,pp,winnie the pooh [verb] cookie monster to lucy .
+nasnas,do,charlie [verb] the girl barney .
+nasnas,pp,charlie [verb] barney to the girl .
+nasnas,do,he [verb] cookie monster lucy .
+nasnas,pp,he [verb] lucy to cookie monster .
+nasnas,do,ben [verb] pooh lucy .
+nasnas,pp,ben [verb] lucy to pooh .
+nasnas,do,sammy [verb] grandma pooh .
+nasnas,pp,sammy [verb] pooh to grandma .
+nasnas,do,pinnochio [verb] david barney .
+nasnas,pp,pinnochio [verb] barney to david .
+nasnas,do,ben [verb] lucy cookie monster .
+nasnas,pp,ben [verb] cookie monster to lucy .
+nasnas,do,pinnochio [verb] cookie monster grandma .
+nasnas,pp,pinnochio [verb] grandma to cookie monster .
+nasnas,do,we [verb] lucy nemo .
+nasnas,pp,we [verb] nemo to lucy .
+nasnas,do,pinnochio [verb] the girl nemo .
+nasnas,pp,pinnochio [verb] nemo to the girl .
+nasnas,do,sammy [verb] cookie monster david .
+nasnas,pp,sammy [verb] david to cookie monster .
+nasnas,do,sam [verb] daddy david .
+nasnas,pp,sam [verb] david to daddy .
+nasnas,do,papa [verb] the girl david .
+nasnas,pp,papa [verb] david to the girl .
+nasnas,do,sarah [verb] pooh the girl .
+nasnas,pp,sarah [verb] the girl to pooh .
+nasnas,do,sam [verb] pooh the girl .
+nasnas,pp,sam [verb] the girl to pooh .
+nasnas,do,charlie [verb] daddy grandma .
+nasnas,pp,charlie [verb] grandma to daddy .
+nasnas,do,we [verb] the girl lucy .
+nasnas,pp,we [verb] lucy to the girl .
+nilpas,do,mark [verb] them a few toys .
+nilpas,pp,mark [verb] a few toys to them .
+nilpas,do,the girl [verb] us a bit of the cheerios .
+nilpas,pp,the girl [verb] a bit of the cheerios to us .
+nilpas,do,ben [verb] them a bit of the soup .
+nilpas,pp,ben [verb] a bit of the soup to them .
+nilpas,do,ben [verb] him a piece of cake .
+nilpas,pp,ben [verb] a piece of cake to him .
+nilpas,do,sarah [verb] him a few toys .
+nilpas,pp,sarah [verb] a few toys to him .
+nilpas,do,jenny [verb] him a piece of cake .
+nilpas,pp,jenny [verb] a piece of cake to him .
+nilpas,do,pinnochio [verb] him a bit of the cheerios .
+nilpas,pp,pinnochio [verb] a bit of the cheerios to him .
+nilpas,do,danny [verb] him a bit of the milk .
+nilpas,pp,danny [verb] a bit of the milk to him .
+nilpas,do,sam [verb] him a few cheerios .
+nilpas,pp,sam [verb] a few cheerios to him .
+nilpas,do,sammy [verb] us a few toys .
+nilpas,pp,sammy [verb] a few toys to us .
+nilpas,do,jenny [verb] us a bit of the milk .
+nilpas,pp,jenny [verb] a bit of the milk to us .
+nilpas,do,daddy [verb] him a bit of the milk .
+nilpas,pp,daddy [verb] a bit of the milk to him .
+nilpas,do,sam [verb] them a piece of cake .
+nilpas,pp,sam [verb] a piece of cake to them .
+nilpas,do,danny [verb] us the small cake .
+nilpas,pp,danny [verb] the small cake to us .
+nilpas,do,daddy [verb] us a piece of cake .
+nilpas,pp,daddy [verb] a piece of cake to us .
+nilpas,do,winnie the pooh [verb] him a bit of the milk .
+nilpas,pp,winnie the pooh [verb] a bit of the milk to him .
+nilpas,do,daddy [verb] them the small cake .
+nilpas,pp,daddy [verb] the small cake to them .
+nilpas,do,ben [verb] us a bit of the milk .
+nilpas,pp,ben [verb] a bit of the milk to us .
+nilpas,do,charlie [verb] them the small cake .
+nilpas,pp,charlie [verb] the small cake to them .
+nilpas,do,ben [verb] us the small cake .
+nilpas,pp,ben [verb] the small cake to us .
+nilpis,do,jimmy [verb] it a piece of cake .
+nilpis,pp,jimmy [verb] a piece of cake to it .
+nilpis,do,danny [verb] it a bit of the milk .
+nilpis,pp,danny [verb] a bit of the milk to it .
+nilpis,do,we [verb] it a few toys .
+nilpis,pp,we [verb] a few toys to it .
+nilpis,do,lucy [verb] it the small cake .
+nilpis,pp,lucy [verb] the small cake to it .
+nilpis,do,dad [verb] it a bit of the milk .
+nilpis,pp,dad [verb] a bit of the milk to it .
+nilpis,do,dad [verb] it the small cake .
+nilpis,pp,dad [verb] the small cake to it .
+nilpis,do,pinnochio [verb] it the small cake .
+nilpis,pp,pinnochio [verb] the small cake to it .
+nilpis,do,pinnochio [verb] it a bit of the milk .
+nilpis,pp,pinnochio [verb] a bit of the milk to it .
+nilpis,do,danny [verb] it a piece of cake .
+nilpis,pp,danny [verb] a piece of cake to it .
+nilpis,do,the girl [verb] it a few toys .
+nilpis,pp,the girl [verb] a few toys to it .
+nilpis,do,sam [verb] it a few toys .
+nilpis,pp,sam [verb] a few toys to it .
+nilpis,do,pinnochio [verb] it a bit of the soup .
+nilpis,pp,pinnochio [verb] a bit of the soup to it .
+nilpis,do,dad [verb] it a few toys .
+nilpis,pp,dad [verb] a few toys to it .
+nilpis,do,winnie the pooh [verb] it a piece of cake .
+nilpis,pp,winnie the pooh [verb] a piece of cake to it .
+nilpis,do,we [verb] it a bit of the soup .
+nilpis,pp,we [verb] a bit of the soup to it .
+nilpis,do,they [verb] it a bit of the soup .
+nilpis,pp,they [verb] a bit of the soup to it .
+nilpis,do,the girl [verb] it a bit of the cheerios .
+nilpis,pp,the girl [verb] a bit of the cheerios to it .
+nilpis,do,jimmy [verb] it the small cake .
+nilpis,pp,jimmy [verb] the small cake to it .
+nilpis,do,they [verb] it a bit of the milk .
+nilpis,pp,they [verb] a bit of the milk to it .
+nilpis,do,mark [verb] it a bit of the milk .
+nilpis,pp,mark [verb] a bit of the milk to it .
+nilnal,do,sammy [verb] the small cat a piece of cake .
+nilnal,pp,sammy [verb] a piece of cake to the small cat .
+nilnal,do,we [verb] the small cat a few toys .
+nilnal,pp,we [verb] a few toys to the small cat .
+nilnal,do,jenny [verb] the cute puppy a piece of cake .
+nilnal,pp,jenny [verb] a piece of cake to the cute puppy .
+nilnal,do,papa [verb] the small baby a few toys .
+nilnal,pp,papa [verb] a few toys to the small baby .
+nilnal,do,jimmy [verb] the small baby a piece of cake .
+nilnal,pp,jimmy [verb] a piece of cake to the small baby .
+nilnal,do,they [verb] the small puppy a bit of the cheerios .
+nilnal,pp,they [verb] a bit of the cheerios to the small puppy .
+nilnal,do,sammy [verb] the small cat a bit of the soup .
+nilnal,pp,sammy [verb] a bit of the soup to the small cat .
+nilnal,do,jenny [verb] the cute puppy the small cake .
+nilnal,pp,jenny [verb] the small cake to the cute puppy .
+nilnal,do,grandma [verb] the cute baby a few toys .
+nilnal,pp,grandma [verb] a few toys to the cute baby .
+nilnal,do,jimmy [verb] the small baby a few toys .
+nilnal,pp,jimmy [verb] a few toys to the small baby .
+nilnal,do,danny [verb] the small cat a bit of the soup .
+nilnal,pp,danny [verb] a bit of the soup to the small cat .
+nilnal,do,winnie the pooh [verb] the small cat the small cake .
+nilnal,pp,winnie the pooh [verb] the small cake to the small cat .
+nilnal,do,sammy [verb] the small baby the small cake .
+nilnal,pp,sammy [verb] the small cake to the small baby .
+nilnal,do,danny [verb] the cute cat a piece of cake .
+nilnal,pp,danny [verb] a piece of cake to the cute cat .
+nilnal,do,jimmy [verb] the cute baby a bit of the soup .
+nilnal,pp,jimmy [verb] a bit of the soup to the cute baby .
+nilnal,do,sam [verb] the small puppy the small cake .
+nilnal,pp,sam [verb] the small cake to the small puppy .
+nilnal,do,daddy [verb] the cute cat the small cake .
+nilnal,pp,daddy [verb] the small cake to the cute cat .
+nilnal,do,sammy [verb] the small puppy a bit of the cheerios .
+nilnal,pp,sammy [verb] a bit of the cheerios to the small puppy .
+nilnal,do,pinnochio [verb] the small puppy a bit of the milk .
+nilnal,pp,pinnochio [verb] a bit of the milk to the small puppy .
+nilnal,do,winnie the pooh [verb] the small puppy a bit of the milk .
+nilnal,pp,winnie the pooh [verb] a bit of the milk to the small puppy .
+nilnas,do,he [verb] lucy a few toys .
+nilnas,pp,he [verb] a few toys to lucy .
+nilnas,do,he [verb] barney a few toys .
+nilnas,pp,he [verb] a few toys to barney .
+nilnas,do,sammy [verb] nemo a few cheerios .
+nilnas,pp,sammy [verb] a few cheerios to nemo .
+nilnas,do,charlie [verb] david a few toys .
+nilnas,pp,charlie [verb] a few toys to david .
+nilnas,do,papa [verb] nemo a piece of cake .
+nilnas,pp,papa [verb] a piece of cake to nemo .
+nilnas,do,jimmy [verb] daddy a bit of the milk .
+nilnas,pp,jimmy [verb] a bit of the milk to daddy .
+nilnas,do,dad [verb] david the small cake .
+nilnas,pp,dad [verb] the small cake to david .
+nilnas,do,they [verb] pooh a piece of cake .
+nilnas,pp,they [verb] a piece of cake to pooh .
+nilnas,do,danny [verb] cookie monster the small cake .
+nilnas,pp,danny [verb] the small cake to cookie monster .
+nilnas,do,he [verb] pooh a bit of the cheerios .
+nilnas,pp,he [verb] a bit of the cheerios to pooh .
+nilnas,do,ben [verb] barney a bit of the cheerios .
+nilnas,pp,ben [verb] a bit of the cheerios to barney .
+nilnas,do,charlie [verb] the girl a few cheerios .
+nilnas,pp,charlie [verb] a few cheerios to the girl .
+nilnas,do,charlie [verb] nemo a few toys .
+nilnas,pp,charlie [verb] a few toys to nemo .
+nilnas,do,sammy [verb] david a piece of cake .
+nilnas,pp,sammy [verb] a piece of cake to david .
+nilnas,do,sam [verb] david a few cheerios .
+nilnas,pp,sam [verb] a few cheerios to david .
+nilnas,do,sarah [verb] lucy the small cake .
+nilnas,pp,sarah [verb] the small cake to lucy .
+nilnas,do,jenny [verb] pooh a few cheerios .
+nilnas,pp,jenny [verb] a few cheerios to pooh .
+nilnas,do,danny [verb] cookie monster a bit of the cheerios .
+nilnas,pp,danny [verb] a bit of the cheerios to cookie monster .
+nilnas,do,ben [verb] pooh a bit of the milk .
+nilnas,pp,ben [verb] a bit of the milk to pooh .
+nilnas,do,ben [verb] lucy a bit of the milk .
+nilnas,pp,ben [verb] a bit of the milk to lucy .
+nispas,do,jimmy [verb] him the cake .
+nispas,pp,jimmy [verb] the cake to him .
+nispas,do,grandma [verb] them the cheerios .
+nispas,pp,grandma [verb] the cheerios to them .
+nispas,do,charlie [verb] him the soup .
+nispas,pp,charlie [verb] the soup to him .
+nispas,do,sammy [verb] us the car .
+nispas,pp,sammy [verb] the car to us .
+nispas,do,daddy [verb] him the book .
+nispas,pp,daddy [verb] the book to him .
+nispas,do,sarah [verb] them the milk .
+nispas,pp,sarah [verb] the milk to them .
+nispas,do,sammy [verb] him the book .
+nispas,pp,sammy [verb] the book to him .
+nispas,do,lucy [verb] him the book .
+nispas,pp,lucy [verb] the book to him .
+nispas,do,mark [verb] us the car .
+nispas,pp,mark [verb] the car to us .
+nispas,do,cookie monster [verb] them the toys .
+nispas,pp,cookie monster [verb] the toys to them .
+nispas,do,mark [verb] him the toys .
+nispas,pp,mark [verb] the toys to him .
+nispas,do,dad [verb] us the book .
+nispas,pp,dad [verb] the book to us .
+nispas,do,sam [verb] them the toys .
+nispas,pp,sam [verb] the toys to them .
+nispas,do,papa [verb] us the cheerios .
+nispas,pp,papa [verb] the cheerios to us .
+nispas,do,danny [verb] us the cake .
+nispas,pp,danny [verb] the cake to us .
+nispas,do,dad [verb] them the milk .
+nispas,pp,dad [verb] the milk to them .
+nispas,do,danny [verb] them the car .
+nispas,pp,danny [verb] the car to them .
+nispas,do,mark [verb] us the toys .
+nispas,pp,mark [verb] the toys to us .
+nispas,do,winnie the pooh [verb] them the soup .
+nispas,pp,winnie the pooh [verb] the soup to them .
+nispas,do,papa [verb] him the milk .
+nispas,pp,papa [verb] the milk to him .
+nispis,do,sarah [verb] it the soup .
+nispis,pp,sarah [verb] the soup to it .
+nispis,do,dad [verb] it the soup .
+nispis,pp,dad [verb] the soup to it .
+nispis,do,winnie the pooh [verb] it the car .
+nispis,pp,winnie the pooh [verb] the car to it .
+nispis,do,papa [verb] it the car .
+nispis,pp,papa [verb] the car to it .
+nispis,do,they [verb] it the soup .
+nispis,pp,they [verb] the soup to it .
+nispis,do,dad [verb] it the book .
+nispis,pp,dad [verb] the book to it .
+nispis,do,sarah [verb] it the soup .
+nispis,pp,sarah [verb] the soup to it .
+nispis,do,ben [verb] it the cheerios .
+nispis,pp,ben [verb] the cheerios to it .
+nispis,do,charlie [verb] it the car .
+nispis,pp,charlie [verb] the car to it .
+nispis,do,cookie monster [verb] it the milk .
+nispis,pp,cookie monster [verb] the milk to it .
+nispis,do,he [verb] it the cheerios .
+nispis,pp,he [verb] the cheerios to it .
+nispis,do,sammy [verb] it the cheerios .
+nispis,pp,sammy [verb] the cheerios to it .
+nispis,do,grandma [verb] it the milk .
+nispis,pp,grandma [verb] the milk to it .
+nispis,do,grandma [verb] it the soup .
+nispis,pp,grandma [verb] the soup to it .
+nispis,do,mark [verb] it the book .
+nispis,pp,mark [verb] the book to it .
+nispis,do,he [verb] it the milk .
+nispis,pp,he [verb] the milk to it .
+nispis,do,cookie monster [verb] it the cheerios .
+nispis,pp,cookie monster [verb] the cheerios to it .
+nispis,do,winnie the pooh [verb] it the soup .
+nispis,pp,winnie the pooh [verb] the soup to it .
+nispis,do,jenny [verb] it the soup .
+nispis,pp,jenny [verb] the soup to it .
+nispis,do,papa [verb] it the book .
+nispis,pp,papa [verb] the book to it .
+nisnal,do,sarah [verb] the cute puppy the soup .
+nisnal,pp,sarah [verb] the soup to the cute puppy .
+nisnal,do,sarah [verb] the cute baby the book .
+nisnal,pp,sarah [verb] the book to the cute baby .
+nisnal,do,sarah [verb] the small baby the cheerios .
+nisnal,pp,sarah [verb] the cheerios to the small baby .
+nisnal,do,lucy [verb] the cute puppy the book .
+nisnal,pp,lucy [verb] the book to the cute puppy .
+nisnal,do,ben [verb] the small cat the milk .
+nisnal,pp,ben [verb] the milk to the small cat .
+nisnal,do,pinnochio [verb] the small baby the book .
+nisnal,pp,pinnochio [verb] the book to the small baby .
+nisnal,do,danny [verb] the small baby the soup .
+nisnal,pp,danny [verb] the soup to the small baby .
+nisnal,do,cookie monster [verb] the small cat the cake .
+nisnal,pp,cookie monster [verb] the cake to the small cat .
+nisnal,do,the girl [verb] the small cat the book .
+nisnal,pp,the girl [verb] the book to the small cat .
+nisnal,do,pinnochio [verb] the small puppy the cake .
+nisnal,pp,pinnochio [verb] the cake to the small puppy .
+nisnal,do,charlie [verb] the cute baby the cake .
+nisnal,pp,charlie [verb] the cake to the cute baby .
+nisnal,do,the girl [verb] the cute puppy the cake .
+nisnal,pp,the girl [verb] the cake to the cute puppy .
+nisnal,do,the girl [verb] the small baby the cake .
+nisnal,pp,the girl [verb] the cake to the small baby .
+nisnal,do,sarah [verb] the cute baby the milk .
+nisnal,pp,sarah [verb] the milk to the cute baby .
+nisnal,do,charlie [verb] the small puppy the book .
+nisnal,pp,charlie [verb] the book to the small puppy .
+nisnal,do,he [verb] the small cat the book .
+nisnal,pp,he [verb] the book to the small cat .
+nisnal,do,danny [verb] the cute cat the car .
+nisnal,pp,danny [verb] the car to the cute cat .
+nisnal,do,lucy [verb] the cute cat the car .
+nisnal,pp,lucy [verb] the car to the cute cat .
+nisnal,do,winnie the pooh [verb] the cute puppy the cheerios .
+nisnal,pp,winnie the pooh [verb] the cheerios to the cute puppy .
+nisnal,do,winnie the pooh [verb] the cute cat the car .
+nisnal,pp,winnie the pooh [verb] the car to the cute cat .
+nisnas,do,sarah [verb] the girl the toys .
+nisnas,pp,sarah [verb] the toys to the girl .
+nisnas,do,mark [verb] the girl the milk .
+nisnas,pp,mark [verb] the milk to the girl .
+nisnas,do,they [verb] lucy the book .
+nisnas,pp,they [verb] the book to lucy .
+nisnas,do,he [verb] grandma the car .
+nisnas,pp,he [verb] the car to grandma .
+nisnas,do,they [verb] cookie monster the milk .
+nisnas,pp,they [verb] the milk to cookie monster .
+nisnas,do,danny [verb] barney the book .
+nisnas,pp,danny [verb] the book to barney .
+nisnas,do,sammy [verb] barney the soup .
+nisnas,pp,sammy [verb] the soup to barney .
+nisnas,do,sammy [verb] nemo the cheerios .
+nisnas,pp,sammy [verb] the cheerios to nemo .
+nisnas,do,they [verb] cookie monster the book .
+nisnas,pp,they [verb] the book to cookie monster .
+nisnas,do,jenny [verb] pooh the soup .
+nisnas,pp,jenny [verb] the soup to pooh .
+nisnas,do,dad [verb] lucy the cake .
+nisnas,pp,dad [verb] the cake to lucy .
+nisnas,do,he [verb] the girl the cheerios .
+nisnas,pp,he [verb] the cheerios to the girl .
+nisnas,do,dad [verb] lucy the soup .
+nisnas,pp,dad [verb] the soup to lucy .
+nisnas,do,sam [verb] daddy the toys .
+nisnas,pp,sam [verb] the toys to daddy .
+nisnas,do,danny [verb] nemo the book .
+nisnas,pp,danny [verb] the book to nemo .
+nisnas,do,sammy [verb] grandma the milk .
+nisnas,pp,sammy [verb] the milk to grandma .
+nisnas,do,dad [verb] grandma the toys .
+nisnas,pp,dad [verb] the toys to grandma .
+nisnas,do,danny [verb] nemo the soup .
+nisnas,pp,danny [verb] the soup to nemo .
+nisnas,do,danny [verb] cookie monster the book .
+nisnas,pp,danny [verb] the book to cookie monster .
+nisnas,do,sarah [verb] lucy the milk .
+nisnas,pp,sarah [verb] the milk to lucy .

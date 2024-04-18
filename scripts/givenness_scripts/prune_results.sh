@@ -7,7 +7,7 @@ declare -a seeds=(6 28 221 394 496 1024 1102 1729 2309 8128)
 
 for seed in ${seeds[@]}
 do 
-    python src/prune_results_new.py --results_dir data/results/single_stimuli_dative_simulation_valtest_vbd_discourse_theme_given_template_2/smolm-autoreg-bpe-seed_$seed/raw --experiment_name single_stimuli_dative_simulation_valtest_vbd_discourse_theme_given_template_2
+    python src/prune_results_new.py --results_dir data/results/single_stimuli_dative_simulation_valtest_vbd_discourse_theme_given_template_3/smolm-autoreg-bpe-seed_$seed/raw --experiment_name single_stimuli_dative_simulation_valtest_vbd_discourse_theme_given_template_3
 
-    python src/prune_results_new.py --results_dir data/results/single_stimuli_dative_simulation_valtest_vbd_discourse_recipient_given_template_2/smolm-autoreg-bpe-seed_$seed/raw --experiment_name single_stimuli_dative_simulation_valtest_vbd_discourse_recipient_given_template_2
+    python src/prune_results_new.py --results_dir data/results/single_stimuli_dative_simulation_valtest_vbd_discourse_recipient_given_template_3/smolm-autoreg-bpe-seed_$seed/raw --experiment_name single_stimuli_dative_simulation_valtest_vbd_discourse_recipient_given_template_3
 done
