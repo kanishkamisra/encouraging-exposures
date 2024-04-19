@@ -13,6 +13,7 @@ import utils
 from experiment import Learner
 from torch.utils.data import DataLoader
 
+from tqdm import tqdm
 
 def main(args):
     results_dir = args.results_dir
@@ -20,13 +21,27 @@ def main(args):
 
     gen_set = utils.read_csv_dict(gen_path)
 
-    gen_dl = DataLoader(gen_set, batch_size=64, shuffle=False)
+    gen_dl = DataLoader(gen_set, batch_size=128, shuffle=False)
 
     for dir in os.listdir(results_dir):
         model = f"kanishka/{dir}"
 
+        print(f"Running generalization for {model}")
+
         results_file = f"{results_dir}/{dir}/best_lr_results_hypwise.csv"
         results = utils.read_csv_dict(results_file)
+
+        unique_results = set()
+        for res in results:
+            item_id = res["item_id"]
+            hyp_id = res["hypothesis_id"]
+            hyp_instance = res["hypothesis_instance"]
+            lr = res["lr"]
+            adaptation_dative = res["adaptation_dative"]
+
+            unique_results.add((item_id, hyp_id, hyp_instance, lr, adaptation_dative))
+
+        unique_results = sorted(list(unique_results), key=lambda x: x[0])
 
         lm = Learner(model, device=args.device)
         lm.add_tokens()
@@ -34,12 +49,13 @@ def main(args):
 
         gen_results = []
 
-        for res in results:
-            item_id = res["item_id"]
-            hyp_id = res["hypothesis_id"]
-            hyp_instance = res["hypothesis_instance"]
-            lr = res["lr"]
-            adaptation_dative = res["adaptation_dative"]
+        for res in tqdm(unique_results):
+            # item_id = res["item_id"]
+            # hyp_id = res["hypothesis_id"]
+            # hyp_instance = res["hypothesis_instance"]
+            # lr = res["lr"]
+            # adaptation_dative = res["adaptation_dative"]
+            item_id, hyp_id, hyp_instance, lr, adaptation_dative = res
 
             scores = {"do": [], "pp": []}
 
@@ -50,9 +66,10 @@ def main(args):
             lm.reinitialize(emb)
 
             for batch in gen_dl:
-                keys, constructions, sentences = batch
-                logprobs = lm.sequence_score(sentences)
-                for c, l in zip(constructions, logprobs):
+                # keys, constructions, sentences = batch
+                # print(batch)
+                logprobs = lm.sequence_score(batch['sentence'])
+                for c, l in zip(batch['dative'], logprobs):
                     scores[c].append(l)
 
             avg_scores = {k: sum(v) / len(v) for k, v in scores.items()}
