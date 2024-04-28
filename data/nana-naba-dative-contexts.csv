@@ -211,8 +211,10 @@ i'll trade you a hole one for a solid one .,trade,trade,VB,one,you,NN,PRP,altern
 kalie i'll trade you babies ?,trade,trade,VB,babies,you,NNS,PRP,alternating,do,NABA-DO
 can you see if you can rent him another wiggles ?,rent,rent,VB,wiggles,him,NNS,PRP,alternating,do,NABA-DO
 that doesn't rent you two movies !,rent,rent,VB,movies,you,NNS,PRP,alternating,do,NABA-DO
+you didn't shoot her anything ?,shoot,shoot,VB,anything,her,NN,PRP,alternating,do,NABA-DO
 cause that will guarantee you a place in hea a place in heaven and a piece of cake .,guarantee,guarantee,VB,place,you,NN,PRP,alternating,do,NABA-DO
 i think i owe you some more money .,owe,owe,VBP,money,you,NN,PRP,alternating,do,NABA-DO
+abe shot me help .,shoot,shot,VBD,help,me,NN,PRP,alternating,do,NABA-DO
 i'll trade you my kelp sandwich for your algae pizza he said to tad .,trade,trade,VB,sandwich,you,NN,PRP,alternating,do,NABA-DO
 do we owe you any more money ?,owe,owe,VB,money,you,NN,PRP,alternating,do,NABA-DO
 how much change do i owe you ?,owe,owe,VB,you,change,PRP,NN,alternating,do,NABA-DO
@@ -229,6 +231,8 @@ carried the potty to the bathroom and emptied it into the toilet .,carry,carried
 oh it's carrying the i to the train .,carry,carrying,VBG,i,train,NNP,NN,alternating,pp,NABA-PP
 i'm gonna bounce it to you .,bounce,bounce,VB,it,you,PRP,PRP,alternating,pp,NABA-PP
 now now you haul them out to the plane ?,haul,haul,VBP,them,plane,PRP,NN,alternating,pp,NABA-PP
+mail carriers deliver letters and packages to people's homes .,deliver,deliver,VBP,letters,homes,NNS,NNS,pp-only,pp,NABA-PP
+then the mail carrier in molly's town delivers the letter to molly .,deliver,delivers,VBZ,town,letter,NN,NN,pp-only,pp,NABA-PP
 do you want me to bounce it to you or roll it to you ?,bounce,bounce,VB,it,you,PRP,PRP,alternating,pp,NABA-PP
 okay you carry it to the kitchen .,carry,carry,VBP,it,kitchen,PRP,NN,alternating,pp,NABA-PP
 the next day the man with the polka dot tie and his little boy carried scuffy to a river .,carry,carried,VBD,tie,scuffy,NN,NNP,alternating,pp,NABA-PP
@@ -239,16 +243,21 @@ all afternoon i go up and down the stairs to carry plaster to my uncle adam ?,ca
 bounce it to me ?,bounce,bounce,VB,it,me,PRP,PRP,alternating,pp,NABA-PP
 i bounced it back to you .,bounce,bounced,VBD,it,you,PRP,PRP,alternating,pp,NABA-PP
 carry you i have to carry you to the other room .,carry,carry,VB,you,room,PRP,NN,alternating,pp,NABA-PP
+mail carriers deliver letters and packages to people's homes .,deliver,deliver,VBP,letters,homes,NNS,NNS,pp-only,pp,NABA-PP
 this is what you put people that's been in wrecks and haul them to the hospital .,haul,haul,VBP,them,hospital,PRP,NN,alternating,pp,NABA-PP
 carries gas in it and takes it to all the gas stations .,carry,carries,VBZ,gas,it,NN,PRP,alternating,pp,NABA-PP
 you want me to flip this over to the other pictures or you like the animals .,flip,flip,VB,this,pictures,DT,NNS,alternating,pp,NABA-PP
 wanna carry it to the kitchen for me ?,carry,carry,VB,it,kitchen,PRP,NN,alternating,pp,NABA-PP
 okay there was a man who could not walk four of his friends carried him to the village where jesus was .,carry,carried,VBD,friends,him,NNS,PRP,alternating,pp,NABA-PP
+you delivered mail to me and to gabby and debbie ?,deliver,delivered,VBD,mail,me,NN,PRP,pp-only,pp,NABA-PP
 why don't you sign your name to this pretty picture ?,sign,sign,VB,name,picture,NN,NN,alternating,pp,NABA-PP
 okay are you gonna carry this present to ari .,carry,carry,VB,present,ari,NN,NNP,alternating,pp,NABA-PP
+and who delivers mail to you ?,deliver,delivers,VBZ,mail,you,NN,PRP,pp-only,pp,NABA-PP
 in the airport the trucks have to carry the the cargo from the planes to other planes or into the city .,carry,carry,VB,cargo,planes,NN,NNS,alternating,pp,NABA-PP
+have to deliver that freight to framingham .,deliver,deliver,VB,freight,framingham,NN,NNP,pp-only,pp,NABA-PP
 a moving van carries everything a family owns to their new home .,carry,carries,VBZ,everything,home,NN,NN,alternating,pp,NABA-PP
 but pumbaa scooped simba him up anyway and carried him to safety .,carry,carried,VBD,him,safety,PRP,NN,alternating,pp,NABA-PP
+you're delivering mail to me .,deliver,delivering,VBG,mail,me,NN,PRP,pp-only,pp,NABA-PP
 who carried you out to the car ?,carry,carried,VBD,you,car,PRP,NN,alternating,pp,NABA-PP
 it's a bag to carry your things to school in ?,carry,carry,VB,things,school,NNS,NN,alternating,pp,NABA-PP
 if you get a penny you can carry it to the store .,carry,carry,VB,penny,it,NN,PRP,alternating,pp,NABA-PP

@@ -43,7 +43,11 @@ adaptation2 <- stream_in(file(glue("data/experiments/single_stimuli_dative_simul
 adaptation <- bind_rows(adaptation1, adaptation2)
 
 pronouns = c("him", "her", "them", "me", "us", "it", "something", "someone")
-propernouns = c("bear", "bear over there", "mommy", "daddy", "grandma", "cat", "dog", "dog", "bert", "elmo", "dog outside the house", "cat outside the house", "teddy", "dolly")
+propernouns = c("bear", "bear over there", "mommy", 
+                "daddy", "grandma", "cat", "dog", "dog", 
+                "bert", "elmo", "dog outside the house", 
+                "cat outside the house", "teddy", "dolly",
+                "cookies", "cheerios")
 
 propro = c(pronouns, propernouns)
 

@@ -55,6 +55,12 @@ results %>%
   inner_join(adaptation) %>% 
   group_by(model, agent) %>% summarize(n = n(), logprob = mean(logprob)) %>% View()
 
+balanced_genset_results <- dir_ls(glue("../data/results/single_stimuli_dative_simulation{mode}/"), recurse = TRUE, regexp = "*lr_results_hypwise_balanced_gen.csv") %>%
+  map_df(read_csv, .id = "model") %>%
+  mutate(
+    model = str_extract(model, glue("(?<=simulation{mode}/)(.*)(?=/best_lr_results_hypwise_balanced_gen.csv)"))
+  ) 
+
 altform_generalization <- results %>%
   filter(state == "best", adaptation_dative != generalization_dative)
 

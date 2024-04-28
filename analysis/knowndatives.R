@@ -406,10 +406,10 @@ bind_rows(
     filter(lemma %in% c("address", "announce", "describe", "drop", "explain", "introduce", "lift", "mention", "return", "say", "whisper"), dative == "pp") %>%
     mutate(status = "NANA-PP"),
   combined %>%
-    filter(lemma %in% c("assign", "guarantee", "owe", "promise", "rent", "shot", "trade")) %>%
+    filter(lemma %in% c("assign", "guarantee", "owe", "promise", "rent", "shoot", "trade")) %>%
     mutate(status = "NABA-DO"),
   combined %>%
-    filter(lemma %in% c("bat", "bounce", "drag", "flip", "flew", "haul", "kick", "sign", "carry")) %>%
+    filter(lemma %in% c("bat", "bounce", "drag", "flip", "flew", "haul", "kick", "sign", "carry", "deliver")) %>%
     mutate(status = "NABA-PP")
 ) %>% 
   write_csv("data/nana-naba-dative-contexts.csv")

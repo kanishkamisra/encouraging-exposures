@@ -5,6 +5,7 @@ library(lme4)
 library(lmerTest)
 library(glue)
 library(ggtext)
+library(emmeans)
 
 theme_set(
   theme_bw(base_size = 17, base_family = "Times") +
@@ -58,6 +59,7 @@ adaptation3 <- stream_in(file(glue("data/experiments/single_stimuli_dative_simul
   )
 
 td_ids = adaptation3 %>% pull(item)
+# td_ids = c()
 
 adaptation <- bind_rows(
   bind_rows(adaptation1, adaptation2) %>%
@@ -112,8 +114,9 @@ results <- bind_rows(
 results <- results %>%
   inner_join(feature_configs %>% rename(adaptation_feature_config = feature_config)) %>%
   inner_join(adaptation %>% rename(adaptation_dative = dative)) %>%
-  filter(seed %in% c(6, 28, 221, 1024, 1102, 1729))
-  # filter(seed %in% c(6, 28, 221, 394, 496, 1024, 1102, 1729, 2309, 8128))
+  # filter(seed %in% c(6, 28, 221, 1024, 1102, 1729))
+  filter(seed %in% c(6, 28, 221, 394, 496, 1024, 1102, 1729, 2309, 8128))
+  # filter(seed %in% c(394, 496,2309, 8128))
 
 results %>%
   pivot_wider(names_from = state, values_from = logprob) %>%
@@ -266,7 +269,8 @@ best_model <- best_results %>%
       TRUE ~ -1
     ),
     model = factor(model),
-    item_id = factor(item_id)
+    item_id = factor(item_id),
+    hypothesis_id = factor(hypothesis_id)
   )
 
 # best_model$recip_pron = sapply(best_model$recipient_pronominality,function(i) contr.sum(2)[i,])
@@ -275,60 +279,96 @@ best_model <- best_results %>%
 
 fit1 <- lmer(best ~ theme_animacy + recipient_animacy:theme_animacy + theme_pronominality * recipient_pronominality +
                theme_definiteness + theme_length + 
-               recipient_definiteness + recipient_length + distinctiveness + (1|model) + (1|item_id),data = best_model)
+               recipient_definiteness + recipient_length + distinctiveness + 
+               (1|model) + (1|item_id),data = best_model, REML=FALSE)
 fit2 <- lmer(best ~ theme_animacy * recipient_animacy + theme_pronominality * recipient_pronominality +
                theme_definiteness + theme_length + 
-               recipient_definiteness + recipient_length + distinctiveness + (1|model) + (1|item_id),data = best_model)
+               recipient_definiteness + recipient_length + distinctiveness + 
+               (1|model) + (1|item_id),data = best_model, REML=FALSE)
 
+fit_pronominality_interaction <- lmer(best ~ theme_animacy * recipient_animacy + theme_pronominality + recipient_pronominality +
+                                       theme_definiteness + theme_length + 
+                                       recipient_definiteness + recipient_length + distinctiveness + 
+                                       (1|model) + (1|item_id),data = best_model, REML=FALSE)
+
+fit_animacy_interaction <- lmer(best ~ theme_animacy + recipient_animacy + theme_pronominality * recipient_pronominality +
+                                        theme_definiteness + theme_length + 
+                                        recipient_definiteness + recipient_length + distinctiveness + 
+                                        (1|model) + (1|item_id),data = best_model, REML=FALSE)
+
+fully_additive_fit <- lmer(best ~ theme_animacy + recipient_animacy + theme_pronominality + recipient_pronominality +
+                             theme_definiteness + theme_length + 
+                             recipient_definiteness + recipient_length + distinctiveness + 
+                             (1|model) + (1|item_id),data = best_model, REML=FALSE)
+
+summary(fully_additive_fit)
+
+# PP -> DO
+# recipient animacy significance
 anova(fit1,fit2)
+
+# interaction between pronominality-features is significant.
+anova(fit2, fit_pronominality_interaction)
+
+
+# interaction between animacy-features is significant.
+anova(fit2, fit_animacy_interaction)
 
 summary(fit2)
 
-fit1 <- lmer(
-  best ~ theme_animacy + recipient_animacy + 
-    theme_pronominality * recip_pron +
-    theme_definiteness + theme_length + 
-    recipient_definiteness + recipient_length + 
-    distinctiveness +
-    (1|model) + (1|item_id), 
-  data = best_model,
-  # data = best_results %>% 
-    # filter(adaptation_dative == "do", generalization_dative == "pp") %>%
-    # mutate(case_when(recipient_pronominality == "pronoun" ~ 1, TRUE ~ -1)),
-  REML = FALSE
-)
+emmip(fit2, recipient_animacy ~ theme_animacy)
 
-summary(fit1)
+summary(fit_pronominality_interaction)
 
-fit2 <- lmer(
-  best ~ theme_animacy + recipient_animacy + 
-    theme_pronominality + theme_pronominality:recip_pron + 
-    theme_definiteness + theme_length + 
-    recipient_definiteness + recipient_length + 
-    (1|model) + (1|item_id), 
-  data = best_model,
-  # data = best_results %>% 
-  #   filter(adaptation_dative == "do", generalization_dative == "pp") %>%
-  #   mutate(case_when(recipient_pronominality == "pronoun" ~ 1, TRUE ~ -1)),
-  REML = FALSE
-)
-
-summary(fit2)
-
-anova(fit1,fit2)
+# fit1 <- lmer(
+#   best ~ theme_animacy + recipient_animacy + 
+#     theme_pronominality * recip_pron +
+#     theme_definiteness + theme_length + 
+#     recipient_definiteness + recipient_length + 
+#     distinctiveness +
+#     (1|model) + (1|item_id), 
+#   data = best_model,
+#   # data = best_results %>% 
+#     # filter(adaptation_dative == "do", generalization_dative == "pp") %>%
+#     # mutate(case_when(recipient_pronominality == "pronoun" ~ 1, TRUE ~ -1)),
+#   REML = FALSE
+# )
+# 
+# summary(fit1)
+# 
+# fit2 <- lmer(
+#   best ~ theme_animacy + recipient_animacy + 
+#     theme_pronominality + theme_pronominality:recip_pron + 
+#     theme_definiteness + theme_length + 
+#     recipient_definiteness + recipient_length + 
+#     (1|model) + (1|item_id), 
+#   data = best_model,
+#   # data = best_results %>% 
+#   #   filter(adaptation_dative == "do", generalization_dative == "pp") %>%
+#   #   mutate(case_when(recipient_pronominality == "pronoun" ~ 1, TRUE ~ -1)),
+#   REML = FALSE
+# )
+# 
+# summary(fit2)
+# 
+# anova(fit1,fit2)
 
 
 results %>%
   filter(generalization_dative != adaptation_dative) %>%
+  filter(theme_definiteness == "definite", recipient_definiteness=="definite") %>%
+  filter(theme_pronominality != "pronoun", recipient_pronominality != "pronoun") %>%
+  filter(str_detect(sentence, "the")) %>%
   filter(state == "best") %>%
-  filter(!str_detect(sentence, "(dolly|teddy)")) %>%
+  # filter(!str_detect(sentence, "(dolly|teddy)")) %>%
   mutate(
-    config2 = glue("{theme_animacy}\n{recipient_animacy}"),
-    # config1 = distinctiveness,
     # config2 = glue("{theme_animacy}\n{recipient_animacy}"),
-    # config1 = glue("{theme_pronominality}\n{recipient_pronominality}")
+    # config1 = distinctiveness,
+    config2 = glue("{recipient_animacy}-Recip\n{theme_animacy}-Thm"),
+    # config2 = glue("{theme_pronominality}\n{recipient_pronominality}"),
     # config2 = recipient_animacy,
     config1 = ""
+    # config1 = glue("{theme_animacy}-{theme_definiteness}"),
     # config1 = glue("{theme_length}-{recipient_length}"),
   ) %>%
   group_by(config1, config2, adaptation_dative, generalization_dative) %>%
@@ -398,4 +438,15 @@ anova(theme_fit, full_model)
 anova(recipient_fit, full_model)
 
 summary(full_model)
+
+best_results %>%
+  filter(adaptation_dative != generalization_dative) %>%
+  group_by(adaptation_dative, generalization_dative, theme_animacy, 
+           theme_pronominality, theme_length, theme_definiteness, theme_markedness,
+           recipient_pronominality, recipient_animacy, recipient_length, recipient_definiteness,
+           recipient_markedness, distinctiveness, sentence) %>%
+  summarize(
+    best = mean(best)
+  ) %>%
+  View()
 
