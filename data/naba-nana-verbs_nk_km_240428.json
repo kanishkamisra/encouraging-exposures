@@ -1,0 +1,654 @@
+{
+    "nana-do": {
+        "charged": {
+            "theme": [
+                "the price",
+                "the full amount",
+                "the cost",
+                "the fees",
+                "two dollars",
+                "a quarter",
+                "everything"
+            ],
+            "recipient": [
+                "him",
+                "her",
+                "them",
+                "us",
+                "mommy",
+                "the bear",
+                "the girl",
+                "the man",
+                "my uncle",
+                "a stranger"
+            ]
+        },
+        "cost": {
+            "theme": [
+                "some money",
+                "two cents",
+                "the price",
+                "the full amount",
+                "the job",
+                "the game",
+                "everything"
+            ],
+            "recipient": [
+                "him",
+                "her",
+                "everyone",
+                "mommy",
+                "daddy",
+                "the bear",
+                "the girl",
+                "the man",
+                "my uncle",
+                "a stranger"
+            ]
+        },
+        "wished": {
+            "theme": [
+                "happiness",
+                "the best",
+                "the same",
+                "success",
+                "good health",
+                "a good weekend",
+                "a happy new year"
+            ],
+            "recipient": [
+                "him",
+                "her",
+                "them",
+                "us",
+                "mommy",
+                "the bear",
+                "the girl",
+                "the man",
+                "my uncle",
+                "a stranger"
+            ]
+        }
+    },
+    "naba-pp": {
+        "batted": {
+            "theme": [
+                "my ball",
+                "the baseball",
+                "an egg",
+                "a round toy",
+                "my large eraser",
+                "that",
+                "something"
+            ],
+            "recipient": [
+                "him",
+                "her",
+                "them",
+                "us",
+                "mommy",
+                "the bear",
+                "the girl",
+                "the man",
+                "my uncle",
+                "a stranger"
+            ]
+        },
+        "bounced": {
+            "theme": [
+                "the spring",
+                "the rubber duckies",
+                "the slinky",
+                "a round toy",
+                "my large eraser",
+                "that",
+                "something"
+            ],
+            "recipient": [
+                "him",
+                "her",
+                "them",
+                "us",
+                "mommy",
+                "the bear",
+                "the girl",
+                "the man",
+                "my uncle",
+                "a stranger"
+            ]
+        },
+        "delivered": {
+            "theme": [
+                "some boxes",
+                "a gift",
+                "some food",
+                "the doll",
+                "the toys",
+                "that",
+                "something"
+            ],
+            "recipient": [
+                "him",
+                "her",
+                "them",
+                "us",
+                "mommy",
+                "the bear",
+                "the girl",
+                "the man",
+                "my uncle",
+                "a stranger"
+            ]
+        },
+        "dragged": {
+            "theme": [
+                "some boxes",
+                "the chair",
+                "the bags",
+                "a blanket",
+                "a basket",
+                "that",
+                "something"
+            ],
+            "recipient": [
+                "him",
+                "her",
+                "them",
+                "me",
+                "mommy",
+                "the bear",
+                "the girl",
+                "the man",
+                "my uncle",
+                "a stranger"
+            ]
+        },
+        "hauled": {
+            "theme": [
+                "some boxes",
+                "the furniture",
+                "a package",
+                "the books",
+                "my toys",
+                "that",
+                "something"
+            ],
+            "recipient": [
+                "him",
+                "her",
+                "them",
+                "me",
+                "mommy",
+                "the bear",
+                "the girl",
+                "the man",
+                "my uncle",
+                "a stranger"
+            ]
+        },
+        "kicked": {
+            "theme": [
+                "some boxes",
+                "an egg",
+                "the bottle",
+                "the slinky",
+                "my large eraser",
+                "that",
+                "something"
+            ],
+            "recipient": [
+                "him",
+                "her",
+                "them",
+                "me",
+                "daddy",
+                "the bear",
+                "the girl",
+                "the man",
+                "my uncle",
+                "a stranger"
+            ]
+        },
+        "carried": {
+            "theme": [
+                "some boxes",
+                "the bags",
+                "a package",
+                "the bottle",
+                "the books",
+                "those",
+                "something"
+            ],
+            "recipient": [
+                "him",
+                "her",
+                "them",
+                "us",
+                "mommy",
+                "the bear",
+                "the child",
+                "the man",
+                "my auntie",
+                "a stranger"
+            ]
+        }
+    },
+    "nana-pp": {
+        "addressed": {
+            "theme": [
+                "the speech",
+                "the envelope",
+                "the gift",
+                "some packages",
+                "my letters",
+                "the mail",
+                "that"
+            ],
+            "recipient": [
+                "us",
+                "her",
+                "them",
+                "me",
+                "mommy",
+                "the bear",
+                "the girl",
+                "the man",
+                "my uncle",
+                "a stranger"
+            ]
+        },
+        "announced": {
+            "theme": [
+                "the news",
+                "the result",
+                "the thing",
+                "the answer",
+                "the new position",
+                "that",
+                "something"
+            ],
+            "recipient": [
+                "him",
+                "her",
+                "them",
+                "me",
+                "mommy",
+                "the bear",
+                "the girl",
+                "the man",
+                "my uncle",
+                "a stranger"
+            ]
+        },
+        "described": {
+            "theme": [
+                "the day",
+                "the story",
+                "the person",
+                "the toy",
+                "the show",
+                "the gift",
+                "those"
+            ],
+            "recipient": [
+                "him",
+                "her",
+                "us",
+                "mommy",
+                "daddy",
+                "the bear",
+                "the girl",
+                "the woman",
+                "my uncle",
+                "a stranger"
+            ]
+        },
+        "dropped": {
+            "theme": [
+                "some boxes",
+                "the gift",
+                "the ball",
+                "the toys",
+                "my cat",
+                "teddy",
+                "that"
+            ],
+            "recipient": [
+                "him",
+                "her",
+                "us",
+                "me",
+                "mommy",
+                "the guy",
+                "the girl",
+                "the man",
+                "my uncle",
+                "a stranger"
+            ]
+        },
+        "explained": {
+            "theme": [
+                "some ideas",
+                "the reason",
+                "the answer",
+                "the book",
+                "the stories",
+                "those",
+                "everything"
+            ],
+            "recipient": [
+                "her",
+                "them",
+                "us",
+                "mommy",
+                "daddy",
+                "the bear",
+                "the girl",
+                "the man",
+                "my uncle",
+                "a stranger"
+            ]
+        },
+        "introduced": {
+            "theme": [
+                "the piggy",
+                "my cat",
+                "teddy",
+                "auntie",
+                "nana",
+                "someone",
+                "some ideas"
+            ],
+            "recipient": [
+                "him",
+                "her",
+                "us",
+                "mommy",
+                "daddy",
+                "the guy",
+                "the girl",
+                "the man",
+                "my uncle",
+                "a stranger"
+            ]
+        },
+        "lifted": {
+            "theme": [
+                "some boxes",
+                "the plate",
+                "my cat",
+                "teddy",
+                "the toys",
+                "that",
+                "something"
+            ],
+            "recipient": [
+                "him",
+                "her",
+                "them",
+                "me",
+                "mommy",
+                "the guy",
+                "the girl",
+                "the man",
+                "my uncle",
+                "a stranger"
+            ]
+        },
+        "mentioned": {
+            "theme": [
+                "the story",
+                "the book",
+                "teddy",
+                "my friend",
+                "my cat",
+                "auntie",
+                "that"
+            ],
+            "recipient": [
+                "him",
+                "us",
+                "me",
+                "mommy",
+                "daddy",
+                "the guy",
+                "the girl",
+                "the man",
+                "my uncle",
+                "a stranger"
+            ]
+        },
+        "returned": {
+            "theme": [
+                "some boxes",
+                "the cup",
+                "the toy",
+                "the gift",
+                "the ball",
+                "that",
+                "something"
+            ],
+            "recipient": [
+                "him",
+                "them",
+                "us",
+                "me",
+                "mommy",
+                "the bear",
+                "the girl",
+                "the man",
+                "my uncle",
+                "a stranger"
+            ]
+        },
+        "said": {
+            "theme": [
+                "no",
+                "the same thing",
+                "the following",
+                "hello",
+                "the stuff",
+                "everything",
+                "those words"
+            ],
+            "recipient": [
+                "bunny",
+                "them",
+                "us",
+                "auntie",
+                "nana",
+                "the elephant",
+                "the girl",
+                "the man",
+                "my uncle",
+                "a stranger"
+            ]
+        },
+        "whispered": {
+            "theme": [
+                "the thought",
+                "the reason",
+                "the story",
+                "a few words",
+                "the secret",
+                "something",
+                "that"
+            ],
+            "recipient": [
+                "him",
+                "her",
+                "them",
+                "me",
+                "mommy",
+                "the bear",
+                "the girl",
+                "the man",
+                "my uncle",
+                "a stranger"
+            ]
+        }
+    },
+    "naba-do": {
+        "assigned": {
+            "theme": [
+                "a task",
+                "my job",
+                "the duty",
+                "the chore",
+                "the order",
+                "something",
+                "that thing"
+            ],
+            "recipient": [
+                "him",
+                "her",
+                "them",
+                "me",
+                "mommy",
+                "the bear",
+                "the girl",
+                "the man",
+                "my uncle",
+                "a stranger"
+            ]
+        },
+        "guaranteed": {
+            "theme": [
+                "some money",
+                "a dinner",
+                "the price",
+                "the service",
+                "many gifts",
+                "everything",
+                "that thing"
+            ],
+            "recipient": [
+                "him",
+                "her",
+                "them",
+                "me",
+                "mommy",
+                "the bear",
+                "the girl",
+                "the man",
+                "my uncle",
+                "a stranger"
+            ]
+        },
+        "owed": {
+            "theme": [
+                "some treats",
+                "two cents",
+                "the full amount",
+                "dinner",
+                "a favor",
+                "something",
+                "that"
+            ],
+            "recipient": [
+                "him",
+                "her",
+                "them",
+                "us",
+                "mommy",
+                "the bear",
+                "the girl",
+                "the man",
+                "my uncle",
+                "a stranger"
+            ]
+        },
+        "promised": {
+            "theme": [
+                "the gift",
+                "toys",
+                "some treats",
+                "a meal",
+                "a cake",
+                "something",
+                "that"
+            ],
+            "recipient": [
+                "him",
+                "us",
+                "them",
+                "me",
+                "mommy",
+                "the bear",
+                "the girl",
+                "the man",
+                "my uncle",
+                "a stranger"
+            ]
+        },
+        "rented": {
+            "theme": [
+                "some books",
+                "a machine",
+                "my computer",
+                "the house",
+                "the room",
+                "something",
+                "that"
+            ],
+            "recipient": [
+                "us",
+                "her",
+                "them",
+                "me",
+                "mommy",
+                "the bear",
+                "the girl",
+                "the man",
+                "my uncle",
+                "a stranger"
+            ]
+        },
+        "shot": {
+            "theme": [
+                "some mails",
+                "an email",
+                "a look",
+                "several bullets",
+                "a few messages",
+                "something",
+                "that"
+            ],
+            "recipient": [
+                "him",
+                "them",
+                "us",
+                "mommy",
+                "daddy",
+                "the bear",
+                "the girl",
+                "the man",
+                "my uncle",
+                "a stranger"
+            ]
+        },
+        "traded": {
+            "theme": [
+                "a game",
+                "a card",
+                "the pokemon",
+                "the toys",
+                "the books",
+                "something",
+                "that toy"
+            ],
+            "recipient": [
+                "him",
+                "her",
+                "them",
+                "me",
+                "mommy",
+                "the store",
+                "the girl",
+                "the man",
+                "the shop",
+                "a stranger"
+            ]
+        }
+    }
+}

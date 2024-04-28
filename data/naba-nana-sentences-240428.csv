@@ -1,0 +1,1961 @@
+item_id,verb_id,verb_type,verb,do,pp
+1,1,nana-do,charged,mommy charged him the price .,mommy charged the price to him .
+2,1,nana-do,charged,ryan charged her the price .,ryan charged the price to her .
+3,1,nana-do,charged,grandma charged them the price .,grandma charged the price to them .
+4,1,nana-do,charged,daddy charged us the price .,daddy charged the price to us .
+5,1,nana-do,charged,nina charged mommy the price .,nina charged the price to mommy .
+6,1,nana-do,charged,john charged the bear the price .,john charged the price to the bear .
+7,1,nana-do,charged,john charged the girl the price .,john charged the price to the girl .
+8,1,nana-do,charged,ethan charged the man the price .,ethan charged the price to the man .
+9,1,nana-do,charged,daddy charged my uncle the price .,daddy charged the price to my uncle .
+10,1,nana-do,charged,ryan charged a stranger the price .,ryan charged the price to a stranger .
+11,1,nana-do,charged,mommy charged him the full amount .,mommy charged the full amount to him .
+12,1,nana-do,charged,daddy charged her the full amount .,daddy charged the full amount to her .
+13,1,nana-do,charged,the boy charged them the full amount .,the boy charged the full amount to them .
+14,1,nana-do,charged,ryan charged us the full amount .,ryan charged the full amount to us .
+15,1,nana-do,charged,she charged mommy the full amount .,she charged the full amount to mommy .
+16,1,nana-do,charged,adam charged the bear the full amount .,adam charged the full amount to the bear .
+17,1,nana-do,charged,grandma charged the girl the full amount .,grandma charged the full amount to the girl .
+18,1,nana-do,charged,grandma charged the man the full amount .,grandma charged the full amount to the man .
+19,1,nana-do,charged,ryan charged my uncle the full amount .,ryan charged the full amount to my uncle .
+20,1,nana-do,charged,john charged a stranger the full amount .,john charged the full amount to a stranger .
+21,1,nana-do,charged,john charged him the cost .,john charged the cost to him .
+22,1,nana-do,charged,the boy charged her the cost .,the boy charged the cost to her .
+23,1,nana-do,charged,she charged them the cost .,she charged the cost to them .
+24,1,nana-do,charged,grandma charged us the cost .,grandma charged the cost to us .
+25,1,nana-do,charged,the boy charged mommy the cost .,the boy charged the cost to mommy .
+26,1,nana-do,charged,john charged the bear the cost .,john charged the cost to the bear .
+27,1,nana-do,charged,daddy charged the girl the cost .,daddy charged the cost to the girl .
+28,1,nana-do,charged,mommy charged the man the cost .,mommy charged the cost to the man .
+29,1,nana-do,charged,daddy charged my uncle the cost .,daddy charged the cost to my uncle .
+30,1,nana-do,charged,the boy charged a stranger the cost .,the boy charged the cost to a stranger .
+31,1,nana-do,charged,adam charged him the fees .,adam charged the fees to him .
+32,1,nana-do,charged,john charged her the fees .,john charged the fees to her .
+33,1,nana-do,charged,david charged them the fees .,david charged the fees to them .
+34,1,nana-do,charged,she charged us the fees .,she charged the fees to us .
+35,1,nana-do,charged,nina charged mommy the fees .,nina charged the fees to mommy .
+36,1,nana-do,charged,laura charged the bear the fees .,laura charged the fees to the bear .
+37,1,nana-do,charged,grandma charged the girl the fees .,grandma charged the fees to the girl .
+38,1,nana-do,charged,laura charged the man the fees .,laura charged the fees to the man .
+39,1,nana-do,charged,laura charged my uncle the fees .,laura charged the fees to my uncle .
+40,1,nana-do,charged,ethan charged a stranger the fees .,ethan charged the fees to a stranger .
+41,1,nana-do,charged,daddy charged him two dollars .,daddy charged two dollars to him .
+42,1,nana-do,charged,adam charged her two dollars .,adam charged two dollars to her .
+43,1,nana-do,charged,lily charged them two dollars .,lily charged two dollars to them .
+44,1,nana-do,charged,nina charged us two dollars .,nina charged two dollars to us .
+45,1,nana-do,charged,ethan charged mommy two dollars .,ethan charged two dollars to mommy .
+46,1,nana-do,charged,john charged the bear two dollars .,john charged two dollars to the bear .
+47,1,nana-do,charged,laura charged the girl two dollars .,laura charged two dollars to the girl .
+48,1,nana-do,charged,lily charged the man two dollars .,lily charged two dollars to the man .
+49,1,nana-do,charged,ryan charged my uncle two dollars .,ryan charged two dollars to my uncle .
+50,1,nana-do,charged,ryan charged a stranger two dollars .,ryan charged two dollars to a stranger .
+51,1,nana-do,charged,adam charged him a quarter .,adam charged a quarter to him .
+52,1,nana-do,charged,ryan charged her a quarter .,ryan charged a quarter to her .
+53,1,nana-do,charged,lily charged them a quarter .,lily charged a quarter to them .
+54,1,nana-do,charged,lily charged us a quarter .,lily charged a quarter to us .
+55,1,nana-do,charged,she charged mommy a quarter .,she charged a quarter to mommy .
+56,1,nana-do,charged,nina charged the bear a quarter .,nina charged a quarter to the bear .
+57,1,nana-do,charged,laura charged the girl a quarter .,laura charged a quarter to the girl .
+58,1,nana-do,charged,grandma charged the man a quarter .,grandma charged a quarter to the man .
+59,1,nana-do,charged,daddy charged my uncle a quarter .,daddy charged a quarter to my uncle .
+60,1,nana-do,charged,david charged a stranger a quarter .,david charged a quarter to a stranger .
+61,1,nana-do,charged,the boy charged him everything .,the boy charged everything to him .
+62,1,nana-do,charged,ryan charged her everything .,ryan charged everything to her .
+63,1,nana-do,charged,adam charged them everything .,adam charged everything to them .
+64,1,nana-do,charged,ryan charged us everything .,ryan charged everything to us .
+65,1,nana-do,charged,the boy charged mommy everything .,the boy charged everything to mommy .
+66,1,nana-do,charged,nina charged the bear everything .,nina charged everything to the bear .
+67,1,nana-do,charged,mommy charged the girl everything .,mommy charged everything to the girl .
+68,1,nana-do,charged,she charged the man everything .,she charged everything to the man .
+69,1,nana-do,charged,lily charged my uncle everything .,lily charged everything to my uncle .
+70,1,nana-do,charged,she charged a stranger everything .,she charged everything to a stranger .
+71,2,nana-do,cost,john cost him some money .,john cost some money to him .
+72,2,nana-do,cost,daddy cost her some money .,daddy cost some money to her .
+73,2,nana-do,cost,ryan cost everyone some money .,ryan cost some money to everyone .
+74,2,nana-do,cost,grandma cost mommy some money .,grandma cost some money to mommy .
+75,2,nana-do,cost,mommy cost daddy some money .,mommy cost some money to daddy .
+76,2,nana-do,cost,john cost the bear some money .,john cost some money to the bear .
+77,2,nana-do,cost,laura cost the girl some money .,laura cost some money to the girl .
+78,2,nana-do,cost,nina cost the man some money .,nina cost some money to the man .
+79,2,nana-do,cost,ryan cost my uncle some money .,ryan cost some money to my uncle .
+80,2,nana-do,cost,john cost a stranger some money .,john cost some money to a stranger .
+81,2,nana-do,cost,ryan cost him two cents .,ryan cost two cents to him .
+82,2,nana-do,cost,adam cost her two cents .,adam cost two cents to her .
+83,2,nana-do,cost,nina cost everyone two cents .,nina cost two cents to everyone .
+84,2,nana-do,cost,david cost mommy two cents .,david cost two cents to mommy .
+85,2,nana-do,cost,mommy cost daddy two cents .,mommy cost two cents to daddy .
+86,2,nana-do,cost,lily cost the bear two cents .,lily cost two cents to the bear .
+87,2,nana-do,cost,ethan cost the girl two cents .,ethan cost two cents to the girl .
+88,2,nana-do,cost,lily cost the man two cents .,lily cost two cents to the man .
+89,2,nana-do,cost,lily cost my uncle two cents .,lily cost two cents to my uncle .
+90,2,nana-do,cost,john cost a stranger two cents .,john cost two cents to a stranger .
+91,2,nana-do,cost,mommy cost him the price .,mommy cost the price to him .
+92,2,nana-do,cost,nina cost her the price .,nina cost the price to her .
+93,2,nana-do,cost,daddy cost everyone the price .,daddy cost the price to everyone .
+94,2,nana-do,cost,daddy cost mommy the price .,daddy cost the price to mommy .
+95,2,nana-do,cost,mommy cost daddy the price .,mommy cost the price to daddy .
+96,2,nana-do,cost,ryan cost the bear the price .,ryan cost the price to the bear .
+97,2,nana-do,cost,she cost the girl the price .,she cost the price to the girl .
+98,2,nana-do,cost,mommy cost the man the price .,mommy cost the price to the man .
+99,2,nana-do,cost,ethan cost my uncle the price .,ethan cost the price to my uncle .
+100,2,nana-do,cost,the boy cost a stranger the price .,the boy cost the price to a stranger .
+101,2,nana-do,cost,daddy cost him the full amount .,daddy cost the full amount to him .
+102,2,nana-do,cost,john cost her the full amount .,john cost the full amount to her .
+103,2,nana-do,cost,ethan cost everyone the full amount .,ethan cost the full amount to everyone .
+104,2,nana-do,cost,david cost mommy the full amount .,david cost the full amount to mommy .
+105,2,nana-do,cost,adam cost daddy the full amount .,adam cost the full amount to daddy .
+106,2,nana-do,cost,nina cost the bear the full amount .,nina cost the full amount to the bear .
+107,2,nana-do,cost,mommy cost the girl the full amount .,mommy cost the full amount to the girl .
+108,2,nana-do,cost,daddy cost the man the full amount .,daddy cost the full amount to the man .
+109,2,nana-do,cost,the boy cost my uncle the full amount .,the boy cost the full amount to my uncle .
+110,2,nana-do,cost,john cost a stranger the full amount .,john cost the full amount to a stranger .
+111,2,nana-do,cost,mommy cost him the job .,mommy cost the job to him .
+112,2,nana-do,cost,lily cost her the job .,lily cost the job to her .
+113,2,nana-do,cost,laura cost everyone the job .,laura cost the job to everyone .
+114,2,nana-do,cost,grandma cost mommy the job .,grandma cost the job to mommy .
+115,2,nana-do,cost,john cost daddy the job .,john cost the job to daddy .
+116,2,nana-do,cost,grandma cost the bear the job .,grandma cost the job to the bear .
+117,2,nana-do,cost,laura cost the girl the job .,laura cost the job to the girl .
+118,2,nana-do,cost,lily cost the man the job .,lily cost the job to the man .
+119,2,nana-do,cost,adam cost my uncle the job .,adam cost the job to my uncle .
+120,2,nana-do,cost,nina cost a stranger the job .,nina cost the job to a stranger .
+121,2,nana-do,cost,ryan cost him the game .,ryan cost the game to him .
+122,2,nana-do,cost,john cost her the game .,john cost the game to her .
+123,2,nana-do,cost,she cost everyone the game .,she cost the game to everyone .
+124,2,nana-do,cost,laura cost mommy the game .,laura cost the game to mommy .
+125,2,nana-do,cost,lily cost daddy the game .,lily cost the game to daddy .
+126,2,nana-do,cost,john cost the bear the game .,john cost the game to the bear .
+127,2,nana-do,cost,mommy cost the girl the game .,mommy cost the game to the girl .
+128,2,nana-do,cost,david cost the man the game .,david cost the game to the man .
+129,2,nana-do,cost,adam cost my uncle the game .,adam cost the game to my uncle .
+130,2,nana-do,cost,mommy cost a stranger the game .,mommy cost the game to a stranger .
+131,2,nana-do,cost,david cost him everything .,david cost everything to him .
+132,2,nana-do,cost,ethan cost her everything .,ethan cost everything to her .
+133,2,nana-do,cost,nina cost everyone everything .,nina cost everything to everyone .
+134,2,nana-do,cost,ethan cost mommy everything .,ethan cost everything to mommy .
+135,2,nana-do,cost,john cost daddy everything .,john cost everything to daddy .
+136,2,nana-do,cost,daddy cost the bear everything .,daddy cost everything to the bear .
+137,2,nana-do,cost,the boy cost the girl everything .,the boy cost everything to the girl .
+138,2,nana-do,cost,the boy cost the man everything .,the boy cost everything to the man .
+139,2,nana-do,cost,nina cost my uncle everything .,nina cost everything to my uncle .
+140,2,nana-do,cost,daddy cost a stranger everything .,daddy cost everything to a stranger .
+141,3,nana-do,wished,the boy wished him happiness .,the boy wished happiness to him .
+142,3,nana-do,wished,adam wished her happiness .,adam wished happiness to her .
+143,3,nana-do,wished,the boy wished them happiness .,the boy wished happiness to them .
+144,3,nana-do,wished,adam wished us happiness .,adam wished happiness to us .
+145,3,nana-do,wished,lily wished mommy happiness .,lily wished happiness to mommy .
+146,3,nana-do,wished,john wished the bear happiness .,john wished happiness to the bear .
+147,3,nana-do,wished,ethan wished the girl happiness .,ethan wished happiness to the girl .
+148,3,nana-do,wished,you wished the man happiness .,you wished happiness to the man .
+149,3,nana-do,wished,david wished my uncle happiness .,david wished happiness to my uncle .
+150,3,nana-do,wished,ryan wished a stranger happiness .,ryan wished happiness to a stranger .
+151,3,nana-do,wished,daddy wished him the best .,daddy wished the best to him .
+152,3,nana-do,wished,grandma wished her the best .,grandma wished the best to her .
+153,3,nana-do,wished,laura wished them the best .,laura wished the best to them .
+154,3,nana-do,wished,ryan wished us the best .,ryan wished the best to us .
+155,3,nana-do,wished,ethan wished mommy the best .,ethan wished the best to mommy .
+156,3,nana-do,wished,she wished the bear the best .,she wished the best to the bear .
+157,3,nana-do,wished,ethan wished the girl the best .,ethan wished the best to the girl .
+158,3,nana-do,wished,daddy wished the man the best .,daddy wished the best to the man .
+159,3,nana-do,wished,she wished my uncle the best .,she wished the best to my uncle .
+160,3,nana-do,wished,adam wished a stranger the best .,adam wished the best to a stranger .
+161,3,nana-do,wished,the boy wished him the same .,the boy wished the same to him .
+162,3,nana-do,wished,ryan wished her the same .,ryan wished the same to her .
+163,3,nana-do,wished,adam wished them the same .,adam wished the same to them .
+164,3,nana-do,wished,adam wished us the same .,adam wished the same to us .
+165,3,nana-do,wished,the boy wished mommy the same .,the boy wished the same to mommy .
+166,3,nana-do,wished,david wished the bear the same .,david wished the same to the bear .
+167,3,nana-do,wished,you wished the girl the same .,you wished the same to the girl .
+168,3,nana-do,wished,nina wished the man the same .,nina wished the same to the man .
+169,3,nana-do,wished,you wished my uncle the same .,you wished the same to my uncle .
+170,3,nana-do,wished,laura wished a stranger the same .,laura wished the same to a stranger .
+171,3,nana-do,wished,grandma wished him success .,grandma wished success to him .
+172,3,nana-do,wished,she wished her success .,she wished success to her .
+173,3,nana-do,wished,mommy wished them success .,mommy wished success to them .
+174,3,nana-do,wished,ryan wished us success .,ryan wished success to us .
+175,3,nana-do,wished,she wished mommy success .,she wished success to mommy .
+176,3,nana-do,wished,you wished the bear success .,you wished success to the bear .
+177,3,nana-do,wished,daddy wished the girl success .,daddy wished success to the girl .
+178,3,nana-do,wished,nina wished the man success .,nina wished success to the man .
+179,3,nana-do,wished,daddy wished my uncle success .,daddy wished success to my uncle .
+180,3,nana-do,wished,she wished a stranger success .,she wished success to a stranger .
+181,3,nana-do,wished,lily wished him good health .,lily wished good health to him .
+182,3,nana-do,wished,ryan wished her good health .,ryan wished good health to her .
+183,3,nana-do,wished,nina wished them good health .,nina wished good health to them .
+184,3,nana-do,wished,adam wished us good health .,adam wished good health to us .
+185,3,nana-do,wished,ethan wished mommy good health .,ethan wished good health to mommy .
+186,3,nana-do,wished,david wished the bear good health .,david wished good health to the bear .
+187,3,nana-do,wished,grandma wished the girl good health .,grandma wished good health to the girl .
+188,3,nana-do,wished,mommy wished the man good health .,mommy wished good health to the man .
+189,3,nana-do,wished,mommy wished my uncle good health .,mommy wished good health to my uncle .
+190,3,nana-do,wished,nina wished a stranger good health .,nina wished good health to a stranger .
+191,3,nana-do,wished,you wished him a good weekend .,you wished a good weekend to him .
+192,3,nana-do,wished,daddy wished her a good weekend .,daddy wished a good weekend to her .
+193,3,nana-do,wished,ethan wished them a good weekend .,ethan wished a good weekend to them .
+194,3,nana-do,wished,you wished us a good weekend .,you wished a good weekend to us .
+195,3,nana-do,wished,ryan wished mommy a good weekend .,ryan wished a good weekend to mommy .
+196,3,nana-do,wished,laura wished the bear a good weekend .,laura wished a good weekend to the bear .
+197,3,nana-do,wished,she wished the girl a good weekend .,she wished a good weekend to the girl .
+198,3,nana-do,wished,nina wished the man a good weekend .,nina wished a good weekend to the man .
+199,3,nana-do,wished,laura wished my uncle a good weekend .,laura wished a good weekend to my uncle .
+200,3,nana-do,wished,she wished a stranger a good weekend .,she wished a good weekend to a stranger .
+201,3,nana-do,wished,you wished him a happy new year .,you wished a happy new year to him .
+202,3,nana-do,wished,the boy wished her a happy new year .,the boy wished a happy new year to her .
+203,3,nana-do,wished,john wished them a happy new year .,john wished a happy new year to them .
+204,3,nana-do,wished,ethan wished us a happy new year .,ethan wished a happy new year to us .
+205,3,nana-do,wished,lily wished mommy a happy new year .,lily wished a happy new year to mommy .
+206,3,nana-do,wished,daddy wished the bear a happy new year .,daddy wished a happy new year to the bear .
+207,3,nana-do,wished,ethan wished the girl a happy new year .,ethan wished a happy new year to the girl .
+208,3,nana-do,wished,you wished the man a happy new year .,you wished a happy new year to the man .
+209,3,nana-do,wished,daddy wished my uncle a happy new year .,daddy wished a happy new year to my uncle .
+210,3,nana-do,wished,you wished a stranger a happy new year .,you wished a happy new year to a stranger .
+211,4,naba-pp,batted,grandma batted him my ball .,grandma batted my ball to him .
+212,4,naba-pp,batted,he batted her my ball .,he batted my ball to her .
+213,4,naba-pp,batted,laura batted them my ball .,laura batted my ball to them .
+214,4,naba-pp,batted,grandma batted us my ball .,grandma batted my ball to us .
+215,4,naba-pp,batted,ryan batted mommy my ball .,ryan batted my ball to mommy .
+216,4,naba-pp,batted,she batted the bear my ball .,she batted my ball to the bear .
+217,4,naba-pp,batted,the boy batted the girl my ball .,the boy batted my ball to the girl .
+218,4,naba-pp,batted,david batted the man my ball .,david batted my ball to the man .
+219,4,naba-pp,batted,ryan batted my uncle my ball .,ryan batted my ball to my uncle .
+220,4,naba-pp,batted,david batted a stranger my ball .,david batted my ball to a stranger .
+221,4,naba-pp,batted,ethan batted him the baseball .,ethan batted the baseball to him .
+222,4,naba-pp,batted,ethan batted her the baseball .,ethan batted the baseball to her .
+223,4,naba-pp,batted,laura batted them the baseball .,laura batted the baseball to them .
+224,4,naba-pp,batted,ethan batted us the baseball .,ethan batted the baseball to us .
+225,4,naba-pp,batted,i batted mommy the baseball .,i batted the baseball to mommy .
+226,4,naba-pp,batted,nina batted the bear the baseball .,nina batted the baseball to the bear .
+227,4,naba-pp,batted,nina batted the girl the baseball .,nina batted the baseball to the girl .
+228,4,naba-pp,batted,laura batted the man the baseball .,laura batted the baseball to the man .
+229,4,naba-pp,batted,lily batted my uncle the baseball .,lily batted the baseball to my uncle .
+230,4,naba-pp,batted,you batted a stranger the baseball .,you batted the baseball to a stranger .
+231,4,naba-pp,batted,mommy batted him an egg .,mommy batted an egg to him .
+232,4,naba-pp,batted,adam batted her an egg .,adam batted an egg to her .
+233,4,naba-pp,batted,adam batted them an egg .,adam batted an egg to them .
+234,4,naba-pp,batted,the boy batted us an egg .,the boy batted an egg to us .
+235,4,naba-pp,batted,adam batted mommy an egg .,adam batted an egg to mommy .
+236,4,naba-pp,batted,she batted the bear an egg .,she batted an egg to the bear .
+237,4,naba-pp,batted,daddy batted the girl an egg .,daddy batted an egg to the girl .
+238,4,naba-pp,batted,daddy batted the man an egg .,daddy batted an egg to the man .
+239,4,naba-pp,batted,john batted my uncle an egg .,john batted an egg to my uncle .
+240,4,naba-pp,batted,david batted a stranger an egg .,david batted an egg to a stranger .
+241,4,naba-pp,batted,david batted him a round toy .,david batted a round toy to him .
+242,4,naba-pp,batted,ethan batted her a round toy .,ethan batted a round toy to her .
+243,4,naba-pp,batted,he batted them a round toy .,he batted a round toy to them .
+244,4,naba-pp,batted,grandma batted us a round toy .,grandma batted a round toy to us .
+245,4,naba-pp,batted,the boy batted mommy a round toy .,the boy batted a round toy to mommy .
+246,4,naba-pp,batted,david batted the bear a round toy .,david batted a round toy to the bear .
+247,4,naba-pp,batted,david batted the girl a round toy .,david batted a round toy to the girl .
+248,4,naba-pp,batted,grandma batted the man a round toy .,grandma batted a round toy to the man .
+249,4,naba-pp,batted,ethan batted my uncle a round toy .,ethan batted a round toy to my uncle .
+250,4,naba-pp,batted,ryan batted a stranger a round toy .,ryan batted a round toy to a stranger .
+251,4,naba-pp,batted,david batted him my large eraser .,david batted my large eraser to him .
+252,4,naba-pp,batted,ethan batted her my large eraser .,ethan batted my large eraser to her .
+253,4,naba-pp,batted,ryan batted them my large eraser .,ryan batted my large eraser to them .
+254,4,naba-pp,batted,he batted us my large eraser .,he batted my large eraser to us .
+255,4,naba-pp,batted,ryan batted mommy my large eraser .,ryan batted my large eraser to mommy .
+256,4,naba-pp,batted,david batted the bear my large eraser .,david batted my large eraser to the bear .
+257,4,naba-pp,batted,you batted the girl my large eraser .,you batted my large eraser to the girl .
+258,4,naba-pp,batted,laura batted the man my large eraser .,laura batted my large eraser to the man .
+259,4,naba-pp,batted,adam batted my uncle my large eraser .,adam batted my large eraser to my uncle .
+260,4,naba-pp,batted,nina batted a stranger my large eraser .,nina batted my large eraser to a stranger .
+261,4,naba-pp,batted,laura batted him that .,laura batted that to him .
+262,4,naba-pp,batted,david batted her that .,david batted that to her .
+263,4,naba-pp,batted,laura batted them that .,laura batted that to them .
+264,4,naba-pp,batted,mommy batted us that .,mommy batted that to us .
+265,4,naba-pp,batted,john batted mommy that .,john batted that to mommy .
+266,4,naba-pp,batted,john batted the bear that .,john batted that to the bear .
+267,4,naba-pp,batted,john batted the girl that .,john batted that to the girl .
+268,4,naba-pp,batted,mommy batted the man that .,mommy batted that to the man .
+269,4,naba-pp,batted,she batted my uncle that .,she batted that to my uncle .
+270,4,naba-pp,batted,mommy batted a stranger that .,mommy batted that to a stranger .
+271,4,naba-pp,batted,mommy batted him something .,mommy batted something to him .
+272,4,naba-pp,batted,daddy batted her something .,daddy batted something to her .
+273,4,naba-pp,batted,ryan batted them something .,ryan batted something to them .
+274,4,naba-pp,batted,john batted us something .,john batted something to us .
+275,4,naba-pp,batted,grandma batted mommy something .,grandma batted something to mommy .
+276,4,naba-pp,batted,i batted the bear something .,i batted something to the bear .
+277,4,naba-pp,batted,he batted the girl something .,he batted something to the girl .
+278,4,naba-pp,batted,john batted the man something .,john batted something to the man .
+279,4,naba-pp,batted,david batted my uncle something .,david batted something to my uncle .
+280,4,naba-pp,batted,adam batted a stranger something .,adam batted something to a stranger .
+281,5,naba-pp,bounced,john bounced him the spring .,john bounced the spring to him .
+282,5,naba-pp,bounced,you bounced her the spring .,you bounced the spring to her .
+283,5,naba-pp,bounced,david bounced them the spring .,david bounced the spring to them .
+284,5,naba-pp,bounced,ethan bounced us the spring .,ethan bounced the spring to us .
+285,5,naba-pp,bounced,adam bounced mommy the spring .,adam bounced the spring to mommy .
+286,5,naba-pp,bounced,ethan bounced the bear the spring .,ethan bounced the spring to the bear .
+287,5,naba-pp,bounced,nina bounced the girl the spring .,nina bounced the spring to the girl .
+288,5,naba-pp,bounced,david bounced the man the spring .,david bounced the spring to the man .
+289,5,naba-pp,bounced,john bounced my uncle the spring .,john bounced the spring to my uncle .
+290,5,naba-pp,bounced,laura bounced a stranger the spring .,laura bounced the spring to a stranger .
+291,5,naba-pp,bounced,ryan bounced him the rubber duckies .,ryan bounced the rubber duckies to him .
+292,5,naba-pp,bounced,david bounced her the rubber duckies .,david bounced the rubber duckies to her .
+293,5,naba-pp,bounced,daddy bounced them the rubber duckies .,daddy bounced the rubber duckies to them .
+294,5,naba-pp,bounced,laura bounced us the rubber duckies .,laura bounced the rubber duckies to us .
+295,5,naba-pp,bounced,you bounced mommy the rubber duckies .,you bounced the rubber duckies to mommy .
+296,5,naba-pp,bounced,ryan bounced the bear the rubber duckies .,ryan bounced the rubber duckies to the bear .
+297,5,naba-pp,bounced,grandma bounced the girl the rubber duckies .,grandma bounced the rubber duckies to the girl .
+298,5,naba-pp,bounced,she bounced the man the rubber duckies .,she bounced the rubber duckies to the man .
+299,5,naba-pp,bounced,you bounced my uncle the rubber duckies .,you bounced the rubber duckies to my uncle .
+300,5,naba-pp,bounced,laura bounced a stranger the rubber duckies .,laura bounced the rubber duckies to a stranger .
+301,5,naba-pp,bounced,grandma bounced him the slinky .,grandma bounced the slinky to him .
+302,5,naba-pp,bounced,ryan bounced her the slinky .,ryan bounced the slinky to her .
+303,5,naba-pp,bounced,daddy bounced them the slinky .,daddy bounced the slinky to them .
+304,5,naba-pp,bounced,laura bounced us the slinky .,laura bounced the slinky to us .
+305,5,naba-pp,bounced,john bounced mommy the slinky .,john bounced the slinky to mommy .
+306,5,naba-pp,bounced,ethan bounced the bear the slinky .,ethan bounced the slinky to the bear .
+307,5,naba-pp,bounced,adam bounced the girl the slinky .,adam bounced the slinky to the girl .
+308,5,naba-pp,bounced,david bounced the man the slinky .,david bounced the slinky to the man .
+309,5,naba-pp,bounced,david bounced my uncle the slinky .,david bounced the slinky to my uncle .
+310,5,naba-pp,bounced,john bounced a stranger the slinky .,john bounced the slinky to a stranger .
+311,5,naba-pp,bounced,laura bounced him a round toy .,laura bounced a round toy to him .
+312,5,naba-pp,bounced,adam bounced her a round toy .,adam bounced a round toy to her .
+313,5,naba-pp,bounced,grandma bounced them a round toy .,grandma bounced a round toy to them .
+314,5,naba-pp,bounced,ethan bounced us a round toy .,ethan bounced a round toy to us .
+315,5,naba-pp,bounced,adam bounced mommy a round toy .,adam bounced a round toy to mommy .
+316,5,naba-pp,bounced,grandma bounced the bear a round toy .,grandma bounced a round toy to the bear .
+317,5,naba-pp,bounced,adam bounced the girl a round toy .,adam bounced a round toy to the girl .
+318,5,naba-pp,bounced,nina bounced the man a round toy .,nina bounced a round toy to the man .
+319,5,naba-pp,bounced,daddy bounced my uncle a round toy .,daddy bounced a round toy to my uncle .
+320,5,naba-pp,bounced,daddy bounced a stranger a round toy .,daddy bounced a round toy to a stranger .
+321,5,naba-pp,bounced,david bounced him my large eraser .,david bounced my large eraser to him .
+322,5,naba-pp,bounced,nina bounced her my large eraser .,nina bounced my large eraser to her .
+323,5,naba-pp,bounced,adam bounced them my large eraser .,adam bounced my large eraser to them .
+324,5,naba-pp,bounced,mommy bounced us my large eraser .,mommy bounced my large eraser to us .
+325,5,naba-pp,bounced,daddy bounced mommy my large eraser .,daddy bounced my large eraser to mommy .
+326,5,naba-pp,bounced,daddy bounced the bear my large eraser .,daddy bounced my large eraser to the bear .
+327,5,naba-pp,bounced,you bounced the girl my large eraser .,you bounced my large eraser to the girl .
+328,5,naba-pp,bounced,she bounced the man my large eraser .,she bounced my large eraser to the man .
+329,5,naba-pp,bounced,mommy bounced my uncle my large eraser .,mommy bounced my large eraser to my uncle .
+330,5,naba-pp,bounced,david bounced a stranger my large eraser .,david bounced my large eraser to a stranger .
+331,5,naba-pp,bounced,ethan bounced him that .,ethan bounced that to him .
+332,5,naba-pp,bounced,john bounced her that .,john bounced that to her .
+333,5,naba-pp,bounced,nina bounced them that .,nina bounced that to them .
+334,5,naba-pp,bounced,john bounced us that .,john bounced that to us .
+335,5,naba-pp,bounced,grandma bounced mommy that .,grandma bounced that to mommy .
+336,5,naba-pp,bounced,the boy bounced the bear that .,the boy bounced that to the bear .
+337,5,naba-pp,bounced,mommy bounced the girl that .,mommy bounced that to the girl .
+338,5,naba-pp,bounced,you bounced the man that .,you bounced that to the man .
+339,5,naba-pp,bounced,grandma bounced my uncle that .,grandma bounced that to my uncle .
+340,5,naba-pp,bounced,mommy bounced a stranger that .,mommy bounced that to a stranger .
+341,5,naba-pp,bounced,lily bounced him something .,lily bounced something to him .
+342,5,naba-pp,bounced,grandma bounced her something .,grandma bounced something to her .
+343,5,naba-pp,bounced,grandma bounced them something .,grandma bounced something to them .
+344,5,naba-pp,bounced,the boy bounced us something .,the boy bounced something to us .
+345,5,naba-pp,bounced,david bounced mommy something .,david bounced something to mommy .
+346,5,naba-pp,bounced,you bounced the bear something .,you bounced something to the bear .
+347,5,naba-pp,bounced,laura bounced the girl something .,laura bounced something to the girl .
+348,5,naba-pp,bounced,you bounced the man something .,you bounced something to the man .
+349,5,naba-pp,bounced,ethan bounced my uncle something .,ethan bounced something to my uncle .
+350,5,naba-pp,bounced,grandma bounced a stranger something .,grandma bounced something to a stranger .
+351,6,naba-pp,delivered,the boy delivered him some boxes .,the boy delivered some boxes to him .
+352,6,naba-pp,delivered,ryan delivered her some boxes .,ryan delivered some boxes to her .
+353,6,naba-pp,delivered,laura delivered them some boxes .,laura delivered some boxes to them .
+354,6,naba-pp,delivered,ethan delivered us some boxes .,ethan delivered some boxes to us .
+355,6,naba-pp,delivered,ryan delivered mommy some boxes .,ryan delivered some boxes to mommy .
+356,6,naba-pp,delivered,she delivered the bear some boxes .,she delivered some boxes to the bear .
+357,6,naba-pp,delivered,ryan delivered the girl some boxes .,ryan delivered some boxes to the girl .
+358,6,naba-pp,delivered,i delivered the man some boxes .,i delivered some boxes to the man .
+359,6,naba-pp,delivered,laura delivered my uncle some boxes .,laura delivered some boxes to my uncle .
+360,6,naba-pp,delivered,john delivered a stranger some boxes .,john delivered some boxes to a stranger .
+361,6,naba-pp,delivered,adam delivered him a gift .,adam delivered a gift to him .
+362,6,naba-pp,delivered,ryan delivered her a gift .,ryan delivered a gift to her .
+363,6,naba-pp,delivered,she delivered them a gift .,she delivered a gift to them .
+364,6,naba-pp,delivered,john delivered us a gift .,john delivered a gift to us .
+365,6,naba-pp,delivered,she delivered mommy a gift .,she delivered a gift to mommy .
+366,6,naba-pp,delivered,she delivered the bear a gift .,she delivered a gift to the bear .
+367,6,naba-pp,delivered,grandma delivered the girl a gift .,grandma delivered a gift to the girl .
+368,6,naba-pp,delivered,she delivered the man a gift .,she delivered a gift to the man .
+369,6,naba-pp,delivered,ryan delivered my uncle a gift .,ryan delivered a gift to my uncle .
+370,6,naba-pp,delivered,adam delivered a stranger a gift .,adam delivered a gift to a stranger .
+371,6,naba-pp,delivered,i delivered him some food .,i delivered some food to him .
+372,6,naba-pp,delivered,she delivered her some food .,she delivered some food to her .
+373,6,naba-pp,delivered,she delivered them some food .,she delivered some food to them .
+374,6,naba-pp,delivered,the boy delivered us some food .,the boy delivered some food to us .
+375,6,naba-pp,delivered,lily delivered mommy some food .,lily delivered some food to mommy .
+376,6,naba-pp,delivered,nina delivered the bear some food .,nina delivered some food to the bear .
+377,6,naba-pp,delivered,john delivered the girl some food .,john delivered some food to the girl .
+378,6,naba-pp,delivered,i delivered the man some food .,i delivered some food to the man .
+379,6,naba-pp,delivered,mommy delivered my uncle some food .,mommy delivered some food to my uncle .
+380,6,naba-pp,delivered,lily delivered a stranger some food .,lily delivered some food to a stranger .
+381,6,naba-pp,delivered,john delivered him the doll .,john delivered the doll to him .
+382,6,naba-pp,delivered,nina delivered her the doll .,nina delivered the doll to her .
+383,6,naba-pp,delivered,adam delivered them the doll .,adam delivered the doll to them .
+384,6,naba-pp,delivered,ethan delivered us the doll .,ethan delivered the doll to us .
+385,6,naba-pp,delivered,i delivered mommy the doll .,i delivered the doll to mommy .
+386,6,naba-pp,delivered,i delivered the bear the doll .,i delivered the doll to the bear .
+387,6,naba-pp,delivered,nina delivered the girl the doll .,nina delivered the doll to the girl .
+388,6,naba-pp,delivered,david delivered the man the doll .,david delivered the doll to the man .
+389,6,naba-pp,delivered,lily delivered my uncle the doll .,lily delivered the doll to my uncle .
+390,6,naba-pp,delivered,daddy delivered a stranger the doll .,daddy delivered the doll to a stranger .
+391,6,naba-pp,delivered,ryan delivered him the toys .,ryan delivered the toys to him .
+392,6,naba-pp,delivered,grandma delivered her the toys .,grandma delivered the toys to her .
+393,6,naba-pp,delivered,david delivered them the toys .,david delivered the toys to them .
+394,6,naba-pp,delivered,she delivered us the toys .,she delivered the toys to us .
+395,6,naba-pp,delivered,she delivered mommy the toys .,she delivered the toys to mommy .
+396,6,naba-pp,delivered,ryan delivered the bear the toys .,ryan delivered the toys to the bear .
+397,6,naba-pp,delivered,ryan delivered the girl the toys .,ryan delivered the toys to the girl .
+398,6,naba-pp,delivered,the boy delivered the man the toys .,the boy delivered the toys to the man .
+399,6,naba-pp,delivered,john delivered my uncle the toys .,john delivered the toys to my uncle .
+400,6,naba-pp,delivered,the boy delivered a stranger the toys .,the boy delivered the toys to a stranger .
+401,6,naba-pp,delivered,nina delivered him that .,nina delivered that to him .
+402,6,naba-pp,delivered,ethan delivered her that .,ethan delivered that to her .
+403,6,naba-pp,delivered,lily delivered them that .,lily delivered that to them .
+404,6,naba-pp,delivered,ryan delivered us that .,ryan delivered that to us .
+405,6,naba-pp,delivered,john delivered mommy that .,john delivered that to mommy .
+406,6,naba-pp,delivered,lily delivered the bear that .,lily delivered that to the bear .
+407,6,naba-pp,delivered,nina delivered the girl that .,nina delivered that to the girl .
+408,6,naba-pp,delivered,ethan delivered the man that .,ethan delivered that to the man .
+409,6,naba-pp,delivered,david delivered my uncle that .,david delivered that to my uncle .
+410,6,naba-pp,delivered,laura delivered a stranger that .,laura delivered that to a stranger .
+411,6,naba-pp,delivered,the boy delivered him something .,the boy delivered something to him .
+412,6,naba-pp,delivered,mommy delivered her something .,mommy delivered something to her .
+413,6,naba-pp,delivered,nina delivered them something .,nina delivered something to them .
+414,6,naba-pp,delivered,she delivered us something .,she delivered something to us .
+415,6,naba-pp,delivered,laura delivered mommy something .,laura delivered something to mommy .
+416,6,naba-pp,delivered,i delivered the bear something .,i delivered something to the bear .
+417,6,naba-pp,delivered,the boy delivered the girl something .,the boy delivered something to the girl .
+418,6,naba-pp,delivered,grandma delivered the man something .,grandma delivered something to the man .
+419,6,naba-pp,delivered,i delivered my uncle something .,i delivered something to my uncle .
+420,6,naba-pp,delivered,laura delivered a stranger something .,laura delivered something to a stranger .
+421,7,naba-pp,dragged,the boy dragged him some boxes .,the boy dragged some boxes to him .
+422,7,naba-pp,dragged,nina dragged her some boxes .,nina dragged some boxes to her .
+423,7,naba-pp,dragged,i dragged them some boxes .,i dragged some boxes to them .
+424,7,naba-pp,dragged,ryan dragged me some boxes .,ryan dragged some boxes to me .
+425,7,naba-pp,dragged,ethan dragged mommy some boxes .,ethan dragged some boxes to mommy .
+426,7,naba-pp,dragged,nina dragged the bear some boxes .,nina dragged some boxes to the bear .
+427,7,naba-pp,dragged,ryan dragged the girl some boxes .,ryan dragged some boxes to the girl .
+428,7,naba-pp,dragged,ryan dragged the man some boxes .,ryan dragged some boxes to the man .
+429,7,naba-pp,dragged,mommy dragged my uncle some boxes .,mommy dragged some boxes to my uncle .
+430,7,naba-pp,dragged,the boy dragged a stranger some boxes .,the boy dragged some boxes to a stranger .
+431,7,naba-pp,dragged,ethan dragged him the chair .,ethan dragged the chair to him .
+432,7,naba-pp,dragged,nina dragged her the chair .,nina dragged the chair to her .
+433,7,naba-pp,dragged,nina dragged them the chair .,nina dragged the chair to them .
+434,7,naba-pp,dragged,she dragged me the chair .,she dragged the chair to me .
+435,7,naba-pp,dragged,john dragged mommy the chair .,john dragged the chair to mommy .
+436,7,naba-pp,dragged,mommy dragged the bear the chair .,mommy dragged the chair to the bear .
+437,7,naba-pp,dragged,lily dragged the girl the chair .,lily dragged the chair to the girl .
+438,7,naba-pp,dragged,john dragged the man the chair .,john dragged the chair to the man .
+439,7,naba-pp,dragged,i dragged my uncle the chair .,i dragged the chair to my uncle .
+440,7,naba-pp,dragged,i dragged a stranger the chair .,i dragged the chair to a stranger .
+441,7,naba-pp,dragged,laura dragged him the bags .,laura dragged the bags to him .
+442,7,naba-pp,dragged,nina dragged her the bags .,nina dragged the bags to her .
+443,7,naba-pp,dragged,the boy dragged them the bags .,the boy dragged the bags to them .
+444,7,naba-pp,dragged,david dragged me the bags .,david dragged the bags to me .
+445,7,naba-pp,dragged,nina dragged mommy the bags .,nina dragged the bags to mommy .
+446,7,naba-pp,dragged,laura dragged the bear the bags .,laura dragged the bags to the bear .
+447,7,naba-pp,dragged,grandma dragged the girl the bags .,grandma dragged the bags to the girl .
+448,7,naba-pp,dragged,ryan dragged the man the bags .,ryan dragged the bags to the man .
+449,7,naba-pp,dragged,i dragged my uncle the bags .,i dragged the bags to my uncle .
+450,7,naba-pp,dragged,adam dragged a stranger the bags .,adam dragged the bags to a stranger .
+451,7,naba-pp,dragged,laura dragged him a blanket .,laura dragged a blanket to him .
+452,7,naba-pp,dragged,nina dragged her a blanket .,nina dragged a blanket to her .
+453,7,naba-pp,dragged,grandma dragged them a blanket .,grandma dragged a blanket to them .
+454,7,naba-pp,dragged,grandma dragged me a blanket .,grandma dragged a blanket to me .
+455,7,naba-pp,dragged,lily dragged mommy a blanket .,lily dragged a blanket to mommy .
+456,7,naba-pp,dragged,daddy dragged the bear a blanket .,daddy dragged a blanket to the bear .
+457,7,naba-pp,dragged,ethan dragged the girl a blanket .,ethan dragged a blanket to the girl .
+458,7,naba-pp,dragged,i dragged the man a blanket .,i dragged a blanket to the man .
+459,7,naba-pp,dragged,nina dragged my uncle a blanket .,nina dragged a blanket to my uncle .
+460,7,naba-pp,dragged,ethan dragged a stranger a blanket .,ethan dragged a blanket to a stranger .
+461,7,naba-pp,dragged,mommy dragged him a basket .,mommy dragged a basket to him .
+462,7,naba-pp,dragged,david dragged her a basket .,david dragged a basket to her .
+463,7,naba-pp,dragged,the boy dragged them a basket .,the boy dragged a basket to them .
+464,7,naba-pp,dragged,mommy dragged me a basket .,mommy dragged a basket to me .
+465,7,naba-pp,dragged,adam dragged mommy a basket .,adam dragged a basket to mommy .
+466,7,naba-pp,dragged,the boy dragged the bear a basket .,the boy dragged a basket to the bear .
+467,7,naba-pp,dragged,grandma dragged the girl a basket .,grandma dragged a basket to the girl .
+468,7,naba-pp,dragged,ryan dragged the man a basket .,ryan dragged a basket to the man .
+469,7,naba-pp,dragged,ryan dragged my uncle a basket .,ryan dragged a basket to my uncle .
+470,7,naba-pp,dragged,mommy dragged a stranger a basket .,mommy dragged a basket to a stranger .
+471,7,naba-pp,dragged,ethan dragged him that .,ethan dragged that to him .
+472,7,naba-pp,dragged,the boy dragged her that .,the boy dragged that to her .
+473,7,naba-pp,dragged,grandma dragged them that .,grandma dragged that to them .
+474,7,naba-pp,dragged,laura dragged me that .,laura dragged that to me .
+475,7,naba-pp,dragged,lily dragged mommy that .,lily dragged that to mommy .
+476,7,naba-pp,dragged,she dragged the bear that .,she dragged that to the bear .
+477,7,naba-pp,dragged,the boy dragged the girl that .,the boy dragged that to the girl .
+478,7,naba-pp,dragged,ethan dragged the man that .,ethan dragged that to the man .
+479,7,naba-pp,dragged,adam dragged my uncle that .,adam dragged that to my uncle .
+480,7,naba-pp,dragged,ethan dragged a stranger that .,ethan dragged that to a stranger .
+481,7,naba-pp,dragged,grandma dragged him something .,grandma dragged something to him .
+482,7,naba-pp,dragged,nina dragged her something .,nina dragged something to her .
+483,7,naba-pp,dragged,lily dragged them something .,lily dragged something to them .
+484,7,naba-pp,dragged,daddy dragged me something .,daddy dragged something to me .
+485,7,naba-pp,dragged,grandma dragged mommy something .,grandma dragged something to mommy .
+486,7,naba-pp,dragged,lily dragged the bear something .,lily dragged something to the bear .
+487,7,naba-pp,dragged,john dragged the girl something .,john dragged something to the girl .
+488,7,naba-pp,dragged,i dragged the man something .,i dragged something to the man .
+489,7,naba-pp,dragged,john dragged my uncle something .,john dragged something to my uncle .
+490,7,naba-pp,dragged,i dragged a stranger something .,i dragged something to a stranger .
+491,8,naba-pp,hauled,john hauled him some boxes .,john hauled some boxes to him .
+492,8,naba-pp,hauled,she hauled her some boxes .,she hauled some boxes to her .
+493,8,naba-pp,hauled,mommy hauled them some boxes .,mommy hauled some boxes to them .
+494,8,naba-pp,hauled,nina hauled me some boxes .,nina hauled some boxes to me .
+495,8,naba-pp,hauled,laura hauled mommy some boxes .,laura hauled some boxes to mommy .
+496,8,naba-pp,hauled,david hauled the bear some boxes .,david hauled some boxes to the bear .
+497,8,naba-pp,hauled,lily hauled the girl some boxes .,lily hauled some boxes to the girl .
+498,8,naba-pp,hauled,lily hauled the man some boxes .,lily hauled some boxes to the man .
+499,8,naba-pp,hauled,mommy hauled my uncle some boxes .,mommy hauled some boxes to my uncle .
+500,8,naba-pp,hauled,grandma hauled a stranger some boxes .,grandma hauled some boxes to a stranger .
+501,8,naba-pp,hauled,lily hauled him the furniture .,lily hauled the furniture to him .
+502,8,naba-pp,hauled,he hauled her the furniture .,he hauled the furniture to her .
+503,8,naba-pp,hauled,mommy hauled them the furniture .,mommy hauled the furniture to them .
+504,8,naba-pp,hauled,david hauled me the furniture .,david hauled the furniture to me .
+505,8,naba-pp,hauled,nina hauled mommy the furniture .,nina hauled the furniture to mommy .
+506,8,naba-pp,hauled,lily hauled the bear the furniture .,lily hauled the furniture to the bear .
+507,8,naba-pp,hauled,john hauled the girl the furniture .,john hauled the furniture to the girl .
+508,8,naba-pp,hauled,i hauled the man the furniture .,i hauled the furniture to the man .
+509,8,naba-pp,hauled,ryan hauled my uncle the furniture .,ryan hauled the furniture to my uncle .
+510,8,naba-pp,hauled,laura hauled a stranger the furniture .,laura hauled the furniture to a stranger .
+511,8,naba-pp,hauled,david hauled him a package .,david hauled a package to him .
+512,8,naba-pp,hauled,adam hauled her a package .,adam hauled a package to her .
+513,8,naba-pp,hauled,daddy hauled them a package .,daddy hauled a package to them .
+514,8,naba-pp,hauled,she hauled me a package .,she hauled a package to me .
+515,8,naba-pp,hauled,nina hauled mommy a package .,nina hauled a package to mommy .
+516,8,naba-pp,hauled,david hauled the bear a package .,david hauled a package to the bear .
+517,8,naba-pp,hauled,david hauled the girl a package .,david hauled a package to the girl .
+518,8,naba-pp,hauled,grandma hauled the man a package .,grandma hauled a package to the man .
+519,8,naba-pp,hauled,adam hauled my uncle a package .,adam hauled a package to my uncle .
+520,8,naba-pp,hauled,i hauled a stranger a package .,i hauled a package to a stranger .
+521,8,naba-pp,hauled,he hauled him the books .,he hauled the books to him .
+522,8,naba-pp,hauled,you hauled her the books .,you hauled the books to her .
+523,8,naba-pp,hauled,ethan hauled them the books .,ethan hauled the books to them .
+524,8,naba-pp,hauled,you hauled me the books .,you hauled the books to me .
+525,8,naba-pp,hauled,lily hauled mommy the books .,lily hauled the books to mommy .
+526,8,naba-pp,hauled,i hauled the bear the books .,i hauled the books to the bear .
+527,8,naba-pp,hauled,he hauled the girl the books .,he hauled the books to the girl .
+528,8,naba-pp,hauled,grandma hauled the man the books .,grandma hauled the books to the man .
+529,8,naba-pp,hauled,john hauled my uncle the books .,john hauled the books to my uncle .
+530,8,naba-pp,hauled,you hauled a stranger the books .,you hauled the books to a stranger .
+531,8,naba-pp,hauled,lily hauled him my toys .,lily hauled my toys to him .
+532,8,naba-pp,hauled,you hauled her my toys .,you hauled my toys to her .
+533,8,naba-pp,hauled,ryan hauled them my toys .,ryan hauled my toys to them .
+534,8,naba-pp,hauled,john hauled me my toys .,john hauled my toys to me .
+535,8,naba-pp,hauled,the boy hauled mommy my toys .,the boy hauled my toys to mommy .
+536,8,naba-pp,hauled,mommy hauled the bear my toys .,mommy hauled my toys to the bear .
+537,8,naba-pp,hauled,she hauled the girl my toys .,she hauled my toys to the girl .
+538,8,naba-pp,hauled,he hauled the man my toys .,he hauled my toys to the man .
+539,8,naba-pp,hauled,mommy hauled my uncle my toys .,mommy hauled my toys to my uncle .
+540,8,naba-pp,hauled,john hauled a stranger my toys .,john hauled my toys to a stranger .
+541,8,naba-pp,hauled,i hauled him that .,i hauled that to him .
+542,8,naba-pp,hauled,adam hauled her that .,adam hauled that to her .
+543,8,naba-pp,hauled,you hauled them that .,you hauled that to them .
+544,8,naba-pp,hauled,ryan hauled me that .,ryan hauled that to me .
+545,8,naba-pp,hauled,she hauled mommy that .,she hauled that to mommy .
+546,8,naba-pp,hauled,mommy hauled the bear that .,mommy hauled that to the bear .
+547,8,naba-pp,hauled,grandma hauled the girl that .,grandma hauled that to the girl .
+548,8,naba-pp,hauled,adam hauled the man that .,adam hauled that to the man .
+549,8,naba-pp,hauled,she hauled my uncle that .,she hauled that to my uncle .
+550,8,naba-pp,hauled,mommy hauled a stranger that .,mommy hauled that to a stranger .
+551,8,naba-pp,hauled,ethan hauled him something .,ethan hauled something to him .
+552,8,naba-pp,hauled,he hauled her something .,he hauled something to her .
+553,8,naba-pp,hauled,he hauled them something .,he hauled something to them .
+554,8,naba-pp,hauled,john hauled me something .,john hauled something to me .
+555,8,naba-pp,hauled,she hauled mommy something .,she hauled something to mommy .
+556,8,naba-pp,hauled,the boy hauled the bear something .,the boy hauled something to the bear .
+557,8,naba-pp,hauled,the boy hauled the girl something .,the boy hauled something to the girl .
+558,8,naba-pp,hauled,mommy hauled the man something .,mommy hauled something to the man .
+559,8,naba-pp,hauled,he hauled my uncle something .,he hauled something to my uncle .
+560,8,naba-pp,hauled,i hauled a stranger something .,i hauled something to a stranger .
+561,9,naba-pp,kicked,laura kicked him some boxes .,laura kicked some boxes to him .
+562,9,naba-pp,kicked,nina kicked her some boxes .,nina kicked some boxes to her .
+563,9,naba-pp,kicked,the boy kicked them some boxes .,the boy kicked some boxes to them .
+564,9,naba-pp,kicked,ethan kicked me some boxes .,ethan kicked some boxes to me .
+565,9,naba-pp,kicked,john kicked daddy some boxes .,john kicked some boxes to daddy .
+566,9,naba-pp,kicked,adam kicked the bear some boxes .,adam kicked some boxes to the bear .
+567,9,naba-pp,kicked,daddy kicked the girl some boxes .,daddy kicked some boxes to the girl .
+568,9,naba-pp,kicked,adam kicked the man some boxes .,adam kicked some boxes to the man .
+569,9,naba-pp,kicked,daddy kicked my uncle some boxes .,daddy kicked some boxes to my uncle .
+570,9,naba-pp,kicked,laura kicked a stranger some boxes .,laura kicked some boxes to a stranger .
+571,9,naba-pp,kicked,ethan kicked him an egg .,ethan kicked an egg to him .
+572,9,naba-pp,kicked,mommy kicked her an egg .,mommy kicked an egg to her .
+573,9,naba-pp,kicked,mommy kicked them an egg .,mommy kicked an egg to them .
+574,9,naba-pp,kicked,nina kicked me an egg .,nina kicked an egg to me .
+575,9,naba-pp,kicked,adam kicked daddy an egg .,adam kicked an egg to daddy .
+576,9,naba-pp,kicked,the boy kicked the bear an egg .,the boy kicked an egg to the bear .
+577,9,naba-pp,kicked,grandma kicked the girl an egg .,grandma kicked an egg to the girl .
+578,9,naba-pp,kicked,nina kicked the man an egg .,nina kicked an egg to the man .
+579,9,naba-pp,kicked,nina kicked my uncle an egg .,nina kicked an egg to my uncle .
+580,9,naba-pp,kicked,john kicked a stranger an egg .,john kicked an egg to a stranger .
+581,9,naba-pp,kicked,adam kicked him the bottle .,adam kicked the bottle to him .
+582,9,naba-pp,kicked,mommy kicked her the bottle .,mommy kicked the bottle to her .
+583,9,naba-pp,kicked,mommy kicked them the bottle .,mommy kicked the bottle to them .
+584,9,naba-pp,kicked,daddy kicked me the bottle .,daddy kicked the bottle to me .
+585,9,naba-pp,kicked,lily kicked daddy the bottle .,lily kicked the bottle to daddy .
+586,9,naba-pp,kicked,david kicked the bear the bottle .,david kicked the bottle to the bear .
+587,9,naba-pp,kicked,david kicked the girl the bottle .,david kicked the bottle to the girl .
+588,9,naba-pp,kicked,david kicked the man the bottle .,david kicked the bottle to the man .
+589,9,naba-pp,kicked,daddy kicked my uncle the bottle .,daddy kicked the bottle to my uncle .
+590,9,naba-pp,kicked,john kicked a stranger the bottle .,john kicked the bottle to a stranger .
+591,9,naba-pp,kicked,the boy kicked him the slinky .,the boy kicked the slinky to him .
+592,9,naba-pp,kicked,david kicked her the slinky .,david kicked the slinky to her .
+593,9,naba-pp,kicked,laura kicked them the slinky .,laura kicked the slinky to them .
+594,9,naba-pp,kicked,ethan kicked me the slinky .,ethan kicked the slinky to me .
+595,9,naba-pp,kicked,laura kicked daddy the slinky .,laura kicked the slinky to daddy .
+596,9,naba-pp,kicked,ryan kicked the bear the slinky .,ryan kicked the slinky to the bear .
+597,9,naba-pp,kicked,nina kicked the girl the slinky .,nina kicked the slinky to the girl .
+598,9,naba-pp,kicked,the boy kicked the man the slinky .,the boy kicked the slinky to the man .
+599,9,naba-pp,kicked,daddy kicked my uncle the slinky .,daddy kicked the slinky to my uncle .
+600,9,naba-pp,kicked,daddy kicked a stranger the slinky .,daddy kicked the slinky to a stranger .
+601,9,naba-pp,kicked,mommy kicked him my large eraser .,mommy kicked my large eraser to him .
+602,9,naba-pp,kicked,lily kicked her my large eraser .,lily kicked my large eraser to her .
+603,9,naba-pp,kicked,ryan kicked them my large eraser .,ryan kicked my large eraser to them .
+604,9,naba-pp,kicked,john kicked me my large eraser .,john kicked my large eraser to me .
+605,9,naba-pp,kicked,laura kicked daddy my large eraser .,laura kicked my large eraser to daddy .
+606,9,naba-pp,kicked,nina kicked the bear my large eraser .,nina kicked my large eraser to the bear .
+607,9,naba-pp,kicked,john kicked the girl my large eraser .,john kicked my large eraser to the girl .
+608,9,naba-pp,kicked,john kicked the man my large eraser .,john kicked my large eraser to the man .
+609,9,naba-pp,kicked,ethan kicked my uncle my large eraser .,ethan kicked my large eraser to my uncle .
+610,9,naba-pp,kicked,grandma kicked a stranger my large eraser .,grandma kicked my large eraser to a stranger .
+611,9,naba-pp,kicked,grandma kicked him that .,grandma kicked that to him .
+612,9,naba-pp,kicked,john kicked her that .,john kicked that to her .
+613,9,naba-pp,kicked,david kicked them that .,david kicked that to them .
+614,9,naba-pp,kicked,mommy kicked me that .,mommy kicked that to me .
+615,9,naba-pp,kicked,ryan kicked daddy that .,ryan kicked that to daddy .
+616,9,naba-pp,kicked,david kicked the bear that .,david kicked that to the bear .
+617,9,naba-pp,kicked,adam kicked the girl that .,adam kicked that to the girl .
+618,9,naba-pp,kicked,daddy kicked the man that .,daddy kicked that to the man .
+619,9,naba-pp,kicked,mommy kicked my uncle that .,mommy kicked that to my uncle .
+620,9,naba-pp,kicked,john kicked a stranger that .,john kicked that to a stranger .
+621,9,naba-pp,kicked,laura kicked him something .,laura kicked something to him .
+622,9,naba-pp,kicked,laura kicked her something .,laura kicked something to her .
+623,9,naba-pp,kicked,adam kicked them something .,adam kicked something to them .
+624,9,naba-pp,kicked,david kicked me something .,david kicked something to me .
+625,9,naba-pp,kicked,adam kicked daddy something .,adam kicked something to daddy .
+626,9,naba-pp,kicked,john kicked the bear something .,john kicked something to the bear .
+627,9,naba-pp,kicked,ethan kicked the girl something .,ethan kicked something to the girl .
+628,9,naba-pp,kicked,daddy kicked the man something .,daddy kicked something to the man .
+629,9,naba-pp,kicked,laura kicked my uncle something .,laura kicked something to my uncle .
+630,9,naba-pp,kicked,grandma kicked a stranger something .,grandma kicked something to a stranger .
+631,10,naba-pp,carried,ryan carried him some boxes .,ryan carried some boxes to him .
+632,10,naba-pp,carried,adam carried her some boxes .,adam carried some boxes to her .
+633,10,naba-pp,carried,john carried them some boxes .,john carried some boxes to them .
+634,10,naba-pp,carried,ethan carried us some boxes .,ethan carried some boxes to us .
+635,10,naba-pp,carried,you carried mommy some boxes .,you carried some boxes to mommy .
+636,10,naba-pp,carried,david carried the bear some boxes .,david carried some boxes to the bear .
+637,10,naba-pp,carried,grandma carried the child some boxes .,grandma carried some boxes to the child .
+638,10,naba-pp,carried,you carried the man some boxes .,you carried some boxes to the man .
+639,10,naba-pp,carried,john carried my auntie some boxes .,john carried some boxes to my auntie .
+640,10,naba-pp,carried,ryan carried a stranger some boxes .,ryan carried some boxes to a stranger .
+641,10,naba-pp,carried,david carried him the bags .,david carried the bags to him .
+642,10,naba-pp,carried,ethan carried her the bags .,ethan carried the bags to her .
+643,10,naba-pp,carried,david carried them the bags .,david carried the bags to them .
+644,10,naba-pp,carried,mommy carried us the bags .,mommy carried the bags to us .
+645,10,naba-pp,carried,you carried mommy the bags .,you carried the bags to mommy .
+646,10,naba-pp,carried,you carried the bear the bags .,you carried the bags to the bear .
+647,10,naba-pp,carried,the boy carried the child the bags .,the boy carried the bags to the child .
+648,10,naba-pp,carried,lily carried the man the bags .,lily carried the bags to the man .
+649,10,naba-pp,carried,david carried my auntie the bags .,david carried the bags to my auntie .
+650,10,naba-pp,carried,the boy carried a stranger the bags .,the boy carried the bags to a stranger .
+651,10,naba-pp,carried,laura carried him a package .,laura carried a package to him .
+652,10,naba-pp,carried,you carried her a package .,you carried a package to her .
+653,10,naba-pp,carried,adam carried them a package .,adam carried a package to them .
+654,10,naba-pp,carried,you carried us a package .,you carried a package to us .
+655,10,naba-pp,carried,david carried mommy a package .,david carried a package to mommy .
+656,10,naba-pp,carried,ethan carried the bear a package .,ethan carried a package to the bear .
+657,10,naba-pp,carried,laura carried the child a package .,laura carried a package to the child .
+658,10,naba-pp,carried,david carried the man a package .,david carried a package to the man .
+659,10,naba-pp,carried,david carried my auntie a package .,david carried a package to my auntie .
+660,10,naba-pp,carried,nina carried a stranger a package .,nina carried a package to a stranger .
+661,10,naba-pp,carried,john carried him the bottle .,john carried the bottle to him .
+662,10,naba-pp,carried,mommy carried her the bottle .,mommy carried the bottle to her .
+663,10,naba-pp,carried,nina carried them the bottle .,nina carried the bottle to them .
+664,10,naba-pp,carried,you carried us the bottle .,you carried the bottle to us .
+665,10,naba-pp,carried,david carried mommy the bottle .,david carried the bottle to mommy .
+666,10,naba-pp,carried,mommy carried the bear the bottle .,mommy carried the bottle to the bear .
+667,10,naba-pp,carried,john carried the child the bottle .,john carried the bottle to the child .
+668,10,naba-pp,carried,nina carried the man the bottle .,nina carried the bottle to the man .
+669,10,naba-pp,carried,david carried my auntie the bottle .,david carried the bottle to my auntie .
+670,10,naba-pp,carried,ryan carried a stranger the bottle .,ryan carried the bottle to a stranger .
+671,10,naba-pp,carried,laura carried him the books .,laura carried the books to him .
+672,10,naba-pp,carried,nina carried her the books .,nina carried the books to her .
+673,10,naba-pp,carried,john carried them the books .,john carried the books to them .
+674,10,naba-pp,carried,nina carried us the books .,nina carried the books to us .
+675,10,naba-pp,carried,lily carried mommy the books .,lily carried the books to mommy .
+676,10,naba-pp,carried,lily carried the bear the books .,lily carried the books to the bear .
+677,10,naba-pp,carried,you carried the child the books .,you carried the books to the child .
+678,10,naba-pp,carried,ryan carried the man the books .,ryan carried the books to the man .
+679,10,naba-pp,carried,ethan carried my auntie the books .,ethan carried the books to my auntie .
+680,10,naba-pp,carried,ethan carried a stranger the books .,ethan carried the books to a stranger .
+681,10,naba-pp,carried,john carried him those .,john carried those to him .
+682,10,naba-pp,carried,adam carried her those .,adam carried those to her .
+683,10,naba-pp,carried,laura carried them those .,laura carried those to them .
+684,10,naba-pp,carried,ethan carried us those .,ethan carried those to us .
+685,10,naba-pp,carried,john carried mommy those .,john carried those to mommy .
+686,10,naba-pp,carried,ryan carried the bear those .,ryan carried those to the bear .
+687,10,naba-pp,carried,adam carried the child those .,adam carried those to the child .
+688,10,naba-pp,carried,adam carried the man those .,adam carried those to the man .
+689,10,naba-pp,carried,lily carried my auntie those .,lily carried those to my auntie .
+690,10,naba-pp,carried,you carried a stranger those .,you carried those to a stranger .
+691,10,naba-pp,carried,david carried him something .,david carried something to him .
+692,10,naba-pp,carried,adam carried her something .,adam carried something to her .
+693,10,naba-pp,carried,grandma carried them something .,grandma carried something to them .
+694,10,naba-pp,carried,john carried us something .,john carried something to us .
+695,10,naba-pp,carried,adam carried mommy something .,adam carried something to mommy .
+696,10,naba-pp,carried,adam carried the bear something .,adam carried something to the bear .
+697,10,naba-pp,carried,the boy carried the child something .,the boy carried something to the child .
+698,10,naba-pp,carried,laura carried the man something .,laura carried something to the man .
+699,10,naba-pp,carried,grandma carried my auntie something .,grandma carried something to my auntie .
+700,10,naba-pp,carried,the boy carried a stranger something .,the boy carried something to a stranger .
+701,11,nana-pp,addressed,i addressed us the speech .,i addressed the speech to us .
+702,11,nana-pp,addressed,laura addressed her the speech .,laura addressed the speech to her .
+703,11,nana-pp,addressed,grandma addressed them the speech .,grandma addressed the speech to them .
+704,11,nana-pp,addressed,she addressed me the speech .,she addressed the speech to me .
+705,11,nana-pp,addressed,nina addressed mommy the speech .,nina addressed the speech to mommy .
+706,11,nana-pp,addressed,i addressed the bear the speech .,i addressed the speech to the bear .
+707,11,nana-pp,addressed,mommy addressed the girl the speech .,mommy addressed the speech to the girl .
+708,11,nana-pp,addressed,david addressed the man the speech .,david addressed the speech to the man .
+709,11,nana-pp,addressed,laura addressed my uncle the speech .,laura addressed the speech to my uncle .
+710,11,nana-pp,addressed,david addressed a stranger the speech .,david addressed the speech to a stranger .
+711,11,nana-pp,addressed,you addressed us the envelope .,you addressed the envelope to us .
+712,11,nana-pp,addressed,mommy addressed her the envelope .,mommy addressed the envelope to her .
+713,11,nana-pp,addressed,laura addressed them the envelope .,laura addressed the envelope to them .
+714,11,nana-pp,addressed,grandma addressed me the envelope .,grandma addressed the envelope to me .
+715,11,nana-pp,addressed,adam addressed mommy the envelope .,adam addressed the envelope to mommy .
+716,11,nana-pp,addressed,he addressed the bear the envelope .,he addressed the envelope to the bear .
+717,11,nana-pp,addressed,i addressed the girl the envelope .,i addressed the envelope to the girl .
+718,11,nana-pp,addressed,lily addressed the man the envelope .,lily addressed the envelope to the man .
+719,11,nana-pp,addressed,daddy addressed my uncle the envelope .,daddy addressed the envelope to my uncle .
+720,11,nana-pp,addressed,nina addressed a stranger the envelope .,nina addressed the envelope to a stranger .
+721,11,nana-pp,addressed,grandma addressed us the gift .,grandma addressed the gift to us .
+722,11,nana-pp,addressed,i addressed her the gift .,i addressed the gift to her .
+723,11,nana-pp,addressed,grandma addressed them the gift .,grandma addressed the gift to them .
+724,11,nana-pp,addressed,ethan addressed me the gift .,ethan addressed the gift to me .
+725,11,nana-pp,addressed,he addressed mommy the gift .,he addressed the gift to mommy .
+726,11,nana-pp,addressed,mommy addressed the bear the gift .,mommy addressed the gift to the bear .
+727,11,nana-pp,addressed,nina addressed the girl the gift .,nina addressed the gift to the girl .
+728,11,nana-pp,addressed,daddy addressed the man the gift .,daddy addressed the gift to the man .
+729,11,nana-pp,addressed,lily addressed my uncle the gift .,lily addressed the gift to my uncle .
+730,11,nana-pp,addressed,ryan addressed a stranger the gift .,ryan addressed the gift to a stranger .
+731,11,nana-pp,addressed,you addressed us some packages .,you addressed some packages to us .
+732,11,nana-pp,addressed,i addressed her some packages .,i addressed some packages to her .
+733,11,nana-pp,addressed,he addressed them some packages .,he addressed some packages to them .
+734,11,nana-pp,addressed,adam addressed me some packages .,adam addressed some packages to me .
+735,11,nana-pp,addressed,david addressed mommy some packages .,david addressed some packages to mommy .
+736,11,nana-pp,addressed,he addressed the bear some packages .,he addressed some packages to the bear .
+737,11,nana-pp,addressed,he addressed the girl some packages .,he addressed some packages to the girl .
+738,11,nana-pp,addressed,i addressed the man some packages .,i addressed some packages to the man .
+739,11,nana-pp,addressed,you addressed my uncle some packages .,you addressed some packages to my uncle .
+740,11,nana-pp,addressed,mommy addressed a stranger some packages .,mommy addressed some packages to a stranger .
+741,11,nana-pp,addressed,you addressed us my letters .,you addressed my letters to us .
+742,11,nana-pp,addressed,ethan addressed her my letters .,ethan addressed my letters to her .
+743,11,nana-pp,addressed,laura addressed them my letters .,laura addressed my letters to them .
+744,11,nana-pp,addressed,grandma addressed me my letters .,grandma addressed my letters to me .
+745,11,nana-pp,addressed,she addressed mommy my letters .,she addressed my letters to mommy .
+746,11,nana-pp,addressed,ryan addressed the bear my letters .,ryan addressed my letters to the bear .
+747,11,nana-pp,addressed,she addressed the girl my letters .,she addressed my letters to the girl .
+748,11,nana-pp,addressed,david addressed the man my letters .,david addressed my letters to the man .
+749,11,nana-pp,addressed,ethan addressed my uncle my letters .,ethan addressed my letters to my uncle .
+750,11,nana-pp,addressed,ryan addressed a stranger my letters .,ryan addressed my letters to a stranger .
+751,11,nana-pp,addressed,grandma addressed us the mail .,grandma addressed the mail to us .
+752,11,nana-pp,addressed,david addressed her the mail .,david addressed the mail to her .
+753,11,nana-pp,addressed,adam addressed them the mail .,adam addressed the mail to them .
+754,11,nana-pp,addressed,grandma addressed me the mail .,grandma addressed the mail to me .
+755,11,nana-pp,addressed,the boy addressed mommy the mail .,the boy addressed the mail to mommy .
+756,11,nana-pp,addressed,nina addressed the bear the mail .,nina addressed the mail to the bear .
+757,11,nana-pp,addressed,david addressed the girl the mail .,david addressed the mail to the girl .
+758,11,nana-pp,addressed,nina addressed the man the mail .,nina addressed the mail to the man .
+759,11,nana-pp,addressed,laura addressed my uncle the mail .,laura addressed the mail to my uncle .
+760,11,nana-pp,addressed,john addressed a stranger the mail .,john addressed the mail to a stranger .
+761,11,nana-pp,addressed,adam addressed us that .,adam addressed that to us .
+762,11,nana-pp,addressed,daddy addressed her that .,daddy addressed that to her .
+763,11,nana-pp,addressed,you addressed them that .,you addressed that to them .
+764,11,nana-pp,addressed,she addressed me that .,she addressed that to me .
+765,11,nana-pp,addressed,ethan addressed mommy that .,ethan addressed that to mommy .
+766,11,nana-pp,addressed,john addressed the bear that .,john addressed that to the bear .
+767,11,nana-pp,addressed,lily addressed the girl that .,lily addressed that to the girl .
+768,11,nana-pp,addressed,the boy addressed the man that .,the boy addressed that to the man .
+769,11,nana-pp,addressed,john addressed my uncle that .,john addressed that to my uncle .
+770,11,nana-pp,addressed,grandma addressed a stranger that .,grandma addressed that to a stranger .
+771,12,nana-pp,announced,laura announced him the news .,laura announced the news to him .
+772,12,nana-pp,announced,nina announced her the news .,nina announced the news to her .
+773,12,nana-pp,announced,the boy announced them the news .,the boy announced the news to them .
+774,12,nana-pp,announced,she announced me the news .,she announced the news to me .
+775,12,nana-pp,announced,adam announced mommy the news .,adam announced the news to mommy .
+776,12,nana-pp,announced,adam announced the bear the news .,adam announced the news to the bear .
+777,12,nana-pp,announced,i announced the girl the news .,i announced the news to the girl .
+778,12,nana-pp,announced,john announced the man the news .,john announced the news to the man .
+779,12,nana-pp,announced,ryan announced my uncle the news .,ryan announced the news to my uncle .
+780,12,nana-pp,announced,the boy announced a stranger the news .,the boy announced the news to a stranger .
+781,12,nana-pp,announced,i announced him the result .,i announced the result to him .
+782,12,nana-pp,announced,daddy announced her the result .,daddy announced the result to her .
+783,12,nana-pp,announced,she announced them the result .,she announced the result to them .
+784,12,nana-pp,announced,john announced me the result .,john announced the result to me .
+785,12,nana-pp,announced,ryan announced mommy the result .,ryan announced the result to mommy .
+786,12,nana-pp,announced,i announced the bear the result .,i announced the result to the bear .
+787,12,nana-pp,announced,mommy announced the girl the result .,mommy announced the result to the girl .
+788,12,nana-pp,announced,nina announced the man the result .,nina announced the result to the man .
+789,12,nana-pp,announced,daddy announced my uncle the result .,daddy announced the result to my uncle .
+790,12,nana-pp,announced,she announced a stranger the result .,she announced the result to a stranger .
+791,12,nana-pp,announced,the boy announced him the thing .,the boy announced the thing to him .
+792,12,nana-pp,announced,mommy announced her the thing .,mommy announced the thing to her .
+793,12,nana-pp,announced,ryan announced them the thing .,ryan announced the thing to them .
+794,12,nana-pp,announced,mommy announced me the thing .,mommy announced the thing to me .
+795,12,nana-pp,announced,the boy announced mommy the thing .,the boy announced the thing to mommy .
+796,12,nana-pp,announced,mommy announced the bear the thing .,mommy announced the thing to the bear .
+797,12,nana-pp,announced,grandma announced the girl the thing .,grandma announced the thing to the girl .
+798,12,nana-pp,announced,lily announced the man the thing .,lily announced the thing to the man .
+799,12,nana-pp,announced,you announced my uncle the thing .,you announced the thing to my uncle .
+800,12,nana-pp,announced,adam announced a stranger the thing .,adam announced the thing to a stranger .
+801,12,nana-pp,announced,she announced him the answer .,she announced the answer to him .
+802,12,nana-pp,announced,lily announced her the answer .,lily announced the answer to her .
+803,12,nana-pp,announced,ryan announced them the answer .,ryan announced the answer to them .
+804,12,nana-pp,announced,you announced me the answer .,you announced the answer to me .
+805,12,nana-pp,announced,she announced mommy the answer .,she announced the answer to mommy .
+806,12,nana-pp,announced,lily announced the bear the answer .,lily announced the answer to the bear .
+807,12,nana-pp,announced,grandma announced the girl the answer .,grandma announced the answer to the girl .
+808,12,nana-pp,announced,daddy announced the man the answer .,daddy announced the answer to the man .
+809,12,nana-pp,announced,adam announced my uncle the answer .,adam announced the answer to my uncle .
+810,12,nana-pp,announced,daddy announced a stranger the answer .,daddy announced the answer to a stranger .
+811,12,nana-pp,announced,david announced him the new position .,david announced the new position to him .
+812,12,nana-pp,announced,ryan announced her the new position .,ryan announced the new position to her .
+813,12,nana-pp,announced,adam announced them the new position .,adam announced the new position to them .
+814,12,nana-pp,announced,lily announced me the new position .,lily announced the new position to me .
+815,12,nana-pp,announced,she announced mommy the new position .,she announced the new position to mommy .
+816,12,nana-pp,announced,laura announced the bear the new position .,laura announced the new position to the bear .
+817,12,nana-pp,announced,daddy announced the girl the new position .,daddy announced the new position to the girl .
+818,12,nana-pp,announced,david announced the man the new position .,david announced the new position to the man .
+819,12,nana-pp,announced,i announced my uncle the new position .,i announced the new position to my uncle .
+820,12,nana-pp,announced,ethan announced a stranger the new position .,ethan announced the new position to a stranger .
+821,12,nana-pp,announced,adam announced him that .,adam announced that to him .
+822,12,nana-pp,announced,ethan announced her that .,ethan announced that to her .
+823,12,nana-pp,announced,i announced them that .,i announced that to them .
+824,12,nana-pp,announced,you announced me that .,you announced that to me .
+825,12,nana-pp,announced,she announced mommy that .,she announced that to mommy .
+826,12,nana-pp,announced,nina announced the bear that .,nina announced that to the bear .
+827,12,nana-pp,announced,the boy announced the girl that .,the boy announced that to the girl .
+828,12,nana-pp,announced,mommy announced the man that .,mommy announced that to the man .
+829,12,nana-pp,announced,laura announced my uncle that .,laura announced that to my uncle .
+830,12,nana-pp,announced,you announced a stranger that .,you announced that to a stranger .
+831,12,nana-pp,announced,mommy announced him something .,mommy announced something to him .
+832,12,nana-pp,announced,david announced her something .,david announced something to her .
+833,12,nana-pp,announced,david announced them something .,david announced something to them .
+834,12,nana-pp,announced,adam announced me something .,adam announced something to me .
+835,12,nana-pp,announced,laura announced mommy something .,laura announced something to mommy .
+836,12,nana-pp,announced,i announced the bear something .,i announced something to the bear .
+837,12,nana-pp,announced,the boy announced the girl something .,the boy announced something to the girl .
+838,12,nana-pp,announced,nina announced the man something .,nina announced something to the man .
+839,12,nana-pp,announced,lily announced my uncle something .,lily announced something to my uncle .
+840,12,nana-pp,announced,daddy announced a stranger something .,daddy announced something to a stranger .
+841,13,nana-pp,described,david described him the day .,david described the day to him .
+842,13,nana-pp,described,ethan described her the day .,ethan described the day to her .
+843,13,nana-pp,described,you described us the day .,you described the day to us .
+844,13,nana-pp,described,laura described mommy the day .,laura described the day to mommy .
+845,13,nana-pp,described,david described daddy the day .,david described the day to daddy .
+846,13,nana-pp,described,david described the bear the day .,david described the day to the bear .
+847,13,nana-pp,described,daddy described the girl the day .,daddy described the day to the girl .
+848,13,nana-pp,described,i described the woman the day .,i described the day to the woman .
+849,13,nana-pp,described,he described my uncle the day .,he described the day to my uncle .
+850,13,nana-pp,described,grandma described a stranger the day .,grandma described the day to a stranger .
+851,13,nana-pp,described,laura described him the story .,laura described the story to him .
+852,13,nana-pp,described,he described her the story .,he described the story to her .
+853,13,nana-pp,described,lily described us the story .,lily described the story to us .
+854,13,nana-pp,described,david described mommy the story .,david described the story to mommy .
+855,13,nana-pp,described,john described daddy the story .,john described the story to daddy .
+856,13,nana-pp,described,she described the bear the story .,she described the story to the bear .
+857,13,nana-pp,described,you described the girl the story .,you described the story to the girl .
+858,13,nana-pp,described,he described the woman the story .,he described the story to the woman .
+859,13,nana-pp,described,you described my uncle the story .,you described the story to my uncle .
+860,13,nana-pp,described,you described a stranger the story .,you described the story to a stranger .
+861,13,nana-pp,described,grandma described him the person .,grandma described the person to him .
+862,13,nana-pp,described,adam described her the person .,adam described the person to her .
+863,13,nana-pp,described,ethan described us the person .,ethan described the person to us .
+864,13,nana-pp,described,john described mommy the person .,john described the person to mommy .
+865,13,nana-pp,described,she described daddy the person .,she described the person to daddy .
+866,13,nana-pp,described,mommy described the bear the person .,mommy described the person to the bear .
+867,13,nana-pp,described,laura described the girl the person .,laura described the person to the girl .
+868,13,nana-pp,described,david described the woman the person .,david described the person to the woman .
+869,13,nana-pp,described,laura described my uncle the person .,laura described the person to my uncle .
+870,13,nana-pp,described,laura described a stranger the person .,laura described the person to a stranger .
+871,13,nana-pp,described,daddy described him the toy .,daddy described the toy to him .
+872,13,nana-pp,described,grandma described her the toy .,grandma described the toy to her .
+873,13,nana-pp,described,ethan described us the toy .,ethan described the toy to us .
+874,13,nana-pp,described,nina described mommy the toy .,nina described the toy to mommy .
+875,13,nana-pp,described,john described daddy the toy .,john described the toy to daddy .
+876,13,nana-pp,described,i described the bear the toy .,i described the toy to the bear .
+877,13,nana-pp,described,david described the girl the toy .,david described the toy to the girl .
+878,13,nana-pp,described,the boy described the woman the toy .,the boy described the toy to the woman .
+879,13,nana-pp,described,she described my uncle the toy .,she described the toy to my uncle .
+880,13,nana-pp,described,laura described a stranger the toy .,laura described the toy to a stranger .
+881,13,nana-pp,described,she described him the show .,she described the show to him .
+882,13,nana-pp,described,mommy described her the show .,mommy described the show to her .
+883,13,nana-pp,described,he described us the show .,he described the show to us .
+884,13,nana-pp,described,lily described mommy the show .,lily described the show to mommy .
+885,13,nana-pp,described,she described daddy the show .,she described the show to daddy .
+886,13,nana-pp,described,daddy described the bear the show .,daddy described the show to the bear .
+887,13,nana-pp,described,you described the girl the show .,you described the show to the girl .
+888,13,nana-pp,described,the boy described the woman the show .,the boy described the show to the woman .
+889,13,nana-pp,described,you described my uncle the show .,you described the show to my uncle .
+890,13,nana-pp,described,david described a stranger the show .,david described the show to a stranger .
+891,13,nana-pp,described,john described him the gift .,john described the gift to him .
+892,13,nana-pp,described,adam described her the gift .,adam described the gift to her .
+893,13,nana-pp,described,he described us the gift .,he described the gift to us .
+894,13,nana-pp,described,ryan described mommy the gift .,ryan described the gift to mommy .
+895,13,nana-pp,described,she described daddy the gift .,she described the gift to daddy .
+896,13,nana-pp,described,lily described the bear the gift .,lily described the gift to the bear .
+897,13,nana-pp,described,adam described the girl the gift .,adam described the gift to the girl .
+898,13,nana-pp,described,adam described the woman the gift .,adam described the gift to the woman .
+899,13,nana-pp,described,laura described my uncle the gift .,laura described the gift to my uncle .
+900,13,nana-pp,described,you described a stranger the gift .,you described the gift to a stranger .
+901,13,nana-pp,described,the boy described him those .,the boy described those to him .
+902,13,nana-pp,described,john described her those .,john described those to her .
+903,13,nana-pp,described,adam described us those .,adam described those to us .
+904,13,nana-pp,described,nina described mommy those .,nina described those to mommy .
+905,13,nana-pp,described,john described daddy those .,john described those to daddy .
+906,13,nana-pp,described,she described the bear those .,she described those to the bear .
+907,13,nana-pp,described,lily described the girl those .,lily described those to the girl .
+908,13,nana-pp,described,the boy described the woman those .,the boy described those to the woman .
+909,13,nana-pp,described,grandma described my uncle those .,grandma described those to my uncle .
+910,13,nana-pp,described,nina described a stranger those .,nina described those to a stranger .
+911,14,nana-pp,dropped,nina dropped him some boxes .,nina dropped some boxes to him .
+912,14,nana-pp,dropped,grandma dropped her some boxes .,grandma dropped some boxes to her .
+913,14,nana-pp,dropped,grandma dropped us some boxes .,grandma dropped some boxes to us .
+914,14,nana-pp,dropped,laura dropped me some boxes .,laura dropped some boxes to me .
+915,14,nana-pp,dropped,nina dropped mommy some boxes .,nina dropped some boxes to mommy .
+916,14,nana-pp,dropped,ethan dropped the guy some boxes .,ethan dropped some boxes to the guy .
+917,14,nana-pp,dropped,the boy dropped the girl some boxes .,the boy dropped some boxes to the girl .
+918,14,nana-pp,dropped,ryan dropped the man some boxes .,ryan dropped some boxes to the man .
+919,14,nana-pp,dropped,grandma dropped my uncle some boxes .,grandma dropped some boxes to my uncle .
+920,14,nana-pp,dropped,nina dropped a stranger some boxes .,nina dropped some boxes to a stranger .
+921,14,nana-pp,dropped,the boy dropped him the gift .,the boy dropped the gift to him .
+922,14,nana-pp,dropped,the boy dropped her the gift .,the boy dropped the gift to her .
+923,14,nana-pp,dropped,the boy dropped us the gift .,the boy dropped the gift to us .
+924,14,nana-pp,dropped,lily dropped me the gift .,lily dropped the gift to me .
+925,14,nana-pp,dropped,ethan dropped mommy the gift .,ethan dropped the gift to mommy .
+926,14,nana-pp,dropped,grandma dropped the guy the gift .,grandma dropped the gift to the guy .
+927,14,nana-pp,dropped,nina dropped the girl the gift .,nina dropped the gift to the girl .
+928,14,nana-pp,dropped,the boy dropped the man the gift .,the boy dropped the gift to the man .
+929,14,nana-pp,dropped,ryan dropped my uncle the gift .,ryan dropped the gift to my uncle .
+930,14,nana-pp,dropped,ryan dropped a stranger the gift .,ryan dropped the gift to a stranger .
+931,14,nana-pp,dropped,david dropped him the ball .,david dropped the ball to him .
+932,14,nana-pp,dropped,the boy dropped her the ball .,the boy dropped the ball to her .
+933,14,nana-pp,dropped,ryan dropped us the ball .,ryan dropped the ball to us .
+934,14,nana-pp,dropped,grandma dropped me the ball .,grandma dropped the ball to me .
+935,14,nana-pp,dropped,ethan dropped mommy the ball .,ethan dropped the ball to mommy .
+936,14,nana-pp,dropped,ethan dropped the guy the ball .,ethan dropped the ball to the guy .
+937,14,nana-pp,dropped,nina dropped the girl the ball .,nina dropped the ball to the girl .
+938,14,nana-pp,dropped,ryan dropped the man the ball .,ryan dropped the ball to the man .
+939,14,nana-pp,dropped,john dropped my uncle the ball .,john dropped the ball to my uncle .
+940,14,nana-pp,dropped,ryan dropped a stranger the ball .,ryan dropped the ball to a stranger .
+941,14,nana-pp,dropped,laura dropped him the toys .,laura dropped the toys to him .
+942,14,nana-pp,dropped,david dropped her the toys .,david dropped the toys to her .
+943,14,nana-pp,dropped,john dropped us the toys .,john dropped the toys to us .
+944,14,nana-pp,dropped,laura dropped me the toys .,laura dropped the toys to me .
+945,14,nana-pp,dropped,david dropped mommy the toys .,david dropped the toys to mommy .
+946,14,nana-pp,dropped,the boy dropped the guy the toys .,the boy dropped the toys to the guy .
+947,14,nana-pp,dropped,the boy dropped the girl the toys .,the boy dropped the toys to the girl .
+948,14,nana-pp,dropped,nina dropped the man the toys .,nina dropped the toys to the man .
+949,14,nana-pp,dropped,david dropped my uncle the toys .,david dropped the toys to my uncle .
+950,14,nana-pp,dropped,nina dropped a stranger the toys .,nina dropped the toys to a stranger .
+951,14,nana-pp,dropped,grandma dropped him my cat .,grandma dropped my cat to him .
+952,14,nana-pp,dropped,ryan dropped her my cat .,ryan dropped my cat to her .
+953,14,nana-pp,dropped,john dropped us my cat .,john dropped my cat to us .
+954,14,nana-pp,dropped,john dropped me my cat .,john dropped my cat to me .
+955,14,nana-pp,dropped,nina dropped mommy my cat .,nina dropped my cat to mommy .
+956,14,nana-pp,dropped,ryan dropped the guy my cat .,ryan dropped my cat to the guy .
+957,14,nana-pp,dropped,ethan dropped the girl my cat .,ethan dropped my cat to the girl .
+958,14,nana-pp,dropped,john dropped the man my cat .,john dropped my cat to the man .
+959,14,nana-pp,dropped,ethan dropped my uncle my cat .,ethan dropped my cat to my uncle .
+960,14,nana-pp,dropped,laura dropped a stranger my cat .,laura dropped my cat to a stranger .
+961,14,nana-pp,dropped,ryan dropped him teddy .,ryan dropped teddy to him .
+962,14,nana-pp,dropped,ethan dropped her teddy .,ethan dropped teddy to her .
+963,14,nana-pp,dropped,grandma dropped us teddy .,grandma dropped teddy to us .
+964,14,nana-pp,dropped,david dropped me teddy .,david dropped teddy to me .
+965,14,nana-pp,dropped,the boy dropped mommy teddy .,the boy dropped teddy to mommy .
+966,14,nana-pp,dropped,the boy dropped the guy teddy .,the boy dropped teddy to the guy .
+967,14,nana-pp,dropped,nina dropped the girl teddy .,nina dropped teddy to the girl .
+968,14,nana-pp,dropped,grandma dropped the man teddy .,grandma dropped teddy to the man .
+969,14,nana-pp,dropped,john dropped my uncle teddy .,john dropped teddy to my uncle .
+970,14,nana-pp,dropped,nina dropped a stranger teddy .,nina dropped teddy to a stranger .
+971,14,nana-pp,dropped,nina dropped him that .,nina dropped that to him .
+972,14,nana-pp,dropped,the boy dropped her that .,the boy dropped that to her .
+973,14,nana-pp,dropped,ryan dropped us that .,ryan dropped that to us .
+974,14,nana-pp,dropped,john dropped me that .,john dropped that to me .
+975,14,nana-pp,dropped,nina dropped mommy that .,nina dropped that to mommy .
+976,14,nana-pp,dropped,john dropped the guy that .,john dropped that to the guy .
+977,14,nana-pp,dropped,david dropped the girl that .,david dropped that to the girl .
+978,14,nana-pp,dropped,ryan dropped the man that .,ryan dropped that to the man .
+979,14,nana-pp,dropped,laura dropped my uncle that .,laura dropped that to my uncle .
+980,14,nana-pp,dropped,john dropped a stranger that .,john dropped that to a stranger .
+981,15,nana-pp,explained,i explained her some ideas .,i explained some ideas to her .
+982,15,nana-pp,explained,ethan explained them some ideas .,ethan explained some ideas to them .
+983,15,nana-pp,explained,nina explained us some ideas .,nina explained some ideas to us .
+984,15,nana-pp,explained,ethan explained mommy some ideas .,ethan explained some ideas to mommy .
+985,15,nana-pp,explained,ryan explained daddy some ideas .,ryan explained some ideas to daddy .
+986,15,nana-pp,explained,grandma explained the bear some ideas .,grandma explained some ideas to the bear .
+987,15,nana-pp,explained,ethan explained the girl some ideas .,ethan explained some ideas to the girl .
+988,15,nana-pp,explained,daddy explained the man some ideas .,daddy explained some ideas to the man .
+989,15,nana-pp,explained,nina explained my uncle some ideas .,nina explained some ideas to my uncle .
+990,15,nana-pp,explained,she explained a stranger some ideas .,she explained some ideas to a stranger .
+991,15,nana-pp,explained,mommy explained her the reason .,mommy explained the reason to her .
+992,15,nana-pp,explained,laura explained them the reason .,laura explained the reason to them .
+993,15,nana-pp,explained,she explained us the reason .,she explained the reason to us .
+994,15,nana-pp,explained,nina explained mommy the reason .,nina explained the reason to mommy .
+995,15,nana-pp,explained,david explained daddy the reason .,david explained the reason to daddy .
+996,15,nana-pp,explained,ryan explained the bear the reason .,ryan explained the reason to the bear .
+997,15,nana-pp,explained,david explained the girl the reason .,david explained the reason to the girl .
+998,15,nana-pp,explained,mommy explained the man the reason .,mommy explained the reason to the man .
+999,15,nana-pp,explained,nina explained my uncle the reason .,nina explained the reason to my uncle .
+1000,15,nana-pp,explained,mommy explained a stranger the reason .,mommy explained the reason to a stranger .
+1001,15,nana-pp,explained,adam explained her the answer .,adam explained the answer to her .
+1002,15,nana-pp,explained,nina explained them the answer .,nina explained the answer to them .
+1003,15,nana-pp,explained,the boy explained us the answer .,the boy explained the answer to us .
+1004,15,nana-pp,explained,the boy explained mommy the answer .,the boy explained the answer to mommy .
+1005,15,nana-pp,explained,david explained daddy the answer .,david explained the answer to daddy .
+1006,15,nana-pp,explained,david explained the bear the answer .,david explained the answer to the bear .
+1007,15,nana-pp,explained,ryan explained the girl the answer .,ryan explained the answer to the girl .
+1008,15,nana-pp,explained,she explained the man the answer .,she explained the answer to the man .
+1009,15,nana-pp,explained,grandma explained my uncle the answer .,grandma explained the answer to my uncle .
+1010,15,nana-pp,explained,adam explained a stranger the answer .,adam explained the answer to a stranger .
+1011,15,nana-pp,explained,mommy explained her the book .,mommy explained the book to her .
+1012,15,nana-pp,explained,lily explained them the book .,lily explained the book to them .
+1013,15,nana-pp,explained,she explained us the book .,she explained the book to us .
+1014,15,nana-pp,explained,nina explained mommy the book .,nina explained the book to mommy .
+1015,15,nana-pp,explained,grandma explained daddy the book .,grandma explained the book to daddy .
+1016,15,nana-pp,explained,ryan explained the bear the book .,ryan explained the book to the bear .
+1017,15,nana-pp,explained,john explained the girl the book .,john explained the book to the girl .
+1018,15,nana-pp,explained,i explained the man the book .,i explained the book to the man .
+1019,15,nana-pp,explained,laura explained my uncle the book .,laura explained the book to my uncle .
+1020,15,nana-pp,explained,laura explained a stranger the book .,laura explained the book to a stranger .
+1021,15,nana-pp,explained,she explained her the stories .,she explained the stories to her .
+1022,15,nana-pp,explained,she explained them the stories .,she explained the stories to them .
+1023,15,nana-pp,explained,grandma explained us the stories .,grandma explained the stories to us .
+1024,15,nana-pp,explained,laura explained mommy the stories .,laura explained the stories to mommy .
+1025,15,nana-pp,explained,i explained daddy the stories .,i explained the stories to daddy .
+1026,15,nana-pp,explained,laura explained the bear the stories .,laura explained the stories to the bear .
+1027,15,nana-pp,explained,nina explained the girl the stories .,nina explained the stories to the girl .
+1028,15,nana-pp,explained,she explained the man the stories .,she explained the stories to the man .
+1029,15,nana-pp,explained,grandma explained my uncle the stories .,grandma explained the stories to my uncle .
+1030,15,nana-pp,explained,daddy explained a stranger the stories .,daddy explained the stories to a stranger .
+1031,15,nana-pp,explained,daddy explained her those .,daddy explained those to her .
+1032,15,nana-pp,explained,ethan explained them those .,ethan explained those to them .
+1033,15,nana-pp,explained,david explained us those .,david explained those to us .
+1034,15,nana-pp,explained,the boy explained mommy those .,the boy explained those to mommy .
+1035,15,nana-pp,explained,i explained daddy those .,i explained those to daddy .
+1036,15,nana-pp,explained,david explained the bear those .,david explained those to the bear .
+1037,15,nana-pp,explained,nina explained the girl those .,nina explained those to the girl .
+1038,15,nana-pp,explained,ethan explained the man those .,ethan explained those to the man .
+1039,15,nana-pp,explained,she explained my uncle those .,she explained those to my uncle .
+1040,15,nana-pp,explained,adam explained a stranger those .,adam explained those to a stranger .
+1041,15,nana-pp,explained,i explained her everything .,i explained everything to her .
+1042,15,nana-pp,explained,laura explained them everything .,laura explained everything to them .
+1043,15,nana-pp,explained,david explained us everything .,david explained everything to us .
+1044,15,nana-pp,explained,ryan explained mommy everything .,ryan explained everything to mommy .
+1045,15,nana-pp,explained,david explained daddy everything .,david explained everything to daddy .
+1046,15,nana-pp,explained,lily explained the bear everything .,lily explained everything to the bear .
+1047,15,nana-pp,explained,adam explained the girl everything .,adam explained everything to the girl .
+1048,15,nana-pp,explained,lily explained the man everything .,lily explained everything to the man .
+1049,15,nana-pp,explained,lily explained my uncle everything .,lily explained everything to my uncle .
+1050,15,nana-pp,explained,i explained a stranger everything .,i explained everything to a stranger .
+1051,16,nana-pp,introduced,ryan introduced him the piggy .,ryan introduced the piggy to him .
+1052,16,nana-pp,introduced,laura introduced her the piggy .,laura introduced the piggy to her .
+1053,16,nana-pp,introduced,ethan introduced us the piggy .,ethan introduced the piggy to us .
+1054,16,nana-pp,introduced,lily introduced mommy the piggy .,lily introduced the piggy to mommy .
+1055,16,nana-pp,introduced,adam introduced daddy the piggy .,adam introduced the piggy to daddy .
+1056,16,nana-pp,introduced,mommy introduced the guy the piggy .,mommy introduced the piggy to the guy .
+1057,16,nana-pp,introduced,david introduced the girl the piggy .,david introduced the piggy to the girl .
+1058,16,nana-pp,introduced,nina introduced the man the piggy .,nina introduced the piggy to the man .
+1059,16,nana-pp,introduced,i introduced my uncle the piggy .,i introduced the piggy to my uncle .
+1060,16,nana-pp,introduced,adam introduced a stranger the piggy .,adam introduced the piggy to a stranger .
+1061,16,nana-pp,introduced,laura introduced him my cat .,laura introduced my cat to him .
+1062,16,nana-pp,introduced,daddy introduced her my cat .,daddy introduced my cat to her .
+1063,16,nana-pp,introduced,the boy introduced us my cat .,the boy introduced my cat to us .
+1064,16,nana-pp,introduced,grandma introduced mommy my cat .,grandma introduced my cat to mommy .
+1065,16,nana-pp,introduced,david introduced daddy my cat .,david introduced my cat to daddy .
+1066,16,nana-pp,introduced,ryan introduced the guy my cat .,ryan introduced my cat to the guy .
+1067,16,nana-pp,introduced,lily introduced the girl my cat .,lily introduced my cat to the girl .
+1068,16,nana-pp,introduced,nina introduced the man my cat .,nina introduced my cat to the man .
+1069,16,nana-pp,introduced,lily introduced my uncle my cat .,lily introduced my cat to my uncle .
+1070,16,nana-pp,introduced,ryan introduced a stranger my cat .,ryan introduced my cat to a stranger .
+1071,16,nana-pp,introduced,daddy introduced him teddy .,daddy introduced teddy to him .
+1072,16,nana-pp,introduced,adam introduced her teddy .,adam introduced teddy to her .
+1073,16,nana-pp,introduced,laura introduced us teddy .,laura introduced teddy to us .
+1074,16,nana-pp,introduced,the boy introduced mommy teddy .,the boy introduced teddy to mommy .
+1075,16,nana-pp,introduced,grandma introduced daddy teddy .,grandma introduced teddy to daddy .
+1076,16,nana-pp,introduced,i introduced the guy teddy .,i introduced teddy to the guy .
+1077,16,nana-pp,introduced,laura introduced the girl teddy .,laura introduced teddy to the girl .
+1078,16,nana-pp,introduced,the boy introduced the man teddy .,the boy introduced teddy to the man .
+1079,16,nana-pp,introduced,david introduced my uncle teddy .,david introduced teddy to my uncle .
+1080,16,nana-pp,introduced,adam introduced a stranger teddy .,adam introduced teddy to a stranger .
+1081,16,nana-pp,introduced,grandma introduced him auntie .,grandma introduced auntie to him .
+1082,16,nana-pp,introduced,john introduced her auntie .,john introduced auntie to her .
+1083,16,nana-pp,introduced,the boy introduced us auntie .,the boy introduced auntie to us .
+1084,16,nana-pp,introduced,lily introduced mommy auntie .,lily introduced auntie to mommy .
+1085,16,nana-pp,introduced,she introduced daddy auntie .,she introduced auntie to daddy .
+1086,16,nana-pp,introduced,daddy introduced the guy auntie .,daddy introduced auntie to the guy .
+1087,16,nana-pp,introduced,david introduced the girl auntie .,david introduced auntie to the girl .
+1088,16,nana-pp,introduced,i introduced the man auntie .,i introduced auntie to the man .
+1089,16,nana-pp,introduced,david introduced my uncle auntie .,david introduced auntie to my uncle .
+1090,16,nana-pp,introduced,daddy introduced a stranger auntie .,daddy introduced auntie to a stranger .
+1091,16,nana-pp,introduced,grandma introduced him nana .,grandma introduced nana to him .
+1092,16,nana-pp,introduced,john introduced her nana .,john introduced nana to her .
+1093,16,nana-pp,introduced,nina introduced us nana .,nina introduced nana to us .
+1094,16,nana-pp,introduced,the boy introduced mommy nana .,the boy introduced nana to mommy .
+1095,16,nana-pp,introduced,ethan introduced daddy nana .,ethan introduced nana to daddy .
+1096,16,nana-pp,introduced,nina introduced the guy nana .,nina introduced nana to the guy .
+1097,16,nana-pp,introduced,david introduced the girl nana .,david introduced nana to the girl .
+1098,16,nana-pp,introduced,mommy introduced the man nana .,mommy introduced nana to the man .
+1099,16,nana-pp,introduced,david introduced my uncle nana .,david introduced nana to my uncle .
+1100,16,nana-pp,introduced,ryan introduced a stranger nana .,ryan introduced nana to a stranger .
+1101,16,nana-pp,introduced,grandma introduced him someone .,grandma introduced someone to him .
+1102,16,nana-pp,introduced,i introduced her someone .,i introduced someone to her .
+1103,16,nana-pp,introduced,she introduced us someone .,she introduced someone to us .
+1104,16,nana-pp,introduced,laura introduced mommy someone .,laura introduced someone to mommy .
+1105,16,nana-pp,introduced,john introduced daddy someone .,john introduced someone to daddy .
+1106,16,nana-pp,introduced,mommy introduced the guy someone .,mommy introduced someone to the guy .
+1107,16,nana-pp,introduced,ethan introduced the girl someone .,ethan introduced someone to the girl .
+1108,16,nana-pp,introduced,nina introduced the man someone .,nina introduced someone to the man .
+1109,16,nana-pp,introduced,the boy introduced my uncle someone .,the boy introduced someone to my uncle .
+1110,16,nana-pp,introduced,grandma introduced a stranger someone .,grandma introduced someone to a stranger .
+1111,16,nana-pp,introduced,the boy introduced him some ideas .,the boy introduced some ideas to him .
+1112,16,nana-pp,introduced,adam introduced her some ideas .,adam introduced some ideas to her .
+1113,16,nana-pp,introduced,ryan introduced us some ideas .,ryan introduced some ideas to us .
+1114,16,nana-pp,introduced,john introduced mommy some ideas .,john introduced some ideas to mommy .
+1115,16,nana-pp,introduced,ryan introduced daddy some ideas .,ryan introduced some ideas to daddy .
+1116,16,nana-pp,introduced,david introduced the guy some ideas .,david introduced some ideas to the guy .
+1117,16,nana-pp,introduced,ryan introduced the girl some ideas .,ryan introduced some ideas to the girl .
+1118,16,nana-pp,introduced,i introduced the man some ideas .,i introduced some ideas to the man .
+1119,16,nana-pp,introduced,laura introduced my uncle some ideas .,laura introduced some ideas to my uncle .
+1120,16,nana-pp,introduced,ethan introduced a stranger some ideas .,ethan introduced some ideas to a stranger .
+1121,17,nana-pp,lifted,david lifted him some boxes .,david lifted some boxes to him .
+1122,17,nana-pp,lifted,daddy lifted her some boxes .,daddy lifted some boxes to her .
+1123,17,nana-pp,lifted,nina lifted them some boxes .,nina lifted some boxes to them .
+1124,17,nana-pp,lifted,the boy lifted me some boxes .,the boy lifted some boxes to me .
+1125,17,nana-pp,lifted,laura lifted mommy some boxes .,laura lifted some boxes to mommy .
+1126,17,nana-pp,lifted,nina lifted the guy some boxes .,nina lifted some boxes to the guy .
+1127,17,nana-pp,lifted,adam lifted the girl some boxes .,adam lifted some boxes to the girl .
+1128,17,nana-pp,lifted,david lifted the man some boxes .,david lifted some boxes to the man .
+1129,17,nana-pp,lifted,david lifted my uncle some boxes .,david lifted some boxes to my uncle .
+1130,17,nana-pp,lifted,john lifted a stranger some boxes .,john lifted some boxes to a stranger .
+1131,17,nana-pp,lifted,david lifted him the plate .,david lifted the plate to him .
+1132,17,nana-pp,lifted,the boy lifted her the plate .,the boy lifted the plate to her .
+1133,17,nana-pp,lifted,ethan lifted them the plate .,ethan lifted the plate to them .
+1134,17,nana-pp,lifted,adam lifted me the plate .,adam lifted the plate to me .
+1135,17,nana-pp,lifted,john lifted mommy the plate .,john lifted the plate to mommy .
+1136,17,nana-pp,lifted,she lifted the guy the plate .,she lifted the plate to the guy .
+1137,17,nana-pp,lifted,the boy lifted the girl the plate .,the boy lifted the plate to the girl .
+1138,17,nana-pp,lifted,daddy lifted the man the plate .,daddy lifted the plate to the man .
+1139,17,nana-pp,lifted,ethan lifted my uncle the plate .,ethan lifted the plate to my uncle .
+1140,17,nana-pp,lifted,ryan lifted a stranger the plate .,ryan lifted the plate to a stranger .
+1141,17,nana-pp,lifted,nina lifted him my cat .,nina lifted my cat to him .
+1142,17,nana-pp,lifted,laura lifted her my cat .,laura lifted my cat to her .
+1143,17,nana-pp,lifted,laura lifted them my cat .,laura lifted my cat to them .
+1144,17,nana-pp,lifted,adam lifted me my cat .,adam lifted my cat to me .
+1145,17,nana-pp,lifted,lily lifted mommy my cat .,lily lifted my cat to mommy .
+1146,17,nana-pp,lifted,laura lifted the guy my cat .,laura lifted my cat to the guy .
+1147,17,nana-pp,lifted,the boy lifted the girl my cat .,the boy lifted my cat to the girl .
+1148,17,nana-pp,lifted,nina lifted the man my cat .,nina lifted my cat to the man .
+1149,17,nana-pp,lifted,grandma lifted my uncle my cat .,grandma lifted my cat to my uncle .
+1150,17,nana-pp,lifted,nina lifted a stranger my cat .,nina lifted my cat to a stranger .
+1151,17,nana-pp,lifted,daddy lifted him teddy .,daddy lifted teddy to him .
+1152,17,nana-pp,lifted,nina lifted her teddy .,nina lifted teddy to her .
+1153,17,nana-pp,lifted,she lifted them teddy .,she lifted teddy to them .
+1154,17,nana-pp,lifted,she lifted me teddy .,she lifted teddy to me .
+1155,17,nana-pp,lifted,daddy lifted mommy teddy .,daddy lifted teddy to mommy .
+1156,17,nana-pp,lifted,david lifted the guy teddy .,david lifted teddy to the guy .
+1157,17,nana-pp,lifted,ethan lifted the girl teddy .,ethan lifted teddy to the girl .
+1158,17,nana-pp,lifted,david lifted the man teddy .,david lifted teddy to the man .
+1159,17,nana-pp,lifted,the boy lifted my uncle teddy .,the boy lifted teddy to my uncle .
+1160,17,nana-pp,lifted,david lifted a stranger teddy .,david lifted teddy to a stranger .
+1161,17,nana-pp,lifted,lily lifted him the toys .,lily lifted the toys to him .
+1162,17,nana-pp,lifted,lily lifted her the toys .,lily lifted the toys to her .
+1163,17,nana-pp,lifted,the boy lifted them the toys .,the boy lifted the toys to them .
+1164,17,nana-pp,lifted,laura lifted me the toys .,laura lifted the toys to me .
+1165,17,nana-pp,lifted,the boy lifted mommy the toys .,the boy lifted the toys to mommy .
+1166,17,nana-pp,lifted,adam lifted the guy the toys .,adam lifted the toys to the guy .
+1167,17,nana-pp,lifted,david lifted the girl the toys .,david lifted the toys to the girl .
+1168,17,nana-pp,lifted,lily lifted the man the toys .,lily lifted the toys to the man .
+1169,17,nana-pp,lifted,john lifted my uncle the toys .,john lifted the toys to my uncle .
+1170,17,nana-pp,lifted,daddy lifted a stranger the toys .,daddy lifted the toys to a stranger .
+1171,17,nana-pp,lifted,john lifted him that .,john lifted that to him .
+1172,17,nana-pp,lifted,she lifted her that .,she lifted that to her .
+1173,17,nana-pp,lifted,adam lifted them that .,adam lifted that to them .
+1174,17,nana-pp,lifted,john lifted me that .,john lifted that to me .
+1175,17,nana-pp,lifted,adam lifted mommy that .,adam lifted that to mommy .
+1176,17,nana-pp,lifted,grandma lifted the guy that .,grandma lifted that to the guy .
+1177,17,nana-pp,lifted,lily lifted the girl that .,lily lifted that to the girl .
+1178,17,nana-pp,lifted,daddy lifted the man that .,daddy lifted that to the man .
+1179,17,nana-pp,lifted,david lifted my uncle that .,david lifted that to my uncle .
+1180,17,nana-pp,lifted,daddy lifted a stranger that .,daddy lifted that to a stranger .
+1181,17,nana-pp,lifted,laura lifted him something .,laura lifted something to him .
+1182,17,nana-pp,lifted,adam lifted her something .,adam lifted something to her .
+1183,17,nana-pp,lifted,adam lifted them something .,adam lifted something to them .
+1184,17,nana-pp,lifted,mommy lifted me something .,mommy lifted something to me .
+1185,17,nana-pp,lifted,daddy lifted mommy something .,daddy lifted something to mommy .
+1186,17,nana-pp,lifted,ethan lifted the guy something .,ethan lifted something to the guy .
+1187,17,nana-pp,lifted,david lifted the girl something .,david lifted something to the girl .
+1188,17,nana-pp,lifted,grandma lifted the man something .,grandma lifted something to the man .
+1189,17,nana-pp,lifted,ethan lifted my uncle something .,ethan lifted something to my uncle .
+1190,17,nana-pp,lifted,the boy lifted a stranger something .,the boy lifted something to a stranger .
+1191,18,nana-pp,mentioned,mommy mentioned him the story .,mommy mentioned the story to him .
+1192,18,nana-pp,mentioned,lily mentioned us the story .,lily mentioned the story to us .
+1193,18,nana-pp,mentioned,ryan mentioned me the story .,ryan mentioned the story to me .
+1194,18,nana-pp,mentioned,david mentioned mommy the story .,david mentioned the story to mommy .
+1195,18,nana-pp,mentioned,ryan mentioned daddy the story .,ryan mentioned the story to daddy .
+1196,18,nana-pp,mentioned,the boy mentioned the guy the story .,the boy mentioned the story to the guy .
+1197,18,nana-pp,mentioned,david mentioned the girl the story .,david mentioned the story to the girl .
+1198,18,nana-pp,mentioned,grandma mentioned the man the story .,grandma mentioned the story to the man .
+1199,18,nana-pp,mentioned,laura mentioned my uncle the story .,laura mentioned the story to my uncle .
+1200,18,nana-pp,mentioned,ethan mentioned a stranger the story .,ethan mentioned the story to a stranger .
+1201,18,nana-pp,mentioned,adam mentioned him the book .,adam mentioned the book to him .
+1202,18,nana-pp,mentioned,daddy mentioned us the book .,daddy mentioned the book to us .
+1203,18,nana-pp,mentioned,ethan mentioned me the book .,ethan mentioned the book to me .
+1204,18,nana-pp,mentioned,ryan mentioned mommy the book .,ryan mentioned the book to mommy .
+1205,18,nana-pp,mentioned,david mentioned daddy the book .,david mentioned the book to daddy .
+1206,18,nana-pp,mentioned,nina mentioned the guy the book .,nina mentioned the book to the guy .
+1207,18,nana-pp,mentioned,lily mentioned the girl the book .,lily mentioned the book to the girl .
+1208,18,nana-pp,mentioned,mommy mentioned the man the book .,mommy mentioned the book to the man .
+1209,18,nana-pp,mentioned,laura mentioned my uncle the book .,laura mentioned the book to my uncle .
+1210,18,nana-pp,mentioned,adam mentioned a stranger the book .,adam mentioned the book to a stranger .
+1211,18,nana-pp,mentioned,daddy mentioned him teddy .,daddy mentioned teddy to him .
+1212,18,nana-pp,mentioned,ryan mentioned us teddy .,ryan mentioned teddy to us .
+1213,18,nana-pp,mentioned,lily mentioned me teddy .,lily mentioned teddy to me .
+1214,18,nana-pp,mentioned,laura mentioned mommy teddy .,laura mentioned teddy to mommy .
+1215,18,nana-pp,mentioned,the boy mentioned daddy teddy .,the boy mentioned teddy to daddy .
+1216,18,nana-pp,mentioned,adam mentioned the guy teddy .,adam mentioned teddy to the guy .
+1217,18,nana-pp,mentioned,lily mentioned the girl teddy .,lily mentioned teddy to the girl .
+1218,18,nana-pp,mentioned,daddy mentioned the man teddy .,daddy mentioned teddy to the man .
+1219,18,nana-pp,mentioned,laura mentioned my uncle teddy .,laura mentioned teddy to my uncle .
+1220,18,nana-pp,mentioned,david mentioned a stranger teddy .,david mentioned teddy to a stranger .
+1221,18,nana-pp,mentioned,the boy mentioned him my friend .,the boy mentioned my friend to him .
+1222,18,nana-pp,mentioned,grandma mentioned us my friend .,grandma mentioned my friend to us .
+1223,18,nana-pp,mentioned,mommy mentioned me my friend .,mommy mentioned my friend to me .
+1224,18,nana-pp,mentioned,ryan mentioned mommy my friend .,ryan mentioned my friend to mommy .
+1225,18,nana-pp,mentioned,john mentioned daddy my friend .,john mentioned my friend to daddy .
+1226,18,nana-pp,mentioned,daddy mentioned the guy my friend .,daddy mentioned my friend to the guy .
+1227,18,nana-pp,mentioned,daddy mentioned the girl my friend .,daddy mentioned my friend to the girl .
+1228,18,nana-pp,mentioned,nina mentioned the man my friend .,nina mentioned my friend to the man .
+1229,18,nana-pp,mentioned,john mentioned my uncle my friend .,john mentioned my friend to my uncle .
+1230,18,nana-pp,mentioned,laura mentioned a stranger my friend .,laura mentioned my friend to a stranger .
+1231,18,nana-pp,mentioned,ryan mentioned him my cat .,ryan mentioned my cat to him .
+1232,18,nana-pp,mentioned,adam mentioned us my cat .,adam mentioned my cat to us .
+1233,18,nana-pp,mentioned,ryan mentioned me my cat .,ryan mentioned my cat to me .
+1234,18,nana-pp,mentioned,laura mentioned mommy my cat .,laura mentioned my cat to mommy .
+1235,18,nana-pp,mentioned,ryan mentioned daddy my cat .,ryan mentioned my cat to daddy .
+1236,18,nana-pp,mentioned,david mentioned the guy my cat .,david mentioned my cat to the guy .
+1237,18,nana-pp,mentioned,ethan mentioned the girl my cat .,ethan mentioned my cat to the girl .
+1238,18,nana-pp,mentioned,laura mentioned the man my cat .,laura mentioned my cat to the man .
+1239,18,nana-pp,mentioned,nina mentioned my uncle my cat .,nina mentioned my cat to my uncle .
+1240,18,nana-pp,mentioned,grandma mentioned a stranger my cat .,grandma mentioned my cat to a stranger .
+1241,18,nana-pp,mentioned,grandma mentioned him auntie .,grandma mentioned auntie to him .
+1242,18,nana-pp,mentioned,lily mentioned us auntie .,lily mentioned auntie to us .
+1243,18,nana-pp,mentioned,grandma mentioned me auntie .,grandma mentioned auntie to me .
+1244,18,nana-pp,mentioned,nina mentioned mommy auntie .,nina mentioned auntie to mommy .
+1245,18,nana-pp,mentioned,lily mentioned daddy auntie .,lily mentioned auntie to daddy .
+1246,18,nana-pp,mentioned,lily mentioned the guy auntie .,lily mentioned auntie to the guy .
+1247,18,nana-pp,mentioned,adam mentioned the girl auntie .,adam mentioned auntie to the girl .
+1248,18,nana-pp,mentioned,ethan mentioned the man auntie .,ethan mentioned auntie to the man .
+1249,18,nana-pp,mentioned,john mentioned my uncle auntie .,john mentioned auntie to my uncle .
+1250,18,nana-pp,mentioned,the boy mentioned a stranger auntie .,the boy mentioned auntie to a stranger .
+1251,18,nana-pp,mentioned,adam mentioned him that .,adam mentioned that to him .
+1252,18,nana-pp,mentioned,mommy mentioned us that .,mommy mentioned that to us .
+1253,18,nana-pp,mentioned,daddy mentioned me that .,daddy mentioned that to me .
+1254,18,nana-pp,mentioned,ethan mentioned mommy that .,ethan mentioned that to mommy .
+1255,18,nana-pp,mentioned,ethan mentioned daddy that .,ethan mentioned that to daddy .
+1256,18,nana-pp,mentioned,ethan mentioned the guy that .,ethan mentioned that to the guy .
+1257,18,nana-pp,mentioned,ryan mentioned the girl that .,ryan mentioned that to the girl .
+1258,18,nana-pp,mentioned,mommy mentioned the man that .,mommy mentioned that to the man .
+1259,18,nana-pp,mentioned,adam mentioned my uncle that .,adam mentioned that to my uncle .
+1260,18,nana-pp,mentioned,mommy mentioned a stranger that .,mommy mentioned that to a stranger .
+1261,19,nana-pp,returned,i returned him some boxes .,i returned some boxes to him .
+1262,19,nana-pp,returned,john returned them some boxes .,john returned some boxes to them .
+1263,19,nana-pp,returned,david returned us some boxes .,david returned some boxes to us .
+1264,19,nana-pp,returned,the boy returned me some boxes .,the boy returned some boxes to me .
+1265,19,nana-pp,returned,ethan returned mommy some boxes .,ethan returned some boxes to mommy .
+1266,19,nana-pp,returned,john returned the bear some boxes .,john returned some boxes to the bear .
+1267,19,nana-pp,returned,david returned the girl some boxes .,david returned some boxes to the girl .
+1268,19,nana-pp,returned,i returned the man some boxes .,i returned some boxes to the man .
+1269,19,nana-pp,returned,nina returned my uncle some boxes .,nina returned some boxes to my uncle .
+1270,19,nana-pp,returned,david returned a stranger some boxes .,david returned some boxes to a stranger .
+1271,19,nana-pp,returned,nina returned him the cup .,nina returned the cup to him .
+1272,19,nana-pp,returned,i returned them the cup .,i returned the cup to them .
+1273,19,nana-pp,returned,grandma returned us the cup .,grandma returned the cup to us .
+1274,19,nana-pp,returned,daddy returned me the cup .,daddy returned the cup to me .
+1275,19,nana-pp,returned,david returned mommy the cup .,david returned the cup to mommy .
+1276,19,nana-pp,returned,nina returned the bear the cup .,nina returned the cup to the bear .
+1277,19,nana-pp,returned,i returned the girl the cup .,i returned the cup to the girl .
+1278,19,nana-pp,returned,you returned the man the cup .,you returned the cup to the man .
+1279,19,nana-pp,returned,ethan returned my uncle the cup .,ethan returned the cup to my uncle .
+1280,19,nana-pp,returned,ryan returned a stranger the cup .,ryan returned the cup to a stranger .
+1281,19,nana-pp,returned,david returned him the toy .,david returned the toy to him .
+1282,19,nana-pp,returned,lily returned them the toy .,lily returned the toy to them .
+1283,19,nana-pp,returned,the boy returned us the toy .,the boy returned the toy to us .
+1284,19,nana-pp,returned,nina returned me the toy .,nina returned the toy to me .
+1285,19,nana-pp,returned,i returned mommy the toy .,i returned the toy to mommy .
+1286,19,nana-pp,returned,adam returned the bear the toy .,adam returned the toy to the bear .
+1287,19,nana-pp,returned,mommy returned the girl the toy .,mommy returned the toy to the girl .
+1288,19,nana-pp,returned,nina returned the man the toy .,nina returned the toy to the man .
+1289,19,nana-pp,returned,david returned my uncle the toy .,david returned the toy to my uncle .
+1290,19,nana-pp,returned,laura returned a stranger the toy .,laura returned the toy to a stranger .
+1291,19,nana-pp,returned,nina returned him the gift .,nina returned the gift to him .
+1292,19,nana-pp,returned,john returned them the gift .,john returned the gift to them .
+1293,19,nana-pp,returned,adam returned us the gift .,adam returned the gift to us .
+1294,19,nana-pp,returned,laura returned me the gift .,laura returned the gift to me .
+1295,19,nana-pp,returned,david returned mommy the gift .,david returned the gift to mommy .
+1296,19,nana-pp,returned,ryan returned the bear the gift .,ryan returned the gift to the bear .
+1297,19,nana-pp,returned,john returned the girl the gift .,john returned the gift to the girl .
+1298,19,nana-pp,returned,adam returned the man the gift .,adam returned the gift to the man .
+1299,19,nana-pp,returned,the boy returned my uncle the gift .,the boy returned the gift to my uncle .
+1300,19,nana-pp,returned,lily returned a stranger the gift .,lily returned the gift to a stranger .
+1301,19,nana-pp,returned,the boy returned him the ball .,the boy returned the ball to him .
+1302,19,nana-pp,returned,nina returned them the ball .,nina returned the ball to them .
+1303,19,nana-pp,returned,mommy returned us the ball .,mommy returned the ball to us .
+1304,19,nana-pp,returned,nina returned me the ball .,nina returned the ball to me .
+1305,19,nana-pp,returned,grandma returned mommy the ball .,grandma returned the ball to mommy .
+1306,19,nana-pp,returned,laura returned the bear the ball .,laura returned the ball to the bear .
+1307,19,nana-pp,returned,i returned the girl the ball .,i returned the ball to the girl .
+1308,19,nana-pp,returned,adam returned the man the ball .,adam returned the ball to the man .
+1309,19,nana-pp,returned,nina returned my uncle the ball .,nina returned the ball to my uncle .
+1310,19,nana-pp,returned,grandma returned a stranger the ball .,grandma returned the ball to a stranger .
+1311,19,nana-pp,returned,the boy returned him that .,the boy returned that to him .
+1312,19,nana-pp,returned,laura returned them that .,laura returned that to them .
+1313,19,nana-pp,returned,i returned us that .,i returned that to us .
+1314,19,nana-pp,returned,daddy returned me that .,daddy returned that to me .
+1315,19,nana-pp,returned,daddy returned mommy that .,daddy returned that to mommy .
+1316,19,nana-pp,returned,grandma returned the bear that .,grandma returned that to the bear .
+1317,19,nana-pp,returned,the boy returned the girl that .,the boy returned that to the girl .
+1318,19,nana-pp,returned,mommy returned the man that .,mommy returned that to the man .
+1319,19,nana-pp,returned,david returned my uncle that .,david returned that to my uncle .
+1320,19,nana-pp,returned,laura returned a stranger that .,laura returned that to a stranger .
+1321,19,nana-pp,returned,nina returned him something .,nina returned something to him .
+1322,19,nana-pp,returned,daddy returned them something .,daddy returned something to them .
+1323,19,nana-pp,returned,daddy returned us something .,daddy returned something to us .
+1324,19,nana-pp,returned,john returned me something .,john returned something to me .
+1325,19,nana-pp,returned,the boy returned mommy something .,the boy returned something to mommy .
+1326,19,nana-pp,returned,daddy returned the bear something .,daddy returned something to the bear .
+1327,19,nana-pp,returned,lily returned the girl something .,lily returned something to the girl .
+1328,19,nana-pp,returned,john returned the man something .,john returned something to the man .
+1329,19,nana-pp,returned,i returned my uncle something .,i returned something to my uncle .
+1330,19,nana-pp,returned,john returned a stranger something .,john returned something to a stranger .
+1331,20,nana-pp,said,nina said bunny no .,nina said no to bunny .
+1332,20,nana-pp,said,john said them no .,john said no to them .
+1333,20,nana-pp,said,ryan said us no .,ryan said no to us .
+1334,20,nana-pp,said,ryan said auntie no .,ryan said no to auntie .
+1335,20,nana-pp,said,nina said nana no .,nina said no to nana .
+1336,20,nana-pp,said,david said the elephant no .,david said no to the elephant .
+1337,20,nana-pp,said,ryan said the girl no .,ryan said no to the girl .
+1338,20,nana-pp,said,nina said the man no .,nina said no to the man .
+1339,20,nana-pp,said,john said my uncle no .,john said no to my uncle .
+1340,20,nana-pp,said,ryan said a stranger no .,ryan said no to a stranger .
+1341,20,nana-pp,said,nina said bunny the same thing .,nina said the same thing to bunny .
+1342,20,nana-pp,said,nina said them the same thing .,nina said the same thing to them .
+1343,20,nana-pp,said,david said us the same thing .,david said the same thing to us .
+1344,20,nana-pp,said,john said auntie the same thing .,john said the same thing to auntie .
+1345,20,nana-pp,said,john said nana the same thing .,john said the same thing to nana .
+1346,20,nana-pp,said,john said the elephant the same thing .,john said the same thing to the elephant .
+1347,20,nana-pp,said,nina said the girl the same thing .,nina said the same thing to the girl .
+1348,20,nana-pp,said,nina said the man the same thing .,nina said the same thing to the man .
+1349,20,nana-pp,said,john said my uncle the same thing .,john said the same thing to my uncle .
+1350,20,nana-pp,said,nina said a stranger the same thing .,nina said the same thing to a stranger .
+1351,20,nana-pp,said,david said bunny the following .,david said the following to bunny .
+1352,20,nana-pp,said,nina said them the following .,nina said the following to them .
+1353,20,nana-pp,said,nina said us the following .,nina said the following to us .
+1354,20,nana-pp,said,ryan said auntie the following .,ryan said the following to auntie .
+1355,20,nana-pp,said,david said nana the following .,david said the following to nana .
+1356,20,nana-pp,said,ryan said the elephant the following .,ryan said the following to the elephant .
+1357,20,nana-pp,said,john said the girl the following .,john said the following to the girl .
+1358,20,nana-pp,said,john said the man the following .,john said the following to the man .
+1359,20,nana-pp,said,david said my uncle the following .,david said the following to my uncle .
+1360,20,nana-pp,said,nina said a stranger the following .,nina said the following to a stranger .
+1361,20,nana-pp,said,ryan said bunny hello .,ryan said hello to bunny .
+1362,20,nana-pp,said,david said them hello .,david said hello to them .
+1363,20,nana-pp,said,ryan said us hello .,ryan said hello to us .
+1364,20,nana-pp,said,nina said auntie hello .,nina said hello to auntie .
+1365,20,nana-pp,said,ryan said nana hello .,ryan said hello to nana .
+1366,20,nana-pp,said,david said the elephant hello .,david said hello to the elephant .
+1367,20,nana-pp,said,nina said the girl hello .,nina said hello to the girl .
+1368,20,nana-pp,said,nina said the man hello .,nina said hello to the man .
+1369,20,nana-pp,said,david said my uncle hello .,david said hello to my uncle .
+1370,20,nana-pp,said,nina said a stranger hello .,nina said hello to a stranger .
+1371,20,nana-pp,said,ryan said bunny the stuff .,ryan said the stuff to bunny .
+1372,20,nana-pp,said,john said them the stuff .,john said the stuff to them .
+1373,20,nana-pp,said,david said us the stuff .,david said the stuff to us .
+1374,20,nana-pp,said,ryan said auntie the stuff .,ryan said the stuff to auntie .
+1375,20,nana-pp,said,nina said nana the stuff .,nina said the stuff to nana .
+1376,20,nana-pp,said,john said the elephant the stuff .,john said the stuff to the elephant .
+1377,20,nana-pp,said,ryan said the girl the stuff .,ryan said the stuff to the girl .
+1378,20,nana-pp,said,david said the man the stuff .,david said the stuff to the man .
+1379,20,nana-pp,said,nina said my uncle the stuff .,nina said the stuff to my uncle .
+1380,20,nana-pp,said,david said a stranger the stuff .,david said the stuff to a stranger .
+1381,20,nana-pp,said,ryan said bunny everything .,ryan said everything to bunny .
+1382,20,nana-pp,said,john said them everything .,john said everything to them .
+1383,20,nana-pp,said,ryan said us everything .,ryan said everything to us .
+1384,20,nana-pp,said,ryan said auntie everything .,ryan said everything to auntie .
+1385,20,nana-pp,said,nina said nana everything .,nina said everything to nana .
+1386,20,nana-pp,said,david said the elephant everything .,david said everything to the elephant .
+1387,20,nana-pp,said,ryan said the girl everything .,ryan said everything to the girl .
+1388,20,nana-pp,said,ryan said the man everything .,ryan said everything to the man .
+1389,20,nana-pp,said,john said my uncle everything .,john said everything to my uncle .
+1390,20,nana-pp,said,john said a stranger everything .,john said everything to a stranger .
+1391,20,nana-pp,said,david said bunny those words .,david said those words to bunny .
+1392,20,nana-pp,said,david said them those words .,david said those words to them .
+1393,20,nana-pp,said,nina said us those words .,nina said those words to us .
+1394,20,nana-pp,said,david said auntie those words .,david said those words to auntie .
+1395,20,nana-pp,said,john said nana those words .,john said those words to nana .
+1396,20,nana-pp,said,david said the elephant those words .,david said those words to the elephant .
+1397,20,nana-pp,said,ryan said the girl those words .,ryan said those words to the girl .
+1398,20,nana-pp,said,david said the man those words .,david said those words to the man .
+1399,20,nana-pp,said,david said my uncle those words .,david said those words to my uncle .
+1400,20,nana-pp,said,nina said a stranger those words .,nina said those words to a stranger .
+1401,21,nana-pp,whispered,grandma whispered him the thought .,grandma whispered the thought to him .
+1402,21,nana-pp,whispered,daddy whispered her the thought .,daddy whispered the thought to her .
+1403,21,nana-pp,whispered,lily whispered them the thought .,lily whispered the thought to them .
+1404,21,nana-pp,whispered,john whispered me the thought .,john whispered the thought to me .
+1405,21,nana-pp,whispered,david whispered mommy the thought .,david whispered the thought to mommy .
+1406,21,nana-pp,whispered,david whispered the bear the thought .,david whispered the thought to the bear .
+1407,21,nana-pp,whispered,john whispered the girl the thought .,john whispered the thought to the girl .
+1408,21,nana-pp,whispered,lily whispered the man the thought .,lily whispered the thought to the man .
+1409,21,nana-pp,whispered,ryan whispered my uncle the thought .,ryan whispered the thought to my uncle .
+1410,21,nana-pp,whispered,mommy whispered a stranger the thought .,mommy whispered the thought to a stranger .
+1411,21,nana-pp,whispered,lily whispered him the reason .,lily whispered the reason to him .
+1412,21,nana-pp,whispered,the boy whispered her the reason .,the boy whispered the reason to her .
+1413,21,nana-pp,whispered,mommy whispered them the reason .,mommy whispered the reason to them .
+1414,21,nana-pp,whispered,lily whispered me the reason .,lily whispered the reason to me .
+1415,21,nana-pp,whispered,grandma whispered mommy the reason .,grandma whispered the reason to mommy .
+1416,21,nana-pp,whispered,adam whispered the bear the reason .,adam whispered the reason to the bear .
+1417,21,nana-pp,whispered,nina whispered the girl the reason .,nina whispered the reason to the girl .
+1418,21,nana-pp,whispered,john whispered the man the reason .,john whispered the reason to the man .
+1419,21,nana-pp,whispered,ryan whispered my uncle the reason .,ryan whispered the reason to my uncle .
+1420,21,nana-pp,whispered,david whispered a stranger the reason .,david whispered the reason to a stranger .
+1421,21,nana-pp,whispered,ryan whispered him the story .,ryan whispered the story to him .
+1422,21,nana-pp,whispered,mommy whispered her the story .,mommy whispered the story to her .
+1423,21,nana-pp,whispered,john whispered them the story .,john whispered the story to them .
+1424,21,nana-pp,whispered,mommy whispered me the story .,mommy whispered the story to me .
+1425,21,nana-pp,whispered,daddy whispered mommy the story .,daddy whispered the story to mommy .
+1426,21,nana-pp,whispered,i whispered the bear the story .,i whispered the story to the bear .
+1427,21,nana-pp,whispered,grandma whispered the girl the story .,grandma whispered the story to the girl .
+1428,21,nana-pp,whispered,grandma whispered the man the story .,grandma whispered the story to the man .
+1429,21,nana-pp,whispered,laura whispered my uncle the story .,laura whispered the story to my uncle .
+1430,21,nana-pp,whispered,lily whispered a stranger the story .,lily whispered the story to a stranger .
+1431,21,nana-pp,whispered,john whispered him a few words .,john whispered a few words to him .
+1432,21,nana-pp,whispered,ethan whispered her a few words .,ethan whispered a few words to her .
+1433,21,nana-pp,whispered,laura whispered them a few words .,laura whispered a few words to them .
+1434,21,nana-pp,whispered,i whispered me a few words .,i whispered a few words to me .
+1435,21,nana-pp,whispered,john whispered mommy a few words .,john whispered a few words to mommy .
+1436,21,nana-pp,whispered,ryan whispered the bear a few words .,ryan whispered a few words to the bear .
+1437,21,nana-pp,whispered,laura whispered the girl a few words .,laura whispered a few words to the girl .
+1438,21,nana-pp,whispered,the boy whispered the man a few words .,the boy whispered a few words to the man .
+1439,21,nana-pp,whispered,john whispered my uncle a few words .,john whispered a few words to my uncle .
+1440,21,nana-pp,whispered,i whispered a stranger a few words .,i whispered a few words to a stranger .
+1441,21,nana-pp,whispered,john whispered him the secret .,john whispered the secret to him .
+1442,21,nana-pp,whispered,john whispered her the secret .,john whispered the secret to her .
+1443,21,nana-pp,whispered,lily whispered them the secret .,lily whispered the secret to them .
+1444,21,nana-pp,whispered,laura whispered me the secret .,laura whispered the secret to me .
+1445,21,nana-pp,whispered,ethan whispered mommy the secret .,ethan whispered the secret to mommy .
+1446,21,nana-pp,whispered,laura whispered the bear the secret .,laura whispered the secret to the bear .
+1447,21,nana-pp,whispered,i whispered the girl the secret .,i whispered the secret to the girl .
+1448,21,nana-pp,whispered,grandma whispered the man the secret .,grandma whispered the secret to the man .
+1449,21,nana-pp,whispered,nina whispered my uncle the secret .,nina whispered the secret to my uncle .
+1450,21,nana-pp,whispered,ethan whispered a stranger the secret .,ethan whispered the secret to a stranger .
+1451,21,nana-pp,whispered,ethan whispered him something .,ethan whispered something to him .
+1452,21,nana-pp,whispered,the boy whispered her something .,the boy whispered something to her .
+1453,21,nana-pp,whispered,nina whispered them something .,nina whispered something to them .
+1454,21,nana-pp,whispered,laura whispered me something .,laura whispered something to me .
+1455,21,nana-pp,whispered,ethan whispered mommy something .,ethan whispered something to mommy .
+1456,21,nana-pp,whispered,ryan whispered the bear something .,ryan whispered something to the bear .
+1457,21,nana-pp,whispered,mommy whispered the girl something .,mommy whispered something to the girl .
+1458,21,nana-pp,whispered,grandma whispered the man something .,grandma whispered something to the man .
+1459,21,nana-pp,whispered,ethan whispered my uncle something .,ethan whispered something to my uncle .
+1460,21,nana-pp,whispered,grandma whispered a stranger something .,grandma whispered something to a stranger .
+1461,21,nana-pp,whispered,lily whispered him that .,lily whispered that to him .
+1462,21,nana-pp,whispered,laura whispered her that .,laura whispered that to her .
+1463,21,nana-pp,whispered,laura whispered them that .,laura whispered that to them .
+1464,21,nana-pp,whispered,john whispered me that .,john whispered that to me .
+1465,21,nana-pp,whispered,i whispered mommy that .,i whispered that to mommy .
+1466,21,nana-pp,whispered,lily whispered the bear that .,lily whispered that to the bear .
+1467,21,nana-pp,whispered,grandma whispered the girl that .,grandma whispered that to the girl .
+1468,21,nana-pp,whispered,ethan whispered the man that .,ethan whispered that to the man .
+1469,21,nana-pp,whispered,nina whispered my uncle that .,nina whispered that to my uncle .
+1470,21,nana-pp,whispered,grandma whispered a stranger that .,grandma whispered that to a stranger .
+1471,22,naba-do,assigned,nina assigned him a task .,nina assigned a task to him .
+1472,22,naba-do,assigned,mommy assigned her a task .,mommy assigned a task to her .
+1473,22,naba-do,assigned,john assigned them a task .,john assigned a task to them .
+1474,22,naba-do,assigned,ethan assigned me a task .,ethan assigned a task to me .
+1475,22,naba-do,assigned,david assigned mommy a task .,david assigned a task to mommy .
+1476,22,naba-do,assigned,daddy assigned the bear a task .,daddy assigned a task to the bear .
+1477,22,naba-do,assigned,she assigned the girl a task .,she assigned a task to the girl .
+1478,22,naba-do,assigned,john assigned the man a task .,john assigned a task to the man .
+1479,22,naba-do,assigned,daddy assigned my uncle a task .,daddy assigned a task to my uncle .
+1480,22,naba-do,assigned,david assigned a stranger a task .,david assigned a task to a stranger .
+1481,22,naba-do,assigned,ryan assigned him my job .,ryan assigned my job to him .
+1482,22,naba-do,assigned,the boy assigned her my job .,the boy assigned my job to her .
+1483,22,naba-do,assigned,daddy assigned them my job .,daddy assigned my job to them .
+1484,22,naba-do,assigned,grandma assigned me my job .,grandma assigned my job to me .
+1485,22,naba-do,assigned,grandma assigned mommy my job .,grandma assigned my job to mommy .
+1486,22,naba-do,assigned,laura assigned the bear my job .,laura assigned my job to the bear .
+1487,22,naba-do,assigned,i assigned the girl my job .,i assigned my job to the girl .
+1488,22,naba-do,assigned,mommy assigned the man my job .,mommy assigned my job to the man .
+1489,22,naba-do,assigned,john assigned my uncle my job .,john assigned my job to my uncle .
+1490,22,naba-do,assigned,laura assigned a stranger my job .,laura assigned my job to a stranger .
+1491,22,naba-do,assigned,daddy assigned him the duty .,daddy assigned the duty to him .
+1492,22,naba-do,assigned,ethan assigned her the duty .,ethan assigned the duty to her .
+1493,22,naba-do,assigned,ethan assigned them the duty .,ethan assigned the duty to them .
+1494,22,naba-do,assigned,he assigned me the duty .,he assigned the duty to me .
+1495,22,naba-do,assigned,the boy assigned mommy the duty .,the boy assigned the duty to mommy .
+1496,22,naba-do,assigned,nina assigned the bear the duty .,nina assigned the duty to the bear .
+1497,22,naba-do,assigned,ethan assigned the girl the duty .,ethan assigned the duty to the girl .
+1498,22,naba-do,assigned,nina assigned the man the duty .,nina assigned the duty to the man .
+1499,22,naba-do,assigned,you assigned my uncle the duty .,you assigned the duty to my uncle .
+1500,22,naba-do,assigned,he assigned a stranger the duty .,he assigned the duty to a stranger .
+1501,22,naba-do,assigned,i assigned him the chore .,i assigned the chore to him .
+1502,22,naba-do,assigned,the boy assigned her the chore .,the boy assigned the chore to her .
+1503,22,naba-do,assigned,daddy assigned them the chore .,daddy assigned the chore to them .
+1504,22,naba-do,assigned,mommy assigned me the chore .,mommy assigned the chore to me .
+1505,22,naba-do,assigned,ryan assigned mommy the chore .,ryan assigned the chore to mommy .
+1506,22,naba-do,assigned,john assigned the bear the chore .,john assigned the chore to the bear .
+1507,22,naba-do,assigned,adam assigned the girl the chore .,adam assigned the chore to the girl .
+1508,22,naba-do,assigned,mommy assigned the man the chore .,mommy assigned the chore to the man .
+1509,22,naba-do,assigned,daddy assigned my uncle the chore .,daddy assigned the chore to my uncle .
+1510,22,naba-do,assigned,david assigned a stranger the chore .,david assigned the chore to a stranger .
+1511,22,naba-do,assigned,mommy assigned him the order .,mommy assigned the order to him .
+1512,22,naba-do,assigned,he assigned her the order .,he assigned the order to her .
+1513,22,naba-do,assigned,daddy assigned them the order .,daddy assigned the order to them .
+1514,22,naba-do,assigned,i assigned me the order .,i assigned the order to me .
+1515,22,naba-do,assigned,adam assigned mommy the order .,adam assigned the order to mommy .
+1516,22,naba-do,assigned,john assigned the bear the order .,john assigned the order to the bear .
+1517,22,naba-do,assigned,he assigned the girl the order .,he assigned the order to the girl .
+1518,22,naba-do,assigned,mommy assigned the man the order .,mommy assigned the order to the man .
+1519,22,naba-do,assigned,he assigned my uncle the order .,he assigned the order to my uncle .
+1520,22,naba-do,assigned,you assigned a stranger the order .,you assigned the order to a stranger .
+1521,22,naba-do,assigned,she assigned him something .,she assigned something to him .
+1522,22,naba-do,assigned,nina assigned her something .,nina assigned something to her .
+1523,22,naba-do,assigned,laura assigned them something .,laura assigned something to them .
+1524,22,naba-do,assigned,ethan assigned me something .,ethan assigned something to me .
+1525,22,naba-do,assigned,ryan assigned mommy something .,ryan assigned something to mommy .
+1526,22,naba-do,assigned,ethan assigned the bear something .,ethan assigned something to the bear .
+1527,22,naba-do,assigned,ethan assigned the girl something .,ethan assigned something to the girl .
+1528,22,naba-do,assigned,mommy assigned the man something .,mommy assigned something to the man .
+1529,22,naba-do,assigned,john assigned my uncle something .,john assigned something to my uncle .
+1530,22,naba-do,assigned,she assigned a stranger something .,she assigned something to a stranger .
+1531,22,naba-do,assigned,nina assigned him that thing .,nina assigned that thing to him .
+1532,22,naba-do,assigned,ryan assigned her that thing .,ryan assigned that thing to her .
+1533,22,naba-do,assigned,he assigned them that thing .,he assigned that thing to them .
+1534,22,naba-do,assigned,john assigned me that thing .,john assigned that thing to me .
+1535,22,naba-do,assigned,adam assigned mommy that thing .,adam assigned that thing to mommy .
+1536,22,naba-do,assigned,she assigned the bear that thing .,she assigned that thing to the bear .
+1537,22,naba-do,assigned,mommy assigned the girl that thing .,mommy assigned that thing to the girl .
+1538,22,naba-do,assigned,ryan assigned the man that thing .,ryan assigned that thing to the man .
+1539,22,naba-do,assigned,the boy assigned my uncle that thing .,the boy assigned that thing to my uncle .
+1540,22,naba-do,assigned,the boy assigned a stranger that thing .,the boy assigned that thing to a stranger .
+1541,23,naba-do,guaranteed,she guaranteed him some money .,she guaranteed some money to him .
+1542,23,naba-do,guaranteed,john guaranteed her some money .,john guaranteed some money to her .
+1543,23,naba-do,guaranteed,adam guaranteed them some money .,adam guaranteed some money to them .
+1544,23,naba-do,guaranteed,nina guaranteed me some money .,nina guaranteed some money to me .
+1545,23,naba-do,guaranteed,he guaranteed mommy some money .,he guaranteed some money to mommy .
+1546,23,naba-do,guaranteed,laura guaranteed the bear some money .,laura guaranteed some money to the bear .
+1547,23,naba-do,guaranteed,david guaranteed the girl some money .,david guaranteed some money to the girl .
+1548,23,naba-do,guaranteed,john guaranteed the man some money .,john guaranteed some money to the man .
+1549,23,naba-do,guaranteed,she guaranteed my uncle some money .,she guaranteed some money to my uncle .
+1550,23,naba-do,guaranteed,she guaranteed a stranger some money .,she guaranteed some money to a stranger .
+1551,23,naba-do,guaranteed,john guaranteed him a dinner .,john guaranteed a dinner to him .
+1552,23,naba-do,guaranteed,you guaranteed her a dinner .,you guaranteed a dinner to her .
+1553,23,naba-do,guaranteed,david guaranteed them a dinner .,david guaranteed a dinner to them .
+1554,23,naba-do,guaranteed,mommy guaranteed me a dinner .,mommy guaranteed a dinner to me .
+1555,23,naba-do,guaranteed,daddy guaranteed mommy a dinner .,daddy guaranteed a dinner to mommy .
+1556,23,naba-do,guaranteed,grandma guaranteed the bear a dinner .,grandma guaranteed a dinner to the bear .
+1557,23,naba-do,guaranteed,you guaranteed the girl a dinner .,you guaranteed a dinner to the girl .
+1558,23,naba-do,guaranteed,grandma guaranteed the man a dinner .,grandma guaranteed a dinner to the man .
+1559,23,naba-do,guaranteed,lily guaranteed my uncle a dinner .,lily guaranteed a dinner to my uncle .
+1560,23,naba-do,guaranteed,you guaranteed a stranger a dinner .,you guaranteed a dinner to a stranger .
+1561,23,naba-do,guaranteed,the boy guaranteed him the price .,the boy guaranteed the price to him .
+1562,23,naba-do,guaranteed,he guaranteed her the price .,he guaranteed the price to her .
+1563,23,naba-do,guaranteed,she guaranteed them the price .,she guaranteed the price to them .
+1564,23,naba-do,guaranteed,grandma guaranteed me the price .,grandma guaranteed the price to me .
+1565,23,naba-do,guaranteed,ethan guaranteed mommy the price .,ethan guaranteed the price to mommy .
+1566,23,naba-do,guaranteed,nina guaranteed the bear the price .,nina guaranteed the price to the bear .
+1567,23,naba-do,guaranteed,i guaranteed the girl the price .,i guaranteed the price to the girl .
+1568,23,naba-do,guaranteed,ethan guaranteed the man the price .,ethan guaranteed the price to the man .
+1569,23,naba-do,guaranteed,nina guaranteed my uncle the price .,nina guaranteed the price to my uncle .
+1570,23,naba-do,guaranteed,grandma guaranteed a stranger the price .,grandma guaranteed the price to a stranger .
+1571,23,naba-do,guaranteed,ethan guaranteed him the service .,ethan guaranteed the service to him .
+1572,23,naba-do,guaranteed,adam guaranteed her the service .,adam guaranteed the service to her .
+1573,23,naba-do,guaranteed,i guaranteed them the service .,i guaranteed the service to them .
+1574,23,naba-do,guaranteed,mommy guaranteed me the service .,mommy guaranteed the service to me .
+1575,23,naba-do,guaranteed,david guaranteed mommy the service .,david guaranteed the service to mommy .
+1576,23,naba-do,guaranteed,he guaranteed the bear the service .,he guaranteed the service to the bear .
+1577,23,naba-do,guaranteed,lily guaranteed the girl the service .,lily guaranteed the service to the girl .
+1578,23,naba-do,guaranteed,she guaranteed the man the service .,she guaranteed the service to the man .
+1579,23,naba-do,guaranteed,the boy guaranteed my uncle the service .,the boy guaranteed the service to my uncle .
+1580,23,naba-do,guaranteed,he guaranteed a stranger the service .,he guaranteed the service to a stranger .
+1581,23,naba-do,guaranteed,ethan guaranteed him many gifts .,ethan guaranteed many gifts to him .
+1582,23,naba-do,guaranteed,ryan guaranteed her many gifts .,ryan guaranteed many gifts to her .
+1583,23,naba-do,guaranteed,nina guaranteed them many gifts .,nina guaranteed many gifts to them .
+1584,23,naba-do,guaranteed,lily guaranteed me many gifts .,lily guaranteed many gifts to me .
+1585,23,naba-do,guaranteed,i guaranteed mommy many gifts .,i guaranteed many gifts to mommy .
+1586,23,naba-do,guaranteed,ryan guaranteed the bear many gifts .,ryan guaranteed many gifts to the bear .
+1587,23,naba-do,guaranteed,ethan guaranteed the girl many gifts .,ethan guaranteed many gifts to the girl .
+1588,23,naba-do,guaranteed,you guaranteed the man many gifts .,you guaranteed many gifts to the man .
+1589,23,naba-do,guaranteed,daddy guaranteed my uncle many gifts .,daddy guaranteed many gifts to my uncle .
+1590,23,naba-do,guaranteed,mommy guaranteed a stranger many gifts .,mommy guaranteed many gifts to a stranger .
+1591,23,naba-do,guaranteed,laura guaranteed him everything .,laura guaranteed everything to him .
+1592,23,naba-do,guaranteed,daddy guaranteed her everything .,daddy guaranteed everything to her .
+1593,23,naba-do,guaranteed,mommy guaranteed them everything .,mommy guaranteed everything to them .
+1594,23,naba-do,guaranteed,you guaranteed me everything .,you guaranteed everything to me .
+1595,23,naba-do,guaranteed,john guaranteed mommy everything .,john guaranteed everything to mommy .
+1596,23,naba-do,guaranteed,john guaranteed the bear everything .,john guaranteed everything to the bear .
+1597,23,naba-do,guaranteed,she guaranteed the girl everything .,she guaranteed everything to the girl .
+1598,23,naba-do,guaranteed,mommy guaranteed the man everything .,mommy guaranteed everything to the man .
+1599,23,naba-do,guaranteed,john guaranteed my uncle everything .,john guaranteed everything to my uncle .
+1600,23,naba-do,guaranteed,the boy guaranteed a stranger everything .,the boy guaranteed everything to a stranger .
+1601,23,naba-do,guaranteed,laura guaranteed him that thing .,laura guaranteed that thing to him .
+1602,23,naba-do,guaranteed,the boy guaranteed her that thing .,the boy guaranteed that thing to her .
+1603,23,naba-do,guaranteed,ryan guaranteed them that thing .,ryan guaranteed that thing to them .
+1604,23,naba-do,guaranteed,david guaranteed me that thing .,david guaranteed that thing to me .
+1605,23,naba-do,guaranteed,adam guaranteed mommy that thing .,adam guaranteed that thing to mommy .
+1606,23,naba-do,guaranteed,ryan guaranteed the bear that thing .,ryan guaranteed that thing to the bear .
+1607,23,naba-do,guaranteed,grandma guaranteed the girl that thing .,grandma guaranteed that thing to the girl .
+1608,23,naba-do,guaranteed,adam guaranteed the man that thing .,adam guaranteed that thing to the man .
+1609,23,naba-do,guaranteed,the boy guaranteed my uncle that thing .,the boy guaranteed that thing to my uncle .
+1610,23,naba-do,guaranteed,adam guaranteed a stranger that thing .,adam guaranteed that thing to a stranger .
+1611,24,naba-do,owed,nina owed him some treats .,nina owed some treats to him .
+1612,24,naba-do,owed,you owed her some treats .,you owed some treats to her .
+1613,24,naba-do,owed,the boy owed them some treats .,the boy owed some treats to them .
+1614,24,naba-do,owed,he owed us some treats .,he owed some treats to us .
+1615,24,naba-do,owed,ryan owed mommy some treats .,ryan owed some treats to mommy .
+1616,24,naba-do,owed,grandma owed the bear some treats .,grandma owed some treats to the bear .
+1617,24,naba-do,owed,laura owed the girl some treats .,laura owed some treats to the girl .
+1618,24,naba-do,owed,mommy owed the man some treats .,mommy owed some treats to the man .
+1619,24,naba-do,owed,lily owed my uncle some treats .,lily owed some treats to my uncle .
+1620,24,naba-do,owed,nina owed a stranger some treats .,nina owed some treats to a stranger .
+1621,24,naba-do,owed,i owed him two cents .,i owed two cents to him .
+1622,24,naba-do,owed,david owed her two cents .,david owed two cents to her .
+1623,24,naba-do,owed,she owed them two cents .,she owed two cents to them .
+1624,24,naba-do,owed,ethan owed us two cents .,ethan owed two cents to us .
+1625,24,naba-do,owed,adam owed mommy two cents .,adam owed two cents to mommy .
+1626,24,naba-do,owed,ryan owed the bear two cents .,ryan owed two cents to the bear .
+1627,24,naba-do,owed,mommy owed the girl two cents .,mommy owed two cents to the girl .
+1628,24,naba-do,owed,grandma owed the man two cents .,grandma owed two cents to the man .
+1629,24,naba-do,owed,daddy owed my uncle two cents .,daddy owed two cents to my uncle .
+1630,24,naba-do,owed,ethan owed a stranger two cents .,ethan owed two cents to a stranger .
+1631,24,naba-do,owed,he owed him the full amount .,he owed the full amount to him .
+1632,24,naba-do,owed,mommy owed her the full amount .,mommy owed the full amount to her .
+1633,24,naba-do,owed,i owed them the full amount .,i owed the full amount to them .
+1634,24,naba-do,owed,mommy owed us the full amount .,mommy owed the full amount to us .
+1635,24,naba-do,owed,nina owed mommy the full amount .,nina owed the full amount to mommy .
+1636,24,naba-do,owed,john owed the bear the full amount .,john owed the full amount to the bear .
+1637,24,naba-do,owed,i owed the girl the full amount .,i owed the full amount to the girl .
+1638,24,naba-do,owed,grandma owed the man the full amount .,grandma owed the full amount to the man .
+1639,24,naba-do,owed,he owed my uncle the full amount .,he owed the full amount to my uncle .
+1640,24,naba-do,owed,lily owed a stranger the full amount .,lily owed the full amount to a stranger .
+1641,24,naba-do,owed,daddy owed him dinner .,daddy owed dinner to him .
+1642,24,naba-do,owed,she owed her dinner .,she owed dinner to her .
+1643,24,naba-do,owed,ethan owed them dinner .,ethan owed dinner to them .
+1644,24,naba-do,owed,mommy owed us dinner .,mommy owed dinner to us .
+1645,24,naba-do,owed,daddy owed mommy dinner .,daddy owed dinner to mommy .
+1646,24,naba-do,owed,john owed the bear dinner .,john owed dinner to the bear .
+1647,24,naba-do,owed,david owed the girl dinner .,david owed dinner to the girl .
+1648,24,naba-do,owed,mommy owed the man dinner .,mommy owed dinner to the man .
+1649,24,naba-do,owed,i owed my uncle dinner .,i owed dinner to my uncle .
+1650,24,naba-do,owed,ethan owed a stranger dinner .,ethan owed dinner to a stranger .
+1651,24,naba-do,owed,i owed him a favor .,i owed a favor to him .
+1652,24,naba-do,owed,the boy owed her a favor .,the boy owed a favor to her .
+1653,24,naba-do,owed,he owed them a favor .,he owed a favor to them .
+1654,24,naba-do,owed,david owed us a favor .,david owed a favor to us .
+1655,24,naba-do,owed,lily owed mommy a favor .,lily owed a favor to mommy .
+1656,24,naba-do,owed,lily owed the bear a favor .,lily owed a favor to the bear .
+1657,24,naba-do,owed,ethan owed the girl a favor .,ethan owed a favor to the girl .
+1658,24,naba-do,owed,john owed the man a favor .,john owed a favor to the man .
+1659,24,naba-do,owed,adam owed my uncle a favor .,adam owed a favor to my uncle .
+1660,24,naba-do,owed,she owed a stranger a favor .,she owed a favor to a stranger .
+1661,24,naba-do,owed,she owed him something .,she owed something to him .
+1662,24,naba-do,owed,nina owed her something .,nina owed something to her .
+1663,24,naba-do,owed,david owed them something .,david owed something to them .
+1664,24,naba-do,owed,john owed us something .,john owed something to us .
+1665,24,naba-do,owed,ethan owed mommy something .,ethan owed something to mommy .
+1666,24,naba-do,owed,you owed the bear something .,you owed something to the bear .
+1667,24,naba-do,owed,adam owed the girl something .,adam owed something to the girl .
+1668,24,naba-do,owed,lily owed the man something .,lily owed something to the man .
+1669,24,naba-do,owed,nina owed my uncle something .,nina owed something to my uncle .
+1670,24,naba-do,owed,ethan owed a stranger something .,ethan owed something to a stranger .
+1671,24,naba-do,owed,lily owed him that .,lily owed that to him .
+1672,24,naba-do,owed,laura owed her that .,laura owed that to her .
+1673,24,naba-do,owed,daddy owed them that .,daddy owed that to them .
+1674,24,naba-do,owed,daddy owed us that .,daddy owed that to us .
+1675,24,naba-do,owed,he owed mommy that .,he owed that to mommy .
+1676,24,naba-do,owed,he owed the bear that .,he owed that to the bear .
+1677,24,naba-do,owed,he owed the girl that .,he owed that to the girl .
+1678,24,naba-do,owed,nina owed the man that .,nina owed that to the man .
+1679,24,naba-do,owed,daddy owed my uncle that .,daddy owed that to my uncle .
+1680,24,naba-do,owed,ethan owed a stranger that .,ethan owed that to a stranger .
+1681,25,naba-do,promised,david promised him the gift .,david promised the gift to him .
+1682,25,naba-do,promised,david promised us the gift .,david promised the gift to us .
+1683,25,naba-do,promised,daddy promised them the gift .,daddy promised the gift to them .
+1684,25,naba-do,promised,nina promised me the gift .,nina promised the gift to me .
+1685,25,naba-do,promised,nina promised mommy the gift .,nina promised the gift to mommy .
+1686,25,naba-do,promised,mommy promised the bear the gift .,mommy promised the gift to the bear .
+1687,25,naba-do,promised,grandma promised the girl the gift .,grandma promised the gift to the girl .
+1688,25,naba-do,promised,lily promised the man the gift .,lily promised the gift to the man .
+1689,25,naba-do,promised,the boy promised my uncle the gift .,the boy promised the gift to my uncle .
+1690,25,naba-do,promised,ryan promised a stranger the gift .,ryan promised the gift to a stranger .
+1691,25,naba-do,promised,nina promised him toys .,nina promised toys to him .
+1692,25,naba-do,promised,david promised us toys .,david promised toys to us .
+1693,25,naba-do,promised,david promised them toys .,david promised toys to them .
+1694,25,naba-do,promised,grandma promised me toys .,grandma promised toys to me .
+1695,25,naba-do,promised,grandma promised mommy toys .,grandma promised toys to mommy .
+1696,25,naba-do,promised,lily promised the bear toys .,lily promised toys to the bear .
+1697,25,naba-do,promised,nina promised the girl toys .,nina promised toys to the girl .
+1698,25,naba-do,promised,ryan promised the man toys .,ryan promised toys to the man .
+1699,25,naba-do,promised,daddy promised my uncle toys .,daddy promised toys to my uncle .
+1700,25,naba-do,promised,ryan promised a stranger toys .,ryan promised toys to a stranger .
+1701,25,naba-do,promised,mommy promised him some treats .,mommy promised some treats to him .
+1702,25,naba-do,promised,mommy promised us some treats .,mommy promised some treats to us .
+1703,25,naba-do,promised,the boy promised them some treats .,the boy promised some treats to them .
+1704,25,naba-do,promised,adam promised me some treats .,adam promised some treats to me .
+1705,25,naba-do,promised,david promised mommy some treats .,david promised some treats to mommy .
+1706,25,naba-do,promised,mommy promised the bear some treats .,mommy promised some treats to the bear .
+1707,25,naba-do,promised,the boy promised the girl some treats .,the boy promised some treats to the girl .
+1708,25,naba-do,promised,laura promised the man some treats .,laura promised some treats to the man .
+1709,25,naba-do,promised,grandma promised my uncle some treats .,grandma promised some treats to my uncle .
+1710,25,naba-do,promised,david promised a stranger some treats .,david promised some treats to a stranger .
+1711,25,naba-do,promised,mommy promised him a meal .,mommy promised a meal to him .
+1712,25,naba-do,promised,daddy promised us a meal .,daddy promised a meal to us .
+1713,25,naba-do,promised,john promised them a meal .,john promised a meal to them .
+1714,25,naba-do,promised,lily promised me a meal .,lily promised a meal to me .
+1715,25,naba-do,promised,daddy promised mommy a meal .,daddy promised a meal to mommy .
+1716,25,naba-do,promised,david promised the bear a meal .,david promised a meal to the bear .
+1717,25,naba-do,promised,the boy promised the girl a meal .,the boy promised a meal to the girl .
+1718,25,naba-do,promised,ethan promised the man a meal .,ethan promised a meal to the man .
+1719,25,naba-do,promised,grandma promised my uncle a meal .,grandma promised a meal to my uncle .
+1720,25,naba-do,promised,david promised a stranger a meal .,david promised a meal to a stranger .
+1721,25,naba-do,promised,ryan promised him a cake .,ryan promised a cake to him .
+1722,25,naba-do,promised,lily promised us a cake .,lily promised a cake to us .
+1723,25,naba-do,promised,laura promised them a cake .,laura promised a cake to them .
+1724,25,naba-do,promised,ryan promised me a cake .,ryan promised a cake to me .
+1725,25,naba-do,promised,the boy promised mommy a cake .,the boy promised a cake to mommy .
+1726,25,naba-do,promised,daddy promised the bear a cake .,daddy promised a cake to the bear .
+1727,25,naba-do,promised,ethan promised the girl a cake .,ethan promised a cake to the girl .
+1728,25,naba-do,promised,grandma promised the man a cake .,grandma promised a cake to the man .
+1729,25,naba-do,promised,john promised my uncle a cake .,john promised a cake to my uncle .
+1730,25,naba-do,promised,laura promised a stranger a cake .,laura promised a cake to a stranger .
+1731,25,naba-do,promised,david promised him something .,david promised something to him .
+1732,25,naba-do,promised,david promised us something .,david promised something to us .
+1733,25,naba-do,promised,the boy promised them something .,the boy promised something to them .
+1734,25,naba-do,promised,the boy promised me something .,the boy promised something to me .
+1735,25,naba-do,promised,daddy promised mommy something .,daddy promised something to mommy .
+1736,25,naba-do,promised,ethan promised the bear something .,ethan promised something to the bear .
+1737,25,naba-do,promised,lily promised the girl something .,lily promised something to the girl .
+1738,25,naba-do,promised,lily promised the man something .,lily promised something to the man .
+1739,25,naba-do,promised,nina promised my uncle something .,nina promised something to my uncle .
+1740,25,naba-do,promised,adam promised a stranger something .,adam promised something to a stranger .
+1741,25,naba-do,promised,adam promised him that .,adam promised that to him .
+1742,25,naba-do,promised,lily promised us that .,lily promised that to us .
+1743,25,naba-do,promised,daddy promised them that .,daddy promised that to them .
+1744,25,naba-do,promised,mommy promised me that .,mommy promised that to me .
+1745,25,naba-do,promised,grandma promised mommy that .,grandma promised that to mommy .
+1746,25,naba-do,promised,daddy promised the bear that .,daddy promised that to the bear .
+1747,25,naba-do,promised,daddy promised the girl that .,daddy promised that to the girl .
+1748,25,naba-do,promised,lily promised the man that .,lily promised that to the man .
+1749,25,naba-do,promised,ryan promised my uncle that .,ryan promised that to my uncle .
+1750,25,naba-do,promised,lily promised a stranger that .,lily promised that to a stranger .
+1751,26,naba-do,rented,ryan rented us some books .,ryan rented some books to us .
+1752,26,naba-do,rented,you rented her some books .,you rented some books to her .
+1753,26,naba-do,rented,he rented them some books .,he rented some books to them .
+1754,26,naba-do,rented,adam rented me some books .,adam rented some books to me .
+1755,26,naba-do,rented,nina rented mommy some books .,nina rented some books to mommy .
+1756,26,naba-do,rented,nina rented the bear some books .,nina rented some books to the bear .
+1757,26,naba-do,rented,she rented the girl some books .,she rented some books to the girl .
+1758,26,naba-do,rented,daddy rented the man some books .,daddy rented some books to the man .
+1759,26,naba-do,rented,he rented my uncle some books .,he rented some books to my uncle .
+1760,26,naba-do,rented,laura rented a stranger some books .,laura rented some books to a stranger .
+1761,26,naba-do,rented,the boy rented us a machine .,the boy rented a machine to us .
+1762,26,naba-do,rented,daddy rented her a machine .,daddy rented a machine to her .
+1763,26,naba-do,rented,ethan rented them a machine .,ethan rented a machine to them .
+1764,26,naba-do,rented,lily rented me a machine .,lily rented a machine to me .
+1765,26,naba-do,rented,ryan rented mommy a machine .,ryan rented a machine to mommy .
+1766,26,naba-do,rented,the boy rented the bear a machine .,the boy rented a machine to the bear .
+1767,26,naba-do,rented,he rented the girl a machine .,he rented a machine to the girl .
+1768,26,naba-do,rented,ethan rented the man a machine .,ethan rented a machine to the man .
+1769,26,naba-do,rented,laura rented my uncle a machine .,laura rented a machine to my uncle .
+1770,26,naba-do,rented,lily rented a stranger a machine .,lily rented a machine to a stranger .
+1771,26,naba-do,rented,nina rented us my computer .,nina rented my computer to us .
+1772,26,naba-do,rented,he rented her my computer .,he rented my computer to her .
+1773,26,naba-do,rented,she rented them my computer .,she rented my computer to them .
+1774,26,naba-do,rented,he rented me my computer .,he rented my computer to me .
+1775,26,naba-do,rented,adam rented mommy my computer .,adam rented my computer to mommy .
+1776,26,naba-do,rented,ethan rented the bear my computer .,ethan rented my computer to the bear .
+1777,26,naba-do,rented,the boy rented the girl my computer .,the boy rented my computer to the girl .
+1778,26,naba-do,rented,she rented the man my computer .,she rented my computer to the man .
+1779,26,naba-do,rented,ryan rented my uncle my computer .,ryan rented my computer to my uncle .
+1780,26,naba-do,rented,nina rented a stranger my computer .,nina rented my computer to a stranger .
+1781,26,naba-do,rented,you rented us the house .,you rented the house to us .
+1782,26,naba-do,rented,adam rented her the house .,adam rented the house to her .
+1783,26,naba-do,rented,he rented them the house .,he rented the house to them .
+1784,26,naba-do,rented,mommy rented me the house .,mommy rented the house to me .
+1785,26,naba-do,rented,lily rented mommy the house .,lily rented the house to mommy .
+1786,26,naba-do,rented,daddy rented the bear the house .,daddy rented the house to the bear .
+1787,26,naba-do,rented,ethan rented the girl the house .,ethan rented the house to the girl .
+1788,26,naba-do,rented,he rented the man the house .,he rented the house to the man .
+1789,26,naba-do,rented,she rented my uncle the house .,she rented the house to my uncle .
+1790,26,naba-do,rented,daddy rented a stranger the house .,daddy rented the house to a stranger .
+1791,26,naba-do,rented,she rented us the room .,she rented the room to us .
+1792,26,naba-do,rented,he rented her the room .,he rented the room to her .
+1793,26,naba-do,rented,laura rented them the room .,laura rented the room to them .
+1794,26,naba-do,rented,you rented me the room .,you rented the room to me .
+1795,26,naba-do,rented,ryan rented mommy the room .,ryan rented the room to mommy .
+1796,26,naba-do,rented,he rented the bear the room .,he rented the room to the bear .
+1797,26,naba-do,rented,he rented the girl the room .,he rented the room to the girl .
+1798,26,naba-do,rented,adam rented the man the room .,adam rented the room to the man .
+1799,26,naba-do,rented,you rented my uncle the room .,you rented the room to my uncle .
+1800,26,naba-do,rented,lily rented a stranger the room .,lily rented the room to a stranger .
+1801,26,naba-do,rented,grandma rented us something .,grandma rented something to us .
+1802,26,naba-do,rented,lily rented her something .,lily rented something to her .
+1803,26,naba-do,rented,nina rented them something .,nina rented something to them .
+1804,26,naba-do,rented,ethan rented me something .,ethan rented something to me .
+1805,26,naba-do,rented,john rented mommy something .,john rented something to mommy .
+1806,26,naba-do,rented,lily rented the bear something .,lily rented something to the bear .
+1807,26,naba-do,rented,mommy rented the girl something .,mommy rented something to the girl .
+1808,26,naba-do,rented,david rented the man something .,david rented something to the man .
+1809,26,naba-do,rented,john rented my uncle something .,john rented something to my uncle .
+1810,26,naba-do,rented,john rented a stranger something .,john rented something to a stranger .
+1811,26,naba-do,rented,ethan rented us that .,ethan rented that to us .
+1812,26,naba-do,rented,ethan rented her that .,ethan rented that to her .
+1813,26,naba-do,rented,ryan rented them that .,ryan rented that to them .
+1814,26,naba-do,rented,nina rented me that .,nina rented that to me .
+1815,26,naba-do,rented,laura rented mommy that .,laura rented that to mommy .
+1816,26,naba-do,rented,mommy rented the bear that .,mommy rented that to the bear .
+1817,26,naba-do,rented,ryan rented the girl that .,ryan rented that to the girl .
+1818,26,naba-do,rented,you rented the man that .,you rented that to the man .
+1819,26,naba-do,rented,mommy rented my uncle that .,mommy rented that to my uncle .
+1820,26,naba-do,rented,you rented a stranger that .,you rented that to a stranger .
+1821,27,naba-do,shot,laura shot him some mails .,laura shot some mails to him .
+1822,27,naba-do,shot,mommy shot them some mails .,mommy shot some mails to them .
+1823,27,naba-do,shot,the boy shot us some mails .,the boy shot some mails to us .
+1824,27,naba-do,shot,grandma shot mommy some mails .,grandma shot some mails to mommy .
+1825,27,naba-do,shot,i shot daddy some mails .,i shot some mails to daddy .
+1826,27,naba-do,shot,lily shot the bear some mails .,lily shot some mails to the bear .
+1827,27,naba-do,shot,daddy shot the girl some mails .,daddy shot some mails to the girl .
+1828,27,naba-do,shot,she shot the man some mails .,she shot some mails to the man .
+1829,27,naba-do,shot,ethan shot my uncle some mails .,ethan shot some mails to my uncle .
+1830,27,naba-do,shot,she shot a stranger some mails .,she shot some mails to a stranger .
+1831,27,naba-do,shot,adam shot him an email .,adam shot an email to him .
+1832,27,naba-do,shot,ethan shot them an email .,ethan shot an email to them .
+1833,27,naba-do,shot,ethan shot us an email .,ethan shot an email to us .
+1834,27,naba-do,shot,ethan shot mommy an email .,ethan shot an email to mommy .
+1835,27,naba-do,shot,mommy shot daddy an email .,mommy shot an email to daddy .
+1836,27,naba-do,shot,daddy shot the bear an email .,daddy shot an email to the bear .
+1837,27,naba-do,shot,she shot the girl an email .,she shot an email to the girl .
+1838,27,naba-do,shot,daddy shot the man an email .,daddy shot an email to the man .
+1839,27,naba-do,shot,ethan shot my uncle an email .,ethan shot an email to my uncle .
+1840,27,naba-do,shot,mommy shot a stranger an email .,mommy shot an email to a stranger .
+1841,27,naba-do,shot,david shot him a look .,david shot a look to him .
+1842,27,naba-do,shot,grandma shot them a look .,grandma shot a look to them .
+1843,27,naba-do,shot,adam shot us a look .,adam shot a look to us .
+1844,27,naba-do,shot,lily shot mommy a look .,lily shot a look to mommy .
+1845,27,naba-do,shot,i shot daddy a look .,i shot a look to daddy .
+1846,27,naba-do,shot,mommy shot the bear a look .,mommy shot a look to the bear .
+1847,27,naba-do,shot,john shot the girl a look .,john shot a look to the girl .
+1848,27,naba-do,shot,david shot the man a look .,david shot a look to the man .
+1849,27,naba-do,shot,she shot my uncle a look .,she shot a look to my uncle .
+1850,27,naba-do,shot,nina shot a stranger a look .,nina shot a look to a stranger .
+1851,27,naba-do,shot,daddy shot him several bullets .,daddy shot several bullets to him .
+1852,27,naba-do,shot,mommy shot them several bullets .,mommy shot several bullets to them .
+1853,27,naba-do,shot,daddy shot us several bullets .,daddy shot several bullets to us .
+1854,27,naba-do,shot,david shot mommy several bullets .,david shot several bullets to mommy .
+1855,27,naba-do,shot,john shot daddy several bullets .,john shot several bullets to daddy .
+1856,27,naba-do,shot,the boy shot the bear several bullets .,the boy shot several bullets to the bear .
+1857,27,naba-do,shot,john shot the girl several bullets .,john shot several bullets to the girl .
+1858,27,naba-do,shot,nina shot the man several bullets .,nina shot several bullets to the man .
+1859,27,naba-do,shot,daddy shot my uncle several bullets .,daddy shot several bullets to my uncle .
+1860,27,naba-do,shot,daddy shot a stranger several bullets .,daddy shot several bullets to a stranger .
+1861,27,naba-do,shot,david shot him a few messages .,david shot a few messages to him .
+1862,27,naba-do,shot,laura shot them a few messages .,laura shot a few messages to them .
+1863,27,naba-do,shot,john shot us a few messages .,john shot a few messages to us .
+1864,27,naba-do,shot,lily shot mommy a few messages .,lily shot a few messages to mommy .
+1865,27,naba-do,shot,i shot daddy a few messages .,i shot a few messages to daddy .
+1866,27,naba-do,shot,she shot the bear a few messages .,she shot a few messages to the bear .
+1867,27,naba-do,shot,david shot the girl a few messages .,david shot a few messages to the girl .
+1868,27,naba-do,shot,david shot the man a few messages .,david shot a few messages to the man .
+1869,27,naba-do,shot,daddy shot my uncle a few messages .,daddy shot a few messages to my uncle .
+1870,27,naba-do,shot,nina shot a stranger a few messages .,nina shot a few messages to a stranger .
+1871,27,naba-do,shot,daddy shot him something .,daddy shot something to him .
+1872,27,naba-do,shot,adam shot them something .,adam shot something to them .
+1873,27,naba-do,shot,the boy shot us something .,the boy shot something to us .
+1874,27,naba-do,shot,the boy shot mommy something .,the boy shot something to mommy .
+1875,27,naba-do,shot,adam shot daddy something .,adam shot something to daddy .
+1876,27,naba-do,shot,ethan shot the bear something .,ethan shot something to the bear .
+1877,27,naba-do,shot,laura shot the girl something .,laura shot something to the girl .
+1878,27,naba-do,shot,john shot the man something .,john shot something to the man .
+1879,27,naba-do,shot,daddy shot my uncle something .,daddy shot something to my uncle .
+1880,27,naba-do,shot,she shot a stranger something .,she shot something to a stranger .
+1881,27,naba-do,shot,ethan shot him that .,ethan shot that to him .
+1882,27,naba-do,shot,laura shot them that .,laura shot that to them .
+1883,27,naba-do,shot,nina shot us that .,nina shot that to us .
+1884,27,naba-do,shot,grandma shot mommy that .,grandma shot that to mommy .
+1885,27,naba-do,shot,i shot daddy that .,i shot that to daddy .
+1886,27,naba-do,shot,david shot the bear that .,david shot that to the bear .
+1887,27,naba-do,shot,laura shot the girl that .,laura shot that to the girl .
+1888,27,naba-do,shot,lily shot the man that .,lily shot that to the man .
+1889,27,naba-do,shot,the boy shot my uncle that .,the boy shot that to my uncle .
+1890,27,naba-do,shot,ryan shot a stranger that .,ryan shot that to a stranger .
+1891,28,naba-do,traded,john traded him a game .,john traded a game to him .
+1892,28,naba-do,traded,the boy traded her a game .,the boy traded a game to her .
+1893,28,naba-do,traded,ethan traded them a game .,ethan traded a game to them .
+1894,28,naba-do,traded,lily traded me a game .,lily traded a game to me .
+1895,28,naba-do,traded,nina traded mommy a game .,nina traded a game to mommy .
+1896,28,naba-do,traded,daddy traded the store a game .,daddy traded a game to the store .
+1897,28,naba-do,traded,nina traded the girl a game .,nina traded a game to the girl .
+1898,28,naba-do,traded,mommy traded the man a game .,mommy traded a game to the man .
+1899,28,naba-do,traded,ethan traded the shop a game .,ethan traded a game to the shop .
+1900,28,naba-do,traded,david traded a stranger a game .,david traded a game to a stranger .
+1901,28,naba-do,traded,daddy traded him a card .,daddy traded a card to him .
+1902,28,naba-do,traded,she traded her a card .,she traded a card to her .
+1903,28,naba-do,traded,grandma traded them a card .,grandma traded a card to them .
+1904,28,naba-do,traded,mommy traded me a card .,mommy traded a card to me .
+1905,28,naba-do,traded,grandma traded mommy a card .,grandma traded a card to mommy .
+1906,28,naba-do,traded,i traded the store a card .,i traded a card to the store .
+1907,28,naba-do,traded,she traded the girl a card .,she traded a card to the girl .
+1908,28,naba-do,traded,david traded the man a card .,david traded a card to the man .
+1909,28,naba-do,traded,i traded the shop a card .,i traded a card to the shop .
+1910,28,naba-do,traded,ethan traded a stranger a card .,ethan traded a card to a stranger .
+1911,28,naba-do,traded,she traded him the pokemon .,she traded the pokemon to him .
+1912,28,naba-do,traded,david traded her the pokemon .,david traded the pokemon to her .
+1913,28,naba-do,traded,grandma traded them the pokemon .,grandma traded the pokemon to them .
+1914,28,naba-do,traded,he traded me the pokemon .,he traded the pokemon to me .
+1915,28,naba-do,traded,laura traded mommy the pokemon .,laura traded the pokemon to mommy .
+1916,28,naba-do,traded,john traded the store the pokemon .,john traded the pokemon to the store .
+1917,28,naba-do,traded,he traded the girl the pokemon .,he traded the pokemon to the girl .
+1918,28,naba-do,traded,nina traded the man the pokemon .,nina traded the pokemon to the man .
+1919,28,naba-do,traded,nina traded the shop the pokemon .,nina traded the pokemon to the shop .
+1920,28,naba-do,traded,ryan traded a stranger the pokemon .,ryan traded the pokemon to a stranger .
+1921,28,naba-do,traded,the boy traded him the toys .,the boy traded the toys to him .
+1922,28,naba-do,traded,laura traded her the toys .,laura traded the toys to her .
+1923,28,naba-do,traded,nina traded them the toys .,nina traded the toys to them .
+1924,28,naba-do,traded,laura traded me the toys .,laura traded the toys to me .
+1925,28,naba-do,traded,david traded mommy the toys .,david traded the toys to mommy .
+1926,28,naba-do,traded,grandma traded the store the toys .,grandma traded the toys to the store .
+1927,28,naba-do,traded,ethan traded the girl the toys .,ethan traded the toys to the girl .
+1928,28,naba-do,traded,grandma traded the man the toys .,grandma traded the toys to the man .
+1929,28,naba-do,traded,you traded the shop the toys .,you traded the toys to the shop .
+1930,28,naba-do,traded,adam traded a stranger the toys .,adam traded the toys to a stranger .
+1931,28,naba-do,traded,nina traded him the books .,nina traded the books to him .
+1932,28,naba-do,traded,mommy traded her the books .,mommy traded the books to her .
+1933,28,naba-do,traded,john traded them the books .,john traded the books to them .
+1934,28,naba-do,traded,the boy traded me the books .,the boy traded the books to me .
+1935,28,naba-do,traded,john traded mommy the books .,john traded the books to mommy .
+1936,28,naba-do,traded,the boy traded the store the books .,the boy traded the books to the store .
+1937,28,naba-do,traded,john traded the girl the books .,john traded the books to the girl .
+1938,28,naba-do,traded,ryan traded the man the books .,ryan traded the books to the man .
+1939,28,naba-do,traded,david traded the shop the books .,david traded the books to the shop .
+1940,28,naba-do,traded,mommy traded a stranger the books .,mommy traded the books to a stranger .
+1941,28,naba-do,traded,daddy traded him something .,daddy traded something to him .
+1942,28,naba-do,traded,ethan traded her something .,ethan traded something to her .
+1943,28,naba-do,traded,john traded them something .,john traded something to them .
+1944,28,naba-do,traded,laura traded me something .,laura traded something to me .
+1945,28,naba-do,traded,the boy traded mommy something .,the boy traded something to mommy .
+1946,28,naba-do,traded,grandma traded the store something .,grandma traded something to the store .
+1947,28,naba-do,traded,david traded the girl something .,david traded something to the girl .
+1948,28,naba-do,traded,nina traded the man something .,nina traded something to the man .
+1949,28,naba-do,traded,the boy traded the shop something .,the boy traded something to the shop .
+1950,28,naba-do,traded,mommy traded a stranger something .,mommy traded something to a stranger .
+1951,28,naba-do,traded,grandma traded him that toy .,grandma traded that toy to him .
+1952,28,naba-do,traded,she traded her that toy .,she traded that toy to her .
+1953,28,naba-do,traded,david traded them that toy .,david traded that toy to them .
+1954,28,naba-do,traded,mommy traded me that toy .,mommy traded that toy to me .
+1955,28,naba-do,traded,ethan traded mommy that toy .,ethan traded that toy to mommy .
+1956,28,naba-do,traded,ethan traded the store that toy .,ethan traded that toy to the store .
+1957,28,naba-do,traded,she traded the girl that toy .,she traded that toy to the girl .
+1958,28,naba-do,traded,ethan traded the man that toy .,ethan traded that toy to the man .
+1959,28,naba-do,traded,grandma traded the shop that toy .,grandma traded that toy to the shop .
+1960,28,naba-do,traded,i traded a stranger that toy .,i traded that toy to a stranger .
