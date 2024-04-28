@@ -22,7 +22,7 @@ def main(args):
 
     results = []
     for batch in tqdm(stimuli_dl):
-        item_ids = batch["item_id"].tolist()
+        item_ids = batch["item_id"]
         do, pp = batch["do"], batch["pp"]
         do_scores = lm.sequence_score(do)
         pp_scores = lm.sequence_score(pp)
