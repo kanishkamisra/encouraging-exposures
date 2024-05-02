@@ -153,11 +153,87 @@ def generate_feature_space(feature_combo, lex):
     )
 
 
-def sample_items(agents, themes, recipients, N):
-    sampled_agents, sampled_themes, sampled_recipients = [], [], []
-    for i in range(N):
-        sampled_theme = random.choice(list(themes))
+# def sample_items(agents, themes, recipients, N):
+#     sampled_agents, sampled_themes, sampled_recipients = [], [], []
+#     for i in range(N):
+#         sampled_theme = random.choice(list(themes))
 
+#         conflict_set = OrderedSet(
+#             config.CONFLICTS[sampled_theme]
+#             if sampled_theme in config.CONFLICTS.keys()
+#             else []
+#         )
+#         # print(sampled_theme, recipients, conflict_set)
+#         recipient_space = recipients - OrderedSet([sampled_theme]) - conflict_set
+#         if len(recipient_space) == 0:
+#             sampled_recipient = ""
+#         else:
+#             sampled_recipient = random.choice(list(recipient_space))
+#             print(sampled_recipient)
+
+#         if sampled_theme in config.CONFLICTS.keys():
+#             conflict_set = conflict_set.union(
+#                 OrderedSet(config.CONFLICTS[sampled_theme])
+#             )
+#         if sampled_recipient in config.CONFLICTS.keys():
+#             conflict_set = conflict_set.union(
+#                 OrderedSet(config.CONFLICTS[sampled_recipient])
+#             )
+#         # print(sampled_theme, conflict_set)
+#         agent_space = (
+#             agents - OrderedSet([sampled_theme] + [sampled_recipient]) - conflict_set
+#         )
+#         sampled_agent = random.choice(list(agent_space))
+
+#         sampled_agents.append(sampled_agent)
+#         sampled_themes.append(sampled_theme)
+#         sampled_recipients.append(sampled_recipient)
+#         # print("")
+
+#     # generate agents separately
+#     # remove all themes and recipients, then the conflict set
+#     agent_conflicts = OrderedSet()
+#     for sampled_theme, sampled_recipient in zip(sampled_themes, sampled_recipients):
+#         conflict_set = OrderedSet(
+#             config.CONFLICTS[sampled_theme]
+#             if sampled_theme in config.CONFLICTS.keys()
+#             else []
+#         )
+#         conflict_set = conflict_set.union(
+#             OrderedSet(config.CONFLICTS[sampled_recipient])
+#             if sampled_recipient in config.CONFLICTS.keys()
+#             else []
+#         )
+#         agent_conflicts.update(
+#             OrderedSet([sampled_theme] + [sampled_recipient]).union(conflict_set)
+#         )
+
+#     agent_space = agents - agent_conflicts
+#     # print(
+#     #     "themes",
+#     #     sampled_themes,
+#     #     "recipients",
+#     #     sampled_recipients,
+#     #     "agents space",
+#     #     agent_space,
+#     # )
+#     if len(agent_space) < N:
+#         sampled_agents = random.choices(list(agent_space), k=N)
+#     else:
+#         sampled_agents = random.sample(list(agent_space), N)
+
+#     return sampled_agents, sampled_themes, sampled_recipients
+
+def sample_items(agents, themes, recipients, N):
+    # sample themes
+    if len(themes) < N:
+        # sampled_themes = random.choices(themes, k=N)
+        sampled_themes = random.sample(themes, min(N, len(themes))) + random.choices(themes, k=N - len(themes))
+    else:
+        sampled_themes = random.sample(themes, N)
+    sampled_recipients = []
+    sampled_agents = []
+    for sampled_theme in sampled_themes:
         conflict_set = OrderedSet(
             config.CONFLICTS[sampled_theme]
             if sampled_theme in config.CONFLICTS.keys()
@@ -169,7 +245,7 @@ def sample_items(agents, themes, recipients, N):
             sampled_recipient = ""
         else:
             sampled_recipient = random.choice(list(recipient_space))
-            print(sampled_recipient)
+            # print(sampled_recipient)
 
         if sampled_theme in config.CONFLICTS.keys():
             conflict_set = conflict_set.union(
@@ -186,29 +262,25 @@ def sample_items(agents, themes, recipients, N):
         sampled_agent = random.choice(list(agent_space))
 
         sampled_agents.append(sampled_agent)
-        sampled_themes.append(sampled_theme)
         sampled_recipients.append(sampled_recipient)
-        # print("")
 
-    # generate agents separately
-    # remove all themes and recipients, then the conflict set
-    agent_conflicts = OrderedSet()
-    for sampled_theme, sampled_recipient in zip(sampled_themes, sampled_recipients):
-        conflict_set = OrderedSet(
-            config.CONFLICTS[sampled_theme]
-            if sampled_theme in config.CONFLICTS.keys()
-            else []
-        )
-        conflict_set = conflict_set.union(
-            OrderedSet(config.CONFLICTS[sampled_recipient])
-            if sampled_recipient in config.CONFLICTS.keys()
-            else []
-        )
-        agent_conflicts.update(
-            OrderedSet([sampled_theme] + [sampled_recipient]).union(conflict_set)
-        )
+    # agent_conflicts = OrderedSet()
+    # for sampled_theme, sampled_recipient in zip(sampled_themes, sampled_recipients):
+    #     conflict_set = OrderedSet(
+    #         config.CONFLICTS[sampled_theme]
+    #         if sampled_theme in config.CONFLICTS.keys()
+    #         else []
+    #     )
+    #     conflict_set = conflict_set.union(
+    #         OrderedSet(config.CONFLICTS[sampled_recipient])
+    #         if sampled_recipient in config.CONFLICTS.keys()
+    #         else []
+    #     )
+    #     agent_conflicts.update(
+    #         OrderedSet([sampled_theme] + [sampled_recipient]).union(conflict_set)
+    #     )
 
-    agent_space = agents - agent_conflicts
+    # agent_space = agents - agent_conflicts
     # print(
     #     "themes",
     #     sampled_themes,
@@ -217,10 +289,10 @@ def sample_items(agents, themes, recipients, N):
     #     "agents space",
     #     agent_space,
     # )
-    if len(agent_space) < N:
-        sampled_agents = random.choices(list(agent_space), k=N)
-    else:
-        sampled_agents = random.sample(list(agent_space), N)
+    # if len(agent_space) < N:
+    #     sampled_agents = random.choices(list(agent_space), k=N)
+    # else:
+    #     sampled_agents = random.sample(list(agent_space), N)
 
     return sampled_agents, sampled_themes, sampled_recipients
 

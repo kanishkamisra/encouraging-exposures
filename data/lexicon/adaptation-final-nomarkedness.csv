@@ -3,7 +3,6 @@ agent,she
 agent,he
 agent,mommy
 agent,daddy
-agent,nonna
 agent,lucy
 agent,john
 pronoun,me
@@ -27,8 +26,6 @@ animate,a cat
 animate,the cat
 animate,a dog
 animate,the dog
-animate,elmo
-animate,bert
 animate,a big bear
 animate,the big bear
 animate,a cute cat
@@ -37,9 +34,9 @@ animate,the cute cat
 animate,the small dog
 animate,the bear over there
 animate,a bear outside the house
-animate,the cat outside the house
+animate,the cat in that house
 animate,the cat over there
-animate,a cat outside the house
+animate,a cat in that house
 animate,the dog outside the house
 animate,a dog outside the house
 animate,the dog over there
@@ -52,8 +49,6 @@ inanimate,a book
 inanimate,the book
 inanimate,a cup
 inanimate,the cup
-inanimate,a store
-inanimate,the store
 inanimate,a toy
 inanimate,the toys
 inanimate,a red ball
@@ -61,9 +56,6 @@ inanimate,the red ball
 inanimate,a nice book
 inanimate,some books
 inanimate,some balls
-inanimate,some store
-inanimate,a store that is far away
-inanimate,the store that is far away
 inanimate,a toy in the room
 inanimate,the toys in the room
 inanimate,the cup on the table
@@ -75,11 +67,10 @@ inanimate,the milk
 inanimate,the food on the table
 inanimate,the balls in the room
 inanimate,a ball in that room
-inanimate,cheerios
-inanimate,legos
+inanimate,the cheerios
+inanimate,the legos
 inanimate,a lego
-inanimate,the lego
-inanimate,pencils
+recipient,a lego
 inanimate,the pencils
 theme,me
 theme,her
@@ -96,8 +87,6 @@ theme,a cat
 theme,the cat
 theme,a dog
 theme,the dog
-theme,elmo
-theme,bert
 theme,a big bear
 theme,the big bear
 theme,a cute cat
@@ -106,9 +95,9 @@ theme,the cute cat
 theme,the small dog
 theme,the bear over there
 theme,a bear outside the house
-theme,the cat outside the house
+theme,the cat in that house
 theme,the cat over there
-theme,a cat outside the house
+theme,a cat in that house
 theme,the dog outside the house
 theme,a dog outside the house
 theme,the dog over there
@@ -139,11 +128,9 @@ theme,the milk
 theme,the food on the table
 theme,the balls in the room
 theme,a ball in that room
-theme,cheerios
-theme,legos
+theme,the cheerios
+theme,the legos
 theme,a lego
-theme,the lego
-theme,pencils
 theme,the pencils
 recipient,me
 recipient,her
@@ -160,8 +147,6 @@ recipient,a cat
 recipient,the cat
 recipient,a dog
 recipient,the dog
-recipient,elmo
-recipient,bert
 recipient,a big bear
 recipient,the big bear
 recipient,a cute cat
@@ -170,9 +155,9 @@ recipient,the cute cat
 recipient,the small dog
 recipient,the bear over there
 recipient,a bear outside the house
-recipient,the cat outside the house
+recipient,the cat in that house
 recipient,the cat over there
-recipient,a cat outside the house
+recipient,a cat in that house
 recipient,the dog outside the house
 recipient,a dog outside the house
 recipient,the dog over there
@@ -185,8 +170,6 @@ recipient,a book
 recipient,the book
 recipient,a cup
 recipient,the cup
-recipient,a store
-recipient,the store
 recipient,a toy
 recipient,the toys
 recipient,a red ball
@@ -194,9 +177,6 @@ recipient,the red ball
 recipient,a nice book
 recipient,some books
 recipient,some balls
-recipient,some store
-recipient,a store that is far away
-recipient,the store that is far away
 recipient,a toy in the room
 recipient,the toys in the room
 recipient,the cup on the table
@@ -208,8 +188,8 @@ recipient,the milk
 recipient,the food on the table
 recipient,the balls in the room
 recipient,a ball in that room
-recipient,cheerios
-recipient,pencils
+recipient,the cheerios
+recipient,the legos
 recipient,the pencils
 definite,grandma
 definite,mommy
@@ -223,30 +203,25 @@ definite,us
 definite,grandpa
 definite,the cat
 definite,the dog
-definite,elmo
-definite,bert
 definite,the big bear
 definite,the cute cat
 definite,the small dog
 definite,the bear over there
-definite,the cat outside the house
+definite,the cat in that house
 definite,the cat over there
 definite,the dog outside the house
 definite,the dog over there
 definite,the ball
 definite,the book
 definite,the cup
-definite,the store
 definite,the toys
 definite,the red ball
-definite,the store that is far away
 definite,the toys in the room
 definite,the cup on the table
 definite,the food
 definite,the milk
 definite,the food on the table
 definite,the balls in the room
-definite,the lego
 definite,the pencils
 indefinite,someone
 indefinite,something
@@ -256,28 +231,29 @@ indefinite,a big bear
 indefinite,a cute cat
 indefinite,a small dog
 indefinite,a bear outside the house
-indefinite,a cat outside the house
+indefinite,a cat in that house
 indefinite,a dog outside the house
 indefinite,a ball
 indefinite,a book
 indefinite,a cup
-indefinite,a store
 indefinite,a toy
 indefinite,a red ball
 indefinite,a nice book
 indefinite,some books
 indefinite,some balls
-indefinite,some store
-indefinite,a store that is far away
 indefinite,a toy in the room
 indefinite,a cup on the table
 indefinite,some milk
 indefinite,some food
 indefinite,a ball in that room
-definite,cheerios
-definite,legos
+definite,the cheerios
+definite,the legos
+inanimate,the legos
 indefinite,a lego
-indefinite,pencils
+indefinite,a pencil
+inanimate,a pencil
+theme,a pencil
+recipient,a pencil
 inanimate,a chair
 indefinite,a chair
 theme,a chair
@@ -286,7 +262,23 @@ inanimate,the chair
 definite,the chair
 theme,the chair
 recipient,the chair
-theme, some cheerios
-indefinite, some cheerios
-recipient, some cheerios
-inanimate, some cheerios
+theme,some cheerios
+indefinite,some cheerios
+recipient,some cheerios
+inanimate,some cheerios
+theme,the pencils in the box
+indefinite,the pencils in the box
+recipient,the pencils in the box
+inanimate,the pencils in the box
+theme,some dogs outside the house
+indefinite,some dogs outside the house
+recipient,some dogs outside the house
+animate,some dogs outside the house
+theme,some bears in the forest
+indefinite,some bears in the forest
+recipient,some bears in the forest
+animate,some bears in the forest
+theme,a bear
+recipient,a bear
+animate,a bear
+indefinite,a bear
