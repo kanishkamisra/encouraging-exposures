@@ -24,14 +24,14 @@ def write_jsonl(data, path):
 def generate_givenness(agent, given, sentence, template):
     return f"{template.format(agent, given)} {sentence}"
 
-adaptation = utils.read_jsonl("data/experiments/single_stimuli_dative_simulation_valtest_vbd_discourse_control/adaptation.jsonl")
-generalization = utils.read_jsonl("data/experiments/single_stimuli_dative_simulation_valtest_vbd_discourse_control/generalization.jsonl")
+adaptation = utils.read_jsonl("data/experiments/single_stimuli_dative_simulation_valtest_vbd_no_markedness_discourse_control/adaptation.jsonl")
+generalization = utils.read_jsonl("data/experiments/single_stimuli_dative_simulation_valtest_vbd_no_markedness_discourse_control/generalization.jsonl")
 
 for t_id, template in TEMPLATES.items():
-    save_dir_tg = f"data/experiments/single_stimuli_dative_simulation_valtest_vbd_discourse_theme_given_template_{t_id}"
+    save_dir_tg = f"data/experiments/single_stimuli_dative_simulation_valtest_vbd_no_markedness_discourse_theme_given_template_{t_id}"
     pathlib.Path(save_dir_tg).mkdir(parents=True, exist_ok=True)
     
-    save_dir_rg = f"data/experiments/single_stimuli_dative_simulation_valtest_vbd_discourse_recipient_given_template_{t_id}"
+    save_dir_rg = f"data/experiments/single_stimuli_dative_simulation_valtest_vbd_no_markedness_discourse_recipient_given_template_{t_id}"
     pathlib.Path(save_dir_rg).mkdir(parents=True, exist_ok=True)
     
     #write generalization as is:
