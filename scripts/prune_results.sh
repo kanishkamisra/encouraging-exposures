@@ -19,5 +19,6 @@ do
     # python src/prune_results_new.py --results_dir data/results/single_stimuli_dative_simulation_valtest_vbd_discourse_control/smolm-autoreg-bpe-seed_$seed/raw --experiment_name single_stimuli_dative_simulation_valtest_vbd_discourse_control
     # python src/prune_results_new.py --results_dir data/results/single_stimuli_dative_simulation_valtest_vbd_no_markedness_discourse_control/smolm-autoreg-bpe-seed_$seed/raw --experiment_name single_stimuli_dative_simulation_valtest_vbd_no_markedness_discourse_control
     # python src/prune_results_new.py --results_dir data/results/single_stimuli_dative_simulation_valtest_vbd_no_markedness_no_discourse/smolm-autoreg-bpe-seed_$seed/raw --experiment_name single_stimuli_dative_simulation_valtest_vbd_no_markedness_no_discourse
-    python src/prune_results_new.py --results_dir data/results/single_stimuli_dative_simulation_valtest_vbd_no_markedness_neutral_discourse/smolm-autoreg-bpe-seed_$seed/raw --experiment_name single_stimuli_dative_simulation_valtest_vbd_no_markedness_neutral_discourse
+    # python src/prune_results_new.py --results_dir data/results/single_stimuli_dative_simulation_valtest_vbd_no_markedness_neutral_discourse/smolm-autoreg-bpe-seed_$seed/raw --experiment_name single_stimuli_dative_simulation_valtest_vbd_no_markedness_neutral_discourse
+    python src/prune_results_new.py --results_dir data/results/single_stimuli_dative_simulation_valtest_vbd_neutral_discourse/smolm-autoreg-bpe-seed_$seed/raw --experiment_name single_stimuli_dative_simulation_valtest_vbd_neutral_discourse
 done
