@@ -1,0 +1,1281 @@
+key,dative,sentence
+naldpasd,do,mommy [verb] us the cat in that house .
+naldpasd,pp,mommy [verb] the cat in that house to us .
+naldpasd,do,he [verb] us the dog over there .
+naldpasd,pp,he [verb] the dog over there to us .
+naldpasd,do,john [verb] me the bear over there .
+naldpasd,pp,john [verb] the bear over there to me .
+naldpasd,do,john [verb] them the small dog .
+naldpasd,pp,john [verb] the small dog to them .
+naldpasd,do,lucy [verb] him the big bear .
+naldpasd,pp,lucy [verb] the big bear to him .
+naldpasd,do,he [verb] me the dog outside the house .
+naldpasd,pp,he [verb] the dog outside the house to me .
+naldpasd,do,she [verb] me the cat over there .
+naldpasd,pp,she [verb] the cat over there to me .
+naldpasd,do,lucy [verb] him the cute cat .
+naldpasd,pp,lucy [verb] the cute cat to him .
+naldpasd,do,she [verb] me the big bear .
+naldpasd,pp,she [verb] the big bear to me .
+naldpasd,do,john [verb] her the dog over there .
+naldpasd,pp,john [verb] the dog over there to her .
+naldpasi,do,mommy [verb] someone the small dog .
+naldpasi,pp,mommy [verb] the small dog to someone .
+naldpasi,do,john [verb] someone the bear over there .
+naldpasi,pp,john [verb] the bear over there to someone .
+naldpasi,do,he [verb] someone the dog outside the house .
+naldpasi,pp,he [verb] the dog outside the house to someone .
+naldpasi,do,daddy [verb] someone the dog over there .
+naldpasi,pp,daddy [verb] the dog over there to someone .
+naldpasi,do,mommy [verb] someone the cat over there .
+naldpasi,pp,mommy [verb] the cat over there to someone .
+naldpasi,do,john [verb] someone the cat in that house .
+naldpasi,pp,john [verb] the cat in that house to someone .
+naldpasi,do,lucy [verb] someone the big bear .
+naldpasi,pp,lucy [verb] the big bear to someone .
+naldpasi,do,she [verb] someone the cute cat .
+naldpasi,pp,she [verb] the cute cat to someone .
+naldpasi,do,mommy [verb] someone the cat over there .
+naldpasi,pp,mommy [verb] the cat over there to someone .
+naldpasi,do,she [verb] someone the dog outside the house .
+naldpasi,pp,she [verb] the dog outside the house to someone .
+naldpisd,do,she [verb] it the dog over there .
+naldpisd,pp,she [verb] the dog over there to it .
+naldpisd,do,lucy [verb] it the big bear .
+naldpisd,pp,lucy [verb] the big bear to it .
+naldpisd,do,he [verb] it the cat over there .
+naldpisd,pp,he [verb] the cat over there to it .
+naldpisd,do,he [verb] it the cute cat .
+naldpisd,pp,he [verb] the cute cat to it .
+naldpisd,do,mommy [verb] it the dog outside the house .
+naldpisd,pp,mommy [verb] the dog outside the house to it .
+naldpisd,do,he [verb] it the bear over there .
+naldpisd,pp,he [verb] the bear over there to it .
+naldpisd,do,he [verb] it the cat in that house .
+naldpisd,pp,he [verb] the cat in that house to it .
+naldpisd,do,john [verb] it the small dog .
+naldpisd,pp,john [verb] the small dog to it .
+naldpisd,do,he [verb] it the dog over there .
+naldpisd,pp,he [verb] the dog over there to it .
+naldpisd,do,mommy [verb] it the dog outside the house .
+naldpisd,pp,mommy [verb] the dog outside the house to it .
+naldpisi,do,daddy [verb] something the bear over there .
+naldpisi,pp,daddy [verb] the bear over there to something .
+naldpisi,do,mommy [verb] something the cat in that house .
+naldpisi,pp,mommy [verb] the cat in that house to something .
+naldpisi,do,daddy [verb] something the small dog .
+naldpisi,pp,daddy [verb] the small dog to something .
+naldpisi,do,lucy [verb] something the big bear .
+naldpisi,pp,lucy [verb] the big bear to something .
+naldpisi,do,john [verb] something the cute cat .
+naldpisi,pp,john [verb] the cute cat to something .
+naldpisi,do,daddy [verb] something the dog over there .
+naldpisi,pp,daddy [verb] the dog over there to something .
+naldpisi,do,she [verb] something the dog outside the house .
+naldpisi,pp,she [verb] the dog outside the house to something .
+naldpisi,do,daddy [verb] something the cat over there .
+naldpisi,pp,daddy [verb] the cat over there to something .
+naldpisi,do,john [verb] something the cat over there .
+naldpisi,pp,john [verb] the cat over there to something .
+naldpisi,do,daddy [verb] something the cat in that house .
+naldpisi,pp,daddy [verb] the cat in that house to something .
+naldnald,do,daddy [verb] the bear over there the dog over there .
+naldnald,pp,daddy [verb] the dog over there to the bear over there .
+naldnald,do,lucy [verb] the dog outside the house the big bear .
+naldnald,pp,lucy [verb] the big bear to the dog outside the house .
+naldnald,do,daddy [verb] the bear over there the dog outside the house .
+naldnald,pp,daddy [verb] the dog outside the house to the bear over there .
+naldnald,do,lucy [verb] the cat over there the small dog .
+naldnald,pp,lucy [verb] the small dog to the cat over there .
+naldnald,do,she [verb] the dog outside the house the cute cat .
+naldnald,pp,she [verb] the cute cat to the dog outside the house .
+naldnald,do,john [verb] the big bear the cat over there .
+naldnald,pp,john [verb] the cat over there to the big bear .
+naldnald,do,john [verb] the dog over there the cat in that house .
+naldnald,pp,john [verb] the cat in that house to the dog over there .
+naldnald,do,daddy [verb] the small dog the bear over there .
+naldnald,pp,daddy [verb] the bear over there to the small dog .
+naldnald,do,he [verb] the dog outside the house the cat in that house .
+naldnald,pp,he [verb] the cat in that house to the dog outside the house .
+naldnald,do,mommy [verb] the dog outside the house the cat in that house .
+naldnald,pp,mommy [verb] the cat in that house to the dog outside the house .
+naldnali,do,she [verb] a cat in that house the dog over there .
+naldnali,pp,she [verb] the dog over there to a cat in that house .
+naldnali,do,she [verb] a cute cat the bear over there .
+naldnali,pp,she [verb] the bear over there to a cute cat .
+naldnali,do,daddy [verb] a big bear the dog outside the house .
+naldnali,pp,daddy [verb] the dog outside the house to a big bear .
+naldnali,do,john [verb] a cute cat the big bear .
+naldnali,pp,john [verb] the big bear to a cute cat .
+naldnali,do,he [verb] a bear outside the house the small dog .
+naldnali,pp,he [verb] the small dog to a bear outside the house .
+naldnali,do,she [verb] some dogs outside the house the cute cat .
+naldnali,pp,she [verb] the cute cat to some dogs outside the house .
+naldnali,do,lucy [verb] some dogs outside the house the cat over there .
+naldnali,pp,lucy [verb] the cat over there to some dogs outside the house .
+naldnali,do,mommy [verb] some dogs outside the house the cat in that house .
+naldnali,pp,mommy [verb] the cat in that house to some dogs outside the house .
+naldnali,do,daddy [verb] a big bear the small dog .
+naldnali,pp,daddy [verb] the small dog to a big bear .
+naldnali,do,john [verb] a bear outside the house the cute cat .
+naldnali,pp,john [verb] the cute cat to a bear outside the house .
+naldnasd,do,john [verb] grandpa the dog outside the house .
+naldnasd,pp,john [verb] the dog outside the house to grandpa .
+naldnasd,do,he [verb] the cat the dog over there .
+naldnasd,pp,he [verb] the dog over there to the cat .
+naldnasd,do,daddy [verb] mommy the cat over there .
+naldnasd,pp,daddy [verb] the cat over there to mommy .
+naldnasd,do,mommy [verb] the dog the big bear .
+naldnasd,pp,mommy [verb] the big bear to the dog .
+naldnasd,do,daddy [verb] mommy the small dog .
+naldnasd,pp,daddy [verb] the small dog to mommy .
+naldnasd,do,he [verb] the dog the bear over there .
+naldnasd,pp,he [verb] the bear over there to the dog .
+naldnasd,do,lucy [verb] the dog the cute cat .
+naldnasd,pp,lucy [verb] the cute cat to the dog .
+naldnasd,do,john [verb] daddy the cat in that house .
+naldnasd,pp,john [verb] the cat in that house to daddy .
+naldnasd,do,john [verb] daddy the big bear .
+naldnasd,pp,john [verb] the big bear to daddy .
+naldnasd,do,john [verb] mommy the cat in that house .
+naldnasd,pp,john [verb] the cat in that house to mommy .
+naldnasi,do,she [verb] a bear the cat in that house .
+naldnasi,pp,she [verb] the cat in that house to a bear .
+naldnasi,do,john [verb] a cat the big bear .
+naldnasi,pp,john [verb] the big bear to a cat .
+naldnasi,do,she [verb] a dog the cute cat .
+naldnasi,pp,she [verb] the cute cat to a dog .
+naldnasi,do,daddy [verb] a cat the small dog .
+naldnasi,pp,daddy [verb] the small dog to a cat .
+naldnasi,do,daddy [verb] a bear the dog over there .
+naldnasi,pp,daddy [verb] the dog over there to a bear .
+naldnasi,do,he [verb] a bear the cat over there .
+naldnasi,pp,he [verb] the cat over there to a bear .
+naldnasi,do,mommy [verb] a dog the bear over there .
+naldnasi,pp,mommy [verb] the bear over there to a dog .
+naldnasi,do,lucy [verb] a bear the dog outside the house .
+naldnasi,pp,lucy [verb] the dog outside the house to a bear .
+naldnasi,do,she [verb] a dog the cute cat .
+naldnasi,pp,she [verb] the cute cat to a dog .
+naldnasi,do,he [verb] a dog the cute cat .
+naldnasi,pp,he [verb] the cute cat to a dog .
+nalipasd,do,mommy [verb] me a small dog .
+nalipasd,pp,mommy [verb] a small dog to me .
+nalipasd,do,daddy [verb] them a bear outside the house .
+nalipasd,pp,daddy [verb] a bear outside the house to them .
+nalipasd,do,she [verb] me a big bear .
+nalipasd,pp,she [verb] a big bear to me .
+nalipasd,do,daddy [verb] him some dogs outside the house .
+nalipasd,pp,daddy [verb] some dogs outside the house to him .
+nalipasd,do,john [verb] me a cat in that house .
+nalipasd,pp,john [verb] a cat in that house to me .
+nalipasd,do,lucy [verb] me some bears in the forest .
+nalipasd,pp,lucy [verb] some bears in the forest to me .
+nalipasd,do,lucy [verb] us a cute cat .
+nalipasd,pp,lucy [verb] a cute cat to us .
+nalipasd,do,daddy [verb] them a dog outside the house .
+nalipasd,pp,daddy [verb] a dog outside the house to them .
+nalipasd,do,lucy [verb] us a cat in that house .
+nalipasd,pp,lucy [verb] a cat in that house to us .
+nalipasd,do,daddy [verb] me a small dog .
+nalipasd,pp,daddy [verb] a small dog to me .
+nalipasi,do,lucy [verb] someone a bear outside the house .
+nalipasi,pp,lucy [verb] a bear outside the house to someone .
+nalipasi,do,she [verb] someone a small dog .
+nalipasi,pp,she [verb] a small dog to someone .
+nalipasi,do,john [verb] someone a cat in that house .
+nalipasi,pp,john [verb] a cat in that house to someone .
+nalipasi,do,daddy [verb] someone some bears in the forest .
+nalipasi,pp,daddy [verb] some bears in the forest to someone .
+nalipasi,do,mommy [verb] someone a cute cat .
+nalipasi,pp,mommy [verb] a cute cat to someone .
+nalipasi,do,mommy [verb] someone a big bear .
+nalipasi,pp,mommy [verb] a big bear to someone .
+nalipasi,do,daddy [verb] someone a dog outside the house .
+nalipasi,pp,daddy [verb] a dog outside the house to someone .
+nalipasi,do,john [verb] someone some dogs outside the house .
+nalipasi,pp,john [verb] some dogs outside the house to someone .
+nalipasi,do,john [verb] someone some dogs outside the house .
+nalipasi,pp,john [verb] some dogs outside the house to someone .
+nalipasi,do,she [verb] someone some dogs outside the house .
+nalipasi,pp,she [verb] some dogs outside the house to someone .
+nalipisd,do,mommy [verb] it a dog outside the house .
+nalipisd,pp,mommy [verb] a dog outside the house to it .
+nalipisd,do,he [verb] it a big bear .
+nalipisd,pp,he [verb] a big bear to it .
+nalipisd,do,mommy [verb] it a cat in that house .
+nalipisd,pp,mommy [verb] a cat in that house to it .
+nalipisd,do,john [verb] it a bear outside the house .
+nalipisd,pp,john [verb] a bear outside the house to it .
+nalipisd,do,he [verb] it a small dog .
+nalipisd,pp,he [verb] a small dog to it .
+nalipisd,do,john [verb] it a cute cat .
+nalipisd,pp,john [verb] a cute cat to it .
+nalipisd,do,lucy [verb] it some dogs outside the house .
+nalipisd,pp,lucy [verb] some dogs outside the house to it .
+nalipisd,do,she [verb] it some bears in the forest .
+nalipisd,pp,she [verb] some bears in the forest to it .
+nalipisd,do,mommy [verb] it a big bear .
+nalipisd,pp,mommy [verb] a big bear to it .
+nalipisd,do,he [verb] it a dog outside the house .
+nalipisd,pp,he [verb] a dog outside the house to it .
+nalipisi,do,john [verb] something a dog outside the house .
+nalipisi,pp,john [verb] a dog outside the house to something .
+nalipisi,do,lucy [verb] something some dogs outside the house .
+nalipisi,pp,lucy [verb] some dogs outside the house to something .
+nalipisi,do,lucy [verb] something a bear outside the house .
+nalipisi,pp,lucy [verb] a bear outside the house to something .
+nalipisi,do,he [verb] something a cute cat .
+nalipisi,pp,he [verb] a cute cat to something .
+nalipisi,do,he [verb] something a cat in that house .
+nalipisi,pp,he [verb] a cat in that house to something .
+nalipisi,do,john [verb] something a big bear .
+nalipisi,pp,john [verb] a big bear to something .
+nalipisi,do,she [verb] something a small dog .
+nalipisi,pp,she [verb] a small dog to something .
+nalipisi,do,mommy [verb] something some bears in the forest .
+nalipisi,pp,mommy [verb] some bears in the forest to something .
+nalipisi,do,daddy [verb] something a small dog .
+nalipisi,pp,daddy [verb] a small dog to something .
+nalipisi,do,john [verb] something some dogs outside the house .
+nalipisi,pp,john [verb] some dogs outside the house to something .
+nalinald,do,daddy [verb] the cat over there some bears in the forest .
+nalinald,pp,daddy [verb] some bears in the forest to the cat over there .
+nalinald,do,daddy [verb] the bear over there a cute cat .
+nalinald,pp,daddy [verb] a cute cat to the bear over there .
+nalinald,do,lucy [verb] the dog over there a cat in that house .
+nalinald,pp,lucy [verb] a cat in that house to the dog over there .
+nalinald,do,he [verb] the cat in that house some dogs outside the house .
+nalinald,pp,he [verb] some dogs outside the house to the cat in that house .
+nalinald,do,lucy [verb] the cute cat a small dog .
+nalinald,pp,lucy [verb] a small dog to the cute cat .
+nalinald,do,mommy [verb] the cute cat a dog outside the house .
+nalinald,pp,mommy [verb] a dog outside the house to the cute cat .
+nalinald,do,john [verb] the cute cat a big bear .
+nalinald,pp,john [verb] a big bear to the cute cat .
+nalinald,do,mommy [verb] the cat over there a bear outside the house .
+nalinald,pp,mommy [verb] a bear outside the house to the cat over there .
+nalinald,do,she [verb] the cat over there a dog outside the house .
+nalinald,pp,she [verb] a dog outside the house to the cat over there .
+nalinald,do,she [verb] the dog over there a cat in that house .
+nalinald,pp,she [verb] a cat in that house to the dog over there .
+nalinali,do,mommy [verb] a dog outside the house a cat in that house .
+nalinali,pp,mommy [verb] a cat in that house to a dog outside the house .
+nalinali,do,daddy [verb] a cute cat a big bear .
+nalinali,pp,daddy [verb] a big bear to a cute cat .
+nalinali,do,daddy [verb] a big bear a cute cat .
+nalinali,pp,daddy [verb] a cute cat to a big bear .
+nalinali,do,mommy [verb] some bears in the forest a small dog .
+nalinali,pp,mommy [verb] a small dog to some bears in the forest .
+nalinali,do,daddy [verb] a small dog a bear outside the house .
+nalinali,pp,daddy [verb] a bear outside the house to a small dog .
+nalinali,do,mommy [verb] a cute cat some bears in the forest .
+nalinali,pp,mommy [verb] some bears in the forest to a cute cat .
+nalinali,do,she [verb] a cute cat some dogs outside the house .
+nalinali,pp,she [verb] some dogs outside the house to a cute cat .
+nalinali,do,she [verb] a bear outside the house a dog outside the house .
+nalinali,pp,she [verb] a dog outside the house to a bear outside the house .
+nalinali,do,he [verb] a cat in that house a big bear .
+nalinali,pp,he [verb] a big bear to a cat in that house .
+nalinali,do,she [verb] a small dog some bears in the forest .
+nalinali,pp,she [verb] some bears in the forest to a small dog .
+nalinasd,do,lucy [verb] grandpa a cat in that house .
+nalinasd,pp,lucy [verb] a cat in that house to grandpa .
+nalinasd,do,john [verb] daddy some dogs outside the house .
+nalinasd,pp,john [verb] some dogs outside the house to daddy .
+nalinasd,do,she [verb] the cat a bear outside the house .
+nalinasd,pp,she [verb] a bear outside the house to the cat .
+nalinasd,do,he [verb] grandma a cute cat .
+nalinasd,pp,he [verb] a cute cat to grandma .
+nalinasd,do,she [verb] grandma a dog outside the house .
+nalinasd,pp,she [verb] a dog outside the house to grandma .
+nalinasd,do,he [verb] mommy some bears in the forest .
+nalinasd,pp,he [verb] some bears in the forest to mommy .
+nalinasd,do,john [verb] the cat a big bear .
+nalinasd,pp,john [verb] a big bear to the cat .
+nalinasd,do,lucy [verb] daddy a small dog .
+nalinasd,pp,lucy [verb] a small dog to daddy .
+nalinasd,do,she [verb] mommy a big bear .
+nalinasd,pp,she [verb] a big bear to mommy .
+nalinasd,do,lucy [verb] the dog a cute cat .
+nalinasd,pp,lucy [verb] a cute cat to the dog .
+nalinasi,do,lucy [verb] a cat a big bear .
+nalinasi,pp,lucy [verb] a big bear to a cat .
+nalinasi,do,he [verb] a bear a dog outside the house .
+nalinasi,pp,he [verb] a dog outside the house to a bear .
+nalinasi,do,lucy [verb] a dog a cat in that house .
+nalinasi,pp,lucy [verb] a cat in that house to a dog .
+nalinasi,do,she [verb] a bear some dogs outside the house .
+nalinasi,pp,she [verb] some dogs outside the house to a bear .
+nalinasi,do,daddy [verb] a dog a cute cat .
+nalinasi,pp,daddy [verb] a cute cat to a dog .
+nalinasi,do,she [verb] a bear a small dog .
+nalinasi,pp,she [verb] a small dog to a bear .
+nalinasi,do,mommy [verb] a dog some bears in the forest .
+nalinasi,pp,mommy [verb] some bears in the forest to a dog .
+nalinasi,do,john [verb] a dog a bear outside the house .
+nalinasi,pp,john [verb] a bear outside the house to a dog .
+nalinasi,do,mommy [verb] a cat a bear outside the house .
+nalinasi,pp,mommy [verb] a bear outside the house to a cat .
+nalinasi,do,mommy [verb] a dog a cat in that house .
+nalinasi,pp,mommy [verb] a cat in that house to a dog .
+nasdpasd,do,he [verb] them grandpa .
+nasdpasd,pp,he [verb] grandpa to them .
+nasdpasd,do,daddy [verb] us mommy .
+nasdpasd,pp,daddy [verb] mommy to us .
+nasdpasd,do,he [verb] them the dog .
+nasdpasd,pp,he [verb] the dog to them .
+nasdpasd,do,he [verb] me grandma .
+nasdpasd,pp,he [verb] grandma to me .
+nasdpasd,do,daddy [verb] me the cat .
+nasdpasd,pp,daddy [verb] the cat to me .
+nasdpasd,do,john [verb] her daddy .
+nasdpasd,pp,john [verb] daddy to her .
+nasdpasd,do,john [verb] me the cat .
+nasdpasd,pp,john [verb] the cat to me .
+nasdpasd,do,lucy [verb] him daddy .
+nasdpasd,pp,lucy [verb] daddy to him .
+nasdpasd,do,john [verb] me mommy .
+nasdpasd,pp,john [verb] mommy to me .
+nasdpasd,do,mommy [verb] us the dog .
+nasdpasd,pp,mommy [verb] the dog to us .
+nasdpasi,do,lucy [verb] someone grandma .
+nasdpasi,pp,lucy [verb] grandma to someone .
+nasdpasi,do,daddy [verb] someone grandpa .
+nasdpasi,pp,daddy [verb] grandpa to someone .
+nasdpasi,do,lucy [verb] someone the dog .
+nasdpasi,pp,lucy [verb] the dog to someone .
+nasdpasi,do,she [verb] someone the cat .
+nasdpasi,pp,she [verb] the cat to someone .
+nasdpasi,do,lucy [verb] someone mommy .
+nasdpasi,pp,lucy [verb] mommy to someone .
+nasdpasi,do,john [verb] someone daddy .
+nasdpasi,pp,john [verb] daddy to someone .
+nasdpasi,do,lucy [verb] someone daddy .
+nasdpasi,pp,lucy [verb] daddy to someone .
+nasdpasi,do,he [verb] someone the dog .
+nasdpasi,pp,he [verb] the dog to someone .
+nasdpasi,do,john [verb] someone grandpa .
+nasdpasi,pp,john [verb] grandpa to someone .
+nasdpasi,do,daddy [verb] someone grandma .
+nasdpasi,pp,daddy [verb] grandma to someone .
+nasdpisd,do,mommy [verb] it the cat .
+nasdpisd,pp,mommy [verb] the cat to it .
+nasdpisd,do,he [verb] it the dog .
+nasdpisd,pp,he [verb] the dog to it .
+nasdpisd,do,john [verb] it grandma .
+nasdpisd,pp,john [verb] grandma to it .
+nasdpisd,do,daddy [verb] it mommy .
+nasdpisd,pp,daddy [verb] mommy to it .
+nasdpisd,do,she [verb] it daddy .
+nasdpisd,pp,she [verb] daddy to it .
+nasdpisd,do,he [verb] it grandpa .
+nasdpisd,pp,he [verb] grandpa to it .
+nasdpisd,do,he [verb] it grandma .
+nasdpisd,pp,he [verb] grandma to it .
+nasdpisd,do,john [verb] it daddy .
+nasdpisd,pp,john [verb] daddy to it .
+nasdpisd,do,john [verb] it mommy .
+nasdpisd,pp,john [verb] mommy to it .
+nasdpisd,do,john [verb] it mommy .
+nasdpisd,pp,john [verb] mommy to it .
+nasdpisi,do,john [verb] something the dog .
+nasdpisi,pp,john [verb] the dog to something .
+nasdpisi,do,lucy [verb] something grandpa .
+nasdpisi,pp,lucy [verb] grandpa to something .
+nasdpisi,do,john [verb] something daddy .
+nasdpisi,pp,john [verb] daddy to something .
+nasdpisi,do,daddy [verb] something grandma .
+nasdpisi,pp,daddy [verb] grandma to something .
+nasdpisi,do,john [verb] something the cat .
+nasdpisi,pp,john [verb] the cat to something .
+nasdpisi,do,lucy [verb] something mommy .
+nasdpisi,pp,lucy [verb] mommy to something .
+nasdpisi,do,john [verb] something the dog .
+nasdpisi,pp,john [verb] the dog to something .
+nasdpisi,do,daddy [verb] something mommy .
+nasdpisi,pp,daddy [verb] mommy to something .
+nasdpisi,do,she [verb] something mommy .
+nasdpisi,pp,she [verb] mommy to something .
+nasdpisi,do,he [verb] something the cat .
+nasdpisi,pp,he [verb] the cat to something .
+nasdnald,do,daddy [verb] the bear over there the cat .
+nasdnald,pp,daddy [verb] the cat to the bear over there .
+nasdnald,do,mommy [verb] the small dog daddy .
+nasdnald,pp,mommy [verb] daddy to the small dog .
+nasdnald,do,lucy [verb] the cat over there the dog .
+nasdnald,pp,lucy [verb] the dog to the cat over there .
+nasdnald,do,mommy [verb] the cute cat grandpa .
+nasdnald,pp,mommy [verb] grandpa to the cute cat .
+nasdnald,do,lucy [verb] the bear over there mommy .
+nasdnald,pp,lucy [verb] mommy to the bear over there .
+nasdnald,do,mommy [verb] the cute cat grandma .
+nasdnald,pp,mommy [verb] grandma to the cute cat .
+nasdnald,do,he [verb] the dog outside the house the cat .
+nasdnald,pp,he [verb] the cat to the dog outside the house .
+nasdnald,do,she [verb] the small dog grandpa .
+nasdnald,pp,she [verb] grandpa to the small dog .
+nasdnald,do,mommy [verb] the big bear the dog .
+nasdnald,pp,mommy [verb] the dog to the big bear .
+nasdnald,do,lucy [verb] the cat in that house the dog .
+nasdnald,pp,lucy [verb] the dog to the cat in that house .
+nasdnali,do,daddy [verb] a bear outside the house the cat .
+nasdnali,pp,daddy [verb] the cat to a bear outside the house .
+nasdnali,do,she [verb] a big bear grandpa .
+nasdnali,pp,she [verb] grandpa to a big bear .
+nasdnali,do,lucy [verb] a cat in that house the dog .
+nasdnali,pp,lucy [verb] the dog to a cat in that house .
+nasdnali,do,he [verb] some bears in the forest daddy .
+nasdnali,pp,he [verb] daddy to some bears in the forest .
+nasdnali,do,lucy [verb] a bear outside the house grandma .
+nasdnali,pp,lucy [verb] grandma to a bear outside the house .
+nasdnali,do,she [verb] a dog outside the house mommy .
+nasdnali,pp,she [verb] mommy to a dog outside the house .
+nasdnali,do,mommy [verb] a big bear the dog .
+nasdnali,pp,mommy [verb] the dog to a big bear .
+nasdnali,do,lucy [verb] some bears in the forest grandma .
+nasdnali,pp,lucy [verb] grandma to some bears in the forest .
+nasdnali,do,john [verb] some bears in the forest the cat .
+nasdnali,pp,john [verb] the cat to some bears in the forest .
+nasdnali,do,mommy [verb] some bears in the forest grandma .
+nasdnali,pp,mommy [verb] grandma to some bears in the forest .
+nasdnasd,do,john [verb] daddy the dog .
+nasdnasd,pp,john [verb] the dog to daddy .
+nasdnasd,do,daddy [verb] grandma mommy .
+nasdnasd,pp,daddy [verb] mommy to grandma .
+nasdnasd,do,mommy [verb] the dog daddy .
+nasdnasd,pp,mommy [verb] daddy to the dog .
+nasdnasd,do,lucy [verb] mommy grandpa .
+nasdnasd,pp,lucy [verb] grandpa to mommy .
+nasdnasd,do,lucy [verb] daddy the cat .
+nasdnasd,pp,lucy [verb] the cat to daddy .
+nasdnasd,do,mommy [verb] daddy grandma .
+nasdnasd,pp,mommy [verb] grandma to daddy .
+nasdnasd,do,john [verb] daddy the dog .
+nasdnasd,pp,john [verb] the dog to daddy .
+nasdnasd,do,he [verb] mommy the dog .
+nasdnasd,pp,he [verb] the dog to mommy .
+nasdnasd,do,lucy [verb] mommy grandma .
+nasdnasd,pp,lucy [verb] grandma to mommy .
+nasdnasd,do,mommy [verb] the cat grandma .
+nasdnasd,pp,mommy [verb] grandma to the cat .
+nasdnasi,do,he [verb] a bear the dog .
+nasdnasi,pp,he [verb] the dog to a bear .
+nasdnasi,do,lucy [verb] a bear grandma .
+nasdnasi,pp,lucy [verb] grandma to a bear .
+nasdnasi,do,mommy [verb] a cat grandpa .
+nasdnasi,pp,mommy [verb] grandpa to a cat .
+nasdnasi,do,daddy [verb] a bear mommy .
+nasdnasi,pp,daddy [verb] mommy to a bear .
+nasdnasi,do,daddy [verb] a dog the cat .
+nasdnasi,pp,daddy [verb] the cat to a dog .
+nasdnasi,do,mommy [verb] a bear daddy .
+nasdnasi,pp,mommy [verb] daddy to a bear .
+nasdnasi,do,daddy [verb] a bear mommy .
+nasdnasi,pp,daddy [verb] mommy to a bear .
+nasdnasi,do,john [verb] a bear mommy .
+nasdnasi,pp,john [verb] mommy to a bear .
+nasdnasi,do,daddy [verb] a bear grandpa .
+nasdnasi,pp,daddy [verb] grandpa to a bear .
+nasdnasi,do,lucy [verb] a bear grandma .
+nasdnasi,pp,lucy [verb] grandma to a bear .
+nasipasd,do,daddy [verb] him a cat .
+nasipasd,pp,daddy [verb] a cat to him .
+nasipasd,do,she [verb] him a bear .
+nasipasd,pp,she [verb] a bear to him .
+nasipasd,do,john [verb] me a dog .
+nasipasd,pp,john [verb] a dog to me .
+nasipasd,do,he [verb] us a bear .
+nasipasd,pp,he [verb] a bear to us .
+nasipasd,do,john [verb] us a bear .
+nasipasd,pp,john [verb] a bear to us .
+nasipasd,do,he [verb] me a cat .
+nasipasd,pp,he [verb] a cat to me .
+nasipasd,do,he [verb] them a dog .
+nasipasd,pp,he [verb] a dog to them .
+nasipasd,do,daddy [verb] me a bear .
+nasipasd,pp,daddy [verb] a bear to me .
+nasipasd,do,he [verb] them a dog .
+nasipasd,pp,he [verb] a dog to them .
+nasipasd,do,she [verb] him a dog .
+nasipasd,pp,she [verb] a dog to him .
+nasipasi,do,mommy [verb] someone a cat .
+nasipasi,pp,mommy [verb] a cat to someone .
+nasipasi,do,she [verb] someone a dog .
+nasipasi,pp,she [verb] a dog to someone .
+nasipasi,do,he [verb] someone a bear .
+nasipasi,pp,he [verb] a bear to someone .
+nasipasi,do,john [verb] someone a bear .
+nasipasi,pp,john [verb] a bear to someone .
+nasipasi,do,john [verb] someone a dog .
+nasipasi,pp,john [verb] a dog to someone .
+nasipasi,do,she [verb] someone a dog .
+nasipasi,pp,she [verb] a dog to someone .
+nasipasi,do,mommy [verb] someone a dog .
+nasipasi,pp,mommy [verb] a dog to someone .
+nasipasi,do,he [verb] someone a dog .
+nasipasi,pp,he [verb] a dog to someone .
+nasipasi,do,daddy [verb] someone a bear .
+nasipasi,pp,daddy [verb] a bear to someone .
+nasipasi,do,she [verb] someone a cat .
+nasipasi,pp,she [verb] a cat to someone .
+nasipisd,do,mommy [verb] it a dog .
+nasipisd,pp,mommy [verb] a dog to it .
+nasipisd,do,mommy [verb] it a cat .
+nasipisd,pp,mommy [verb] a cat to it .
+nasipisd,do,john [verb] it a bear .
+nasipisd,pp,john [verb] a bear to it .
+nasipisd,do,she [verb] it a bear .
+nasipisd,pp,she [verb] a bear to it .
+nasipisd,do,daddy [verb] it a dog .
+nasipisd,pp,daddy [verb] a dog to it .
+nasipisd,do,he [verb] it a bear .
+nasipisd,pp,he [verb] a bear to it .
+nasipisd,do,john [verb] it a cat .
+nasipisd,pp,john [verb] a cat to it .
+nasipisd,do,john [verb] it a dog .
+nasipisd,pp,john [verb] a dog to it .
+nasipisd,do,john [verb] it a dog .
+nasipisd,pp,john [verb] a dog to it .
+nasipisd,do,mommy [verb] it a cat .
+nasipisd,pp,mommy [verb] a cat to it .
+nasipisi,do,he [verb] something a bear .
+nasipisi,pp,he [verb] a bear to something .
+nasipisi,do,lucy [verb] something a cat .
+nasipisi,pp,lucy [verb] a cat to something .
+nasipisi,do,lucy [verb] something a dog .
+nasipisi,pp,lucy [verb] a dog to something .
+nasipisi,do,she [verb] something a bear .
+nasipisi,pp,she [verb] a bear to something .
+nasipisi,do,she [verb] something a dog .
+nasipisi,pp,she [verb] a dog to something .
+nasipisi,do,lucy [verb] something a dog .
+nasipisi,pp,lucy [verb] a dog to something .
+nasipisi,do,he [verb] something a bear .
+nasipisi,pp,he [verb] a bear to something .
+nasipisi,do,lucy [verb] something a dog .
+nasipisi,pp,lucy [verb] a dog to something .
+nasipisi,do,she [verb] something a bear .
+nasipisi,pp,she [verb] a bear to something .
+nasipisi,do,john [verb] something a bear .
+nasipisi,pp,john [verb] a bear to something .
+nasinald,do,mommy [verb] the dog over there a bear .
+nasinald,pp,mommy [verb] a bear to the dog over there .
+nasinald,do,daddy [verb] the big bear a dog .
+nasinald,pp,daddy [verb] a dog to the big bear .
+nasinald,do,she [verb] the bear over there a cat .
+nasinald,pp,she [verb] a cat to the bear over there .
+nasinald,do,he [verb] the dog over there a bear .
+nasinald,pp,he [verb] a bear to the dog over there .
+nasinald,do,she [verb] the cat over there a dog .
+nasinald,pp,she [verb] a dog to the cat over there .
+nasinald,do,daddy [verb] the big bear a cat .
+nasinald,pp,daddy [verb] a cat to the big bear .
+nasinald,do,john [verb] the bear over there a cat .
+nasinald,pp,john [verb] a cat to the bear over there .
+nasinald,do,lucy [verb] the big bear a dog .
+nasinald,pp,lucy [verb] a dog to the big bear .
+nasinald,do,she [verb] the big bear a dog .
+nasinald,pp,she [verb] a dog to the big bear .
+nasinald,do,she [verb] the cat in that house a dog .
+nasinald,pp,she [verb] a dog to the cat in that house .
+nasinali,do,daddy [verb] a cat in that house a dog .
+nasinali,pp,daddy [verb] a dog to a cat in that house .
+nasinali,do,john [verb] a cute cat a bear .
+nasinali,pp,john [verb] a bear to a cute cat .
+nasinali,do,lucy [verb] some bears in the forest a cat .
+nasinali,pp,lucy [verb] a cat to some bears in the forest .
+nasinali,do,john [verb] a small dog a bear .
+nasinali,pp,john [verb] a bear to a small dog .
+nasinali,do,she [verb] a cat in that house a bear .
+nasinali,pp,she [verb] a bear to a cat in that house .
+nasinali,do,lucy [verb] a small dog a bear .
+nasinali,pp,lucy [verb] a bear to a small dog .
+nasinali,do,lucy [verb] a cat in that house a dog .
+nasinali,pp,lucy [verb] a dog to a cat in that house .
+nasinali,do,john [verb] a cute cat a dog .
+nasinali,pp,john [verb] a dog to a cute cat .
+nasinali,do,she [verb] a small dog a bear .
+nasinali,pp,she [verb] a bear to a small dog .
+nasinali,do,mommy [verb] a big bear a dog .
+nasinali,pp,mommy [verb] a dog to a big bear .
+nasinasd,do,lucy [verb] the cat a dog .
+nasinasd,pp,lucy [verb] a dog to the cat .
+nasinasd,do,he [verb] mommy a bear .
+nasinasd,pp,he [verb] a bear to mommy .
+nasinasd,do,she [verb] grandpa a cat .
+nasinasd,pp,she [verb] a cat to grandpa .
+nasinasd,do,john [verb] mommy a bear .
+nasinasd,pp,john [verb] a bear to mommy .
+nasinasd,do,lucy [verb] mommy a cat .
+nasinasd,pp,lucy [verb] a cat to mommy .
+nasinasd,do,she [verb] daddy a dog .
+nasinasd,pp,she [verb] a dog to daddy .
+nasinasd,do,john [verb] grandpa a cat .
+nasinasd,pp,john [verb] a cat to grandpa .
+nasinasd,do,lucy [verb] mommy a bear .
+nasinasd,pp,lucy [verb] a bear to mommy .
+nasinasd,do,he [verb] the cat a bear .
+nasinasd,pp,he [verb] a bear to the cat .
+nasinasd,do,he [verb] daddy a cat .
+nasinasd,pp,he [verb] a cat to daddy .
+nasinasi,do,john [verb] a dog a cat .
+nasinasi,pp,john [verb] a cat to a dog .
+nasinasi,do,daddy [verb] a cat a bear .
+nasinasi,pp,daddy [verb] a bear to a cat .
+nasinasi,do,mommy [verb] a bear a dog .
+nasinasi,pp,mommy [verb] a dog to a bear .
+nasinasi,do,lucy [verb] a dog a cat .
+nasinasi,pp,lucy [verb] a cat to a dog .
+nasinasi,do,john [verb] a cat a bear .
+nasinasi,pp,john [verb] a bear to a cat .
+nasinasi,do,lucy [verb] a bear a dog .
+nasinasi,pp,lucy [verb] a dog to a bear .
+nasinasi,do,she [verb] a bear a dog .
+nasinasi,pp,she [verb] a dog to a bear .
+nasinasi,do,john [verb] a dog a bear .
+nasinasi,pp,john [verb] a bear to a dog .
+nasinasi,do,lucy [verb] a dog a bear .
+nasinasi,pp,lucy [verb] a bear to a dog .
+nasinasi,do,john [verb] a bear a cat .
+nasinasi,pp,john [verb] a cat to a bear .
+nildpasd,do,daddy [verb] us the red ball .
+nildpasd,pp,daddy [verb] the red ball to us .
+nildpasd,do,she [verb] them the balls in the room .
+nildpasd,pp,she [verb] the balls in the room to them .
+nildpasd,do,lucy [verb] me the toys in the room .
+nildpasd,pp,lucy [verb] the toys in the room to me .
+nildpasd,do,daddy [verb] us the food on the table .
+nildpasd,pp,daddy [verb] the food on the table to us .
+nildpasd,do,she [verb] me the cup on the table .
+nildpasd,pp,she [verb] the cup on the table to me .
+nildpasd,do,john [verb] us the red ball .
+nildpasd,pp,john [verb] the red ball to us .
+nildpasd,do,john [verb] him the red ball .
+nildpasd,pp,john [verb] the red ball to him .
+nildpasd,do,she [verb] him the toys in the room .
+nildpasd,pp,she [verb] the toys in the room to him .
+nildpasd,do,john [verb] us the cup on the table .
+nildpasd,pp,john [verb] the cup on the table to us .
+nildpasd,do,he [verb] them the red ball .
+nildpasd,pp,he [verb] the red ball to them .
+nildpasi,do,daddy [verb] someone the red ball .
+nildpasi,pp,daddy [verb] the red ball to someone .
+nildpasi,do,lucy [verb] someone the balls in the room .
+nildpasi,pp,lucy [verb] the balls in the room to someone .
+nildpasi,do,john [verb] someone the cup on the table .
+nildpasi,pp,john [verb] the cup on the table to someone .
+nildpasi,do,mommy [verb] someone the food on the table .
+nildpasi,pp,mommy [verb] the food on the table to someone .
+nildpasi,do,john [verb] someone the toys in the room .
+nildpasi,pp,john [verb] the toys in the room to someone .
+nildpasi,do,she [verb] someone the red ball .
+nildpasi,pp,she [verb] the red ball to someone .
+nildpasi,do,daddy [verb] someone the cup on the table .
+nildpasi,pp,daddy [verb] the cup on the table to someone .
+nildpasi,do,lucy [verb] someone the balls in the room .
+nildpasi,pp,lucy [verb] the balls in the room to someone .
+nildpasi,do,she [verb] someone the toys in the room .
+nildpasi,pp,she [verb] the toys in the room to someone .
+nildpasi,do,john [verb] someone the toys in the room .
+nildpasi,pp,john [verb] the toys in the room to someone .
+nildpisd,do,john [verb] it the toys in the room .
+nildpisd,pp,john [verb] the toys in the room to it .
+nildpisd,do,mommy [verb] it the red ball .
+nildpisd,pp,mommy [verb] the red ball to it .
+nildpisd,do,she [verb] it the balls in the room .
+nildpisd,pp,she [verb] the balls in the room to it .
+nildpisd,do,lucy [verb] it the cup on the table .
+nildpisd,pp,lucy [verb] the cup on the table to it .
+nildpisd,do,he [verb] it the food on the table .
+nildpisd,pp,he [verb] the food on the table to it .
+nildpisd,do,she [verb] it the cup on the table .
+nildpisd,pp,she [verb] the cup on the table to it .
+nildpisd,do,lucy [verb] it the balls in the room .
+nildpisd,pp,lucy [verb] the balls in the room to it .
+nildpisd,do,john [verb] it the red ball .
+nildpisd,pp,john [verb] the red ball to it .
+nildpisd,do,she [verb] it the cup on the table .
+nildpisd,pp,she [verb] the cup on the table to it .
+nildpisd,do,he [verb] it the red ball .
+nildpisd,pp,he [verb] the red ball to it .
+nildpisi,do,she [verb] something the balls in the room .
+nildpisi,pp,she [verb] the balls in the room to something .
+nildpisi,do,daddy [verb] something the toys in the room .
+nildpisi,pp,daddy [verb] the toys in the room to something .
+nildpisi,do,she [verb] something the cup on the table .
+nildpisi,pp,she [verb] the cup on the table to something .
+nildpisi,do,lucy [verb] something the food on the table .
+nildpisi,pp,lucy [verb] the food on the table to something .
+nildpisi,do,mommy [verb] something the red ball .
+nildpisi,pp,mommy [verb] the red ball to something .
+nildpisi,do,john [verb] something the toys in the room .
+nildpisi,pp,john [verb] the toys in the room to something .
+nildpisi,do,daddy [verb] something the food on the table .
+nildpisi,pp,daddy [verb] the food on the table to something .
+nildpisi,do,he [verb] something the food on the table .
+nildpisi,pp,he [verb] the food on the table to something .
+nildpisi,do,lucy [verb] something the food on the table .
+nildpisi,pp,lucy [verb] the food on the table to something .
+nildpisi,do,daddy [verb] something the red ball .
+nildpisi,pp,daddy [verb] the red ball to something .
+nildnald,do,mommy [verb] the dog outside the house the toys in the room .
+nildnald,pp,mommy [verb] the toys in the room to the dog outside the house .
+nildnald,do,she [verb] the cat over there the food on the table .
+nildnald,pp,she [verb] the food on the table to the cat over there .
+nildnald,do,she [verb] the cute cat the red ball .
+nildnald,pp,she [verb] the red ball to the cute cat .
+nildnald,do,daddy [verb] the cat in that house the balls in the room .
+nildnald,pp,daddy [verb] the balls in the room to the cat in that house .
+nildnald,do,mommy [verb] the cat over there the cup on the table .
+nildnald,pp,mommy [verb] the cup on the table to the cat over there .
+nildnald,do,he [verb] the cute cat the food on the table .
+nildnald,pp,he [verb] the food on the table to the cute cat .
+nildnald,do,he [verb] the cute cat the red ball .
+nildnald,pp,he [verb] the red ball to the cute cat .
+nildnald,do,daddy [verb] the dog outside the house the red ball .
+nildnald,pp,daddy [verb] the red ball to the dog outside the house .
+nildnald,do,she [verb] the dog outside the house the food on the table .
+nildnald,pp,she [verb] the food on the table to the dog outside the house .
+nildnald,do,she [verb] the big bear the food on the table .
+nildnald,pp,she [verb] the food on the table to the big bear .
+nildnali,do,lucy [verb] a bear outside the house the cup on the table .
+nildnali,pp,lucy [verb] the cup on the table to a bear outside the house .
+nildnali,do,john [verb] a small dog the red ball .
+nildnali,pp,john [verb] the red ball to a small dog .
+nildnali,do,he [verb] some dogs outside the house the balls in the room .
+nildnali,pp,he [verb] the balls in the room to some dogs outside the house .
+nildnali,do,mommy [verb] a small dog the toys in the room .
+nildnali,pp,mommy [verb] the toys in the room to a small dog .
+nildnali,do,mommy [verb] a cat in that house the food on the table .
+nildnali,pp,mommy [verb] the food on the table to a cat in that house .
+nildnali,do,he [verb] some bears in the forest the red ball .
+nildnali,pp,he [verb] the red ball to some bears in the forest .
+nildnali,do,he [verb] a cute cat the cup on the table .
+nildnali,pp,he [verb] the cup on the table to a cute cat .
+nildnali,do,mommy [verb] some dogs outside the house the food on the table .
+nildnali,pp,mommy [verb] the food on the table to some dogs outside the house .
+nildnali,do,mommy [verb] some dogs outside the house the food on the table .
+nildnali,pp,mommy [verb] the food on the table to some dogs outside the house .
+nildnali,do,she [verb] some bears in the forest the cup on the table .
+nildnali,pp,she [verb] the cup on the table to some bears in the forest .
+nildnasd,do,mommy [verb] the cat the cup on the table .
+nildnasd,pp,mommy [verb] the cup on the table to the cat .
+nildnasd,do,mommy [verb] the cat the balls in the room .
+nildnasd,pp,mommy [verb] the balls in the room to the cat .
+nildnasd,do,john [verb] the cat the red ball .
+nildnasd,pp,john [verb] the red ball to the cat .
+nildnasd,do,he [verb] the dog the toys in the room .
+nildnasd,pp,he [verb] the toys in the room to the dog .
+nildnasd,do,mommy [verb] grandma the food on the table .
+nildnasd,pp,mommy [verb] the food on the table to grandma .
+nildnasd,do,john [verb] the dog the cup on the table .
+nildnasd,pp,john [verb] the cup on the table to the dog .
+nildnasd,do,daddy [verb] grandpa the red ball .
+nildnasd,pp,daddy [verb] the red ball to grandpa .
+nildnasd,do,he [verb] grandma the red ball .
+nildnasd,pp,he [verb] the red ball to grandma .
+nildnasd,do,mommy [verb] the cat the toys in the room .
+nildnasd,pp,mommy [verb] the toys in the room to the cat .
+nildnasd,do,john [verb] grandma the balls in the room .
+nildnasd,pp,john [verb] the balls in the room to grandma .
+nildnasi,do,he [verb] a bear the food on the table .
+nildnasi,pp,he [verb] the food on the table to a bear .
+nildnasi,do,lucy [verb] a bear the toys in the room .
+nildnasi,pp,lucy [verb] the toys in the room to a bear .
+nildnasi,do,john [verb] a cat the balls in the room .
+nildnasi,pp,john [verb] the balls in the room to a cat .
+nildnasi,do,john [verb] a dog the cup on the table .
+nildnasi,pp,john [verb] the cup on the table to a dog .
+nildnasi,do,daddy [verb] a cat the red ball .
+nildnasi,pp,daddy [verb] the red ball to a cat .
+nildnasi,do,john [verb] a dog the balls in the room .
+nildnasi,pp,john [verb] the balls in the room to a dog .
+nildnasi,do,daddy [verb] a cat the toys in the room .
+nildnasi,pp,daddy [verb] the toys in the room to a cat .
+nildnasi,do,daddy [verb] a bear the red ball .
+nildnasi,pp,daddy [verb] the red ball to a bear .
+nildnasi,do,john [verb] a cat the cup on the table .
+nildnasi,pp,john [verb] the cup on the table to a cat .
+nildnasi,do,he [verb] a dog the cup on the table .
+nildnasi,pp,he [verb] the cup on the table to a dog .
+nilipasd,do,daddy [verb] her a toy in the room .
+nilipasd,pp,daddy [verb] a toy in the room to her .
+nilipasd,do,he [verb] me the pencils in the box .
+nilipasd,pp,he [verb] the pencils in the box to me .
+nilipasd,do,mommy [verb] him a cup on the table .
+nilipasd,pp,mommy [verb] a cup on the table to him .
+nilipasd,do,daddy [verb] us a ball in that room .
+nilipasd,pp,daddy [verb] a ball in that room to us .
+nilipasd,do,lucy [verb] them a red ball .
+nilipasd,pp,lucy [verb] a red ball to them .
+nilipasd,do,john [verb] her a nice book .
+nilipasd,pp,john [verb] a nice book to her .
+nilipasd,do,daddy [verb] them the pencils in the box .
+nilipasd,pp,daddy [verb] the pencils in the box to them .
+nilipasd,do,lucy [verb] her a cup on the table .
+nilipasd,pp,lucy [verb] a cup on the table to her .
+nilipasd,do,john [verb] us a ball in that room .
+nilipasd,pp,john [verb] a ball in that room to us .
+nilipasd,do,john [verb] her a nice book .
+nilipasd,pp,john [verb] a nice book to her .
+nilipasi,do,he [verb] someone a nice book .
+nilipasi,pp,he [verb] a nice book to someone .
+nilipasi,do,daddy [verb] someone a cup on the table .
+nilipasi,pp,daddy [verb] a cup on the table to someone .
+nilipasi,do,daddy [verb] someone a toy in the room .
+nilipasi,pp,daddy [verb] a toy in the room to someone .
+nilipasi,do,daddy [verb] someone a red ball .
+nilipasi,pp,daddy [verb] a red ball to someone .
+nilipasi,do,daddy [verb] someone a ball in that room .
+nilipasi,pp,daddy [verb] a ball in that room to someone .
+nilipasi,do,she [verb] someone the pencils in the box .
+nilipasi,pp,she [verb] the pencils in the box to someone .
+nilipasi,do,he [verb] someone the pencils in the box .
+nilipasi,pp,he [verb] the pencils in the box to someone .
+nilipasi,do,she [verb] someone a cup on the table .
+nilipasi,pp,she [verb] a cup on the table to someone .
+nilipasi,do,he [verb] someone the pencils in the box .
+nilipasi,pp,he [verb] the pencils in the box to someone .
+nilipasi,do,he [verb] someone the pencils in the box .
+nilipasi,pp,he [verb] the pencils in the box to someone .
+nilipisd,do,john [verb] it a cup on the table .
+nilipisd,pp,john [verb] a cup on the table to it .
+nilipisd,do,lucy [verb] it a ball in that room .
+nilipisd,pp,lucy [verb] a ball in that room to it .
+nilipisd,do,daddy [verb] it the pencils in the box .
+nilipisd,pp,daddy [verb] the pencils in the box to it .
+nilipisd,do,john [verb] it a toy in the room .
+nilipisd,pp,john [verb] a toy in the room to it .
+nilipisd,do,mommy [verb] it a red ball .
+nilipisd,pp,mommy [verb] a red ball to it .
+nilipisd,do,daddy [verb] it a nice book .
+nilipisd,pp,daddy [verb] a nice book to it .
+nilipisd,do,mommy [verb] it a nice book .
+nilipisd,pp,mommy [verb] a nice book to it .
+nilipisd,do,daddy [verb] it a cup on the table .
+nilipisd,pp,daddy [verb] a cup on the table to it .
+nilipisd,do,he [verb] it the pencils in the box .
+nilipisd,pp,he [verb] the pencils in the box to it .
+nilipisd,do,john [verb] it a cup on the table .
+nilipisd,pp,john [verb] a cup on the table to it .
+nilipisi,do,mommy [verb] something a ball in that room .
+nilipisi,pp,mommy [verb] a ball in that room to something .
+nilipisi,do,mommy [verb] something a toy in the room .
+nilipisi,pp,mommy [verb] a toy in the room to something .
+nilipisi,do,lucy [verb] something a cup on the table .
+nilipisi,pp,lucy [verb] a cup on the table to something .
+nilipisi,do,he [verb] something a red ball .
+nilipisi,pp,he [verb] a red ball to something .
+nilipisi,do,she [verb] something the pencils in the box .
+nilipisi,pp,she [verb] the pencils in the box to something .
+nilipisi,do,john [verb] something a nice book .
+nilipisi,pp,john [verb] a nice book to something .
+nilipisi,do,john [verb] something a ball in that room .
+nilipisi,pp,john [verb] a ball in that room to something .
+nilipisi,do,he [verb] something a ball in that room .
+nilipisi,pp,he [verb] a ball in that room to something .
+nilipisi,do,john [verb] something a cup on the table .
+nilipisi,pp,john [verb] a cup on the table to something .
+nilipisi,do,he [verb] something a cup on the table .
+nilipisi,pp,he [verb] a cup on the table to something .
+nilinald,do,lucy [verb] the dog outside the house the pencils in the box .
+nilinald,pp,lucy [verb] the pencils in the box to the dog outside the house .
+nilinald,do,john [verb] the cat in that house a cup on the table .
+nilinald,pp,john [verb] a cup on the table to the cat in that house .
+nilinald,do,daddy [verb] the cat over there a ball in that room .
+nilinald,pp,daddy [verb] a ball in that room to the cat over there .
+nilinald,do,mommy [verb] the dog over there a red ball .
+nilinald,pp,mommy [verb] a red ball to the dog over there .
+nilinald,do,john [verb] the big bear a nice book .
+nilinald,pp,john [verb] a nice book to the big bear .
+nilinald,do,john [verb] the cute cat a toy in the room .
+nilinald,pp,john [verb] a toy in the room to the cute cat .
+nilinald,do,john [verb] the dog over there a toy in the room .
+nilinald,pp,john [verb] a toy in the room to the dog over there .
+nilinald,do,she [verb] the cat over there a red ball .
+nilinald,pp,she [verb] a red ball to the cat over there .
+nilinald,do,he [verb] the dog outside the house a ball in that room .
+nilinald,pp,he [verb] a ball in that room to the dog outside the house .
+nilinald,do,he [verb] the dog outside the house a ball in that room .
+nilinald,pp,he [verb] a ball in that room to the dog outside the house .
+nilinali,do,she [verb] a big bear a cup on the table .
+nilinali,pp,she [verb] a cup on the table to a big bear .
+nilinali,do,john [verb] a cute cat a toy in the room .
+nilinali,pp,john [verb] a toy in the room to a cute cat .
+nilinali,do,she [verb] some bears in the forest a ball in that room .
+nilinali,pp,she [verb] a ball in that room to some bears in the forest .
+nilinali,do,he [verb] a cute cat a nice book .
+nilinali,pp,he [verb] a nice book to a cute cat .
+nilinali,do,daddy [verb] some bears in the forest the pencils in the box .
+nilinali,pp,daddy [verb] the pencils in the box to some bears in the forest .
+nilinali,do,daddy [verb] a big bear a red ball .
+nilinali,pp,daddy [verb] a red ball to a big bear .
+nilinali,do,john [verb] a bear outside the house a cup on the table .
+nilinali,pp,john [verb] a cup on the table to a bear outside the house .
+nilinali,do,john [verb] a small dog a toy in the room .
+nilinali,pp,john [verb] a toy in the room to a small dog .
+nilinali,do,he [verb] a cat in that house a toy in the room .
+nilinali,pp,he [verb] a toy in the room to a cat in that house .
+nilinali,do,she [verb] a cat in that house a ball in that room .
+nilinali,pp,she [verb] a ball in that room to a cat in that house .
+nilinasd,do,john [verb] the cat the pencils in the box .
+nilinasd,pp,john [verb] the pencils in the box to the cat .
+nilinasd,do,she [verb] mommy a toy in the room .
+nilinasd,pp,she [verb] a toy in the room to mommy .
+nilinasd,do,he [verb] mommy a ball in that room .
+nilinasd,pp,he [verb] a ball in that room to mommy .
+nilinasd,do,she [verb] the cat a red ball .
+nilinasd,pp,she [verb] a red ball to the cat .
+nilinasd,do,lucy [verb] grandpa a nice book .
+nilinasd,pp,lucy [verb] a nice book to grandpa .
+nilinasd,do,lucy [verb] grandpa a cup on the table .
+nilinasd,pp,lucy [verb] a cup on the table to grandpa .
+nilinasd,do,lucy [verb] daddy a red ball .
+nilinasd,pp,lucy [verb] a red ball to daddy .
+nilinasd,do,she [verb] mommy a cup on the table .
+nilinasd,pp,she [verb] a cup on the table to mommy .
+nilinasd,do,mommy [verb] daddy a ball in that room .
+nilinasd,pp,mommy [verb] a ball in that room to daddy .
+nilinasd,do,lucy [verb] mommy a ball in that room .
+nilinasd,pp,lucy [verb] a ball in that room to mommy .
+nilinasi,do,he [verb] a dog the pencils in the box .
+nilinasi,pp,he [verb] the pencils in the box to a dog .
+nilinasi,do,he [verb] a dog a nice book .
+nilinasi,pp,he [verb] a nice book to a dog .
+nilinasi,do,john [verb] a bear a cup on the table .
+nilinasi,pp,john [verb] a cup on the table to a bear .
+nilinasi,do,she [verb] a cat a red ball .
+nilinasi,pp,she [verb] a red ball to a cat .
+nilinasi,do,lucy [verb] a bear a toy in the room .
+nilinasi,pp,lucy [verb] a toy in the room to a bear .
+nilinasi,do,lucy [verb] a cat a ball in that room .
+nilinasi,pp,lucy [verb] a ball in that room to a cat .
+nilinasi,do,he [verb] a bear a red ball .
+nilinasi,pp,he [verb] a red ball to a bear .
+nilinasi,do,mommy [verb] a dog a ball in that room .
+nilinasi,pp,mommy [verb] a ball in that room to a dog .
+nilinasi,do,he [verb] a bear a red ball .
+nilinasi,pp,he [verb] a red ball to a bear .
+nilinasi,do,john [verb] a bear a toy in the room .
+nilinasi,pp,john [verb] a toy in the room to a bear .
+nisdpasd,do,daddy [verb] her the book .
+nisdpasd,pp,daddy [verb] the book to her .
+nisdpasd,do,lucy [verb] me the legos .
+nisdpasd,pp,lucy [verb] the legos to me .
+nisdpasd,do,he [verb] me the pencils .
+nisdpasd,pp,he [verb] the pencils to me .
+nisdpasd,do,she [verb] us the food .
+nisdpasd,pp,she [verb] the food to us .
+nisdpasd,do,she [verb] me the cup .
+nisdpasd,pp,she [verb] the cup to me .
+nisdpasd,do,he [verb] her the ball .
+nisdpasd,pp,he [verb] the ball to her .
+nisdpasd,do,mommy [verb] them the toys .
+nisdpasd,pp,mommy [verb] the toys to them .
+nisdpasd,do,he [verb] them the milk .
+nisdpasd,pp,he [verb] the milk to them .
+nisdpasd,do,he [verb] her the cheerios .
+nisdpasd,pp,he [verb] the cheerios to her .
+nisdpasd,do,john [verb] us the chair .
+nisdpasd,pp,john [verb] the chair to us .
+nisdpasi,do,he [verb] someone the cheerios .
+nisdpasi,pp,he [verb] the cheerios to someone .
+nisdpasi,do,lucy [verb] someone the toys .
+nisdpasi,pp,lucy [verb] the toys to someone .
+nisdpasi,do,daddy [verb] someone the milk .
+nisdpasi,pp,daddy [verb] the milk to someone .
+nisdpasi,do,daddy [verb] someone the book .
+nisdpasi,pp,daddy [verb] the book to someone .
+nisdpasi,do,mommy [verb] someone the pencils .
+nisdpasi,pp,mommy [verb] the pencils to someone .
+nisdpasi,do,she [verb] someone the cup .
+nisdpasi,pp,she [verb] the cup to someone .
+nisdpasi,do,she [verb] someone the food .
+nisdpasi,pp,she [verb] the food to someone .
+nisdpasi,do,he [verb] someone the ball .
+nisdpasi,pp,he [verb] the ball to someone .
+nisdpasi,do,lucy [verb] someone the chair .
+nisdpasi,pp,lucy [verb] the chair to someone .
+nisdpasi,do,john [verb] someone the legos .
+nisdpasi,pp,john [verb] the legos to someone .
+nisdpisd,do,daddy [verb] it the chair .
+nisdpisd,pp,daddy [verb] the chair to it .
+nisdpisd,do,he [verb] it the toys .
+nisdpisd,pp,he [verb] the toys to it .
+nisdpisd,do,john [verb] it the legos .
+nisdpisd,pp,john [verb] the legos to it .
+nisdpisd,do,mommy [verb] it the cup .
+nisdpisd,pp,mommy [verb] the cup to it .
+nisdpisd,do,john [verb] it the food .
+nisdpisd,pp,john [verb] the food to it .
+nisdpisd,do,john [verb] it the pencils .
+nisdpisd,pp,john [verb] the pencils to it .
+nisdpisd,do,she [verb] it the book .
+nisdpisd,pp,she [verb] the book to it .
+nisdpisd,do,lucy [verb] it the cheerios .
+nisdpisd,pp,lucy [verb] the cheerios to it .
+nisdpisd,do,daddy [verb] it the ball .
+nisdpisd,pp,daddy [verb] the ball to it .
+nisdpisd,do,she [verb] it the milk .
+nisdpisd,pp,she [verb] the milk to it .
+nisdpisi,do,lucy [verb] something the cup .
+nisdpisi,pp,lucy [verb] the cup to something .
+nisdpisi,do,lucy [verb] something the food .
+nisdpisi,pp,lucy [verb] the food to something .
+nisdpisi,do,john [verb] something the book .
+nisdpisi,pp,john [verb] the book to something .
+nisdpisi,do,she [verb] something the ball .
+nisdpisi,pp,she [verb] the ball to something .
+nisdpisi,do,daddy [verb] something the legos .
+nisdpisi,pp,daddy [verb] the legos to something .
+nisdpisi,do,he [verb] something the pencils .
+nisdpisi,pp,he [verb] the pencils to something .
+nisdpisi,do,mommy [verb] something the toys .
+nisdpisi,pp,mommy [verb] the toys to something .
+nisdpisi,do,daddy [verb] something the chair .
+nisdpisi,pp,daddy [verb] the chair to something .
+nisdpisi,do,mommy [verb] something the milk .
+nisdpisi,pp,mommy [verb] the milk to something .
+nisdpisi,do,mommy [verb] something the cheerios .
+nisdpisi,pp,mommy [verb] the cheerios to something .
+nisdnald,do,mommy [verb] the dog over there the toys .
+nisdnald,pp,mommy [verb] the toys to the dog over there .
+nisdnald,do,she [verb] the dog outside the house the book .
+nisdnald,pp,she [verb] the book to the dog outside the house .
+nisdnald,do,he [verb] the cat over there the chair .
+nisdnald,pp,he [verb] the chair to the cat over there .
+nisdnald,do,mommy [verb] the dog over there the pencils .
+nisdnald,pp,mommy [verb] the pencils to the dog over there .
+nisdnald,do,mommy [verb] the dog over there the food .
+nisdnald,pp,mommy [verb] the food to the dog over there .
+nisdnald,do,she [verb] the cute cat the ball .
+nisdnald,pp,she [verb] the ball to the cute cat .
+nisdnald,do,john [verb] the small dog the cheerios .
+nisdnald,pp,john [verb] the cheerios to the small dog .
+nisdnald,do,john [verb] the cat in that house the milk .
+nisdnald,pp,john [verb] the milk to the cat in that house .
+nisdnald,do,he [verb] the big bear the cup .
+nisdnald,pp,he [verb] the cup to the big bear .
+nisdnald,do,he [verb] the cat over there the legos .
+nisdnald,pp,he [verb] the legos to the cat over there .
+nisdnali,do,daddy [verb] some dogs outside the house the book .
+nisdnali,pp,daddy [verb] the book to some dogs outside the house .
+nisdnali,do,she [verb] a bear outside the house the toys .
+nisdnali,pp,she [verb] the toys to a bear outside the house .
+nisdnali,do,she [verb] some bears in the forest the milk .
+nisdnali,pp,she [verb] the milk to some bears in the forest .
+nisdnali,do,she [verb] a small dog the pencils .
+nisdnali,pp,she [verb] the pencils to a small dog .
+nisdnali,do,she [verb] a big bear the food .
+nisdnali,pp,she [verb] the food to a big bear .
+nisdnali,do,he [verb] a bear outside the house the ball .
+nisdnali,pp,he [verb] the ball to a bear outside the house .
+nisdnali,do,daddy [verb] a bear outside the house the cup .
+nisdnali,pp,daddy [verb] the cup to a bear outside the house .
+nisdnali,do,john [verb] a dog outside the house the chair .
+nisdnali,pp,john [verb] the chair to a dog outside the house .
+nisdnali,do,lucy [verb] a cute cat the legos .
+nisdnali,pp,lucy [verb] the legos to a cute cat .
+nisdnali,do,she [verb] a cat in that house the cheerios .
+nisdnali,pp,she [verb] the cheerios to a cat in that house .
+nisdnasd,do,she [verb] the cat the ball .
+nisdnasd,pp,she [verb] the ball to the cat .
+nisdnasd,do,lucy [verb] grandpa the book .
+nisdnasd,pp,lucy [verb] the book to grandpa .
+nisdnasd,do,john [verb] the cat the toys .
+nisdnasd,pp,john [verb] the toys to the cat .
+nisdnasd,do,daddy [verb] the cat the milk .
+nisdnasd,pp,daddy [verb] the milk to the cat .
+nisdnasd,do,lucy [verb] mommy the legos .
+nisdnasd,pp,lucy [verb] the legos to mommy .
+nisdnasd,do,lucy [verb] daddy the pencils .
+nisdnasd,pp,lucy [verb] the pencils to daddy .
+nisdnasd,do,mommy [verb] grandpa the chair .
+nisdnasd,pp,mommy [verb] the chair to grandpa .
+nisdnasd,do,he [verb] grandpa the food .
+nisdnasd,pp,he [verb] the food to grandpa .
+nisdnasd,do,mommy [verb] grandma the cheerios .
+nisdnasd,pp,mommy [verb] the cheerios to grandma .
+nisdnasd,do,he [verb] the cat the cup .
+nisdnasd,pp,he [verb] the cup to the cat .
+nisdnasi,do,he [verb] a dog the ball .
+nisdnasi,pp,he [verb] the ball to a dog .
+nisdnasi,do,he [verb] a dog the toys .
+nisdnasi,pp,he [verb] the toys to a dog .
+nisdnasi,do,lucy [verb] a bear the food .
+nisdnasi,pp,lucy [verb] the food to a bear .
+nisdnasi,do,john [verb] a cat the pencils .
+nisdnasi,pp,john [verb] the pencils to a cat .
+nisdnasi,do,she [verb] a bear the cheerios .
+nisdnasi,pp,she [verb] the cheerios to a bear .
+nisdnasi,do,john [verb] a dog the legos .
+nisdnasi,pp,john [verb] the legos to a dog .
+nisdnasi,do,daddy [verb] a dog the milk .
+nisdnasi,pp,daddy [verb] the milk to a dog .
+nisdnasi,do,daddy [verb] a bear the chair .
+nisdnasi,pp,daddy [verb] the chair to a bear .
+nisdnasi,do,lucy [verb] a dog the cup .
+nisdnasi,pp,lucy [verb] the cup to a dog .
+nisdnasi,do,mommy [verb] a bear the book .
+nisdnasi,pp,mommy [verb] the book to a bear .
+nisipasd,do,she [verb] him a book .
+nisipasd,pp,she [verb] a book to him .
+nisipasd,do,she [verb] me a chair .
+nisipasd,pp,she [verb] a chair to me .
+nisipasd,do,daddy [verb] them some balls .
+nisipasd,pp,daddy [verb] some balls to them .
+nisipasd,do,he [verb] them some food .
+nisipasd,pp,he [verb] some food to them .
+nisipasd,do,daddy [verb] them a ball .
+nisipasd,pp,daddy [verb] a ball to them .
+nisipasd,do,mommy [verb] them a cup .
+nisipasd,pp,mommy [verb] a cup to them .
+nisipasd,do,daddy [verb] us some cheerios .
+nisipasd,pp,daddy [verb] some cheerios to us .
+nisipasd,do,daddy [verb] me a pencil .
+nisipasd,pp,daddy [verb] a pencil to me .
+nisipasd,do,john [verb] us a lego .
+nisipasd,pp,john [verb] a lego to us .
+nisipasd,do,mommy [verb] her some books .
+nisipasd,pp,mommy [verb] some books to her .
+nisipasi,do,daddy [verb] someone some food .
+nisipasi,pp,daddy [verb] some food to someone .
+nisipasi,do,john [verb] someone a book .
+nisipasi,pp,john [verb] a book to someone .
+nisipasi,do,lucy [verb] someone a ball .
+nisipasi,pp,lucy [verb] a ball to someone .
+nisipasi,do,mommy [verb] someone some books .
+nisipasi,pp,mommy [verb] some books to someone .
+nisipasi,do,john [verb] someone a pencil .
+nisipasi,pp,john [verb] a pencil to someone .
+nisipasi,do,daddy [verb] someone a cup .
+nisipasi,pp,daddy [verb] a cup to someone .
+nisipasi,do,lucy [verb] someone some milk .
+nisipasi,pp,lucy [verb] some milk to someone .
+nisipasi,do,he [verb] someone some cheerios .
+nisipasi,pp,he [verb] some cheerios to someone .
+nisipasi,do,she [verb] someone a lego .
+nisipasi,pp,she [verb] a lego to someone .
+nisipasi,do,he [verb] someone a chair .
+nisipasi,pp,he [verb] a chair to someone .
+nisipisd,do,daddy [verb] it a toy .
+nisipisd,pp,daddy [verb] a toy to it .
+nisipisd,do,he [verb] it some milk .
+nisipisd,pp,he [verb] some milk to it .
+nisipisd,do,mommy [verb] it a lego .
+nisipisd,pp,mommy [verb] a lego to it .
+nisipisd,do,daddy [verb] it a pencil .
+nisipisd,pp,daddy [verb] a pencil to it .
+nisipisd,do,mommy [verb] it some books .
+nisipisd,pp,mommy [verb] some books to it .
+nisipisd,do,he [verb] it some balls .
+nisipisd,pp,he [verb] some balls to it .
+nisipisd,do,she [verb] it a cup .
+nisipisd,pp,she [verb] a cup to it .
+nisipisd,do,he [verb] it a chair .
+nisipisd,pp,he [verb] a chair to it .
+nisipisd,do,she [verb] it a book .
+nisipisd,pp,she [verb] a book to it .
+nisipisd,do,she [verb] it a ball .
+nisipisd,pp,she [verb] a ball to it .
+nisipisi,do,daddy [verb] something some books .
+nisipisi,pp,daddy [verb] some books to something .
+nisipisi,do,he [verb] something some milk .
+nisipisi,pp,he [verb] some milk to something .
+nisipisi,do,she [verb] something some food .
+nisipisi,pp,she [verb] some food to something .
+nisipisi,do,daddy [verb] something a pencil .
+nisipisi,pp,daddy [verb] a pencil to something .
+nisipisi,do,mommy [verb] something some cheerios .
+nisipisi,pp,mommy [verb] some cheerios to something .
+nisipisi,do,mommy [verb] something a ball .
+nisipisi,pp,mommy [verb] a ball to something .
+nisipisi,do,he [verb] something some balls .
+nisipisi,pp,he [verb] some balls to something .
+nisipisi,do,she [verb] something a lego .
+nisipisi,pp,she [verb] a lego to something .
+nisipisi,do,lucy [verb] something a toy .
+nisipisi,pp,lucy [verb] a toy to something .
+nisipisi,do,lucy [verb] something a chair .
+nisipisi,pp,lucy [verb] a chair to something .
+nisinald,do,she [verb] the cat in that house a toy .
+nisinald,pp,she [verb] a toy to the cat in that house .
+nisinald,do,john [verb] the dog outside the house a lego .
+nisinald,pp,john [verb] a lego to the dog outside the house .
+nisinald,do,lucy [verb] the big bear a ball .
+nisinald,pp,lucy [verb] a ball to the big bear .
+nisinald,do,she [verb] the small dog some milk .
+nisinald,pp,she [verb] some milk to the small dog .
+nisinald,do,he [verb] the dog over there a chair .
+nisinald,pp,he [verb] a chair to the dog over there .
+nisinald,do,he [verb] the small dog some books .
+nisinald,pp,he [verb] some books to the small dog .
+nisinald,do,he [verb] the bear over there some balls .
+nisinald,pp,he [verb] some balls to the bear over there .
+nisinald,do,daddy [verb] the big bear some cheerios .
+nisinald,pp,daddy [verb] some cheerios to the big bear .
+nisinald,do,john [verb] the cute cat a book .
+nisinald,pp,john [verb] a book to the cute cat .
+nisinald,do,he [verb] the dog outside the house some food .
+nisinald,pp,he [verb] some food to the dog outside the house .
+nisinali,do,lucy [verb] some dogs outside the house a chair .
+nisinali,pp,lucy [verb] a chair to some dogs outside the house .
+nisinali,do,mommy [verb] a dog outside the house a cup .
+nisinali,pp,mommy [verb] a cup to a dog outside the house .
+nisinali,do,she [verb] some bears in the forest a pencil .
+nisinali,pp,she [verb] a pencil to some bears in the forest .
+nisinali,do,she [verb] some dogs outside the house some books .
+nisinali,pp,she [verb] some books to some dogs outside the house .
+nisinali,do,he [verb] some dogs outside the house some balls .
+nisinali,pp,he [verb] some balls to some dogs outside the house .
+nisinali,do,lucy [verb] a small dog some food .
+nisinali,pp,lucy [verb] some food to a small dog .
+nisinali,do,she [verb] a cute cat a ball .
+nisinali,pp,she [verb] a ball to a cute cat .
+nisinali,do,mommy [verb] a cute cat some milk .
+nisinali,pp,mommy [verb] some milk to a cute cat .
+nisinali,do,daddy [verb] a dog outside the house a toy .
+nisinali,pp,daddy [verb] a toy to a dog outside the house .
+nisinali,do,daddy [verb] a cat in that house some cheerios .
+nisinali,pp,daddy [verb] some cheerios to a cat in that house .
+nisinasd,do,john [verb] the dog a chair .
+nisinasd,pp,john [verb] a chair to the dog .
+nisinasd,do,lucy [verb] daddy some food .
+nisinasd,pp,lucy [verb] some food to daddy .
+nisinasd,do,lucy [verb] mommy a pencil .
+nisinasd,pp,lucy [verb] a pencil to mommy .
+nisinasd,do,john [verb] grandma some cheerios .
+nisinasd,pp,john [verb] some cheerios to grandma .
+nisinasd,do,she [verb] grandpa a ball .
+nisinasd,pp,she [verb] a ball to grandpa .
+nisinasd,do,lucy [verb] daddy a book .
+nisinasd,pp,lucy [verb] a book to daddy .
+nisinasd,do,mommy [verb] grandma a cup .
+nisinasd,pp,mommy [verb] a cup to grandma .
+nisinasd,do,daddy [verb] mommy a toy .
+nisinasd,pp,daddy [verb] a toy to mommy .
+nisinasd,do,mommy [verb] grandma some milk .
+nisinasd,pp,mommy [verb] some milk to grandma .
+nisinasd,do,daddy [verb] grandma some balls .
+nisinasd,pp,daddy [verb] some balls to grandma .
+nisinasi,do,daddy [verb] a bear some cheerios .
+nisinasi,pp,daddy [verb] some cheerios to a bear .
+nisinasi,do,john [verb] a bear a chair .
+nisinasi,pp,john [verb] a chair to a bear .
+nisinasi,do,he [verb] a cat a book .
+nisinasi,pp,he [verb] a book to a cat .
+nisinasi,do,he [verb] a dog a toy .
+nisinasi,pp,he [verb] a toy to a dog .
+nisinasi,do,john [verb] a dog a cup .
+nisinasi,pp,john [verb] a cup to a dog .
+nisinasi,do,lucy [verb] a dog some food .
+nisinasi,pp,lucy [verb] some food to a dog .
+nisinasi,do,she [verb] a dog some balls .
+nisinasi,pp,she [verb] some balls to a dog .
+nisinasi,do,he [verb] a bear a lego .
+nisinasi,pp,he [verb] a lego to a bear .
+nisinasi,do,mommy [verb] a cat some milk .
+nisinasi,pp,mommy [verb] some milk to a cat .
+nisinasi,do,lucy [verb] a bear a pencil .
+nisinasi,pp,lucy [verb] a pencil to a bear .

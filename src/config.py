@@ -322,8 +322,8 @@ CONFLICTS = {
         "the cat in that house",
         "the cat over there",
     ],
-    "the legos": ["a lego", "the legos"],
-    "a lego": ["a lego", "the legos"],
+    "the legos": ["a lego", "the lego", "the legos"],
+    "a lego": ["a lego", "the lego", "the legos"],
     "the cheerios": ["some cheerios", "some cheerios in the container", "the cheerios"],
     "some cheerios": [
         "some cheerios",
