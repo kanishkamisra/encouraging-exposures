@@ -111,14 +111,50 @@ results <- bind_rows(
 ) %>%
   mutate(
     seed = as.numeric(str_remove(model, "smolm-autoreg-bpe-seed_"))
-  )
-
-results <- results %>%
+  ) %>%
   inner_join(feature_configs %>% rename(adaptation_feature_config = feature_config)) %>%
   inner_join(adaptation %>% rename(adaptation_dative = dative)) %>%
   # filter(seed %in% c(6, 28, 221, 1024, 1102, 1729))
   filter(seed %in% c(6, 28, 221, 394, 496, 1024, 1102, 1729, 2309, 8128))
   # filter(seed %in% c(394, 496,2309, 8128))
+
+balgen_results <- bind_rows(
+  bind_rows(
+    dir_ls(glue("data/results/single_stimuli_dative_simulation{mode}/"), recurse = TRUE, regexp = "*lr_results_hypwise_balanced_gen.csv") %>%
+      map_df(read_csv, .id = "model") %>%
+      mutate(
+        model = str_extract(model, glue("(?<=simulation{mode}/)(.*)(?=/best_lr_results_hypwise_balanced_gen.csv)"))
+      ),
+    dir_ls(glue("data/results/single_stimuli_dative_simulation{mode}2/"), recurse = TRUE, regexp = "*lr_results_hypwise_balanced_gen.csv") %>%
+      map_df(read_csv, .id = "model") %>%
+      mutate(
+        model = str_extract(model, glue("(?<=simulation{mode}2/)(.*)(?=/best_lr_results_hypwise_balanced_gen.csv)"))
+      ) 
+  ) %>%
+    filter(!item_id %in% td_ids),
+  dir_ls(glue("data/results/single_stimuli_dative_simulation{mode}3/"), recurse = TRUE, regexp = "*lr_results_hypwise_balanced_gen.csv") %>%
+    map_df(read_csv, .id = "model") %>%
+    mutate(
+      model = str_extract(model, glue("(?<=simulation{mode}3/)(.*)(?=/best_lr_results_hypwise_balanced_gen.csv)"))
+    ),
+) %>%
+  mutate(
+    seed = as.numeric(str_remove(model, "smolm-autoreg-bpe-seed_"))
+  ) %>%
+  # inner_join(feature_configs %>% rename(adaptation_feature_config = feature_config)) %>%
+  inner_join(adaptation %>% rename(adaptation_dative = dative)) %>%
+  filter(seed %in% c(6, 28, 221, 394, 496, 1024, 1102, 1729, 2309, 8128))
+
+balgen_results %>%
+  rename(balanced_logprob = logprob) %>%
+  inner_join(results %>% filter(state == "best") %>% rename(real_logprob = logprob)) %>%
+  mutate(
+    context = "no-context"
+  ) %>%
+  # filter(adaptation_dative != generalization_dative) %>%
+  select(context, model, seed, item_id, hypothesis_id, hypothesis_instance, lr, adaptation_dative, generalization_dative, val_performance, balanced_logprob, real_logprob) %>%
+  write_csv("data/paper-results/cross-dative/no-context.csv")
+
 
 results %>%
   pivot_wider(names_from = state, values_from = logprob) %>%

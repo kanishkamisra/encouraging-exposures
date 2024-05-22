@@ -95,6 +95,26 @@ best_results <- results %>%
   mutate(
     diff = best - initial
   )
+
+
+balgen_results <- dir_ls(glue("../data/results/single_stimuli_dative_simulation{mode}/"), recurse = TRUE, regexp = "*lr_results_hypwise_balanced_gen.csv") %>%
+  map_df(read_csv, .id = "model") %>%
+  mutate(
+    model = str_extract(model, glue("(?<=simulation{mode}/)(.*)(?=/best_lr_results_hypwise_balanced_gen.csv)"))
+  ) %>%
+  mutate(
+    seed = as.numeric(str_remove(model, "smolm-autoreg-bpe-seed_"))
+  )
+
+balgen_results %>%
+  rename(balanced_logprob = logprob) %>%
+  inner_join(results %>% filter(state == "best") %>% rename(real_logprob = logprob)) %>%
+  mutate(
+    context = "only-agent-given"
+  ) %>%
+  # filter(adaptation_dative != generalization_dative) %>%
+  select(context, model, seed, item_id, hypothesis_id, hypothesis_instance, lr, adaptation_dative, generalization_dative, val_performance, balanced_logprob, real_logprob) %>%
+  write_csv("../data/paper-results/cross-dative/only-agent-given.csv")
 ```
 
 ## Cross Dative Generalization
@@ -186,8 +206,10 @@ Only looking at definite themes and recipients:
 ```{r, echo=FALSE, fig.width=10}
 best_results %>%
   filter(theme_definiteness == "definite", recipient_definiteness == "definite") %>%
+  filter(recipient_animacy == "animate") %>%
   mutate(
-    config2 = glue("{recipient_animacy}-R\n{theme_animacy}-T"),
+    # config2 = glue("{recipient_animacy}-R\n{theme_animacy}-T"),
+    config2 = glue("{theme_animacy}-theme"),
     config1 = ""
   ) %>%
   group_by(config1, config2, adaptation_dative, generalization_dative) %>%
@@ -228,40 +250,40 @@ coded_results <- best_results %>%
     # recipient_pronominality = factor(recipient_pronominality),
     # theme_pronominality = factor(theme_pronominality),
     recipient_pronominality = case_when(
-      recipient_pronominality == "pronoun" ~ 1,
-      TRUE ~ -1
+      recipient_pronominality == "pronoun" ~ 0.5,
+      TRUE ~ -0.5
     ),
     theme_pronominality = case_when(
-      theme_pronominality == "pronoun" ~ 1,
-      TRUE ~ -1
+      theme_pronominality == "pronoun" ~ 0.5,
+      TRUE ~ -0.5
     ),
     recipient_animacy = case_when(
-      recipient_animacy == "animate" ~ 1,
-      TRUE ~ -1
+      recipient_animacy == "animate" ~ 0.5,
+      TRUE ~ -0.5
     ),
     theme_animacy = case_when(
-      theme_animacy == "animate" ~ 1,
-      TRUE ~ -1
+      theme_animacy == "animate" ~ 0.5,
+      TRUE ~ -0.5
     ),
     theme_definiteness = case_when(
       theme_definiteness == "definite" ~ 1,
-      TRUE ~ -1
+      TRUE ~ 0
     ),
     recipient_definiteness = case_when(
       recipient_definiteness == "definite" ~ 1,
-      TRUE ~ -1
+      TRUE ~ 0
     ),
     theme_length = case_when(
       theme_length == "short" ~ 1,
-      TRUE ~ -1
+      TRUE ~ 0
     ),
     recipient_length = case_when(
       recipient_length == "short" ~ 1,
-      TRUE ~ -1
+      TRUE ~ 0
     ),
     distinctiveness = case_when(
       distinctiveness == "distinct" ~ 1,
-      TRUE ~ -1
+      TRUE ~ 0
     ),
     model = factor(model),
     item_id = factor(item_id),
@@ -290,13 +312,15 @@ do_pp <- coded_results %>%
 # interactions between theme-animacy and recipient animacy; theme-pronominality and recipient-pronominality
 
 fit_tara_tprp_interaction_dopp <- lmer(best ~ 
-                                    theme_animacy * theme_pronominality +
-                                    recipient_animacy * recipient_pronominality +
-                                    theme_animacy * recipient_animacy + 
-                                    theme_pronominality * recipient_pronominality +
+                                    theme_animacy + theme_pronominality +
+                                    recipient_animacy + recipient_pronominality +
+                                    theme_animacy:recipient_animacy + 
+                                    theme_pronominality:recipient_pronominality +
+                                    theme_animacy:theme_pronominality +
+                                    recipient_animacy:recipient_pronominality +
                                     theme_definiteness + recipient_definiteness +
                                     theme_length  + recipient_length +
-                                    (1|model) + (1|item_id), data = do_pp, REML = FALSE)
+                                    (1|model), data = do_pp)
 
 summary(fit_tara_tprp_interaction_dopp, correlation = FALSE)
 
@@ -375,13 +399,15 @@ pp_do <- coded_results %>%
   filter(adaptation_dative == "pp", generalization_dative == "do")
 
 fit_tara_tprp_interaction_ppdo <- lmer(best ~ 
-                                    theme_animacy * theme_pronominality +
-                                    recipient_animacy * recipient_pronominality +
-                                    theme_animacy * recipient_animacy + 
-                                    theme_pronominality * recipient_pronominality +
+                                    theme_animacy + theme_pronominality +
+                                    recipient_animacy + recipient_pronominality +
+                                    theme_animacy:recipient_animacy + 
+                                    theme_pronominality:recipient_pronominality +
+                                    theme_animacy:theme_pronominality +
+                                    recipient_animacy:recipient_pronominality +
                                     theme_definiteness + recipient_definiteness +
                                     theme_length  + recipient_length +
-                                    (1|model) + (1|item_id), data = pp_do, REML = FALSE)
+                                    (1|model), data = pp_do)
 
 summary(fit_tara_tprp_interaction_ppdo, correlation = FALSE)
 ```

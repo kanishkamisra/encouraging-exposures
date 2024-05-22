@@ -90,6 +90,25 @@ results <- results %>%
   # filter(seed %in% c(6, 28, 221, 1024, 1102, 1729))
   filter(seed %in% c(6, 28, 221, 394, 496, 1024, 1102, 1729, 2309, 8128))
 
+balgen_results <- dir_ls(glue("../data/results/single_stimuli_dative_simulation{mode}/"), recurse = TRUE, regexp = "*lr_results_hypwise_balanced_gen.csv") %>%
+  map_df(read_csv, .id = "model") %>%
+  mutate(
+    model = str_extract(model, glue("(?<=simulation{mode}/)(.*)(?=/best_lr_results_hypwise_balanced_gen.csv)"))
+  ) %>%
+  mutate(
+    seed = as.numeric(str_remove(model, "smolm-autoreg-bpe-seed_"))
+  )
+
+balgen_results %>%
+  rename(balanced_logprob = logprob) %>%
+  inner_join(results %>% filter(state == "best") %>% rename(real_logprob = logprob)) %>%
+  mutate(
+    context = "neutral-context"
+  ) %>%
+  # filter(adaptation_dative != generalization_dative) %>%
+  select(context, model, seed, item_id, hypothesis_id, hypothesis_instance, lr, adaptation_dative, generalization_dative, val_performance, balanced_logprob, real_logprob) %>%
+  write_csv("../data/paper-results/cross-dative/neutral-context.csv")
+
 best_results <- results %>%
   pivot_wider(names_from = state, values_from = logprob) %>%
   mutate(
@@ -186,9 +205,10 @@ Only looking at definite themes and recipients:
 ```{r, echo=FALSE, fig.width=10}
 best_results %>%
   filter(theme_definiteness == "definite", recipient_definiteness == "definite") %>%
+  filter(recipient_animacy == "animate") %>%
   mutate(
-    config2 = glue("{recipient_animacy}-R\n{theme_animacy}-T"),
-    # config2 = theme_animacy,
+    # config2 = glue("{recipient_animacy}-R\n{theme_animacy}-T"),
+    config2 = glue("{theme_animacy}-theme"),
     config1 = ""
   ) %>%
   group_by(config1, config2, adaptation_dative, generalization_dative) %>%
@@ -245,24 +265,24 @@ coded_results <- best_results %>%
       TRUE ~ -0.5
     ),
     theme_definiteness = case_when(
-      theme_definiteness == "definite" ~ 0.5,
-      TRUE ~ -0.5
+      theme_definiteness == "definite" ~ 1,
+      TRUE ~ 0
     ),
     recipient_definiteness = case_when(
-      recipient_definiteness == "definite" ~ 0.5,
-      TRUE ~ -0.5
+      recipient_definiteness == "definite" ~ 1,
+      TRUE ~ 0
     ),
     theme_length = case_when(
-      theme_length == "short" ~ 0.5,
-      TRUE ~ -0.5
+      theme_length == "short" ~ 1,
+      TRUE ~ 0
     ),
     recipient_length = case_when(
-      recipient_length == "short" ~ 0.5,
-      TRUE ~ -0.5
+      recipient_length == "short" ~ 1,
+      TRUE ~ 0
     ),
     distinctiveness = case_when(
-      distinctiveness == "distinct" ~ 0.5,
-      TRUE ~ -0.5
+      distinctiveness == "distinct" ~ 1,
+      TRUE ~ 0
     ),
     model = factor(model),
     item_id = factor(item_id),
@@ -289,27 +309,21 @@ do_pp <- coded_results %>%
   filter(adaptation_dative == "do", generalization_dative == "pp")
 
 # interactions between theme-animacy and recipient animacy; theme-pronominality and recipient-pronominality
-# use explicit interaction formulae
-# think about item_id --> it doesn't even vary across feature configs. maybe hypothesis_id is better -- and maybe this will converge with random slopes (due to GP)
 
 fit_tara_tprp_interaction_dopp <- lmer(best ~ 
-                                    theme_animacy * theme_pronominality +
-                                    recipient_animacy * recipient_pronominality +
-                                    theme_animacy * recipient_animacy + 
-                                    theme_pronominality * recipient_pronominality +
+                                    theme_animacy + theme_pronominality +
+                                    recipient_animacy + recipient_pronominality +
+                                    theme_animacy:recipient_animacy + 
+                                    theme_pronominality:recipient_pronominality +
+                                    theme_animacy:theme_pronominality +
+                                    recipient_animacy:recipient_pronominality +
                                     theme_definiteness + recipient_definiteness +
                                     theme_length  + recipient_length +
-                                    (1|model) + (1|item_id), data = do_pp)
+                                    (1|model), data = do_pp)
 
 summary(fit_tara_tprp_interaction_dopp, correlation = FALSE)
 
 ```
-
-y ~ b_0 + b_1(x1) + b_2(x2) + b_3(x1 * x2) 
-
-theme_animacy was significant (\beta )
-
-<!--- 0-1 = treatment coding -->
 
 <!-- Both interactions are significant, so we can now test for main-effects individually, to test for main effect of `X` we simply fit another model with all else the same, but remove only the main effect of `X` and run a likelihood ratio test between the more complex model and this simpler model, if the more complex model is better, then that suggests `X` indeed has a main effect. -->
 
@@ -384,13 +398,15 @@ pp_do <- coded_results %>%
   filter(adaptation_dative == "pp", generalization_dative == "do")
 
 fit_tara_tprp_interaction_ppdo <- lmer(best ~ 
-                                    theme_animacy * theme_pronominality +
-                                    recipient_animacy * recipient_pronominality +
-                                    theme_animacy * recipient_animacy + 
-                                    theme_pronominality * recipient_pronominality +
+                                    theme_animacy + theme_pronominality +
+                                    recipient_animacy + recipient_pronominality +
+                                    theme_animacy:recipient_animacy + 
+                                    theme_pronominality:recipient_pronominality +
+                                    theme_animacy:theme_pronominality +
+                                    recipient_animacy:recipient_pronominality +
                                     theme_definiteness + recipient_definiteness +
                                     theme_length  + recipient_length +
-                                    (1|model) + (1|item_id), data = pp_do)
+                                    (1|model), data = pp_do)
 
 summary(fit_tara_tprp_interaction_ppdo, correlation = FALSE)
 ```

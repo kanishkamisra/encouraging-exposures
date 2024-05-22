@@ -72,13 +72,66 @@ nabanana_results <- fs::dir_ls("data/results/nabanana/", regexp = "*.csv") %>%
   filter(!verb %in% remove_list)
 
 
-# alt-form - observed form
+# alt-form - observed form agg
+
+agg_results <- nabanana_results %>% 
+  group_by(dative, behavior) %>%
+  summarize(
+    n = n(),
+    ste = 1.96 * plotrix::std.error(diff),
+    delta = mean(diff)
+  ) %>%
+  mutate(
+    dative = glue::glue("{str_to_upper(dative)} verbs"),
+    behavior = str_to_upper(behavior)
+  )
+
+var.test(diff ~ behavior, data = nabanana_results %>% filter(dative == "do"))
+
+var.test(diff ~ behavior, data = nabanana_results %>% filter(dative == "pp"))
+
+
 nabanana_results %>% 
   group_by(dative, behavior) %>%
   summarize(
+    n = n(),
     ste = 1.96 * plotrix::std.error(diff),
     delta = mean(diff)
-  )
+  ) %>%
+  mutate(
+    dative = glue::glue("{str_to_upper(dative)} verbs"),
+    behavior = str_to_upper(behavior)
+  ) %>%
+  ggplot(aes(behavior, delta, color = behavior)) +
+  geom_point(size = 3) +
+  # geom_jitter(size = 3, width = 0.2, alpha=0.3) +
+  # geom_point(aes(behavior, delta, color = behavior, fill=behavior), shape = 23, 
+             # data = agg_results, size = 3) + 
+  # geom_linerange(aes(behavior, delta, ymin=delta-ste,ymax=delta+ste, color = behavior),
+             # data = agg_results) +
+  geom_linerange(aes(ymin = delta-ste, ymax = delta+ste)) +
+  scale_y_continuous(breaks = seq(-1.00, 0.60, by = 0.05)) +
+  # scale_color_brewer(palette = "Set5", aesthetics = c("color", "fill")) +
+  scale_color_manual(values = c("#6C0345", "#2D9596"), aesthetics = c("color", "fill")) +
+  facet_wrap(~dative, scales = "free_y") +
+  theme_bw(base_size = 17, base_family = "CMU Serif") + 
+  theme(
+    panel.grid = element_blank(),
+    axis.text = element_text(color="black"),
+    axis.title.y = element_markdown(),
+  ) +
+  labs(
+    x = "Alternation Behavior",
+    # y = TeX("$\\log\\frac{\\textit{p}(ALT-FORM)}{p()}$")
+    # y = TeX("$\\Lambda$")
+    # y = "log <i>p</i>(<span style='font-size: 11pt;'>ALT-FORM</span>) - log <i>p</i>(<span style='font-size: 11pt;'>OBSERVED-FORM</span>)"
+    # y = TeX("$\\Delta_{SMOLM}$ (95% CI)")
+    y = "Avg. &Delta; (95% CI)"
+  ) +
+  guides(color="none", shape="none", fill="none")
+
+nabanana_results %>%
+  filter(dative == "do") %>%
 
 # plot
 
@@ -118,7 +171,7 @@ ggsave("paper/nabanana-mean.pdf", width=9.84,height=4.36, dpi=300,device=cairo_p
 
 
 plot(TeX(r'(A $\LaTeX$ formula: $\frac{2hc^2}{\lambda^5}\frac{1}{e^{\frac{hc}{\lambda k_B T}} - 1}$)'), cex=2, main="")
-
+  
 nabanana_results %>% 
   group_by(behavior) %>%
   summarize(
@@ -163,21 +216,21 @@ t.test(nabas, nanas)
 
 # lmers, accounting for seed variation
 
-coded <- results %>%
+coded <- nabanana_results %>%
   mutate(
     verb = factor(verb),
     seed = factor(seed),
-    behavior = case_when(
-      behavior == "naba" ~ 0.5,
-      TRUE ~ -0.5
-    )
+    # behavior = case_when(
+    #   behavior == "naba" ~ 1,
+    #   TRUE ~ 0
+    # )
   )
 
-fit <- lmer(diff ~ behavior + (1 | seed), data = coded)
+fit <- lmer(diff ~ behavior + (1 + behavior | seed), data = coded)
 
 summary(fit)
 
-fit_do <- lmer(diff ~ behavior + (1 | seed), 
+fit_do <- lmer(diff ~ behavior + (1 + behavior | seed), 
                data = coded %>% filter(dative == "do"))
 
 summary(fit_do)
