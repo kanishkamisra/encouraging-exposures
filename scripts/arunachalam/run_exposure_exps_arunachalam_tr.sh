@@ -21,6 +21,6 @@ for template in ${templates[@]}
 do
     for seed in ${seeds[@]}
     do
-        python src/prune_results_new.py --results_dir data/results/single_stimuli_dative_simulation_valtest_vbd_arunachalam_template_rt_$template/smolm-autoreg-bpe-seed_$seed/raw --experiment_name single_stimuli_dative_simulation_valtest_vbd_arunachalam_template_rt_$template
+        python src/prune_results_new.py --results_dir data/results/single_stimuli_dative_simulation_valtest_vbd_arunachalam_template_tr_$template/smolm-autoreg-bpe-seed_$seed/raw --experiment_name single_stimuli_dative_simulation_valtest_vbd_arunachalam_template_tr_$template
     done
 done
