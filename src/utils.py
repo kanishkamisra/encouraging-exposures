@@ -20,6 +20,10 @@ def read_jsonl(file_path):
             data.append(json.loads(line))
     return data
 
+def write_jsonl(data, file_path):
+    with open(file_path, "w") as f:
+        for line in data:
+            f.write(json.dumps(line) + "\n")
 
 def read_json(file_path):
     with open(file_path, "r") as f:
