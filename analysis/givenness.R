@@ -57,10 +57,30 @@ read_givenness_balgen_results <- function(template) {
   bind_rows(theme_results, recipient_results)
 }
 
+read_givenness_balgen_legofix_results <- function(template) {
+  theme = glue::glue("_valtest_vbd_discourse_theme_given_legofix_template_{template}")
+  recipient = glue::glue("_valtest_vbd_discourse_recipient_given_legofix_template_{template}")
+  
+  theme_results <- read_balgen_results(theme) %>% mutate(given = "theme", template = template)
+  recipient_results <- read_balgen_results(recipient) %>% mutate(given = "recipient", template = template)
+  
+  bind_rows(theme_results, recipient_results)
+}
+
 
 read_givenness_results <- function(template) {
   theme = glue::glue("_valtest_vbd_discourse_theme_given_template_{template}")
   recipient = glue::glue("_valtest_vbd_discourse_recipient_given_template_{template}")
+  
+  theme_results <- read_results(theme) %>% mutate(given = "theme", template = template)
+  recipient_results <- read_results(recipient) %>% mutate(given = "recipient", template = template)
+  
+  bind_rows(theme_results, recipient_results)
+}
+
+read_givenness_legofix_results <- function(template) {
+  theme = glue::glue("_valtest_vbd_discourse_theme_given_legofix_template_{template}")
+  recipient = glue::glue("_valtest_vbd_discourse_recipient_given_legofix_template_{template}")
   
   theme_results <- read_results(theme) %>% mutate(given = "theme", template = template)
   recipient_results <- read_results(recipient) %>% mutate(given = "recipient", template = template)
@@ -103,12 +123,34 @@ read_givenness_adaptation <- function(template) {
   bind_rows(adaptation_theme, adaptation_recipient)
 }
 
+read_givenness_adaptation_legofix <- function(template) {
+  
+  theme_given <- glue("data/experiments/single_stimuli_dative_simulation_valtest_vbd_discourse_theme_given_legofix_template_{template}/adaptation.jsonl")
+  recipient_given <- glue("data/experiments/single_stimuli_dative_simulation_valtest_vbd_discourse_recipient_given_legofix_template_{template}/adaptation.jsonl")
+  
+  adaptation_theme <- read_adaptation(theme_given) %>% mutate(template = template)
+  adaptation_recipient <- read_adaptation(recipient_given) %>% mutate(template = template)
+  
+  bind_rows(adaptation_theme, adaptation_recipient)
+}
+
 
 adaptation <- bind_rows(
   read_givenness_adaptation("1"),
   read_givenness_adaptation("2"),
   read_givenness_adaptation("3")
 )
+
+adaptation_legofix <- bind_rows(
+  read_givenness_adaptation_legofix("1"),
+  read_givenness_adaptation_legofix("2"),
+  read_givenness_adaptation_legofix("3")
+)
+
+fix_ids <- adaptation_legofix %>%
+  distinct(item) %>%
+  pull(item)
+
 # adaptation1 <- read_givenness_adaptation("1")
 # adaptation2 <- read_givenness_adaptation("2")
 # adaptation3 <- read_givenness_adaptation("3")
@@ -119,10 +161,34 @@ results <- bind_rows(
   read_givenness_results("3")
 )
 
+results_legofix <- bind_rows(
+  read_givenness_legofix_results("1"),
+  read_givenness_legofix_results("2"),
+  read_givenness_legofix_results("3")
+)
+
 balgen_results <- bind_rows(
   read_givenness_balgen_results("1"),
   read_givenness_balgen_results("2"),
   read_givenness_balgen_results("3"),
+)
+
+balgen_legofix_results <- bind_rows(
+  read_givenness_balgen_legofix_results("1"),
+  read_givenness_balgen_legofix_results("2"),
+  read_givenness_balgen_legofix_results("3"),
+)
+
+results_fix <- bind_rows(
+  results %>%
+    filter(!item_id %in% fix_ids),
+  results_legofix
+)
+
+balgen_results_fix <- bind_rows(
+  balgen_results %>%
+    filter(!item_id %in% fix_ids),
+  balgen_legofix_results
 )
 
 generalization <- stream_in(file(glue("data/experiments/single_stimuli_dative_simulation{mode}/generalization.jsonl"))) %>%
@@ -138,7 +204,7 @@ results %>%
   pull(data) %>% .[[1]] 
 
 
-best_results <- results %>%
+best_results <- results_fix %>%
   filter(state == "best") %>%
   group_by(model, item_id, hypothesis_id, hypothesis_instance, adaptation_dative, generalization_dative, given) %>%
   nest() %>% 
@@ -155,7 +221,7 @@ best_results <- results %>%
   inner_join(adaptation %>% rename(adaptation_dative = dative))
 
 
-balgen_results_best <- balgen_results %>%
+balgen_results_best <- balgen_results_fix %>%
   inner_join(best_results %>% select(-logprob)) %>%
   filter(adaptation_dative != generalization_dative) %>%
   mutate(
@@ -166,7 +232,7 @@ balgen_results_best <- balgen_results %>%
   )
 
 # write balgen and best results to csv
-balgen_results %>%
+balgen_results_fix %>%
   rename(balanced_logprob = logprob) %>%
   inner_join(best_results %>% rename(real_logprob = logprob)) %>%
   mutate(
@@ -467,13 +533,13 @@ fit_tara_tprp_interaction_dopp <- lmer(best ~
                                          theme_animacy + theme_pronominality +
                                          recipient_animacy + recipient_pronominality +
                                          theme_animacy:recipient_animacy +
-                                         # theme_pronominality:recipient_pronominality +
+                                         theme_pronominality:recipient_pronominality +
                                          theme_animacy:theme_pronominality +
-                                         # recipient_animacy:recipient_pronominality +
+                                         recipient_animacy:recipient_pronominality +
                                          theme_definiteness + recipient_definiteness +
                                          theme_length  + recipient_length +
                                          theme_given +
-                                         (1|model), data = do_pp)
+                                         (1|model) + (1|hypothesis_id), data = do_pp)
 
 summary(fit_tara_tprp_interaction_dopp, correlation = FALSE)
 

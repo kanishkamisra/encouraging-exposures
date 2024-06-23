@@ -100,21 +100,27 @@ nabanana_results %>%
   ) %>%
   mutate(
     dative = glue::glue("{str_to_upper(dative)} verbs"),
-    behavior = str_to_upper(behavior)
+    behavior = str_to_upper(behavior),
+    behavior_val = case_when(
+      dative == "DO verbs" & behavior == "NABA" ~ glue("{behavior}\n(e.g., assign)"),
+      dative == "DO verbs" & behavior == "NANA" ~ glue("{behavior}\n(e.g., cost)"),
+      dative == "PP verbs" & behavior == "NABA" ~ glue("{behavior}\n(e.g., kick)"),
+      dative == "PP verbs" & behavior == "NANA" ~ glue("{behavior}\n(e.g., explain)")
+    )
   ) %>%
-  ggplot(aes(behavior, delta, color = behavior)) +
+  ggplot(aes(behavior_val, delta, color = behavior)) +
   geom_point(size = 3) +
   # geom_jitter(size = 3, width = 0.2, alpha=0.3) +
   # geom_point(aes(behavior, delta, color = behavior, fill=behavior), shape = 23, 
              # data = agg_results, size = 3) + 
   # geom_linerange(aes(behavior, delta, ymin=delta-ste,ymax=delta+ste, color = behavior),
              # data = agg_results) +
-  geom_linerange(aes(ymin = delta-ste, ymax = delta+ste)) +
+  geom_errorbar(aes(ymin = delta-ste, ymax = delta+ste), width = 0.1) +
   scale_y_continuous(breaks = seq(-1.00, 0.60, by = 0.05)) +
   # scale_color_brewer(palette = "Set5", aesthetics = c("color", "fill")) +
   scale_color_manual(values = c("#6C0345", "#2D9596"), aesthetics = c("color", "fill")) +
-  facet_wrap(~dative, scales = "free_y") +
-  theme_bw(base_size = 17, base_family = "CMU Serif") + 
+  facet_wrap(~dative, scales = "free") +
+  theme_bw(base_size = 17, base_family = "Times") + 
   theme(
     panel.grid = element_blank(),
     axis.text = element_text(color="black"),
@@ -130,8 +136,8 @@ nabanana_results %>%
   ) +
   guides(color="none", shape="none", fill="none")
 
-nabanana_results %>%
-  filter(dative == "do") %>%
+# nabanana_results %>%
+  # filter(dative == "do") %>%
 
 # plot
 

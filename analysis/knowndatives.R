@@ -414,4 +414,8 @@ bind_rows(
 ) %>% 
   write_csv("data/nana-naba-dative-contexts.csv")
 
+combined %>%
+  filter(!lemma %in% c("bat", "bounce", "drag", "flip", "flew", "haul", "kick", "sign", "carry", "deliver", "assign", "guarantee", "owe", "promise", "rent", "shoot", "trade", "address", "announce", "describe", "drop", "explain", "introduce", "lift", "mention", "return", "say", "whisper", "charge", "cost", "find", "save", "wish")) %>%
+  count(lemma) %>%
+  filter(!lemma %in% removed_post, !lemma %in% removed_pre)
 
