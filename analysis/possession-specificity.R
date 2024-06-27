@@ -62,13 +62,31 @@ spec_results %>%
     ste = 1.96 * plotrix::std.error(logprob),
     logprob = mean(logprob)
   ) %>%
-  ggplot(aes(theme_animacy, logprob, color = specificity)) +
+  ungroup() %>%
+  mutate(
+    theme_animacy = str_to_title(theme_animacy),
+    specificity = str_to_title(specificity)
+  ) %>%
+  ggplot(aes(theme_animacy, logprob, color = specificity, shape = specificity)) +
   geom_point(position = position_dodge(0.9), size = 3) +
-  geom_errorbar(aes(ymin = logprob-ste, ymax = logprob+ste), position = position_dodge(0.9), width = 0.1)
+  geom_errorbar(aes(ymin = logprob-ste, ymax = logprob+ste), position = position_dodge(0.9), width = 0.1) +
+  scale_y_continuous(limits = c(-5.3, -4.9)) +
+  scale_color_brewer(palette = "Dark2") +
+  labs(
+    x = "Theme Animacy",
+    y = "log <em>p</em>(<span style='font-size: 11pt;'>DO</span>-usage) per token",
+    color = "Possession transfer",
+    shape = "Possession transfer"
+  ) +
+  theme(
+    axis.title.y = element_markdown(),
+    axis.text.x = element_markdown()
+  )
 
+ggsave("paper/possession-transfer.pdf", width = 5.73, height = 5.03, dpi = 300, device = cairo_pdf)
 
 spec_results_coded <- spec_results %>%
-  filter(generalization_dative == "do", template != 6) %>%
+  filter(generalization_dative == "do") %>%
   mutate(
     seed = factor(seed),
     theme_animacy = case_when(
@@ -81,7 +99,7 @@ spec_results_coded <- spec_results %>%
     )
   )
 
-fit_animacy_specificity <- lmer(logprob ~ theme_animacy + specificity + (1 | seed), data = spec_results_coded)
+fit_animacy_specificity <- lmer(logprob ~ theme_animacy * specificity + (1 | seed), data = spec_results_coded)
 
 summary(fit_animacy_specificity)
 anova(fit_animacy_specificity)

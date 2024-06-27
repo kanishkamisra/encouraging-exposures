@@ -72,6 +72,19 @@ sampled_items <- adaptation_items %>%
     })
   )
 
+sampled_items %>% 
+  select(-data) %>%
+  unnest(sampled) %>%
+  inner_join(adaptation_items) %>%
+  mutate(
+    sentence = str_replace(sentence, "it was a nice day . ", "")
+  ) %>%
+  select(-theme_markedness, -recipient_markedness, -sentence, -dative) %>%
+  stream_out(file("data/experiments/single_stimuli_dative_simulation_final_items/adaptation.jsonl"))
+  
+generalization_set %>%
+  stream_out(file("data/experiments/single_stimuli_dative_simulation_final_items/generalization.jsonl"))
+
 unique_ids <- sampled_items %>%
   select(-data) %>%
   unnest(sampled) %>%
