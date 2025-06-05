@@ -129,6 +129,7 @@ feature_results <- bind_rows(
 
 
 coded_results <- feature_results %>%
+  inner_join(sampled_items %>% select(-data) %>% unnest(sampled) %>% ungroup() %>% distinct(feature_config_small, unique_id)) %>%
   mutate(
     recipient_pronominality = case_when(
       recipient_pronominality == "pronoun" ~ 0.5,
@@ -147,12 +148,12 @@ coded_results <- feature_results %>%
       TRUE ~ -0.5
     ),
     theme_definiteness = case_when(
-      theme_definiteness == "definite" ~ 1,
-      TRUE ~ 0
+      theme_definiteness == "definite" ~ 0.5,
+      TRUE ~ -0.5
     ),
     recipient_definiteness = case_when(
-      recipient_definiteness == "definite" ~ 1,
-      TRUE ~ 0
+      recipient_definiteness == "definite" ~ 0.5,
+      TRUE ~ -0.5
     ),
     theme_length = case_when(
       theme_length == "short" ~ 1,
@@ -173,7 +174,8 @@ coded_results <- feature_results %>%
     ),
     model = factor(model),
     item_id = factor(item_id),
-    hypothesis_id = factor(hypothesis_id)
+    hypothesis_id = factor(hypothesis_id),
+    feature_config = factor(feature_config_small)
   )
 
 
@@ -235,12 +237,13 @@ fit_given_dopp <- lmer(
     recipient_pronominality * recipient_animacy *
     recipient_definiteness + recipient_length +
     theme_given + (1 | model),  
-  data = given_do_pp 
-  %>% filter(unique_id %in% unique_ids) 
-  %>% mutate(
-    theme_definiteness = case_when(theme_definiteness == 1 ~ 0.5, TRUE ~ -0.5),
-    recipient_definiteness = case_when(recipient_definiteness == 1 ~ 0.5, TRUE ~ -0.5),
-  )
+  data = given_do_pp
+  # data = given_do_pp 
+  # %>% filter(unique_id %in% unique_ids) 
+  # %>% mutate(
+  #   theme_definiteness = case_when(theme_definiteness == 1 ~ 0.5, TRUE ~ -0.5),
+  #   recipient_definiteness = case_when(recipient_definiteness == 1 ~ 0.5, TRUE ~ -0.5),
+  # )
   # %>%
     # mutate(theme_given = case_when(theme_given == 1 ~ 0.5, TRUE ~ -0.5))
 )
@@ -341,7 +344,7 @@ emmip(fit_given_dopp, recipient_pronominality ~ recipient_definiteness | recipie
   facet_wrap(~ recipient_animacy) +
   scale_color_manual(values = c("#7570b3","#e6ab02"), aesthetics = c("color", "fill")) +
   scale_shape_manual(values = c(15, 23)) +
-  scale_y_continuous(breaks = scales::pretty_breaks(), limits = c(-5.41, -4.4)) +
+  scale_y_continuous(breaks = scales::pretty_breaks(), limits = c(-5.6, -4.4)) +
   labs(
     x = "Recipient Definiteness",
     y = "PP-generalization (EMM)",
@@ -439,19 +442,31 @@ df <- predict_response(fit_given_dopp, terms = c("theme_pronominality", "theme_d
 df
 
 fit_given_ppdo <- lmer(
+  # real_logprob ~ 
+  #   theme_pronominality * theme_animacy * 
+  #   theme_definiteness + theme_length +
+  #   recipient_pronominality * recipient_animacy *
+  #   recipient_definiteness + recipient_length +
+  #   theme_given + (1 | model),  
+  # data = given_pp_do 
+  # %>% filter(unique_id %in% unique_ids)
+  # %>% mutate(
+  #   theme_definiteness = case_when(theme_definiteness == 1 ~ 0.5, TRUE ~ -0.5),
+  #   recipient_definiteness = case_when(recipient_definiteness == 1 ~ 0.5, TRUE ~ -0.5),
+  # )
   real_logprob ~ 
     theme_pronominality * theme_animacy * 
     theme_definiteness + theme_length +
     recipient_pronominality * recipient_animacy *
     recipient_definiteness + recipient_length +
     theme_given + (1 | model),  
-  data = given_pp_do 
-  %>% filter(unique_id %in% unique_ids)
-  %>% mutate(
-    theme_definiteness = case_when(theme_definiteness == 1 ~ 0.5, TRUE ~ -0.5),
-    recipient_definiteness = case_when(recipient_definiteness == 1 ~ 0.5, TRUE ~ -0.5),
-  )
+  data = given_pp_do
 )
+  
+
+given_pp_do %>%
+  filter(seed == 6) %>% View()
+  count(theme_definiteness, recipient_definiteness, theme_given)
 
 summary(fit_given_ppdo, correlation = FALSE)
 fit_given_ppdo %>%
@@ -712,6 +727,139 @@ emmeans(fit_given_ppdo, pairwise ~ recipient_pronominality | recipient_definiten
 #     ste = 1.96 * plotrix::std.error(real_logprob),
 #     logprob = mean(real_logprob)
 #   )
+
+
+## PREDICTIONS?
+
+unique_configs <- adaptation_givenness_features %>% 
+  mutate(unique_id = glue("{hypothesis_id}_{hypothesis_instance}")) %>%
+  filter(unique_id %in% unique_ids) %>% 
+  rowwise() %>%
+  mutate(
+    feature_config_full = glue::glue_collapse(str_sub(c(theme_pronominality, theme_animacy, theme_length, theme_definiteness, recipient_pronominality, recipient_animacy, recipient_length, recipient_definiteness, given), 1, 1))
+  ) %>%
+  pull(feature_config_full) %>% 
+  unique()
+
+ppdo_grid <- emmip(fit_given_ppdo, ~ theme_pronominality + theme_animacy + theme_definiteness + theme_length + 
+                     recipient_pronominality + recipient_animacy + recipient_definiteness + recipient_length + theme_given, plotit = FALSE) %>%
+  as_tibble() %>% 
+  mutate(
+    theme_pronominality = theme_pronominality %>% str_replace("0.5", "pronoun") %>% str_replace("-", "non-"),
+    recipient_pronominality = recipient_pronominality %>% str_replace("0.5", "pronoun") %>% str_replace("-", "non-"),
+    theme_animacy = theme_animacy %>% str_replace("0.5", "animate") %>% str_replace("-", "in"),
+    recipient_animacy = recipient_animacy %>% str_replace("0.5", "animate") %>% str_replace("-", "in"),
+    theme_definiteness = theme_definiteness %>% str_replace("0.5", "definite") %>% str_replace("-", "in"),
+    recipient_definiteness = recipient_definiteness %>% str_replace("0.5", "definite") %>% str_replace("-", "in"),
+    theme_length = case_when(theme_length == 1 ~ "short", TRUE ~ "long"),
+    recipient_length = case_when(recipient_length == 1 ~ "short", TRUE ~ "long"),
+    theme_given = case_when(theme_given == 1 ~ "theme", TRUE ~ "recipient"),
+  ) %>%
+  rowwise() %>%
+  mutate(
+    config = glue::glue_collapse(str_sub(c(theme_pronominality, theme_animacy, theme_length, theme_definiteness, recipient_pronominality, recipient_animacy, recipient_length, recipient_definiteness, theme_given), 1, 1))
+  ) %>%
+  filter(config %in% unique_configs) %>%
+  ungroup() 
+
+dopp_grid <- emmip(fit_given_dopp, ~ theme_pronominality + theme_animacy + theme_definiteness + theme_length + 
+        recipient_pronominality + recipient_animacy + recipient_definiteness + recipient_length + theme_given, plotit = FALSE) %>%
+  as_tibble() %>% 
+  mutate(
+    theme_pronominality = theme_pronominality %>% str_replace("0.5", "pronoun") %>% str_replace("-", "non-"),
+    recipient_pronominality = recipient_pronominality %>% str_replace("0.5", "pronoun") %>% str_replace("-", "non-"),
+    theme_animacy = theme_animacy %>% str_replace("0.5", "animate") %>% str_replace("-", "in"),
+    recipient_animacy = recipient_animacy %>% str_replace("0.5", "animate") %>% str_replace("-", "in"),
+    theme_definiteness = theme_definiteness %>% str_replace("0.5", "definite") %>% str_replace("-", "in"),
+    recipient_definiteness = recipient_definiteness %>% str_replace("0.5", "definite") %>% str_replace("-", "in"),
+    theme_length = case_when(theme_length == 1 ~ "short", TRUE ~ "long"),
+    recipient_length = case_when(recipient_length == 1 ~ "short", TRUE ~ "long"),
+    theme_given = case_when(theme_given == 1 ~ "theme", TRUE ~ "recipient"),
+  ) %>%
+  rowwise() %>%
+  mutate(
+    config = glue::glue_collapse(str_sub(c(theme_pronominality, theme_animacy, theme_length, theme_definiteness, recipient_pronominality, recipient_animacy, recipient_length, recipient_definiteness, theme_given), 1, 1))
+  ) %>%
+  filter(config %in% unique_configs) %>%
+  ungroup()
+
+ppdo_grid %>%
+  mutate(config = fct_reorder(config, yvar)) %>%
+  ggplot(aes(config, yvar)) + 
+  geom_point() + 
+  geom_linerange(aes(ymin = yvar - SE, ymax = yvar + SE)) +
+  theme(
+    axis.text.x = element_text(angle = 90, hjust = 1, vjust = 0.5)
+  ) +
+  coord_flip()
+
+do_recipient = "pasd(r|t)"
+do_theme = "n(i|a)li"
+# pp_recipient = "n(i|a)(l|s)i(r|t)"
+pp_recipient = "n(i|a)li(r|t)"
+pp_theme = "pisd"
+
+ppdo_grid %>%
+  mutate(
+    pp_associated_theme = str_starts(config, pp_theme),
+    pp_associated_recipient = str_ends(config, pp_recipient),
+    do_associated_theme = str_starts(config, do_theme),
+    do_associated_recipient = str_ends(config, do_recipient),
+    category_all = case_when(
+      pp_associated_theme & pp_associated_recipient ~ "facilitatory",
+      do_associated_theme & do_associated_recipient ~ "preemptive",
+      TRUE ~ "NA"
+    ),
+    category_first = case_when(
+      pp_associated_theme & pp_associated_recipient ~ "facilitatory",
+      pp_associated_theme & do_associated_recipient ~ "facilitatory",
+      do_associated_theme & pp_associated_recipient ~ "preemptive",
+      do_associated_theme & do_associated_recipient ~ "preemptive",
+      TRUE ~ "NA"
+    )
+    # category_all = case_when(
+    #   str_starts(config, "pisd") & str_ends(config, "n(i|a)(l|s)i(r|t)") ~ "faciltatory",
+    #   str_starts(config, "n(i|a)li") & str_ends(config, "pasd(r|t)") ~ "preemptive",
+    #   TRUE ~ "NA"
+    # ),
+    # category_first = case_when(
+    #   str_starts(config, pp_theme) & (str_ends(config, pp_recipient) | str_ends(config, do_recipient)) ~ "facilitatory",
+    #   str_starts(config, do_theme) & (str_ends(config, pp_recipient) | str_ends(config, do_recipient)) ~ "preemptive",
+    #   TRUE ~ "NA"
+    # )
+  ) %>% 
+  filter(category_first != "NA") %>% View()
+
+dopp_grid %>%
+  mutate(
+    pp_associated_theme = str_starts(config, pp_theme),
+    pp_associated_recipient = str_ends(config, pp_recipient),
+    do_associated_theme = str_starts(config, do_theme),
+    do_associated_recipient = str_ends(config, do_recipient),
+    category_all = case_when(
+      pp_associated_theme & pp_associated_recipient ~ "preemptive",
+      do_associated_theme & do_associated_recipient ~ "facilitatory",
+      TRUE ~ "NA"
+    ),
+    category_first = case_when(
+      pp_associated_theme & pp_associated_recipient ~ "preemptive",
+      pp_associated_theme & do_associated_recipient ~ "facilitatory",
+      do_associated_theme & pp_associated_recipient ~ "preemptive",
+      do_associated_theme & do_associated_recipient ~ "facilitatory",
+      TRUE ~ "NA"
+    )
+    # category_all = case_when(
+    #   str_starts(config, "pisd") & str_ends(config, "n(i|a)(l|s)i(r|t)") ~ "faciltatory",
+    #   str_starts(config, "n(i|a)li") & str_ends(config, "pasd(r|t)") ~ "preemptive",
+    #   TRUE ~ "NA"
+    # ),
+    # category_first = case_when(
+    #   str_starts(config, pp_theme) & (str_ends(config, pp_recipient) | str_ends(config, do_recipient)) ~ "facilitatory",
+    #   str_starts(config, do_theme) & (str_ends(config, pp_recipient) | str_ends(config, do_recipient)) ~ "preemptive",
+    #   TRUE ~ "NA"
+    # )
+  ) %>% 
+  filter(category_first != "NA") %>% View()
 
 
 
