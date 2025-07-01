@@ -1,0 +1,12 @@
+{
+    "best_epoch": 26,
+    "best_val_performance": 0.24150624593098957,
+    "val_performance_metric": "diff",
+    "train_loss": 1.7523020505905151,
+    "initial_do_mean": -6.550801795901674,
+    "final_do_mean": -4.730817047754924,
+    "best_do_mean": -4.3333154143709125,
+    "initial_pp_mean": -5.755650528271993,
+    "final_pp_mean": -4.179848399427202,
+    "best_pp_mean": -3.7973769969410367
+}

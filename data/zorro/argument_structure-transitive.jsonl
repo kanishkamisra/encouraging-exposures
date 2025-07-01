@@ -1,0 +1,2000 @@
+{"sentence_good": "did the wolf know ?", "sentence_bad": "did the wolf have ?"}
+{"sentence_good": "can we play ?", "sentence_bad": "can we keep ?"}
+{"sentence_good": "he returned .", "sentence_bad": "he mixed ."}
+{"sentence_good": "did he work ?", "sentence_bad": "did he tell ?"}
+{"sentence_good": "she developed .", "sentence_bad": "she supposed ."}
+{"sentence_good": "could she know ?", "sentence_bad": "could she show ?"}
+{"sentence_good": "did the boat trade ?", "sentence_bad": "did the boat show ?"}
+{"sentence_good": "sarah grew .", "sentence_bad": "sarah organized ."}
+{"sentence_good": "did sarah study ?", "sentence_bad": "did sarah give ?"}
+{"sentence_good": "would your wolf run ?", "sentence_bad": "would your wolf close ?"}
+{"sentence_good": "anne stands .", "sentence_bad": "anne met ."}
+{"sentence_good": "could anne trade ?", "sentence_bad": "could anne order ?"}
+{"sentence_good": "does chris study ?", "sentence_bad": "does chris put ?"}
+{"sentence_good": "that sister works .", "sentence_bad": "that sister hurt ."}
+{"sentence_good": "could that sister work ?", "sentence_bad": "could that sister like ?"}
+{"sentence_good": "will anne read ?", "sentence_bad": "will anne give ?"}
+{"sentence_good": "does she eat ?", "sentence_bad": "does she record ?"}
+{"sentence_good": "this dinosaur moved .", "sentence_bad": "this dinosaur opened ."}
+{"sentence_good": "would this dinosaur change ?", "sentence_bad": "would this dinosaur say ?"}
+{"sentence_good": "will that sister live ?", "sentence_bad": "will that sister make ?"}
+{"sentence_good": "allen knew .", "sentence_bad": "allen gave ."}
+{"sentence_good": "will allen trade ?", "sentence_bad": "will allen need ?"}
+{"sentence_good": "did it trade ?", "sentence_bad": "did it free ?"}
+{"sentence_good": "the boat fell .", "sentence_bad": "the boat ended ."}
+{"sentence_good": "can the boat know ?", "sentence_bad": "can the boat become ?"}
+{"sentence_good": "allen lost .", "sentence_bad": "allen took ."}
+{"sentence_good": "could allen run ?", "sentence_bad": "could allen give ?"}
+{"sentence_good": "laura moved .", "sentence_bad": "laura opened ."}
+{"sentence_good": "would laura study ?", "sentence_bad": "would laura support ?"}
+{"sentence_good": "william matters .", "sentence_bad": "william gave ."}
+{"sentence_good": "will william know ?", "sentence_bad": "will william be ?"}
+{"sentence_good": "allen refused .", "sentence_bad": "allen opened ."}
+{"sentence_good": "would allen play ?", "sentence_bad": "would allen support ?"}
+{"sentence_good": "that wolf fell .", "sentence_bad": "that wolf led ."}
+{"sentence_good": "would that wolf know ?", "sentence_bad": "would that wolf support ?"}
+{"sentence_good": "robert decided .", "sentence_bad": "robert advanced ."}
+{"sentence_good": "could robert know ?", "sentence_bad": "could robert be ?"}
+{"sentence_good": "did michael think ?", "sentence_bad": "did michael take ?"}
+{"sentence_good": "could joseph run ?", "sentence_bad": "could joseph support ?"}
+{"sentence_good": "his doctor lives .", "sentence_bad": "his doctor organized ."}
+{"sentence_good": "did his doctor study ?", "sentence_bad": "did his doctor record ?"}
+{"sentence_good": "will they turn ?", "sentence_bad": "will they become ?"}
+{"sentence_good": "the boat grew .", "sentence_bad": "the boat opened ."}
+{"sentence_good": "would the boat change ?", "sentence_bad": "would the boat become ?"}
+{"sentence_good": "allen moves .", "sentence_bad": "allen advanced ."}
+{"sentence_good": "could allen turn ?", "sentence_bad": "could allen take ?"}
+{"sentence_good": "could we read ?", "sentence_bad": "could we take ?"}
+{"sentence_good": "will that doctor trade ?", "sentence_bad": "will that doctor open ?"}
+{"sentence_good": "could this dinosaur change ?", "sentence_bad": "could this dinosaur keep ?"}
+{"sentence_good": "that doctor turns .", "sentence_bad": "that doctor let ."}
+{"sentence_good": "will that doctor live ?", "sentence_bad": "will that doctor keep ?"}
+{"sentence_good": "would this wolf play ?", "sentence_bad": "would this wolf give ?"}
+{"sentence_good": "this doctor refused .", "sentence_bad": "this doctor shot ."}
+{"sentence_good": "would this doctor live ?", "sentence_bad": "would this doctor put ?"}
+{"sentence_good": "did some doctor study ?", "sentence_bad": "did some doctor force ?"}
+{"sentence_good": "could chris work ?", "sentence_bad": "could chris free ?"}
+{"sentence_good": "this slave fell .", "sentence_bad": "this slave asked ."}
+{"sentence_good": "can this slave know ?", "sentence_bad": "can this slave say ?"}
+{"sentence_good": "can sam run ?", "sentence_bad": "can sam take ?"}
+{"sentence_good": "does your doctor turn ?", "sentence_bad": "does your doctor show ?"}
+{"sentence_good": "did chris change ?", "sentence_bad": "did chris keep ?"}
+{"sentence_good": "that duke started .", "sentence_bad": "that duke took ."}
+{"sentence_good": "would that duke trade ?", "sentence_bad": "would that duke open ?"}
+{"sentence_good": "michael lived .", "sentence_bad": "michael said ."}
+{"sentence_good": "would michael eat ?", "sentence_bad": "would michael order ?"}
+{"sentence_good": "some slave refused .", "sentence_bad": "some slave needed ."}
+{"sentence_good": "could some slave live ?", "sentence_bad": "could some slave have ?"}
+{"sentence_good": "could we run ?", "sentence_bad": "could we give ?"}
+{"sentence_good": "will your pig eat ?", "sentence_bad": "will your pig close ?"}
+{"sentence_good": "did some sister trade ?", "sentence_bad": "did some sister give ?"}
+{"sentence_good": "sarah falls .", "sentence_bad": "sarah hit ."}
+{"sentence_good": "does sarah eat ?", "sentence_bad": "does sarah close ?"}
+{"sentence_good": "it married .", "sentence_bad": "it closed ."}
+{"sentence_good": "would his wolf live ?", "sentence_bad": "would his wolf tell ?"}
+{"sentence_good": "can robert run ?", "sentence_bad": "can robert become ?"}
+{"sentence_good": "did sarah play ?", "sentence_bad": "did sarah give ?"}
+{"sentence_good": "that duke read .", "sentence_bad": "that duke helped ."}
+{"sentence_good": "can that duke turn ?", "sentence_bad": "can that duke keep ?"}
+{"sentence_good": "does that sister run ?", "sentence_bad": "does that sister support ?"}
+{"sentence_good": "did joseph think ?", "sentence_bad": "did joseph force ?"}
+{"sentence_good": "michael thought .", "sentence_bad": "michael helped ."}
+{"sentence_good": "does michael think ?", "sentence_bad": "does michael become ?"}
+{"sentence_good": "sarah moves .", "sentence_bad": "sarah supposed ."}
+{"sentence_good": "would sarah work ?", "sentence_bad": "would sarah make ?"}
+{"sentence_good": "does his wolf change ?", "sentence_bad": "does his wolf give ?"}
+{"sentence_good": "will some sister run ?", "sentence_bad": "will some sister make ?"}
+{"sentence_good": "did some sister read ?", "sentence_bad": "did some sister tell ?"}
+{"sentence_good": "does that duke play ?", "sentence_bad": "does that duke order ?"}
+{"sentence_good": "could joseph play ?", "sentence_bad": "could joseph control ?"}
+{"sentence_good": "will sarah eat ?", "sentence_bad": "will sarah take ?"}
+{"sentence_good": "would this duke change ?", "sentence_bad": "would this duke support ?"}
+{"sentence_good": "sam stands .", "sentence_bad": "sam led ."}
+{"sentence_good": "will sam know ?", "sentence_bad": "will sam like ?"}
+{"sentence_good": "could his wolf run ?", "sentence_bad": "could his wolf record ?"}
+{"sentence_good": "could some dinosaur work ?", "sentence_bad": "could some dinosaur order ?"}
+{"sentence_good": "did sam work ?", "sentence_bad": "did sam like ?"}
+{"sentence_good": "could joseph think ?", "sentence_bad": "could joseph record ?"}
+{"sentence_good": "your wolf returned .", "sentence_bad": "your wolf saw ."}
+{"sentence_good": "did your wolf study ?", "sentence_bad": "did your wolf be ?"}
+{"sentence_good": "did joseph work ?", "sentence_bad": "did joseph control ?"}
+{"sentence_good": "would it trade ?", "sentence_bad": "would it close ?"}
+{"sentence_good": "would joseph run ?", "sentence_bad": "would joseph show ?"}
+{"sentence_good": "will sam think ?", "sentence_bad": "will sam close ?"}
+{"sentence_good": "will michael study ?", "sentence_bad": "will michael support ?"}
+{"sentence_good": "the doctor falls .", "sentence_bad": "the doctor planned ."}
+{"sentence_good": "could the doctor study ?", "sentence_bad": "could the doctor put ?"}
+{"sentence_good": "could that duke study ?", "sentence_bad": "could that duke have ?"}
+{"sentence_good": "could some slave eat ?", "sentence_bad": "could some slave close ?"}
+{"sentence_good": "could that wolf turn ?", "sentence_bad": "could that wolf use ?"}
+{"sentence_good": "does he study ?", "sentence_bad": "does he be ?"}
+{"sentence_good": "would william live ?", "sentence_bad": "would william order ?"}
+{"sentence_good": "will we play ?", "sentence_bad": "will we make ?"}
+{"sentence_good": "can michael trade ?", "sentence_bad": "can michael order ?"}
+{"sentence_good": "does chris trade ?", "sentence_bad": "does chris use ?"}
+{"sentence_good": "could william live ?", "sentence_bad": "could william say ?"}
+{"sentence_good": "did his dinosaur study ?", "sentence_bad": "did his dinosaur show ?"}
+{"sentence_good": "some sister started .", "sentence_bad": "some sister closed ."}
+{"sentence_good": "can robert change ?", "sentence_bad": "can robert show ?"}
+{"sentence_good": "we started .", "sentence_bad": "we opposed ."}
+{"sentence_good": "would joseph eat ?", "sentence_bad": "would joseph need ?"}
+{"sentence_good": "your slave knows .", "sentence_bad": "your slave closed ."}
+{"sentence_good": "can your slave turn ?", "sentence_bad": "can your slave close ?"}
+{"sentence_good": "she moved .", "sentence_bad": "she supposed ."}
+{"sentence_good": "could she trade ?", "sentence_bad": "could she open ?"}
+{"sentence_good": "we joined .", "sentence_bad": "we explained ."}
+{"sentence_good": "can sam eat ?", "sentence_bad": "can sam use ?"}
+{"sentence_good": "could your boat play ?", "sentence_bad": "could your boat like ?"}
+{"sentence_good": "it knows .", "sentence_bad": "it put ."}
+{"sentence_good": "can it think ?", "sentence_bad": "can it force ?"}
+{"sentence_good": "can allen study ?", "sentence_bad": "can allen have ?"}
+{"sentence_good": "does sam work ?", "sentence_bad": "does sam put ?"}
+{"sentence_good": "will she think ?", "sentence_bad": "will she need ?"}
+{"sentence_good": "laura calls .", "sentence_bad": "laura closed ."}
+{"sentence_good": "does laura read ?", "sentence_bad": "does laura take ?"}
+{"sentence_good": "would that slave change ?", "sentence_bad": "would that slave put ?"}
+{"sentence_good": "sam lives .", "sentence_bad": "sam saw ."}
+{"sentence_good": "would sam live ?", "sentence_bad": "would sam have ?"}
+{"sentence_good": "joseph finished .", "sentence_bad": "joseph shot ."}
+{"sentence_good": "will joseph eat ?", "sentence_bad": "will joseph like ?"}
+{"sentence_good": "will every slave change ?", "sentence_bad": "will every slave free ?"}
+{"sentence_good": "does chris work ?", "sentence_bad": "does chris free ?"}
+{"sentence_good": "will some pig trade ?", "sentence_bad": "will some pig put ?"}
+{"sentence_good": "they tried .", "sentence_bad": "they hit ."}
+{"sentence_good": "will they change ?", "sentence_bad": "will they record ?"}
+{"sentence_good": "her wolf changes .", "sentence_bad": "her wolf opposed ."}
+{"sentence_good": "does her wolf run ?", "sentence_bad": "does her wolf give ?"}
+{"sentence_good": "would he trade ?", "sentence_bad": "would he free ?"}
+{"sentence_good": "sarah works .", "sentence_bad": "sarah shot ."}
+{"sentence_good": "could sarah change ?", "sentence_bad": "could sarah control ?"}
+{"sentence_good": "some dinosaur started .", "sentence_bad": "some dinosaur hurt ."}
+{"sentence_good": "can some dinosaur read ?", "sentence_bad": "can some dinosaur use ?"}
+{"sentence_good": "michael refused .", "sentence_bad": "michael mixed ."}
+{"sentence_good": "would michael turn ?", "sentence_bad": "would michael keep ?"}
+{"sentence_good": "will we know ?", "sentence_bad": "will we put ?"}
+{"sentence_good": "michael joined .", "sentence_bad": "michael stopped ."}
+{"sentence_good": "could michael change ?", "sentence_bad": "could michael take ?"}
+{"sentence_good": "her wolf changed .", "sentence_bad": "her wolf brought ."}
+{"sentence_good": "could her wolf trade ?", "sentence_bad": "could her wolf open ?"}
+{"sentence_good": "can allen play ?", "sentence_bad": "can allen take ?"}
+{"sentence_good": "she changed .", "sentence_bad": "she shared ."}
+{"sentence_good": "did she eat ?", "sentence_bad": "did she be ?"}
+{"sentence_good": "anne lies .", "sentence_bad": "anne treated ."}
+{"sentence_good": "could anne turn ?", "sentence_bad": "could anne make ?"}
+{"sentence_good": "will laura work ?", "sentence_bad": "will laura make ?"}
+{"sentence_good": "could they think ?", "sentence_bad": "could they control ?"}
+{"sentence_good": "every wolf falls .", "sentence_bad": "every wolf opposed ."}
+{"sentence_good": "did every wolf eat ?", "sentence_bad": "did every wolf take ?"}
+{"sentence_good": "sarah stands .", "sentence_bad": "sarah played ."}
+{"sentence_good": "can sarah run ?", "sentence_bad": "can sarah make ?"}
+{"sentence_good": "her duke joined .", "sentence_bad": "her duke closed ."}
+{"sentence_good": "will her duke run ?", "sentence_bad": "will her duke put ?"}
+{"sentence_good": "it calls .", "sentence_bad": "it gave ."}
+{"sentence_good": "could it know ?", "sentence_bad": "could it open ?"}
+{"sentence_good": "laura worked .", "sentence_bad": "laura put ."}
+{"sentence_good": "does laura live ?", "sentence_bad": "does laura record ?"}
+{"sentence_good": "did he turn ?", "sentence_bad": "did he become ?"}
+{"sentence_good": "will she run ?", "sentence_bad": "will she control ?"}
+{"sentence_good": "can it read ?", "sentence_bad": "can it need ?"}
+{"sentence_good": "chris waves .", "sentence_bad": "chris asked ."}
+{"sentence_good": "will chris read ?", "sentence_bad": "will chris free ?"}
+{"sentence_good": "could she change ?", "sentence_bad": "could she support ?"}
+{"sentence_good": "will we turn ?", "sentence_bad": "will we order ?"}
+{"sentence_good": "some doctor works .", "sentence_bad": "some doctor advanced ."}
+{"sentence_good": "would some doctor read ?", "sentence_bad": "would some doctor make ?"}
+{"sentence_good": "will joseph run ?", "sentence_bad": "will joseph have ?"}
+{"sentence_good": "allen joined .", "sentence_bad": "allen connected ."}
+{"sentence_good": "does allen run ?", "sentence_bad": "does allen force ?"}
+{"sentence_good": "sarah lost .", "sentence_bad": "sarah stopped ."}
+{"sentence_good": "does sarah trade ?", "sentence_bad": "does sarah use ?"}
+{"sentence_good": "some boat moves .", "sentence_bad": "some boat explained ."}
+{"sentence_good": "will some boat run ?", "sentence_bad": "will some boat order ?"}
+{"sentence_good": "does the sister study ?", "sentence_bad": "does the sister become ?"}
+{"sentence_good": "the wolf races .", "sentence_bad": "the wolf supposed ."}
+{"sentence_good": "does the wolf read ?", "sentence_bad": "does the wolf take ?"}
+{"sentence_good": "chris moves .", "sentence_bad": "chris shot ."}
+{"sentence_good": "will chris work ?", "sentence_bad": "will chris support ?"}
+{"sentence_good": "would it think ?", "sentence_bad": "would it be ?"}
+{"sentence_good": "did joseph live ?", "sentence_bad": "did joseph tell ?"}
+{"sentence_good": "william thinks .", "sentence_bad": "william shared ."}
+{"sentence_good": "does william trade ?", "sentence_bad": "does william use ?"}
+{"sentence_good": "did robert turn ?", "sentence_bad": "did robert record ?"}
+{"sentence_good": "she joined .", "sentence_bad": "she asked ."}
+{"sentence_good": "did she change ?", "sentence_bad": "did she support ?"}
+{"sentence_good": "could she study ?", "sentence_bad": "could she say ?"}
+{"sentence_good": "anne fell .", "sentence_bad": "anne mentioned ."}
+{"sentence_good": "did anne turn ?", "sentence_bad": "did anne use ?"}
+{"sentence_good": "will that doctor know ?", "sentence_bad": "will that doctor use ?"}
+{"sentence_good": "every wolf started .", "sentence_bad": "every wolf ended ."}
+{"sentence_good": "could every wolf eat ?", "sentence_bad": "could every wolf be ?"}
+{"sentence_good": "anne matters .", "sentence_bad": "anne said ."}
+{"sentence_good": "can anne play ?", "sentence_bad": "can anne support ?"}
+{"sentence_good": "this wolf changes .", "sentence_bad": "this wolf led ."}
+{"sentence_good": "would this wolf live ?", "sentence_bad": "would this wolf force ?"}
+{"sentence_good": "did joseph know ?", "sentence_bad": "did joseph use ?"}
+{"sentence_good": "sam refused .", "sentence_bad": "sam shared ."}
+{"sentence_good": "will sam turn ?", "sentence_bad": "will sam keep ?"}
+{"sentence_good": "can chris eat ?", "sentence_bad": "can chris tell ?"}
+{"sentence_good": "they worked .", "sentence_bad": "they hurt ."}
+{"sentence_good": "can they know ?", "sentence_bad": "can they control ?"}
+{"sentence_good": "allen finished .", "sentence_bad": "allen took ."}
+{"sentence_good": "would allen read ?", "sentence_bad": "would allen use ?"}
+{"sentence_good": "your slave matters .", "sentence_bad": "your slave organized ."}
+{"sentence_good": "could your slave know ?", "sentence_bad": "could your slave need ?"}
+{"sentence_good": "will they run ?", "sentence_bad": "will they take ?"}
+{"sentence_good": "she broke .", "sentence_bad": "she supposed ."}
+{"sentence_good": "does she run ?", "sentence_bad": "does she open ?"}
+{"sentence_good": "chris leads .", "sentence_bad": "chris needed ."}
+{"sentence_good": "does chris change ?", "sentence_bad": "does chris need ?"}
+{"sentence_good": "can his dinosaur change ?", "sentence_bad": "can his dinosaur force ?"}
+{"sentence_good": "sarah learned .", "sentence_bad": "sarah led ."}
+{"sentence_good": "did sarah think ?", "sentence_bad": "did sarah control ?"}
+{"sentence_good": "can her boat trade ?", "sentence_bad": "can her boat tell ?"}
+{"sentence_good": "would the dinosaur live ?", "sentence_bad": "would the dinosaur need ?"}
+{"sentence_good": "would every slave live ?", "sentence_bad": "would every slave force ?"}
+{"sentence_good": "allen accepted .", "sentence_bad": "allen saw ."}
+{"sentence_good": "this sister worked .", "sentence_bad": "this sister explained ."}
+{"sentence_good": "could this sister work ?", "sentence_bad": "could this sister force ?"}
+{"sentence_good": "joseph read .", "sentence_bad": "joseph saw ."}
+{"sentence_good": "will joseph play ?", "sentence_bad": "will joseph control ?"}
+{"sentence_good": "would this dinosaur work ?", "sentence_bad": "would this dinosaur control ?"}
+{"sentence_good": "they learned .", "sentence_bad": "they put ."}
+{"sentence_good": "will they trade ?", "sentence_bad": "will they say ?"}
+{"sentence_good": "robert broke .", "sentence_bad": "robert helped ."}
+{"sentence_good": "will robert eat ?", "sentence_bad": "will robert take ?"}
+{"sentence_good": "does this wolf know ?", "sentence_bad": "does this wolf need ?"}
+{"sentence_good": "does sam change ?", "sentence_bad": "does sam need ?"}
+{"sentence_good": "sam moved .", "sentence_bad": "sam stopped ."}
+{"sentence_good": "does sam know ?", "sentence_bad": "does sam put ?"}
+{"sentence_good": "that pig dies .", "sentence_bad": "that pig asked ."}
+{"sentence_good": "would that pig play ?", "sentence_bad": "would that pig make ?"}
+{"sentence_good": "william lived .", "sentence_bad": "william explained ."}
+{"sentence_good": "would william run ?", "sentence_bad": "would william record ?"}
+{"sentence_good": "allen improved .", "sentence_bad": "allen brought ."}
+{"sentence_good": "would allen change ?", "sentence_bad": "would allen open ?"}
+{"sentence_good": "could laura study ?", "sentence_bad": "could laura order ?"}
+{"sentence_good": "some boat joined .", "sentence_bad": "some boat closed ."}
+{"sentence_good": "could some boat turn ?", "sentence_bad": "could some boat free ?"}
+{"sentence_good": "could robert run ?", "sentence_bad": "could robert take ?"}
+{"sentence_good": "joseph returned .", "sentence_bad": "joseph shared ."}
+{"sentence_good": "would joseph study ?", "sentence_bad": "would joseph like ?"}
+{"sentence_good": "did he read ?", "sentence_bad": "did he support ?"}
+{"sentence_good": "this dinosaur joined .", "sentence_bad": "this dinosaur hurt ."}
+{"sentence_good": "can this dinosaur study ?", "sentence_bad": "can this dinosaur force ?"}
+{"sentence_good": "joseph lived .", "sentence_bad": "joseph closed ."}
+{"sentence_good": "can joseph live ?", "sentence_bad": "can joseph open ?"}
+{"sentence_good": "can robert turn ?", "sentence_bad": "can robert free ?"}
+{"sentence_good": "sam leads .", "sentence_bad": "sam went ."}
+{"sentence_good": "could sam trade ?", "sentence_bad": "could sam say ?"}
+{"sentence_good": "will the duke change ?", "sentence_bad": "will the duke give ?"}
+{"sentence_good": "could this pig play ?", "sentence_bad": "could this pig free ?"}
+{"sentence_good": "could sam know ?", "sentence_bad": "could sam put ?"}
+{"sentence_good": "joseph lost .", "sentence_bad": "joseph shot ."}
+{"sentence_good": "could allen change ?", "sentence_bad": "could allen use ?"}
+{"sentence_good": "michael calls .", "sentence_bad": "michael explained ."}
+{"sentence_good": "laura turns .", "sentence_bad": "laura advanced ."}
+{"sentence_good": "could laura think ?", "sentence_bad": "could laura close ?"}
+{"sentence_good": "would they change ?", "sentence_bad": "would they free ?"}
+{"sentence_good": "william came .", "sentence_bad": "william helped ."}
+{"sentence_good": "can william run ?", "sentence_bad": "can william close ?"}
+{"sentence_good": "can this sister eat ?", "sentence_bad": "can this sister open ?"}
+{"sentence_good": "did this boat change ?", "sentence_bad": "did this boat show ?"}
+{"sentence_good": "we moved .", "sentence_bad": "we organized ."}
+{"sentence_good": "can we run ?", "sentence_bad": "can we open ?"}
+{"sentence_good": "did his slave work ?", "sentence_bad": "did his slave order ?"}
+{"sentence_good": "will we study ?", "sentence_bad": "will we use ?"}
+{"sentence_good": "robert improved .", "sentence_bad": "robert ended ."}
+{"sentence_good": "could robert work ?", "sentence_bad": "could robert tell ?"}
+{"sentence_good": "would we trade ?", "sentence_bad": "would we have ?"}
+{"sentence_good": "can her wolf know ?", "sentence_bad": "can her wolf open ?"}
+{"sentence_good": "did laura study ?", "sentence_bad": "did laura support ?"}
+{"sentence_good": "did some dinosaur study ?", "sentence_bad": "did some dinosaur say ?"}
+{"sentence_good": "it joined .", "sentence_bad": "it stopped ."}
+{"sentence_good": "will it read ?", "sentence_bad": "will it like ?"}
+{"sentence_good": "would the boat think ?", "sentence_bad": "would the boat record ?"}
+{"sentence_good": "the doctor decided .", "sentence_bad": "the doctor helped ."}
+{"sentence_good": "can the doctor trade ?", "sentence_bad": "can the doctor become ?"}
+{"sentence_good": "that slave joined .", "sentence_bad": "that slave shot ."}
+{"sentence_good": "could that slave play ?", "sentence_bad": "could that slave control ?"}
+{"sentence_good": "his sister lived .", "sentence_bad": "his sister organized ."}
+{"sentence_good": "does his sister play ?", "sentence_bad": "does his sister keep ?"}
+{"sentence_good": "does allen trade ?", "sentence_bad": "does allen have ?"}
+{"sentence_good": "she works .", "sentence_bad": "she asked ."}
+{"sentence_good": "would she eat ?", "sentence_bad": "would she be ?"}
+{"sentence_good": "will we live ?", "sentence_bad": "will we take ?"}
+{"sentence_good": "can sam know ?", "sentence_bad": "can sam open ?"}
+{"sentence_good": "did some sister think ?", "sentence_bad": "did some sister give ?"}
+{"sentence_good": "allen learned .", "sentence_bad": "allen went ."}
+{"sentence_good": "did allen study ?", "sentence_bad": "did allen become ?"}
+{"sentence_good": "could chris play ?", "sentence_bad": "could chris need ?"}
+{"sentence_good": "chris joined .", "sentence_bad": "chris supposed ."}
+{"sentence_good": "can chris think ?", "sentence_bad": "can chris control ?"}
+{"sentence_good": "we accepted .", "sentence_bad": "we treated ."}
+{"sentence_good": "could we live ?", "sentence_bad": "could we tell ?"}
+{"sentence_good": "will every slave eat ?", "sentence_bad": "will every slave say ?"}
+{"sentence_good": "did the doctor eat ?", "sentence_bad": "did the doctor record ?"}
+{"sentence_good": "does anne work ?", "sentence_bad": "does anne put ?"}
+{"sentence_good": "sarah races .", "sentence_bad": "sarah played ."}
+{"sentence_good": "would sarah live ?", "sentence_bad": "would sarah tell ?"}
+{"sentence_good": "did chris play ?", "sentence_bad": "did chris need ?"}
+{"sentence_good": "does joseph turn ?", "sentence_bad": "does joseph be ?"}
+{"sentence_good": "will william change ?", "sentence_bad": "will william open ?"}
+{"sentence_good": "that slave returned .", "sentence_bad": "that slave stopped ."}
+{"sentence_good": "can that slave change ?", "sentence_bad": "can that slave say ?"}
+{"sentence_good": "would she play ?", "sentence_bad": "would she make ?"}
+{"sentence_good": "did some doctor run ?", "sentence_bad": "did some doctor become ?"}
+{"sentence_good": "allen married .", "sentence_bad": "allen advanced ."}
+{"sentence_good": "can allen turn ?", "sentence_bad": "can allen close ?"}
+{"sentence_good": "robert calls .", "sentence_bad": "robert advanced ."}
+{"sentence_good": "does robert live ?", "sentence_bad": "does robert use ?"}
+{"sentence_good": "it lost .", "sentence_bad": "it put ."}
+{"sentence_good": "does it live ?", "sentence_bad": "does it make ?"}
+{"sentence_good": "laura broke .", "sentence_bad": "laura saw ."}
+{"sentence_good": "does allen play ?", "sentence_bad": "does allen support ?"}
+{"sentence_good": "will every wolf study ?", "sentence_bad": "will every wolf keep ?"}
+{"sentence_good": "we lost .", "sentence_bad": "we connected ."}
+{"sentence_good": "her duke decided .", "sentence_bad": "her duke wanted ."}
+{"sentence_good": "will her duke know ?", "sentence_bad": "will her duke free ?"}
+{"sentence_good": "did your sister run ?", "sentence_bad": "did your sister open ?"}
+{"sentence_good": "laura refused .", "sentence_bad": "laura shared ."}
+{"sentence_good": "does laura eat ?", "sentence_bad": "does laura need ?"}
+{"sentence_good": "laura lived .", "sentence_bad": "laura brought ."}
+{"sentence_good": "could laura read ?", "sentence_bad": "could laura order ?"}
+{"sentence_good": "allen leads .", "sentence_bad": "allen ended ."}
+{"sentence_good": "will allen read ?", "sentence_bad": "will allen tell ?"}
+{"sentence_good": "robert lives .", "sentence_bad": "robert planned ."}
+{"sentence_good": "would robert live ?", "sentence_bad": "would robert support ?"}
+{"sentence_good": "did this pig turn ?", "sentence_bad": "did this pig give ?"}
+{"sentence_good": "would we know ?", "sentence_bad": "would we keep ?"}
+{"sentence_good": "did the slave eat ?", "sentence_bad": "did the slave free ?"}
+{"sentence_good": "some pig refused .", "sentence_bad": "some pig said ."}
+{"sentence_good": "does some pig eat ?", "sentence_bad": "does some pig open ?"}
+{"sentence_good": "her pig knows .", "sentence_bad": "her pig organized ."}
+{"sentence_good": "will her pig read ?", "sentence_bad": "will her pig like ?"}
+{"sentence_good": "would this pig live ?", "sentence_bad": "would this pig order ?"}
+{"sentence_good": "would this slave turn ?", "sentence_bad": "would this slave like ?"}
+{"sentence_good": "did anne know ?", "sentence_bad": "did anne free ?"}
+{"sentence_good": "will they play ?", "sentence_bad": "will they show ?"}
+{"sentence_good": "some doctor dies .", "sentence_bad": "some doctor went ."}
+{"sentence_good": "would some doctor run ?", "sentence_bad": "would some doctor need ?"}
+{"sentence_good": "allen worked .", "sentence_bad": "allen brought ."}
+{"sentence_good": "can allen change ?", "sentence_bad": "can allen free ?"}
+{"sentence_good": "can your wolf turn ?", "sentence_bad": "can your wolf become ?"}
+{"sentence_good": "chris races .", "sentence_bad": "chris closed ."}
+{"sentence_good": "could the pig think ?", "sentence_bad": "could the pig control ?"}
+{"sentence_good": "some doctor knows .", "sentence_bad": "some doctor met ."}
+{"sentence_good": "does some doctor know ?", "sentence_bad": "does some doctor like ?"}
+{"sentence_good": "sarah lies .", "sentence_bad": "sarah mentioned ."}
+{"sentence_good": "laura falls .", "sentence_bad": "laura connected ."}
+{"sentence_good": "will laura think ?", "sentence_bad": "will laura support ?"}
+{"sentence_good": "does it change ?", "sentence_bad": "does it need ?"}
+{"sentence_good": "laura grew .", "sentence_bad": "laura mentioned ."}
+{"sentence_good": "will laura play ?", "sentence_bad": "will laura become ?"}
+{"sentence_good": "would sarah change ?", "sentence_bad": "would sarah free ?"}
+{"sentence_good": "can some wolf think ?", "sentence_bad": "can some wolf say ?"}
+{"sentence_good": "would your dinosaur run ?", "sentence_bad": "would your dinosaur order ?"}
+{"sentence_good": "did your dinosaur read ?", "sentence_bad": "did your dinosaur take ?"}
+{"sentence_good": "every slave joined .", "sentence_bad": "every slave treated ."}
+{"sentence_good": "can every slave read ?", "sentence_bad": "can every slave support ?"}
+{"sentence_good": "his pig finished .", "sentence_bad": "his pig brought ."}
+{"sentence_good": "would his pig trade ?", "sentence_bad": "would his pig become ?"}
+{"sentence_good": "it leads .", "sentence_bad": "it took ."}
+{"sentence_good": "will it turn ?", "sentence_bad": "will it use ?"}
+{"sentence_good": "sarah started .", "sentence_bad": "sarah played ."}
+{"sentence_good": "does sarah live ?", "sentence_bad": "does sarah show ?"}
+{"sentence_good": "it happened .", "sentence_bad": "it opposed ."}
+{"sentence_good": "could it trade ?", "sentence_bad": "could it control ?"}
+{"sentence_good": "can michael live ?", "sentence_bad": "can michael like ?"}
+{"sentence_good": "can sarah think ?", "sentence_bad": "can sarah like ?"}
+{"sentence_good": "did allen know ?", "sentence_bad": "did allen say ?"}
+{"sentence_good": "michael races .", "sentence_bad": "michael organized ."}
+{"sentence_good": "did michael eat ?", "sentence_bad": "did michael tell ?"}
+{"sentence_good": "would his boat read ?", "sentence_bad": "would his boat support ?"}
+{"sentence_good": "could they trade ?", "sentence_bad": "could they like ?"}
+{"sentence_good": "did his doctor change ?", "sentence_bad": "did his doctor tell ?"}
+{"sentence_good": "robert matters .", "sentence_bad": "robert went ."}
+{"sentence_good": "could robert study ?", "sentence_bad": "could robert need ?"}
+{"sentence_good": "sarah developed .", "sentence_bad": "sarah let ."}
+{"sentence_good": "will sarah think ?", "sentence_bad": "will sarah support ?"}
+{"sentence_good": "will they think ?", "sentence_bad": "will they put ?"}
+{"sentence_good": "they returned .", "sentence_bad": "they advanced ."}
+{"sentence_good": "would this sister eat ?", "sentence_bad": "would this sister need ?"}
+{"sentence_good": "did that doctor eat ?", "sentence_bad": "did that doctor order ?"}
+{"sentence_good": "does that doctor read ?", "sentence_bad": "does that doctor open ?"}
+{"sentence_good": "the slave joined .", "sentence_bad": "the slave hurt ."}
+{"sentence_good": "did the slave think ?", "sentence_bad": "did the slave make ?"}
+{"sentence_good": "his sister came .", "sentence_bad": "his sister closed ."}
+{"sentence_good": "does his sister run ?", "sentence_bad": "does his sister put ?"}
+{"sentence_good": "that duke waves .", "sentence_bad": "that duke wanted ."}
+{"sentence_good": "could that duke trade ?", "sentence_bad": "could that duke show ?"}
+{"sentence_good": "could sarah turn ?", "sentence_bad": "could sarah order ?"}
+{"sentence_good": "chris matters .", "sentence_bad": "chris closed ."}
+{"sentence_good": "could chris study ?", "sentence_bad": "could chris have ?"}
+{"sentence_good": "chris stands .", "sentence_bad": "chris ended ."}
+{"sentence_good": "would chris read ?", "sentence_bad": "would chris need ?"}
+{"sentence_good": "did it turn ?", "sentence_bad": "did it become ?"}
+{"sentence_good": "chris refused .", "sentence_bad": "chris planned ."}
+{"sentence_good": "can chris read ?", "sentence_bad": "can chris order ?"}
+{"sentence_good": "anne lives .", "sentence_bad": "anne helped ."}
+{"sentence_good": "did anne run ?", "sentence_bad": "did anne open ?"}
+{"sentence_good": "his sister returned .", "sentence_bad": "his sister led ."}
+{"sentence_good": "did his sister think ?", "sentence_bad": "did his sister tell ?"}
+{"sentence_good": "did that dinosaur study ?", "sentence_bad": "did that dinosaur have ?"}
+{"sentence_good": "will that slave live ?", "sentence_bad": "will that slave show ?"}
+{"sentence_good": "did chris turn ?", "sentence_bad": "did chris make ?"}
+{"sentence_good": "this wolf fell .", "sentence_bad": "this wolf put ."}
+{"sentence_good": "did this wolf know ?", "sentence_bad": "did this wolf give ?"}
+{"sentence_good": "can some dinosaur know ?", "sentence_bad": "can some dinosaur force ?"}
+{"sentence_good": "that duke knew .", "sentence_bad": "that duke shared ."}
+{"sentence_good": "would that duke turn ?", "sentence_bad": "would that duke say ?"}
+{"sentence_good": "could he think ?", "sentence_bad": "could he become ?"}
+{"sentence_good": "can joseph eat ?", "sentence_bad": "can joseph force ?"}
+{"sentence_good": "anne moves .", "sentence_bad": "anne opposed ."}
+{"sentence_good": "can william think ?", "sentence_bad": "can william say ?"}
+{"sentence_good": "can the duke study ?", "sentence_bad": "can the duke say ?"}
+{"sentence_good": "would that duke change ?", "sentence_bad": "would that duke record ?"}
+{"sentence_good": "michael appears .", "sentence_bad": "michael opposed ."}
+{"sentence_good": "could michael eat ?", "sentence_bad": "could michael open ?"}
+{"sentence_good": "can william play ?", "sentence_bad": "can william be ?"}
+{"sentence_good": "michael waves .", "sentence_bad": "michael mentioned ."}
+{"sentence_good": "did michael trade ?", "sentence_bad": "did michael force ?"}
+{"sentence_good": "sarah knows .", "sentence_bad": "sarah played ."}
+{"sentence_good": "did sarah eat ?", "sentence_bad": "did sarah open ?"}
+{"sentence_good": "joseph falls .", "sentence_bad": "joseph hit ."}
+{"sentence_good": "does joseph think ?", "sentence_bad": "does joseph order ?"}
+{"sentence_good": "did every wolf run ?", "sentence_bad": "did every wolf close ?"}
+{"sentence_good": "the dinosaur thinks .", "sentence_bad": "the dinosaur led ."}
+{"sentence_good": "can the dinosaur turn ?", "sentence_bad": "can the dinosaur use ?"}
+{"sentence_good": "can she read ?", "sentence_bad": "can she take ?"}
+{"sentence_good": "chris works .", "sentence_bad": "chris opposed ."}
+{"sentence_good": "did chris study ?", "sentence_bad": "did chris like ?"}
+{"sentence_good": "would joseph trade ?", "sentence_bad": "would joseph control ?"}
+{"sentence_good": "can he change ?", "sentence_bad": "can he become ?"}
+{"sentence_good": "can michael know ?", "sentence_bad": "can michael put ?"}
+{"sentence_good": "does every slave play ?", "sentence_bad": "does every slave keep ?"}
+{"sentence_good": "will laura live ?", "sentence_bad": "will laura take ?"}
+{"sentence_good": "would he think ?", "sentence_bad": "would he put ?"}
+{"sentence_good": "did they know ?", "sentence_bad": "did they keep ?"}
+{"sentence_good": "could sarah run ?", "sentence_bad": "could sarah use ?"}
+{"sentence_good": "can he study ?", "sentence_bad": "can he open ?"}
+{"sentence_good": "will william work ?", "sentence_bad": "will william say ?"}
+{"sentence_good": "did some slave run ?", "sentence_bad": "did some slave control ?"}
+{"sentence_good": "joseph joined .", "sentence_bad": "joseph treated ."}
+{"sentence_good": "will joseph turn ?", "sentence_bad": "will joseph control ?"}
+{"sentence_good": "anne knows .", "sentence_bad": "anne wanted ."}
+{"sentence_good": "will anne play ?", "sentence_bad": "will anne close ?"}
+{"sentence_good": "can he know ?", "sentence_bad": "can he support ?"}
+{"sentence_good": "would joseph change ?", "sentence_bad": "would joseph open ?"}
+{"sentence_good": "laura lies .", "sentence_bad": "laura met ."}
+{"sentence_good": "can laura change ?", "sentence_bad": "can laura open ?"}
+{"sentence_good": "will robert work ?", "sentence_bad": "will robert support ?"}
+{"sentence_good": "laura read .", "sentence_bad": "laura mentioned ."}
+{"sentence_good": "could laura play ?", "sentence_bad": "could laura take ?"}
+{"sentence_good": "did chris eat ?", "sentence_bad": "did chris close ?"}
+{"sentence_good": "he thought .", "sentence_bad": "he led ."}
+{"sentence_good": "that duke changed .", "sentence_bad": "that duke affected ."}
+{"sentence_good": "will that duke run ?", "sentence_bad": "will that duke tell ?"}
+{"sentence_good": "sarah improved .", "sentence_bad": "sarah opened ."}
+{"sentence_good": "can sarah work ?", "sentence_bad": "can sarah order ?"}
+{"sentence_good": "that boat lived .", "sentence_bad": "that boat said ."}
+{"sentence_good": "can that boat eat ?", "sentence_bad": "can that boat need ?"}
+{"sentence_good": "laura joined .", "sentence_bad": "laura connected ."}
+{"sentence_good": "did laura change ?", "sentence_bad": "did laura support ?"}
+{"sentence_good": "would every dinosaur turn ?", "sentence_bad": "would every dinosaur be ?"}
+{"sentence_good": "could every dinosaur run ?", "sentence_bad": "could every dinosaur open ?"}
+{"sentence_good": "the pig knew .", "sentence_bad": "the pig mentioned ."}
+{"sentence_good": "will the pig change ?", "sentence_bad": "will the pig record ?"}
+{"sentence_good": "joseph changes .", "sentence_bad": "joseph argued ."}
+{"sentence_good": "can joseph turn ?", "sentence_bad": "can joseph force ?"}
+{"sentence_good": "sam broke .", "sentence_bad": "sam closed ."}
+{"sentence_good": "could sam study ?", "sentence_bad": "could sam keep ?"}
+{"sentence_good": "can his sister turn ?", "sentence_bad": "can his sister open ?"}
+{"sentence_good": "will michael work ?", "sentence_bad": "will michael make ?"}
+{"sentence_good": "that sister read .", "sentence_bad": "that sister brought ."}
+{"sentence_good": "did that sister trade ?", "sentence_bad": "did that sister force ?"}
+{"sentence_good": "his slave grew .", "sentence_bad": "his slave put ."}
+{"sentence_good": "did his slave change ?", "sentence_bad": "did his slave support ?"}
+{"sentence_good": "does your wolf read ?", "sentence_bad": "does your wolf put ?"}
+{"sentence_good": "could sam think ?", "sentence_bad": "could sam use ?"}
+{"sentence_good": "robert moved .", "sentence_bad": "robert organized ."}
+{"sentence_good": "does robert study ?", "sentence_bad": "does robert free ?"}
+{"sentence_good": "would robert work ?", "sentence_bad": "would robert order ?"}
+{"sentence_good": "does chris play ?", "sentence_bad": "does chris control ?"}
+{"sentence_good": "could allen live ?", "sentence_bad": "could allen need ?"}
+{"sentence_good": "did he run ?", "sentence_bad": "did he be ?"}
+{"sentence_good": "will her slave work ?", "sentence_bad": "will her slave put ?"}
+{"sentence_good": "they joined .", "sentence_bad": "they took ."}
+{"sentence_good": "the duke falls .", "sentence_bad": "the duke wanted ."}
+{"sentence_good": "did the duke trade ?", "sentence_bad": "did the duke have ?"}
+{"sentence_good": "does his doctor eat ?", "sentence_bad": "does his doctor open ?"}
+{"sentence_good": "this dinosaur stands .", "sentence_bad": "this dinosaur supposed ."}
+{"sentence_good": "can this dinosaur run ?", "sentence_bad": "can this dinosaur keep ?"}
+{"sentence_good": "chris learned .", "sentence_bad": "chris planned ."}
+{"sentence_good": "will chris turn ?", "sentence_bad": "will chris tell ?"}
+{"sentence_good": "would that duke work ?", "sentence_bad": "would that duke tell ?"}
+{"sentence_good": "can sarah know ?", "sentence_bad": "can sarah open ?"}
+{"sentence_good": "anne learned .", "sentence_bad": "anne shared ."}
+{"sentence_good": "does that wolf live ?", "sentence_bad": "does that wolf need ?"}
+{"sentence_good": "can her boat read ?", "sentence_bad": "can her boat free ?"}
+{"sentence_good": "some wolf waves .", "sentence_bad": "some wolf brought ."}
+{"sentence_good": "did some wolf eat ?", "sentence_bad": "did some wolf make ?"}
+{"sentence_good": "william stands .", "sentence_bad": "william gave ."}
+{"sentence_good": "will william read ?", "sentence_bad": "will william have ?"}
+{"sentence_good": "did she think ?", "sentence_bad": "did she say ?"}
+{"sentence_good": "will joseph read ?", "sentence_bad": "will joseph support ?"}
+{"sentence_good": "laura looked .", "sentence_bad": "laura connected ."}
+{"sentence_good": "will laura turn ?", "sentence_bad": "will laura have ?"}
+{"sentence_good": "could your duke study ?", "sentence_bad": "could your duke say ?"}
+{"sentence_good": "would anne trade ?", "sentence_bad": "would anne say ?"}
+{"sentence_good": "it broke .", "sentence_bad": "it gave ."}
+{"sentence_good": "did it play ?", "sentence_bad": "did it show ?"}
+{"sentence_good": "will allen change ?", "sentence_bad": "will allen force ?"}
+{"sentence_good": "some pig broke .", "sentence_bad": "some pig shown ."}
+{"sentence_good": "did some pig change ?", "sentence_bad": "did some pig like ?"}
+{"sentence_good": "does she study ?", "sentence_bad": "does she close ?"}
+{"sentence_good": "laura tried .", "sentence_bad": "laura planned ."}
+{"sentence_good": "does laura study ?", "sentence_bad": "does laura free ?"}
+{"sentence_good": "would it eat ?", "sentence_bad": "would it free ?"}
+{"sentence_good": "laura matters .", "sentence_bad": "laura connected ."}
+{"sentence_good": "will laura eat ?", "sentence_bad": "will laura give ?"}
+{"sentence_good": "that doctor appears .", "sentence_bad": "that doctor treated ."}
+{"sentence_good": "will that doctor study ?", "sentence_bad": "will that doctor support ?"}
+{"sentence_good": "does it study ?", "sentence_bad": "does it support ?"}
+{"sentence_good": "william appears .", "sentence_bad": "william explained ."}
+{"sentence_good": "does william work ?", "sentence_bad": "does william have ?"}
+{"sentence_good": "his wolf dies .", "sentence_bad": "his wolf mixed ."}
+{"sentence_good": "will his wolf know ?", "sentence_bad": "will his wolf say ?"}
+{"sentence_good": "would some dinosaur know ?", "sentence_bad": "would some dinosaur tell ?"}
+{"sentence_good": "can they eat ?", "sentence_bad": "can they tell ?"}
+{"sentence_good": "that slave lived .", "sentence_bad": "that slave connected ."}
+{"sentence_good": "does that slave eat ?", "sentence_bad": "does that slave be ?"}
+{"sentence_good": "her sister accepted .", "sentence_bad": "her sister supposed ."}
+{"sentence_good": "did her sister trade ?", "sentence_bad": "did her sister say ?"}
+{"sentence_good": "allen races .", "sentence_bad": "allen brought ."}
+{"sentence_good": "will allen live ?", "sentence_bad": "will allen control ?"}
+{"sentence_good": "this slave worked .", "sentence_bad": "this slave connected ."}
+{"sentence_good": "will this slave think ?", "sentence_bad": "will this slave become ?"}
+{"sentence_good": "michael thinks .", "sentence_bad": "michael closed ."}
+{"sentence_good": "would michael live ?", "sentence_bad": "would michael record ?"}
+{"sentence_good": "did laura turn ?", "sentence_bad": "did laura close ?"}
+{"sentence_good": "did we change ?", "sentence_bad": "did we take ?"}
+{"sentence_good": "can sam turn ?", "sentence_bad": "can sam give ?"}
+{"sentence_good": "could laura trade ?", "sentence_bad": "could laura tell ?"}
+{"sentence_good": "she falls .", "sentence_bad": "she said ."}
+{"sentence_good": "can she play ?", "sentence_bad": "can she become ?"}
+{"sentence_good": "would her doctor eat ?", "sentence_bad": "would her doctor support ?"}
+{"sentence_good": "did robert trade ?", "sentence_bad": "did robert force ?"}
+{"sentence_good": "could michael work ?", "sentence_bad": "could michael become ?"}
+{"sentence_good": "did he think ?", "sentence_bad": "did he have ?"}
+{"sentence_good": "could chris think ?", "sentence_bad": "could chris open ?"}
+{"sentence_good": "did they turn ?", "sentence_bad": "did they free ?"}
+{"sentence_good": "can every doctor trade ?", "sentence_bad": "can every doctor open ?"}
+{"sentence_good": "sam changes .", "sentence_bad": "sam let ."}
+{"sentence_good": "can sam play ?", "sentence_bad": "can sam make ?"}
+{"sentence_good": "does your dinosaur study ?", "sentence_bad": "does your dinosaur use ?"}
+{"sentence_good": "that pig learned .", "sentence_bad": "that pig advanced ."}
+{"sentence_good": "could his duke trade ?", "sentence_bad": "could his duke keep ?"}
+{"sentence_good": "could chris change ?", "sentence_bad": "could chris tell ?"}
+{"sentence_good": "we developed .", "sentence_bad": "we played ."}
+{"sentence_good": "could his dinosaur turn ?", "sentence_bad": "could his dinosaur force ?"}
+{"sentence_good": "it stands .", "sentence_bad": "it met ."}
+{"sentence_good": "did it read ?", "sentence_bad": "did it close ?"}
+{"sentence_good": "did michael play ?", "sentence_bad": "did michael free ?"}
+{"sentence_good": "would michael study ?", "sentence_bad": "would michael give ?"}
+{"sentence_good": "will the boat live ?", "sentence_bad": "will the boat give ?"}
+{"sentence_good": "does joseph eat ?", "sentence_bad": "does joseph open ?"}
+{"sentence_good": "does that pig eat ?", "sentence_bad": "does that pig become ?"}
+{"sentence_good": "did every slave eat ?", "sentence_bad": "did every slave keep ?"}
+{"sentence_good": "can the slave think ?", "sentence_bad": "can the slave take ?"}
+{"sentence_good": "she lived .", "sentence_bad": "she treated ."}
+{"sentence_good": "will she study ?", "sentence_bad": "will she open ?"}
+{"sentence_good": "chris fell .", "sentence_bad": "chris took ."}
+{"sentence_good": "could chris know ?", "sentence_bad": "could chris keep ?"}
+{"sentence_good": "could it read ?", "sentence_bad": "could it control ?"}
+{"sentence_good": "will her duke turn ?", "sentence_bad": "will her duke use ?"}
+{"sentence_good": "her slave changed .", "sentence_bad": "her slave organized ."}
+{"sentence_good": "can her slave play ?", "sentence_bad": "can her slave use ?"}
+{"sentence_good": "can the duke read ?", "sentence_bad": "can the duke open ?"}
+{"sentence_good": "did robert run ?", "sentence_bad": "did robert tell ?"}
+{"sentence_good": "did we live ?", "sentence_bad": "did we keep ?"}
+{"sentence_good": "does every wolf think ?", "sentence_bad": "does every wolf use ?"}
+{"sentence_good": "would laura change ?", "sentence_bad": "would laura close ?"}
+{"sentence_good": "can she live ?", "sentence_bad": "can she open ?"}
+{"sentence_good": "did he play ?", "sentence_bad": "did he have ?"}
+{"sentence_good": "the doctor joined .", "sentence_bad": "the doctor brought ."}
+{"sentence_good": "will the doctor turn ?", "sentence_bad": "will the doctor like ?"}
+{"sentence_good": "can this wolf study ?", "sentence_bad": "can this wolf put ?"}
+{"sentence_good": "could some wolf live ?", "sentence_bad": "could some wolf force ?"}
+{"sentence_good": "william improved .", "sentence_bad": "william explained ."}
+{"sentence_good": "did william read ?", "sentence_bad": "did william have ?"}
+{"sentence_good": "she calls .", "sentence_bad": "she ended ."}
+{"sentence_good": "would she think ?", "sentence_bad": "would she force ?"}
+{"sentence_good": "will his pig run ?", "sentence_bad": "will his pig make ?"}
+{"sentence_good": "your doctor finished .", "sentence_bad": "your doctor stopped ."}
+{"sentence_good": "did your doctor think ?", "sentence_bad": "did your doctor open ?"}
+{"sentence_good": "they looked .", "sentence_bad": "they took ."}
+{"sentence_good": "did they play ?", "sentence_bad": "did they have ?"}
+{"sentence_good": "will robert think ?", "sentence_bad": "will robert like ?"}
+{"sentence_good": "could allen trade ?", "sentence_bad": "could allen give ?"}
+{"sentence_good": "every duke decided .", "sentence_bad": "every duke planned ."}
+{"sentence_good": "would every duke study ?", "sentence_bad": "would every duke force ?"}
+{"sentence_good": "her pig dies .", "sentence_bad": "her pig shot ."}
+{"sentence_good": "does her pig run ?", "sentence_bad": "does her pig free ?"}
+{"sentence_good": "did michael live ?", "sentence_bad": "did michael make ?"}
+{"sentence_good": "will we trade ?", "sentence_bad": "will we use ?"}
+{"sentence_good": "can michael change ?", "sentence_bad": "can michael make ?"}
+{"sentence_good": "anne changes .", "sentence_bad": "anne argued ."}
+{"sentence_good": "does anne read ?", "sentence_bad": "does anne close ?"}
+{"sentence_good": "can we trade ?", "sentence_bad": "can we order ?"}
+{"sentence_good": "his sister tried .", "sentence_bad": "his sister opened ."}
+{"sentence_good": "can his sister work ?", "sentence_bad": "can his sister open ?"}
+{"sentence_good": "would her slave change ?", "sentence_bad": "would her slave tell ?"}
+{"sentence_good": "the duke learned .", "sentence_bad": "the duke helped ."}
+{"sentence_good": "does the duke run ?", "sentence_bad": "does the duke control ?"}
+{"sentence_good": "does william run ?", "sentence_bad": "does william become ?"}
+{"sentence_good": "did he study ?", "sentence_bad": "did he become ?"}
+{"sentence_good": "your pig grew .", "sentence_bad": "your pig met ."}
+{"sentence_good": "did your pig know ?", "sentence_bad": "did your pig put ?"}
+{"sentence_good": "does your wolf turn ?", "sentence_bad": "does your wolf control ?"}
+{"sentence_good": "does she change ?", "sentence_bad": "does she open ?"}
+{"sentence_good": "does this doctor run ?", "sentence_bad": "does this doctor control ?"}
+{"sentence_good": "the boat looked .", "sentence_bad": "the boat brought ."}
+{"sentence_good": "can the boat play ?", "sentence_bad": "can the boat have ?"}
+{"sentence_good": "would allen run ?", "sentence_bad": "would allen give ?"}
+{"sentence_good": "laura fell .", "sentence_bad": "laura saw ."}
+{"sentence_good": "would every boat run ?", "sentence_bad": "would every boat free ?"}
+{"sentence_good": "could they eat ?", "sentence_bad": "could they order ?"}
+{"sentence_good": "she moves .", "sentence_bad": "she led ."}
+{"sentence_good": "would she turn ?", "sentence_bad": "would she force ?"}
+{"sentence_good": "every wolf runs .", "sentence_bad": "every wolf hurt ."}
+{"sentence_good": "sarah refused .", "sentence_bad": "sarah shot ."}
+{"sentence_good": "could sarah eat ?", "sentence_bad": "could sarah order ?"}
+{"sentence_good": "sam joined .", "sentence_bad": "sam hit ."}
+{"sentence_good": "can sam think ?", "sentence_bad": "can sam order ?"}
+{"sentence_good": "michael developed .", "sentence_bad": "michael organized ."}
+{"sentence_good": "did michael study ?", "sentence_bad": "did michael become ?"}
+{"sentence_good": "could we play ?", "sentence_bad": "could we force ?"}
+{"sentence_good": "she grew .", "sentence_bad": "she connected ."}
+{"sentence_good": "could she turn ?", "sentence_bad": "could she tell ?"}
+{"sentence_good": "we tried .", "sentence_bad": "we brought ."}
+{"sentence_good": "this slave returned .", "sentence_bad": "this slave planned ."}
+{"sentence_good": "did this slave play ?", "sentence_bad": "did this slave keep ?"}
+{"sentence_good": "we changed .", "sentence_bad": "we explained ."}
+{"sentence_good": "would we work ?", "sentence_bad": "would we put ?"}
+{"sentence_good": "could we turn ?", "sentence_bad": "could we record ?"}
+{"sentence_good": "would michael trade ?", "sentence_bad": "would michael support ?"}
+{"sentence_good": "robert turns .", "sentence_bad": "robert ended ."}
+{"sentence_good": "will robert know ?", "sentence_bad": "will robert keep ?"}
+{"sentence_good": "does the boat play ?", "sentence_bad": "does the boat record ?"}
+{"sentence_good": "would he live ?", "sentence_bad": "would he take ?"}
+{"sentence_good": "will sam work ?", "sentence_bad": "will sam take ?"}
+{"sentence_good": "william calls .", "sentence_bad": "william hit ."}
+{"sentence_good": "does william turn ?", "sentence_bad": "does william control ?"}
+{"sentence_good": "will chris trade ?", "sentence_bad": "will chris need ?"}
+{"sentence_good": "did sarah change ?", "sentence_bad": "did sarah show ?"}
+{"sentence_good": "he stands .", "sentence_bad": "he played ."}
+{"sentence_good": "did your pig work ?", "sentence_bad": "did your pig close ?"}
+{"sentence_good": "this doctor lives .", "sentence_bad": "this doctor mentioned ."}
+{"sentence_good": "would this doctor change ?", "sentence_bad": "would this doctor keep ?"}
+{"sentence_good": "can that pig turn ?", "sentence_bad": "can that pig free ?"}
+{"sentence_good": "that duke refused .", "sentence_bad": "that duke put ."}
+{"sentence_good": "could that duke eat ?", "sentence_bad": "could that duke record ?"}
+{"sentence_good": "will it change ?", "sentence_bad": "will it control ?"}
+{"sentence_good": "did they work ?", "sentence_bad": "did they order ?"}
+{"sentence_good": "sam married .", "sentence_bad": "sam asked ."}
+{"sentence_good": "did sam play ?", "sentence_bad": "did sam make ?"}
+{"sentence_good": "some boat works .", "sentence_bad": "some boat met ."}
+{"sentence_good": "can some boat know ?", "sentence_bad": "can some boat support ?"}
+{"sentence_good": "will he trade ?", "sentence_bad": "will he become ?"}
+{"sentence_good": "did she work ?", "sentence_bad": "did she become ?"}
+{"sentence_good": "will that dinosaur trade ?", "sentence_bad": "will that dinosaur put ?"}
+{"sentence_good": "does michael eat ?", "sentence_bad": "does michael order ?"}
+{"sentence_good": "did robert play ?", "sentence_bad": "did robert need ?"}
+{"sentence_good": "will he eat ?", "sentence_bad": "will he use ?"}
+{"sentence_good": "sam developed .", "sentence_bad": "sam let ."}
+{"sentence_good": "did sam know ?", "sentence_bad": "did sam like ?"}
+{"sentence_good": "laura appears .", "sentence_bad": "laura wanted ."}
+{"sentence_good": "could laura run ?", "sentence_bad": "could laura open ?"}
+{"sentence_good": "did michael run ?", "sentence_bad": "did michael record ?"}
+{"sentence_good": "anne started .", "sentence_bad": "anne mixed ."}
+{"sentence_good": "would anne run ?", "sentence_bad": "would anne order ?"}
+{"sentence_good": "could anne change ?", "sentence_bad": "could anne make ?"}
+{"sentence_good": "did sam live ?", "sentence_bad": "did sam tell ?"}
+{"sentence_good": "can the dinosaur trade ?", "sentence_bad": "can the dinosaur make ?"}
+{"sentence_good": "the dinosaur improved .", "sentence_bad": "the dinosaur ended ."}
+{"sentence_good": "would the dinosaur study ?", "sentence_bad": "would the dinosaur be ?"}
+{"sentence_good": "anne developed .", "sentence_bad": "anne met ."}
+{"sentence_good": "could anne play ?", "sentence_bad": "could anne show ?"}
+{"sentence_good": "can his slave trade ?", "sentence_bad": "can his slave control ?"}
+{"sentence_good": "does sarah think ?", "sentence_bad": "does sarah support ?"}
+{"sentence_good": "his pig broke .", "sentence_bad": "his pig connected ."}
+{"sentence_good": "would his pig work ?", "sentence_bad": "would his pig have ?"}
+{"sentence_good": "he falls .", "sentence_bad": "he hit ."}
+{"sentence_good": "chris accepted .", "sentence_bad": "chris needed ."}
+{"sentence_good": "will some pig live ?", "sentence_bad": "will some pig become ?"}
+{"sentence_good": "can some pig live ?", "sentence_bad": "can some pig show ?"}
+{"sentence_good": "could joseph work ?", "sentence_bad": "could joseph support ?"}
+{"sentence_good": "did this wolf live ?", "sentence_bad": "did this wolf like ?"}
+{"sentence_good": "would anne know ?", "sentence_bad": "would anne have ?"}
+{"sentence_good": "that boat read .", "sentence_bad": "that boat organized ."}
+{"sentence_good": "can that boat work ?", "sentence_bad": "can that boat record ?"}
+{"sentence_good": "every duke joined .", "sentence_bad": "every duke met ."}
+{"sentence_good": "did every duke eat ?", "sentence_bad": "did every duke support ?"}
+{"sentence_good": "your doctor refused .", "sentence_bad": "your doctor met ."}
+{"sentence_good": "could your doctor turn ?", "sentence_bad": "could your doctor free ?"}
+{"sentence_good": "anne falls .", "sentence_bad": "anne affected ."}
+{"sentence_good": "will anne live ?", "sentence_bad": "will anne control ?"}
+{"sentence_good": "would laura live ?", "sentence_bad": "would laura take ?"}
+{"sentence_good": "does some boat trade ?", "sentence_bad": "does some boat show ?"}
+{"sentence_good": "could laura change ?", "sentence_bad": "could laura make ?"}
+{"sentence_good": "the slave started .", "sentence_bad": "the slave explained ."}
+{"sentence_good": "does the slave trade ?", "sentence_bad": "does the slave take ?"}
+{"sentence_good": "could anne live ?", "sentence_bad": "could anne force ?"}
+{"sentence_good": "his pig thinks .", "sentence_bad": "his pig affected ."}
+{"sentence_good": "will his pig trade ?", "sentence_bad": "will his pig become ?"}
+{"sentence_good": "does that boat trade ?", "sentence_bad": "does that boat use ?"}
+{"sentence_good": "can they read ?", "sentence_bad": "can they keep ?"}
+{"sentence_good": "she leads .", "sentence_bad": "she treated ."}
+{"sentence_good": "will she play ?", "sentence_bad": "will she give ?"}
+{"sentence_good": "did every pig work ?", "sentence_bad": "did every pig support ?"}
+{"sentence_good": "this doctor joined .", "sentence_bad": "this doctor saw ."}
+{"sentence_good": "would this doctor study ?", "sentence_bad": "would this doctor become ?"}
+{"sentence_good": "does he change ?", "sentence_bad": "does he like ?"}
+{"sentence_good": "could william study ?", "sentence_bad": "could william like ?"}
+{"sentence_good": "robert moves .", "sentence_bad": "robert closed ."}
+{"sentence_good": "could robert live ?", "sentence_bad": "could robert become ?"}
+{"sentence_good": "would sam trade ?", "sentence_bad": "would sam give ?"}
+{"sentence_good": "did your sister eat ?", "sentence_bad": "did your sister be ?"}
+{"sentence_good": "can that doctor play ?", "sentence_bad": "can that doctor put ?"}
+{"sentence_good": "anne returned .", "sentence_bad": "anne opened ."}
+{"sentence_good": "can anne eat ?", "sentence_bad": "can anne take ?"}
+{"sentence_good": "michael married .", "sentence_bad": "michael saw ."}
+{"sentence_good": "can michael turn ?", "sentence_bad": "can michael make ?"}
+{"sentence_good": "michael stands .", "sentence_bad": "michael closed ."}
+{"sentence_good": "can michael think ?", "sentence_bad": "can michael support ?"}
+{"sentence_good": "he refused .", "sentence_bad": "he went ."}
+{"sentence_good": "could he read ?", "sentence_bad": "could he force ?"}
+{"sentence_good": "the wolf runs .", "sentence_bad": "the wolf mixed ."}
+{"sentence_good": "can the wolf change ?", "sentence_bad": "can the wolf put ?"}
+{"sentence_good": "we broke .", "sentence_bad": "we affected ."}
+{"sentence_good": "joseph accepted .", "sentence_bad": "joseph opened ."}
+{"sentence_good": "will joseph know ?", "sentence_bad": "will joseph take ?"}
+{"sentence_good": "does chris eat ?", "sentence_bad": "does chris take ?"}
+{"sentence_good": "they grew .", "sentence_bad": "they asked ."}
+{"sentence_good": "can they trade ?", "sentence_bad": "can they record ?"}
+{"sentence_good": "william read .", "sentence_bad": "william hurt ."}
+{"sentence_good": "will william run ?", "sentence_bad": "will william take ?"}
+{"sentence_good": "allen tried .", "sentence_bad": "allen met ."}
+{"sentence_good": "did allen think ?", "sentence_bad": "did allen show ?"}
+{"sentence_good": "did laura live ?", "sentence_bad": "did laura have ?"}
+{"sentence_good": "can they turn ?", "sentence_bad": "can they force ?"}
+{"sentence_good": "her duke lies .", "sentence_bad": "her duke hurt ."}
+{"sentence_good": "would her duke trade ?", "sentence_bad": "would her duke become ?"}
+{"sentence_good": "can the boat turn ?", "sentence_bad": "can the boat be ?"}
+{"sentence_good": "she learned .", "sentence_bad": "she mentioned ."}
+{"sentence_good": "does she trade ?", "sentence_bad": "does she use ?"}
+{"sentence_good": "that wolf lies .", "sentence_bad": "that wolf connected ."}
+{"sentence_good": "did that wolf trade ?", "sentence_bad": "did that wolf record ?"}
+{"sentence_good": "can his pig study ?", "sentence_bad": "can his pig need ?"}
+{"sentence_good": "allen dies .", "sentence_bad": "allen hit ."}
+{"sentence_good": "joseph calls .", "sentence_bad": "joseph shared ."}
+{"sentence_good": "every slave married .", "sentence_bad": "every slave supposed ."}
+{"sentence_good": "could every slave know ?", "sentence_bad": "could every slave force ?"}
+{"sentence_good": "would he change ?", "sentence_bad": "would he have ?"}
+{"sentence_good": "some wolf accepted .", "sentence_bad": "some wolf said ."}
+{"sentence_good": "will some wolf change ?", "sentence_bad": "will some wolf close ?"}
+{"sentence_good": "would it play ?", "sentence_bad": "would it have ?"}
+{"sentence_good": "did william study ?", "sentence_bad": "did william be ?"}
+{"sentence_good": "they thought .", "sentence_bad": "they stopped ."}
+{"sentence_good": "would they play ?", "sentence_bad": "would they tell ?"}
+{"sentence_good": "sam thinks .", "sentence_bad": "sam ended ."}
+{"sentence_good": "will sam read ?", "sentence_bad": "will sam use ?"}
+{"sentence_good": "did they run ?", "sentence_bad": "did they free ?"}
+{"sentence_good": "it lived .", "sentence_bad": "it planned ."}
+{"sentence_good": "would it read ?", "sentence_bad": "would it force ?"}
+{"sentence_good": "that slave started .", "sentence_bad": "that slave mixed ."}
+{"sentence_good": "can that slave live ?", "sentence_bad": "can that slave free ?"}
+{"sentence_good": "did chris live ?", "sentence_bad": "did chris take ?"}
+{"sentence_good": "would some slave turn ?", "sentence_bad": "would some slave force ?"}
+{"sentence_good": "does laura trade ?", "sentence_bad": "does laura take ?"}
+{"sentence_good": "will your wolf study ?", "sentence_bad": "will your wolf become ?"}
+{"sentence_good": "can it trade ?", "sentence_bad": "can it have ?"}
+{"sentence_good": "does her doctor change ?", "sentence_bad": "does her doctor need ?"}
+{"sentence_good": "can it turn ?", "sentence_bad": "can it need ?"}
+{"sentence_good": "will some doctor read ?", "sentence_bad": "will some doctor have ?"}
+{"sentence_good": "did her duke read ?", "sentence_bad": "did her duke need ?"}
+{"sentence_good": "could his dinosaur trade ?", "sentence_bad": "could his dinosaur close ?"}
+{"sentence_good": "he lived .", "sentence_bad": "he asked ."}
+{"sentence_good": "does he know ?", "sentence_bad": "does he keep ?"}
+{"sentence_good": "laura lost .", "sentence_bad": "laura gave ."}
+{"sentence_good": "can laura trade ?", "sentence_bad": "can laura control ?"}
+{"sentence_good": "could it eat ?", "sentence_bad": "could it make ?"}
+{"sentence_good": "could sarah study ?", "sentence_bad": "could sarah put ?"}
+{"sentence_good": "did every pig play ?", "sentence_bad": "did every pig need ?"}
+{"sentence_good": "does her doctor read ?", "sentence_bad": "does her doctor put ?"}
+{"sentence_good": "every boat returned .", "sentence_bad": "every boat gave ."}
+{"sentence_good": "does every boat play ?", "sentence_bad": "does every boat use ?"}
+{"sentence_good": "his sister started .", "sentence_bad": "his sister met ."}
+{"sentence_good": "would his sister work ?", "sentence_bad": "would his sister support ?"}
+{"sentence_good": "sarah read .", "sentence_bad": "sarah hit ."}
+{"sentence_good": "could sarah live ?", "sentence_bad": "could sarah become ?"}
+{"sentence_good": "does chris run ?", "sentence_bad": "does chris be ?"}
+{"sentence_good": "she knew .", "sentence_bad": "she organized ."}
+{"sentence_good": "does she live ?", "sentence_bad": "does she force ?"}
+{"sentence_good": "could his slave live ?", "sentence_bad": "could his slave support ?"}
+{"sentence_good": "that dinosaur calls .", "sentence_bad": "that dinosaur took ."}
+{"sentence_good": "could that dinosaur know ?", "sentence_bad": "could that dinosaur use ?"}
+{"sentence_good": "anne knew .", "sentence_bad": "anne organized ."}
+{"sentence_good": "can anne think ?", "sentence_bad": "can anne free ?"}
+{"sentence_good": "joseph lies .", "sentence_bad": "joseph went ."}
+{"sentence_good": "did every dinosaur know ?", "sentence_bad": "did every dinosaur take ?"}
+{"sentence_good": "would every duke run ?", "sentence_bad": "would every duke put ?"}
+{"sentence_good": "could some pig change ?", "sentence_bad": "could some pig give ?"}
+{"sentence_good": "her sister calls .", "sentence_bad": "her sister supposed ."}
+{"sentence_good": "does her sister read ?", "sentence_bad": "does her sister open ?"}
+{"sentence_good": "could we trade ?", "sentence_bad": "could we free ?"}
+{"sentence_good": "laura dies .", "sentence_bad": "laura saw ."}
+{"sentence_good": "does he play ?", "sentence_bad": "does he have ?"}
+{"sentence_good": "would they know ?", "sentence_bad": "would they close ?"}
+{"sentence_good": "does it know ?", "sentence_bad": "does it like ?"}
+{"sentence_good": "will joseph live ?", "sentence_bad": "will joseph have ?"}
+{"sentence_good": "robert tried .", "sentence_bad": "robert put ."}
+{"sentence_good": "did robert read ?", "sentence_bad": "did robert close ?"}
+{"sentence_good": "will every pig run ?", "sentence_bad": "will every pig order ?"}
+{"sentence_good": "can the dinosaur run ?", "sentence_bad": "can the dinosaur use ?"}
+{"sentence_good": "his boat finished .", "sentence_bad": "his boat mentioned ."}
+{"sentence_good": "would his boat eat ?", "sentence_bad": "would his boat become ?"}
+{"sentence_good": "does she play ?", "sentence_bad": "does she close ?"}
+{"sentence_good": "she improved .", "sentence_bad": "she led ."}
+{"sentence_good": "does chris turn ?", "sentence_bad": "does chris put ?"}
+{"sentence_good": "her doctor falls .", "sentence_bad": "her doctor mixed ."}
+{"sentence_good": "does her doctor play ?", "sentence_bad": "does her doctor need ?"}
+{"sentence_good": "could some wolf work ?", "sentence_bad": "could some wolf support ?"}
+{"sentence_good": "the slave works .", "sentence_bad": "the slave played ."}
+{"sentence_good": "will the slave know ?", "sentence_bad": "will the slave force ?"}
+{"sentence_good": "could your slave live ?", "sentence_bad": "could your slave control ?"}
+{"sentence_good": "chris broke .", "sentence_bad": "chris organized ."}
+{"sentence_good": "would chris play ?", "sentence_bad": "would chris show ?"}
+{"sentence_good": "could the boat trade ?", "sentence_bad": "could the boat keep ?"}
+{"sentence_good": "does her doctor turn ?", "sentence_bad": "does her doctor force ?"}
+{"sentence_good": "could the dinosaur play ?", "sentence_bad": "could the dinosaur keep ?"}
+{"sentence_good": "did allen run ?", "sentence_bad": "did allen take ?"}
+{"sentence_good": "every wolf tried .", "sentence_bad": "every wolf put ."}
+{"sentence_good": "could every wolf run ?", "sentence_bad": "could every wolf show ?"}
+{"sentence_good": "her dinosaur turns .", "sentence_bad": "her dinosaur stopped ."}
+{"sentence_good": "will her dinosaur eat ?", "sentence_bad": "will her dinosaur have ?"}
+{"sentence_good": "would his pig play ?", "sentence_bad": "would his pig make ?"}
+{"sentence_good": "does joseph change ?", "sentence_bad": "does joseph need ?"}
+{"sentence_good": "it knew .", "sentence_bad": "it helped ."}
+{"sentence_good": "would it know ?", "sentence_bad": "would it like ?"}
+{"sentence_good": "that pig married .", "sentence_bad": "that pig shot ."}
+{"sentence_good": "does that pig change ?", "sentence_bad": "does that pig control ?"}
+{"sentence_good": "would allen turn ?", "sentence_bad": "would allen say ?"}
+{"sentence_good": "her doctor changes .", "sentence_bad": "her doctor organized ."}
+{"sentence_good": "can her doctor study ?", "sentence_bad": "can her doctor record ?"}
+{"sentence_good": "sam tried .", "sentence_bad": "sam led ."}
+{"sentence_good": "can sam read ?", "sentence_bad": "can sam control ?"}
+{"sentence_good": "would it study ?", "sentence_bad": "would it be ?"}
+{"sentence_good": "anne worked .", "sentence_bad": "anne shared ."}
+{"sentence_good": "does anne play ?", "sentence_bad": "does anne free ?"}
+{"sentence_good": "anne tried .", "sentence_bad": "anne saw ."}
+{"sentence_good": "will some wolf read ?", "sentence_bad": "will some wolf use ?"}
+{"sentence_good": "we refused .", "sentence_bad": "we played ."}
+{"sentence_good": "robert lies .", "sentence_bad": "robert entered ."}
+{"sentence_good": "would robert eat ?", "sentence_bad": "would robert tell ?"}
+{"sentence_good": "could her dinosaur turn ?", "sentence_bad": "could her dinosaur give ?"}
+{"sentence_good": "would chris eat ?", "sentence_bad": "would chris like ?"}
+{"sentence_good": "your doctor changed .", "sentence_bad": "your doctor opened ."}
+{"sentence_good": "can your doctor read ?", "sentence_bad": "can your doctor close ?"}
+{"sentence_good": "can michael run ?", "sentence_bad": "can michael say ?"}
+{"sentence_good": "he tried .", "sentence_bad": "he played ."}
+{"sentence_good": "did he live ?", "sentence_bad": "did he use ?"}
+{"sentence_good": "could sarah think ?", "sentence_bad": "could sarah order ?"}
+{"sentence_good": "can joseph think ?", "sentence_bad": "can joseph be ?"}
+{"sentence_good": "his slave lives .", "sentence_bad": "his slave mixed ."}
+{"sentence_good": "will his slave think ?", "sentence_bad": "will his slave put ?"}
+{"sentence_good": "did anne think ?", "sentence_bad": "did anne make ?"}
+{"sentence_good": "can william turn ?", "sentence_bad": "can william have ?"}
+{"sentence_good": "will the boat trade ?", "sentence_bad": "will the boat give ?"}
+{"sentence_good": "can sarah turn ?", "sentence_bad": "can sarah use ?"}
+{"sentence_good": "we thought .", "sentence_bad": "we wanted ."}
+{"sentence_good": "it moved .", "sentence_bad": "it met ."}
+{"sentence_good": "could that sister read ?", "sentence_bad": "could that sister put ?"}
+{"sentence_good": "could your duke play ?", "sentence_bad": "could your duke show ?"}
+{"sentence_good": "will we eat ?", "sentence_bad": "will we free ?"}
+{"sentence_good": "would we turn ?", "sentence_bad": "would we open ?"}
+{"sentence_good": "would laura turn ?", "sentence_bad": "would laura become ?"}
+{"sentence_good": "will his doctor play ?", "sentence_bad": "will his doctor keep ?"}
+{"sentence_good": "does sam think ?", "sentence_bad": "does sam force ?"}
+{"sentence_good": "will her wolf turn ?", "sentence_bad": "will her wolf control ?"}
+{"sentence_good": "could anne know ?", "sentence_bad": "could anne show ?"}
+{"sentence_good": "his dinosaur read .", "sentence_bad": "his dinosaur wanted ."}
+{"sentence_good": "will this duke work ?", "sentence_bad": "will this duke close ?"}
+{"sentence_good": "did sarah know ?", "sentence_bad": "did sarah open ?"}
+{"sentence_good": "that wolf moves .", "sentence_bad": "that wolf let ."}
+{"sentence_good": "can that wolf eat ?", "sentence_bad": "can that wolf control ?"}
+{"sentence_good": "would she live ?", "sentence_bad": "would she need ?"}
+{"sentence_good": "could allen work ?", "sentence_bad": "could allen force ?"}
+{"sentence_good": "does your doctor think ?", "sentence_bad": "does your doctor force ?"}
+{"sentence_good": "william works .", "sentence_bad": "william stopped ."}
+{"sentence_good": "his pig read .", "sentence_bad": "his pig wanted ."}
+{"sentence_good": "can his pig know ?", "sentence_bad": "can his pig give ?"}
+{"sentence_good": "her sister knew .", "sentence_bad": "her sister advanced ."}
+{"sentence_good": "his wolf broke .", "sentence_bad": "his wolf mixed ."}
+{"sentence_good": "will his wolf read ?", "sentence_bad": "will his wolf need ?"}
+{"sentence_good": "joseph decided .", "sentence_bad": "joseph hit ."}
+{"sentence_good": "your wolf moves .", "sentence_bad": "your wolf mixed ."}
+{"sentence_good": "does your wolf play ?", "sentence_bad": "does your wolf keep ?"}
+{"sentence_good": "can some slave turn ?", "sentence_bad": "can some slave open ?"}
+{"sentence_good": "william turns .", "sentence_bad": "william treated ."}
+{"sentence_good": "would william trade ?", "sentence_bad": "would william control ?"}
+{"sentence_good": "this sister knew .", "sentence_bad": "this sister shot ."}
+{"sentence_good": "could this sister know ?", "sentence_bad": "could this sister need ?"}
+{"sentence_good": "could joseph trade ?", "sentence_bad": "could joseph tell ?"}
+{"sentence_good": "could this wolf trade ?", "sentence_bad": "could this wolf tell ?"}
+{"sentence_good": "could william think ?", "sentence_bad": "could william have ?"}
+{"sentence_good": "did his pig play ?", "sentence_bad": "did his pig close ?"}
+{"sentence_good": "can he read ?", "sentence_bad": "can he show ?"}
+{"sentence_good": "he improved .", "sentence_bad": "he planned ."}
+{"sentence_good": "did he eat ?", "sentence_bad": "did he have ?"}
+{"sentence_good": "will some wolf play ?", "sentence_bad": "will some wolf become ?"}
+{"sentence_good": "could his duke work ?", "sentence_bad": "could his duke keep ?"}
+{"sentence_good": "we improved .", "sentence_bad": "we closed ."}
+{"sentence_good": "will every boat know ?", "sentence_bad": "will every boat like ?"}
+{"sentence_good": "can we turn ?", "sentence_bad": "can we become ?"}
+{"sentence_good": "would that slave play ?", "sentence_bad": "would that slave show ?"}
+{"sentence_good": "could william read ?", "sentence_bad": "could william put ?"}
+{"sentence_good": "laura learned .", "sentence_bad": "laura shown ."}
+{"sentence_good": "will her doctor study ?", "sentence_bad": "will her doctor control ?"}
+{"sentence_good": "the dinosaur worked .", "sentence_bad": "the dinosaur shared ."}
+{"sentence_good": "would the dinosaur work ?", "sentence_bad": "would the dinosaur have ?"}
+{"sentence_good": "will it eat ?", "sentence_bad": "will it support ?"}
+{"sentence_good": "her doctor races .", "sentence_bad": "her doctor wanted ."}
+{"sentence_good": "could her doctor change ?", "sentence_bad": "could her doctor open ?"}
+{"sentence_good": "he worked .", "sentence_bad": "he needed ."}
+{"sentence_good": "would anne eat ?", "sentence_bad": "would anne use ?"}
+{"sentence_good": "can her wolf work ?", "sentence_bad": "can her wolf tell ?"}
+{"sentence_good": "some wolf moves .", "sentence_bad": "some wolf organized ."}
+{"sentence_good": "can some wolf change ?", "sentence_bad": "can some wolf force ?"}
+{"sentence_good": "she refused .", "sentence_bad": "she entered ."}
+{"sentence_good": "can chris study ?", "sentence_bad": "can chris control ?"}
+{"sentence_good": "that wolf grew .", "sentence_bad": "that wolf wanted ."}
+{"sentence_good": "could that wolf know ?", "sentence_bad": "could that wolf become ?"}
+{"sentence_good": "could laura live ?", "sentence_bad": "could laura be ?"}
+{"sentence_good": "it looked .", "sentence_bad": "it supposed ."}
+{"sentence_good": "could it turn ?", "sentence_bad": "could it support ?"}
+{"sentence_good": "can michael play ?", "sentence_bad": "can michael like ?"}
+{"sentence_good": "does her duke work ?", "sentence_bad": "does her duke record ?"}
+{"sentence_good": "it started .", "sentence_bad": "it affected ."}
+{"sentence_good": "would it change ?", "sentence_bad": "would it say ?"}
+{"sentence_good": "we read .", "sentence_bad": "we put ."}
+{"sentence_good": "it accepted .", "sentence_bad": "it needed ."}
+{"sentence_good": "could it study ?", "sentence_bad": "could it tell ?"}
+{"sentence_good": "does that duke turn ?", "sentence_bad": "does that duke control ?"}
+{"sentence_good": "they lost .", "sentence_bad": "they needed ."}
+{"sentence_good": "could sam change ?", "sentence_bad": "could sam like ?"}
+{"sentence_good": "did she study ?", "sentence_bad": "did she need ?"}
+{"sentence_good": "every dinosaur came .", "sentence_bad": "every dinosaur asked ."}
+{"sentence_good": "will every dinosaur read ?", "sentence_bad": "will every dinosaur like ?"}
+{"sentence_good": "can his doctor turn ?", "sentence_bad": "can his doctor free ?"}
+{"sentence_good": "will her doctor work ?", "sentence_bad": "will her doctor control ?"}
+{"sentence_good": "could they work ?", "sentence_bad": "could they close ?"}
+{"sentence_good": "he turns .", "sentence_bad": "he ended ."}
+{"sentence_good": "did he change ?", "sentence_bad": "did he keep ?"}
+{"sentence_good": "did joseph change ?", "sentence_bad": "did joseph support ?"}
+{"sentence_good": "her slave lost .", "sentence_bad": "her slave organized ."}
+{"sentence_good": "would her slave study ?", "sentence_bad": "would her slave tell ?"}
+{"sentence_good": "did his slave study ?", "sentence_bad": "did his slave support ?"}
+{"sentence_good": "chris developed .", "sentence_bad": "chris needed ."}
+{"sentence_good": "william returned .", "sentence_bad": "william supposed ."}
+{"sentence_good": "will william study ?", "sentence_bad": "will william need ?"}
+{"sentence_good": "michael finished .", "sentence_bad": "michael asked ."}
+{"sentence_good": "does michael change ?", "sentence_bad": "does michael free ?"}
+{"sentence_good": "could it change ?", "sentence_bad": "could it be ?"}
+{"sentence_good": "that duke joined .", "sentence_bad": "that duke let ."}
+{"sentence_good": "did that duke live ?", "sentence_bad": "did that duke take ?"}
+{"sentence_good": "can she know ?", "sentence_bad": "can she keep ?"}
+{"sentence_good": "sarah lived .", "sentence_bad": "sarah hurt ."}
+{"sentence_good": "would your wolf think ?", "sentence_bad": "would your wolf use ?"}
+{"sentence_good": "does your dinosaur know ?", "sentence_bad": "does your dinosaur close ?"}
+{"sentence_good": "can this duke change ?", "sentence_bad": "can this duke tell ?"}
+{"sentence_good": "will her sister think ?", "sentence_bad": "will her sister keep ?"}
+{"sentence_good": "that dinosaur returned .", "sentence_bad": "that dinosaur opposed ."}
+{"sentence_good": "does that dinosaur live ?", "sentence_bad": "does that dinosaur keep ?"}
+{"sentence_good": "robert grew .", "sentence_bad": "robert put ."}
+{"sentence_good": "will robert play ?", "sentence_bad": "will robert take ?"}
+{"sentence_good": "would michael know ?", "sentence_bad": "would michael like ?"}
+{"sentence_good": "does some sister eat ?", "sentence_bad": "does some sister make ?"}
+{"sentence_good": "your slave runs .", "sentence_bad": "your slave hurt ."}
+{"sentence_good": "could your slave trade ?", "sentence_bad": "could your slave give ?"}
+{"sentence_good": "she changes .", "sentence_bad": "she put ."}
+{"sentence_good": "can she turn ?", "sentence_bad": "can she use ?"}
+{"sentence_good": "some pig started .", "sentence_bad": "some pig stopped ."}
+{"sentence_good": "could some pig turn ?", "sentence_bad": "could some pig be ?"}
+{"sentence_good": "could they live ?", "sentence_bad": "could they free ?"}
+{"sentence_good": "sarah came .", "sentence_bad": "sarah treated ."}
+{"sentence_good": "would sarah play ?", "sentence_bad": "would sarah have ?"}
+{"sentence_good": "chris came .", "sentence_bad": "chris put ."}
+{"sentence_good": "can chris change ?", "sentence_bad": "can chris free ?"}
+{"sentence_good": "robert lived .", "sentence_bad": "robert argued ."}
+{"sentence_good": "some boat lives .", "sentence_bad": "some boat planned ."}
+{"sentence_good": "would some boat run ?", "sentence_bad": "would some boat put ?"}
+{"sentence_good": "that pig lived .", "sentence_bad": "that pig closed ."}
+{"sentence_good": "would that pig turn ?", "sentence_bad": "would that pig like ?"}
+{"sentence_good": "your wolf read .", "sentence_bad": "your wolf went ."}
+{"sentence_good": "could your wolf run ?", "sentence_bad": "could your wolf show ?"}
+{"sentence_good": "does joseph play ?", "sentence_bad": "does joseph need ?"}
+{"sentence_good": "can this wolf turn ?", "sentence_bad": "can this wolf close ?"}
+{"sentence_good": "that dinosaur appears .", "sentence_bad": "that dinosaur went ."}
+{"sentence_good": "will that dinosaur play ?", "sentence_bad": "will that dinosaur need ?"}
+{"sentence_good": "could some dinosaur play ?", "sentence_bad": "could some dinosaur use ?"}
+{"sentence_good": "would sam think ?", "sentence_bad": "would sam take ?"}
+{"sentence_good": "would his slave change ?", "sentence_bad": "would his slave use ?"}
+{"sentence_good": "anne finished .", "sentence_bad": "anne opposed ."}
+{"sentence_good": "can that dinosaur trade ?", "sentence_bad": "can that dinosaur order ?"}
+{"sentence_good": "william fell .", "sentence_bad": "william argued ."}
+{"sentence_good": "can william change ?", "sentence_bad": "can william tell ?"}
+{"sentence_good": "joseph worked .", "sentence_bad": "joseph mixed ."}
+{"sentence_good": "can joseph run ?", "sentence_bad": "can joseph make ?"}
+{"sentence_good": "she turns .", "sentence_bad": "she shared ."}
+{"sentence_good": "can the slave study ?", "sentence_bad": "can the slave take ?"}
+{"sentence_good": "he leads .", "sentence_bad": "he put ."}
+{"sentence_good": "does laura think ?", "sentence_bad": "does laura put ?"}
+{"sentence_good": "could some wolf eat ?", "sentence_bad": "could some wolf show ?"}
+{"sentence_good": "anne broke .", "sentence_bad": "anne affected ."}
+{"sentence_good": "can sam trade ?", "sentence_bad": "can sam need ?"}
+{"sentence_good": "allen appears .", "sentence_bad": "allen saw ."}
+{"sentence_good": "can allen work ?", "sentence_bad": "can allen keep ?"}
+{"sentence_good": "will that duke play ?", "sentence_bad": "will that duke close ?"}
+{"sentence_good": "will anne turn ?", "sentence_bad": "will anne keep ?"}
+{"sentence_good": "does every wolf study ?", "sentence_bad": "does every wolf use ?"}
+{"sentence_good": "would that wolf change ?", "sentence_bad": "would that wolf put ?"}
+{"sentence_good": "her duke turns .", "sentence_bad": "her duke hit ."}
+{"sentence_good": "would her duke run ?", "sentence_bad": "would her duke force ?"}
+{"sentence_good": "sam races .", "sentence_bad": "sam helped ."}
+{"sentence_good": "will sam change ?", "sentence_bad": "will sam say ?"}
+{"sentence_good": "they refused .", "sentence_bad": "they saw ."}
+{"sentence_good": "would they work ?", "sentence_bad": "would they control ?"}
+{"sentence_good": "can he live ?", "sentence_bad": "can he open ?"}
+{"sentence_good": "did joseph run ?", "sentence_bad": "did joseph control ?"}
+{"sentence_good": "michael decided .", "sentence_bad": "michael mentioned ."}
+{"sentence_good": "will her duke live ?", "sentence_bad": "will her duke become ?"}
+{"sentence_good": "did william think ?", "sentence_bad": "did william like ?"}
+{"sentence_good": "can anne turn ?", "sentence_bad": "can anne have ?"}
+{"sentence_good": "allen knows .", "sentence_bad": "allen wanted ."}
+{"sentence_good": "we came .", "sentence_bad": "we planned ."}
+{"sentence_good": "it worked .", "sentence_bad": "it mixed ."}
+{"sentence_good": "does it trade ?", "sentence_bad": "does it force ?"}
+{"sentence_good": "some sister races .", "sentence_bad": "some sister said ."}
+{"sentence_good": "does some sister run ?", "sentence_bad": "does some sister show ?"}
+{"sentence_good": "can we read ?", "sentence_bad": "can we tell ?"}
+{"sentence_good": "will allen eat ?", "sentence_bad": "will allen free ?"}
+{"sentence_good": "can every dinosaur study ?", "sentence_bad": "can every dinosaur show ?"}
+{"sentence_good": "will your sister play ?", "sentence_bad": "will your sister open ?"}
+{"sentence_good": "this duke stands .", "sentence_bad": "this duke shown ."}
+{"sentence_good": "did this duke play ?", "sentence_bad": "did this duke need ?"}
+{"sentence_good": "that doctor fell .", "sentence_bad": "that doctor put ."}
+{"sentence_good": "could that doctor know ?", "sentence_bad": "could that doctor put ?"}
+{"sentence_good": "would some sister change ?", "sentence_bad": "would some sister be ?"}
+{"sentence_good": "sam knew .", "sentence_bad": "sam shot ."}
+{"sentence_good": "could sam work ?", "sentence_bad": "could sam tell ?"}
+{"sentence_good": "some boat lived .", "sentence_bad": "some boat wanted ."}
+{"sentence_good": "did some boat read ?", "sentence_bad": "did some boat say ?"}
+{"sentence_good": "the dinosaur joined .", "sentence_bad": "the dinosaur helped ."}
+{"sentence_good": "did the dinosaur trade ?", "sentence_bad": "did the dinosaur show ?"}
+{"sentence_good": "could robert read ?", "sentence_bad": "could robert give ?"}
+{"sentence_good": "this dinosaur improved .", "sentence_bad": "this dinosaur helped ."}
+{"sentence_good": "does this dinosaur know ?", "sentence_bad": "does this dinosaur order ?"}
+{"sentence_good": "will it work ?", "sentence_bad": "will it show ?"}
+{"sentence_good": "would the slave change ?", "sentence_bad": "would the slave become ?"}
+{"sentence_good": "that doctor returned .", "sentence_bad": "that doctor brought ."}
+{"sentence_good": "can every boat turn ?", "sentence_bad": "can every boat tell ?"}
+{"sentence_good": "would sam play ?", "sentence_bad": "would sam be ?"}
+{"sentence_good": "does the duke study ?", "sentence_bad": "does the duke tell ?"}
+{"sentence_good": "could this boat know ?", "sentence_bad": "could this boat keep ?"}
+{"sentence_good": "sarah thought .", "sentence_bad": "sarah helped ."}
+{"sentence_good": "will that slave eat ?", "sentence_bad": "will that slave show ?"}
+{"sentence_good": "could anne work ?", "sentence_bad": "could anne use ?"}
+{"sentence_good": "joseph leads .", "sentence_bad": "joseph hurt ."}
+{"sentence_good": "would joseph live ?", "sentence_bad": "would joseph make ?"}
+{"sentence_good": "they lived .", "sentence_bad": "they gave ."}
+{"sentence_good": "will they work ?", "sentence_bad": "will they force ?"}
+{"sentence_good": "can anne run ?", "sentence_bad": "can anne become ?"}
+{"sentence_good": "will robert read ?", "sentence_bad": "will robert put ?"}
+{"sentence_good": "your slave improved .", "sentence_bad": "your slave helped ."}
+{"sentence_good": "does your slave know ?", "sentence_bad": "does your slave keep ?"}
+{"sentence_good": "will that doctor read ?", "sentence_bad": "will that doctor say ?"}
+{"sentence_good": "some boat runs .", "sentence_bad": "some boat shot ."}
+{"sentence_good": "did some boat run ?", "sentence_bad": "did some boat use ?"}
+{"sentence_good": "this slave dies .", "sentence_bad": "this slave took ."}
+{"sentence_good": "did this slave turn ?", "sentence_bad": "did this slave need ?"}
+{"sentence_good": "sam came .", "sentence_bad": "sam put ."}
+{"sentence_good": "did sam eat ?", "sentence_bad": "did sam put ?"}
+{"sentence_good": "william lost .", "sentence_bad": "william treated ."}
+{"sentence_good": "could william eat ?", "sentence_bad": "could william tell ?"}
+{"sentence_good": "can his pig live ?", "sentence_bad": "can his pig force ?"}
+{"sentence_good": "chris grew .", "sentence_bad": "chris treated ."}
+{"sentence_good": "will this sister work ?", "sentence_bad": "will this sister use ?"}
+{"sentence_good": "would some slave eat ?", "sentence_bad": "would some slave give ?"}
+{"sentence_good": "laura changes .", "sentence_bad": "laura mentioned ."}
+{"sentence_good": "would laura think ?", "sentence_bad": "would laura open ?"}
+{"sentence_good": "did william play ?", "sentence_bad": "did william support ?"}
+{"sentence_good": "your dinosaur came .", "sentence_bad": "your dinosaur asked ."}
+{"sentence_good": "does your dinosaur read ?", "sentence_bad": "does your dinosaur support ?"}
+{"sentence_good": "does michael study ?", "sentence_bad": "does michael like ?"}
+{"sentence_good": "it works .", "sentence_bad": "it shown ."}
+{"sentence_good": "sarah knew .", "sentence_bad": "sarah asked ."}
+{"sentence_good": "would anne study ?", "sentence_bad": "would anne close ?"}
+{"sentence_good": "will we change ?", "sentence_bad": "will we become ?"}
+{"sentence_good": "the sister refused .", "sentence_bad": "the sister mixed ."}
+{"sentence_good": "did the sister run ?", "sentence_bad": "did the sister put ?"}
+{"sentence_good": "does he run ?", "sentence_bad": "does he free ?"}
+{"sentence_good": "did your pig read ?", "sentence_bad": "did your pig show ?"}
+{"sentence_good": "they started .", "sentence_bad": "they met ."}
+{"sentence_good": "your slave joined .", "sentence_bad": "your slave went ."}
+{"sentence_good": "would your slave think ?", "sentence_bad": "would your slave be ?"}
+{"sentence_good": "her doctor married .", "sentence_bad": "her doctor connected ."}
+{"sentence_good": "could her doctor turn ?", "sentence_bad": "could her doctor give ?"}
+{"sentence_good": "that pig moved .", "sentence_bad": "that pig shared ."}
+{"sentence_good": "did that pig know ?", "sentence_bad": "did that pig take ?"}
+{"sentence_good": "she waves .", "sentence_bad": "she hurt ."}
+{"sentence_good": "does she think ?", "sentence_bad": "does she order ?"}
+{"sentence_good": "can that doctor read ?", "sentence_bad": "can that doctor force ?"}
+{"sentence_good": "anne turns .", "sentence_bad": "anne shown ."}
+{"sentence_good": "could anne read ?", "sentence_bad": "could anne tell ?"}
+{"sentence_good": "could he turn ?", "sentence_bad": "could he need ?"}
+{"sentence_good": "would the pig work ?", "sentence_bad": "would the pig become ?"}
+{"sentence_good": "did sarah turn ?", "sentence_bad": "did sarah show ?"}
+{"sentence_good": "this doctor stands .", "sentence_bad": "this doctor wanted ."}
+{"sentence_good": "would this doctor play ?", "sentence_bad": "would this doctor control ?"}
+{"sentence_good": "william broke .", "sentence_bad": "william advanced ."}
+{"sentence_good": "would william eat ?", "sentence_bad": "would william be ?"}
+{"sentence_good": "would this duke play ?", "sentence_bad": "would this duke record ?"}
+{"sentence_good": "her boat races .", "sentence_bad": "her boat hit ."}
+{"sentence_good": "his duke lost .", "sentence_bad": "his duke opposed ."}
+{"sentence_good": "would his duke live ?", "sentence_bad": "would his duke like ?"}
+{"sentence_good": "sarah lives .", "sentence_bad": "sarah hurt ."}
+{"sentence_good": "did sarah trade ?", "sentence_bad": "did sarah put ?"}
+{"sentence_good": "would it run ?", "sentence_bad": "would it be ?"}
+{"sentence_good": "did your duke work ?", "sentence_bad": "did your duke say ?"}
+{"sentence_good": "that duke leads .", "sentence_bad": "that duke mixed ."}
+{"sentence_good": "did that duke change ?", "sentence_bad": "did that duke say ?"}
+{"sentence_good": "this slave moved .", "sentence_bad": "this slave entered ."}
+{"sentence_good": "does this slave read ?", "sentence_bad": "does this slave make ?"}
+{"sentence_good": "would sam turn ?", "sentence_bad": "would sam record ?"}
+{"sentence_good": "this slave waves .", "sentence_bad": "this slave went ."}
+{"sentence_good": "can this slave work ?", "sentence_bad": "can this slave free ?"}
+{"sentence_good": "that doctor lies .", "sentence_bad": "that doctor met ."}
+{"sentence_good": "did that doctor think ?", "sentence_bad": "did that doctor be ?"}
+{"sentence_good": "could his boat change ?", "sentence_bad": "could his boat support ?"}
+{"sentence_good": "could michael read ?", "sentence_bad": "could michael become ?"}
+{"sentence_good": "her wolf stands .", "sentence_bad": "her wolf treated ."}
+{"sentence_good": "will her wolf live ?", "sentence_bad": "will her wolf need ?"}
+{"sentence_good": "some pig learned .", "sentence_bad": "some pig mentioned ."}
+{"sentence_good": "will some pig work ?", "sentence_bad": "will some pig close ?"}
+{"sentence_good": "sam grew .", "sentence_bad": "sam met ."}
+{"sentence_good": "joseph learned .", "sentence_bad": "joseph brought ."}
+{"sentence_good": "could joseph turn ?", "sentence_bad": "could joseph take ?"}
+{"sentence_good": "joseph refused .", "sentence_bad": "joseph planned ."}
+{"sentence_good": "would joseph know ?", "sentence_bad": "would joseph give ?"}
+{"sentence_good": "will they eat ?", "sentence_bad": "will they need ?"}
+{"sentence_good": "did we trade ?", "sentence_bad": "did we become ?"}
+{"sentence_good": "her dinosaur developed .", "sentence_bad": "her dinosaur let ."}
+{"sentence_good": "can her dinosaur trade ?", "sentence_bad": "can her dinosaur close ?"}
+{"sentence_good": "does joseph know ?", "sentence_bad": "does joseph order ?"}
+{"sentence_good": "will her wolf eat ?", "sentence_bad": "will her wolf have ?"}
+{"sentence_good": "could allen eat ?", "sentence_bad": "could allen become ?"}
+{"sentence_good": "the wolf moved .", "sentence_bad": "the wolf put ."}
+{"sentence_good": "did the wolf trade ?", "sentence_bad": "did the wolf have ?"}
+{"sentence_good": "michael broke .", "sentence_bad": "michael played ."}
+{"sentence_good": "will michael run ?", "sentence_bad": "will michael put ?"}
+{"sentence_good": "does sam live ?", "sentence_bad": "does sam open ?"}
+{"sentence_good": "could robert turn ?", "sentence_bad": "could robert record ?"}
+{"sentence_good": "they read .", "sentence_bad": "they took ."}
+{"sentence_good": "did they think ?", "sentence_bad": "did they say ?"}
+{"sentence_good": "will your doctor eat ?", "sentence_bad": "will your doctor give ?"}
+{"sentence_good": "anne runs .", "sentence_bad": "anne brought ."}
+{"sentence_good": "michael lives .", "sentence_bad": "michael asked ."}
+{"sentence_good": "did michael know ?", "sentence_bad": "did michael make ?"}
+{"sentence_good": "laura returned .", "sentence_bad": "laura advanced ."}
+{"sentence_good": "does laura play ?", "sentence_bad": "does laura keep ?"}
+{"sentence_good": "some boat leads .", "sentence_bad": "some boat asked ."}
+{"sentence_good": "would some boat eat ?", "sentence_bad": "would some boat force ?"}
+{"sentence_good": "joseph appears .", "sentence_bad": "joseph saw ."}
+{"sentence_good": "would that duke eat ?", "sentence_bad": "would that duke tell ?"}
+{"sentence_good": "will she work ?", "sentence_bad": "will she keep ?"}
+{"sentence_good": "would the duke turn ?", "sentence_bad": "would the duke free ?"}
+{"sentence_good": "would this dinosaur trade ?", "sentence_bad": "would this dinosaur order ?"}
+{"sentence_good": "he thinks .", "sentence_bad": "he ended ."}
+{"sentence_good": "would he work ?", "sentence_bad": "would he like ?"}
+{"sentence_good": "can her boat work ?", "sentence_bad": "can her boat free ?"}
+{"sentence_good": "it improved .", "sentence_bad": "it gave ."}
+{"sentence_good": "can it study ?", "sentence_bad": "can it take ?"}
+{"sentence_good": "he grew .", "sentence_bad": "he helped ."}
+{"sentence_good": "will he read ?", "sentence_bad": "will he force ?"}
+{"sentence_good": "his dinosaur dies .", "sentence_bad": "his dinosaur supposed ."}
+{"sentence_good": "will his dinosaur change ?", "sentence_bad": "will his dinosaur close ?"}
+{"sentence_good": "will the wolf run ?", "sentence_bad": "will the wolf show ?"}
+{"sentence_good": "laura thinks .", "sentence_bad": "laura shot ."}
+{"sentence_good": "could laura work ?", "sentence_bad": "could laura support ?"}
+{"sentence_good": "will she eat ?", "sentence_bad": "will she have ?"}
+{"sentence_good": "could some sister read ?", "sentence_bad": "could some sister need ?"}
+{"sentence_good": "would william play ?", "sentence_bad": "would william make ?"}
+{"sentence_good": "will michael live ?", "sentence_bad": "will michael force ?"}
+{"sentence_good": "will the duke know ?", "sentence_bad": "will the duke tell ?"}
+{"sentence_good": "would his duke eat ?", "sentence_bad": "would his duke control ?"}
+{"sentence_good": "could some boat read ?", "sentence_bad": "could some boat show ?"}
+{"sentence_good": "the wolf read .", "sentence_bad": "the wolf let ."}
+{"sentence_good": "does the wolf work ?", "sentence_bad": "does the wolf show ?"}
+{"sentence_good": "will robert study ?", "sentence_bad": "will robert free ?"}
+{"sentence_good": "does it play ?", "sentence_bad": "does it give ?"}
+{"sentence_good": "your sister runs .", "sentence_bad": "your sister hurt ."}
+{"sentence_good": "can your sister live ?", "sentence_bad": "can your sister keep ?"}
+{"sentence_good": "does sarah study ?", "sentence_bad": "does sarah close ?"}
+{"sentence_good": "could he play ?", "sentence_bad": "could he need ?"}
+{"sentence_good": "could every doctor eat ?", "sentence_bad": "could every doctor show ?"}
+{"sentence_good": "will every doctor turn ?", "sentence_bad": "will every doctor tell ?"}
+{"sentence_good": "did we work ?", "sentence_bad": "did we become ?"}
+{"sentence_good": "this sister falls .", "sentence_bad": "this sister needed ."}
+{"sentence_good": "would this sister read ?", "sentence_bad": "would this sister force ?"}
+{"sentence_good": "would sarah read ?", "sentence_bad": "would sarah put ?"}
+{"sentence_good": "does his duke study ?", "sentence_bad": "does his duke be ?"}
+{"sentence_good": "this sister moves .", "sentence_bad": "this sister wanted ."}
+{"sentence_good": "can this sister live ?", "sentence_bad": "can this sister free ?"}
+{"sentence_good": "could joseph know ?", "sentence_bad": "could joseph control ?"}
+{"sentence_good": "did she run ?", "sentence_bad": "did she force ?"}
+{"sentence_good": "did she know ?", "sentence_bad": "did she show ?"}
+{"sentence_good": "does the dinosaur read ?", "sentence_bad": "does the dinosaur free ?"}
+{"sentence_good": "his slave thinks .", "sentence_bad": "his slave closed ."}
+{"sentence_good": "can your pig know ?", "sentence_bad": "can your pig keep ?"}
+{"sentence_good": "could some duke turn ?", "sentence_bad": "could some duke say ?"}
+{"sentence_good": "did sam change ?", "sentence_bad": "did sam record ?"}
+{"sentence_good": "would sarah eat ?", "sentence_bad": "would sarah record ?"}
+{"sentence_good": "did every pig read ?", "sentence_bad": "did every pig show ?"}
+{"sentence_good": "every duke broke .", "sentence_bad": "every duke shared ."}
+{"sentence_good": "did every duke study ?", "sentence_bad": "did every duke be ?"}
+{"sentence_good": "we returned .", "sentence_bad": "we met ."}
+{"sentence_good": "can william live ?", "sentence_bad": "can william take ?"}
+{"sentence_good": "did every sister change ?", "sentence_bad": "did every sister take ?"}
+{"sentence_good": "this sister refused .", "sentence_bad": "this sister explained ."}
+{"sentence_good": "can this sister turn ?", "sentence_bad": "can this sister tell ?"}
+{"sentence_good": "does the boat know ?", "sentence_bad": "does the boat have ?"}
+{"sentence_good": "he moved .", "sentence_bad": "he led ."}
+{"sentence_good": "would he know ?", "sentence_bad": "would he keep ?"}
+{"sentence_good": "could the pig play ?", "sentence_bad": "could the pig take ?"}
+{"sentence_good": "will sarah turn ?", "sentence_bad": "will sarah keep ?"}
+{"sentence_good": "did laura trade ?", "sentence_bad": "did laura open ?"}
+{"sentence_good": "could he eat ?", "sentence_bad": "could he need ?"}
+{"sentence_good": "that sister calls .", "sentence_bad": "that sister mixed ."}
+{"sentence_good": "did that sister read ?", "sentence_bad": "did that sister order ?"}
+{"sentence_good": "sarah tried .", "sentence_bad": "sarah hurt ."}
+{"sentence_good": "would sarah turn ?", "sentence_bad": "would sarah keep ?"}
+{"sentence_good": "this pig works .", "sentence_bad": "this pig led ."}
+{"sentence_good": "did this pig eat ?", "sentence_bad": "did this pig have ?"}
+{"sentence_good": "can robert know ?", "sentence_bad": "can robert control ?"}
+{"sentence_good": "did robert change ?", "sentence_bad": "did robert order ?"}
+{"sentence_good": "could her slave play ?", "sentence_bad": "could her slave keep ?"}
+{"sentence_good": "chris dies .", "sentence_bad": "chris shot ."}
+{"sentence_good": "michael moves .", "sentence_bad": "michael brought ."}
+{"sentence_good": "sarah runs .", "sentence_bad": "sarah played ."}
+{"sentence_good": "does it think ?", "sentence_bad": "does it put ?"}
+{"sentence_good": "can it know ?", "sentence_bad": "can it make ?"}
+{"sentence_good": "it tried .", "sentence_bad": "it gave ."}
+{"sentence_good": "would it live ?", "sentence_bad": "would it record ?"}
+{"sentence_good": "laura waves .", "sentence_bad": "laura shot ."}
+{"sentence_good": "he matters .", "sentence_bad": "he mixed ."}
+{"sentence_good": "will he think ?", "sentence_bad": "will he force ?"}
+{"sentence_good": "will it think ?", "sentence_bad": "will it have ?"}
+{"sentence_good": "could the boat eat ?", "sentence_bad": "could the boat order ?"}
+{"sentence_good": "your doctor thought .", "sentence_bad": "your doctor organized ."}
+{"sentence_good": "can your doctor think ?", "sentence_bad": "can your doctor order ?"}
+{"sentence_good": "the boat decided .", "sentence_bad": "the boat met ."}
+{"sentence_good": "his duke thought .", "sentence_bad": "his duke explained ."}
+{"sentence_good": "did his duke know ?", "sentence_bad": "did his duke like ?"}
+{"sentence_good": "will some dinosaur play ?", "sentence_bad": "will some dinosaur force ?"}
+{"sentence_good": "allen developed .", "sentence_bad": "allen argued ."}
+{"sentence_good": "did allen change ?", "sentence_bad": "did allen record ?"}
+{"sentence_good": "every dinosaur knew .", "sentence_bad": "every dinosaur shown ."}
+{"sentence_good": "chris decided .", "sentence_bad": "chris mentioned ."}
+{"sentence_good": "his sister races .", "sentence_bad": "his sister mixed ."}
+{"sentence_good": "will his sister read ?", "sentence_bad": "will his sister open ?"}
+{"sentence_good": "did her sister live ?", "sentence_bad": "did her sister have ?"}
+{"sentence_good": "her dinosaur tried .", "sentence_bad": "her dinosaur hit ."}
+{"sentence_good": "does her dinosaur trade ?", "sentence_bad": "does her dinosaur take ?"}
+{"sentence_good": "laura races .", "sentence_bad": "laura helped ."}
+{"sentence_good": "would laura run ?", "sentence_bad": "would laura keep ?"}
+{"sentence_good": "the slave refused .", "sentence_bad": "the slave saw ."}
+{"sentence_good": "allen thinks .", "sentence_bad": "allen affected ."}
+{"sentence_good": "could he live ?", "sentence_bad": "could he like ?"}
+{"sentence_good": "does this dinosaur study ?", "sentence_bad": "does this dinosaur control ?"}
+{"sentence_good": "allen came .", "sentence_bad": "allen entered ."}
+{"sentence_good": "will allen work ?", "sentence_bad": "will allen tell ?"}
+{"sentence_good": "his boat tried .", "sentence_bad": "his boat planned ."}
+{"sentence_good": "does his boat know ?", "sentence_bad": "does his boat need ?"}
+{"sentence_good": "will his doctor live ?", "sentence_bad": "will his doctor be ?"}
+{"sentence_good": "would allen trade ?", "sentence_bad": "would allen record ?"}
+{"sentence_good": "would michael change ?", "sentence_bad": "would michael order ?"}
+{"sentence_good": "will it trade ?", "sentence_bad": "will it give ?"}
+{"sentence_good": "his duke grew .", "sentence_bad": "his duke shot ."}
+{"sentence_good": "does his duke know ?", "sentence_bad": "does his duke record ?"}
+{"sentence_good": "did sam trade ?", "sentence_bad": "did sam need ?"}
+{"sentence_good": "does joseph live ?", "sentence_bad": "does joseph like ?"}
+{"sentence_good": "could your sister read ?", "sentence_bad": "could your sister need ?"}
+{"sentence_good": "will her slave read ?", "sentence_bad": "will her slave support ?"}
+{"sentence_good": "could his sister trade ?", "sentence_bad": "could his sister say ?"}
+{"sentence_good": "his dinosaur calls .", "sentence_bad": "his dinosaur opened ."}
+{"sentence_good": "can his dinosaur think ?", "sentence_bad": "can his dinosaur keep ?"}
+{"sentence_good": "that boat worked .", "sentence_bad": "that boat mixed ."}
+{"sentence_good": "will that boat study ?", "sentence_bad": "will that boat give ?"}
+{"sentence_good": "they married .", "sentence_bad": "they closed ."}
+{"sentence_good": "could they run ?", "sentence_bad": "could they record ?"}
+{"sentence_good": "michael returned .", "sentence_bad": "michael shown ."}
+{"sentence_good": "does michael work ?", "sentence_bad": "does michael keep ?"}
+{"sentence_good": "your dinosaur leads .", "sentence_bad": "your dinosaur shown ."}
+{"sentence_good": "does your dinosaur change ?", "sentence_bad": "does your dinosaur order ?"}
+{"sentence_good": "can we live ?", "sentence_bad": "can we say ?"}
+{"sentence_good": "every dinosaur married .", "sentence_bad": "every dinosaur brought ."}
+{"sentence_good": "it matters .", "sentence_bad": "it took ."}
+{"sentence_good": "will it play ?", "sentence_bad": "will it give ?"}
+{"sentence_good": "can she trade ?", "sentence_bad": "can she give ?"}
+{"sentence_good": "will sam eat ?", "sentence_bad": "will sam become ?"}
+{"sentence_good": "did laura know ?", "sentence_bad": "did laura need ?"}
+{"sentence_good": "would her sister run ?", "sentence_bad": "would her sister have ?"}
+{"sentence_good": "can every boat think ?", "sentence_bad": "can every boat have ?"}
+{"sentence_good": "will this doctor live ?", "sentence_bad": "will this doctor control ?"}
+{"sentence_good": "every wolf stands .", "sentence_bad": "every wolf wanted ."}
+{"sentence_good": "could every wolf study ?", "sentence_bad": "could every wolf force ?"}
+{"sentence_good": "sam turns .", "sentence_bad": "sam hit ."}
+{"sentence_good": "would sam know ?", "sentence_bad": "would sam record ?"}
+{"sentence_good": "every dinosaur leads .", "sentence_bad": "every dinosaur hit ."}
+{"sentence_good": "did every dinosaur trade ?", "sentence_bad": "did every dinosaur become ?"}
+{"sentence_good": "will this sister study ?", "sentence_bad": "will this sister close ?"}
+{"sentence_good": "anne waves .", "sentence_bad": "anne gave ."}
+{"sentence_good": "will anne think ?", "sentence_bad": "will anne need ?"}
+{"sentence_good": "would it work ?", "sentence_bad": "would it become ?"}
+{"sentence_good": "the sister married .", "sentence_bad": "the sister ended ."}
+{"sentence_good": "will the sister read ?", "sentence_bad": "will the sister keep ?"}
+{"sentence_good": "every slave learned .", "sentence_bad": "every slave organized ."}
+{"sentence_good": "does every slave study ?", "sentence_bad": "does every slave order ?"}
+{"sentence_good": "joseph developed .", "sentence_bad": "joseph led ."}
+{"sentence_good": "sarah looked .", "sentence_bad": "sarah organized ."}
+{"sentence_good": "it falls .", "sentence_bad": "it shared ."}
+{"sentence_good": "will some doctor know ?", "sentence_bad": "will some doctor control ?"}
+{"sentence_good": "every boat appears .", "sentence_bad": "every boat saw ."}
+{"sentence_good": "does every boat live ?", "sentence_bad": "does every boat like ?"}
+{"sentence_good": "did her pig eat ?", "sentence_bad": "did her pig show ?"}
+{"sentence_good": "will william think ?", "sentence_bad": "will william use ?"}
+{"sentence_good": "your duke read .", "sentence_bad": "your duke shared ."}
+{"sentence_good": "would your duke turn ?", "sentence_bad": "would your duke be ?"}
+{"sentence_good": "could her sister change ?", "sentence_bad": "could her sister force ?"}
+{"sentence_good": "can allen live ?", "sentence_bad": "can allen show ?"}
+{"sentence_good": "the doctor turns .", "sentence_bad": "the doctor planned ."}
+{"sentence_good": "could the doctor eat ?", "sentence_bad": "could the doctor take ?"}
+{"sentence_good": "your pig calls .", "sentence_bad": "your pig hurt ."}
+{"sentence_good": "could your pig think ?", "sentence_bad": "could your pig like ?"}
+{"sentence_good": "your duke fell .", "sentence_bad": "your duke mixed ."}
+{"sentence_good": "did your duke eat ?", "sentence_bad": "did your duke like ?"}
+{"sentence_good": "does her pig think ?", "sentence_bad": "does her pig use ?"}
+{"sentence_good": "this duke accepted .", "sentence_bad": "this duke advanced ."}
+{"sentence_good": "could this duke play ?", "sentence_bad": "could this duke become ?"}
+{"sentence_good": "they improved .", "sentence_bad": "they played ."}
+{"sentence_good": "did they trade ?", "sentence_bad": "did they have ?"}
+{"sentence_good": "her pig turns .", "sentence_bad": "her pig planned ."}
+{"sentence_good": "can her pig turn ?", "sentence_bad": "can her pig need ?"}
+{"sentence_good": "anne calls .", "sentence_bad": "anne hit ."}
+{"sentence_good": "would that pig study ?", "sentence_bad": "would that pig say ?"}
+{"sentence_good": "did michael work ?", "sentence_bad": "did michael like ?"}
+{"sentence_good": "he knew .", "sentence_bad": "he connected ."}
+{"sentence_good": "does he live ?", "sentence_bad": "does he support ?"}
+{"sentence_good": "his boat races .", "sentence_bad": "his boat shared ."}
+{"sentence_good": "will his boat read ?", "sentence_bad": "will his boat be ?"}
+{"sentence_good": "would sarah study ?", "sentence_bad": "would sarah free ?"}
+{"sentence_good": "her boat dies .", "sentence_bad": "her boat stopped ."}
+{"sentence_good": "would her boat live ?", "sentence_bad": "would her boat control ?"}
+{"sentence_good": "she thinks .", "sentence_bad": "she organized ."}
+{"sentence_good": "the slave calls .", "sentence_bad": "the slave argued ."}
+{"sentence_good": "does the slave know ?", "sentence_bad": "does the slave be ?"}
+{"sentence_good": "can sam work ?", "sentence_bad": "can sam be ?"}
+{"sentence_good": "will he know ?", "sentence_bad": "will he keep ?"}
+{"sentence_good": "he lives .", "sentence_bad": "he wanted ."}
+{"sentence_good": "every pig knows .", "sentence_bad": "every pig asked ."}
+{"sentence_good": "could every pig change ?", "sentence_bad": "could every pig say ?"}
+{"sentence_good": "will this sister read ?", "sentence_bad": "will this sister be ?"}
+{"sentence_good": "it finished .", "sentence_bad": "it stopped ."}
+{"sentence_good": "does it read ?", "sentence_bad": "does it close ?"}
+{"sentence_good": "did robert study ?", "sentence_bad": "did robert take ?"}
+{"sentence_good": "will michael trade ?", "sentence_bad": "will michael like ?"}
+{"sentence_good": "can your slave play ?", "sentence_bad": "can your slave tell ?"}
+{"sentence_good": "will they live ?", "sentence_bad": "will they say ?"}
+{"sentence_good": "will sarah live ?", "sentence_bad": "will sarah be ?"}
+{"sentence_good": "does your dinosaur play ?", "sentence_bad": "does your dinosaur use ?"}
+{"sentence_good": "will some pig turn ?", "sentence_bad": "will some pig have ?"}
+{"sentence_good": "can joseph play ?", "sentence_bad": "can joseph show ?"}
+{"sentence_good": "does some pig study ?", "sentence_bad": "does some pig free ?"}
+{"sentence_good": "will chris play ?", "sentence_bad": "will chris use ?"}
+{"sentence_good": "did this pig trade ?", "sentence_bad": "did this pig keep ?"}
+{"sentence_good": "would he read ?", "sentence_bad": "would he order ?"}
+{"sentence_good": "will her doctor change ?", "sentence_bad": "will her doctor order ?"}
+{"sentence_good": "joseph came .", "sentence_bad": "joseph asked ."}
+{"sentence_good": "can joseph study ?", "sentence_bad": "can joseph make ?"}
+{"sentence_good": "could this doctor read ?", "sentence_bad": "could this doctor close ?"}
+{"sentence_good": "would he run ?", "sentence_bad": "would he close ?"}
+{"sentence_good": "will every pig play ?", "sentence_bad": "will every pig force ?"}
+{"sentence_good": "can sarah trade ?", "sentence_bad": "can sarah put ?"}
+{"sentence_good": "robert read .", "sentence_bad": "robert argued ."}
+{"sentence_good": "will robert run ?", "sentence_bad": "will robert record ?"}
+{"sentence_good": "does laura change ?", "sentence_bad": "does laura show ?"}
+{"sentence_good": "would your sister change ?", "sentence_bad": "would your sister record ?"}
+{"sentence_good": "could sam turn ?", "sentence_bad": "could sam free ?"}
+{"sentence_good": "he moves .", "sentence_bad": "he argued ."}
+{"sentence_good": "sarah waves .", "sentence_bad": "sarah shared ."}
+{"sentence_good": "can laura play ?", "sentence_bad": "can laura take ?"}
+{"sentence_good": "can every slave think ?", "sentence_bad": "can every slave say ?"}
+{"sentence_good": "every sister married .", "sentence_bad": "every sister helped ."}
+{"sentence_good": "would every sister change ?", "sentence_bad": "would every sister order ?"}
+{"sentence_good": "does anne think ?", "sentence_bad": "does anne record ?"}
+{"sentence_good": "will robert change ?", "sentence_bad": "will robert open ?"}
+{"sentence_good": "his duke matters .", "sentence_bad": "his duke said ."}
+{"sentence_good": "will his duke turn ?", "sentence_bad": "will his duke show ?"}
+{"sentence_good": "did we think ?", "sentence_bad": "did we record ?"}
+{"sentence_good": "would your dinosaur work ?", "sentence_bad": "would your dinosaur free ?"}
+{"sentence_good": "did we know ?", "sentence_bad": "did we put ?"}
+{"sentence_good": "robert races .", "sentence_bad": "robert stopped ."}
+{"sentence_good": "would she know ?", "sentence_bad": "would she force ?"}
+{"sentence_good": "will his boat work ?", "sentence_bad": "will his boat have ?"}
+{"sentence_good": "will his pig eat ?", "sentence_bad": "will his pig like ?"}
+{"sentence_good": "every sister works .", "sentence_bad": "every sister gave ."}
+{"sentence_good": "would every sister play ?", "sentence_bad": "would every sister support ?"}
+{"sentence_good": "robert joined .", "sentence_bad": "robert helped ."}
+{"sentence_good": "can robert think ?", "sentence_bad": "can robert force ?"}
+{"sentence_good": "would sam read ?", "sentence_bad": "would sam need ?"}
+{"sentence_good": "robert accepted .", "sentence_bad": "robert hurt ."}
+{"sentence_good": "laura works .", "sentence_bad": "laura brought ."}
+{"sentence_good": "robert knew .", "sentence_bad": "robert said ."}
+{"sentence_good": "can robert work ?", "sentence_bad": "can robert record ?"}
+{"sentence_good": "will they read ?", "sentence_bad": "will they be ?"}
+{"sentence_good": "sarah worked .", "sentence_bad": "sarah organized ."}
+{"sentence_good": "did her dinosaur study ?", "sentence_bad": "did her dinosaur have ?"}
+{"sentence_good": "chris falls .", "sentence_bad": "chris affected ."}
+{"sentence_good": "will chris change ?", "sentence_bad": "will chris become ?"}
+{"sentence_good": "can sarah eat ?", "sentence_bad": "can sarah keep ?"}
+{"sentence_good": "this boat finished .", "sentence_bad": "this boat said ."}
+{"sentence_good": "will this boat work ?", "sentence_bad": "will this boat support ?"}
+{"sentence_good": "could some slave think ?", "sentence_bad": "could some slave be ?"}
+{"sentence_good": "they decided .", "sentence_bad": "they closed ."}
+{"sentence_good": "did they eat ?", "sentence_bad": "did they become ?"}
+{"sentence_good": "does his pig change ?", "sentence_bad": "does his pig make ?"}
+{"sentence_good": "did her wolf eat ?", "sentence_bad": "did her wolf tell ?"}
+{"sentence_good": "will some dinosaur eat ?", "sentence_bad": "will some dinosaur give ?"}
+{"sentence_good": "this sister stands .", "sentence_bad": "this sister saw ."}
+{"sentence_good": "would this sister study ?", "sentence_bad": "would this sister take ?"}
+{"sentence_good": "does he work ?", "sentence_bad": "does he free ?"}
+{"sentence_good": "did that doctor turn ?", "sentence_bad": "did that doctor give ?"}
+{"sentence_good": "can laura think ?", "sentence_bad": "can laura have ?"}
+{"sentence_good": "that slave lost .", "sentence_bad": "that slave connected ."}
+{"sentence_good": "will that slave run ?", "sentence_bad": "will that slave say ?"}
+{"sentence_good": "can every boat live ?", "sentence_bad": "can every boat record ?"}
+{"sentence_good": "will that dinosaur read ?", "sentence_bad": "will that dinosaur have ?"}
+{"sentence_good": "does your wolf work ?", "sentence_bad": "does your wolf have ?"}
+{"sentence_good": "anne dies .", "sentence_bad": "anne gave ."}
+{"sentence_good": "this pig calls .", "sentence_bad": "this pig entered ."}
+{"sentence_good": "would this pig play ?", "sentence_bad": "would this pig be ?"}
+{"sentence_good": "can the duke know ?", "sentence_bad": "can the duke control ?"}
+{"sentence_good": "will that pig trade ?", "sentence_bad": "will that pig show ?"}
+{"sentence_good": "joseph looked .", "sentence_bad": "joseph supposed ."}
+{"sentence_good": "every slave turns .", "sentence_bad": "every slave mentioned ."}
+{"sentence_good": "can every slave know ?", "sentence_bad": "can every slave record ?"}
+{"sentence_good": "can that wolf trade ?", "sentence_bad": "can that wolf free ?"}
+{"sentence_good": "we looked .", "sentence_bad": "we ended ."}
+{"sentence_good": "did we read ?", "sentence_bad": "did we need ?"}
+{"sentence_good": "would he turn ?", "sentence_bad": "would he order ?"}
+{"sentence_good": "some dinosaur appears .", "sentence_bad": "some dinosaur let ."}
+{"sentence_good": "could some dinosaur study ?", "sentence_bad": "could some dinosaur like ?"}
+{"sentence_good": "sam lived .", "sentence_bad": "sam opened ."}
+{"sentence_good": "does sam eat ?", "sentence_bad": "does sam need ?"}
+{"sentence_good": "can he run ?", "sentence_bad": "can he become ?"}
+{"sentence_good": "chris read .", "sentence_bad": "chris gave ."}
+{"sentence_good": "does your sister play ?", "sentence_bad": "does your sister make ?"}
+{"sentence_good": "william races .", "sentence_bad": "william went ."}
+{"sentence_good": "michael falls .", "sentence_bad": "michael let ."}
+{"sentence_good": "could michael study ?", "sentence_bad": "could michael free ?"}
+{"sentence_good": "does every sister change ?", "sentence_bad": "does every sister become ?"}
+{"sentence_good": "will he run ?", "sentence_bad": "will he take ?"}
+{"sentence_good": "that doctor moved .", "sentence_bad": "that doctor brought ."}
+{"sentence_good": "can that doctor run ?", "sentence_bad": "can that doctor give ?"}
+{"sentence_good": "did the sister know ?", "sentence_bad": "did the sister make ?"}
+{"sentence_good": "chris moved .", "sentence_bad": "chris argued ."}
+{"sentence_good": "could laura know ?", "sentence_bad": "could laura control ?"}
+{"sentence_good": "does his sister trade ?", "sentence_bad": "does his sister record ?"}
+{"sentence_good": "sam returned .", "sentence_bad": "sam said ."}
+{"sentence_good": "he changes .", "sentence_bad": "he led ."}
+{"sentence_good": "can he trade ?", "sentence_bad": "can he be ?"}
+{"sentence_good": "his sister improved .", "sentence_bad": "his sister entered ."}
+{"sentence_good": "did his sister change ?", "sentence_bad": "did his sister order ?"}
+{"sentence_good": "did his boat study ?", "sentence_bad": "did his boat show ?"}
+{"sentence_good": "could your duke turn ?", "sentence_bad": "could your duke show ?"}
+{"sentence_good": "does sarah turn ?", "sentence_bad": "does sarah force ?"}
+{"sentence_good": "does robert know ?", "sentence_bad": "does robert need ?"}
+{"sentence_good": "does sarah read ?", "sentence_bad": "does sarah keep ?"}
+{"sentence_good": "her boat worked .", "sentence_bad": "her boat took ."}
+{"sentence_good": "can her boat change ?", "sentence_bad": "can her boat record ?"}
+{"sentence_good": "could joseph eat ?", "sentence_bad": "could joseph make ?"}
+{"sentence_good": "does he read ?", "sentence_bad": "does he record ?"}
+{"sentence_good": "chris knows .", "sentence_bad": "chris asked ."}
+{"sentence_good": "can chris turn ?", "sentence_bad": "can chris need ?"}
+{"sentence_good": "allen turns .", "sentence_bad": "allen opened ."}
+{"sentence_good": "he calls .", "sentence_bad": "he stopped ."}
+{"sentence_good": "her wolf grew .", "sentence_bad": "her wolf shown ."}
+{"sentence_good": "anne married .", "sentence_bad": "anne hurt ."}
+{"sentence_good": "can anne live ?", "sentence_bad": "can anne show ?"}
+{"sentence_good": "did his sister run ?", "sentence_bad": "did his sister put ?"}
+{"sentence_good": "would laura eat ?", "sentence_bad": "would laura free ?"}
+{"sentence_good": "allen runs .", "sentence_bad": "allen took ."}
+{"sentence_good": "does allen eat ?", "sentence_bad": "does allen order ?"}
+{"sentence_good": "joseph changed .", "sentence_bad": "joseph opposed ."}
+{"sentence_good": "would sarah run ?", "sentence_bad": "would sarah have ?"}
+{"sentence_good": "does allen think ?", "sentence_bad": "does allen have ?"}
+{"sentence_good": "does chris read ?", "sentence_bad": "does chris open ?"}
+{"sentence_good": "could the doctor turn ?", "sentence_bad": "could the doctor record ?"}
+{"sentence_good": "did every dinosaur think ?", "sentence_bad": "did every dinosaur take ?"}
+{"sentence_good": "did the duke live ?", "sentence_bad": "did the duke close ?"}
+{"sentence_good": "joseph dies .", "sentence_bad": "joseph treated ."}
+{"sentence_good": "does joseph read ?", "sentence_bad": "does joseph need ?"}
+{"sentence_good": "her pig thought .", "sentence_bad": "her pig played ."}
+{"sentence_good": "could her pig trade ?", "sentence_bad": "could her pig show ?"}
+{"sentence_good": "could some slave play ?", "sentence_bad": "could some slave tell ?"}
+{"sentence_good": "could your sister eat ?", "sentence_bad": "could your sister open ?"}
+{"sentence_good": "allen works .", "sentence_bad": "allen hurt ."}
+{"sentence_good": "will his slave read ?", "sentence_bad": "will his slave put ?"}
+{"sentence_good": "did allen turn ?", "sentence_bad": "did allen free ?"}
+{"sentence_good": "will your slave think ?", "sentence_bad": "will your slave make ?"}
+{"sentence_good": "the doctor tried .", "sentence_bad": "the doctor said ."}
+{"sentence_good": "will the doctor change ?", "sentence_bad": "will the doctor tell ?"}
+{"sentence_good": "could his pig live ?", "sentence_bad": "could his pig take ?"}
+{"sentence_good": "every dinosaur stands .", "sentence_bad": "every dinosaur organized ."}
+{"sentence_good": "does every dinosaur trade ?", "sentence_bad": "does every dinosaur record ?"}
+{"sentence_good": "he read .", "sentence_bad": "he argued ."}
+{"sentence_good": "does he turn ?", "sentence_bad": "does he order ?"}
+{"sentence_good": "could they change ?", "sentence_bad": "could they put ?"}
+{"sentence_good": "did sam read ?", "sentence_bad": "did sam like ?"}
+{"sentence_good": "would her wolf live ?", "sentence_bad": "would her wolf be ?"}
+{"sentence_good": "your wolf matters .", "sentence_bad": "your wolf connected ."}
+{"sentence_good": "his pig falls .", "sentence_bad": "his pig hit ."}
+{"sentence_good": "michael changes .", "sentence_bad": "michael planned ."}
+{"sentence_good": "did that boat run ?", "sentence_bad": "did that boat give ?"}
+{"sentence_good": "would he eat ?", "sentence_bad": "would he be ?"}
+{"sentence_good": "could every sister turn ?", "sentence_bad": "could every sister take ?"}
+{"sentence_good": "william changes .", "sentence_bad": "william hurt ."}
+{"sentence_good": "did william work ?", "sentence_bad": "did william have ?"}
+{"sentence_good": "michael accepted .", "sentence_bad": "michael went ."}
+{"sentence_good": "would michael think ?", "sentence_bad": "would michael show ?"}
+{"sentence_good": "that boat fell .", "sentence_bad": "that boat entered ."}
+{"sentence_good": "will that boat turn ?", "sentence_bad": "will that boat have ?"}
+{"sentence_good": "joseph works .", "sentence_bad": "joseph argued ."}
+{"sentence_good": "can joseph trade ?", "sentence_bad": "can joseph use ?"}
+{"sentence_good": "can it play ?", "sentence_bad": "can it put ?"}
+{"sentence_good": "it moves .", "sentence_bad": "it shown ."}
+{"sentence_good": "can this wolf play ?", "sentence_bad": "can this wolf free ?"}
+{"sentence_good": "your doctor stands .", "sentence_bad": "your doctor closed ."}
+{"sentence_good": "did your doctor work ?", "sentence_bad": "did your doctor give ?"}
+{"sentence_good": "that sister married .", "sentence_bad": "that sister mentioned ."}
+{"sentence_good": "will that sister study ?", "sentence_bad": "will that sister take ?"}
+{"sentence_good": "some duke stands .", "sentence_bad": "some duke put ."}
+{"sentence_good": "did some duke know ?", "sentence_bad": "did some duke take ?"}
+{"sentence_good": "chris looked .", "sentence_bad": "chris asked ."}
+{"sentence_good": "would chris turn ?", "sentence_bad": "would chris put ?"}
+{"sentence_good": "it lies .", "sentence_bad": "it affected ."}
+{"sentence_good": "does it turn ?", "sentence_bad": "does it show ?"}
+{"sentence_good": "that sister leads .", "sentence_bad": "that sister stopped ."}
+{"sentence_good": "will that sister change ?", "sentence_bad": "will that sister force ?"}
+{"sentence_good": "can laura eat ?", "sentence_bad": "can laura say ?"}
+{"sentence_good": "her boat refused .", "sentence_bad": "her boat gave ."}
+{"sentence_good": "can her boat study ?", "sentence_bad": "can her boat force ?"}
+{"sentence_good": "his slave appears .", "sentence_bad": "his slave ended ."}
+{"sentence_good": "does his slave turn ?", "sentence_bad": "does his slave need ?"}
+{"sentence_good": "will sarah read ?", "sentence_bad": "will sarah record ?"}
+{"sentence_good": "could every sister think ?", "sentence_bad": "could every sister record ?"}
+{"sentence_good": "could her boat live ?", "sentence_bad": "could her boat become ?"}
+{"sentence_good": "michael grew .", "sentence_bad": "michael wanted ."}
+{"sentence_good": "joseph broke .", "sentence_bad": "joseph brought ."}
+{"sentence_good": "anne lived .", "sentence_bad": "anne ended ."}
+{"sentence_good": "can anne read ?", "sentence_bad": "can anne make ?"}
+{"sentence_good": "your sister improved .", "sentence_bad": "your sister planned ."}
+{"sentence_good": "does your sister know ?", "sentence_bad": "does your sister be ?"}
+{"sentence_good": "does laura work ?", "sentence_bad": "does laura make ?"}
+{"sentence_good": "william refused .", "sentence_bad": "william advanced ."}
+{"sentence_good": "does william study ?", "sentence_bad": "does william be ?"}
+{"sentence_good": "his doctor calls .", "sentence_bad": "his doctor played ."}
+{"sentence_good": "does his doctor think ?", "sentence_bad": "does his doctor like ?"}
+{"sentence_good": "your doctor accepted .", "sentence_bad": "your doctor helped ."}
+{"sentence_good": "would the doctor play ?", "sentence_bad": "would the doctor record ?"}
+{"sentence_good": "would sarah know ?", "sentence_bad": "would sarah support ?"}
+{"sentence_good": "can that doctor trade ?", "sentence_bad": "can that doctor put ?"}
+{"sentence_good": "that slave dies .", "sentence_bad": "that slave affected ."}
+{"sentence_good": "will that slave know ?", "sentence_bad": "will that slave record ?"}
+{"sentence_good": "your sister lived .", "sentence_bad": "your sister organized ."}
+{"sentence_good": "will your sister read ?", "sentence_bad": "will your sister force ?"}
+{"sentence_good": "that slave changed .", "sentence_bad": "that slave explained ."}
+{"sentence_good": "does sarah know ?", "sentence_bad": "does sarah show ?"}
+{"sentence_good": "your pig joined .", "sentence_bad": "your pig saw ."}
+{"sentence_good": "does your pig change ?", "sentence_bad": "does your pig say ?"}
+{"sentence_good": "can we work ?", "sentence_bad": "can we like ?"}
+{"sentence_good": "your sister matters .", "sentence_bad": "your sister closed ."}
+{"sentence_good": "would your sister turn ?", "sentence_bad": "would your sister give ?"}
+{"sentence_good": "he came .", "sentence_bad": "he hurt ."}
+{"sentence_good": "would some wolf play ?", "sentence_bad": "would some wolf like ?"}
+{"sentence_good": "would your slave eat ?", "sentence_bad": "would your slave force ?"}
+{"sentence_good": "would that duke live ?", "sentence_bad": "would that duke have ?"}
+{"sentence_good": "could every duke live ?", "sentence_bad": "could every duke need ?"}
+{"sentence_good": "did they read ?", "sentence_bad": "did they become ?"}
+{"sentence_good": "some wolf joined .", "sentence_bad": "some wolf planned ."}
+{"sentence_good": "will some wolf know ?", "sentence_bad": "will some wolf keep ?"}
+{"sentence_good": "does this boat study ?", "sentence_bad": "does this boat close ?"}
+{"sentence_good": "this wolf knows .", "sentence_bad": "this wolf shot ."}
+{"sentence_good": "does this wolf trade ?", "sentence_bad": "does this wolf become ?"}
+{"sentence_good": "your slave lived .", "sentence_bad": "your slave let ."}
+{"sentence_good": "every slave lies .", "sentence_bad": "every slave helped ."}
+{"sentence_good": "did robert work ?", "sentence_bad": "did robert show ?"}
+{"sentence_good": "could your doctor trade ?", "sentence_bad": "could your doctor open ?"}
+{"sentence_good": "did her duke think ?", "sentence_bad": "did her duke close ?"}
+{"sentence_good": "your doctor thinks .", "sentence_bad": "your doctor led ."}
+{"sentence_good": "can your doctor run ?", "sentence_bad": "can your doctor support ?"}
+{"sentence_good": "every slave returned .", "sentence_bad": "every slave closed ."}
+{"sentence_good": "would every slave study ?", "sentence_bad": "would every slave take ?"}
+{"sentence_good": "will we think ?", "sentence_bad": "will we make ?"}
+{"sentence_good": "it appears .", "sentence_bad": "it put ."}
+{"sentence_good": "could he run ?", "sentence_bad": "could he free ?"}
+{"sentence_good": "would chris live ?", "sentence_bad": "would chris put ?"}
+{"sentence_good": "does anne run ?", "sentence_bad": "does anne open ?"}
+{"sentence_good": "some pig worked .", "sentence_bad": "some pig went ."}
+{"sentence_good": "will some pig study ?", "sentence_bad": "will some pig have ?"}
+{"sentence_good": "some sister works .", "sentence_bad": "some sister mentioned ."}
+{"sentence_good": "can some sister turn ?", "sentence_bad": "can some sister have ?"}
+{"sentence_good": "every doctor finished .", "sentence_bad": "every doctor put ."}
+{"sentence_good": "does every doctor live ?", "sentence_bad": "does every doctor take ?"}
+{"sentence_good": "will the dinosaur think ?", "sentence_bad": "will the dinosaur say ?"}
+{"sentence_good": "every sister knew .", "sentence_bad": "every sister said ."}
+{"sentence_good": "can every sister think ?", "sentence_bad": "can every sister open ?"}
+{"sentence_good": "did some slave know ?", "sentence_bad": "did some slave put ?"}
+{"sentence_good": "would this boat run ?", "sentence_bad": "would this boat like ?"}
+{"sentence_good": "will that duke work ?", "sentence_bad": "will that duke like ?"}
+{"sentence_good": "does this wolf eat ?", "sentence_bad": "does this wolf need ?"}
+{"sentence_good": "could michael play ?", "sentence_bad": "could michael take ?"}
+{"sentence_good": "did his dinosaur run ?", "sentence_bad": "did his dinosaur record ?"}
+{"sentence_good": "does the slave eat ?", "sentence_bad": "does the slave be ?"}
+{"sentence_good": "will they study ?", "sentence_bad": "will they put ?"}
+{"sentence_good": "could the duke live ?", "sentence_bad": "could the duke open ?"}
+{"sentence_good": "would she trade ?", "sentence_bad": "would she have ?"}
+{"sentence_good": "does that slave run ?", "sentence_bad": "does that slave free ?"}
+{"sentence_good": "it thinks .", "sentence_bad": "it ended ."}
+{"sentence_good": "will it run ?", "sentence_bad": "will it record ?"}
+{"sentence_good": "it thought .", "sentence_bad": "it affected ."}
+{"sentence_good": "his duke moved .", "sentence_bad": "his duke argued ."}
+{"sentence_good": "will his duke eat ?", "sentence_bad": "will his duke need ?"}
+{"sentence_good": "some pig waves .", "sentence_bad": "some pig gave ."}
+{"sentence_good": "will some pig play ?", "sentence_bad": "will some pig put ?"}
+{"sentence_good": "could robert trade ?", "sentence_bad": "could robert control ?"}
+{"sentence_good": "would some pig eat ?", "sentence_bad": "would some pig open ?"}
+{"sentence_good": "did laura eat ?", "sentence_bad": "did laura be ?"}
+{"sentence_good": "would anne think ?", "sentence_bad": "would anne have ?"}
+{"sentence_good": "your duke married .", "sentence_bad": "your duke argued ."}
+{"sentence_good": "would your duke change ?", "sentence_bad": "would your duke close ?"}
+{"sentence_good": "would your slave run ?", "sentence_bad": "would your slave tell ?"}
+{"sentence_good": "michael started .", "sentence_bad": "michael put ."}
+{"sentence_good": "could michael know ?", "sentence_bad": "could michael open ?"}
+{"sentence_good": "can anne change ?", "sentence_bad": "can anne have ?"}
+{"sentence_good": "can every dinosaur know ?", "sentence_bad": "can every dinosaur show ?"}
+{"sentence_good": "this slave matters .", "sentence_bad": "this slave brought ."}
+{"sentence_good": "will this slave know ?", "sentence_bad": "will this slave be ?"}
+{"sentence_good": "his duke lived .", "sentence_bad": "his duke played ."}
+{"sentence_good": "would his duke change ?", "sentence_bad": "would his duke open ?"}
+{"sentence_good": "some pig thinks .", "sentence_bad": "some pig explained ."}
+{"sentence_good": "would some pig change ?", "sentence_bad": "would some pig use ?"}
+{"sentence_good": "some dinosaur broke .", "sentence_bad": "some dinosaur entered ."}
+{"sentence_good": "does some dinosaur trade ?", "sentence_bad": "does some dinosaur open ?"}
+{"sentence_good": "did she play ?", "sentence_bad": "did she close ?"}
+{"sentence_good": "your doctor lived .", "sentence_bad": "your doctor put ."}
+{"sentence_good": "your wolf looked .", "sentence_bad": "your wolf wanted ."}
+{"sentence_good": "would your wolf live ?", "sentence_bad": "would your wolf make ?"}
+{"sentence_good": "did her boat turn ?", "sentence_bad": "did her boat order ?"}
+{"sentence_good": "his dinosaur runs .", "sentence_bad": "his dinosaur brought ."}
+{"sentence_good": "will his dinosaur trade ?", "sentence_bad": "will his dinosaur take ?"}
+{"sentence_good": "will sam run ?", "sentence_bad": "will sam show ?"}
+{"sentence_good": "that wolf decided .", "sentence_bad": "that wolf took ."}
+{"sentence_good": "can that wolf read ?", "sentence_bad": "can that wolf use ?"}
+{"sentence_good": "can allen read ?", "sentence_bad": "can allen control ?"}
+{"sentence_good": "her duke finished .", "sentence_bad": "her duke opened ."}
+{"sentence_good": "would her duke study ?", "sentence_bad": "would her duke like ?"}
+{"sentence_good": "would this wolf turn ?", "sentence_bad": "would this wolf show ?"}
+{"sentence_good": "can it change ?", "sentence_bad": "can it tell ?"}
+{"sentence_good": "her sister tried .", "sentence_bad": "her sister went ."}
+{"sentence_good": "could her sister trade ?", "sentence_bad": "could her sister support ?"}
+{"sentence_good": "the slave thought .", "sentence_bad": "the slave planned ."}
+{"sentence_good": "this doctor moves .", "sentence_bad": "this doctor advanced ."}
+{"sentence_good": "could this doctor trade ?", "sentence_bad": "could this doctor need ?"}
+{"sentence_good": "her pig read .", "sentence_bad": "her pig argued ."}
+{"sentence_good": "did her pig change ?", "sentence_bad": "did her pig show ?"}
+{"sentence_good": "can some wolf turn ?", "sentence_bad": "can some wolf order ?"}
+{"sentence_good": "did this doctor think ?", "sentence_bad": "did this doctor keep ?"}
+{"sentence_good": "that sister fell .", "sentence_bad": "that sister gave ."}
+{"sentence_good": "could that sister run ?", "sentence_bad": "could that sister tell ?"}
+{"sentence_good": "does michael live ?", "sentence_bad": "does michael tell ?"}
+{"sentence_good": "did every doctor read ?", "sentence_bad": "did every doctor control ?"}
+{"sentence_good": "he works .", "sentence_bad": "he shown ."}
+{"sentence_good": "will he play ?", "sentence_bad": "will he control ?"}
+{"sentence_good": "anne refused .", "sentence_bad": "anne connected ."}
+{"sentence_good": "can his wolf turn ?", "sentence_bad": "can his wolf use ?"}
+{"sentence_good": "would every duke change ?", "sentence_bad": "would every duke open ?"}
+{"sentence_good": "will that boat know ?", "sentence_bad": "will that boat take ?"}
+{"sentence_good": "can every pig know ?", "sentence_bad": "can every pig be ?"}
+{"sentence_good": "would michael work ?", "sentence_bad": "would michael give ?"}
+{"sentence_good": "this boat leads .", "sentence_bad": "this boat hit ."}
+{"sentence_good": "will this boat change ?", "sentence_bad": "will this boat make ?"}
+{"sentence_good": "does your sister study ?", "sentence_bad": "does your sister make ?"}
+{"sentence_good": "that dinosaur dies .", "sentence_bad": "that dinosaur treated ."}
+{"sentence_good": "would that dinosaur run ?", "sentence_bad": "would that dinosaur support ?"}
+{"sentence_good": "could some wolf run ?", "sentence_bad": "could some wolf support ?"}
+{"sentence_good": "could robert change ?", "sentence_bad": "could robert free ?"}
+{"sentence_good": "can they work ?", "sentence_bad": "can they become ?"}
+{"sentence_good": "that pig matters .", "sentence_bad": "that pig planned ."}
+{"sentence_good": "would that pig work ?", "sentence_bad": "would that pig take ?"}
+{"sentence_good": "does every slave live ?", "sentence_bad": "does every slave need ?"}
+{"sentence_good": "his pig waves .", "sentence_bad": "his pig took ."}
+{"sentence_good": "could his pig trade ?", "sentence_bad": "could his pig put ?"}
+{"sentence_good": "would this dinosaur turn ?", "sentence_bad": "would this dinosaur record ?"}
+{"sentence_good": "anne grew .", "sentence_bad": "anne hit ."}
+{"sentence_good": "robert runs .", "sentence_bad": "robert shot ."}
+{"sentence_good": "william grew .", "sentence_bad": "william led ."}
+{"sentence_good": "did laura read ?", "sentence_bad": "did laura say ?"}
+{"sentence_good": "does this dinosaur run ?", "sentence_bad": "does this dinosaur take ?"}
+{"sentence_good": "sarah broke .", "sentence_bad": "sarah shown ."}
+{"sentence_good": "some sister knows .", "sentence_bad": "some sister entered ."}
+{"sentence_good": "does some sister read ?", "sentence_bad": "does some sister tell ?"}
+{"sentence_good": "does this wolf run ?", "sentence_bad": "does this wolf control ?"}
+{"sentence_good": "this sister moved .", "sentence_bad": "this sister organized ."}
+{"sentence_good": "does this sister change ?", "sentence_bad": "does this sister free ?"}
+{"sentence_good": "he lies .", "sentence_bad": "he organized ."}
+{"sentence_good": "does he think ?", "sentence_bad": "does he tell ?"}
+{"sentence_good": "will that doctor change ?", "sentence_bad": "will that doctor close ?"}
+{"sentence_good": "did her boat study ?", "sentence_bad": "did her boat tell ?"}
+{"sentence_good": "would robert change ?", "sentence_bad": "would robert force ?"}
+{"sentence_good": "did chris run ?", "sentence_bad": "did chris force ?"}
+{"sentence_good": "could some slave run ?", "sentence_bad": "could some slave record ?"}
+{"sentence_good": "does michael play ?", "sentence_bad": "does michael control ?"}
+{"sentence_good": "did that doctor run ?", "sentence_bad": "did that doctor order ?"}
+{"sentence_good": "his duke joined .", "sentence_bad": "his duke brought ."}
+{"sentence_good": "will his duke live ?", "sentence_bad": "will his duke free ?"}
+{"sentence_good": "this pig finished .", "sentence_bad": "this pig saw ."}
+{"sentence_good": "will this pig know ?", "sentence_bad": "will this pig force ?"}
+{"sentence_good": "can sarah play ?", "sentence_bad": "can sarah become ?"}
+{"sentence_good": "william joined .", "sentence_bad": "william organized ."}
+{"sentence_good": "we grew .", "sentence_bad": "we hurt ."}
+{"sentence_good": "does some duke live ?", "sentence_bad": "does some duke order ?"}
+{"sentence_good": "could this slave work ?", "sentence_bad": "could this slave give ?"}
+{"sentence_good": "will robert trade ?", "sentence_bad": "will robert record ?"}
+{"sentence_good": "did her boat trade ?", "sentence_bad": "did her boat have ?"}
+{"sentence_good": "does anne change ?", "sentence_bad": "does anne say ?"}
+{"sentence_good": "did joseph read ?", "sentence_bad": "did joseph become ?"}
+{"sentence_good": "would the pig think ?", "sentence_bad": "would the pig need ?"}
+{"sentence_good": "can the pig eat ?", "sentence_bad": "can the pig tell ?"}
+{"sentence_good": "would robert read ?", "sentence_bad": "would robert free ?"}
+{"sentence_good": "could his duke play ?", "sentence_bad": "could his duke make ?"}
+{"sentence_good": "that sister joined .", "sentence_bad": "that sister mentioned ."}
+{"sentence_good": "can that sister live ?", "sentence_bad": "can that sister say ?"}
+{"sentence_good": "this dinosaur grew .", "sentence_bad": "this dinosaur entered ."}
+{"sentence_good": "would this dinosaur play ?", "sentence_bad": "would this dinosaur make ?"}
+{"sentence_good": "would some boat think ?", "sentence_bad": "would some boat put ?"}
+{"sentence_good": "will michael think ?", "sentence_bad": "will michael give ?"}
+{"sentence_good": "can the dinosaur study ?", "sentence_bad": "can the dinosaur control ?"}
+{"sentence_good": "the duke appears .", "sentence_bad": "the duke brought ."}
+{"sentence_good": "can the duke work ?", "sentence_bad": "can the duke order ?"}
+{"sentence_good": "did this slave work ?", "sentence_bad": "did this slave control ?"}
+{"sentence_good": "every boat changes .", "sentence_bad": "every boat closed ."}
+{"sentence_good": "would every boat trade ?", "sentence_bad": "would every boat say ?"}
+{"sentence_good": "does her boat trade ?", "sentence_bad": "does her boat control ?"}
+{"sentence_good": "sarah calls .", "sentence_bad": "sarah brought ."}
+{"sentence_good": "this duke looked .", "sentence_bad": "this duke opposed ."}
+{"sentence_good": "can this duke play ?", "sentence_bad": "can this duke close ?"}
+{"sentence_good": "the pig grew .", "sentence_bad": "the pig saw ."}
+{"sentence_good": "did the pig eat ?", "sentence_bad": "did the pig show ?"}
+{"sentence_good": "every pig thought .", "sentence_bad": "every pig stopped ."}
+{"sentence_good": "does every pig live ?", "sentence_bad": "does every pig make ?"}
+{"sentence_good": "they accepted .", "sentence_bad": "they led ."}
+{"sentence_good": "does her pig study ?", "sentence_bad": "does her pig order ?"}
+{"sentence_good": "william developed .", "sentence_bad": "william took ."}
+{"sentence_good": "his sister stands .", "sentence_bad": "his sister ended ."}
+{"sentence_good": "will his sister eat ?", "sentence_bad": "will his sister force ?"}
+{"sentence_good": "her boat improved .", "sentence_bad": "her boat went ."}
+{"sentence_good": "will sam study ?", "sentence_bad": "will sam use ?"}
+{"sentence_good": "joseph grew .", "sentence_bad": "joseph took ."}
+{"sentence_good": "would joseph work ?", "sentence_bad": "would joseph make ?"}
+{"sentence_good": "this wolf thought .", "sentence_bad": "this wolf opened ."}
+{"sentence_good": "does his wolf run ?", "sentence_bad": "does his wolf show ?"}
+{"sentence_good": "this boat appears .", "sentence_bad": "this boat put ."}
+{"sentence_good": "would this boat play ?", "sentence_bad": "would this boat show ?"}
+{"sentence_good": "does every boat know ?", "sentence_bad": "does every boat make ?"}
+{"sentence_good": "does robert run ?", "sentence_bad": "does robert open ?"}
+{"sentence_good": "this dinosaur married .", "sentence_bad": "this dinosaur met ."}
+{"sentence_good": "could this dinosaur run ?", "sentence_bad": "could this dinosaur force ?"}
+{"sentence_good": "could michael trade ?", "sentence_bad": "could michael show ?"}
+{"sentence_good": "could this wolf think ?", "sentence_bad": "could this wolf tell ?"}
+{"sentence_good": "can his sister change ?", "sentence_bad": "can his sister close ?"}
+{"sentence_good": "would your duke read ?", "sentence_bad": "would your duke be ?"}
+{"sentence_good": "could his sister eat ?", "sentence_bad": "could his sister record ?"}
+{"sentence_good": "could the sister work ?", "sentence_bad": "could the sister say ?"}
+{"sentence_good": "that doctor finished .", "sentence_bad": "that doctor mentioned ."}
+{"sentence_good": "will his sister run ?", "sentence_bad": "will his sister become ?"}
+{"sentence_good": "every pig turns .", "sentence_bad": "every pig gave ."}
+{"sentence_good": "could every pig run ?", "sentence_bad": "could every pig be ?"}
+{"sentence_good": "her duke runs .", "sentence_bad": "her duke saw ."}
+{"sentence_good": "could her duke eat ?", "sentence_bad": "could her duke keep ?"}
+{"sentence_good": "will anne know ?", "sentence_bad": "will anne need ?"}
+{"sentence_good": "her dinosaur moves .", "sentence_bad": "her dinosaur mixed ."}
+{"sentence_good": "would her dinosaur trade ?", "sentence_bad": "would her dinosaur say ?"}
+{"sentence_good": "could allen know ?", "sentence_bad": "could allen order ?"}
+{"sentence_good": "the sister grew .", "sentence_bad": "the sister needed ."}
+{"sentence_good": "did the sister play ?", "sentence_bad": "did the sister record ?"}
+{"sentence_good": "your slave knew .", "sentence_bad": "your slave shown ."}
+{"sentence_good": "would your slave play ?", "sentence_bad": "would your slave tell ?"}
+{"sentence_good": "could allen study ?", "sentence_bad": "could allen tell ?"}
+{"sentence_good": "will her slave think ?", "sentence_bad": "will her slave make ?"}
+{"sentence_good": "could his doctor know ?", "sentence_bad": "could his doctor keep ?"}
+{"sentence_good": "did it work ?", "sentence_bad": "did it put ?"}
+{"sentence_good": "michael looked .", "sentence_bad": "michael brought ."}
+{"sentence_good": "would she change ?", "sentence_bad": "would she open ?"}
+{"sentence_good": "will the dinosaur turn ?", "sentence_bad": "will the dinosaur control ?"}
+{"sentence_good": "sam changed .", "sentence_bad": "sam mixed ."}
+{"sentence_good": "does sam study ?", "sentence_bad": "does sam record ?"}
+{"sentence_good": "did joseph trade ?", "sentence_bad": "did joseph open ?"}
+{"sentence_good": "his slave stands .", "sentence_bad": "his slave mentioned ."}
+{"sentence_good": "could his slave work ?", "sentence_bad": "could his slave be ?"}
+{"sentence_good": "every pig lies .", "sentence_bad": "every pig mixed ."}
+{"sentence_good": "will every pig live ?", "sentence_bad": "will every pig keep ?"}
+{"sentence_good": "will the wolf play ?", "sentence_bad": "will the wolf become ?"}
+{"sentence_good": "that sister changes .", "sentence_bad": "that sister mixed ."}
+{"sentence_good": "does that sister think ?", "sentence_bad": "does that sister need ?"}
+{"sentence_good": "robert appears .", "sentence_bad": "robert hurt ."}
+{"sentence_good": "does robert work ?", "sentence_bad": "does robert force ?"}
+{"sentence_good": "can robert play ?", "sentence_bad": "can robert free ?"}
+{"sentence_good": "does sarah run ?", "sentence_bad": "does sarah tell ?"}
+{"sentence_good": "could he trade ?", "sentence_bad": "could he need ?"}
+{"sentence_good": "the wolf leads .", "sentence_bad": "the wolf explained ."}
+{"sentence_good": "could the wolf read ?", "sentence_bad": "could the wolf record ?"}
+{"sentence_good": "joseph matters .", "sentence_bad": "joseph took ."}
+{"sentence_good": "did william live ?", "sentence_bad": "did william give ?"}
+{"sentence_good": "some duke moved .", "sentence_bad": "some duke supposed ."}
+{"sentence_good": "can some duke play ?", "sentence_bad": "can some duke take ?"}
+{"sentence_good": "some boat thought .", "sentence_bad": "some boat opened ."}
+{"sentence_good": "did some boat work ?", "sentence_bad": "did some boat put ?"}
+{"sentence_good": "he waves .", "sentence_bad": "he stopped ."}
+{"sentence_good": "did he trade ?", "sentence_bad": "did he support ?"}
+{"sentence_good": "will chris think ?", "sentence_bad": "will chris take ?"}
+{"sentence_good": "would they run ?", "sentence_bad": "would they have ?"}
+{"sentence_good": "did that duke eat ?", "sentence_bad": "did that duke become ?"}
+{"sentence_good": "does some slave know ?", "sentence_bad": "does some slave say ?"}
+{"sentence_good": "could that slave work ?", "sentence_bad": "could that slave have ?"}
+{"sentence_good": "does anne know ?", "sentence_bad": "does anne put ?"}
+{"sentence_good": "william decided .", "sentence_bad": "william let ."}
+{"sentence_good": "could william change ?", "sentence_bad": "could william say ?"}
+{"sentence_good": "sam worked .", "sentence_bad": "sam wanted ."}
+{"sentence_good": "can every pig think ?", "sentence_bad": "can every pig order ?"}
+{"sentence_good": "could allen read ?", "sentence_bad": "could allen support ?"}
+{"sentence_good": "some wolf stands .", "sentence_bad": "some wolf planned ."}
+{"sentence_good": "would some wolf change ?", "sentence_bad": "would some wolf tell ?"}
+{"sentence_good": "that wolf worked .", "sentence_bad": "that wolf put ."}
+{"sentence_good": "can that wolf work ?", "sentence_bad": "can that wolf make ?"}
+{"sentence_good": "does that pig run ?", "sentence_bad": "does that pig be ?"}
+{"sentence_good": "this doctor turns .", "sentence_bad": "this doctor supposed ."}
+{"sentence_good": "anne thought .", "sentence_bad": "anne explained ."}
+{"sentence_good": "every boat calls .", "sentence_bad": "every boat opposed ."}
+{"sentence_good": "could every boat run ?", "sentence_bad": "could every boat order ?"}
+{"sentence_good": "sam calls .", "sentence_bad": "sam closed ."}
+{"sentence_good": "does sam turn ?", "sentence_bad": "does sam keep ?"}
+{"sentence_good": "can this wolf eat ?", "sentence_bad": "can this wolf say ?"}
+{"sentence_good": "every pig lived .", "sentence_bad": "every pig hit ."}
+{"sentence_good": "did every pig live ?", "sentence_bad": "did every pig force ?"}
+{"sentence_good": "your slave races .", "sentence_bad": "your slave took ."}
+{"sentence_good": "can joseph work ?", "sentence_bad": "can joseph open ?"}
+{"sentence_good": "her boat lost .", "sentence_bad": "her boat mixed ."}
+{"sentence_good": "will her boat know ?", "sentence_bad": "will her boat force ?"}
+{"sentence_good": "did they change ?", "sentence_bad": "did they make ?"}
+{"sentence_good": "did your boat run ?", "sentence_bad": "did your boat keep ?"}
+{"sentence_good": "would william know ?", "sentence_bad": "would william free ?"}
+{"sentence_good": "some pig changes .", "sentence_bad": "some pig advanced ."}
+{"sentence_good": "does some pig change ?", "sentence_bad": "does some pig be ?"}
+{"sentence_good": "could that duke read ?", "sentence_bad": "could that duke record ?"}
+{"sentence_good": "would she work ?", "sentence_bad": "would she become ?"}
+{"sentence_good": "can his wolf read ?", "sentence_bad": "can his wolf open ?"}
+{"sentence_good": "can his pig read ?", "sentence_bad": "can his pig say ?"}
+{"sentence_good": "could the doctor read ?", "sentence_bad": "could the doctor free ?"}
+{"sentence_good": "it changes .", "sentence_bad": "it played ."}
+{"sentence_good": "could the boat change ?", "sentence_bad": "could the boat close ?"}
+{"sentence_good": "sarah changed .", "sentence_bad": "sarah shot ."}
+{"sentence_good": "does michael trade ?", "sentence_bad": "does michael make ?"}
+{"sentence_good": "could she think ?", "sentence_bad": "could she show ?"}
+{"sentence_good": "would anne change ?", "sentence_bad": "would anne need ?"}
+{"sentence_good": "could her duke work ?", "sentence_bad": "could her duke use ?"}
+{"sentence_good": "his dinosaur came .", "sentence_bad": "his dinosaur opened ."}
+{"sentence_good": "could his dinosaur change ?", "sentence_bad": "could his dinosaur show ?"}
+{"sentence_good": "she accepted .", "sentence_bad": "she planned ."}
+{"sentence_good": "can every pig play ?", "sentence_bad": "can every pig keep ?"}
+{"sentence_good": "she lies .", "sentence_bad": "she wanted ."}
+{"sentence_good": "can she run ?", "sentence_bad": "can she have ?"}
+{"sentence_good": "did that duke play ?", "sentence_bad": "did that duke open ?"}
+{"sentence_good": "would joseph turn ?", "sentence_bad": "would joseph record ?"}
+{"sentence_good": "allen started .", "sentence_bad": "allen took ."}
+{"sentence_good": "does allen change ?", "sentence_bad": "does allen open ?"}
+{"sentence_good": "could sarah trade ?", "sentence_bad": "could sarah make ?"}
+{"sentence_good": "she fell .", "sentence_bad": "she closed ."}
+{"sentence_good": "can the dinosaur change ?", "sentence_bad": "can the dinosaur open ?"}
+{"sentence_good": "his slave thought .", "sentence_bad": "his slave took ."}
+{"sentence_good": "could his slave read ?", "sentence_bad": "could his slave be ?"}
+{"sentence_good": "would chris study ?", "sentence_bad": "would chris make ?"}
+{"sentence_good": "his duke came .", "sentence_bad": "his duke mentioned ."}
+{"sentence_good": "would his duke think ?", "sentence_bad": "would his duke close ?"}
+{"sentence_good": "some dinosaur came .", "sentence_bad": "some dinosaur organized ."}
+{"sentence_good": "your wolf tried .", "sentence_bad": "your wolf opposed ."}
+{"sentence_good": "did your wolf read ?", "sentence_bad": "did your wolf take ?"}
+{"sentence_good": "her duke developed .", "sentence_bad": "her duke affected ."}
+{"sentence_good": "would her duke turn ?", "sentence_bad": "would her duke order ?"}
+{"sentence_good": "every boat knows .", "sentence_bad": "every boat gave ."}
+{"sentence_good": "does every boat think ?", "sentence_bad": "does every boat free ?"}
+{"sentence_good": "would laura play ?", "sentence_bad": "would laura give ?"}
+{"sentence_good": "the dinosaur waves .", "sentence_bad": "the dinosaur went ."}
+{"sentence_good": "would the dinosaur trade ?", "sentence_bad": "would the dinosaur be ?"}
+{"sentence_good": "the dinosaur runs .", "sentence_bad": "the dinosaur took ."}
+{"sentence_good": "would the dinosaur eat ?", "sentence_bad": "would the dinosaur be ?"}
+{"sentence_good": "allen waves .", "sentence_bad": "allen advanced ."}
+{"sentence_good": "did allen play ?", "sentence_bad": "did allen make ?"}
+{"sentence_good": "her pig stands .", "sentence_bad": "her pig hit ."}
+{"sentence_good": "can her pig read ?", "sentence_bad": "can her pig keep ?"}
+{"sentence_good": "they came .", "sentence_bad": "they met ."}
+{"sentence_good": "could they play ?", "sentence_bad": "could they show ?"}
+{"sentence_good": "would every boat play ?", "sentence_bad": "would every boat control ?"}
+{"sentence_good": "could your boat read ?", "sentence_bad": "could your boat free ?"}
+{"sentence_good": "she decided .", "sentence_bad": "she connected ."}
+{"sentence_good": "could chris eat ?", "sentence_bad": "could chris need ?"}
+{"sentence_good": "it races .", "sentence_bad": "it helped ."}
+{"sentence_good": "did it live ?", "sentence_bad": "did it tell ?"}
+{"sentence_good": "did robert live ?", "sentence_bad": "did robert support ?"}
+{"sentence_good": "did it run ?", "sentence_bad": "did it record ?"}
+{"sentence_good": "can every doctor eat ?", "sentence_bad": "can every doctor say ?"}
+{"sentence_good": "can we know ?", "sentence_bad": "can we open ?"}
+{"sentence_good": "does his pig know ?", "sentence_bad": "does his pig control ?"}
+{"sentence_good": "chris thinks .", "sentence_bad": "chris put ."}
+{"sentence_good": "could chris run ?", "sentence_bad": "could chris take ?"}
+{"sentence_good": "will some slave know ?", "sentence_bad": "will some slave control ?"}
+{"sentence_good": "robert changes .", "sentence_bad": "robert advanced ."}
+{"sentence_good": "does chris think ?", "sentence_bad": "does chris give ?"}
+{"sentence_good": "does robert change ?", "sentence_bad": "does robert show ?"}
+{"sentence_good": "can william read ?", "sentence_bad": "can william support ?"}
+{"sentence_good": "did we turn ?", "sentence_bad": "did we be ?"}
+{"sentence_good": "her wolf lived .", "sentence_bad": "her wolf let ."}
+{"sentence_good": "did her wolf trade ?", "sentence_bad": "did her wolf support ?"}
+{"sentence_good": "your wolf decided .", "sentence_bad": "your wolf mixed ."}
+{"sentence_good": "did your wolf think ?", "sentence_bad": "did your wolf force ?"}
+{"sentence_good": "does that duke think ?", "sentence_bad": "does that duke like ?"}
+{"sentence_good": "that boat turns .", "sentence_bad": "that boat advanced ."}
+{"sentence_good": "could that boat study ?", "sentence_bad": "could that boat support ?"}
+{"sentence_good": "every duke started .", "sentence_bad": "every duke went ."}
+{"sentence_good": "could every duke think ?", "sentence_bad": "could every duke order ?"}
+{"sentence_good": "could joseph study ?", "sentence_bad": "could joseph tell ?"}
+{"sentence_good": "she stands .", "sentence_bad": "she put ."}
+{"sentence_good": "did she live ?", "sentence_bad": "did she say ?"}
+{"sentence_good": "will anne change ?", "sentence_bad": "will anne show ?"}
+{"sentence_good": "can robert trade ?", "sentence_bad": "can robert close ?"}
+{"sentence_good": "michael read .", "sentence_bad": "michael asked ."}
+{"sentence_good": "does william play ?", "sentence_bad": "does william order ?"}
+{"sentence_good": "allen returned .", "sentence_bad": "allen shared ."}
+{"sentence_good": "could allen think ?", "sentence_bad": "could allen control ?"}
+{"sentence_good": "sam appears .", "sentence_bad": "sam went ."}
+{"sentence_good": "robert refused .", "sentence_bad": "robert went ."}
+{"sentence_good": "every sister developed .", "sentence_bad": "every sister needed ."}
+{"sentence_good": "did every sister eat ?", "sentence_bad": "did every sister say ?"}
+{"sentence_good": "sam decided .", "sentence_bad": "sam gave ."}
+{"sentence_good": "could sam read ?", "sentence_bad": "could sam order ?"}
+{"sentence_good": "could her doctor read ?", "sentence_bad": "could her doctor become ?"}
+{"sentence_good": "did anne read ?", "sentence_bad": "did anne record ?"}
+{"sentence_good": "your pig appears .", "sentence_bad": "your pig organized ."}
+{"sentence_good": "can that boat change ?", "sentence_bad": "can that boat be ?"}
+{"sentence_good": "can she think ?", "sentence_bad": "can she give ?"}

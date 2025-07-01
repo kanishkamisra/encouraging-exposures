@@ -1,0 +1,80 @@
+{
+    "boy": [
+        "with red hair",
+        "with blue pants",
+        "with round glasses",
+        "who's on the bicycle"
+    ],
+    "girl": [
+        "with the blue hat",
+        "with long hair",
+        "with leaves",
+        "with green hair"
+    ],
+    "cat": [
+        "with big ears",
+        "in the box",
+        "who's on the tree",
+        "who's in the hat"
+    ],
+    "dog": [
+        "with black spots",
+        "with ears",
+        "with a red head",
+        "who's on a leash"
+    ],
+    "bear": [
+        "with a bottle",
+        "with a button",
+        "with an apple",
+        "who's on the chair"
+    ],
+    "horse": [
+        "with the funny hat",
+        "with a saddle",
+        "with the tail",
+        "who's in the barn"
+    ],
+    "cookie": [
+        "with a hole in it",
+        "with pink frosting",
+        "with m and ms",
+        "with chocolate frosting"
+    ],
+    "ball": [
+        "with a star on it",
+        "that looks like an egg",
+        "that's on the floor",
+        "that's on on top"
+    ],
+    "book": [
+        "with pictures",
+        "with those circles",
+        "with a rabbit in it",
+        "that's on the floor"
+    ],
+    "cup": [
+        "with orange juice",
+        "with a red top",
+        "with no lid",
+        "with water"
+    ],
+    "pencil": [
+        "that's on the couch",
+        "that's on the radio",
+        "that's on the floor",
+        "that's on the desk"
+    ],
+    "toy": [
+        "that's in the basket",
+        "that's in the bag",
+        "that's in the box",
+        "that's on the floor"
+    ],
+    "box": [
+        "with stuff in it",
+        "with the lights",
+        "with all the food",
+        "with the blocks"
+    ]
+}

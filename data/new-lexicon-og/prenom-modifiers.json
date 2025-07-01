@@ -1,0 +1,108 @@
+{
+    "boy": [
+        "naughty",
+        "little",
+        "big",
+        "baby"
+    ],
+    "girl": [
+        "naughty",
+        "little",
+        "big",
+        "baby"
+    ],
+    "cat": [
+        "cute",
+        "small",
+        "big",
+        "little",
+        "large"
+    ],
+    "dog": [
+        "cute",
+        "small",
+        "big",
+        "little",
+        "large"
+    ],
+    "bear": [
+        "cute",
+        "small",
+        "big",
+        "little",
+        "large"
+    ],
+    "horse": [
+        "cute",
+        "small",
+        "big",
+        "little",
+        "large"
+    ],
+    "doggie": [
+        "cute",
+        "small",
+        "big",
+        "little",
+        "large"
+    ],
+    "ball": [
+        "red",
+        "blue",
+        "green",
+        "little"
+    ],
+    "cookie": [
+        "big",
+        "little",
+        "chocolate chip",
+        "yummy"
+    ],
+    "book": [
+        "big",
+        "thick",
+        "little",
+        "tiny"
+    ],
+    "food": [
+        "yummy",
+        "delicious",
+        "baby"
+    ],
+    "cup": [
+        "small",
+        "blue",
+        "big",
+        "little"
+    ],
+    "lego": [
+        "little",
+        "black",
+        "yellow",
+        "red"
+    ],
+    "pencil": [
+        "small",
+        "red",
+        "white",
+        "wooden"
+    ],
+    "chair": [
+        "booster",
+        "big",
+        "little",
+        "green"
+    ],
+    "toy": [
+        "little",
+        "red",
+        "blue",
+        "big"
+    ],
+    "box": [
+        "tool",
+        "treasure",
+        "little",
+        "big"
+    ]
+}

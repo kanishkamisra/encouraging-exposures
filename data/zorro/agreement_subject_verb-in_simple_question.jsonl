@@ -1,0 +1,2000 @@
+{"sentence_good": "where is the finger ?", "sentence_bad": "where is the fingers ?"}
+{"sentence_good": "what is the finger ?", "sentence_bad": "what is the fingers ?"}
+{"sentence_good": "what color is the finger ?", "sentence_bad": "what color is the fingers ?"}
+{"sentence_good": "is the finger not dramatic ?", "sentence_bad": "is the fingers not dramatic ?"}
+{"sentence_good": "is the finger where it should be ?", "sentence_bad": "is the fingers where it should be ?"}
+{"sentence_good": "is the finger something you like ?", "sentence_bad": "is the fingers something you like ?"}
+{"sentence_good": "is the finger a good idea ?", "sentence_bad": "is the fingers a good idea ?"}
+{"sentence_good": "where was the finger ?", "sentence_bad": "where was the fingers ?"}
+{"sentence_good": "what was the finger ?", "sentence_bad": "what was the fingers ?"}
+{"sentence_good": "what color was the finger ?", "sentence_bad": "what color was the fingers ?"}
+{"sentence_good": "was the finger not dramatic ?", "sentence_bad": "was the fingers not dramatic ?"}
+{"sentence_good": "was the finger where it should be ?", "sentence_bad": "was the fingers where it should be ?"}
+{"sentence_good": "was the finger something you like ?", "sentence_bad": "was the fingers something you like ?"}
+{"sentence_good": "was the finger a good idea ?", "sentence_bad": "was the fingers a good idea ?"}
+{"sentence_good": "where are the fingers ?", "sentence_bad": "where are the finger ?"}
+{"sentence_good": "what are the fingers ?", "sentence_bad": "what are the finger ?"}
+{"sentence_good": "what color are the fingers ?", "sentence_bad": "what color are the finger ?"}
+{"sentence_good": "are the fingers not dramatic ?", "sentence_bad": "are the finger not dramatic ?"}
+{"sentence_good": "are the fingers where they should be ?", "sentence_bad": "are the finger where they should be ?"}
+{"sentence_good": "are the fingers something you like ?", "sentence_bad": "are the finger something you like ?"}
+{"sentence_good": "are the fingers a good idea ?", "sentence_bad": "are the finger a good idea ?"}
+{"sentence_good": "where were the fingers ?", "sentence_bad": "where were the finger ?"}
+{"sentence_good": "what were the fingers ?", "sentence_bad": "what were the finger ?"}
+{"sentence_good": "what color were the fingers ?", "sentence_bad": "what color were the finger ?"}
+{"sentence_good": "were the fingers not dramatic ?", "sentence_bad": "were the finger not dramatic ?"}
+{"sentence_good": "were the fingers where they should be ?", "sentence_bad": "were the finger where they should be ?"}
+{"sentence_good": "were the fingers something you like ?", "sentence_bad": "were the finger something you like ?"}
+{"sentence_good": "were the fingers a good idea ?", "sentence_bad": "were the finger a good idea ?"}
+{"sentence_good": "where is the song ?", "sentence_bad": "where is the songs ?"}
+{"sentence_good": "what is the song ?", "sentence_bad": "what is the songs ?"}
+{"sentence_good": "what color is the song ?", "sentence_bad": "what color is the songs ?"}
+{"sentence_good": "is the song not silly ?", "sentence_bad": "is the songs not silly ?"}
+{"sentence_good": "is the song where it should be ?", "sentence_bad": "is the songs where it should be ?"}
+{"sentence_good": "is the song something you like ?", "sentence_bad": "is the songs something you like ?"}
+{"sentence_good": "is the song a good idea ?", "sentence_bad": "is the songs a good idea ?"}
+{"sentence_good": "where was the song ?", "sentence_bad": "where was the songs ?"}
+{"sentence_good": "what was the song ?", "sentence_bad": "what was the songs ?"}
+{"sentence_good": "what color was the song ?", "sentence_bad": "what color was the songs ?"}
+{"sentence_good": "was the song not silly ?", "sentence_bad": "was the songs not silly ?"}
+{"sentence_good": "was the song where it should be ?", "sentence_bad": "was the songs where it should be ?"}
+{"sentence_good": "was the song something you like ?", "sentence_bad": "was the songs something you like ?"}
+{"sentence_good": "was the song a good idea ?", "sentence_bad": "was the songs a good idea ?"}
+{"sentence_good": "where are the songs ?", "sentence_bad": "where are the song ?"}
+{"sentence_good": "what are the songs ?", "sentence_bad": "what are the song ?"}
+{"sentence_good": "what color are the songs ?", "sentence_bad": "what color are the song ?"}
+{"sentence_good": "are the songs not silly ?", "sentence_bad": "are the song not silly ?"}
+{"sentence_good": "are the songs where they should be ?", "sentence_bad": "are the song where they should be ?"}
+{"sentence_good": "are the songs something you like ?", "sentence_bad": "are the song something you like ?"}
+{"sentence_good": "are the songs a good idea ?", "sentence_bad": "are the song a good idea ?"}
+{"sentence_good": "where were the songs ?", "sentence_bad": "where were the song ?"}
+{"sentence_good": "what were the songs ?", "sentence_bad": "what were the song ?"}
+{"sentence_good": "what color were the songs ?", "sentence_bad": "what color were the song ?"}
+{"sentence_good": "were the songs not silly ?", "sentence_bad": "were the song not silly ?"}
+{"sentence_good": "were the songs where they should be ?", "sentence_bad": "were the song where they should be ?"}
+{"sentence_good": "were the songs something you like ?", "sentence_bad": "were the song something you like ?"}
+{"sentence_good": "were the songs a good idea ?", "sentence_bad": "were the song a good idea ?"}
+{"sentence_good": "where is the day ?", "sentence_bad": "where is the days ?"}
+{"sentence_good": "what is the day ?", "sentence_bad": "what is the days ?"}
+{"sentence_good": "what color is the day ?", "sentence_bad": "what color is the days ?"}
+{"sentence_good": "is the day not moved ?", "sentence_bad": "is the days not moved ?"}
+{"sentence_good": "is the day where it should be ?", "sentence_bad": "is the days where it should be ?"}
+{"sentence_good": "is the day something you like ?", "sentence_bad": "is the days something you like ?"}
+{"sentence_good": "is the day a good idea ?", "sentence_bad": "is the days a good idea ?"}
+{"sentence_good": "where was the day ?", "sentence_bad": "where was the days ?"}
+{"sentence_good": "what was the day ?", "sentence_bad": "what was the days ?"}
+{"sentence_good": "what color was the day ?", "sentence_bad": "what color was the days ?"}
+{"sentence_good": "was the day not moved ?", "sentence_bad": "was the days not moved ?"}
+{"sentence_good": "was the day where it should be ?", "sentence_bad": "was the days where it should be ?"}
+{"sentence_good": "was the day something you like ?", "sentence_bad": "was the days something you like ?"}
+{"sentence_good": "was the day a good idea ?", "sentence_bad": "was the days a good idea ?"}
+{"sentence_good": "where are the days ?", "sentence_bad": "where are the day ?"}
+{"sentence_good": "what are the days ?", "sentence_bad": "what are the day ?"}
+{"sentence_good": "what color are the days ?", "sentence_bad": "what color are the day ?"}
+{"sentence_good": "are the days not moved ?", "sentence_bad": "are the day not moved ?"}
+{"sentence_good": "are the days where they should be ?", "sentence_bad": "are the day where they should be ?"}
+{"sentence_good": "are the days something you like ?", "sentence_bad": "are the day something you like ?"}
+{"sentence_good": "are the days a good idea ?", "sentence_bad": "are the day a good idea ?"}
+{"sentence_good": "where were the days ?", "sentence_bad": "where were the day ?"}
+{"sentence_good": "what were the days ?", "sentence_bad": "what were the day ?"}
+{"sentence_good": "what color were the days ?", "sentence_bad": "what color were the day ?"}
+{"sentence_good": "were the days not moved ?", "sentence_bad": "were the day not moved ?"}
+{"sentence_good": "were the days where they should be ?", "sentence_bad": "were the day where they should be ?"}
+{"sentence_good": "were the days something you like ?", "sentence_bad": "were the day something you like ?"}
+{"sentence_good": "were the days a good idea ?", "sentence_bad": "were the day a good idea ?"}
+{"sentence_good": "where is the dollar ?", "sentence_bad": "where is the dollars ?"}
+{"sentence_good": "what is the dollar ?", "sentence_bad": "what is the dollars ?"}
+{"sentence_good": "what color is the dollar ?", "sentence_bad": "what color is the dollars ?"}
+{"sentence_good": "is the dollar not left ?", "sentence_bad": "is the dollars not left ?"}
+{"sentence_good": "is the dollar where it should be ?", "sentence_bad": "is the dollars where it should be ?"}
+{"sentence_good": "is the dollar something you like ?", "sentence_bad": "is the dollars something you like ?"}
+{"sentence_good": "is the dollar a good idea ?", "sentence_bad": "is the dollars a good idea ?"}
+{"sentence_good": "where was the dollar ?", "sentence_bad": "where was the dollars ?"}
+{"sentence_good": "what was the dollar ?", "sentence_bad": "what was the dollars ?"}
+{"sentence_good": "what color was the dollar ?", "sentence_bad": "what color was the dollars ?"}
+{"sentence_good": "was the dollar not left ?", "sentence_bad": "was the dollars not left ?"}
+{"sentence_good": "was the dollar where it should be ?", "sentence_bad": "was the dollars where it should be ?"}
+{"sentence_good": "was the dollar something you like ?", "sentence_bad": "was the dollars something you like ?"}
+{"sentence_good": "was the dollar a good idea ?", "sentence_bad": "was the dollars a good idea ?"}
+{"sentence_good": "where are the dollars ?", "sentence_bad": "where are the dollar ?"}
+{"sentence_good": "what are the dollars ?", "sentence_bad": "what are the dollar ?"}
+{"sentence_good": "what color are the dollars ?", "sentence_bad": "what color are the dollar ?"}
+{"sentence_good": "are the dollars not left ?", "sentence_bad": "are the dollar not left ?"}
+{"sentence_good": "are the dollars where they should be ?", "sentence_bad": "are the dollar where they should be ?"}
+{"sentence_good": "are the dollars something you like ?", "sentence_bad": "are the dollar something you like ?"}
+{"sentence_good": "are the dollars a good idea ?", "sentence_bad": "are the dollar a good idea ?"}
+{"sentence_good": "where were the dollars ?", "sentence_bad": "where were the dollar ?"}
+{"sentence_good": "what were the dollars ?", "sentence_bad": "what were the dollar ?"}
+{"sentence_good": "what color were the dollars ?", "sentence_bad": "what color were the dollar ?"}
+{"sentence_good": "were the dollars not left ?", "sentence_bad": "were the dollar not left ?"}
+{"sentence_good": "were the dollars where they should be ?", "sentence_bad": "were the dollar where they should be ?"}
+{"sentence_good": "were the dollars something you like ?", "sentence_bad": "were the dollar something you like ?"}
+{"sentence_good": "were the dollars a good idea ?", "sentence_bad": "were the dollar a good idea ?"}
+{"sentence_good": "where is the band ?", "sentence_bad": "where is the bands ?"}
+{"sentence_good": "what is the band ?", "sentence_bad": "what is the bands ?"}
+{"sentence_good": "what color is the band ?", "sentence_bad": "what color is the bands ?"}
+{"sentence_good": "is the band not little ?", "sentence_bad": "is the bands not little ?"}
+{"sentence_good": "is the band where it should be ?", "sentence_bad": "is the bands where it should be ?"}
+{"sentence_good": "is the band something you like ?", "sentence_bad": "is the bands something you like ?"}
+{"sentence_good": "is the band a good idea ?", "sentence_bad": "is the bands a good idea ?"}
+{"sentence_good": "where was the band ?", "sentence_bad": "where was the bands ?"}
+{"sentence_good": "what was the band ?", "sentence_bad": "what was the bands ?"}
+{"sentence_good": "what color was the band ?", "sentence_bad": "what color was the bands ?"}
+{"sentence_good": "was the band not little ?", "sentence_bad": "was the bands not little ?"}
+{"sentence_good": "was the band where it should be ?", "sentence_bad": "was the bands where it should be ?"}
+{"sentence_good": "was the band something you like ?", "sentence_bad": "was the bands something you like ?"}
+{"sentence_good": "was the band a good idea ?", "sentence_bad": "was the bands a good idea ?"}
+{"sentence_good": "where are the bands ?", "sentence_bad": "where are the band ?"}
+{"sentence_good": "what are the bands ?", "sentence_bad": "what are the band ?"}
+{"sentence_good": "what color are the bands ?", "sentence_bad": "what color are the band ?"}
+{"sentence_good": "are the bands not little ?", "sentence_bad": "are the band not little ?"}
+{"sentence_good": "are the bands where they should be ?", "sentence_bad": "are the band where they should be ?"}
+{"sentence_good": "are the bands something you like ?", "sentence_bad": "are the band something you like ?"}
+{"sentence_good": "are the bands a good idea ?", "sentence_bad": "are the band a good idea ?"}
+{"sentence_good": "where were the bands ?", "sentence_bad": "where were the band ?"}
+{"sentence_good": "what were the bands ?", "sentence_bad": "what were the band ?"}
+{"sentence_good": "what color were the bands ?", "sentence_bad": "what color were the band ?"}
+{"sentence_good": "were the bands not little ?", "sentence_bad": "were the band not little ?"}
+{"sentence_good": "were the bands where they should be ?", "sentence_bad": "were the band where they should be ?"}
+{"sentence_good": "were the bands something you like ?", "sentence_bad": "were the band something you like ?"}
+{"sentence_good": "were the bands a good idea ?", "sentence_bad": "were the band a good idea ?"}
+{"sentence_good": "where is the call ?", "sentence_bad": "where is the calls ?"}
+{"sentence_good": "what is the call ?", "sentence_bad": "what is the calls ?"}
+{"sentence_good": "what color is the call ?", "sentence_bad": "what color is the calls ?"}
+{"sentence_good": "is the call not usual ?", "sentence_bad": "is the calls not usual ?"}
+{"sentence_good": "is the call where it should be ?", "sentence_bad": "is the calls where it should be ?"}
+{"sentence_good": "is the call something you like ?", "sentence_bad": "is the calls something you like ?"}
+{"sentence_good": "is the call a good idea ?", "sentence_bad": "is the calls a good idea ?"}
+{"sentence_good": "where was the call ?", "sentence_bad": "where was the calls ?"}
+{"sentence_good": "what was the call ?", "sentence_bad": "what was the calls ?"}
+{"sentence_good": "what color was the call ?", "sentence_bad": "what color was the calls ?"}
+{"sentence_good": "was the call not usual ?", "sentence_bad": "was the calls not usual ?"}
+{"sentence_good": "was the call where it should be ?", "sentence_bad": "was the calls where it should be ?"}
+{"sentence_good": "was the call something you like ?", "sentence_bad": "was the calls something you like ?"}
+{"sentence_good": "was the call a good idea ?", "sentence_bad": "was the calls a good idea ?"}
+{"sentence_good": "where are the calls ?", "sentence_bad": "where are the call ?"}
+{"sentence_good": "what are the calls ?", "sentence_bad": "what are the call ?"}
+{"sentence_good": "what color are the calls ?", "sentence_bad": "what color are the call ?"}
+{"sentence_good": "are the calls not usual ?", "sentence_bad": "are the call not usual ?"}
+{"sentence_good": "are the calls where they should be ?", "sentence_bad": "are the call where they should be ?"}
+{"sentence_good": "are the calls something you like ?", "sentence_bad": "are the call something you like ?"}
+{"sentence_good": "are the calls a good idea ?", "sentence_bad": "are the call a good idea ?"}
+{"sentence_good": "where were the calls ?", "sentence_bad": "where were the call ?"}
+{"sentence_good": "what were the calls ?", "sentence_bad": "what were the call ?"}
+{"sentence_good": "what color were the calls ?", "sentence_bad": "what color were the call ?"}
+{"sentence_good": "were the calls not usual ?", "sentence_bad": "were the call not usual ?"}
+{"sentence_good": "were the calls where they should be ?", "sentence_bad": "were the call where they should be ?"}
+{"sentence_good": "were the calls something you like ?", "sentence_bad": "were the call something you like ?"}
+{"sentence_good": "were the calls a good idea ?", "sentence_bad": "were the call a good idea ?"}
+{"sentence_good": "is the day not dangerous ?", "sentence_bad": "is the days not dangerous ?"}
+{"sentence_good": "was the day not dangerous ?", "sentence_bad": "was the days not dangerous ?"}
+{"sentence_good": "are the days not dangerous ?", "sentence_bad": "are the day not dangerous ?"}
+{"sentence_good": "were the days not dangerous ?", "sentence_bad": "were the day not dangerous ?"}
+{"sentence_good": "where is the ring ?", "sentence_bad": "where is the rings ?"}
+{"sentence_good": "what is the ring ?", "sentence_bad": "what is the rings ?"}
+{"sentence_good": "what color is the ring ?", "sentence_bad": "what color is the rings ?"}
+{"sentence_good": "is the ring not dangerous ?", "sentence_bad": "is the rings not dangerous ?"}
+{"sentence_good": "is the ring where it should be ?", "sentence_bad": "is the rings where it should be ?"}
+{"sentence_good": "is the ring something you like ?", "sentence_bad": "is the rings something you like ?"}
+{"sentence_good": "is the ring a good idea ?", "sentence_bad": "is the rings a good idea ?"}
+{"sentence_good": "where was the ring ?", "sentence_bad": "where was the rings ?"}
+{"sentence_good": "what was the ring ?", "sentence_bad": "what was the rings ?"}
+{"sentence_good": "what color was the ring ?", "sentence_bad": "what color was the rings ?"}
+{"sentence_good": "was the ring not dangerous ?", "sentence_bad": "was the rings not dangerous ?"}
+{"sentence_good": "was the ring where it should be ?", "sentence_bad": "was the rings where it should be ?"}
+{"sentence_good": "was the ring something you like ?", "sentence_bad": "was the rings something you like ?"}
+{"sentence_good": "was the ring a good idea ?", "sentence_bad": "was the rings a good idea ?"}
+{"sentence_good": "where are the rings ?", "sentence_bad": "where are the ring ?"}
+{"sentence_good": "what are the rings ?", "sentence_bad": "what are the ring ?"}
+{"sentence_good": "what color are the rings ?", "sentence_bad": "what color are the ring ?"}
+{"sentence_good": "are the rings not dangerous ?", "sentence_bad": "are the ring not dangerous ?"}
+{"sentence_good": "are the rings where they should be ?", "sentence_bad": "are the ring where they should be ?"}
+{"sentence_good": "are the rings something you like ?", "sentence_bad": "are the ring something you like ?"}
+{"sentence_good": "are the rings a good idea ?", "sentence_bad": "are the ring a good idea ?"}
+{"sentence_good": "where were the rings ?", "sentence_bad": "where were the ring ?"}
+{"sentence_good": "what were the rings ?", "sentence_bad": "what were the ring ?"}
+{"sentence_good": "what color were the rings ?", "sentence_bad": "what color were the ring ?"}
+{"sentence_good": "were the rings not dangerous ?", "sentence_bad": "were the ring not dangerous ?"}
+{"sentence_good": "were the rings where they should be ?", "sentence_bad": "were the ring where they should be ?"}
+{"sentence_good": "were the rings something you like ?", "sentence_bad": "were the ring something you like ?"}
+{"sentence_good": "were the rings a good idea ?", "sentence_bad": "were the ring a good idea ?"}
+{"sentence_good": "where is the thing ?", "sentence_bad": "where is the things ?"}
+{"sentence_good": "what is the thing ?", "sentence_bad": "what is the things ?"}
+{"sentence_good": "what color is the thing ?", "sentence_bad": "what color is the things ?"}
+{"sentence_good": "is the thing not left ?", "sentence_bad": "is the things not left ?"}
+{"sentence_good": "is the thing where it should be ?", "sentence_bad": "is the things where it should be ?"}
+{"sentence_good": "is the thing something you like ?", "sentence_bad": "is the things something you like ?"}
+{"sentence_good": "is the thing a good idea ?", "sentence_bad": "is the things a good idea ?"}
+{"sentence_good": "where was the thing ?", "sentence_bad": "where was the things ?"}
+{"sentence_good": "what was the thing ?", "sentence_bad": "what was the things ?"}
+{"sentence_good": "what color was the thing ?", "sentence_bad": "what color was the things ?"}
+{"sentence_good": "was the thing not left ?", "sentence_bad": "was the things not left ?"}
+{"sentence_good": "was the thing where it should be ?", "sentence_bad": "was the things where it should be ?"}
+{"sentence_good": "was the thing something you like ?", "sentence_bad": "was the things something you like ?"}
+{"sentence_good": "was the thing a good idea ?", "sentence_bad": "was the things a good idea ?"}
+{"sentence_good": "where are the things ?", "sentence_bad": "where are the thing ?"}
+{"sentence_good": "what are the things ?", "sentence_bad": "what are the thing ?"}
+{"sentence_good": "what color are the things ?", "sentence_bad": "what color are the thing ?"}
+{"sentence_good": "are the things not left ?", "sentence_bad": "are the thing not left ?"}
+{"sentence_good": "are the things where they should be ?", "sentence_bad": "are the thing where they should be ?"}
+{"sentence_good": "are the things something you like ?", "sentence_bad": "are the thing something you like ?"}
+{"sentence_good": "are the things a good idea ?", "sentence_bad": "are the thing a good idea ?"}
+{"sentence_good": "where were the things ?", "sentence_bad": "where were the thing ?"}
+{"sentence_good": "what were the things ?", "sentence_bad": "what were the thing ?"}
+{"sentence_good": "what color were the things ?", "sentence_bad": "what color were the thing ?"}
+{"sentence_good": "were the things not left ?", "sentence_bad": "were the thing not left ?"}
+{"sentence_good": "were the things where they should be ?", "sentence_bad": "were the thing where they should be ?"}
+{"sentence_good": "were the things something you like ?", "sentence_bad": "were the thing something you like ?"}
+{"sentence_good": "were the things a good idea ?", "sentence_bad": "were the thing a good idea ?"}
+{"sentence_good": "where is the child ?", "sentence_bad": "where is the children ?"}
+{"sentence_good": "what is the child ?", "sentence_bad": "what is the children ?"}
+{"sentence_good": "what color is the child ?", "sentence_bad": "what color is the children ?"}
+{"sentence_good": "is the child not little ?", "sentence_bad": "is the children not little ?"}
+{"sentence_good": "is the child where it should be ?", "sentence_bad": "is the children where it should be ?"}
+{"sentence_good": "is the child something you like ?", "sentence_bad": "is the children something you like ?"}
+{"sentence_good": "is the child a good idea ?", "sentence_bad": "is the children a good idea ?"}
+{"sentence_good": "where was the child ?", "sentence_bad": "where was the children ?"}
+{"sentence_good": "what was the child ?", "sentence_bad": "what was the children ?"}
+{"sentence_good": "what color was the child ?", "sentence_bad": "what color was the children ?"}
+{"sentence_good": "was the child not little ?", "sentence_bad": "was the children not little ?"}
+{"sentence_good": "was the child where it should be ?", "sentence_bad": "was the children where it should be ?"}
+{"sentence_good": "was the child something you like ?", "sentence_bad": "was the children something you like ?"}
+{"sentence_good": "was the child a good idea ?", "sentence_bad": "was the children a good idea ?"}
+{"sentence_good": "where are the children ?", "sentence_bad": "where are the child ?"}
+{"sentence_good": "what are the children ?", "sentence_bad": "what are the child ?"}
+{"sentence_good": "what color are the children ?", "sentence_bad": "what color are the child ?"}
+{"sentence_good": "are the children not little ?", "sentence_bad": "are the child not little ?"}
+{"sentence_good": "are the children where they should be ?", "sentence_bad": "are the child where they should be ?"}
+{"sentence_good": "are the children something you like ?", "sentence_bad": "are the child something you like ?"}
+{"sentence_good": "are the children a good idea ?", "sentence_bad": "are the child a good idea ?"}
+{"sentence_good": "where were the children ?", "sentence_bad": "where were the child ?"}
+{"sentence_good": "what were the children ?", "sentence_bad": "what were the child ?"}
+{"sentence_good": "what color were the children ?", "sentence_bad": "what color were the child ?"}
+{"sentence_good": "were the children not little ?", "sentence_bad": "were the child not little ?"}
+{"sentence_good": "were the children where they should be ?", "sentence_bad": "were the child where they should be ?"}
+{"sentence_good": "were the children something you like ?", "sentence_bad": "were the child something you like ?"}
+{"sentence_good": "were the children a good idea ?", "sentence_bad": "were the child a good idea ?"}
+{"sentence_good": "where is the dog ?", "sentence_bad": "where is the dogs ?"}
+{"sentence_good": "what is the dog ?", "sentence_bad": "what is the dogs ?"}
+{"sentence_good": "what color is the dog ?", "sentence_bad": "what color is the dogs ?"}
+{"sentence_good": "is the dog not known ?", "sentence_bad": "is the dogs not known ?"}
+{"sentence_good": "is the dog where it should be ?", "sentence_bad": "is the dogs where it should be ?"}
+{"sentence_good": "is the dog something you like ?", "sentence_bad": "is the dogs something you like ?"}
+{"sentence_good": "is the dog a good idea ?", "sentence_bad": "is the dogs a good idea ?"}
+{"sentence_good": "where was the dog ?", "sentence_bad": "where was the dogs ?"}
+{"sentence_good": "what was the dog ?", "sentence_bad": "what was the dogs ?"}
+{"sentence_good": "what color was the dog ?", "sentence_bad": "what color was the dogs ?"}
+{"sentence_good": "was the dog not known ?", "sentence_bad": "was the dogs not known ?"}
+{"sentence_good": "was the dog where it should be ?", "sentence_bad": "was the dogs where it should be ?"}
+{"sentence_good": "was the dog something you like ?", "sentence_bad": "was the dogs something you like ?"}
+{"sentence_good": "was the dog a good idea ?", "sentence_bad": "was the dogs a good idea ?"}
+{"sentence_good": "where are the dogs ?", "sentence_bad": "where are the dog ?"}
+{"sentence_good": "what are the dogs ?", "sentence_bad": "what are the dog ?"}
+{"sentence_good": "what color are the dogs ?", "sentence_bad": "what color are the dog ?"}
+{"sentence_good": "are the dogs not known ?", "sentence_bad": "are the dog not known ?"}
+{"sentence_good": "are the dogs where they should be ?", "sentence_bad": "are the dog where they should be ?"}
+{"sentence_good": "are the dogs something you like ?", "sentence_bad": "are the dog something you like ?"}
+{"sentence_good": "are the dogs a good idea ?", "sentence_bad": "are the dog a good idea ?"}
+{"sentence_good": "where were the dogs ?", "sentence_bad": "where were the dog ?"}
+{"sentence_good": "what were the dogs ?", "sentence_bad": "what were the dog ?"}
+{"sentence_good": "what color were the dogs ?", "sentence_bad": "what color were the dog ?"}
+{"sentence_good": "were the dogs not known ?", "sentence_bad": "were the dog not known ?"}
+{"sentence_good": "were the dogs where they should be ?", "sentence_bad": "were the dog where they should be ?"}
+{"sentence_good": "were the dogs something you like ?", "sentence_bad": "were the dog something you like ?"}
+{"sentence_good": "were the dogs a good idea ?", "sentence_bad": "were the dog a good idea ?"}
+{"sentence_good": "is the song not growing ?", "sentence_bad": "is the songs not growing ?"}
+{"sentence_good": "was the song not growing ?", "sentence_bad": "was the songs not growing ?"}
+{"sentence_good": "are the songs not growing ?", "sentence_bad": "are the song not growing ?"}
+{"sentence_good": "were the songs not growing ?", "sentence_bad": "were the song not growing ?"}
+{"sentence_good": "where is the parent ?", "sentence_bad": "where is the parents ?"}
+{"sentence_good": "what is the parent ?", "sentence_bad": "what is the parents ?"}
+{"sentence_good": "what color is the parent ?", "sentence_bad": "what color is the parents ?"}
+{"sentence_good": "is the parent not dark ?", "sentence_bad": "is the parents not dark ?"}
+{"sentence_good": "is the parent where it should be ?", "sentence_bad": "is the parents where it should be ?"}
+{"sentence_good": "is the parent something you like ?", "sentence_bad": "is the parents something you like ?"}
+{"sentence_good": "is the parent a good idea ?", "sentence_bad": "is the parents a good idea ?"}
+{"sentence_good": "where was the parent ?", "sentence_bad": "where was the parents ?"}
+{"sentence_good": "what was the parent ?", "sentence_bad": "what was the parents ?"}
+{"sentence_good": "what color was the parent ?", "sentence_bad": "what color was the parents ?"}
+{"sentence_good": "was the parent not dark ?", "sentence_bad": "was the parents not dark ?"}
+{"sentence_good": "was the parent where it should be ?", "sentence_bad": "was the parents where it should be ?"}
+{"sentence_good": "was the parent something you like ?", "sentence_bad": "was the parents something you like ?"}
+{"sentence_good": "was the parent a good idea ?", "sentence_bad": "was the parents a good idea ?"}
+{"sentence_good": "where are the parents ?", "sentence_bad": "where are the parent ?"}
+{"sentence_good": "what are the parents ?", "sentence_bad": "what are the parent ?"}
+{"sentence_good": "what color are the parents ?", "sentence_bad": "what color are the parent ?"}
+{"sentence_good": "are the parents not dark ?", "sentence_bad": "are the parent not dark ?"}
+{"sentence_good": "are the parents where they should be ?", "sentence_bad": "are the parent where they should be ?"}
+{"sentence_good": "are the parents something you like ?", "sentence_bad": "are the parent something you like ?"}
+{"sentence_good": "are the parents a good idea ?", "sentence_bad": "are the parent a good idea ?"}
+{"sentence_good": "where were the parents ?", "sentence_bad": "where were the parent ?"}
+{"sentence_good": "what were the parents ?", "sentence_bad": "what were the parent ?"}
+{"sentence_good": "what color were the parents ?", "sentence_bad": "what color were the parent ?"}
+{"sentence_good": "were the parents not dark ?", "sentence_bad": "were the parent not dark ?"}
+{"sentence_good": "were the parents where they should be ?", "sentence_bad": "were the parent where they should be ?"}
+{"sentence_good": "were the parents something you like ?", "sentence_bad": "were the parent something you like ?"}
+{"sentence_good": "were the parents a good idea ?", "sentence_bad": "were the parent a good idea ?"}
+{"sentence_good": "where is the whale ?", "sentence_bad": "where is the whales ?"}
+{"sentence_good": "what is the whale ?", "sentence_bad": "what is the whales ?"}
+{"sentence_good": "what color is the whale ?", "sentence_bad": "what color is the whales ?"}
+{"sentence_good": "is the whale not holy ?", "sentence_bad": "is the whales not holy ?"}
+{"sentence_good": "is the whale where it should be ?", "sentence_bad": "is the whales where it should be ?"}
+{"sentence_good": "is the whale something you like ?", "sentence_bad": "is the whales something you like ?"}
+{"sentence_good": "is the whale a good idea ?", "sentence_bad": "is the whales a good idea ?"}
+{"sentence_good": "where was the whale ?", "sentence_bad": "where was the whales ?"}
+{"sentence_good": "what was the whale ?", "sentence_bad": "what was the whales ?"}
+{"sentence_good": "what color was the whale ?", "sentence_bad": "what color was the whales ?"}
+{"sentence_good": "was the whale not holy ?", "sentence_bad": "was the whales not holy ?"}
+{"sentence_good": "was the whale where it should be ?", "sentence_bad": "was the whales where it should be ?"}
+{"sentence_good": "was the whale something you like ?", "sentence_bad": "was the whales something you like ?"}
+{"sentence_good": "was the whale a good idea ?", "sentence_bad": "was the whales a good idea ?"}
+{"sentence_good": "where are the whales ?", "sentence_bad": "where are the whale ?"}
+{"sentence_good": "what are the whales ?", "sentence_bad": "what are the whale ?"}
+{"sentence_good": "what color are the whales ?", "sentence_bad": "what color are the whale ?"}
+{"sentence_good": "are the whales not holy ?", "sentence_bad": "are the whale not holy ?"}
+{"sentence_good": "are the whales where they should be ?", "sentence_bad": "are the whale where they should be ?"}
+{"sentence_good": "are the whales something you like ?", "sentence_bad": "are the whale something you like ?"}
+{"sentence_good": "are the whales a good idea ?", "sentence_bad": "are the whale a good idea ?"}
+{"sentence_good": "where were the whales ?", "sentence_bad": "where were the whale ?"}
+{"sentence_good": "what were the whales ?", "sentence_bad": "what were the whale ?"}
+{"sentence_good": "what color were the whales ?", "sentence_bad": "what color were the whale ?"}
+{"sentence_good": "were the whales not holy ?", "sentence_bad": "were the whale not holy ?"}
+{"sentence_good": "were the whales where they should be ?", "sentence_bad": "were the whale where they should be ?"}
+{"sentence_good": "were the whales something you like ?", "sentence_bad": "were the whale something you like ?"}
+{"sentence_good": "were the whales a good idea ?", "sentence_bad": "were the whale a good idea ?"}
+{"sentence_good": "where is the color ?", "sentence_bad": "where is the colors ?"}
+{"sentence_good": "what is the color ?", "sentence_bad": "what is the colors ?"}
+{"sentence_good": "what color is the color ?", "sentence_bad": "what color is the colors ?"}
+{"sentence_good": "is the color not close ?", "sentence_bad": "is the colors not close ?"}
+{"sentence_good": "is the color where it should be ?", "sentence_bad": "is the colors where it should be ?"}
+{"sentence_good": "is the color something you like ?", "sentence_bad": "is the colors something you like ?"}
+{"sentence_good": "is the color a good idea ?", "sentence_bad": "is the colors a good idea ?"}
+{"sentence_good": "where was the color ?", "sentence_bad": "where was the colors ?"}
+{"sentence_good": "what was the color ?", "sentence_bad": "what was the colors ?"}
+{"sentence_good": "what color was the color ?", "sentence_bad": "what color was the colors ?"}
+{"sentence_good": "was the color not close ?", "sentence_bad": "was the colors not close ?"}
+{"sentence_good": "was the color where it should be ?", "sentence_bad": "was the colors where it should be ?"}
+{"sentence_good": "was the color something you like ?", "sentence_bad": "was the colors something you like ?"}
+{"sentence_good": "was the color a good idea ?", "sentence_bad": "was the colors a good idea ?"}
+{"sentence_good": "where are the colors ?", "sentence_bad": "where are the color ?"}
+{"sentence_good": "what are the colors ?", "sentence_bad": "what are the color ?"}
+{"sentence_good": "what color are the colors ?", "sentence_bad": "what color are the color ?"}
+{"sentence_good": "are the colors not close ?", "sentence_bad": "are the color not close ?"}
+{"sentence_good": "are the colors where they should be ?", "sentence_bad": "are the color where they should be ?"}
+{"sentence_good": "are the colors something you like ?", "sentence_bad": "are the color something you like ?"}
+{"sentence_good": "are the colors a good idea ?", "sentence_bad": "are the color a good idea ?"}
+{"sentence_good": "where were the colors ?", "sentence_bad": "where were the color ?"}
+{"sentence_good": "what were the colors ?", "sentence_bad": "what were the color ?"}
+{"sentence_good": "what color were the colors ?", "sentence_bad": "what color were the color ?"}
+{"sentence_good": "were the colors not close ?", "sentence_bad": "were the color not close ?"}
+{"sentence_good": "were the colors where they should be ?", "sentence_bad": "were the color where they should be ?"}
+{"sentence_good": "were the colors something you like ?", "sentence_bad": "were the color something you like ?"}
+{"sentence_good": "were the colors a good idea ?", "sentence_bad": "were the color a good idea ?"}
+{"sentence_good": "where is the foot ?", "sentence_bad": "where is the feet ?"}
+{"sentence_good": "what is the foot ?", "sentence_bad": "what is the feet ?"}
+{"sentence_good": "what color is the foot ?", "sentence_bad": "what color is the feet ?"}
+{"sentence_good": "is the foot not bright ?", "sentence_bad": "is the feet not bright ?"}
+{"sentence_good": "is the foot where it should be ?", "sentence_bad": "is the feet where it should be ?"}
+{"sentence_good": "is the foot something you like ?", "sentence_bad": "is the feet something you like ?"}
+{"sentence_good": "is the foot a good idea ?", "sentence_bad": "is the feet a good idea ?"}
+{"sentence_good": "where was the foot ?", "sentence_bad": "where was the feet ?"}
+{"sentence_good": "what was the foot ?", "sentence_bad": "what was the feet ?"}
+{"sentence_good": "what color was the foot ?", "sentence_bad": "what color was the feet ?"}
+{"sentence_good": "was the foot not bright ?", "sentence_bad": "was the feet not bright ?"}
+{"sentence_good": "was the foot where it should be ?", "sentence_bad": "was the feet where it should be ?"}
+{"sentence_good": "was the foot something you like ?", "sentence_bad": "was the feet something you like ?"}
+{"sentence_good": "was the foot a good idea ?", "sentence_bad": "was the feet a good idea ?"}
+{"sentence_good": "where are the feet ?", "sentence_bad": "where are the foot ?"}
+{"sentence_good": "what are the feet ?", "sentence_bad": "what are the foot ?"}
+{"sentence_good": "what color are the feet ?", "sentence_bad": "what color are the foot ?"}
+{"sentence_good": "are the feet not bright ?", "sentence_bad": "are the foot not bright ?"}
+{"sentence_good": "are the feet where they should be ?", "sentence_bad": "are the foot where they should be ?"}
+{"sentence_good": "are the feet something you like ?", "sentence_bad": "are the foot something you like ?"}
+{"sentence_good": "are the feet a good idea ?", "sentence_bad": "are the foot a good idea ?"}
+{"sentence_good": "where were the feet ?", "sentence_bad": "where were the foot ?"}
+{"sentence_good": "what were the feet ?", "sentence_bad": "what were the foot ?"}
+{"sentence_good": "what color were the feet ?", "sentence_bad": "what color were the foot ?"}
+{"sentence_good": "were the feet not bright ?", "sentence_bad": "were the foot not bright ?"}
+{"sentence_good": "were the feet where they should be ?", "sentence_bad": "were the foot where they should be ?"}
+{"sentence_good": "were the feet something you like ?", "sentence_bad": "were the foot something you like ?"}
+{"sentence_good": "were the feet a good idea ?", "sentence_bad": "were the foot a good idea ?"}
+{"sentence_good": "is the song not coming ?", "sentence_bad": "is the songs not coming ?"}
+{"sentence_good": "was the song not coming ?", "sentence_bad": "was the songs not coming ?"}
+{"sentence_good": "are the songs not coming ?", "sentence_bad": "are the song not coming ?"}
+{"sentence_good": "were the songs not coming ?", "sentence_bad": "were the song not coming ?"}
+{"sentence_good": "where is the stand ?", "sentence_bad": "where is the stands ?"}
+{"sentence_good": "what is the stand ?", "sentence_bad": "what is the stands ?"}
+{"sentence_good": "what color is the stand ?", "sentence_bad": "what color is the stands ?"}
+{"sentence_good": "is the stand not wooden ?", "sentence_bad": "is the stands not wooden ?"}
+{"sentence_good": "is the stand where it should be ?", "sentence_bad": "is the stands where it should be ?"}
+{"sentence_good": "is the stand something you like ?", "sentence_bad": "is the stands something you like ?"}
+{"sentence_good": "is the stand a good idea ?", "sentence_bad": "is the stands a good idea ?"}
+{"sentence_good": "where was the stand ?", "sentence_bad": "where was the stands ?"}
+{"sentence_good": "what was the stand ?", "sentence_bad": "what was the stands ?"}
+{"sentence_good": "what color was the stand ?", "sentence_bad": "what color was the stands ?"}
+{"sentence_good": "was the stand not wooden ?", "sentence_bad": "was the stands not wooden ?"}
+{"sentence_good": "was the stand where it should be ?", "sentence_bad": "was the stands where it should be ?"}
+{"sentence_good": "was the stand something you like ?", "sentence_bad": "was the stands something you like ?"}
+{"sentence_good": "was the stand a good idea ?", "sentence_bad": "was the stands a good idea ?"}
+{"sentence_good": "where are the stands ?", "sentence_bad": "where are the stand ?"}
+{"sentence_good": "what are the stands ?", "sentence_bad": "what are the stand ?"}
+{"sentence_good": "what color are the stands ?", "sentence_bad": "what color are the stand ?"}
+{"sentence_good": "are the stands not wooden ?", "sentence_bad": "are the stand not wooden ?"}
+{"sentence_good": "are the stands where they should be ?", "sentence_bad": "are the stand where they should be ?"}
+{"sentence_good": "are the stands something you like ?", "sentence_bad": "are the stand something you like ?"}
+{"sentence_good": "are the stands a good idea ?", "sentence_bad": "are the stand a good idea ?"}
+{"sentence_good": "where were the stands ?", "sentence_bad": "where were the stand ?"}
+{"sentence_good": "what were the stands ?", "sentence_bad": "what were the stand ?"}
+{"sentence_good": "what color were the stands ?", "sentence_bad": "what color were the stand ?"}
+{"sentence_good": "were the stands not wooden ?", "sentence_bad": "were the stand not wooden ?"}
+{"sentence_good": "were the stands where they should be ?", "sentence_bad": "were the stand where they should be ?"}
+{"sentence_good": "were the stands something you like ?", "sentence_bad": "were the stand something you like ?"}
+{"sentence_good": "were the stands a good idea ?", "sentence_bad": "were the stand a good idea ?"}
+{"sentence_good": "where is the story ?", "sentence_bad": "where is the stories ?"}
+{"sentence_good": "what is the story ?", "sentence_bad": "what is the stories ?"}
+{"sentence_good": "what color is the story ?", "sentence_bad": "what color is the stories ?"}
+{"sentence_good": "is the story not spanish ?", "sentence_bad": "is the stories not spanish ?"}
+{"sentence_good": "is the story where it should be ?", "sentence_bad": "is the stories where it should be ?"}
+{"sentence_good": "is the story something you like ?", "sentence_bad": "is the stories something you like ?"}
+{"sentence_good": "is the story a good idea ?", "sentence_bad": "is the stories a good idea ?"}
+{"sentence_good": "where was the story ?", "sentence_bad": "where was the stories ?"}
+{"sentence_good": "what was the story ?", "sentence_bad": "what was the stories ?"}
+{"sentence_good": "what color was the story ?", "sentence_bad": "what color was the stories ?"}
+{"sentence_good": "was the story not spanish ?", "sentence_bad": "was the stories not spanish ?"}
+{"sentence_good": "was the story where it should be ?", "sentence_bad": "was the stories where it should be ?"}
+{"sentence_good": "was the story something you like ?", "sentence_bad": "was the stories something you like ?"}
+{"sentence_good": "was the story a good idea ?", "sentence_bad": "was the stories a good idea ?"}
+{"sentence_good": "where are the stories ?", "sentence_bad": "where are the story ?"}
+{"sentence_good": "what are the stories ?", "sentence_bad": "what are the story ?"}
+{"sentence_good": "what color are the stories ?", "sentence_bad": "what color are the story ?"}
+{"sentence_good": "are the stories not spanish ?", "sentence_bad": "are the story not spanish ?"}
+{"sentence_good": "are the stories where they should be ?", "sentence_bad": "are the story where they should be ?"}
+{"sentence_good": "are the stories something you like ?", "sentence_bad": "are the story something you like ?"}
+{"sentence_good": "are the stories a good idea ?", "sentence_bad": "are the story a good idea ?"}
+{"sentence_good": "where were the stories ?", "sentence_bad": "where were the story ?"}
+{"sentence_good": "what were the stories ?", "sentence_bad": "what were the story ?"}
+{"sentence_good": "what color were the stories ?", "sentence_bad": "what color were the story ?"}
+{"sentence_good": "were the stories not spanish ?", "sentence_bad": "were the story not spanish ?"}
+{"sentence_good": "were the stories where they should be ?", "sentence_bad": "were the story where they should be ?"}
+{"sentence_good": "were the stories something you like ?", "sentence_bad": "were the story something you like ?"}
+{"sentence_good": "were the stories a good idea ?", "sentence_bad": "were the story a good idea ?"}
+{"sentence_good": "where is the lion ?", "sentence_bad": "where is the lions ?"}
+{"sentence_good": "what is the lion ?", "sentence_bad": "what is the lions ?"}
+{"sentence_good": "what color is the lion ?", "sentence_bad": "what color is the lions ?"}
+{"sentence_good": "is the lion not purple ?", "sentence_bad": "is the lions not purple ?"}
+{"sentence_good": "is the lion where it should be ?", "sentence_bad": "is the lions where it should be ?"}
+{"sentence_good": "is the lion something you like ?", "sentence_bad": "is the lions something you like ?"}
+{"sentence_good": "is the lion a good idea ?", "sentence_bad": "is the lions a good idea ?"}
+{"sentence_good": "where was the lion ?", "sentence_bad": "where was the lions ?"}
+{"sentence_good": "what was the lion ?", "sentence_bad": "what was the lions ?"}
+{"sentence_good": "what color was the lion ?", "sentence_bad": "what color was the lions ?"}
+{"sentence_good": "was the lion not purple ?", "sentence_bad": "was the lions not purple ?"}
+{"sentence_good": "was the lion where it should be ?", "sentence_bad": "was the lions where it should be ?"}
+{"sentence_good": "was the lion something you like ?", "sentence_bad": "was the lions something you like ?"}
+{"sentence_good": "was the lion a good idea ?", "sentence_bad": "was the lions a good idea ?"}
+{"sentence_good": "where are the lions ?", "sentence_bad": "where are the lion ?"}
+{"sentence_good": "what are the lions ?", "sentence_bad": "what are the lion ?"}
+{"sentence_good": "what color are the lions ?", "sentence_bad": "what color are the lion ?"}
+{"sentence_good": "are the lions not purple ?", "sentence_bad": "are the lion not purple ?"}
+{"sentence_good": "are the lions where they should be ?", "sentence_bad": "are the lion where they should be ?"}
+{"sentence_good": "are the lions something you like ?", "sentence_bad": "are the lion something you like ?"}
+{"sentence_good": "are the lions a good idea ?", "sentence_bad": "are the lion a good idea ?"}
+{"sentence_good": "where were the lions ?", "sentence_bad": "where were the lion ?"}
+{"sentence_good": "what were the lions ?", "sentence_bad": "what were the lion ?"}
+{"sentence_good": "what color were the lions ?", "sentence_bad": "what color were the lion ?"}
+{"sentence_good": "were the lions not purple ?", "sentence_bad": "were the lion not purple ?"}
+{"sentence_good": "were the lions where they should be ?", "sentence_bad": "were the lion where they should be ?"}
+{"sentence_good": "were the lions something you like ?", "sentence_bad": "were the lion something you like ?"}
+{"sentence_good": "were the lions a good idea ?", "sentence_bad": "were the lion a good idea ?"}
+{"sentence_good": "where is the baby ?", "sentence_bad": "where is the babies ?"}
+{"sentence_good": "what is the baby ?", "sentence_bad": "what is the babies ?"}
+{"sentence_good": "what color is the baby ?", "sentence_bad": "what color is the babies ?"}
+{"sentence_good": "is the baby not signed ?", "sentence_bad": "is the babies not signed ?"}
+{"sentence_good": "is the baby where it should be ?", "sentence_bad": "is the babies where it should be ?"}
+{"sentence_good": "is the baby something you like ?", "sentence_bad": "is the babies something you like ?"}
+{"sentence_good": "is the baby a good idea ?", "sentence_bad": "is the babies a good idea ?"}
+{"sentence_good": "where was the baby ?", "sentence_bad": "where was the babies ?"}
+{"sentence_good": "what was the baby ?", "sentence_bad": "what was the babies ?"}
+{"sentence_good": "what color was the baby ?", "sentence_bad": "what color was the babies ?"}
+{"sentence_good": "was the baby not signed ?", "sentence_bad": "was the babies not signed ?"}
+{"sentence_good": "was the baby where it should be ?", "sentence_bad": "was the babies where it should be ?"}
+{"sentence_good": "was the baby something you like ?", "sentence_bad": "was the babies something you like ?"}
+{"sentence_good": "was the baby a good idea ?", "sentence_bad": "was the babies a good idea ?"}
+{"sentence_good": "where are the babies ?", "sentence_bad": "where are the baby ?"}
+{"sentence_good": "what are the babies ?", "sentence_bad": "what are the baby ?"}
+{"sentence_good": "what color are the babies ?", "sentence_bad": "what color are the baby ?"}
+{"sentence_good": "are the babies not signed ?", "sentence_bad": "are the baby not signed ?"}
+{"sentence_good": "are the babies where they should be ?", "sentence_bad": "are the baby where they should be ?"}
+{"sentence_good": "are the babies something you like ?", "sentence_bad": "are the baby something you like ?"}
+{"sentence_good": "are the babies a good idea ?", "sentence_bad": "are the baby a good idea ?"}
+{"sentence_good": "where were the babies ?", "sentence_bad": "where were the baby ?"}
+{"sentence_good": "what were the babies ?", "sentence_bad": "what were the baby ?"}
+{"sentence_good": "what color were the babies ?", "sentence_bad": "what color were the baby ?"}
+{"sentence_good": "were the babies not signed ?", "sentence_bad": "were the baby not signed ?"}
+{"sentence_good": "were the babies where they should be ?", "sentence_bad": "were the baby where they should be ?"}
+{"sentence_good": "were the babies something you like ?", "sentence_bad": "were the baby something you like ?"}
+{"sentence_good": "were the babies a good idea ?", "sentence_bad": "were the baby a good idea ?"}
+{"sentence_good": "where is the star ?", "sentence_bad": "where is the stars ?"}
+{"sentence_good": "what is the star ?", "sentence_bad": "what is the stars ?"}
+{"sentence_good": "what color is the star ?", "sentence_bad": "what color is the stars ?"}
+{"sentence_good": "is the star not holy ?", "sentence_bad": "is the stars not holy ?"}
+{"sentence_good": "is the star where it should be ?", "sentence_bad": "is the stars where it should be ?"}
+{"sentence_good": "is the star something you like ?", "sentence_bad": "is the stars something you like ?"}
+{"sentence_good": "is the star a good idea ?", "sentence_bad": "is the stars a good idea ?"}
+{"sentence_good": "where was the star ?", "sentence_bad": "where was the stars ?"}
+{"sentence_good": "what was the star ?", "sentence_bad": "what was the stars ?"}
+{"sentence_good": "what color was the star ?", "sentence_bad": "what color was the stars ?"}
+{"sentence_good": "was the star not holy ?", "sentence_bad": "was the stars not holy ?"}
+{"sentence_good": "was the star where it should be ?", "sentence_bad": "was the stars where it should be ?"}
+{"sentence_good": "was the star something you like ?", "sentence_bad": "was the stars something you like ?"}
+{"sentence_good": "was the star a good idea ?", "sentence_bad": "was the stars a good idea ?"}
+{"sentence_good": "where are the stars ?", "sentence_bad": "where are the star ?"}
+{"sentence_good": "what are the stars ?", "sentence_bad": "what are the star ?"}
+{"sentence_good": "what color are the stars ?", "sentence_bad": "what color are the star ?"}
+{"sentence_good": "are the stars not holy ?", "sentence_bad": "are the star not holy ?"}
+{"sentence_good": "are the stars where they should be ?", "sentence_bad": "are the star where they should be ?"}
+{"sentence_good": "are the stars something you like ?", "sentence_bad": "are the star something you like ?"}
+{"sentence_good": "are the stars a good idea ?", "sentence_bad": "are the star a good idea ?"}
+{"sentence_good": "where were the stars ?", "sentence_bad": "where were the star ?"}
+{"sentence_good": "what were the stars ?", "sentence_bad": "what were the star ?"}
+{"sentence_good": "what color were the stars ?", "sentence_bad": "what color were the star ?"}
+{"sentence_good": "were the stars not holy ?", "sentence_bad": "were the star not holy ?"}
+{"sentence_good": "were the stars where they should be ?", "sentence_bad": "were the star where they should be ?"}
+{"sentence_good": "were the stars something you like ?", "sentence_bad": "were the star something you like ?"}
+{"sentence_good": "were the stars a good idea ?", "sentence_bad": "were the star a good idea ?"}
+{"sentence_good": "is the color not left ?", "sentence_bad": "is the colors not left ?"}
+{"sentence_good": "was the color not left ?", "sentence_bad": "was the colors not left ?"}
+{"sentence_good": "are the colors not left ?", "sentence_bad": "are the color not left ?"}
+{"sentence_good": "were the colors not left ?", "sentence_bad": "were the color not left ?"}
+{"sentence_good": "where is the bit ?", "sentence_bad": "where is the bits ?"}
+{"sentence_good": "what is the bit ?", "sentence_bad": "what is the bits ?"}
+{"sentence_good": "what color is the bit ?", "sentence_bad": "what color is the bits ?"}
+{"sentence_good": "is the bit not empty ?", "sentence_bad": "is the bits not empty ?"}
+{"sentence_good": "is the bit where it should be ?", "sentence_bad": "is the bits where it should be ?"}
+{"sentence_good": "is the bit something you like ?", "sentence_bad": "is the bits something you like ?"}
+{"sentence_good": "is the bit a good idea ?", "sentence_bad": "is the bits a good idea ?"}
+{"sentence_good": "where was the bit ?", "sentence_bad": "where was the bits ?"}
+{"sentence_good": "what was the bit ?", "sentence_bad": "what was the bits ?"}
+{"sentence_good": "what color was the bit ?", "sentence_bad": "what color was the bits ?"}
+{"sentence_good": "was the bit not empty ?", "sentence_bad": "was the bits not empty ?"}
+{"sentence_good": "was the bit where it should be ?", "sentence_bad": "was the bits where it should be ?"}
+{"sentence_good": "was the bit something you like ?", "sentence_bad": "was the bits something you like ?"}
+{"sentence_good": "was the bit a good idea ?", "sentence_bad": "was the bits a good idea ?"}
+{"sentence_good": "where are the bits ?", "sentence_bad": "where are the bit ?"}
+{"sentence_good": "what are the bits ?", "sentence_bad": "what are the bit ?"}
+{"sentence_good": "what color are the bits ?", "sentence_bad": "what color are the bit ?"}
+{"sentence_good": "are the bits not empty ?", "sentence_bad": "are the bit not empty ?"}
+{"sentence_good": "are the bits where they should be ?", "sentence_bad": "are the bit where they should be ?"}
+{"sentence_good": "are the bits something you like ?", "sentence_bad": "are the bit something you like ?"}
+{"sentence_good": "are the bits a good idea ?", "sentence_bad": "are the bit a good idea ?"}
+{"sentence_good": "where were the bits ?", "sentence_bad": "where were the bit ?"}
+{"sentence_good": "what were the bits ?", "sentence_bad": "what were the bit ?"}
+{"sentence_good": "what color were the bits ?", "sentence_bad": "what color were the bit ?"}
+{"sentence_good": "were the bits not empty ?", "sentence_bad": "were the bit not empty ?"}
+{"sentence_good": "were the bits where they should be ?", "sentence_bad": "were the bit where they should be ?"}
+{"sentence_good": "were the bits something you like ?", "sentence_bad": "were the bit something you like ?"}
+{"sentence_good": "were the bits a good idea ?", "sentence_bad": "were the bit a good idea ?"}
+{"sentence_good": "is the story not empty ?", "sentence_bad": "is the stories not empty ?"}
+{"sentence_good": "was the story not empty ?", "sentence_bad": "was the stories not empty ?"}
+{"sentence_good": "are the stories not empty ?", "sentence_bad": "are the story not empty ?"}
+{"sentence_good": "were the stories not empty ?", "sentence_bad": "were the story not empty ?"}
+{"sentence_good": "where is the girl ?", "sentence_bad": "where is the girls ?"}
+{"sentence_good": "what is the girl ?", "sentence_bad": "what is the girls ?"}
+{"sentence_good": "what color is the girl ?", "sentence_bad": "what color is the girls ?"}
+{"sentence_good": "is the girl not directed ?", "sentence_bad": "is the girls not directed ?"}
+{"sentence_good": "is the girl where it should be ?", "sentence_bad": "is the girls where it should be ?"}
+{"sentence_good": "is the girl something you like ?", "sentence_bad": "is the girls something you like ?"}
+{"sentence_good": "is the girl a good idea ?", "sentence_bad": "is the girls a good idea ?"}
+{"sentence_good": "where was the girl ?", "sentence_bad": "where was the girls ?"}
+{"sentence_good": "what was the girl ?", "sentence_bad": "what was the girls ?"}
+{"sentence_good": "what color was the girl ?", "sentence_bad": "what color was the girls ?"}
+{"sentence_good": "was the girl not directed ?", "sentence_bad": "was the girls not directed ?"}
+{"sentence_good": "was the girl where it should be ?", "sentence_bad": "was the girls where it should be ?"}
+{"sentence_good": "was the girl something you like ?", "sentence_bad": "was the girls something you like ?"}
+{"sentence_good": "was the girl a good idea ?", "sentence_bad": "was the girls a good idea ?"}
+{"sentence_good": "where are the girls ?", "sentence_bad": "where are the girl ?"}
+{"sentence_good": "what are the girls ?", "sentence_bad": "what are the girl ?"}
+{"sentence_good": "what color are the girls ?", "sentence_bad": "what color are the girl ?"}
+{"sentence_good": "are the girls not directed ?", "sentence_bad": "are the girl not directed ?"}
+{"sentence_good": "are the girls where they should be ?", "sentence_bad": "are the girl where they should be ?"}
+{"sentence_good": "are the girls something you like ?", "sentence_bad": "are the girl something you like ?"}
+{"sentence_good": "are the girls a good idea ?", "sentence_bad": "are the girl a good idea ?"}
+{"sentence_good": "where were the girls ?", "sentence_bad": "where were the girl ?"}
+{"sentence_good": "what were the girls ?", "sentence_bad": "what were the girl ?"}
+{"sentence_good": "what color were the girls ?", "sentence_bad": "what color were the girl ?"}
+{"sentence_good": "were the girls not directed ?", "sentence_bad": "were the girl not directed ?"}
+{"sentence_good": "were the girls where they should be ?", "sentence_bad": "were the girl where they should be ?"}
+{"sentence_good": "were the girls something you like ?", "sentence_bad": "were the girl something you like ?"}
+{"sentence_good": "were the girls a good idea ?", "sentence_bad": "were the girl a good idea ?"}
+{"sentence_good": "where is the word ?", "sentence_bad": "where is the words ?"}
+{"sentence_good": "what is the word ?", "sentence_bad": "what is the words ?"}
+{"sentence_good": "what color is the word ?", "sentence_bad": "what color is the words ?"}
+{"sentence_good": "is the word not known ?", "sentence_bad": "is the words not known ?"}
+{"sentence_good": "is the word where it should be ?", "sentence_bad": "is the words where it should be ?"}
+{"sentence_good": "is the word something you like ?", "sentence_bad": "is the words something you like ?"}
+{"sentence_good": "is the word a good idea ?", "sentence_bad": "is the words a good idea ?"}
+{"sentence_good": "where was the word ?", "sentence_bad": "where was the words ?"}
+{"sentence_good": "what was the word ?", "sentence_bad": "what was the words ?"}
+{"sentence_good": "what color was the word ?", "sentence_bad": "what color was the words ?"}
+{"sentence_good": "was the word not known ?", "sentence_bad": "was the words not known ?"}
+{"sentence_good": "was the word where it should be ?", "sentence_bad": "was the words where it should be ?"}
+{"sentence_good": "was the word something you like ?", "sentence_bad": "was the words something you like ?"}
+{"sentence_good": "was the word a good idea ?", "sentence_bad": "was the words a good idea ?"}
+{"sentence_good": "where are the words ?", "sentence_bad": "where are the word ?"}
+{"sentence_good": "what are the words ?", "sentence_bad": "what are the word ?"}
+{"sentence_good": "what color are the words ?", "sentence_bad": "what color are the word ?"}
+{"sentence_good": "are the words not known ?", "sentence_bad": "are the word not known ?"}
+{"sentence_good": "are the words where they should be ?", "sentence_bad": "are the word where they should be ?"}
+{"sentence_good": "are the words something you like ?", "sentence_bad": "are the word something you like ?"}
+{"sentence_good": "are the words a good idea ?", "sentence_bad": "are the word a good idea ?"}
+{"sentence_good": "where were the words ?", "sentence_bad": "where were the word ?"}
+{"sentence_good": "what were the words ?", "sentence_bad": "what were the word ?"}
+{"sentence_good": "what color were the words ?", "sentence_bad": "what color were the word ?"}
+{"sentence_good": "were the words not known ?", "sentence_bad": "were the word not known ?"}
+{"sentence_good": "were the words where they should be ?", "sentence_bad": "were the word where they should be ?"}
+{"sentence_good": "were the words something you like ?", "sentence_bad": "were the word something you like ?"}
+{"sentence_good": "were the words a good idea ?", "sentence_bad": "were the word a good idea ?"}
+{"sentence_good": "is the color not expected ?", "sentence_bad": "is the colors not expected ?"}
+{"sentence_good": "was the color not expected ?", "sentence_bad": "was the colors not expected ?"}
+{"sentence_good": "are the colors not expected ?", "sentence_bad": "are the color not expected ?"}
+{"sentence_good": "were the colors not expected ?", "sentence_bad": "were the color not expected ?"}
+{"sentence_good": "is the star not whole ?", "sentence_bad": "is the stars not whole ?"}
+{"sentence_good": "was the star not whole ?", "sentence_bad": "was the stars not whole ?"}
+{"sentence_good": "are the stars not whole ?", "sentence_bad": "are the star not whole ?"}
+{"sentence_good": "were the stars not whole ?", "sentence_bad": "were the star not whole ?"}
+{"sentence_good": "is the song not protected ?", "sentence_bad": "is the songs not protected ?"}
+{"sentence_good": "was the song not protected ?", "sentence_bad": "was the songs not protected ?"}
+{"sentence_good": "are the songs not protected ?", "sentence_bad": "are the song not protected ?"}
+{"sentence_good": "were the songs not protected ?", "sentence_bad": "were the song not protected ?"}
+{"sentence_good": "where is the way ?", "sentence_bad": "where is the ways ?"}
+{"sentence_good": "what is the way ?", "sentence_bad": "what is the ways ?"}
+{"sentence_good": "what color is the way ?", "sentence_bad": "what color is the ways ?"}
+{"sentence_good": "is the way not losing ?", "sentence_bad": "is the ways not losing ?"}
+{"sentence_good": "is the way where it should be ?", "sentence_bad": "is the ways where it should be ?"}
+{"sentence_good": "is the way something you like ?", "sentence_bad": "is the ways something you like ?"}
+{"sentence_good": "is the way a good idea ?", "sentence_bad": "is the ways a good idea ?"}
+{"sentence_good": "where was the way ?", "sentence_bad": "where was the ways ?"}
+{"sentence_good": "what was the way ?", "sentence_bad": "what was the ways ?"}
+{"sentence_good": "what color was the way ?", "sentence_bad": "what color was the ways ?"}
+{"sentence_good": "was the way not losing ?", "sentence_bad": "was the ways not losing ?"}
+{"sentence_good": "was the way where it should be ?", "sentence_bad": "was the ways where it should be ?"}
+{"sentence_good": "was the way something you like ?", "sentence_bad": "was the ways something you like ?"}
+{"sentence_good": "was the way a good idea ?", "sentence_bad": "was the ways a good idea ?"}
+{"sentence_good": "where are the ways ?", "sentence_bad": "where are the way ?"}
+{"sentence_good": "what are the ways ?", "sentence_bad": "what are the way ?"}
+{"sentence_good": "what color are the ways ?", "sentence_bad": "what color are the way ?"}
+{"sentence_good": "are the ways not losing ?", "sentence_bad": "are the way not losing ?"}
+{"sentence_good": "are the ways where they should be ?", "sentence_bad": "are the way where they should be ?"}
+{"sentence_good": "are the ways something you like ?", "sentence_bad": "are the way something you like ?"}
+{"sentence_good": "are the ways a good idea ?", "sentence_bad": "are the way a good idea ?"}
+{"sentence_good": "where were the ways ?", "sentence_bad": "where were the way ?"}
+{"sentence_good": "what were the ways ?", "sentence_bad": "what were the way ?"}
+{"sentence_good": "what color were the ways ?", "sentence_bad": "what color were the way ?"}
+{"sentence_good": "were the ways not losing ?", "sentence_bad": "were the way not losing ?"}
+{"sentence_good": "were the ways where they should be ?", "sentence_bad": "were the way where they should be ?"}
+{"sentence_good": "were the ways something you like ?", "sentence_bad": "were the way something you like ?"}
+{"sentence_good": "were the ways a good idea ?", "sentence_bad": "were the way a good idea ?"}
+{"sentence_good": "where is the hand ?", "sentence_bad": "where is the hands ?"}
+{"sentence_good": "what is the hand ?", "sentence_bad": "what is the hands ?"}
+{"sentence_good": "what color is the hand ?", "sentence_bad": "what color is the hands ?"}
+{"sentence_good": "is the hand not signed ?", "sentence_bad": "is the hands not signed ?"}
+{"sentence_good": "is the hand where it should be ?", "sentence_bad": "is the hands where it should be ?"}
+{"sentence_good": "is the hand something you like ?", "sentence_bad": "is the hands something you like ?"}
+{"sentence_good": "is the hand a good idea ?", "sentence_bad": "is the hands a good idea ?"}
+{"sentence_good": "where was the hand ?", "sentence_bad": "where was the hands ?"}
+{"sentence_good": "what was the hand ?", "sentence_bad": "what was the hands ?"}
+{"sentence_good": "what color was the hand ?", "sentence_bad": "what color was the hands ?"}
+{"sentence_good": "was the hand not signed ?", "sentence_bad": "was the hands not signed ?"}
+{"sentence_good": "was the hand where it should be ?", "sentence_bad": "was the hands where it should be ?"}
+{"sentence_good": "was the hand something you like ?", "sentence_bad": "was the hands something you like ?"}
+{"sentence_good": "was the hand a good idea ?", "sentence_bad": "was the hands a good idea ?"}
+{"sentence_good": "where are the hands ?", "sentence_bad": "where are the hand ?"}
+{"sentence_good": "what are the hands ?", "sentence_bad": "what are the hand ?"}
+{"sentence_good": "what color are the hands ?", "sentence_bad": "what color are the hand ?"}
+{"sentence_good": "are the hands not signed ?", "sentence_bad": "are the hand not signed ?"}
+{"sentence_good": "are the hands where they should be ?", "sentence_bad": "are the hand where they should be ?"}
+{"sentence_good": "are the hands something you like ?", "sentence_bad": "are the hand something you like ?"}
+{"sentence_good": "are the hands a good idea ?", "sentence_bad": "are the hand a good idea ?"}
+{"sentence_good": "where were the hands ?", "sentence_bad": "where were the hand ?"}
+{"sentence_good": "what were the hands ?", "sentence_bad": "what were the hand ?"}
+{"sentence_good": "what color were the hands ?", "sentence_bad": "what color were the hand ?"}
+{"sentence_good": "were the hands not signed ?", "sentence_bad": "were the hand not signed ?"}
+{"sentence_good": "were the hands where they should be ?", "sentence_bad": "were the hand where they should be ?"}
+{"sentence_good": "were the hands something you like ?", "sentence_bad": "were the hand something you like ?"}
+{"sentence_good": "were the hands a good idea ?", "sentence_bad": "were the hand a good idea ?"}
+{"sentence_good": "where is the picture ?", "sentence_bad": "where is the pictures ?"}
+{"sentence_good": "what is the picture ?", "sentence_bad": "what is the pictures ?"}
+{"sentence_good": "what color is the picture ?", "sentence_bad": "what color is the pictures ?"}
+{"sentence_good": "is the picture not little ?", "sentence_bad": "is the pictures not little ?"}
+{"sentence_good": "is the picture where it should be ?", "sentence_bad": "is the pictures where it should be ?"}
+{"sentence_good": "is the picture something you like ?", "sentence_bad": "is the pictures something you like ?"}
+{"sentence_good": "is the picture a good idea ?", "sentence_bad": "is the pictures a good idea ?"}
+{"sentence_good": "where was the picture ?", "sentence_bad": "where was the pictures ?"}
+{"sentence_good": "what was the picture ?", "sentence_bad": "what was the pictures ?"}
+{"sentence_good": "what color was the picture ?", "sentence_bad": "what color was the pictures ?"}
+{"sentence_good": "was the picture not little ?", "sentence_bad": "was the pictures not little ?"}
+{"sentence_good": "was the picture where it should be ?", "sentence_bad": "was the pictures where it should be ?"}
+{"sentence_good": "was the picture something you like ?", "sentence_bad": "was the pictures something you like ?"}
+{"sentence_good": "was the picture a good idea ?", "sentence_bad": "was the pictures a good idea ?"}
+{"sentence_good": "where are the pictures ?", "sentence_bad": "where are the picture ?"}
+{"sentence_good": "what are the pictures ?", "sentence_bad": "what are the picture ?"}
+{"sentence_good": "what color are the pictures ?", "sentence_bad": "what color are the picture ?"}
+{"sentence_good": "are the pictures not little ?", "sentence_bad": "are the picture not little ?"}
+{"sentence_good": "are the pictures where they should be ?", "sentence_bad": "are the picture where they should be ?"}
+{"sentence_good": "are the pictures something you like ?", "sentence_bad": "are the picture something you like ?"}
+{"sentence_good": "are the pictures a good idea ?", "sentence_bad": "are the picture a good idea ?"}
+{"sentence_good": "where were the pictures ?", "sentence_bad": "where were the picture ?"}
+{"sentence_good": "what were the pictures ?", "sentence_bad": "what were the picture ?"}
+{"sentence_good": "what color were the pictures ?", "sentence_bad": "what color were the picture ?"}
+{"sentence_good": "were the pictures not little ?", "sentence_bad": "were the picture not little ?"}
+{"sentence_good": "were the pictures where they should be ?", "sentence_bad": "were the picture where they should be ?"}
+{"sentence_good": "were the pictures something you like ?", "sentence_bad": "were the picture something you like ?"}
+{"sentence_good": "were the pictures a good idea ?", "sentence_bad": "were the picture a good idea ?"}
+{"sentence_good": "is the hand not purple ?", "sentence_bad": "is the hands not purple ?"}
+{"sentence_good": "was the hand not purple ?", "sentence_bad": "was the hands not purple ?"}
+{"sentence_good": "are the hands not purple ?", "sentence_bad": "are the hand not purple ?"}
+{"sentence_good": "were the hands not purple ?", "sentence_bad": "were the hand not purple ?"}
+{"sentence_good": "where is the page ?", "sentence_bad": "where is the pages ?"}
+{"sentence_good": "what is the page ?", "sentence_bad": "what is the pages ?"}
+{"sentence_good": "what color is the page ?", "sentence_bad": "what color is the pages ?"}
+{"sentence_good": "is the page not growing ?", "sentence_bad": "is the pages not growing ?"}
+{"sentence_good": "is the page where it should be ?", "sentence_bad": "is the pages where it should be ?"}
+{"sentence_good": "is the page something you like ?", "sentence_bad": "is the pages something you like ?"}
+{"sentence_good": "is the page a good idea ?", "sentence_bad": "is the pages a good idea ?"}
+{"sentence_good": "where was the page ?", "sentence_bad": "where was the pages ?"}
+{"sentence_good": "what was the page ?", "sentence_bad": "what was the pages ?"}
+{"sentence_good": "what color was the page ?", "sentence_bad": "what color was the pages ?"}
+{"sentence_good": "was the page not growing ?", "sentence_bad": "was the pages not growing ?"}
+{"sentence_good": "was the page where it should be ?", "sentence_bad": "was the pages where it should be ?"}
+{"sentence_good": "was the page something you like ?", "sentence_bad": "was the pages something you like ?"}
+{"sentence_good": "was the page a good idea ?", "sentence_bad": "was the pages a good idea ?"}
+{"sentence_good": "where are the pages ?", "sentence_bad": "where are the page ?"}
+{"sentence_good": "what are the pages ?", "sentence_bad": "what are the page ?"}
+{"sentence_good": "what color are the pages ?", "sentence_bad": "what color are the page ?"}
+{"sentence_good": "are the pages not growing ?", "sentence_bad": "are the page not growing ?"}
+{"sentence_good": "are the pages where they should be ?", "sentence_bad": "are the page where they should be ?"}
+{"sentence_good": "are the pages something you like ?", "sentence_bad": "are the page something you like ?"}
+{"sentence_good": "are the pages a good idea ?", "sentence_bad": "are the page a good idea ?"}
+{"sentence_good": "where were the pages ?", "sentence_bad": "where were the page ?"}
+{"sentence_good": "what were the pages ?", "sentence_bad": "what were the page ?"}
+{"sentence_good": "what color were the pages ?", "sentence_bad": "what color were the page ?"}
+{"sentence_good": "were the pages not growing ?", "sentence_bad": "were the page not growing ?"}
+{"sentence_good": "were the pages where they should be ?", "sentence_bad": "were the page where they should be ?"}
+{"sentence_good": "were the pages something you like ?", "sentence_bad": "were the page something you like ?"}
+{"sentence_good": "were the pages a good idea ?", "sentence_bad": "were the page a good idea ?"}
+{"sentence_good": "is the hand not firm ?", "sentence_bad": "is the hands not firm ?"}
+{"sentence_good": "was the hand not firm ?", "sentence_bad": "was the hands not firm ?"}
+{"sentence_good": "are the hands not firm ?", "sentence_bad": "are the hand not firm ?"}
+{"sentence_good": "were the hands not firm ?", "sentence_bad": "were the hand not firm ?"}
+{"sentence_good": "is the band not nice ?", "sentence_bad": "is the bands not nice ?"}
+{"sentence_good": "was the band not nice ?", "sentence_bad": "was the bands not nice ?"}
+{"sentence_good": "are the bands not nice ?", "sentence_bad": "are the band not nice ?"}
+{"sentence_good": "were the bands not nice ?", "sentence_bad": "were the band not nice ?"}
+{"sentence_good": "is the parent not losing ?", "sentence_bad": "is the parents not losing ?"}
+{"sentence_good": "was the parent not losing ?", "sentence_bad": "was the parents not losing ?"}
+{"sentence_good": "are the parents not losing ?", "sentence_bad": "are the parent not losing ?"}
+{"sentence_good": "were the parents not losing ?", "sentence_bad": "were the parent not losing ?"}
+{"sentence_good": "is the whale not stuck ?", "sentence_bad": "is the whales not stuck ?"}
+{"sentence_good": "was the whale not stuck ?", "sentence_bad": "was the whales not stuck ?"}
+{"sentence_good": "are the whales not stuck ?", "sentence_bad": "are the whale not stuck ?"}
+{"sentence_good": "were the whales not stuck ?", "sentence_bad": "were the whale not stuck ?"}
+{"sentence_good": "where is the book ?", "sentence_bad": "where is the books ?"}
+{"sentence_good": "what is the book ?", "sentence_bad": "what is the books ?"}
+{"sentence_good": "what color is the book ?", "sentence_bad": "what color is the books ?"}
+{"sentence_good": "is the book not mixed ?", "sentence_bad": "is the books not mixed ?"}
+{"sentence_good": "is the book where it should be ?", "sentence_bad": "is the books where it should be ?"}
+{"sentence_good": "is the book something you like ?", "sentence_bad": "is the books something you like ?"}
+{"sentence_good": "is the book a good idea ?", "sentence_bad": "is the books a good idea ?"}
+{"sentence_good": "where was the book ?", "sentence_bad": "where was the books ?"}
+{"sentence_good": "what was the book ?", "sentence_bad": "what was the books ?"}
+{"sentence_good": "what color was the book ?", "sentence_bad": "what color was the books ?"}
+{"sentence_good": "was the book not mixed ?", "sentence_bad": "was the books not mixed ?"}
+{"sentence_good": "was the book where it should be ?", "sentence_bad": "was the books where it should be ?"}
+{"sentence_good": "was the book something you like ?", "sentence_bad": "was the books something you like ?"}
+{"sentence_good": "was the book a good idea ?", "sentence_bad": "was the books a good idea ?"}
+{"sentence_good": "where are the books ?", "sentence_bad": "where are the book ?"}
+{"sentence_good": "what are the books ?", "sentence_bad": "what are the book ?"}
+{"sentence_good": "what color are the books ?", "sentence_bad": "what color are the book ?"}
+{"sentence_good": "are the books not mixed ?", "sentence_bad": "are the book not mixed ?"}
+{"sentence_good": "are the books where they should be ?", "sentence_bad": "are the book where they should be ?"}
+{"sentence_good": "are the books something you like ?", "sentence_bad": "are the book something you like ?"}
+{"sentence_good": "are the books a good idea ?", "sentence_bad": "are the book a good idea ?"}
+{"sentence_good": "where were the books ?", "sentence_bad": "where were the book ?"}
+{"sentence_good": "what were the books ?", "sentence_bad": "what were the book ?"}
+{"sentence_good": "what color were the books ?", "sentence_bad": "what color were the book ?"}
+{"sentence_good": "were the books not mixed ?", "sentence_bad": "were the book not mixed ?"}
+{"sentence_good": "were the books where they should be ?", "sentence_bad": "were the book where they should be ?"}
+{"sentence_good": "were the books something you like ?", "sentence_bad": "were the book something you like ?"}
+{"sentence_good": "were the books a good idea ?", "sentence_bad": "were the book a good idea ?"}
+{"sentence_good": "where is the bone ?", "sentence_bad": "where is the bones ?"}
+{"sentence_good": "what is the bone ?", "sentence_bad": "what is the bones ?"}
+{"sentence_good": "what color is the bone ?", "sentence_bad": "what color is the bones ?"}
+{"sentence_good": "is the bone not good ?", "sentence_bad": "is the bones not good ?"}
+{"sentence_good": "is the bone where it should be ?", "sentence_bad": "is the bones where it should be ?"}
+{"sentence_good": "is the bone something you like ?", "sentence_bad": "is the bones something you like ?"}
+{"sentence_good": "is the bone a good idea ?", "sentence_bad": "is the bones a good idea ?"}
+{"sentence_good": "where was the bone ?", "sentence_bad": "where was the bones ?"}
+{"sentence_good": "what was the bone ?", "sentence_bad": "what was the bones ?"}
+{"sentence_good": "what color was the bone ?", "sentence_bad": "what color was the bones ?"}
+{"sentence_good": "was the bone not good ?", "sentence_bad": "was the bones not good ?"}
+{"sentence_good": "was the bone where it should be ?", "sentence_bad": "was the bones where it should be ?"}
+{"sentence_good": "was the bone something you like ?", "sentence_bad": "was the bones something you like ?"}
+{"sentence_good": "was the bone a good idea ?", "sentence_bad": "was the bones a good idea ?"}
+{"sentence_good": "where are the bones ?", "sentence_bad": "where are the bone ?"}
+{"sentence_good": "what are the bones ?", "sentence_bad": "what are the bone ?"}
+{"sentence_good": "what color are the bones ?", "sentence_bad": "what color are the bone ?"}
+{"sentence_good": "are the bones not good ?", "sentence_bad": "are the bone not good ?"}
+{"sentence_good": "are the bones where they should be ?", "sentence_bad": "are the bone where they should be ?"}
+{"sentence_good": "are the bones something you like ?", "sentence_bad": "are the bone something you like ?"}
+{"sentence_good": "are the bones a good idea ?", "sentence_bad": "are the bone a good idea ?"}
+{"sentence_good": "where were the bones ?", "sentence_bad": "where were the bone ?"}
+{"sentence_good": "what were the bones ?", "sentence_bad": "what were the bone ?"}
+{"sentence_good": "what color were the bones ?", "sentence_bad": "what color were the bone ?"}
+{"sentence_good": "were the bones not good ?", "sentence_bad": "were the bone not good ?"}
+{"sentence_good": "were the bones where they should be ?", "sentence_bad": "were the bone where they should be ?"}
+{"sentence_good": "were the bones something you like ?", "sentence_bad": "were the bone something you like ?"}
+{"sentence_good": "were the bones a good idea ?", "sentence_bad": "were the bone a good idea ?"}
+{"sentence_good": "where is the bird ?", "sentence_bad": "where is the birds ?"}
+{"sentence_good": "what is the bird ?", "sentence_bad": "what is the birds ?"}
+{"sentence_good": "what color is the bird ?", "sentence_bad": "what color is the birds ?"}
+{"sentence_good": "is the bird not heavy ?", "sentence_bad": "is the birds not heavy ?"}
+{"sentence_good": "is the bird where it should be ?", "sentence_bad": "is the birds where it should be ?"}
+{"sentence_good": "is the bird something you like ?", "sentence_bad": "is the birds something you like ?"}
+{"sentence_good": "is the bird a good idea ?", "sentence_bad": "is the birds a good idea ?"}
+{"sentence_good": "where was the bird ?", "sentence_bad": "where was the birds ?"}
+{"sentence_good": "what was the bird ?", "sentence_bad": "what was the birds ?"}
+{"sentence_good": "what color was the bird ?", "sentence_bad": "what color was the birds ?"}
+{"sentence_good": "was the bird not heavy ?", "sentence_bad": "was the birds not heavy ?"}
+{"sentence_good": "was the bird where it should be ?", "sentence_bad": "was the birds where it should be ?"}
+{"sentence_good": "was the bird something you like ?", "sentence_bad": "was the birds something you like ?"}
+{"sentence_good": "was the bird a good idea ?", "sentence_bad": "was the birds a good idea ?"}
+{"sentence_good": "where are the birds ?", "sentence_bad": "where are the bird ?"}
+{"sentence_good": "what are the birds ?", "sentence_bad": "what are the bird ?"}
+{"sentence_good": "what color are the birds ?", "sentence_bad": "what color are the bird ?"}
+{"sentence_good": "are the birds not heavy ?", "sentence_bad": "are the bird not heavy ?"}
+{"sentence_good": "are the birds where they should be ?", "sentence_bad": "are the bird where they should be ?"}
+{"sentence_good": "are the birds something you like ?", "sentence_bad": "are the bird something you like ?"}
+{"sentence_good": "are the birds a good idea ?", "sentence_bad": "are the bird a good idea ?"}
+{"sentence_good": "where were the birds ?", "sentence_bad": "where were the bird ?"}
+{"sentence_good": "what were the birds ?", "sentence_bad": "what were the bird ?"}
+{"sentence_good": "what color were the birds ?", "sentence_bad": "what color were the bird ?"}
+{"sentence_good": "were the birds not heavy ?", "sentence_bad": "were the bird not heavy ?"}
+{"sentence_good": "were the birds where they should be ?", "sentence_bad": "were the bird where they should be ?"}
+{"sentence_good": "were the birds something you like ?", "sentence_bad": "were the bird something you like ?"}
+{"sentence_good": "were the birds a good idea ?", "sentence_bad": "were the bird a good idea ?"}
+{"sentence_good": "where is the movie ?", "sentence_bad": "where is the movies ?"}
+{"sentence_good": "what is the movie ?", "sentence_bad": "what is the movies ?"}
+{"sentence_good": "what color is the movie ?", "sentence_bad": "what color is the movies ?"}
+{"sentence_good": "is the movie not heavy ?", "sentence_bad": "is the movies not heavy ?"}
+{"sentence_good": "is the movie where it should be ?", "sentence_bad": "is the movies where it should be ?"}
+{"sentence_good": "is the movie something you like ?", "sentence_bad": "is the movies something you like ?"}
+{"sentence_good": "is the movie a good idea ?", "sentence_bad": "is the movies a good idea ?"}
+{"sentence_good": "where was the movie ?", "sentence_bad": "where was the movies ?"}
+{"sentence_good": "what was the movie ?", "sentence_bad": "what was the movies ?"}
+{"sentence_good": "what color was the movie ?", "sentence_bad": "what color was the movies ?"}
+{"sentence_good": "was the movie not heavy ?", "sentence_bad": "was the movies not heavy ?"}
+{"sentence_good": "was the movie where it should be ?", "sentence_bad": "was the movies where it should be ?"}
+{"sentence_good": "was the movie something you like ?", "sentence_bad": "was the movies something you like ?"}
+{"sentence_good": "was the movie a good idea ?", "sentence_bad": "was the movies a good idea ?"}
+{"sentence_good": "where are the movies ?", "sentence_bad": "where are the movie ?"}
+{"sentence_good": "what are the movies ?", "sentence_bad": "what are the movie ?"}
+{"sentence_good": "what color are the movies ?", "sentence_bad": "what color are the movie ?"}
+{"sentence_good": "are the movies not heavy ?", "sentence_bad": "are the movie not heavy ?"}
+{"sentence_good": "are the movies where they should be ?", "sentence_bad": "are the movie where they should be ?"}
+{"sentence_good": "are the movies something you like ?", "sentence_bad": "are the movie something you like ?"}
+{"sentence_good": "are the movies a good idea ?", "sentence_bad": "are the movie a good idea ?"}
+{"sentence_good": "where were the movies ?", "sentence_bad": "where were the movie ?"}
+{"sentence_good": "what were the movies ?", "sentence_bad": "what were the movie ?"}
+{"sentence_good": "what color were the movies ?", "sentence_bad": "what color were the movie ?"}
+{"sentence_good": "were the movies not heavy ?", "sentence_bad": "were the movie not heavy ?"}
+{"sentence_good": "were the movies where they should be ?", "sentence_bad": "were the movie where they should be ?"}
+{"sentence_good": "were the movies something you like ?", "sentence_bad": "were the movie something you like ?"}
+{"sentence_good": "were the movies a good idea ?", "sentence_bad": "were the movie a good idea ?"}
+{"sentence_good": "is the word not dramatic ?", "sentence_bad": "is the words not dramatic ?"}
+{"sentence_good": "was the word not dramatic ?", "sentence_bad": "was the words not dramatic ?"}
+{"sentence_good": "are the words not dramatic ?", "sentence_bad": "are the word not dramatic ?"}
+{"sentence_good": "were the words not dramatic ?", "sentence_bad": "were the word not dramatic ?"}
+{"sentence_good": "is the dog not old ?", "sentence_bad": "is the dogs not old ?"}
+{"sentence_good": "was the dog not old ?", "sentence_bad": "was the dogs not old ?"}
+{"sentence_good": "are the dogs not old ?", "sentence_bad": "are the dog not old ?"}
+{"sentence_good": "were the dogs not old ?", "sentence_bad": "were the dog not old ?"}
+{"sentence_good": "where is the arm ?", "sentence_bad": "where is the arms ?"}
+{"sentence_good": "what is the arm ?", "sentence_bad": "what is the arms ?"}
+{"sentence_good": "what color is the arm ?", "sentence_bad": "what color is the arms ?"}
+{"sentence_good": "is the arm not tired ?", "sentence_bad": "is the arms not tired ?"}
+{"sentence_good": "is the arm where it should be ?", "sentence_bad": "is the arms where it should be ?"}
+{"sentence_good": "is the arm something you like ?", "sentence_bad": "is the arms something you like ?"}
+{"sentence_good": "is the arm a good idea ?", "sentence_bad": "is the arms a good idea ?"}
+{"sentence_good": "where was the arm ?", "sentence_bad": "where was the arms ?"}
+{"sentence_good": "what was the arm ?", "sentence_bad": "what was the arms ?"}
+{"sentence_good": "what color was the arm ?", "sentence_bad": "what color was the arms ?"}
+{"sentence_good": "was the arm not tired ?", "sentence_bad": "was the arms not tired ?"}
+{"sentence_good": "was the arm where it should be ?", "sentence_bad": "was the arms where it should be ?"}
+{"sentence_good": "was the arm something you like ?", "sentence_bad": "was the arms something you like ?"}
+{"sentence_good": "was the arm a good idea ?", "sentence_bad": "was the arms a good idea ?"}
+{"sentence_good": "where are the arms ?", "sentence_bad": "where are the arm ?"}
+{"sentence_good": "what are the arms ?", "sentence_bad": "what are the arm ?"}
+{"sentence_good": "what color are the arms ?", "sentence_bad": "what color are the arm ?"}
+{"sentence_good": "are the arms not tired ?", "sentence_bad": "are the arm not tired ?"}
+{"sentence_good": "are the arms where they should be ?", "sentence_bad": "are the arm where they should be ?"}
+{"sentence_good": "are the arms something you like ?", "sentence_bad": "are the arm something you like ?"}
+{"sentence_good": "are the arms a good idea ?", "sentence_bad": "are the arm a good idea ?"}
+{"sentence_good": "where were the arms ?", "sentence_bad": "where were the arm ?"}
+{"sentence_good": "what were the arms ?", "sentence_bad": "what were the arm ?"}
+{"sentence_good": "what color were the arms ?", "sentence_bad": "what color were the arm ?"}
+{"sentence_good": "were the arms not tired ?", "sentence_bad": "were the arm not tired ?"}
+{"sentence_good": "were the arms where they should be ?", "sentence_bad": "were the arm where they should be ?"}
+{"sentence_good": "were the arms something you like ?", "sentence_bad": "were the arm something you like ?"}
+{"sentence_good": "were the arms a good idea ?", "sentence_bad": "were the arm a good idea ?"}
+{"sentence_good": "where is the water ?", "sentence_bad": "where is the waters ?"}
+{"sentence_good": "what is the water ?", "sentence_bad": "what is the waters ?"}
+{"sentence_good": "what color is the water ?", "sentence_bad": "what color is the waters ?"}
+{"sentence_good": "is the water not tired ?", "sentence_bad": "is the waters not tired ?"}
+{"sentence_good": "is the water where it should be ?", "sentence_bad": "is the waters where it should be ?"}
+{"sentence_good": "is the water something you like ?", "sentence_bad": "is the waters something you like ?"}
+{"sentence_good": "is the water a good idea ?", "sentence_bad": "is the waters a good idea ?"}
+{"sentence_good": "where was the water ?", "sentence_bad": "where was the waters ?"}
+{"sentence_good": "what was the water ?", "sentence_bad": "what was the waters ?"}
+{"sentence_good": "what color was the water ?", "sentence_bad": "what color was the waters ?"}
+{"sentence_good": "was the water not tired ?", "sentence_bad": "was the waters not tired ?"}
+{"sentence_good": "was the water where it should be ?", "sentence_bad": "was the waters where it should be ?"}
+{"sentence_good": "was the water something you like ?", "sentence_bad": "was the waters something you like ?"}
+{"sentence_good": "was the water a good idea ?", "sentence_bad": "was the waters a good idea ?"}
+{"sentence_good": "where are the waters ?", "sentence_bad": "where are the water ?"}
+{"sentence_good": "what are the waters ?", "sentence_bad": "what are the water ?"}
+{"sentence_good": "what color are the waters ?", "sentence_bad": "what color are the water ?"}
+{"sentence_good": "are the waters not tired ?", "sentence_bad": "are the water not tired ?"}
+{"sentence_good": "are the waters where they should be ?", "sentence_bad": "are the water where they should be ?"}
+{"sentence_good": "are the waters something you like ?", "sentence_bad": "are the water something you like ?"}
+{"sentence_good": "are the waters a good idea ?", "sentence_bad": "are the water a good idea ?"}
+{"sentence_good": "where were the waters ?", "sentence_bad": "where were the water ?"}
+{"sentence_good": "what were the waters ?", "sentence_bad": "what were the water ?"}
+{"sentence_good": "what color were the waters ?", "sentence_bad": "what color were the water ?"}
+{"sentence_good": "were the waters not tired ?", "sentence_bad": "were the water not tired ?"}
+{"sentence_good": "were the waters where they should be ?", "sentence_bad": "were the water where they should be ?"}
+{"sentence_good": "were the waters something you like ?", "sentence_bad": "were the water something you like ?"}
+{"sentence_good": "were the waters a good idea ?", "sentence_bad": "were the water a good idea ?"}
+{"sentence_good": "is the band not coming ?", "sentence_bad": "is the bands not coming ?"}
+{"sentence_good": "was the band not coming ?", "sentence_bad": "was the bands not coming ?"}
+{"sentence_good": "are the bands not coming ?", "sentence_bad": "are the band not coming ?"}
+{"sentence_good": "were the bands not coming ?", "sentence_bad": "were the band not coming ?"}
+{"sentence_good": "where is the problem ?", "sentence_bad": "where is the problems ?"}
+{"sentence_good": "what is the problem ?", "sentence_bad": "what is the problems ?"}
+{"sentence_good": "what color is the problem ?", "sentence_bad": "what color is the problems ?"}
+{"sentence_good": "is the problem not holy ?", "sentence_bad": "is the problems not holy ?"}
+{"sentence_good": "is the problem where it should be ?", "sentence_bad": "is the problems where it should be ?"}
+{"sentence_good": "is the problem something you like ?", "sentence_bad": "is the problems something you like ?"}
+{"sentence_good": "is the problem a good idea ?", "sentence_bad": "is the problems a good idea ?"}
+{"sentence_good": "where was the problem ?", "sentence_bad": "where was the problems ?"}
+{"sentence_good": "what was the problem ?", "sentence_bad": "what was the problems ?"}
+{"sentence_good": "what color was the problem ?", "sentence_bad": "what color was the problems ?"}
+{"sentence_good": "was the problem not holy ?", "sentence_bad": "was the problems not holy ?"}
+{"sentence_good": "was the problem where it should be ?", "sentence_bad": "was the problems where it should be ?"}
+{"sentence_good": "was the problem something you like ?", "sentence_bad": "was the problems something you like ?"}
+{"sentence_good": "was the problem a good idea ?", "sentence_bad": "was the problems a good idea ?"}
+{"sentence_good": "where are the problems ?", "sentence_bad": "where are the problem ?"}
+{"sentence_good": "what are the problems ?", "sentence_bad": "what are the problem ?"}
+{"sentence_good": "what color are the problems ?", "sentence_bad": "what color are the problem ?"}
+{"sentence_good": "are the problems not holy ?", "sentence_bad": "are the problem not holy ?"}
+{"sentence_good": "are the problems where they should be ?", "sentence_bad": "are the problem where they should be ?"}
+{"sentence_good": "are the problems something you like ?", "sentence_bad": "are the problem something you like ?"}
+{"sentence_good": "are the problems a good idea ?", "sentence_bad": "are the problem a good idea ?"}
+{"sentence_good": "where were the problems ?", "sentence_bad": "where were the problem ?"}
+{"sentence_good": "what were the problems ?", "sentence_bad": "what were the problem ?"}
+{"sentence_good": "what color were the problems ?", "sentence_bad": "what color were the problem ?"}
+{"sentence_good": "were the problems not holy ?", "sentence_bad": "were the problem not holy ?"}
+{"sentence_good": "were the problems where they should be ?", "sentence_bad": "were the problem where they should be ?"}
+{"sentence_good": "were the problems something you like ?", "sentence_bad": "were the problem something you like ?"}
+{"sentence_good": "were the problems a good idea ?", "sentence_bad": "were the problem a good idea ?"}
+{"sentence_good": "is the hand not dramatic ?", "sentence_bad": "is the hands not dramatic ?"}
+{"sentence_good": "was the hand not dramatic ?", "sentence_bad": "was the hands not dramatic ?"}
+{"sentence_good": "are the hands not dramatic ?", "sentence_bad": "are the hand not dramatic ?"}
+{"sentence_good": "were the hands not dramatic ?", "sentence_bad": "were the hand not dramatic ?"}
+{"sentence_good": "is the song not usual ?", "sentence_bad": "is the songs not usual ?"}
+{"sentence_good": "was the song not usual ?", "sentence_bad": "was the songs not usual ?"}
+{"sentence_good": "are the songs not usual ?", "sentence_bad": "are the song not usual ?"}
+{"sentence_good": "were the songs not usual ?", "sentence_bad": "were the song not usual ?"}
+{"sentence_good": "is the bird not long ?", "sentence_bad": "is the birds not long ?"}
+{"sentence_good": "was the bird not long ?", "sentence_bad": "was the birds not long ?"}
+{"sentence_good": "are the birds not long ?", "sentence_bad": "are the bird not long ?"}
+{"sentence_good": "were the birds not long ?", "sentence_bad": "were the bird not long ?"}
+{"sentence_good": "is the bird not wooden ?", "sentence_bad": "is the birds not wooden ?"}
+{"sentence_good": "was the bird not wooden ?", "sentence_bad": "was the birds not wooden ?"}
+{"sentence_good": "are the birds not wooden ?", "sentence_bad": "are the bird not wooden ?"}
+{"sentence_good": "were the birds not wooden ?", "sentence_bad": "were the bird not wooden ?"}
+{"sentence_good": "is the book not good ?", "sentence_bad": "is the books not good ?"}
+{"sentence_good": "was the book not good ?", "sentence_bad": "was the books not good ?"}
+{"sentence_good": "are the books not good ?", "sentence_bad": "are the book not good ?"}
+{"sentence_good": "were the books not good ?", "sentence_bad": "were the book not good ?"}
+{"sentence_good": "where is the toy ?", "sentence_bad": "where is the toys ?"}
+{"sentence_good": "what is the toy ?", "sentence_bad": "what is the toys ?"}
+{"sentence_good": "what color is the toy ?", "sentence_bad": "what color is the toys ?"}
+{"sentence_good": "is the toy not moved ?", "sentence_bad": "is the toys not moved ?"}
+{"sentence_good": "is the toy where it should be ?", "sentence_bad": "is the toys where it should be ?"}
+{"sentence_good": "is the toy something you like ?", "sentence_bad": "is the toys something you like ?"}
+{"sentence_good": "is the toy a good idea ?", "sentence_bad": "is the toys a good idea ?"}
+{"sentence_good": "where was the toy ?", "sentence_bad": "where was the toys ?"}
+{"sentence_good": "what was the toy ?", "sentence_bad": "what was the toys ?"}
+{"sentence_good": "what color was the toy ?", "sentence_bad": "what color was the toys ?"}
+{"sentence_good": "was the toy not moved ?", "sentence_bad": "was the toys not moved ?"}
+{"sentence_good": "was the toy where it should be ?", "sentence_bad": "was the toys where it should be ?"}
+{"sentence_good": "was the toy something you like ?", "sentence_bad": "was the toys something you like ?"}
+{"sentence_good": "was the toy a good idea ?", "sentence_bad": "was the toys a good idea ?"}
+{"sentence_good": "where are the toys ?", "sentence_bad": "where are the toy ?"}
+{"sentence_good": "what are the toys ?", "sentence_bad": "what are the toy ?"}
+{"sentence_good": "what color are the toys ?", "sentence_bad": "what color are the toy ?"}
+{"sentence_good": "are the toys not moved ?", "sentence_bad": "are the toy not moved ?"}
+{"sentence_good": "are the toys where they should be ?", "sentence_bad": "are the toy where they should be ?"}
+{"sentence_good": "are the toys something you like ?", "sentence_bad": "are the toy something you like ?"}
+{"sentence_good": "are the toys a good idea ?", "sentence_bad": "are the toy a good idea ?"}
+{"sentence_good": "where were the toys ?", "sentence_bad": "where were the toy ?"}
+{"sentence_good": "what were the toys ?", "sentence_bad": "what were the toy ?"}
+{"sentence_good": "what color were the toys ?", "sentence_bad": "what color were the toy ?"}
+{"sentence_good": "were the toys not moved ?", "sentence_bad": "were the toy not moved ?"}
+{"sentence_good": "were the toys where they should be ?", "sentence_bad": "were the toy where they should be ?"}
+{"sentence_good": "were the toys something you like ?", "sentence_bad": "were the toy something you like ?"}
+{"sentence_good": "were the toys a good idea ?", "sentence_bad": "were the toy a good idea ?"}
+{"sentence_good": "is the toy not pretty ?", "sentence_bad": "is the toys not pretty ?"}
+{"sentence_good": "was the toy not pretty ?", "sentence_bad": "was the toys not pretty ?"}
+{"sentence_good": "are the toys not pretty ?", "sentence_bad": "are the toy not pretty ?"}
+{"sentence_good": "were the toys not pretty ?", "sentence_bad": "were the toy not pretty ?"}
+{"sentence_good": "where is the restaurant ?", "sentence_bad": "where is the restaurants ?"}
+{"sentence_good": "what is the restaurant ?", "sentence_bad": "what is the restaurants ?"}
+{"sentence_good": "what color is the restaurant ?", "sentence_bad": "what color is the restaurants ?"}
+{"sentence_good": "is the restaurant not bright ?", "sentence_bad": "is the restaurants not bright ?"}
+{"sentence_good": "is the restaurant where it should be ?", "sentence_bad": "is the restaurants where it should be ?"}
+{"sentence_good": "is the restaurant something you like ?", "sentence_bad": "is the restaurants something you like ?"}
+{"sentence_good": "is the restaurant a good idea ?", "sentence_bad": "is the restaurants a good idea ?"}
+{"sentence_good": "where was the restaurant ?", "sentence_bad": "where was the restaurants ?"}
+{"sentence_good": "what was the restaurant ?", "sentence_bad": "what was the restaurants ?"}
+{"sentence_good": "what color was the restaurant ?", "sentence_bad": "what color was the restaurants ?"}
+{"sentence_good": "was the restaurant not bright ?", "sentence_bad": "was the restaurants not bright ?"}
+{"sentence_good": "was the restaurant where it should be ?", "sentence_bad": "was the restaurants where it should be ?"}
+{"sentence_good": "was the restaurant something you like ?", "sentence_bad": "was the restaurants something you like ?"}
+{"sentence_good": "was the restaurant a good idea ?", "sentence_bad": "was the restaurants a good idea ?"}
+{"sentence_good": "where are the restaurants ?", "sentence_bad": "where are the restaurant ?"}
+{"sentence_good": "what are the restaurants ?", "sentence_bad": "what are the restaurant ?"}
+{"sentence_good": "what color are the restaurants ?", "sentence_bad": "what color are the restaurant ?"}
+{"sentence_good": "are the restaurants not bright ?", "sentence_bad": "are the restaurant not bright ?"}
+{"sentence_good": "are the restaurants where they should be ?", "sentence_bad": "are the restaurant where they should be ?"}
+{"sentence_good": "are the restaurants something you like ?", "sentence_bad": "are the restaurant something you like ?"}
+{"sentence_good": "are the restaurants a good idea ?", "sentence_bad": "are the restaurant a good idea ?"}
+{"sentence_good": "where were the restaurants ?", "sentence_bad": "where were the restaurant ?"}
+{"sentence_good": "what were the restaurants ?", "sentence_bad": "what were the restaurant ?"}
+{"sentence_good": "what color were the restaurants ?", "sentence_bad": "what color were the restaurant ?"}
+{"sentence_good": "were the restaurants not bright ?", "sentence_bad": "were the restaurant not bright ?"}
+{"sentence_good": "were the restaurants where they should be ?", "sentence_bad": "were the restaurant where they should be ?"}
+{"sentence_good": "were the restaurants something you like ?", "sentence_bad": "were the restaurant something you like ?"}
+{"sentence_good": "were the restaurants a good idea ?", "sentence_bad": "were the restaurant a good idea ?"}
+{"sentence_good": "where is the engine ?", "sentence_bad": "where is the engines ?"}
+{"sentence_good": "what is the engine ?", "sentence_bad": "what is the engines ?"}
+{"sentence_good": "what color is the engine ?", "sentence_bad": "what color is the engines ?"}
+{"sentence_good": "is the engine not close ?", "sentence_bad": "is the engines not close ?"}
+{"sentence_good": "is the engine where it should be ?", "sentence_bad": "is the engines where it should be ?"}
+{"sentence_good": "is the engine something you like ?", "sentence_bad": "is the engines something you like ?"}
+{"sentence_good": "is the engine a good idea ?", "sentence_bad": "is the engines a good idea ?"}
+{"sentence_good": "where was the engine ?", "sentence_bad": "where was the engines ?"}
+{"sentence_good": "what was the engine ?", "sentence_bad": "what was the engines ?"}
+{"sentence_good": "what color was the engine ?", "sentence_bad": "what color was the engines ?"}
+{"sentence_good": "was the engine not close ?", "sentence_bad": "was the engines not close ?"}
+{"sentence_good": "was the engine where it should be ?", "sentence_bad": "was the engines where it should be ?"}
+{"sentence_good": "was the engine something you like ?", "sentence_bad": "was the engines something you like ?"}
+{"sentence_good": "was the engine a good idea ?", "sentence_bad": "was the engines a good idea ?"}
+{"sentence_good": "where are the engines ?", "sentence_bad": "where are the engine ?"}
+{"sentence_good": "what are the engines ?", "sentence_bad": "what are the engine ?"}
+{"sentence_good": "what color are the engines ?", "sentence_bad": "what color are the engine ?"}
+{"sentence_good": "are the engines not close ?", "sentence_bad": "are the engine not close ?"}
+{"sentence_good": "are the engines where they should be ?", "sentence_bad": "are the engine where they should be ?"}
+{"sentence_good": "are the engines something you like ?", "sentence_bad": "are the engine something you like ?"}
+{"sentence_good": "are the engines a good idea ?", "sentence_bad": "are the engine a good idea ?"}
+{"sentence_good": "where were the engines ?", "sentence_bad": "where were the engine ?"}
+{"sentence_good": "what were the engines ?", "sentence_bad": "what were the engine ?"}
+{"sentence_good": "what color were the engines ?", "sentence_bad": "what color were the engine ?"}
+{"sentence_good": "were the engines not close ?", "sentence_bad": "were the engine not close ?"}
+{"sentence_good": "were the engines where they should be ?", "sentence_bad": "were the engine where they should be ?"}
+{"sentence_good": "were the engines something you like ?", "sentence_bad": "were the engine something you like ?"}
+{"sentence_good": "were the engines a good idea ?", "sentence_bad": "were the engine a good idea ?"}
+{"sentence_good": "is the story not big ?", "sentence_bad": "is the stories not big ?"}
+{"sentence_good": "was the story not big ?", "sentence_bad": "was the stories not big ?"}
+{"sentence_good": "are the stories not big ?", "sentence_bad": "are the story not big ?"}
+{"sentence_good": "were the stories not big ?", "sentence_bad": "were the story not big ?"}
+{"sentence_good": "is the girl not little ?", "sentence_bad": "is the girls not little ?"}
+{"sentence_good": "was the girl not little ?", "sentence_bad": "was the girls not little ?"}
+{"sentence_good": "are the girls not little ?", "sentence_bad": "are the girl not little ?"}
+{"sentence_good": "were the girls not little ?", "sentence_bad": "were the girl not little ?"}
+{"sentence_good": "is the restaurant not human ?", "sentence_bad": "is the restaurants not human ?"}
+{"sentence_good": "was the restaurant not human ?", "sentence_bad": "was the restaurants not human ?"}
+{"sentence_good": "are the restaurants not human ?", "sentence_bad": "are the restaurant not human ?"}
+{"sentence_good": "were the restaurants not human ?", "sentence_bad": "were the restaurant not human ?"}
+{"sentence_good": "where is the type ?", "sentence_bad": "where is the types ?"}
+{"sentence_good": "what is the type ?", "sentence_bad": "what is the types ?"}
+{"sentence_good": "what color is the type ?", "sentence_bad": "what color is the types ?"}
+{"sentence_good": "is the type not purple ?", "sentence_bad": "is the types not purple ?"}
+{"sentence_good": "is the type where it should be ?", "sentence_bad": "is the types where it should be ?"}
+{"sentence_good": "is the type something you like ?", "sentence_bad": "is the types something you like ?"}
+{"sentence_good": "is the type a good idea ?", "sentence_bad": "is the types a good idea ?"}
+{"sentence_good": "where was the type ?", "sentence_bad": "where was the types ?"}
+{"sentence_good": "what was the type ?", "sentence_bad": "what was the types ?"}
+{"sentence_good": "what color was the type ?", "sentence_bad": "what color was the types ?"}
+{"sentence_good": "was the type not purple ?", "sentence_bad": "was the types not purple ?"}
+{"sentence_good": "was the type where it should be ?", "sentence_bad": "was the types where it should be ?"}
+{"sentence_good": "was the type something you like ?", "sentence_bad": "was the types something you like ?"}
+{"sentence_good": "was the type a good idea ?", "sentence_bad": "was the types a good idea ?"}
+{"sentence_good": "where are the types ?", "sentence_bad": "where are the type ?"}
+{"sentence_good": "what are the types ?", "sentence_bad": "what are the type ?"}
+{"sentence_good": "what color are the types ?", "sentence_bad": "what color are the type ?"}
+{"sentence_good": "are the types not purple ?", "sentence_bad": "are the type not purple ?"}
+{"sentence_good": "are the types where they should be ?", "sentence_bad": "are the type where they should be ?"}
+{"sentence_good": "are the types something you like ?", "sentence_bad": "are the type something you like ?"}
+{"sentence_good": "are the types a good idea ?", "sentence_bad": "are the type a good idea ?"}
+{"sentence_good": "where were the types ?", "sentence_bad": "where were the type ?"}
+{"sentence_good": "what were the types ?", "sentence_bad": "what were the type ?"}
+{"sentence_good": "what color were the types ?", "sentence_bad": "what color were the type ?"}
+{"sentence_good": "were the types not purple ?", "sentence_bad": "were the type not purple ?"}
+{"sentence_good": "were the types where they should be ?", "sentence_bad": "were the type where they should be ?"}
+{"sentence_good": "were the types something you like ?", "sentence_bad": "were the type something you like ?"}
+{"sentence_good": "were the types a good idea ?", "sentence_bad": "were the type a good idea ?"}
+{"sentence_good": "is the water not stuck ?", "sentence_bad": "is the waters not stuck ?"}
+{"sentence_good": "was the water not stuck ?", "sentence_bad": "was the waters not stuck ?"}
+{"sentence_good": "are the waters not stuck ?", "sentence_bad": "are the water not stuck ?"}
+{"sentence_good": "were the waters not stuck ?", "sentence_bad": "were the water not stuck ?"}
+{"sentence_good": "where is the window ?", "sentence_bad": "where is the windows ?"}
+{"sentence_good": "what is the window ?", "sentence_bad": "what is the windows ?"}
+{"sentence_good": "what color is the window ?", "sentence_bad": "what color is the windows ?"}
+{"sentence_good": "is the window not directed ?", "sentence_bad": "is the windows not directed ?"}
+{"sentence_good": "is the window where it should be ?", "sentence_bad": "is the windows where it should be ?"}
+{"sentence_good": "is the window something you like ?", "sentence_bad": "is the windows something you like ?"}
+{"sentence_good": "is the window a good idea ?", "sentence_bad": "is the windows a good idea ?"}
+{"sentence_good": "where was the window ?", "sentence_bad": "where was the windows ?"}
+{"sentence_good": "what was the window ?", "sentence_bad": "what was the windows ?"}
+{"sentence_good": "what color was the window ?", "sentence_bad": "what color was the windows ?"}
+{"sentence_good": "was the window not directed ?", "sentence_bad": "was the windows not directed ?"}
+{"sentence_good": "was the window where it should be ?", "sentence_bad": "was the windows where it should be ?"}
+{"sentence_good": "was the window something you like ?", "sentence_bad": "was the windows something you like ?"}
+{"sentence_good": "was the window a good idea ?", "sentence_bad": "was the windows a good idea ?"}
+{"sentence_good": "where are the windows ?", "sentence_bad": "where are the window ?"}
+{"sentence_good": "what are the windows ?", "sentence_bad": "what are the window ?"}
+{"sentence_good": "what color are the windows ?", "sentence_bad": "what color are the window ?"}
+{"sentence_good": "are the windows not directed ?", "sentence_bad": "are the window not directed ?"}
+{"sentence_good": "are the windows where they should be ?", "sentence_bad": "are the window where they should be ?"}
+{"sentence_good": "are the windows something you like ?", "sentence_bad": "are the window something you like ?"}
+{"sentence_good": "are the windows a good idea ?", "sentence_bad": "are the window a good idea ?"}
+{"sentence_good": "where were the windows ?", "sentence_bad": "where were the window ?"}
+{"sentence_good": "what were the windows ?", "sentence_bad": "what were the window ?"}
+{"sentence_good": "what color were the windows ?", "sentence_bad": "what color were the window ?"}
+{"sentence_good": "were the windows not directed ?", "sentence_bad": "were the window not directed ?"}
+{"sentence_good": "were the windows where they should be ?", "sentence_bad": "were the window where they should be ?"}
+{"sentence_good": "were the windows something you like ?", "sentence_bad": "were the window something you like ?"}
+{"sentence_good": "were the windows a good idea ?", "sentence_bad": "were the window a good idea ?"}
+{"sentence_good": "is the whale not long ?", "sentence_bad": "is the whales not long ?"}
+{"sentence_good": "was the whale not long ?", "sentence_bad": "was the whales not long ?"}
+{"sentence_good": "are the whales not long ?", "sentence_bad": "are the whale not long ?"}
+{"sentence_good": "were the whales not long ?", "sentence_bad": "were the whale not long ?"}
+{"sentence_good": "is the hand not appropriate ?", "sentence_bad": "is the hands not appropriate ?"}
+{"sentence_good": "was the hand not appropriate ?", "sentence_bad": "was the hands not appropriate ?"}
+{"sentence_good": "are the hands not appropriate ?", "sentence_bad": "are the hand not appropriate ?"}
+{"sentence_good": "were the hands not appropriate ?", "sentence_bad": "were the hand not appropriate ?"}
+{"sentence_good": "is the ring not losing ?", "sentence_bad": "is the rings not losing ?"}
+{"sentence_good": "was the ring not losing ?", "sentence_bad": "was the rings not losing ?"}
+{"sentence_good": "are the rings not losing ?", "sentence_bad": "are the ring not losing ?"}
+{"sentence_good": "were the rings not losing ?", "sentence_bad": "were the ring not losing ?"}
+{"sentence_good": "where is the lie ?", "sentence_bad": "where is the lies ?"}
+{"sentence_good": "what is the lie ?", "sentence_bad": "what is the lies ?"}
+{"sentence_good": "what color is the lie ?", "sentence_bad": "what color is the lies ?"}
+{"sentence_good": "is the lie not expected ?", "sentence_bad": "is the lies not expected ?"}
+{"sentence_good": "is the lie where it should be ?", "sentence_bad": "is the lies where it should be ?"}
+{"sentence_good": "is the lie something you like ?", "sentence_bad": "is the lies something you like ?"}
+{"sentence_good": "is the lie a good idea ?", "sentence_bad": "is the lies a good idea ?"}
+{"sentence_good": "where was the lie ?", "sentence_bad": "where was the lies ?"}
+{"sentence_good": "what was the lie ?", "sentence_bad": "what was the lies ?"}
+{"sentence_good": "what color was the lie ?", "sentence_bad": "what color was the lies ?"}
+{"sentence_good": "was the lie not expected ?", "sentence_bad": "was the lies not expected ?"}
+{"sentence_good": "was the lie where it should be ?", "sentence_bad": "was the lies where it should be ?"}
+{"sentence_good": "was the lie something you like ?", "sentence_bad": "was the lies something you like ?"}
+{"sentence_good": "was the lie a good idea ?", "sentence_bad": "was the lies a good idea ?"}
+{"sentence_good": "where are the lies ?", "sentence_bad": "where are the lie ?"}
+{"sentence_good": "what are the lies ?", "sentence_bad": "what are the lie ?"}
+{"sentence_good": "what color are the lies ?", "sentence_bad": "what color are the lie ?"}
+{"sentence_good": "are the lies not expected ?", "sentence_bad": "are the lie not expected ?"}
+{"sentence_good": "are the lies where they should be ?", "sentence_bad": "are the lie where they should be ?"}
+{"sentence_good": "are the lies something you like ?", "sentence_bad": "are the lie something you like ?"}
+{"sentence_good": "are the lies a good idea ?", "sentence_bad": "are the lie a good idea ?"}
+{"sentence_good": "where were the lies ?", "sentence_bad": "where were the lie ?"}
+{"sentence_good": "what were the lies ?", "sentence_bad": "what were the lie ?"}
+{"sentence_good": "what color were the lies ?", "sentence_bad": "what color were the lie ?"}
+{"sentence_good": "were the lies not expected ?", "sentence_bad": "were the lie not expected ?"}
+{"sentence_good": "were the lies where they should be ?", "sentence_bad": "were the lie where they should be ?"}
+{"sentence_good": "were the lies something you like ?", "sentence_bad": "were the lie something you like ?"}
+{"sentence_good": "were the lies a good idea ?", "sentence_bad": "were the lie a good idea ?"}
+{"sentence_good": "is the finger not empty ?", "sentence_bad": "is the fingers not empty ?"}
+{"sentence_good": "was the finger not empty ?", "sentence_bad": "was the fingers not empty ?"}
+{"sentence_good": "are the fingers not empty ?", "sentence_bad": "are the finger not empty ?"}
+{"sentence_good": "were the fingers not empty ?", "sentence_bad": "were the finger not empty ?"}
+{"sentence_good": "is the lion not mixed ?", "sentence_bad": "is the lions not mixed ?"}
+{"sentence_good": "was the lion not mixed ?", "sentence_bad": "was the lions not mixed ?"}
+{"sentence_good": "are the lions not mixed ?", "sentence_bad": "are the lion not mixed ?"}
+{"sentence_good": "were the lions not mixed ?", "sentence_bad": "were the lion not mixed ?"}
+{"sentence_good": "where is the minute ?", "sentence_bad": "where is the minutes ?"}
+{"sentence_good": "what is the minute ?", "sentence_bad": "what is the minutes ?"}
+{"sentence_good": "what color is the minute ?", "sentence_bad": "what color is the minutes ?"}
+{"sentence_good": "is the minute not current ?", "sentence_bad": "is the minutes not current ?"}
+{"sentence_good": "is the minute where it should be ?", "sentence_bad": "is the minutes where it should be ?"}
+{"sentence_good": "is the minute something you like ?", "sentence_bad": "is the minutes something you like ?"}
+{"sentence_good": "is the minute a good idea ?", "sentence_bad": "is the minutes a good idea ?"}
+{"sentence_good": "where was the minute ?", "sentence_bad": "where was the minutes ?"}
+{"sentence_good": "what was the minute ?", "sentence_bad": "what was the minutes ?"}
+{"sentence_good": "what color was the minute ?", "sentence_bad": "what color was the minutes ?"}
+{"sentence_good": "was the minute not current ?", "sentence_bad": "was the minutes not current ?"}
+{"sentence_good": "was the minute where it should be ?", "sentence_bad": "was the minutes where it should be ?"}
+{"sentence_good": "was the minute something you like ?", "sentence_bad": "was the minutes something you like ?"}
+{"sentence_good": "was the minute a good idea ?", "sentence_bad": "was the minutes a good idea ?"}
+{"sentence_good": "where are the minutes ?", "sentence_bad": "where are the minute ?"}
+{"sentence_good": "what are the minutes ?", "sentence_bad": "what are the minute ?"}
+{"sentence_good": "what color are the minutes ?", "sentence_bad": "what color are the minute ?"}
+{"sentence_good": "are the minutes not current ?", "sentence_bad": "are the minute not current ?"}
+{"sentence_good": "are the minutes where they should be ?", "sentence_bad": "are the minute where they should be ?"}
+{"sentence_good": "are the minutes something you like ?", "sentence_bad": "are the minute something you like ?"}
+{"sentence_good": "are the minutes a good idea ?", "sentence_bad": "are the minute a good idea ?"}
+{"sentence_good": "where were the minutes ?", "sentence_bad": "where were the minute ?"}
+{"sentence_good": "what were the minutes ?", "sentence_bad": "what were the minute ?"}
+{"sentence_good": "what color were the minutes ?", "sentence_bad": "what color were the minute ?"}
+{"sentence_good": "were the minutes not current ?", "sentence_bad": "were the minute not current ?"}
+{"sentence_good": "were the minutes where they should be ?", "sentence_bad": "were the minute where they should be ?"}
+{"sentence_good": "were the minutes something you like ?", "sentence_bad": "were the minute something you like ?"}
+{"sentence_good": "were the minutes a good idea ?", "sentence_bad": "were the minute a good idea ?"}
+{"sentence_good": "is the picture not empty ?", "sentence_bad": "is the pictures not empty ?"}
+{"sentence_good": "was the picture not empty ?", "sentence_bad": "was the pictures not empty ?"}
+{"sentence_good": "are the pictures not empty ?", "sentence_bad": "are the picture not empty ?"}
+{"sentence_good": "were the pictures not empty ?", "sentence_bad": "were the picture not empty ?"}
+{"sentence_good": "is the minute not left ?", "sentence_bad": "is the minutes not left ?"}
+{"sentence_good": "was the minute not left ?", "sentence_bad": "was the minutes not left ?"}
+{"sentence_good": "are the minutes not left ?", "sentence_bad": "are the minute not left ?"}
+{"sentence_good": "were the minutes not left ?", "sentence_bad": "were the minute not left ?"}
+{"sentence_good": "is the word not passed ?", "sentence_bad": "is the words not passed ?"}
+{"sentence_good": "was the word not passed ?", "sentence_bad": "was the words not passed ?"}
+{"sentence_good": "are the words not passed ?", "sentence_bad": "are the word not passed ?"}
+{"sentence_good": "were the words not passed ?", "sentence_bad": "were the word not passed ?"}
+{"sentence_good": "is the window not little ?", "sentence_bad": "is the windows not little ?"}
+{"sentence_good": "was the window not little ?", "sentence_bad": "was the windows not little ?"}
+{"sentence_good": "are the windows not little ?", "sentence_bad": "are the window not little ?"}
+{"sentence_good": "were the windows not little ?", "sentence_bad": "were the window not little ?"}
+{"sentence_good": "is the dollar not removed ?", "sentence_bad": "is the dollars not removed ?"}
+{"sentence_good": "was the dollar not removed ?", "sentence_bad": "was the dollars not removed ?"}
+{"sentence_good": "are the dollars not removed ?", "sentence_bad": "are the dollar not removed ?"}
+{"sentence_good": "were the dollars not removed ?", "sentence_bad": "were the dollar not removed ?"}
+{"sentence_good": "is the call not bright ?", "sentence_bad": "is the calls not bright ?"}
+{"sentence_good": "was the call not bright ?", "sentence_bad": "was the calls not bright ?"}
+{"sentence_good": "are the calls not bright ?", "sentence_bad": "are the call not bright ?"}
+{"sentence_good": "were the calls not bright ?", "sentence_bad": "were the call not bright ?"}
+{"sentence_good": "is the type not stuck ?", "sentence_bad": "is the types not stuck ?"}
+{"sentence_good": "was the type not stuck ?", "sentence_bad": "was the types not stuck ?"}
+{"sentence_good": "are the types not stuck ?", "sentence_bad": "are the type not stuck ?"}
+{"sentence_good": "were the types not stuck ?", "sentence_bad": "were the type not stuck ?"}
+{"sentence_good": "is the lie not protected ?", "sentence_bad": "is the lies not protected ?"}
+{"sentence_good": "was the lie not protected ?", "sentence_bad": "was the lies not protected ?"}
+{"sentence_good": "are the lies not protected ?", "sentence_bad": "are the lie not protected ?"}
+{"sentence_good": "were the lies not protected ?", "sentence_bad": "were the lie not protected ?"}
+{"sentence_good": "is the band not passed ?", "sentence_bad": "is the bands not passed ?"}
+{"sentence_good": "was the band not passed ?", "sentence_bad": "was the bands not passed ?"}
+{"sentence_good": "are the bands not passed ?", "sentence_bad": "are the band not passed ?"}
+{"sentence_good": "were the bands not passed ?", "sentence_bad": "were the band not passed ?"}
+{"sentence_good": "is the restaurant not dramatic ?", "sentence_bad": "is the restaurants not dramatic ?"}
+{"sentence_good": "was the restaurant not dramatic ?", "sentence_bad": "was the restaurants not dramatic ?"}
+{"sentence_good": "are the restaurants not dramatic ?", "sentence_bad": "are the restaurant not dramatic ?"}
+{"sentence_good": "were the restaurants not dramatic ?", "sentence_bad": "were the restaurant not dramatic ?"}
+{"sentence_good": "where is the animal ?", "sentence_bad": "where is the animals ?"}
+{"sentence_good": "what is the animal ?", "sentence_bad": "what is the animals ?"}
+{"sentence_good": "what color is the animal ?", "sentence_bad": "what color is the animals ?"}
+{"sentence_good": "is the animal not whole ?", "sentence_bad": "is the animals not whole ?"}
+{"sentence_good": "is the animal where it should be ?", "sentence_bad": "is the animals where it should be ?"}
+{"sentence_good": "is the animal something you like ?", "sentence_bad": "is the animals something you like ?"}
+{"sentence_good": "is the animal a good idea ?", "sentence_bad": "is the animals a good idea ?"}
+{"sentence_good": "where was the animal ?", "sentence_bad": "where was the animals ?"}
+{"sentence_good": "what was the animal ?", "sentence_bad": "what was the animals ?"}
+{"sentence_good": "what color was the animal ?", "sentence_bad": "what color was the animals ?"}
+{"sentence_good": "was the animal not whole ?", "sentence_bad": "was the animals not whole ?"}
+{"sentence_good": "was the animal where it should be ?", "sentence_bad": "was the animals where it should be ?"}
+{"sentence_good": "was the animal something you like ?", "sentence_bad": "was the animals something you like ?"}
+{"sentence_good": "was the animal a good idea ?", "sentence_bad": "was the animals a good idea ?"}
+{"sentence_good": "where are the animals ?", "sentence_bad": "where are the animal ?"}
+{"sentence_good": "what are the animals ?", "sentence_bad": "what are the animal ?"}
+{"sentence_good": "what color are the animals ?", "sentence_bad": "what color are the animal ?"}
+{"sentence_good": "are the animals not whole ?", "sentence_bad": "are the animal not whole ?"}
+{"sentence_good": "are the animals where they should be ?", "sentence_bad": "are the animal where they should be ?"}
+{"sentence_good": "are the animals something you like ?", "sentence_bad": "are the animal something you like ?"}
+{"sentence_good": "are the animals a good idea ?", "sentence_bad": "are the animal a good idea ?"}
+{"sentence_good": "where were the animals ?", "sentence_bad": "where were the animal ?"}
+{"sentence_good": "what were the animals ?", "sentence_bad": "what were the animal ?"}
+{"sentence_good": "what color were the animals ?", "sentence_bad": "what color were the animal ?"}
+{"sentence_good": "were the animals not whole ?", "sentence_bad": "were the animal not whole ?"}
+{"sentence_good": "were the animals where they should be ?", "sentence_bad": "were the animal where they should be ?"}
+{"sentence_good": "were the animals something you like ?", "sentence_bad": "were the animal something you like ?"}
+{"sentence_good": "were the animals a good idea ?", "sentence_bad": "were the animal a good idea ?"}
+{"sentence_good": "is the bird not dangerous ?", "sentence_bad": "is the birds not dangerous ?"}
+{"sentence_good": "was the bird not dangerous ?", "sentence_bad": "was the birds not dangerous ?"}
+{"sentence_good": "are the birds not dangerous ?", "sentence_bad": "are the bird not dangerous ?"}
+{"sentence_good": "were the birds not dangerous ?", "sentence_bad": "were the bird not dangerous ?"}
+{"sentence_good": "is the parent not deep ?", "sentence_bad": "is the parents not deep ?"}
+{"sentence_good": "was the parent not deep ?", "sentence_bad": "was the parents not deep ?"}
+{"sentence_good": "are the parents not deep ?", "sentence_bad": "are the parent not deep ?"}
+{"sentence_good": "were the parents not deep ?", "sentence_bad": "were the parent not deep ?"}
+{"sentence_good": "is the engine not growing ?", "sentence_bad": "is the engines not growing ?"}
+{"sentence_good": "was the engine not growing ?", "sentence_bad": "was the engines not growing ?"}
+{"sentence_good": "are the engines not growing ?", "sentence_bad": "are the engine not growing ?"}
+{"sentence_good": "were the engines not growing ?", "sentence_bad": "were the engine not growing ?"}
+{"sentence_good": "is the animal not nice ?", "sentence_bad": "is the animals not nice ?"}
+{"sentence_good": "was the animal not nice ?", "sentence_bad": "was the animals not nice ?"}
+{"sentence_good": "are the animals not nice ?", "sentence_bad": "are the animal not nice ?"}
+{"sentence_good": "were the animals not nice ?", "sentence_bad": "were the animal not nice ?"}
+{"sentence_good": "is the engine not moved ?", "sentence_bad": "is the engines not moved ?"}
+{"sentence_good": "was the engine not moved ?", "sentence_bad": "was the engines not moved ?"}
+{"sentence_good": "are the engines not moved ?", "sentence_bad": "are the engine not moved ?"}
+{"sentence_good": "were the engines not moved ?", "sentence_bad": "were the engine not moved ?"}
+{"sentence_good": "is the hand not dangerous ?", "sentence_bad": "is the hands not dangerous ?"}
+{"sentence_good": "was the hand not dangerous ?", "sentence_bad": "was the hands not dangerous ?"}
+{"sentence_good": "are the hands not dangerous ?", "sentence_bad": "are the hand not dangerous ?"}
+{"sentence_good": "were the hands not dangerous ?", "sentence_bad": "were the hand not dangerous ?"}
+{"sentence_good": "is the restaurant not big ?", "sentence_bad": "is the restaurants not big ?"}
+{"sentence_good": "was the restaurant not big ?", "sentence_bad": "was the restaurants not big ?"}
+{"sentence_good": "are the restaurants not big ?", "sentence_bad": "are the restaurant not big ?"}
+{"sentence_good": "were the restaurants not big ?", "sentence_bad": "were the restaurant not big ?"}
+{"sentence_good": "is the movie not known ?", "sentence_bad": "is the movies not known ?"}
+{"sentence_good": "was the movie not known ?", "sentence_bad": "was the movies not known ?"}
+{"sentence_good": "are the movies not known ?", "sentence_bad": "are the movie not known ?"}
+{"sentence_good": "were the movies not known ?", "sentence_bad": "were the movie not known ?"}
+{"sentence_good": "is the star not flat ?", "sentence_bad": "is the stars not flat ?"}
+{"sentence_good": "was the star not flat ?", "sentence_bad": "was the stars not flat ?"}
+{"sentence_good": "are the stars not flat ?", "sentence_bad": "are the star not flat ?"}
+{"sentence_good": "were the stars not flat ?", "sentence_bad": "were the star not flat ?"}
+{"sentence_good": "is the water not revolutionary ?", "sentence_bad": "is the waters not revolutionary ?"}
+{"sentence_good": "was the water not revolutionary ?", "sentence_bad": "was the waters not revolutionary ?"}
+{"sentence_good": "are the waters not revolutionary ?", "sentence_bad": "are the water not revolutionary ?"}
+{"sentence_good": "were the waters not revolutionary ?", "sentence_bad": "were the water not revolutionary ?"}
+{"sentence_good": "where is the guy ?", "sentence_bad": "where is the guys ?"}
+{"sentence_good": "what is the guy ?", "sentence_bad": "what is the guys ?"}
+{"sentence_good": "what color is the guy ?", "sentence_bad": "what color is the guys ?"}
+{"sentence_good": "is the guy not dark ?", "sentence_bad": "is the guys not dark ?"}
+{"sentence_good": "is the guy where it should be ?", "sentence_bad": "is the guys where it should be ?"}
+{"sentence_good": "is the guy something you like ?", "sentence_bad": "is the guys something you like ?"}
+{"sentence_good": "is the guy a good idea ?", "sentence_bad": "is the guys a good idea ?"}
+{"sentence_good": "where was the guy ?", "sentence_bad": "where was the guys ?"}
+{"sentence_good": "what was the guy ?", "sentence_bad": "what was the guys ?"}
+{"sentence_good": "what color was the guy ?", "sentence_bad": "what color was the guys ?"}
+{"sentence_good": "was the guy not dark ?", "sentence_bad": "was the guys not dark ?"}
+{"sentence_good": "was the guy where it should be ?", "sentence_bad": "was the guys where it should be ?"}
+{"sentence_good": "was the guy something you like ?", "sentence_bad": "was the guys something you like ?"}
+{"sentence_good": "was the guy a good idea ?", "sentence_bad": "was the guys a good idea ?"}
+{"sentence_good": "where are the guys ?", "sentence_bad": "where are the guy ?"}
+{"sentence_good": "what are the guys ?", "sentence_bad": "what are the guy ?"}
+{"sentence_good": "what color are the guys ?", "sentence_bad": "what color are the guy ?"}
+{"sentence_good": "are the guys not dark ?", "sentence_bad": "are the guy not dark ?"}
+{"sentence_good": "are the guys where they should be ?", "sentence_bad": "are the guy where they should be ?"}
+{"sentence_good": "are the guys something you like ?", "sentence_bad": "are the guy something you like ?"}
+{"sentence_good": "are the guys a good idea ?", "sentence_bad": "are the guy a good idea ?"}
+{"sentence_good": "where were the guys ?", "sentence_bad": "where were the guy ?"}
+{"sentence_good": "what were the guys ?", "sentence_bad": "what were the guy ?"}
+{"sentence_good": "what color were the guys ?", "sentence_bad": "what color were the guy ?"}
+{"sentence_good": "were the guys not dark ?", "sentence_bad": "were the guy not dark ?"}
+{"sentence_good": "were the guys where they should be ?", "sentence_bad": "were the guy where they should be ?"}
+{"sentence_good": "were the guys something you like ?", "sentence_bad": "were the guy something you like ?"}
+{"sentence_good": "were the guys a good idea ?", "sentence_bad": "were the guy a good idea ?"}
+{"sentence_good": "is the type not necessary ?", "sentence_bad": "is the types not necessary ?"}
+{"sentence_good": "was the type not necessary ?", "sentence_bad": "was the types not necessary ?"}
+{"sentence_good": "are the types not necessary ?", "sentence_bad": "are the type not necessary ?"}
+{"sentence_good": "were the types not necessary ?", "sentence_bad": "were the type not necessary ?"}
+{"sentence_good": "is the picture not wooden ?", "sentence_bad": "is the pictures not wooden ?"}
+{"sentence_good": "was the picture not wooden ?", "sentence_bad": "was the pictures not wooden ?"}
+{"sentence_good": "are the pictures not wooden ?", "sentence_bad": "are the picture not wooden ?"}
+{"sentence_good": "were the pictures not wooden ?", "sentence_bad": "were the picture not wooden ?"}
+{"sentence_good": "is the arm not close ?", "sentence_bad": "is the arms not close ?"}
+{"sentence_good": "was the arm not close ?", "sentence_bad": "was the arms not close ?"}
+{"sentence_good": "are the arms not close ?", "sentence_bad": "are the arm not close ?"}
+{"sentence_good": "were the arms not close ?", "sentence_bad": "were the arm not close ?"}
+{"sentence_good": "is the engine not mean ?", "sentence_bad": "is the engines not mean ?"}
+{"sentence_good": "was the engine not mean ?", "sentence_bad": "was the engines not mean ?"}
+{"sentence_good": "are the engines not mean ?", "sentence_bad": "are the engine not mean ?"}
+{"sentence_good": "were the engines not mean ?", "sentence_bad": "were the engine not mean ?"}
+{"sentence_good": "is the book not necessary ?", "sentence_bad": "is the books not necessary ?"}
+{"sentence_good": "was the book not necessary ?", "sentence_bad": "was the books not necessary ?"}
+{"sentence_good": "are the books not necessary ?", "sentence_bad": "are the book not necessary ?"}
+{"sentence_good": "were the books not necessary ?", "sentence_bad": "were the book not necessary ?"}
+{"sentence_good": "is the baby not wooden ?", "sentence_bad": "is the babies not wooden ?"}
+{"sentence_good": "was the baby not wooden ?", "sentence_bad": "was the babies not wooden ?"}
+{"sentence_good": "are the babies not wooden ?", "sentence_bad": "are the baby not wooden ?"}
+{"sentence_good": "were the babies not wooden ?", "sentence_bad": "were the baby not wooden ?"}
+{"sentence_good": "is the minute not growing ?", "sentence_bad": "is the minutes not growing ?"}
+{"sentence_good": "was the minute not growing ?", "sentence_bad": "was the minutes not growing ?"}
+{"sentence_good": "are the minutes not growing ?", "sentence_bad": "are the minute not growing ?"}
+{"sentence_good": "were the minutes not growing ?", "sentence_bad": "were the minute not growing ?"}
+{"sentence_good": "is the minute not losing ?", "sentence_bad": "is the minutes not losing ?"}
+{"sentence_good": "was the minute not losing ?", "sentence_bad": "was the minutes not losing ?"}
+{"sentence_good": "are the minutes not losing ?", "sentence_bad": "are the minute not losing ?"}
+{"sentence_good": "were the minutes not losing ?", "sentence_bad": "were the minute not losing ?"}
+{"sentence_good": "where is the egg ?", "sentence_bad": "where is the eggs ?"}
+{"sentence_good": "what is the egg ?", "sentence_bad": "what is the eggs ?"}
+{"sentence_good": "what color is the egg ?", "sentence_bad": "what color is the eggs ?"}
+{"sentence_good": "is the egg not spanish ?", "sentence_bad": "is the eggs not spanish ?"}
+{"sentence_good": "is the egg where it should be ?", "sentence_bad": "is the eggs where it should be ?"}
+{"sentence_good": "is the egg something you like ?", "sentence_bad": "is the eggs something you like ?"}
+{"sentence_good": "is the egg a good idea ?", "sentence_bad": "is the eggs a good idea ?"}
+{"sentence_good": "where was the egg ?", "sentence_bad": "where was the eggs ?"}
+{"sentence_good": "what was the egg ?", "sentence_bad": "what was the eggs ?"}
+{"sentence_good": "what color was the egg ?", "sentence_bad": "what color was the eggs ?"}
+{"sentence_good": "was the egg not spanish ?", "sentence_bad": "was the eggs not spanish ?"}
+{"sentence_good": "was the egg where it should be ?", "sentence_bad": "was the eggs where it should be ?"}
+{"sentence_good": "was the egg something you like ?", "sentence_bad": "was the eggs something you like ?"}
+{"sentence_good": "was the egg a good idea ?", "sentence_bad": "was the eggs a good idea ?"}
+{"sentence_good": "where are the eggs ?", "sentence_bad": "where are the egg ?"}
+{"sentence_good": "what are the eggs ?", "sentence_bad": "what are the egg ?"}
+{"sentence_good": "what color are the eggs ?", "sentence_bad": "what color are the egg ?"}
+{"sentence_good": "are the eggs not spanish ?", "sentence_bad": "are the egg not spanish ?"}
+{"sentence_good": "are the eggs where they should be ?", "sentence_bad": "are the egg where they should be ?"}
+{"sentence_good": "are the eggs something you like ?", "sentence_bad": "are the egg something you like ?"}
+{"sentence_good": "are the eggs a good idea ?", "sentence_bad": "are the egg a good idea ?"}
+{"sentence_good": "where were the eggs ?", "sentence_bad": "where were the egg ?"}
+{"sentence_good": "what were the eggs ?", "sentence_bad": "what were the egg ?"}
+{"sentence_good": "what color were the eggs ?", "sentence_bad": "what color were the egg ?"}
+{"sentence_good": "were the eggs not spanish ?", "sentence_bad": "were the egg not spanish ?"}
+{"sentence_good": "were the eggs where they should be ?", "sentence_bad": "were the egg where they should be ?"}
+{"sentence_good": "were the eggs something you like ?", "sentence_bad": "were the egg something you like ?"}
+{"sentence_good": "were the eggs a good idea ?", "sentence_bad": "were the egg a good idea ?"}
+{"sentence_good": "is the animal not heavy ?", "sentence_bad": "is the animals not heavy ?"}
+{"sentence_good": "was the animal not heavy ?", "sentence_bad": "was the animals not heavy ?"}
+{"sentence_good": "are the animals not heavy ?", "sentence_bad": "are the animal not heavy ?"}
+{"sentence_good": "were the animals not heavy ?", "sentence_bad": "were the animal not heavy ?"}
+{"sentence_good": "where is the king ?", "sentence_bad": "where is the kings ?"}
+{"sentence_good": "what is the king ?", "sentence_bad": "what is the kings ?"}
+{"sentence_good": "what color is the king ?", "sentence_bad": "what color is the kings ?"}
+{"sentence_good": "is the king not usual ?", "sentence_bad": "is the kings not usual ?"}
+{"sentence_good": "is the king where it should be ?", "sentence_bad": "is the kings where it should be ?"}
+{"sentence_good": "is the king something you like ?", "sentence_bad": "is the kings something you like ?"}
+{"sentence_good": "is the king a good idea ?", "sentence_bad": "is the kings a good idea ?"}
+{"sentence_good": "where was the king ?", "sentence_bad": "where was the kings ?"}
+{"sentence_good": "what was the king ?", "sentence_bad": "what was the kings ?"}
+{"sentence_good": "what color was the king ?", "sentence_bad": "what color was the kings ?"}
+{"sentence_good": "was the king not usual ?", "sentence_bad": "was the kings not usual ?"}
+{"sentence_good": "was the king where it should be ?", "sentence_bad": "was the kings where it should be ?"}
+{"sentence_good": "was the king something you like ?", "sentence_bad": "was the kings something you like ?"}
+{"sentence_good": "was the king a good idea ?", "sentence_bad": "was the kings a good idea ?"}
+{"sentence_good": "where are the kings ?", "sentence_bad": "where are the king ?"}
+{"sentence_good": "what are the kings ?", "sentence_bad": "what are the king ?"}
+{"sentence_good": "what color are the kings ?", "sentence_bad": "what color are the king ?"}
+{"sentence_good": "are the kings not usual ?", "sentence_bad": "are the king not usual ?"}
+{"sentence_good": "are the kings where they should be ?", "sentence_bad": "are the king where they should be ?"}
+{"sentence_good": "are the kings something you like ?", "sentence_bad": "are the king something you like ?"}
+{"sentence_good": "are the kings a good idea ?", "sentence_bad": "are the king a good idea ?"}
+{"sentence_good": "where were the kings ?", "sentence_bad": "where were the king ?"}
+{"sentence_good": "what were the kings ?", "sentence_bad": "what were the king ?"}
+{"sentence_good": "what color were the kings ?", "sentence_bad": "what color were the king ?"}
+{"sentence_good": "were the kings not usual ?", "sentence_bad": "were the king not usual ?"}
+{"sentence_good": "were the kings where they should be ?", "sentence_bad": "were the king where they should be ?"}
+{"sentence_good": "were the kings something you like ?", "sentence_bad": "were the king something you like ?"}
+{"sentence_good": "were the kings a good idea ?", "sentence_bad": "were the king a good idea ?"}
+{"sentence_good": "is the egg not big ?", "sentence_bad": "is the eggs not big ?"}
+{"sentence_good": "was the egg not big ?", "sentence_bad": "was the eggs not big ?"}
+{"sentence_good": "are the eggs not big ?", "sentence_bad": "are the egg not big ?"}
+{"sentence_good": "were the eggs not big ?", "sentence_bad": "were the egg not big ?"}
+{"sentence_good": "is the band not pretty ?", "sentence_bad": "is the bands not pretty ?"}
+{"sentence_good": "was the band not pretty ?", "sentence_bad": "was the bands not pretty ?"}
+{"sentence_good": "are the bands not pretty ?", "sentence_bad": "are the band not pretty ?"}
+{"sentence_good": "were the bands not pretty ?", "sentence_bad": "were the band not pretty ?"}
+{"sentence_good": "is the picture not whole ?", "sentence_bad": "is the pictures not whole ?"}
+{"sentence_good": "was the picture not whole ?", "sentence_bad": "was the pictures not whole ?"}
+{"sentence_good": "are the pictures not whole ?", "sentence_bad": "are the picture not whole ?"}
+{"sentence_good": "were the pictures not whole ?", "sentence_bad": "were the picture not whole ?"}
+{"sentence_good": "is the king not heavy ?", "sentence_bad": "is the kings not heavy ?"}
+{"sentence_good": "was the king not heavy ?", "sentence_bad": "was the kings not heavy ?"}
+{"sentence_good": "are the kings not heavy ?", "sentence_bad": "are the king not heavy ?"}
+{"sentence_good": "were the kings not heavy ?", "sentence_bad": "were the king not heavy ?"}
+{"sentence_good": "is the restaurant not old ?", "sentence_bad": "is the restaurants not old ?"}
+{"sentence_good": "was the restaurant not old ?", "sentence_bad": "was the restaurants not old ?"}
+{"sentence_good": "are the restaurants not old ?", "sentence_bad": "are the restaurant not old ?"}
+{"sentence_good": "were the restaurants not old ?", "sentence_bad": "were the restaurant not old ?"}
+{"sentence_good": "is the page not good ?", "sentence_bad": "is the pages not good ?"}
+{"sentence_good": "was the page not good ?", "sentence_bad": "was the pages not good ?"}
+{"sentence_good": "are the pages not good ?", "sentence_bad": "are the page not good ?"}
+{"sentence_good": "were the pages not good ?", "sentence_bad": "were the page not good ?"}
+{"sentence_good": "is the thing not spanish ?", "sentence_bad": "is the things not spanish ?"}
+{"sentence_good": "was the thing not spanish ?", "sentence_bad": "was the things not spanish ?"}
+{"sentence_good": "are the things not spanish ?", "sentence_bad": "are the thing not spanish ?"}
+{"sentence_good": "were the things not spanish ?", "sentence_bad": "were the thing not spanish ?"}
+{"sentence_good": "is the problem not passed ?", "sentence_bad": "is the problems not passed ?"}
+{"sentence_good": "was the problem not passed ?", "sentence_bad": "was the problems not passed ?"}
+{"sentence_good": "are the problems not passed ?", "sentence_bad": "are the problem not passed ?"}
+{"sentence_good": "were the problems not passed ?", "sentence_bad": "were the problem not passed ?"}
+{"sentence_good": "is the animal not flat ?", "sentence_bad": "is the animals not flat ?"}
+{"sentence_good": "was the animal not flat ?", "sentence_bad": "was the animals not flat ?"}
+{"sentence_good": "are the animals not flat ?", "sentence_bad": "are the animal not flat ?"}
+{"sentence_good": "were the animals not flat ?", "sentence_bad": "were the animal not flat ?"}
+{"sentence_good": "is the window not dark ?", "sentence_bad": "is the windows not dark ?"}
+{"sentence_good": "was the window not dark ?", "sentence_bad": "was the windows not dark ?"}
+{"sentence_good": "are the windows not dark ?", "sentence_bad": "are the window not dark ?"}
+{"sentence_good": "were the windows not dark ?", "sentence_bad": "were the window not dark ?"}
+{"sentence_good": "is the color not protected ?", "sentence_bad": "is the colors not protected ?"}
+{"sentence_good": "was the color not protected ?", "sentence_bad": "was the colors not protected ?"}
+{"sentence_good": "are the colors not protected ?", "sentence_bad": "are the color not protected ?"}
+{"sentence_good": "were the colors not protected ?", "sentence_bad": "were the color not protected ?"}
+{"sentence_good": "where is the difference ?", "sentence_bad": "where is the differences ?"}
+{"sentence_good": "what is the difference ?", "sentence_bad": "what is the differences ?"}
+{"sentence_good": "what color is the difference ?", "sentence_bad": "what color is the differences ?"}
+{"sentence_good": "is the difference not human ?", "sentence_bad": "is the differences not human ?"}
+{"sentence_good": "is the difference where it should be ?", "sentence_bad": "is the differences where it should be ?"}
+{"sentence_good": "is the difference something you like ?", "sentence_bad": "is the differences something you like ?"}
+{"sentence_good": "is the difference a good idea ?", "sentence_bad": "is the differences a good idea ?"}
+{"sentence_good": "where was the difference ?", "sentence_bad": "where was the differences ?"}
+{"sentence_good": "what was the difference ?", "sentence_bad": "what was the differences ?"}
+{"sentence_good": "what color was the difference ?", "sentence_bad": "what color was the differences ?"}
+{"sentence_good": "was the difference not human ?", "sentence_bad": "was the differences not human ?"}
+{"sentence_good": "was the difference where it should be ?", "sentence_bad": "was the differences where it should be ?"}
+{"sentence_good": "was the difference something you like ?", "sentence_bad": "was the differences something you like ?"}
+{"sentence_good": "was the difference a good idea ?", "sentence_bad": "was the differences a good idea ?"}
+{"sentence_good": "where are the differences ?", "sentence_bad": "where are the difference ?"}
+{"sentence_good": "what are the differences ?", "sentence_bad": "what are the difference ?"}
+{"sentence_good": "what color are the differences ?", "sentence_bad": "what color are the difference ?"}
+{"sentence_good": "are the differences not human ?", "sentence_bad": "are the difference not human ?"}
+{"sentence_good": "are the differences where they should be ?", "sentence_bad": "are the difference where they should be ?"}
+{"sentence_good": "are the differences something you like ?", "sentence_bad": "are the difference something you like ?"}
+{"sentence_good": "are the differences a good idea ?", "sentence_bad": "are the difference a good idea ?"}
+{"sentence_good": "where were the differences ?", "sentence_bad": "where were the difference ?"}
+{"sentence_good": "what were the differences ?", "sentence_bad": "what were the difference ?"}
+{"sentence_good": "what color were the differences ?", "sentence_bad": "what color were the difference ?"}
+{"sentence_good": "were the differences not human ?", "sentence_bad": "were the difference not human ?"}
+{"sentence_good": "were the differences where they should be ?", "sentence_bad": "were the difference where they should be ?"}
+{"sentence_good": "were the differences something you like ?", "sentence_bad": "were the difference something you like ?"}
+{"sentence_good": "were the differences a good idea ?", "sentence_bad": "were the difference a good idea ?"}
+{"sentence_good": "is the word not protected ?", "sentence_bad": "is the words not protected ?"}
+{"sentence_good": "was the word not protected ?", "sentence_bad": "was the words not protected ?"}
+{"sentence_good": "are the words not protected ?", "sentence_bad": "are the word not protected ?"}
+{"sentence_good": "were the words not protected ?", "sentence_bad": "were the word not protected ?"}
+{"sentence_good": "is the baby not directed ?", "sentence_bad": "is the babies not directed ?"}
+{"sentence_good": "was the baby not directed ?", "sentence_bad": "was the babies not directed ?"}
+{"sentence_good": "are the babies not directed ?", "sentence_bad": "are the baby not directed ?"}
+{"sentence_good": "were the babies not directed ?", "sentence_bad": "were the baby not directed ?"}
+{"sentence_good": "is the minute not little ?", "sentence_bad": "is the minutes not little ?"}
+{"sentence_good": "was the minute not little ?", "sentence_bad": "was the minutes not little ?"}
+{"sentence_good": "are the minutes not little ?", "sentence_bad": "are the minute not little ?"}
+{"sentence_good": "were the minutes not little ?", "sentence_bad": "were the minute not little ?"}
+{"sentence_good": "is the dog not holy ?", "sentence_bad": "is the dogs not holy ?"}
+{"sentence_good": "was the dog not holy ?", "sentence_bad": "was the dogs not holy ?"}
+{"sentence_good": "are the dogs not holy ?", "sentence_bad": "are the dog not holy ?"}
+{"sentence_good": "were the dogs not holy ?", "sentence_bad": "were the dog not holy ?"}
+{"sentence_good": "is the animal not good ?", "sentence_bad": "is the animals not good ?"}
+{"sentence_good": "was the animal not good ?", "sentence_bad": "was the animals not good ?"}
+{"sentence_good": "are the animals not good ?", "sentence_bad": "are the animal not good ?"}
+{"sentence_good": "were the animals not good ?", "sentence_bad": "were the animal not good ?"}
+{"sentence_good": "is the bit not dramatic ?", "sentence_bad": "is the bits not dramatic ?"}
+{"sentence_good": "was the bit not dramatic ?", "sentence_bad": "was the bits not dramatic ?"}
+{"sentence_good": "are the bits not dramatic ?", "sentence_bad": "are the bit not dramatic ?"}
+{"sentence_good": "were the bits not dramatic ?", "sentence_bad": "were the bit not dramatic ?"}
+{"sentence_good": "is the animal not tired ?", "sentence_bad": "is the animals not tired ?"}
+{"sentence_good": "was the animal not tired ?", "sentence_bad": "was the animals not tired ?"}
+{"sentence_good": "are the animals not tired ?", "sentence_bad": "are the animal not tired ?"}
+{"sentence_good": "were the animals not tired ?", "sentence_bad": "were the animal not tired ?"}
+{"sentence_good": "is the whale not firm ?", "sentence_bad": "is the whales not firm ?"}
+{"sentence_good": "was the whale not firm ?", "sentence_bad": "was the whales not firm ?"}
+{"sentence_good": "are the whales not firm ?", "sentence_bad": "are the whale not firm ?"}
+{"sentence_good": "were the whales not firm ?", "sentence_bad": "were the whale not firm ?"}
+{"sentence_good": "is the lie not little ?", "sentence_bad": "is the lies not little ?"}
+{"sentence_good": "was the lie not little ?", "sentence_bad": "was the lies not little ?"}
+{"sentence_good": "are the lies not little ?", "sentence_bad": "are the lie not little ?"}
+{"sentence_good": "were the lies not little ?", "sentence_bad": "were the lie not little ?"}
+{"sentence_good": "is the dog not good ?", "sentence_bad": "is the dogs not good ?"}
+{"sentence_good": "was the dog not good ?", "sentence_bad": "was the dogs not good ?"}
+{"sentence_good": "are the dogs not good ?", "sentence_bad": "are the dog not good ?"}
+{"sentence_good": "were the dogs not good ?", "sentence_bad": "were the dog not good ?"}
+{"sentence_good": "where is the car ?", "sentence_bad": "where is the cars ?"}
+{"sentence_good": "what is the car ?", "sentence_bad": "what is the cars ?"}
+{"sentence_good": "what color is the car ?", "sentence_bad": "what color is the cars ?"}
+{"sentence_good": "is the car not fluid ?", "sentence_bad": "is the cars not fluid ?"}
+{"sentence_good": "is the car where it should be ?", "sentence_bad": "is the cars where it should be ?"}
+{"sentence_good": "is the car something you like ?", "sentence_bad": "is the cars something you like ?"}
+{"sentence_good": "is the car a good idea ?", "sentence_bad": "is the cars a good idea ?"}
+{"sentence_good": "where was the car ?", "sentence_bad": "where was the cars ?"}
+{"sentence_good": "what was the car ?", "sentence_bad": "what was the cars ?"}
+{"sentence_good": "what color was the car ?", "sentence_bad": "what color was the cars ?"}
+{"sentence_good": "was the car not fluid ?", "sentence_bad": "was the cars not fluid ?"}
+{"sentence_good": "was the car where it should be ?", "sentence_bad": "was the cars where it should be ?"}
+{"sentence_good": "was the car something you like ?", "sentence_bad": "was the cars something you like ?"}
+{"sentence_good": "was the car a good idea ?", "sentence_bad": "was the cars a good idea ?"}
+{"sentence_good": "where are the cars ?", "sentence_bad": "where are the car ?"}
+{"sentence_good": "what are the cars ?", "sentence_bad": "what are the car ?"}
+{"sentence_good": "what color are the cars ?", "sentence_bad": "what color are the car ?"}
+{"sentence_good": "are the cars not fluid ?", "sentence_bad": "are the car not fluid ?"}
+{"sentence_good": "are the cars where they should be ?", "sentence_bad": "are the car where they should be ?"}
+{"sentence_good": "are the cars something you like ?", "sentence_bad": "are the car something you like ?"}
+{"sentence_good": "are the cars a good idea ?", "sentence_bad": "are the car a good idea ?"}
+{"sentence_good": "where were the cars ?", "sentence_bad": "where were the car ?"}
+{"sentence_good": "what were the cars ?", "sentence_bad": "what were the car ?"}
+{"sentence_good": "what color were the cars ?", "sentence_bad": "what color were the car ?"}
+{"sentence_good": "were the cars not fluid ?", "sentence_bad": "were the car not fluid ?"}
+{"sentence_good": "were the cars where they should be ?", "sentence_bad": "were the car where they should be ?"}
+{"sentence_good": "were the cars something you like ?", "sentence_bad": "were the car something you like ?"}
+{"sentence_good": "were the cars a good idea ?", "sentence_bad": "were the car a good idea ?"}
+{"sentence_good": "is the star not permanent ?", "sentence_bad": "is the stars not permanent ?"}
+{"sentence_good": "was the star not permanent ?", "sentence_bad": "was the stars not permanent ?"}
+{"sentence_good": "are the stars not permanent ?", "sentence_bad": "are the star not permanent ?"}
+{"sentence_good": "were the stars not permanent ?", "sentence_bad": "were the star not permanent ?"}
+{"sentence_good": "is the stand not left ?", "sentence_bad": "is the stands not left ?"}
+{"sentence_good": "was the stand not left ?", "sentence_bad": "was the stands not left ?"}
+{"sentence_good": "are the stands not left ?", "sentence_bad": "are the stand not left ?"}
+{"sentence_good": "were the stands not left ?", "sentence_bad": "were the stand not left ?"}
+{"sentence_good": "where is the horse ?", "sentence_bad": "where is the horses ?"}
+{"sentence_good": "what is the horse ?", "sentence_bad": "what is the horses ?"}
+{"sentence_good": "what color is the horse ?", "sentence_bad": "what color is the horses ?"}
+{"sentence_good": "is the horse not nice ?", "sentence_bad": "is the horses not nice ?"}
+{"sentence_good": "is the horse where it should be ?", "sentence_bad": "is the horses where it should be ?"}
+{"sentence_good": "is the horse something you like ?", "sentence_bad": "is the horses something you like ?"}
+{"sentence_good": "is the horse a good idea ?", "sentence_bad": "is the horses a good idea ?"}
+{"sentence_good": "where was the horse ?", "sentence_bad": "where was the horses ?"}
+{"sentence_good": "what was the horse ?", "sentence_bad": "what was the horses ?"}
+{"sentence_good": "what color was the horse ?", "sentence_bad": "what color was the horses ?"}
+{"sentence_good": "was the horse not nice ?", "sentence_bad": "was the horses not nice ?"}
+{"sentence_good": "was the horse where it should be ?", "sentence_bad": "was the horses where it should be ?"}
+{"sentence_good": "was the horse something you like ?", "sentence_bad": "was the horses something you like ?"}
+{"sentence_good": "was the horse a good idea ?", "sentence_bad": "was the horses a good idea ?"}
+{"sentence_good": "where are the horses ?", "sentence_bad": "where are the horse ?"}
+{"sentence_good": "what are the horses ?", "sentence_bad": "what are the horse ?"}
+{"sentence_good": "what color are the horses ?", "sentence_bad": "what color are the horse ?"}
+{"sentence_good": "are the horses not nice ?", "sentence_bad": "are the horse not nice ?"}
+{"sentence_good": "are the horses where they should be ?", "sentence_bad": "are the horse where they should be ?"}
+{"sentence_good": "are the horses something you like ?", "sentence_bad": "are the horse something you like ?"}
+{"sentence_good": "are the horses a good idea ?", "sentence_bad": "are the horse a good idea ?"}
+{"sentence_good": "where were the horses ?", "sentence_bad": "where were the horse ?"}
+{"sentence_good": "what were the horses ?", "sentence_bad": "what were the horse ?"}
+{"sentence_good": "what color were the horses ?", "sentence_bad": "what color were the horse ?"}
+{"sentence_good": "were the horses not nice ?", "sentence_bad": "were the horse not nice ?"}
+{"sentence_good": "were the horses where they should be ?", "sentence_bad": "were the horse where they should be ?"}
+{"sentence_good": "were the horses something you like ?", "sentence_bad": "were the horse something you like ?"}
+{"sentence_good": "were the horses a good idea ?", "sentence_bad": "were the horse a good idea ?"}
+{"sentence_good": "is the day not empty ?", "sentence_bad": "is the days not empty ?"}
+{"sentence_good": "was the day not empty ?", "sentence_bad": "was the days not empty ?"}
+{"sentence_good": "are the days not empty ?", "sentence_bad": "are the day not empty ?"}
+{"sentence_good": "were the days not empty ?", "sentence_bad": "were the day not empty ?"}
+{"sentence_good": "is the book not pretty ?", "sentence_bad": "is the books not pretty ?"}
+{"sentence_good": "was the book not pretty ?", "sentence_bad": "was the books not pretty ?"}
+{"sentence_good": "are the books not pretty ?", "sentence_bad": "are the book not pretty ?"}
+{"sentence_good": "were the books not pretty ?", "sentence_bad": "were the book not pretty ?"}
+{"sentence_good": "is the window not sufficient ?", "sentence_bad": "is the windows not sufficient ?"}
+{"sentence_good": "was the window not sufficient ?", "sentence_bad": "was the windows not sufficient ?"}
+{"sentence_good": "are the windows not sufficient ?", "sentence_bad": "are the window not sufficient ?"}
+{"sentence_good": "were the windows not sufficient ?", "sentence_bad": "were the window not sufficient ?"}
+{"sentence_good": "is the toy not protected ?", "sentence_bad": "is the toys not protected ?"}
+{"sentence_good": "was the toy not protected ?", "sentence_bad": "was the toys not protected ?"}
+{"sentence_good": "are the toys not protected ?", "sentence_bad": "are the toy not protected ?"}
+{"sentence_good": "were the toys not protected ?", "sentence_bad": "were the toy not protected ?"}
+{"sentence_good": "is the difference not firm ?", "sentence_bad": "is the differences not firm ?"}
+{"sentence_good": "was the difference not firm ?", "sentence_bad": "was the differences not firm ?"}
+{"sentence_good": "are the differences not firm ?", "sentence_bad": "are the difference not firm ?"}
+{"sentence_good": "were the differences not firm ?", "sentence_bad": "were the difference not firm ?"}
+{"sentence_good": "is the engine not heavy ?", "sentence_bad": "is the engines not heavy ?"}
+{"sentence_good": "was the engine not heavy ?", "sentence_bad": "was the engines not heavy ?"}
+{"sentence_good": "are the engines not heavy ?", "sentence_bad": "are the engine not heavy ?"}
+{"sentence_good": "were the engines not heavy ?", "sentence_bad": "were the engine not heavy ?"}
+{"sentence_good": "is the whale not silly ?", "sentence_bad": "is the whales not silly ?"}
+{"sentence_good": "was the whale not silly ?", "sentence_bad": "was the whales not silly ?"}
+{"sentence_good": "are the whales not silly ?", "sentence_bad": "are the whale not silly ?"}
+{"sentence_good": "were the whales not silly ?", "sentence_bad": "were the whale not silly ?"}
+{"sentence_good": "is the color not losing ?", "sentence_bad": "is the colors not losing ?"}
+{"sentence_good": "was the color not losing ?", "sentence_bad": "was the colors not losing ?"}
+{"sentence_good": "are the colors not losing ?", "sentence_bad": "are the color not losing ?"}
+{"sentence_good": "were the colors not losing ?", "sentence_bad": "were the color not losing ?"}
+{"sentence_good": "is the way not growing ?", "sentence_bad": "is the ways not growing ?"}
+{"sentence_good": "was the way not growing ?", "sentence_bad": "was the ways not growing ?"}
+{"sentence_good": "are the ways not growing ?", "sentence_bad": "are the way not growing ?"}
+{"sentence_good": "were the ways not growing ?", "sentence_bad": "were the way not growing ?"}
+{"sentence_good": "where is the boat ?", "sentence_bad": "where is the boats ?"}
+{"sentence_good": "what is the boat ?", "sentence_bad": "what is the boats ?"}
+{"sentence_good": "what color is the boat ?", "sentence_bad": "what color is the boats ?"}
+{"sentence_good": "is the boat not permanent ?", "sentence_bad": "is the boats not permanent ?"}
+{"sentence_good": "is the boat where it should be ?", "sentence_bad": "is the boats where it should be ?"}
+{"sentence_good": "is the boat something you like ?", "sentence_bad": "is the boats something you like ?"}
+{"sentence_good": "is the boat a good idea ?", "sentence_bad": "is the boats a good idea ?"}
+{"sentence_good": "where was the boat ?", "sentence_bad": "where was the boats ?"}
+{"sentence_good": "what was the boat ?", "sentence_bad": "what was the boats ?"}
+{"sentence_good": "what color was the boat ?", "sentence_bad": "what color was the boats ?"}
+{"sentence_good": "was the boat not permanent ?", "sentence_bad": "was the boats not permanent ?"}
+{"sentence_good": "was the boat where it should be ?", "sentence_bad": "was the boats where it should be ?"}
+{"sentence_good": "was the boat something you like ?", "sentence_bad": "was the boats something you like ?"}
+{"sentence_good": "was the boat a good idea ?", "sentence_bad": "was the boats a good idea ?"}
+{"sentence_good": "where are the boats ?", "sentence_bad": "where are the boat ?"}
+{"sentence_good": "what are the boats ?", "sentence_bad": "what are the boat ?"}
+{"sentence_good": "what color are the boats ?", "sentence_bad": "what color are the boat ?"}
+{"sentence_good": "are the boats not permanent ?", "sentence_bad": "are the boat not permanent ?"}
+{"sentence_good": "are the boats where they should be ?", "sentence_bad": "are the boat where they should be ?"}
+{"sentence_good": "are the boats something you like ?", "sentence_bad": "are the boat something you like ?"}
+{"sentence_good": "are the boats a good idea ?", "sentence_bad": "are the boat a good idea ?"}
+{"sentence_good": "where were the boats ?", "sentence_bad": "where were the boat ?"}
+{"sentence_good": "what were the boats ?", "sentence_bad": "what were the boat ?"}
+{"sentence_good": "what color were the boats ?", "sentence_bad": "what color were the boat ?"}
+{"sentence_good": "were the boats not permanent ?", "sentence_bad": "were the boat not permanent ?"}
+{"sentence_good": "were the boats where they should be ?", "sentence_bad": "were the boat where they should be ?"}
+{"sentence_good": "were the boats something you like ?", "sentence_bad": "were the boat something you like ?"}
+{"sentence_good": "were the boats a good idea ?", "sentence_bad": "were the boat a good idea ?"}
+{"sentence_good": "is the day not bright ?", "sentence_bad": "is the days not bright ?"}
+{"sentence_good": "was the day not bright ?", "sentence_bad": "was the days not bright ?"}
+{"sentence_good": "are the days not bright ?", "sentence_bad": "are the day not bright ?"}
+{"sentence_good": "were the days not bright ?", "sentence_bad": "were the day not bright ?"}
+{"sentence_good": "where is the bear ?", "sentence_bad": "where is the bears ?"}
+{"sentence_good": "what is the bear ?", "sentence_bad": "what is the bears ?"}
+{"sentence_good": "what color is the bear ?", "sentence_bad": "what color is the bears ?"}
+{"sentence_good": "is the bear not close ?", "sentence_bad": "is the bears not close ?"}
+{"sentence_good": "is the bear where it should be ?", "sentence_bad": "is the bears where it should be ?"}
+{"sentence_good": "is the bear something you like ?", "sentence_bad": "is the bears something you like ?"}
+{"sentence_good": "is the bear a good idea ?", "sentence_bad": "is the bears a good idea ?"}
+{"sentence_good": "where was the bear ?", "sentence_bad": "where was the bears ?"}
+{"sentence_good": "what was the bear ?", "sentence_bad": "what was the bears ?"}
+{"sentence_good": "what color was the bear ?", "sentence_bad": "what color was the bears ?"}
+{"sentence_good": "was the bear not close ?", "sentence_bad": "was the bears not close ?"}
+{"sentence_good": "was the bear where it should be ?", "sentence_bad": "was the bears where it should be ?"}
+{"sentence_good": "was the bear something you like ?", "sentence_bad": "was the bears something you like ?"}
+{"sentence_good": "was the bear a good idea ?", "sentence_bad": "was the bears a good idea ?"}
+{"sentence_good": "where are the bears ?", "sentence_bad": "where are the bear ?"}
+{"sentence_good": "what are the bears ?", "sentence_bad": "what are the bear ?"}
+{"sentence_good": "what color are the bears ?", "sentence_bad": "what color are the bear ?"}
+{"sentence_good": "are the bears not close ?", "sentence_bad": "are the bear not close ?"}
+{"sentence_good": "are the bears where they should be ?", "sentence_bad": "are the bear where they should be ?"}
+{"sentence_good": "are the bears something you like ?", "sentence_bad": "are the bear something you like ?"}
+{"sentence_good": "are the bears a good idea ?", "sentence_bad": "are the bear a good idea ?"}
+{"sentence_good": "where were the bears ?", "sentence_bad": "where were the bear ?"}
+{"sentence_good": "what were the bears ?", "sentence_bad": "what were the bear ?"}
+{"sentence_good": "what color were the bears ?", "sentence_bad": "what color were the bear ?"}
+{"sentence_good": "were the bears not close ?", "sentence_bad": "were the bear not close ?"}
+{"sentence_good": "were the bears where they should be ?", "sentence_bad": "were the bear where they should be ?"}
+{"sentence_good": "were the bears something you like ?", "sentence_bad": "were the bear something you like ?"}
+{"sentence_good": "were the bears a good idea ?", "sentence_bad": "were the bear a good idea ?"}
+{"sentence_good": "is the page not known ?", "sentence_bad": "is the pages not known ?"}
+{"sentence_good": "was the page not known ?", "sentence_bad": "was the pages not known ?"}
+{"sentence_good": "are the pages not known ?", "sentence_bad": "are the page not known ?"}
+{"sentence_good": "were the pages not known ?", "sentence_bad": "were the page not known ?"}
+{"sentence_good": "is the finger not purple ?", "sentence_bad": "is the fingers not purple ?"}
+{"sentence_good": "was the finger not purple ?", "sentence_bad": "was the fingers not purple ?"}
+{"sentence_good": "are the fingers not purple ?", "sentence_bad": "are the finger not purple ?"}
+{"sentence_good": "were the fingers not purple ?", "sentence_bad": "were the finger not purple ?"}
+{"sentence_good": "is the lie not silly ?", "sentence_bad": "is the lies not silly ?"}
+{"sentence_good": "was the lie not silly ?", "sentence_bad": "was the lies not silly ?"}
+{"sentence_good": "are the lies not silly ?", "sentence_bad": "are the lie not silly ?"}
+{"sentence_good": "were the lies not silly ?", "sentence_bad": "were the lie not silly ?"}
+{"sentence_good": "is the difference not appropriate ?", "sentence_bad": "is the differences not appropriate ?"}
+{"sentence_good": "was the difference not appropriate ?", "sentence_bad": "was the differences not appropriate ?"}
+{"sentence_good": "are the differences not appropriate ?", "sentence_bad": "are the difference not appropriate ?"}
+{"sentence_good": "were the differences not appropriate ?", "sentence_bad": "were the difference not appropriate ?"}
+{"sentence_good": "is the problem not human ?", "sentence_bad": "is the problems not human ?"}
+{"sentence_good": "was the problem not human ?", "sentence_bad": "was the problems not human ?"}
+{"sentence_good": "are the problems not human ?", "sentence_bad": "are the problem not human ?"}
+{"sentence_good": "were the problems not human ?", "sentence_bad": "were the problem not human ?"}
+{"sentence_good": "is the child not bright ?", "sentence_bad": "is the children not bright ?"}
+{"sentence_good": "was the child not bright ?", "sentence_bad": "was the children not bright ?"}
+{"sentence_good": "are the children not bright ?", "sentence_bad": "are the child not bright ?"}
+{"sentence_good": "were the children not bright ?", "sentence_bad": "were the child not bright ?"}
+{"sentence_good": "is the call not silly ?", "sentence_bad": "is the calls not silly ?"}
+{"sentence_good": "was the call not silly ?", "sentence_bad": "was the calls not silly ?"}
+{"sentence_good": "are the calls not silly ?", "sentence_bad": "are the call not silly ?"}
+{"sentence_good": "were the calls not silly ?", "sentence_bad": "were the call not silly ?"}
+{"sentence_good": "where is the pattern ?", "sentence_bad": "where is the patterns ?"}
+{"sentence_good": "what is the pattern ?", "sentence_bad": "what is the patterns ?"}
+{"sentence_good": "what color is the pattern ?", "sentence_bad": "what color is the patterns ?"}
+{"sentence_good": "is the pattern not tired ?", "sentence_bad": "is the patterns not tired ?"}
+{"sentence_good": "is the pattern where it should be ?", "sentence_bad": "is the patterns where it should be ?"}
+{"sentence_good": "is the pattern something you like ?", "sentence_bad": "is the patterns something you like ?"}
+{"sentence_good": "is the pattern a good idea ?", "sentence_bad": "is the patterns a good idea ?"}
+{"sentence_good": "where was the pattern ?", "sentence_bad": "where was the patterns ?"}
+{"sentence_good": "what was the pattern ?", "sentence_bad": "what was the patterns ?"}
+{"sentence_good": "what color was the pattern ?", "sentence_bad": "what color was the patterns ?"}
+{"sentence_good": "was the pattern not tired ?", "sentence_bad": "was the patterns not tired ?"}
+{"sentence_good": "was the pattern where it should be ?", "sentence_bad": "was the patterns where it should be ?"}
+{"sentence_good": "was the pattern something you like ?", "sentence_bad": "was the patterns something you like ?"}
+{"sentence_good": "was the pattern a good idea ?", "sentence_bad": "was the patterns a good idea ?"}
+{"sentence_good": "where are the patterns ?", "sentence_bad": "where are the pattern ?"}
+{"sentence_good": "what are the patterns ?", "sentence_bad": "what are the pattern ?"}
+{"sentence_good": "what color are the patterns ?", "sentence_bad": "what color are the pattern ?"}
+{"sentence_good": "are the patterns not tired ?", "sentence_bad": "are the pattern not tired ?"}
+{"sentence_good": "are the patterns where they should be ?", "sentence_bad": "are the pattern where they should be ?"}
+{"sentence_good": "are the patterns something you like ?", "sentence_bad": "are the pattern something you like ?"}
+{"sentence_good": "are the patterns a good idea ?", "sentence_bad": "are the pattern a good idea ?"}
+{"sentence_good": "where were the patterns ?", "sentence_bad": "where were the pattern ?"}
+{"sentence_good": "what were the patterns ?", "sentence_bad": "what were the pattern ?"}
+{"sentence_good": "what color were the patterns ?", "sentence_bad": "what color were the pattern ?"}
+{"sentence_good": "were the patterns not tired ?", "sentence_bad": "were the pattern not tired ?"}
+{"sentence_good": "were the patterns where they should be ?", "sentence_bad": "were the pattern where they should be ?"}
+{"sentence_good": "were the patterns something you like ?", "sentence_bad": "were the pattern something you like ?"}
+{"sentence_good": "were the patterns a good idea ?", "sentence_bad": "were the pattern a good idea ?"}
+{"sentence_good": "is the finger not old ?", "sentence_bad": "is the fingers not old ?"}
+{"sentence_good": "was the finger not old ?", "sentence_bad": "was the fingers not old ?"}
+{"sentence_good": "are the fingers not old ?", "sentence_bad": "are the finger not old ?"}
+{"sentence_good": "were the fingers not old ?", "sentence_bad": "were the finger not old ?"}
+{"sentence_good": "is the bit not heavy ?", "sentence_bad": "is the bits not heavy ?"}
+{"sentence_good": "was the bit not heavy ?", "sentence_bad": "was the bits not heavy ?"}
+{"sentence_good": "are the bits not heavy ?", "sentence_bad": "are the bit not heavy ?"}
+{"sentence_good": "were the bits not heavy ?", "sentence_bad": "were the bit not heavy ?"}
+{"sentence_good": "is the song not long ?", "sentence_bad": "is the songs not long ?"}
+{"sentence_good": "was the song not long ?", "sentence_bad": "was the songs not long ?"}
+{"sentence_good": "are the songs not long ?", "sentence_bad": "are the song not long ?"}
+{"sentence_good": "were the songs not long ?", "sentence_bad": "were the song not long ?"}
+{"sentence_good": "is the pattern not wooden ?", "sentence_bad": "is the patterns not wooden ?"}
+{"sentence_good": "was the pattern not wooden ?", "sentence_bad": "was the patterns not wooden ?"}
+{"sentence_good": "are the patterns not wooden ?", "sentence_bad": "are the pattern not wooden ?"}
+{"sentence_good": "were the patterns not wooden ?", "sentence_bad": "were the pattern not wooden ?"}
+{"sentence_good": "is the word not mean ?", "sentence_bad": "is the words not mean ?"}
+{"sentence_good": "was the word not mean ?", "sentence_bad": "was the words not mean ?"}
+{"sentence_good": "are the words not mean ?", "sentence_bad": "are the word not mean ?"}
+{"sentence_good": "were the words not mean ?", "sentence_bad": "were the word not mean ?"}
+{"sentence_good": "is the problem not close ?", "sentence_bad": "is the problems not close ?"}
+{"sentence_good": "was the problem not close ?", "sentence_bad": "was the problems not close ?"}
+{"sentence_good": "are the problems not close ?", "sentence_bad": "are the problem not close ?"}
+{"sentence_good": "were the problems not close ?", "sentence_bad": "were the problem not close ?"}
+{"sentence_good": "is the ring not growing ?", "sentence_bad": "is the rings not growing ?"}
+{"sentence_good": "was the ring not growing ?", "sentence_bad": "was the rings not growing ?"}
+{"sentence_good": "are the rings not growing ?", "sentence_bad": "are the ring not growing ?"}
+{"sentence_good": "were the rings not growing ?", "sentence_bad": "were the ring not growing ?"}
+{"sentence_good": "is the bear not expected ?", "sentence_bad": "is the bears not expected ?"}
+{"sentence_good": "was the bear not expected ?", "sentence_bad": "was the bears not expected ?"}
+{"sentence_good": "are the bears not expected ?", "sentence_bad": "are the bear not expected ?"}
+{"sentence_good": "were the bears not expected ?", "sentence_bad": "were the bear not expected ?"}
+{"sentence_good": "is the girl not wooden ?", "sentence_bad": "is the girls not wooden ?"}
+{"sentence_good": "was the girl not wooden ?", "sentence_bad": "was the girls not wooden ?"}
+{"sentence_good": "are the girls not wooden ?", "sentence_bad": "are the girl not wooden ?"}
+{"sentence_good": "were the girls not wooden ?", "sentence_bad": "were the girl not wooden ?"}
+{"sentence_good": "is the hand not directed ?", "sentence_bad": "is the hands not directed ?"}
+{"sentence_good": "was the hand not directed ?", "sentence_bad": "was the hands not directed ?"}
+{"sentence_good": "are the hands not directed ?", "sentence_bad": "are the hand not directed ?"}
+{"sentence_good": "were the hands not directed ?", "sentence_bad": "were the hand not directed ?"}
+{"sentence_good": "is the ring not big ?", "sentence_bad": "is the rings not big ?"}
+{"sentence_good": "was the ring not big ?", "sentence_bad": "was the rings not big ?"}
+{"sentence_good": "are the rings not big ?", "sentence_bad": "are the ring not big ?"}
+{"sentence_good": "were the rings not big ?", "sentence_bad": "were the ring not big ?"}
+{"sentence_good": "is the movie not dangerous ?", "sentence_bad": "is the movies not dangerous ?"}
+{"sentence_good": "was the movie not dangerous ?", "sentence_bad": "was the movies not dangerous ?"}
+{"sentence_good": "are the movies not dangerous ?", "sentence_bad": "are the movie not dangerous ?"}
+{"sentence_good": "were the movies not dangerous ?", "sentence_bad": "were the movie not dangerous ?"}
+{"sentence_good": "is the band not removed ?", "sentence_bad": "is the bands not removed ?"}
+{"sentence_good": "was the band not removed ?", "sentence_bad": "was the bands not removed ?"}
+{"sentence_good": "are the bands not removed ?", "sentence_bad": "are the band not removed ?"}
+{"sentence_good": "were the bands not removed ?", "sentence_bad": "were the band not removed ?"}
+{"sentence_good": "is the car not stuck ?", "sentence_bad": "is the cars not stuck ?"}
+{"sentence_good": "was the car not stuck ?", "sentence_bad": "was the cars not stuck ?"}
+{"sentence_good": "are the cars not stuck ?", "sentence_bad": "are the car not stuck ?"}
+{"sentence_good": "were the cars not stuck ?", "sentence_bad": "were the car not stuck ?"}
+{"sentence_good": "is the guy not empty ?", "sentence_bad": "is the guys not empty ?"}
+{"sentence_good": "was the guy not empty ?", "sentence_bad": "was the guys not empty ?"}
+{"sentence_good": "are the guys not empty ?", "sentence_bad": "are the guy not empty ?"}
+{"sentence_good": "were the guys not empty ?", "sentence_bad": "were the guy not empty ?"}
+{"sentence_good": "is the stand not close ?", "sentence_bad": "is the stands not close ?"}
+{"sentence_good": "was the stand not close ?", "sentence_bad": "was the stands not close ?"}
+{"sentence_good": "are the stands not close ?", "sentence_bad": "are the stand not close ?"}
+{"sentence_good": "were the stands not close ?", "sentence_bad": "were the stand not close ?"}
+{"sentence_good": "is the song not necessary ?", "sentence_bad": "is the songs not necessary ?"}
+{"sentence_good": "was the song not necessary ?", "sentence_bad": "was the songs not necessary ?"}
+{"sentence_good": "are the songs not necessary ?", "sentence_bad": "are the song not necessary ?"}
+{"sentence_good": "were the songs not necessary ?", "sentence_bad": "were the song not necessary ?"}
+{"sentence_good": "is the window not wooden ?", "sentence_bad": "is the windows not wooden ?"}
+{"sentence_good": "was the window not wooden ?", "sentence_bad": "was the windows not wooden ?"}
+{"sentence_good": "are the windows not wooden ?", "sentence_bad": "are the window not wooden ?"}
+{"sentence_good": "were the windows not wooden ?", "sentence_bad": "were the window not wooden ?"}
+{"sentence_good": "is the lie not deep ?", "sentence_bad": "is the lies not deep ?"}
+{"sentence_good": "was the lie not deep ?", "sentence_bad": "was the lies not deep ?"}
+{"sentence_good": "are the lies not deep ?", "sentence_bad": "are the lie not deep ?"}
+{"sentence_good": "were the lies not deep ?", "sentence_bad": "were the lie not deep ?"}
+{"sentence_good": "is the finger not known ?", "sentence_bad": "is the fingers not known ?"}
+{"sentence_good": "was the finger not known ?", "sentence_bad": "was the fingers not known ?"}
+{"sentence_good": "are the fingers not known ?", "sentence_bad": "are the finger not known ?"}
+{"sentence_good": "were the fingers not known ?", "sentence_bad": "were the finger not known ?"}
+{"sentence_good": "is the call not mixed ?", "sentence_bad": "is the calls not mixed ?"}
+{"sentence_good": "was the call not mixed ?", "sentence_bad": "was the calls not mixed ?"}
+{"sentence_good": "are the calls not mixed ?", "sentence_bad": "are the call not mixed ?"}
+{"sentence_good": "were the calls not mixed ?", "sentence_bad": "were the call not mixed ?"}
+{"sentence_good": "is the boat not big ?", "sentence_bad": "is the boats not big ?"}
+{"sentence_good": "was the boat not big ?", "sentence_bad": "was the boats not big ?"}
+{"sentence_good": "are the boats not big ?", "sentence_bad": "are the boat not big ?"}
+{"sentence_good": "were the boats not big ?", "sentence_bad": "were the boat not big ?"}
+{"sentence_good": "is the hand not known ?", "sentence_bad": "is the hands not known ?"}
+{"sentence_good": "was the hand not known ?", "sentence_bad": "was the hands not known ?"}
+{"sentence_good": "are the hands not known ?", "sentence_bad": "are the hand not known ?"}
+{"sentence_good": "were the hands not known ?", "sentence_bad": "were the hand not known ?"}
+{"sentence_good": "is the bit not purple ?", "sentence_bad": "is the bits not purple ?"}
+{"sentence_good": "was the bit not purple ?", "sentence_bad": "was the bits not purple ?"}
+{"sentence_good": "are the bits not purple ?", "sentence_bad": "are the bit not purple ?"}
+{"sentence_good": "were the bits not purple ?", "sentence_bad": "were the bit not purple ?"}
+{"sentence_good": "is the ring not removed ?", "sentence_bad": "is the rings not removed ?"}
+{"sentence_good": "was the ring not removed ?", "sentence_bad": "was the rings not removed ?"}
+{"sentence_good": "are the rings not removed ?", "sentence_bad": "are the ring not removed ?"}
+{"sentence_good": "were the rings not removed ?", "sentence_bad": "were the ring not removed ?"}
+{"sentence_good": "is the guy not human ?", "sentence_bad": "is the guys not human ?"}
+{"sentence_good": "was the guy not human ?", "sentence_bad": "was the guys not human ?"}
+{"sentence_good": "are the guys not human ?", "sentence_bad": "are the guy not human ?"}
+{"sentence_good": "were the guys not human ?", "sentence_bad": "were the guy not human ?"}
+{"sentence_good": "is the color not little ?", "sentence_bad": "is the colors not little ?"}
+{"sentence_good": "was the color not little ?", "sentence_bad": "was the colors not little ?"}
+{"sentence_good": "are the colors not little ?", "sentence_bad": "are the color not little ?"}
+{"sentence_good": "were the colors not little ?", "sentence_bad": "were the color not little ?"}
+{"sentence_good": "is the ring not nice ?", "sentence_bad": "is the rings not nice ?"}
+{"sentence_good": "was the ring not nice ?", "sentence_bad": "was the rings not nice ?"}
+{"sentence_good": "are the rings not nice ?", "sentence_bad": "are the ring not nice ?"}
+{"sentence_good": "were the rings not nice ?", "sentence_bad": "were the ring not nice ?"}
+{"sentence_good": "is the word not spanish ?", "sentence_bad": "is the words not spanish ?"}
+{"sentence_good": "was the word not spanish ?", "sentence_bad": "was the words not spanish ?"}
+{"sentence_good": "are the words not spanish ?", "sentence_bad": "are the word not spanish ?"}
+{"sentence_good": "were the words not spanish ?", "sentence_bad": "were the word not spanish ?"}
+{"sentence_good": "is the guy not good ?", "sentence_bad": "is the guys not good ?"}
+{"sentence_good": "was the guy not good ?", "sentence_bad": "was the guys not good ?"}
+{"sentence_good": "are the guys not good ?", "sentence_bad": "are the guy not good ?"}
+{"sentence_good": "were the guys not good ?", "sentence_bad": "were the guy not good ?"}
+{"sentence_good": "is the animal not spanish ?", "sentence_bad": "is the animals not spanish ?"}
+{"sentence_good": "was the animal not spanish ?", "sentence_bad": "was the animals not spanish ?"}
+{"sentence_good": "are the animals not spanish ?", "sentence_bad": "are the animal not spanish ?"}
+{"sentence_good": "were the animals not spanish ?", "sentence_bad": "were the animal not spanish ?"}
+{"sentence_good": "is the word not deep ?", "sentence_bad": "is the words not deep ?"}
+{"sentence_good": "was the word not deep ?", "sentence_bad": "was the words not deep ?"}
+{"sentence_good": "are the words not deep ?", "sentence_bad": "are the word not deep ?"}
+{"sentence_good": "were the words not deep ?", "sentence_bad": "were the word not deep ?"}
+{"sentence_good": "is the whale not nice ?", "sentence_bad": "is the whales not nice ?"}
+{"sentence_good": "was the whale not nice ?", "sentence_bad": "was the whales not nice ?"}
+{"sentence_good": "are the whales not nice ?", "sentence_bad": "are the whale not nice ?"}
+{"sentence_good": "were the whales not nice ?", "sentence_bad": "were the whale not nice ?"}
+{"sentence_good": "is the boat not purple ?", "sentence_bad": "is the boats not purple ?"}
+{"sentence_good": "was the boat not purple ?", "sentence_bad": "was the boats not purple ?"}
+{"sentence_good": "are the boats not purple ?", "sentence_bad": "are the boat not purple ?"}
+{"sentence_good": "were the boats not purple ?", "sentence_bad": "were the boat not purple ?"}
+{"sentence_good": "is the bit not deep ?", "sentence_bad": "is the bits not deep ?"}
+{"sentence_good": "was the bit not deep ?", "sentence_bad": "was the bits not deep ?"}
+{"sentence_good": "are the bits not deep ?", "sentence_bad": "are the bit not deep ?"}
+{"sentence_good": "were the bits not deep ?", "sentence_bad": "were the bit not deep ?"}
+{"sentence_good": "is the word not losing ?", "sentence_bad": "is the words not losing ?"}
+{"sentence_good": "was the word not losing ?", "sentence_bad": "was the words not losing ?"}
+{"sentence_good": "are the words not losing ?", "sentence_bad": "are the word not losing ?"}
+{"sentence_good": "were the words not losing ?", "sentence_bad": "were the word not losing ?"}
+{"sentence_good": "is the window not heavy ?", "sentence_bad": "is the windows not heavy ?"}
+{"sentence_good": "was the window not heavy ?", "sentence_bad": "was the windows not heavy ?"}
+{"sentence_good": "are the windows not heavy ?", "sentence_bad": "are the window not heavy ?"}
+{"sentence_good": "were the windows not heavy ?", "sentence_bad": "were the window not heavy ?"}
+{"sentence_good": "is the car not expected ?", "sentence_bad": "is the cars not expected ?"}
+{"sentence_good": "was the car not expected ?", "sentence_bad": "was the cars not expected ?"}
+{"sentence_good": "are the cars not expected ?", "sentence_bad": "are the car not expected ?"}
+{"sentence_good": "were the cars not expected ?", "sentence_bad": "were the car not expected ?"}
+{"sentence_good": "is the story not permanent ?", "sentence_bad": "is the stories not permanent ?"}
+{"sentence_good": "was the story not permanent ?", "sentence_bad": "was the stories not permanent ?"}
+{"sentence_good": "are the stories not permanent ?", "sentence_bad": "are the story not permanent ?"}
+{"sentence_good": "were the stories not permanent ?", "sentence_bad": "were the story not permanent ?"}
+{"sentence_good": "is the car not spanish ?", "sentence_bad": "is the cars not spanish ?"}
+{"sentence_good": "was the car not spanish ?", "sentence_bad": "was the cars not spanish ?"}
+{"sentence_good": "are the cars not spanish ?", "sentence_bad": "are the car not spanish ?"}
+{"sentence_good": "were the cars not spanish ?", "sentence_bad": "were the car not spanish ?"}
+{"sentence_good": "is the lion not mean ?", "sentence_bad": "is the lions not mean ?"}
+{"sentence_good": "was the lion not mean ?", "sentence_bad": "was the lions not mean ?"}
+{"sentence_good": "are the lions not mean ?", "sentence_bad": "are the lion not mean ?"}
+{"sentence_good": "were the lions not mean ?", "sentence_bad": "were the lion not mean ?"}
+{"sentence_good": "is the color not spanish ?", "sentence_bad": "is the colors not spanish ?"}
+{"sentence_good": "was the color not spanish ?", "sentence_bad": "was the colors not spanish ?"}
+{"sentence_good": "are the colors not spanish ?", "sentence_bad": "are the color not spanish ?"}
+{"sentence_good": "were the colors not spanish ?", "sentence_bad": "were the color not spanish ?"}
+{"sentence_good": "is the difference not green ?", "sentence_bad": "is the differences not green ?"}
+{"sentence_good": "was the difference not green ?", "sentence_bad": "was the differences not green ?"}
+{"sentence_good": "are the differences not green ?", "sentence_bad": "are the difference not green ?"}
+{"sentence_good": "were the differences not green ?", "sentence_bad": "were the difference not green ?"}
+{"sentence_good": "is the dollar not revolutionary ?", "sentence_bad": "is the dollars not revolutionary ?"}
+{"sentence_good": "was the dollar not revolutionary ?", "sentence_bad": "was the dollars not revolutionary ?"}
+{"sentence_good": "are the dollars not revolutionary ?", "sentence_bad": "are the dollar not revolutionary ?"}
+{"sentence_good": "were the dollars not revolutionary ?", "sentence_bad": "were the dollar not revolutionary ?"}
+{"sentence_good": "is the whale not mean ?", "sentence_bad": "is the whales not mean ?"}
+{"sentence_good": "was the whale not mean ?", "sentence_bad": "was the whales not mean ?"}
+{"sentence_good": "are the whales not mean ?", "sentence_bad": "are the whale not mean ?"}
+{"sentence_good": "were the whales not mean ?", "sentence_bad": "were the whale not mean ?"}
+{"sentence_good": "is the movie not firm ?", "sentence_bad": "is the movies not firm ?"}
+{"sentence_good": "was the movie not firm ?", "sentence_bad": "was the movies not firm ?"}
+{"sentence_good": "are the movies not firm ?", "sentence_bad": "are the movie not firm ?"}
+{"sentence_good": "were the movies not firm ?", "sentence_bad": "were the movie not firm ?"}
+{"sentence_good": "is the song not heavy ?", "sentence_bad": "is the songs not heavy ?"}
+{"sentence_good": "was the song not heavy ?", "sentence_bad": "was the songs not heavy ?"}
+{"sentence_good": "are the songs not heavy ?", "sentence_bad": "are the song not heavy ?"}
+{"sentence_good": "were the songs not heavy ?", "sentence_bad": "were the song not heavy ?"}
+{"sentence_good": "is the whale not passed ?", "sentence_bad": "is the whales not passed ?"}
+{"sentence_good": "was the whale not passed ?", "sentence_bad": "was the whales not passed ?"}
+{"sentence_good": "are the whales not passed ?", "sentence_bad": "are the whale not passed ?"}
+{"sentence_good": "were the whales not passed ?", "sentence_bad": "were the whale not passed ?"}
+{"sentence_good": "is the foot not passed ?", "sentence_bad": "is the feet not passed ?"}
+{"sentence_good": "was the foot not passed ?", "sentence_bad": "was the feet not passed ?"}
+{"sentence_good": "are the feet not passed ?", "sentence_bad": "are the foot not passed ?"}
+{"sentence_good": "were the feet not passed ?", "sentence_bad": "were the foot not passed ?"}
+{"sentence_good": "is the way not deep ?", "sentence_bad": "is the ways not deep ?"}
+{"sentence_good": "was the way not deep ?", "sentence_bad": "was the ways not deep ?"}
+{"sentence_good": "are the ways not deep ?", "sentence_bad": "are the way not deep ?"}
+{"sentence_good": "were the ways not deep ?", "sentence_bad": "were the way not deep ?"}

@@ -1,0 +1,2290 @@
+{
+    "pasdupasdu": {
+        "do": [
+            "mommy [verb] her me .",
+            "daddy [verb] her him .",
+            "sam [verb] me her .",
+            "nonna [verb] her us .",
+            "lucy [verb] me them ."
+        ],
+        "pp": [
+            "mommy [verb] me to her .",
+            "daddy [verb] him to her .",
+            "sam [verb] her to me .",
+            "nonna [verb] us to her .",
+            "lucy [verb] them to me ."
+        ]
+    },
+    "pasdunaldm": {
+        "do": [
+            "he [verb] the dog outside the house us .",
+            "sam [verb] the cat outside the house them .",
+            "nonna [verb] the small dog me .",
+            "lucy [verb] the cat over there them .",
+            "mommy [verb] the bear over there her ."
+        ],
+        "pp": [
+            "he [verb] us to the dog outside the house .",
+            "sam [verb] them to the cat outside the house .",
+            "nonna [verb] me to the small dog .",
+            "lucy [verb] them to the cat over there .",
+            "mommy [verb] her to the bear over there ."
+        ]
+    },
+    "pasdunalim": {
+        "do": [
+            "mommy [verb] a cat outside the house him .",
+            "she [verb] a dog outside the house me .",
+            "lucy [verb] a big bear us .",
+            "daddy [verb] a cat outside the house me .",
+            "nonna [verb] a small dog us ."
+        ],
+        "pp": [
+            "mommy [verb] him to a cat outside the house .",
+            "she [verb] me to a dog outside the house .",
+            "lucy [verb] us to a big bear .",
+            "daddy [verb] me to a cat outside the house .",
+            "nonna [verb] us to a small dog ."
+        ]
+    },
+    "pasdunasdm": {
+        "do": [
+            "daddy [verb] the cat him .",
+            "she [verb] the dog me .",
+            "mommy [verb] the bear them .",
+            "sam [verb] the cat him .",
+            "lucy [verb] the cat him ."
+        ],
+        "pp": [
+            "daddy [verb] him to the cat .",
+            "she [verb] me to the dog .",
+            "mommy [verb] them to the bear .",
+            "sam [verb] him to the cat .",
+            "lucy [verb] him to the cat ."
+        ]
+    },
+    "pasdunasdu": {
+        "do": [
+            "sam [verb] bear her .",
+            "lucy [verb] bert him .",
+            "lucy [verb] mommy him .",
+            "daddy [verb] cat me .",
+            "nonna [verb] grandma him ."
+        ],
+        "pp": [
+            "sam [verb] her to bear .",
+            "lucy [verb] him to bert .",
+            "lucy [verb] him to mommy .",
+            "daddy [verb] me to cat .",
+            "nonna [verb] him to grandma ."
+        ]
+    },
+    "pasdunasim": {
+        "do": [
+            "mommy [verb] a cat them .",
+            "lucy [verb] a cat her .",
+            "nonna [verb] a bear us .",
+            "he [verb] a dog us .",
+            "daddy [verb] a dog them ."
+        ],
+        "pp": [
+            "mommy [verb] them to a cat .",
+            "lucy [verb] her to a cat .",
+            "nonna [verb] us to a bear .",
+            "he [verb] us to a dog .",
+            "daddy [verb] them to a dog ."
+        ]
+    },
+    "pasdunildm": {
+        "do": [
+            "he [verb] the store that is far away me .",
+            "sam [verb] the balls in the room her .",
+            "daddy [verb] the red ball us .",
+            "nonna [verb] the food on the table them .",
+            "mommy [verb] the toys in the room us ."
+        ],
+        "pp": [
+            "he [verb] me to the store that is far away .",
+            "sam [verb] her to the balls in the room .",
+            "daddy [verb] us to the red ball .",
+            "nonna [verb] them to the food on the table .",
+            "mommy [verb] us to the toys in the room ."
+        ]
+    },
+    "pasdunilim": {
+        "do": [
+            "sam [verb] a store that is far away me .",
+            "daddy [verb] a toy in the room her .",
+            "mommy [verb] a cup on the table him .",
+            "lucy [verb] a red ball us .",
+            "nonna [verb] a ball in that room him ."
+        ],
+        "pp": [
+            "sam [verb] me to a store that is far away .",
+            "daddy [verb] her to a toy in the room .",
+            "mommy [verb] him to a cup on the table .",
+            "lucy [verb] us to a red ball .",
+            "nonna [verb] him to a ball in that room ."
+        ]
+    },
+    "pasdunisdm": {
+        "do": [
+            "lucy [verb] the ball us .",
+            "mommy [verb] the milk him .",
+            "nonna [verb] the toys me .",
+            "sam [verb] the cup him .",
+            "daddy [verb] the teddy her ."
+        ],
+        "pp": [
+            "lucy [verb] us to the ball .",
+            "mommy [verb] him to the milk .",
+            "nonna [verb] me to the toys .",
+            "sam [verb] him to the cup .",
+            "daddy [verb] her to the teddy ."
+        ]
+    },
+    "pasdunisdu": {
+        "do": [
+            "nonna [verb] teddy them .",
+            "she [verb] dolly us .",
+            "mommy [verb] teddy us .",
+            "lucy [verb] dolly him .",
+            "daddy [verb] dolly him ."
+        ],
+        "pp": [
+            "nonna [verb] them to teddy .",
+            "she [verb] us to dolly .",
+            "mommy [verb] us to teddy .",
+            "lucy [verb] him to dolly .",
+            "daddy [verb] him to dolly ."
+        ]
+    },
+    "pasdunisim": {
+        "do": [
+            "sam [verb] a ball him .",
+            "daddy [verb] a cup us .",
+            "lucy [verb] a ball her .",
+            "nonna [verb] a cup me .",
+            "mommy [verb] a toy me ."
+        ],
+        "pp": [
+            "sam [verb] him to a ball .",
+            "daddy [verb] us to a cup .",
+            "lucy [verb] her to a ball .",
+            "nonna [verb] me to a cup .",
+            "mommy [verb] me to a toy ."
+        ]
+    },
+    "naldmpasdu": {
+        "do": [
+            "sam [verb] us the small dog .",
+            "he [verb] her the dog over there .",
+            "lucy [verb] her the dog outside the house .",
+            "nonna [verb] them the cute cat .",
+            "mommy [verb] them the dog outside the house ."
+        ],
+        "pp": [
+            "sam [verb] the small dog to us .",
+            "he [verb] the dog over there to her .",
+            "lucy [verb] the dog outside the house to her .",
+            "nonna [verb] the cute cat to them .",
+            "mommy [verb] the dog outside the house to them ."
+        ]
+    },
+    "naldmnaldm": {
+        "do": [
+            "sam [verb] the big bear the cat over there .",
+            "nonna [verb] the small dog the bear over there .",
+            "she [verb] the cute cat the dog over there .",
+            "lucy [verb] the bear over there the small dog .",
+            "mommy [verb] the cute cat the bear over there ."
+        ],
+        "pp": [
+            "sam [verb] the cat over there to the big bear .",
+            "nonna [verb] the bear over there to the small dog .",
+            "she [verb] the dog over there to the cute cat .",
+            "lucy [verb] the small dog to the bear over there .",
+            "mommy [verb] the bear over there to the cute cat ."
+        ]
+    },
+    "naldmnalim": {
+        "do": [
+            "mommy [verb] a cute cat the big bear .",
+            "daddy [verb] a small dog the bear over there .",
+            "sam [verb] a cat outside the house the dog over there .",
+            "lucy [verb] a big bear the dog outside the house .",
+            "nonna [verb] a big bear the dog outside the house ."
+        ],
+        "pp": [
+            "mommy [verb] the big bear to a cute cat .",
+            "daddy [verb] the bear over there to a small dog .",
+            "sam [verb] the dog over there to a cat outside the house .",
+            "lucy [verb] the dog outside the house to a big bear .",
+            "nonna [verb] the dog outside the house to a big bear ."
+        ]
+    },
+    "naldmnasdm": {
+        "do": [
+            "she [verb] the cat the dog over there .",
+            "he [verb] the dog the cat outside the house .",
+            "sam [verb] the dog the big bear .",
+            "nonna [verb] the dog the big bear .",
+            "mommy [verb] the cat the small dog ."
+        ],
+        "pp": [
+            "she [verb] the dog over there to the cat .",
+            "he [verb] the cat outside the house to the dog .",
+            "sam [verb] the big bear to the dog .",
+            "nonna [verb] the big bear to the dog .",
+            "mommy [verb] the small dog to the cat ."
+        ]
+    },
+    "naldmnasdu": {
+        "do": [
+            "sam [verb] bert the bear over there .",
+            "mommy [verb] daddy the bear over there .",
+            "he [verb] daddy the big bear .",
+            "nonna [verb] cat the dog outside the house .",
+            "lucy [verb] elmo the cat over there ."
+        ],
+        "pp": [
+            "sam [verb] the bear over there to bert .",
+            "mommy [verb] the bear over there to daddy .",
+            "he [verb] the big bear to daddy .",
+            "nonna [verb] the dog outside the house to cat .",
+            "lucy [verb] the cat over there to elmo ."
+        ]
+    },
+    "naldmnasim": {
+        "do": [
+            "mommy [verb] a bear the small dog .",
+            "sam [verb] a dog the cat over there .",
+            "he [verb] a cat the dog over there .",
+            "daddy [verb] a dog the bear over there .",
+            "lucy [verb] a dog the cat over there ."
+        ],
+        "pp": [
+            "mommy [verb] the small dog to a bear .",
+            "sam [verb] the cat over there to a dog .",
+            "he [verb] the dog over there to a cat .",
+            "daddy [verb] the bear over there to a dog .",
+            "lucy [verb] the cat over there to a dog ."
+        ]
+    },
+    "naldmnildm": {
+        "do": [
+            "he [verb] the food on the table the cat outside the house .",
+            "mommy [verb] the balls in the room the big bear .",
+            "lucy [verb] the balls in the room the cat outside the house .",
+            "sam [verb] the toys in the room the small dog .",
+            "nonna [verb] the balls in the room the cute cat ."
+        ],
+        "pp": [
+            "he [verb] the cat outside the house to the food on the table .",
+            "mommy [verb] the big bear to the balls in the room .",
+            "lucy [verb] the cat outside the house to the balls in the room .",
+            "sam [verb] the small dog to the toys in the room .",
+            "nonna [verb] the cute cat to the balls in the room ."
+        ]
+    },
+    "naldmnilim": {
+        "do": [
+            "he [verb] a nice book the cat over there .",
+            "lucy [verb] a cup on the table the cat outside the house .",
+            "mommy [verb] a red ball the cat outside the house .",
+            "sam [verb] a store that is far away the dog outside the house .",
+            "nonna [verb] a store that is far away the big bear ."
+        ],
+        "pp": [
+            "he [verb] the cat over there to a nice book .",
+            "lucy [verb] the cat outside the house to a cup on the table .",
+            "mommy [verb] the cat outside the house to a red ball .",
+            "sam [verb] the dog outside the house to a store that is far away .",
+            "nonna [verb] the big bear to a store that is far away ."
+        ]
+    },
+    "naldmnisdm": {
+        "do": [
+            "mommy [verb] the food the dog over there .",
+            "she [verb] the teddy the big bear .",
+            "sam [verb] the ball the small dog .",
+            "he [verb] the book the cat over there .",
+            "nonna [verb] the ball the small dog ."
+        ],
+        "pp": [
+            "mommy [verb] the dog over there to the food .",
+            "she [verb] the big bear to the teddy .",
+            "sam [verb] the small dog to the ball .",
+            "he [verb] the cat over there to the book .",
+            "nonna [verb] the small dog to the ball ."
+        ]
+    },
+    "naldmnisdu": {
+        "do": [
+            "lucy [verb] teddy the bear over there .",
+            "sam [verb] teddy the dog outside the house .",
+            "he [verb] teddy the small dog .",
+            "mommy [verb] teddy the big bear .",
+            "she [verb] dolly the cat over there ."
+        ],
+        "pp": [
+            "lucy [verb] the bear over there to teddy .",
+            "sam [verb] the dog outside the house to teddy .",
+            "he [verb] the small dog to teddy .",
+            "mommy [verb] the big bear to teddy .",
+            "she [verb] the cat over there to dolly ."
+        ]
+    },
+    "naldmnisim": {
+        "do": [
+            "daddy [verb] some books the cute cat .",
+            "mommy [verb] some balls the big bear .",
+            "lucy [verb] some balls the bear over there .",
+            "she [verb] a cup the cat outside the house .",
+            "he [verb] some food the big bear ."
+        ],
+        "pp": [
+            "daddy [verb] the cute cat to some books .",
+            "mommy [verb] the big bear to some balls .",
+            "lucy [verb] the bear over there to some balls .",
+            "she [verb] the cat outside the house to a cup .",
+            "he [verb] the big bear to some food ."
+        ]
+    },
+    "nalimpasdu": {
+        "do": [
+            "daddy [verb] us a small dog .",
+            "mommy [verb] us a dog outside the house .",
+            "lucy [verb] me a big bear .",
+            "sam [verb] us a cute cat .",
+            "nonna [verb] me a big bear ."
+        ],
+        "pp": [
+            "daddy [verb] a small dog to us .",
+            "mommy [verb] a dog outside the house to us .",
+            "lucy [verb] a big bear to me .",
+            "sam [verb] a cute cat to us .",
+            "nonna [verb] a big bear to me ."
+        ]
+    },
+    "nalimnaldm": {
+        "do": [
+            "daddy [verb] the big bear a cat outside the house .",
+            "she [verb] the small dog a cat outside the house .",
+            "mommy [verb] the dog over there a big bear .",
+            "nonna [verb] the dog outside the house a big bear .",
+            "sam [verb] the small dog a cat outside the house ."
+        ],
+        "pp": [
+            "daddy [verb] a cat outside the house to the big bear .",
+            "she [verb] a cat outside the house to the small dog .",
+            "mommy [verb] a big bear to the dog over there .",
+            "nonna [verb] a big bear to the dog outside the house .",
+            "sam [verb] a cat outside the house to the small dog ."
+        ]
+    },
+    "nalimnalim": {
+        "do": [
+            "lucy [verb] a cat outside the house a big bear .",
+            "he [verb] a cat outside the house a small dog .",
+            "nonna [verb] a cat outside the house a bear outside the house .",
+            "mommy [verb] a small dog a cute cat .",
+            "sam [verb] a cat outside the house a dog outside the house ."
+        ],
+        "pp": [
+            "lucy [verb] a big bear to a cat outside the house .",
+            "he [verb] a small dog to a cat outside the house .",
+            "nonna [verb] a bear outside the house to a cat outside the house .",
+            "mommy [verb] a cute cat to a small dog .",
+            "sam [verb] a dog outside the house to a cat outside the house ."
+        ]
+    },
+    "nalimnasdm": {
+        "do": [
+            "sam [verb] the dog a cat outside the house .",
+            "lucy [verb] the cat a small dog .",
+            "he [verb] the bear a cat outside the house .",
+            "she [verb] the dog a bear outside the house .",
+            "nonna [verb] the bear a cute cat ."
+        ],
+        "pp": [
+            "sam [verb] a cat outside the house to the dog .",
+            "lucy [verb] a small dog to the cat .",
+            "he [verb] a cat outside the house to the bear .",
+            "she [verb] a bear outside the house to the dog .",
+            "nonna [verb] a cute cat to the bear ."
+        ]
+    },
+    "nalimnasdu": {
+        "do": [
+            "he [verb] dog a cat outside the house .",
+            "nonna [verb] elmo a cat outside the house .",
+            "she [verb] dog a cute cat .",
+            "sam [verb] bear a cute cat .",
+            "daddy [verb] mommy a cute cat ."
+        ],
+        "pp": [
+            "he [verb] a cat outside the house to dog .",
+            "nonna [verb] a cat outside the house to elmo .",
+            "she [verb] a cute cat to dog .",
+            "sam [verb] a cute cat to bear .",
+            "daddy [verb] a cute cat to mommy ."
+        ]
+    },
+    "nalimnasim": {
+        "do": [
+            "he [verb] a cat a dog outside the house .",
+            "lucy [verb] a bear a dog outside the house .",
+            "nonna [verb] a cat a bear outside the house .",
+            "daddy [verb] a cat a dog outside the house .",
+            "she [verb] a dog a big bear ."
+        ],
+        "pp": [
+            "he [verb] a dog outside the house to a cat .",
+            "lucy [verb] a dog outside the house to a bear .",
+            "nonna [verb] a bear outside the house to a cat .",
+            "daddy [verb] a dog outside the house to a cat .",
+            "she [verb] a big bear to a dog ."
+        ]
+    },
+    "nalimnildm": {
+        "do": [
+            "lucy [verb] the store that is far away a cat outside the house .",
+            "nonna [verb] the cup on the table a big bear .",
+            "daddy [verb] the balls in the room a bear outside the house .",
+            "sam [verb] the food on the table a cat outside the house .",
+            "she [verb] the food on the table a bear outside the house ."
+        ],
+        "pp": [
+            "lucy [verb] a cat outside the house to the store that is far away .",
+            "nonna [verb] a big bear to the cup on the table .",
+            "daddy [verb] a bear outside the house to the balls in the room .",
+            "sam [verb] a cat outside the house to the food on the table .",
+            "she [verb] a bear outside the house to the food on the table ."
+        ]
+    },
+    "nalimnilim": {
+        "do": [
+            "she [verb] a toy in the room a dog outside the house .",
+            "lucy [verb] a nice book a small dog .",
+            "mommy [verb] a store that is far away a dog outside the house .",
+            "he [verb] a toy in the room a cat outside the house .",
+            "daddy [verb] a store that is far away a cute cat ."
+        ],
+        "pp": [
+            "she [verb] a dog outside the house to a toy in the room .",
+            "lucy [verb] a small dog to a nice book .",
+            "mommy [verb] a dog outside the house to a store that is far away .",
+            "he [verb] a cat outside the house to a toy in the room .",
+            "daddy [verb] a cute cat to a store that is far away ."
+        ]
+    },
+    "nalimnisdm": {
+        "do": [
+            "nonna [verb] the toys a small dog .",
+            "daddy [verb] the book a big bear .",
+            "lucy [verb] the food a cute cat .",
+            "she [verb] the cup a cute cat .",
+            "sam [verb] the food a bear outside the house ."
+        ],
+        "pp": [
+            "nonna [verb] a small dog to the toys .",
+            "daddy [verb] a big bear to the book .",
+            "lucy [verb] a cute cat to the food .",
+            "she [verb] a cute cat to the cup .",
+            "sam [verb] a bear outside the house to the food ."
+        ]
+    },
+    "nalimnisdu": {
+        "do": [
+            "lucy [verb] dolly a bear outside the house .",
+            "sam [verb] teddy a cat outside the house .",
+            "nonna [verb] dolly a cat outside the house .",
+            "he [verb] dolly a big bear .",
+            "daddy [verb] dolly a bear outside the house ."
+        ],
+        "pp": [
+            "lucy [verb] a bear outside the house to dolly .",
+            "sam [verb] a cat outside the house to teddy .",
+            "nonna [verb] a cat outside the house to dolly .",
+            "he [verb] a big bear to dolly .",
+            "daddy [verb] a bear outside the house to dolly ."
+        ]
+    },
+    "nalimnisim": {
+        "do": [
+            "nonna [verb] a store a cute cat .",
+            "she [verb] a ball a bear outside the house .",
+            "daddy [verb] some food a small dog .",
+            "lucy [verb] a book a bear outside the house .",
+            "sam [verb] a book a bear outside the house ."
+        ],
+        "pp": [
+            "nonna [verb] a cute cat to a store .",
+            "she [verb] a bear outside the house to a ball .",
+            "daddy [verb] a small dog to some food .",
+            "lucy [verb] a bear outside the house to a book .",
+            "sam [verb] a bear outside the house to a book ."
+        ]
+    },
+    "naliupasdu": {
+        "do": [
+            "nonna [verb] them dog outside the house .",
+            "daddy [verb] her cat outside the house .",
+            "he [verb] them cat outside the house .",
+            "mommy [verb] them bear over there .",
+            "sam [verb] them cat outside the house ."
+        ],
+        "pp": [
+            "nonna [verb] dog outside the house to them .",
+            "daddy [verb] cat outside the house to her .",
+            "he [verb] cat outside the house to them .",
+            "mommy [verb] bear over there to them .",
+            "sam [verb] cat outside the house to them ."
+        ]
+    },
+    "naliunaldm": {
+        "do": [
+            "he [verb] the cat over there dog outside the house .",
+            "sam [verb] the small dog cat outside the house .",
+            "daddy [verb] the dog over there bear over there .",
+            "she [verb] the small dog bear over there .",
+            "mommy [verb] the dog outside the house bear over there ."
+        ],
+        "pp": [
+            "he [verb] dog outside the house to the cat over there .",
+            "sam [verb] cat outside the house to the small dog .",
+            "daddy [verb] bear over there to the dog over there .",
+            "she [verb] bear over there to the small dog .",
+            "mommy [verb] bear over there to the dog outside the house ."
+        ]
+    },
+    "naliunalim": {
+        "do": [
+            "nonna [verb] a dog outside the house bear over there .",
+            "lucy [verb] a bear outside the house cat outside the house .",
+            "daddy [verb] a big bear dog outside the house .",
+            "sam [verb] a cat outside the house bear over there .",
+            "mommy [verb] a big bear dog outside the house ."
+        ],
+        "pp": [
+            "nonna [verb] bear over there to a dog outside the house .",
+            "lucy [verb] cat outside the house to a bear outside the house .",
+            "daddy [verb] dog outside the house to a big bear .",
+            "sam [verb] bear over there to a cat outside the house .",
+            "mommy [verb] dog outside the house to a big bear ."
+        ]
+    },
+    "naliunasdm": {
+        "do": [
+            "nonna [verb] the cat bear over there .",
+            "daddy [verb] the cat dog outside the house .",
+            "mommy [verb] the bear dog outside the house .",
+            "she [verb] the cat dog outside the house .",
+            "sam [verb] the cat dog outside the house ."
+        ],
+        "pp": [
+            "nonna [verb] bear over there to the cat .",
+            "daddy [verb] dog outside the house to the cat .",
+            "mommy [verb] dog outside the house to the bear .",
+            "she [verb] dog outside the house to the cat .",
+            "sam [verb] dog outside the house to the cat ."
+        ]
+    },
+    "naliunasdu": {
+        "do": [
+            "he [verb] elmo dog outside the house .",
+            "lucy [verb] bear cat outside the house .",
+            "nonna [verb] bert bear over there .",
+            "mommy [verb] bear dog outside the house .",
+            "daddy [verb] grandma dog outside the house ."
+        ],
+        "pp": [
+            "he [verb] dog outside the house to elmo .",
+            "lucy [verb] cat outside the house to bear .",
+            "nonna [verb] bear over there to bert .",
+            "mommy [verb] dog outside the house to bear .",
+            "daddy [verb] dog outside the house to grandma ."
+        ]
+    },
+    "naliunasim": {
+        "do": [
+            "she [verb] a bear dog outside the house .",
+            "daddy [verb] a bear cat outside the house .",
+            "mommy [verb] a cat bear over there .",
+            "he [verb] a dog cat outside the house .",
+            "lucy [verb] a bear cat outside the house ."
+        ],
+        "pp": [
+            "she [verb] dog outside the house to a bear .",
+            "daddy [verb] cat outside the house to a bear .",
+            "mommy [verb] bear over there to a cat .",
+            "he [verb] cat outside the house to a dog .",
+            "lucy [verb] cat outside the house to a bear ."
+        ]
+    },
+    "naliunildm": {
+        "do": [
+            "lucy [verb] the toys in the room bear over there .",
+            "daddy [verb] the toys in the room cat outside the house .",
+            "sam [verb] the balls in the room dog outside the house .",
+            "he [verb] the red ball dog outside the house .",
+            "mommy [verb] the red ball bear over there ."
+        ],
+        "pp": [
+            "lucy [verb] bear over there to the toys in the room .",
+            "daddy [verb] cat outside the house to the toys in the room .",
+            "sam [verb] dog outside the house to the balls in the room .",
+            "he [verb] dog outside the house to the red ball .",
+            "mommy [verb] bear over there to the red ball ."
+        ]
+    },
+    "naliunilim": {
+        "do": [
+            "nonna [verb] a ball in that room cat outside the house .",
+            "mommy [verb] a toy in the room cat outside the house .",
+            "daddy [verb] a red ball bear over there .",
+            "lucy [verb] a toy in the room bear over there .",
+            "he [verb] a store that is far away bear over there ."
+        ],
+        "pp": [
+            "nonna [verb] cat outside the house to a ball in that room .",
+            "mommy [verb] cat outside the house to a toy in the room .",
+            "daddy [verb] bear over there to a red ball .",
+            "lucy [verb] bear over there to a toy in the room .",
+            "he [verb] bear over there to a store that is far away ."
+        ]
+    },
+    "naliunisdm": {
+        "do": [
+            "he [verb] the toys dog outside the house .",
+            "lucy [verb] the milk dog outside the house .",
+            "daddy [verb] the store cat outside the house .",
+            "mommy [verb] the cup bear over there .",
+            "nonna [verb] the book bear over there ."
+        ],
+        "pp": [
+            "he [verb] dog outside the house to the toys .",
+            "lucy [verb] dog outside the house to the milk .",
+            "daddy [verb] cat outside the house to the store .",
+            "mommy [verb] bear over there to the cup .",
+            "nonna [verb] bear over there to the book ."
+        ]
+    },
+    "naliunisdu": {
+        "do": [
+            "mommy [verb] dolly dog outside the house .",
+            "lucy [verb] dolly bear over there .",
+            "he [verb] teddy cat outside the house .",
+            "daddy [verb] teddy bear over there .",
+            "she [verb] teddy bear over there ."
+        ],
+        "pp": [
+            "mommy [verb] dog outside the house to dolly .",
+            "lucy [verb] bear over there to dolly .",
+            "he [verb] cat outside the house to teddy .",
+            "daddy [verb] bear over there to teddy .",
+            "she [verb] bear over there to teddy ."
+        ]
+    },
+    "naliunisim": {
+        "do": [
+            "she [verb] some milk bear over there .",
+            "nonna [verb] some balls cat outside the house .",
+            "sam [verb] a book cat outside the house .",
+            "he [verb] some balls cat outside the house .",
+            "lucy [verb] some books bear over there ."
+        ],
+        "pp": [
+            "she [verb] bear over there to some milk .",
+            "nonna [verb] cat outside the house to some balls .",
+            "sam [verb] cat outside the house to a book .",
+            "he [verb] cat outside the house to some balls .",
+            "lucy [verb] bear over there to some books ."
+        ]
+    },
+    "nasdmpasdu": {
+        "do": [
+            "nonna [verb] him the bear .",
+            "lucy [verb] me the cat .",
+            "daddy [verb] us the dog .",
+            "mommy [verb] her the bear .",
+            "sam [verb] them the dog ."
+        ],
+        "pp": [
+            "nonna [verb] the bear to him .",
+            "lucy [verb] the cat to me .",
+            "daddy [verb] the dog to us .",
+            "mommy [verb] the bear to her .",
+            "sam [verb] the dog to them ."
+        ]
+    },
+    "nasdmnaldm": {
+        "do": [
+            "nonna [verb] the small dog the cat .",
+            "daddy [verb] the cute cat the bear .",
+            "mommy [verb] the small dog the cat .",
+            "she [verb] the small dog the cat .",
+            "lucy [verb] the cat outside the house the dog ."
+        ],
+        "pp": [
+            "nonna [verb] the cat to the small dog .",
+            "daddy [verb] the bear to the cute cat .",
+            "mommy [verb] the cat to the small dog .",
+            "she [verb] the cat to the small dog .",
+            "lucy [verb] the dog to the cat outside the house ."
+        ]
+    },
+    "nasdmnalim": {
+        "do": [
+            "he [verb] a bear outside the house the dog .",
+            "mommy [verb] a big bear the dog .",
+            "sam [verb] a bear outside the house the cat .",
+            "she [verb] a small dog the bear .",
+            "daddy [verb] a small dog the cat ."
+        ],
+        "pp": [
+            "he [verb] the dog to a bear outside the house .",
+            "mommy [verb] the dog to a big bear .",
+            "sam [verb] the cat to a bear outside the house .",
+            "she [verb] the bear to a small dog .",
+            "daddy [verb] the cat to a small dog ."
+        ]
+    },
+    "nasdmnasdm": {
+        "do": [
+            "she [verb] the bear the cat .",
+            "nonna [verb] the dog the bear .",
+            "sam [verb] the bear the cat .",
+            "daddy [verb] the bear the dog .",
+            "mommy [verb] the dog the bear ."
+        ],
+        "pp": [
+            "she [verb] the cat to the bear .",
+            "nonna [verb] the bear to the dog .",
+            "sam [verb] the cat to the bear .",
+            "daddy [verb] the dog to the bear .",
+            "mommy [verb] the bear to the dog ."
+        ]
+    },
+    "nasdmnasdu": {
+        "do": [
+            "sam [verb] daddy the dog .",
+            "she [verb] mommy the cat .",
+            "lucy [verb] dog the bear .",
+            "he [verb] daddy the bear .",
+            "nonna [verb] dog the bear ."
+        ],
+        "pp": [
+            "sam [verb] the dog to daddy .",
+            "she [verb] the cat to mommy .",
+            "lucy [verb] the bear to dog .",
+            "he [verb] the bear to daddy .",
+            "nonna [verb] the bear to dog ."
+        ]
+    },
+    "nasdmnasim": {
+        "do": [
+            "daddy [verb] a cat the dog .",
+            "lucy [verb] a bear the dog .",
+            "sam [verb] a bear the dog .",
+            "mommy [verb] a bear the dog .",
+            "nonna [verb] a dog the cat ."
+        ],
+        "pp": [
+            "daddy [verb] the dog to a cat .",
+            "lucy [verb] the dog to a bear .",
+            "sam [verb] the dog to a bear .",
+            "mommy [verb] the dog to a bear .",
+            "nonna [verb] the cat to a dog ."
+        ]
+    },
+    "nasdmnildm": {
+        "do": [
+            "nonna [verb] the food on the table the dog .",
+            "daddy [verb] the red ball the dog .",
+            "lucy [verb] the toys in the room the dog .",
+            "she [verb] the food on the table the dog .",
+            "sam [verb] the balls in the room the cat ."
+        ],
+        "pp": [
+            "nonna [verb] the dog to the food on the table .",
+            "daddy [verb] the dog to the red ball .",
+            "lucy [verb] the dog to the toys in the room .",
+            "she [verb] the dog to the food on the table .",
+            "sam [verb] the cat to the balls in the room ."
+        ]
+    },
+    "nasdmnilim": {
+        "do": [
+            "she [verb] a store that is far away the bear .",
+            "sam [verb] a ball in that room the dog .",
+            "nonna [verb] a nice book the cat .",
+            "he [verb] a nice book the bear .",
+            "mommy [verb] a ball in that room the dog ."
+        ],
+        "pp": [
+            "she [verb] the bear to a store that is far away .",
+            "sam [verb] the dog to a ball in that room .",
+            "nonna [verb] the cat to a nice book .",
+            "he [verb] the bear to a nice book .",
+            "mommy [verb] the dog to a ball in that room ."
+        ]
+    },
+    "nasdmnisdm": {
+        "do": [
+            "lucy [verb] the store the cat .",
+            "mommy [verb] the food the cat .",
+            "daddy [verb] the teddy the cat .",
+            "nonna [verb] the book the cat .",
+            "he [verb] the store the bear ."
+        ],
+        "pp": [
+            "lucy [verb] the cat to the store .",
+            "mommy [verb] the cat to the food .",
+            "daddy [verb] the cat to the teddy .",
+            "nonna [verb] the cat to the book .",
+            "he [verb] the bear to the store ."
+        ]
+    },
+    "nasdmnisdu": {
+        "do": [
+            "nonna [verb] dolly the cat .",
+            "mommy [verb] dolly the cat .",
+            "she [verb] teddy the bear .",
+            "lucy [verb] dolly the cat .",
+            "daddy [verb] dolly the dog ."
+        ],
+        "pp": [
+            "nonna [verb] the cat to dolly .",
+            "mommy [verb] the cat to dolly .",
+            "she [verb] the bear to teddy .",
+            "lucy [verb] the cat to dolly .",
+            "daddy [verb] the dog to dolly ."
+        ]
+    },
+    "nasdmnisim": {
+        "do": [
+            "daddy [verb] some milk the dog .",
+            "mommy [verb] some balls the bear .",
+            "he [verb] some balls the cat .",
+            "nonna [verb] a toy the dog .",
+            "lucy [verb] some store the bear ."
+        ],
+        "pp": [
+            "daddy [verb] the dog to some milk .",
+            "mommy [verb] the bear to some balls .",
+            "he [verb] the cat to some balls .",
+            "nonna [verb] the dog to a toy .",
+            "lucy [verb] the bear to some store ."
+        ]
+    },
+    "nasdupasdu": {
+        "do": [
+            "nonna [verb] her dog .",
+            "daddy [verb] him mommy .",
+            "sam [verb] them dog .",
+            "daddy [verb] them elmo .",
+            "sam [verb] us elmo ."
+        ],
+        "pp": [
+            "nonna [verb] dog to her .",
+            "daddy [verb] mommy to him .",
+            "sam [verb] dog to them .",
+            "daddy [verb] elmo to them .",
+            "sam [verb] elmo to us ."
+        ]
+    },
+    "nasdunaldm": {
+        "do": [
+            "nonna [verb] the small dog mommy .",
+            "lucy [verb] the cute cat elmo .",
+            "sam [verb] the cat over there daddy .",
+            "she [verb] the big bear dog .",
+            "he [verb] the dog over there cat ."
+        ],
+        "pp": [
+            "nonna [verb] mommy to the small dog .",
+            "lucy [verb] elmo to the cute cat .",
+            "sam [verb] daddy to the cat over there .",
+            "she [verb] dog to the big bear .",
+            "he [verb] cat to the dog over there ."
+        ]
+    },
+    "nasdunalim": {
+        "do": [
+            "mommy [verb] a dog outside the house bert .",
+            "she [verb] a cute cat daddy .",
+            "sam [verb] a bear outside the house grandma .",
+            "he [verb] a bear outside the house grandma .",
+            "nonna [verb] a big bear daddy ."
+        ],
+        "pp": [
+            "mommy [verb] bert to a dog outside the house .",
+            "she [verb] daddy to a cute cat .",
+            "sam [verb] grandma to a bear outside the house .",
+            "he [verb] grandma to a bear outside the house .",
+            "nonna [verb] daddy to a big bear ."
+        ]
+    },
+    "nasdunasdm": {
+        "do": [
+            "lucy [verb] the cat dog .",
+            "mommy [verb] the cat dog .",
+            "daddy [verb] the cat elmo .",
+            "sam [verb] the cat dog .",
+            "nonna [verb] the cat elmo ."
+        ],
+        "pp": [
+            "lucy [verb] dog to the cat .",
+            "mommy [verb] dog to the cat .",
+            "daddy [verb] elmo to the cat .",
+            "sam [verb] dog to the cat .",
+            "nonna [verb] elmo to the cat ."
+        ]
+    },
+    "nasdunasdu": {
+        "do": [
+            "lucy [verb] bear mommy .",
+            "nonna [verb] dog daddy .",
+            "she [verb] mommy elmo .",
+            "he [verb] daddy cat .",
+            "sam [verb] cat dog ."
+        ],
+        "pp": [
+            "lucy [verb] mommy to bear .",
+            "nonna [verb] daddy to dog .",
+            "she [verb] elmo to mommy .",
+            "he [verb] cat to daddy .",
+            "sam [verb] dog to cat ."
+        ]
+    },
+    "nasdunasim": {
+        "do": [
+            "lucy [verb] a cat grandma .",
+            "nonna [verb] a bear cat .",
+            "she [verb] a cat daddy .",
+            "he [verb] a bear dog .",
+            "sam [verb] a bear mommy ."
+        ],
+        "pp": [
+            "lucy [verb] grandma to a cat .",
+            "nonna [verb] cat to a bear .",
+            "she [verb] daddy to a cat .",
+            "he [verb] dog to a bear .",
+            "sam [verb] mommy to a bear ."
+        ]
+    },
+    "nasdunildm": {
+        "do": [
+            "daddy [verb] the food on the table bert .",
+            "nonna [verb] the balls in the room elmo .",
+            "he [verb] the toys in the room mommy .",
+            "she [verb] the food on the table mommy .",
+            "sam [verb] the red ball elmo ."
+        ],
+        "pp": [
+            "daddy [verb] bert to the food on the table .",
+            "nonna [verb] elmo to the balls in the room .",
+            "he [verb] mommy to the toys in the room .",
+            "she [verb] mommy to the food on the table .",
+            "sam [verb] elmo to the red ball ."
+        ]
+    },
+    "nasdunilim": {
+        "do": [
+            "he [verb] a cup on the table cat .",
+            "nonna [verb] a nice book daddy .",
+            "mommy [verb] a store that is far away bear .",
+            "she [verb] a red ball cat .",
+            "sam [verb] a nice book grandma ."
+        ],
+        "pp": [
+            "he [verb] cat to a cup on the table .",
+            "nonna [verb] daddy to a nice book .",
+            "mommy [verb] bear to a store that is far away .",
+            "she [verb] cat to a red ball .",
+            "sam [verb] grandma to a nice book ."
+        ]
+    },
+    "nasdunisdm": {
+        "do": [
+            "sam [verb] the store mommy .",
+            "nonna [verb] the milk grandma .",
+            "lucy [verb] the food daddy .",
+            "she [verb] the teddy cat .",
+            "he [verb] the milk bert ."
+        ],
+        "pp": [
+            "sam [verb] mommy to the store .",
+            "nonna [verb] grandma to the milk .",
+            "lucy [verb] daddy to the food .",
+            "she [verb] cat to the teddy .",
+            "he [verb] bert to the milk ."
+        ]
+    },
+    "nasdunisdu": {
+        "do": [
+            "nonna [verb] dolly bear .",
+            "daddy [verb] teddy dog .",
+            "sam [verb] teddy mommy .",
+            "lucy [verb] teddy bear .",
+            "she [verb] teddy bert ."
+        ],
+        "pp": [
+            "nonna [verb] bear to dolly .",
+            "daddy [verb] dog to teddy .",
+            "sam [verb] mommy to teddy .",
+            "lucy [verb] bear to teddy .",
+            "she [verb] bert to teddy ."
+        ]
+    },
+    "nasdunisim": {
+        "do": [
+            "mommy [verb] some food dog .",
+            "she [verb] some milk bear .",
+            "sam [verb] a ball daddy .",
+            "nonna [verb] a cup cat .",
+            "he [verb] a cup bear ."
+        ],
+        "pp": [
+            "mommy [verb] dog to some food .",
+            "she [verb] bear to some milk .",
+            "sam [verb] daddy to a ball .",
+            "nonna [verb] cat to a cup .",
+            "he [verb] bear to a cup ."
+        ]
+    },
+    "nasimpasdu": {
+        "do": [
+            "mommy [verb] them a cat .",
+            "lucy [verb] me a cat .",
+            "sam [verb] me a dog .",
+            "she [verb] us a cat .",
+            "daddy [verb] him a cat ."
+        ],
+        "pp": [
+            "mommy [verb] a cat to them .",
+            "lucy [verb] a cat to me .",
+            "sam [verb] a dog to me .",
+            "she [verb] a cat to us .",
+            "daddy [verb] a cat to him ."
+        ]
+    },
+    "nasimnaldm": {
+        "do": [
+            "he [verb] the small dog a bear .",
+            "she [verb] the bear over there a cat .",
+            "lucy [verb] the dog over there a cat .",
+            "sam [verb] the cute cat a dog .",
+            "nonna [verb] the cat outside the house a bear ."
+        ],
+        "pp": [
+            "he [verb] a bear to the small dog .",
+            "she [verb] a cat to the bear over there .",
+            "lucy [verb] a cat to the dog over there .",
+            "sam [verb] a dog to the cute cat .",
+            "nonna [verb] a bear to the cat outside the house ."
+        ]
+    },
+    "nasimnalim": {
+        "do": [
+            "daddy [verb] a cute cat a dog .",
+            "mommy [verb] a big bear a dog .",
+            "nonna [verb] a big bear a dog .",
+            "she [verb] a dog outside the house a bear .",
+            "he [verb] a big bear a cat ."
+        ],
+        "pp": [
+            "daddy [verb] a dog to a cute cat .",
+            "mommy [verb] a dog to a big bear .",
+            "nonna [verb] a dog to a big bear .",
+            "she [verb] a bear to a dog outside the house .",
+            "he [verb] a cat to a big bear ."
+        ]
+    },
+    "nasimnasdm": {
+        "do": [
+            "lucy [verb] the cat a bear .",
+            "daddy [verb] the bear a cat .",
+            "she [verb] the cat a bear .",
+            "nonna [verb] the bear a dog .",
+            "he [verb] the cat a bear ."
+        ],
+        "pp": [
+            "lucy [verb] a bear to the cat .",
+            "daddy [verb] a cat to the bear .",
+            "she [verb] a bear to the cat .",
+            "nonna [verb] a dog to the bear .",
+            "he [verb] a bear to the cat ."
+        ]
+    },
+    "nasimnasdu": {
+        "do": [
+            "nonna [verb] grandma a bear .",
+            "lucy [verb] elmo a cat .",
+            "sam [verb] daddy a bear .",
+            "she [verb] elmo a bear .",
+            "mommy [verb] daddy a bear ."
+        ],
+        "pp": [
+            "nonna [verb] a bear to grandma .",
+            "lucy [verb] a cat to elmo .",
+            "sam [verb] a bear to daddy .",
+            "she [verb] a bear to elmo .",
+            "mommy [verb] a bear to daddy ."
+        ]
+    },
+    "nasimnasim": {
+        "do": [
+            "mommy [verb] a cat a bear .",
+            "sam [verb] a cat a dog .",
+            "he [verb] a bear a dog .",
+            "daddy [verb] a cat a dog .",
+            "she [verb] a bear a dog ."
+        ],
+        "pp": [
+            "mommy [verb] a bear to a cat .",
+            "sam [verb] a dog to a cat .",
+            "he [verb] a dog to a bear .",
+            "daddy [verb] a dog to a cat .",
+            "she [verb] a dog to a bear ."
+        ]
+    },
+    "nasimnildm": {
+        "do": [
+            "mommy [verb] the red ball a cat .",
+            "lucy [verb] the red ball a dog .",
+            "she [verb] the toys in the room a bear .",
+            "daddy [verb] the food on the table a cat .",
+            "he [verb] the food on the table a bear ."
+        ],
+        "pp": [
+            "mommy [verb] a cat to the red ball .",
+            "lucy [verb] a dog to the red ball .",
+            "she [verb] a bear to the toys in the room .",
+            "daddy [verb] a cat to the food on the table .",
+            "he [verb] a bear to the food on the table ."
+        ]
+    },
+    "nasimnilim": {
+        "do": [
+            "daddy [verb] a toy in the room a bear .",
+            "he [verb] a red ball a bear .",
+            "she [verb] a store that is far away a bear .",
+            "mommy [verb] a cup on the table a cat .",
+            "sam [verb] a nice book a cat ."
+        ],
+        "pp": [
+            "daddy [verb] a bear to a toy in the room .",
+            "he [verb] a bear to a red ball .",
+            "she [verb] a bear to a store that is far away .",
+            "mommy [verb] a cat to a cup on the table .",
+            "sam [verb] a cat to a nice book ."
+        ]
+    },
+    "nasimnisdm": {
+        "do": [
+            "sam [verb] the teddy a dog .",
+            "mommy [verb] the cup a dog .",
+            "lucy [verb] the ball a dog .",
+            "nonna [verb] the store a bear .",
+            "she [verb] the store a cat ."
+        ],
+        "pp": [
+            "sam [verb] a dog to the teddy .",
+            "mommy [verb] a dog to the cup .",
+            "lucy [verb] a dog to the ball .",
+            "nonna [verb] a bear to the store .",
+            "she [verb] a cat to the store ."
+        ]
+    },
+    "nasimnisdu": {
+        "do": [
+            "he [verb] teddy a cat .",
+            "mommy [verb] dolly a bear .",
+            "lucy [verb] teddy a cat .",
+            "nonna [verb] teddy a bear .",
+            "daddy [verb] dolly a dog ."
+        ],
+        "pp": [
+            "he [verb] a cat to teddy .",
+            "mommy [verb] a bear to dolly .",
+            "lucy [verb] a cat to teddy .",
+            "nonna [verb] a bear to teddy .",
+            "daddy [verb] a dog to dolly ."
+        ]
+    },
+    "nasimnisim": {
+        "do": [
+            "nonna [verb] a teddy a bear .",
+            "daddy [verb] a book a cat .",
+            "lucy [verb] a ball a bear .",
+            "mommy [verb] a store a cat .",
+            "she [verb] some books a bear ."
+        ],
+        "pp": [
+            "nonna [verb] a bear to a teddy .",
+            "daddy [verb] a cat to a book .",
+            "lucy [verb] a bear to a ball .",
+            "mommy [verb] a cat to a store .",
+            "she [verb] a bear to some books ."
+        ]
+    },
+    "nildmpasdu": {
+        "do": [
+            "she [verb] me the balls in the room .",
+            "he [verb] me the food on the table .",
+            "mommy [verb] them the balls in the room .",
+            "lucy [verb] me the cup on the table .",
+            "sam [verb] us the food on the table ."
+        ],
+        "pp": [
+            "she [verb] the balls in the room to me .",
+            "he [verb] the food on the table to me .",
+            "mommy [verb] the balls in the room to them .",
+            "lucy [verb] the cup on the table to me .",
+            "sam [verb] the food on the table to us ."
+        ]
+    },
+    "nildmnaldm": {
+        "do": [
+            "daddy [verb] the cat outside the house the cup on the table .",
+            "lucy [verb] the big bear the red ball .",
+            "she [verb] the small dog the food on the table .",
+            "sam [verb] the bear over there the food on the table .",
+            "nonna [verb] the cat over there the balls in the room ."
+        ],
+        "pp": [
+            "daddy [verb] the cup on the table to the cat outside the house .",
+            "lucy [verb] the red ball to the big bear .",
+            "she [verb] the food on the table to the small dog .",
+            "sam [verb] the food on the table to the bear over there .",
+            "nonna [verb] the balls in the room to the cat over there ."
+        ]
+    },
+    "nildmnalim": {
+        "do": [
+            "he [verb] a big bear the food on the table .",
+            "nonna [verb] a cat outside the house the cup on the table .",
+            "daddy [verb] a bear outside the house the balls in the room .",
+            "mommy [verb] a small dog the food on the table .",
+            "she [verb] a big bear the food on the table ."
+        ],
+        "pp": [
+            "he [verb] the food on the table to a big bear .",
+            "nonna [verb] the cup on the table to a cat outside the house .",
+            "daddy [verb] the balls in the room to a bear outside the house .",
+            "mommy [verb] the food on the table to a small dog .",
+            "she [verb] the food on the table to a big bear ."
+        ]
+    },
+    "nildmnasdm": {
+        "do": [
+            "he [verb] the cat the food on the table .",
+            "she [verb] the bear the food on the table .",
+            "nonna [verb] the cat the balls in the room .",
+            "lucy [verb] the bear the cup on the table .",
+            "mommy [verb] the dog the toys in the room ."
+        ],
+        "pp": [
+            "he [verb] the food on the table to the cat .",
+            "she [verb] the food on the table to the bear .",
+            "nonna [verb] the balls in the room to the cat .",
+            "lucy [verb] the cup on the table to the bear .",
+            "mommy [verb] the toys in the room to the dog ."
+        ]
+    },
+    "nildmnasdu": {
+        "do": [
+            "sam [verb] bert the balls in the room .",
+            "she [verb] cat the cup on the table .",
+            "he [verb] bert the toys in the room .",
+            "mommy [verb] daddy the toys in the room .",
+            "nonna [verb] elmo the toys in the room ."
+        ],
+        "pp": [
+            "sam [verb] the balls in the room to bert .",
+            "she [verb] the cup on the table to cat .",
+            "he [verb] the toys in the room to bert .",
+            "mommy [verb] the toys in the room to daddy .",
+            "nonna [verb] the toys in the room to elmo ."
+        ]
+    },
+    "nildmnasim": {
+        "do": [
+            "she [verb] a bear the food on the table .",
+            "daddy [verb] a dog the balls in the room .",
+            "lucy [verb] a bear the balls in the room .",
+            "mommy [verb] a dog the balls in the room .",
+            "he [verb] a cat the cup on the table ."
+        ],
+        "pp": [
+            "she [verb] the food on the table to a bear .",
+            "daddy [verb] the balls in the room to a dog .",
+            "lucy [verb] the balls in the room to a bear .",
+            "mommy [verb] the balls in the room to a dog .",
+            "he [verb] the cup on the table to a cat ."
+        ]
+    },
+    "nildmnildm": {
+        "do": [
+            "sam [verb] the store that is far away the balls in the room .",
+            "she [verb] the store that is far away the balls in the room .",
+            "nonna [verb] the cup on the table the food on the table .",
+            "daddy [verb] the cup on the table the red ball .",
+            "he [verb] the red ball the cup on the table ."
+        ],
+        "pp": [
+            "sam [verb] the balls in the room to the store that is far away .",
+            "she [verb] the balls in the room to the store that is far away .",
+            "nonna [verb] the food on the table to the cup on the table .",
+            "daddy [verb] the red ball to the cup on the table .",
+            "he [verb] the cup on the table to the red ball ."
+        ]
+    },
+    "nildmnilim": {
+        "do": [
+            "she [verb] a nice book the balls in the room .",
+            "nonna [verb] a store that is far away the balls in the room .",
+            "he [verb] a cup on the table the balls in the room .",
+            "sam [verb] a red ball the toys in the room .",
+            "daddy [verb] a toy in the room the red ball ."
+        ],
+        "pp": [
+            "she [verb] the balls in the room to a nice book .",
+            "nonna [verb] the balls in the room to a store that is far away .",
+            "he [verb] the balls in the room to a cup on the table .",
+            "sam [verb] the toys in the room to a red ball .",
+            "daddy [verb] the red ball to a toy in the room ."
+        ]
+    },
+    "nildmnisdm": {
+        "do": [
+            "she [verb] the cup the food on the table .",
+            "lucy [verb] the toys the balls in the room .",
+            "mommy [verb] the book the cup on the table .",
+            "sam [verb] the cup the food on the table .",
+            "he [verb] the food the cup on the table ."
+        ],
+        "pp": [
+            "she [verb] the food on the table to the cup .",
+            "lucy [verb] the balls in the room to the toys .",
+            "mommy [verb] the cup on the table to the book .",
+            "sam [verb] the food on the table to the cup .",
+            "he [verb] the cup on the table to the food ."
+        ]
+    },
+    "nildmnisdu": {
+        "do": [
+            "nonna [verb] dolly the red ball .",
+            "daddy [verb] teddy the cup on the table .",
+            "mommy [verb] teddy the red ball .",
+            "he [verb] dolly the cup on the table .",
+            "sam [verb] teddy the balls in the room ."
+        ],
+        "pp": [
+            "nonna [verb] the red ball to dolly .",
+            "daddy [verb] the cup on the table to teddy .",
+            "mommy [verb] the red ball to teddy .",
+            "he [verb] the cup on the table to dolly .",
+            "sam [verb] the balls in the room to teddy ."
+        ]
+    },
+    "nildmnisim": {
+        "do": [
+            "he [verb] a book the balls in the room .",
+            "sam [verb] some store the food on the table .",
+            "she [verb] some books the red ball .",
+            "mommy [verb] a cup the toys in the room .",
+            "nonna [verb] a cup the food on the table ."
+        ],
+        "pp": [
+            "he [verb] the balls in the room to a book .",
+            "sam [verb] the food on the table to some store .",
+            "she [verb] the red ball to some books .",
+            "mommy [verb] the toys in the room to a cup .",
+            "nonna [verb] the food on the table to a cup ."
+        ]
+    },
+    "nilimpasdu": {
+        "do": [
+            "lucy [verb] us a ball in that room .",
+            "mommy [verb] me a ball in that room .",
+            "nonna [verb] us a toy in the room .",
+            "he [verb] them a ball in that room .",
+            "sam [verb] her a nice book ."
+        ],
+        "pp": [
+            "lucy [verb] a ball in that room to us .",
+            "mommy [verb] a ball in that room to me .",
+            "nonna [verb] a toy in the room to us .",
+            "he [verb] a ball in that room to them .",
+            "sam [verb] a nice book to her ."
+        ]
+    },
+    "nilimnaldm": {
+        "do": [
+            "lucy [verb] the bear over there a toy in the room .",
+            "nonna [verb] the cat outside the house a ball in that room .",
+            "daddy [verb] the bear over there a cup on the table .",
+            "sam [verb] the cat outside the house a nice book .",
+            "he [verb] the bear over there a cup on the table ."
+        ],
+        "pp": [
+            "lucy [verb] a toy in the room to the bear over there .",
+            "nonna [verb] a ball in that room to the cat outside the house .",
+            "daddy [verb] a cup on the table to the bear over there .",
+            "sam [verb] a nice book to the cat outside the house .",
+            "he [verb] a cup on the table to the bear over there ."
+        ]
+    },
+    "nilimnalim": {
+        "do": [
+            "she [verb] a cat outside the house a cup on the table .",
+            "lucy [verb] a cute cat a cup on the table .",
+            "nonna [verb] a cat outside the house a nice book .",
+            "sam [verb] a big bear a toy in the room .",
+            "he [verb] a small dog a cup on the table ."
+        ],
+        "pp": [
+            "she [verb] a cup on the table to a cat outside the house .",
+            "lucy [verb] a cup on the table to a cute cat .",
+            "nonna [verb] a nice book to a cat outside the house .",
+            "sam [verb] a toy in the room to a big bear .",
+            "he [verb] a cup on the table to a small dog ."
+        ]
+    },
+    "nilimnasdm": {
+        "do": [
+            "nonna [verb] the cat a red ball .",
+            "mommy [verb] the bear a cup on the table .",
+            "he [verb] the cat a cup on the table .",
+            "daddy [verb] the dog a cup on the table .",
+            "she [verb] the cat a cup on the table ."
+        ],
+        "pp": [
+            "nonna [verb] a red ball to the cat .",
+            "mommy [verb] a cup on the table to the bear .",
+            "he [verb] a cup on the table to the cat .",
+            "daddy [verb] a cup on the table to the dog .",
+            "she [verb] a cup on the table to the cat ."
+        ]
+    },
+    "nilimnasdu": {
+        "do": [
+            "lucy [verb] bert a toy in the room .",
+            "she [verb] grandma a toy in the room .",
+            "sam [verb] elmo a toy in the room .",
+            "nonna [verb] daddy a red ball .",
+            "he [verb] bear a nice book ."
+        ],
+        "pp": [
+            "lucy [verb] a toy in the room to bert .",
+            "she [verb] a toy in the room to grandma .",
+            "sam [verb] a toy in the room to elmo .",
+            "nonna [verb] a red ball to daddy .",
+            "he [verb] a nice book to bear ."
+        ]
+    },
+    "nilimnasim": {
+        "do": [
+            "sam [verb] a cat a nice book .",
+            "nonna [verb] a bear a ball in that room .",
+            "daddy [verb] a dog a red ball .",
+            "she [verb] a cat a toy in the room .",
+            "lucy [verb] a dog a nice book ."
+        ],
+        "pp": [
+            "sam [verb] a nice book to a cat .",
+            "nonna [verb] a ball in that room to a bear .",
+            "daddy [verb] a red ball to a dog .",
+            "she [verb] a toy in the room to a cat .",
+            "lucy [verb] a nice book to a dog ."
+        ]
+    },
+    "nilimnildm": {
+        "do": [
+            "lucy [verb] the balls in the room a cup on the table .",
+            "sam [verb] the toys in the room a red ball .",
+            "she [verb] the toys in the room a nice book .",
+            "mommy [verb] the cup on the table a red ball .",
+            "nonna [verb] the food on the table a ball in that room ."
+        ],
+        "pp": [
+            "lucy [verb] a cup on the table to the balls in the room .",
+            "sam [verb] a red ball to the toys in the room .",
+            "she [verb] a nice book to the toys in the room .",
+            "mommy [verb] a red ball to the cup on the table .",
+            "nonna [verb] a ball in that room to the food on the table ."
+        ]
+    },
+    "nilimnilim": {
+        "do": [
+            "lucy [verb] a nice book a ball in that room .",
+            "sam [verb] a red ball a cup on the table .",
+            "she [verb] a store that is far away a cup on the table .",
+            "mommy [verb] a toy in the room a red ball .",
+            "nonna [verb] a toy in the room a red ball ."
+        ],
+        "pp": [
+            "lucy [verb] a ball in that room to a nice book .",
+            "sam [verb] a cup on the table to a red ball .",
+            "she [verb] a cup on the table to a store that is far away .",
+            "mommy [verb] a red ball to a toy in the room .",
+            "nonna [verb] a red ball to a toy in the room ."
+        ]
+    },
+    "nilimnisdm": {
+        "do": [
+            "she [verb] the cup a red ball .",
+            "lucy [verb] the milk a toy in the room .",
+            "daddy [verb] the milk a nice book .",
+            "sam [verb] the food a cup on the table .",
+            "he [verb] the milk a nice book ."
+        ],
+        "pp": [
+            "she [verb] a red ball to the cup .",
+            "lucy [verb] a toy in the room to the milk .",
+            "daddy [verb] a nice book to the milk .",
+            "sam [verb] a cup on the table to the food .",
+            "he [verb] a nice book to the milk ."
+        ]
+    },
+    "nilimnisdu": {
+        "do": [
+            "mommy [verb] teddy a nice book .",
+            "she [verb] teddy a nice book .",
+            "sam [verb] dolly a toy in the room .",
+            "nonna [verb] dolly a ball in that room .",
+            "lucy [verb] teddy a red ball ."
+        ],
+        "pp": [
+            "mommy [verb] a nice book to teddy .",
+            "she [verb] a nice book to teddy .",
+            "sam [verb] a toy in the room to dolly .",
+            "nonna [verb] a ball in that room to dolly .",
+            "lucy [verb] a red ball to teddy ."
+        ]
+    },
+    "nilimnisim": {
+        "do": [
+            "she [verb] some balls a toy in the room .",
+            "lucy [verb] some balls a cup on the table .",
+            "daddy [verb] some milk a nice book .",
+            "sam [verb] some books a cup on the table .",
+            "he [verb] a toy a ball in that room ."
+        ],
+        "pp": [
+            "she [verb] a toy in the room to some balls .",
+            "lucy [verb] a cup on the table to some balls .",
+            "daddy [verb] a nice book to some milk .",
+            "sam [verb] a cup on the table to some books .",
+            "he [verb] a ball in that room to a toy ."
+        ]
+    },
+    "nisdmpasdu": {
+        "do": [
+            "lucy [verb] us the book .",
+            "nonna [verb] me the food .",
+            "daddy [verb] him the food .",
+            "mommy [verb] us a lego .",
+            "sam [verb] her the milk ."
+        ],
+        "pp": [
+            "lucy [verb] the book to us .",
+            "nonna [verb] the food to me .",
+            "daddy [verb] the food to him .",
+            "mommy [verb] a lego to us .",
+            "sam [verb] the milk to her ."
+        ]
+    },
+    "nisdmnaldm": {
+        "do": [
+            "she [verb] the cat outside the house the milk .",
+            "he [verb] the cute cat the ball .",
+            "mommy [verb] the cat over there the milk .",
+            "nonna [verb] the big bear the book .",
+            "lucy [verb] the big bear a lego ."
+        ],
+        "pp": [
+            "she [verb] the milk to the cat outside the house .",
+            "he [verb] the ball to the cute cat .",
+            "mommy [verb] the milk to the cat over there .",
+            "nonna [verb] the book to the big bear .",
+            "lucy [verb] a lego to the big bear ."
+        ]
+    },
+    "nisdmnalim": {
+        "do": [
+            "mommy [verb] a cat outside the house the ball .",
+            "he [verb] a small dog a lego .",
+            "she [verb] a big bear a lego .",
+            "nonna [verb] a cat outside the house the book .",
+            "sam [verb] a small dog the milk ."
+        ],
+        "pp": [
+            "mommy [verb] the ball to a cat outside the house .",
+            "he [verb] a lego to a small dog .",
+            "she [verb] a lego to a big bear .",
+            "nonna [verb] the book to a cat outside the house .",
+            "sam [verb] the milk to a small dog ."
+        ]
+    },
+    "nisdmnasdm": {
+        "do": [
+            "he [verb] the dog the book .",
+            "she [verb] the bear the milk .",
+            "sam [verb] the dog the toys .",
+            "lucy [verb] the cat a lego .",
+            "nonna [verb] the bear the toys ."
+        ],
+        "pp": [
+            "he [verb] the book to the dog .",
+            "she [verb] the milk to the bear .",
+            "sam [verb] the toys to the dog .",
+            "lucy [verb] a lego to the cat .",
+            "nonna [verb] the toys to the bear ."
+        ]
+    },
+    "nisdmnasdu": {
+        "do": [
+            "he [verb] bear the book .",
+            "sam [verb] cat the food .",
+            "lucy [verb] daddy the teddy .",
+            "nonna [verb] elmo the book .",
+            "she [verb] bert the food ."
+        ],
+        "pp": [
+            "he [verb] the book to bear .",
+            "sam [verb] the food to cat .",
+            "lucy [verb] the teddy to daddy .",
+            "nonna [verb] the book to elmo .",
+            "she [verb] the food to bert ."
+        ]
+    },
+    "nisdmnasim": {
+        "do": [
+            "daddy [verb] a bear the food .",
+            "nonna [verb] a dog the food .",
+            "sam [verb] a cat the cheerios .",
+            "lucy [verb] a cat the teddy .",
+            "mommy [verb] a bear the milk ."
+        ],
+        "pp": [
+            "daddy [verb] the food to a bear .",
+            "nonna [verb] the food to a dog .",
+            "sam [verb] the cheerios to a cat .",
+            "lucy [verb] the teddy to a cat .",
+            "mommy [verb] the milk to a bear ."
+        ]
+    },
+    "nisdmnildm": {
+        "do": [
+            "nonna [verb] the store that is far away the teddy .",
+            "she [verb] the cup on the table the teddy .",
+            "lucy [verb] the toys in the room the cheerios .",
+            "he [verb] the balls in the room the cheerios .",
+            "daddy [verb] the store that is far away the book ."
+        ],
+        "pp": [
+            "nonna [verb] the teddy to the store that is far away .",
+            "she [verb] the teddy to the cup on the table .",
+            "lucy [verb] the cheerios to the toys in the room .",
+            "he [verb] the cheerios to the balls in the room .",
+            "daddy [verb] the book to the store that is far away ."
+        ]
+    },
+    "nisdmnilim": {
+        "do": [
+            "nonna [verb] a store that is far away the book .",
+            "she [verb] a store that is far away the cup .",
+            "sam [verb] a red ball the toys .",
+            "he [verb] a ball in that room the cup .",
+            "mommy [verb] a toy in the room the book ."
+        ],
+        "pp": [
+            "nonna [verb] the book to a store that is far away .",
+            "she [verb] the cup to a store that is far away .",
+            "sam [verb] the toys to a red ball .",
+            "he [verb] the cup to a ball in that room .",
+            "mommy [verb] the book to a toy in the room ."
+        ]
+    },
+    "nisdmnisdm": {
+        "do": [
+            "sam [verb] the teddy the book .",
+            "nonna [verb] the milk the food .",
+            "daddy [verb] the milk the ball .",
+            "she [verb] the teddy the ball .",
+            "he [verb] the food the toys ."
+        ],
+        "pp": [
+            "sam [verb] the book to the teddy .",
+            "nonna [verb] the food to the milk .",
+            "daddy [verb] the ball to the milk .",
+            "she [verb] the ball to the teddy .",
+            "he [verb] the toys to the food ."
+        ]
+    },
+    "nisdmnisdu": {
+        "do": [
+            "daddy [verb] dolly the cheerios .",
+            "he [verb] dolly the toys .",
+            "mommy [verb] dolly the milk .",
+            "lucy [verb] teddy the teddy .",
+            "sam [verb] dolly a lego ."
+        ],
+        "pp": [
+            "daddy [verb] the cheerios to dolly .",
+            "he [verb] the toys to dolly .",
+            "mommy [verb] the milk to dolly .",
+            "lucy [verb] the teddy to teddy .",
+            "sam [verb] a lego to dolly ."
+        ]
+    },
+    "nisdmnisim": {
+        "do": [
+            "he [verb] a toy the food .",
+            "she [verb] some balls the book .",
+            "lucy [verb] a teddy the cheerios .",
+            "mommy [verb] some store the cup .",
+            "sam [verb] some store the toys ."
+        ],
+        "pp": [
+            "he [verb] the food to a toy .",
+            "she [verb] the book to some balls .",
+            "lucy [verb] the cheerios to a teddy .",
+            "mommy [verb] the cup to some store .",
+            "sam [verb] the toys to some store ."
+        ]
+    },
+    "nisdupasdu": {
+        "do": [
+            "mommy [verb] her dolly .",
+            "sam [verb] us dolly .",
+            "daddy [verb] her dolly .",
+            "nonna [verb] us dolly .",
+            "lucy [verb] him dolly ."
+        ],
+        "pp": [
+            "mommy [verb] dolly to her .",
+            "sam [verb] dolly to us .",
+            "daddy [verb] dolly to her .",
+            "nonna [verb] dolly to us .",
+            "lucy [verb] dolly to him ."
+        ]
+    },
+    "nisdunaldm": {
+        "do": [
+            "mommy [verb] the cat over there teddy .",
+            "daddy [verb] the cat outside the house teddy .",
+            "sam [verb] the cat outside the house dolly .",
+            "she [verb] the cute cat teddy .",
+            "he [verb] the cat outside the house teddy ."
+        ],
+        "pp": [
+            "mommy [verb] teddy to the cat over there .",
+            "daddy [verb] teddy to the cat outside the house .",
+            "sam [verb] dolly to the cat outside the house .",
+            "she [verb] teddy to the cute cat .",
+            "he [verb] teddy to the cat outside the house ."
+        ]
+    },
+    "nisdunalim": {
+        "do": [
+            "daddy [verb] a cat outside the house teddy .",
+            "mommy [verb] a small dog teddy .",
+            "lucy [verb] a big bear dolly .",
+            "nonna [verb] a cat outside the house dolly .",
+            "she [verb] a cute cat teddy ."
+        ],
+        "pp": [
+            "daddy [verb] teddy to a cat outside the house .",
+            "mommy [verb] teddy to a small dog .",
+            "lucy [verb] dolly to a big bear .",
+            "nonna [verb] dolly to a cat outside the house .",
+            "she [verb] teddy to a cute cat ."
+        ]
+    },
+    "nisdunasdm": {
+        "do": [
+            "nonna [verb] the bear teddy .",
+            "he [verb] the bear dolly .",
+            "mommy [verb] the cat teddy .",
+            "sam [verb] the dog dolly .",
+            "she [verb] the cat dolly ."
+        ],
+        "pp": [
+            "nonna [verb] teddy to the bear .",
+            "he [verb] dolly to the bear .",
+            "mommy [verb] teddy to the cat .",
+            "sam [verb] dolly to the dog .",
+            "she [verb] dolly to the cat ."
+        ]
+    },
+    "nisdunasdu": {
+        "do": [
+            "mommy [verb] daddy dolly .",
+            "she [verb] bear dolly .",
+            "nonna [verb] bear dolly .",
+            "he [verb] cat teddy .",
+            "lucy [verb] dog teddy ."
+        ],
+        "pp": [
+            "mommy [verb] dolly to daddy .",
+            "she [verb] dolly to bear .",
+            "nonna [verb] dolly to bear .",
+            "he [verb] teddy to cat .",
+            "lucy [verb] teddy to dog ."
+        ]
+    },
+    "nisdunasim": {
+        "do": [
+            "daddy [verb] a bear teddy .",
+            "mommy [verb] a bear teddy .",
+            "sam [verb] a cat dolly .",
+            "he [verb] a cat teddy .",
+            "nonna [verb] a cat teddy ."
+        ],
+        "pp": [
+            "daddy [verb] teddy to a bear .",
+            "mommy [verb] teddy to a bear .",
+            "sam [verb] dolly to a cat .",
+            "he [verb] teddy to a cat .",
+            "nonna [verb] teddy to a cat ."
+        ]
+    },
+    "nisdunildm": {
+        "do": [
+            "mommy [verb] the cup on the table teddy .",
+            "he [verb] the balls in the room dolly .",
+            "daddy [verb] the balls in the room teddy .",
+            "sam [verb] the food on the table teddy .",
+            "nonna [verb] the food on the table dolly ."
+        ],
+        "pp": [
+            "mommy [verb] teddy to the cup on the table .",
+            "he [verb] dolly to the balls in the room .",
+            "daddy [verb] teddy to the balls in the room .",
+            "sam [verb] teddy to the food on the table .",
+            "nonna [verb] dolly to the food on the table ."
+        ]
+    },
+    "nisdunilim": {
+        "do": [
+            "lucy [verb] a ball in that room dolly .",
+            "sam [verb] a cup on the table dolly .",
+            "daddy [verb] a nice book teddy .",
+            "mommy [verb] a nice book dolly .",
+            "he [verb] a ball in that room dolly ."
+        ],
+        "pp": [
+            "lucy [verb] dolly to a ball in that room .",
+            "sam [verb] dolly to a cup on the table .",
+            "daddy [verb] teddy to a nice book .",
+            "mommy [verb] dolly to a nice book .",
+            "he [verb] dolly to a ball in that room ."
+        ]
+    },
+    "nisdunisdm": {
+        "do": [
+            "she [verb] the store dolly .",
+            "mommy [verb] the toys teddy .",
+            "daddy [verb] the food dolly .",
+            "lucy [verb] the book dolly .",
+            "nonna [verb] the cup teddy ."
+        ],
+        "pp": [
+            "she [verb] dolly to the store .",
+            "mommy [verb] teddy to the toys .",
+            "daddy [verb] dolly to the food .",
+            "lucy [verb] dolly to the book .",
+            "nonna [verb] teddy to the cup ."
+        ]
+    },
+    "nisdunisdu": {
+        "do": [
+            "daddy [verb] teddy dolly .",
+            "mommy [verb] teddy dolly .",
+            "sam [verb] dolly teddy .",
+            "she [verb] dolly teddy .",
+            "lucy [verb] dolly teddy ."
+        ],
+        "pp": [
+            "daddy [verb] dolly to teddy .",
+            "mommy [verb] dolly to teddy .",
+            "sam [verb] teddy to dolly .",
+            "she [verb] teddy to dolly .",
+            "lucy [verb] teddy to dolly ."
+        ]
+    },
+    "nisdunisim": {
+        "do": [
+            "sam [verb] a ball teddy .",
+            "she [verb] some books teddy .",
+            "nonna [verb] some balls dolly .",
+            "he [verb] a store teddy .",
+            "mommy [verb] some food dolly ."
+        ],
+        "pp": [
+            "sam [verb] teddy to a ball .",
+            "she [verb] teddy to some books .",
+            "nonna [verb] dolly to some balls .",
+            "he [verb] teddy to a store .",
+            "mommy [verb] dolly to some food ."
+        ]
+    },
+    "nisimpasdu": {
+        "do": [
+            "he [verb] her a ball .",
+            "daddy [verb] me a book .",
+            "lucy [verb] them some balls .",
+            "mommy [verb] me a toy .",
+            "nonna [verb] us a toy ."
+        ],
+        "pp": [
+            "he [verb] a ball to her .",
+            "daddy [verb] a book to me .",
+            "lucy [verb] some balls to them .",
+            "mommy [verb] a toy to me .",
+            "nonna [verb] a toy to us ."
+        ]
+    },
+    "nisimnaldm": {
+        "do": [
+            "lucy [verb] the dog over there a book .",
+            "he [verb] the cute cat a cup .",
+            "sam [verb] the dog over there a book .",
+            "daddy [verb] the small dog a toy .",
+            "nonna [verb] the cat outside the house some books ."
+        ],
+        "pp": [
+            "lucy [verb] a book to the dog over there .",
+            "he [verb] a cup to the cute cat .",
+            "sam [verb] a book to the dog over there .",
+            "daddy [verb] a toy to the small dog .",
+            "nonna [verb] some books to the cat outside the house ."
+        ]
+    },
+    "nisimnalim": {
+        "do": [
+            "daddy [verb] a small dog some food .",
+            "mommy [verb] a dog outside the house some balls .",
+            "lucy [verb] a cute cat a book .",
+            "nonna [verb] a cute cat some books .",
+            "sam [verb] a bear outside the house a toy ."
+        ],
+        "pp": [
+            "daddy [verb] some food to a small dog .",
+            "mommy [verb] some balls to a dog outside the house .",
+            "lucy [verb] a book to a cute cat .",
+            "nonna [verb] some books to a cute cat .",
+            "sam [verb] a toy to a bear outside the house ."
+        ]
+    },
+    "nisimnasdm": {
+        "do": [
+            "lucy [verb] the cat some cheerios .",
+            "mommy [verb] the bear some books .",
+            "she [verb] the bear a ball .",
+            "sam [verb] the dog some milk .",
+            "he [verb] the bear some balls ."
+        ],
+        "pp": [
+            "lucy [verb] some cheerios to the cat .",
+            "mommy [verb] some books to the bear .",
+            "she [verb] a ball to the bear .",
+            "sam [verb] some milk to the dog .",
+            "he [verb] some balls to the bear ."
+        ]
+    },
+    "nisimnasdu": {
+        "do": [
+            "he [verb] bert some cheerios .",
+            "lucy [verb] bear a book .",
+            "nonna [verb] cat some milk .",
+            "she [verb] bear some food .",
+            "mommy [verb] bert some food ."
+        ],
+        "pp": [
+            "he [verb] some cheerios to bert .",
+            "lucy [verb] a book to bear .",
+            "nonna [verb] some milk to cat .",
+            "she [verb] some food to bear .",
+            "mommy [verb] some food to bert ."
+        ]
+    },
+    "nisimnasim": {
+        "do": [
+            "he [verb] a bear some milk .",
+            "mommy [verb] a cat some books .",
+            "nonna [verb] a cat a teddy .",
+            "daddy [verb] a bear some food .",
+            "she [verb] a bear some cheerios ."
+        ],
+        "pp": [
+            "he [verb] some milk to a bear .",
+            "mommy [verb] some books to a cat .",
+            "nonna [verb] a teddy to a cat .",
+            "daddy [verb] some food to a bear .",
+            "she [verb] some cheerios to a bear ."
+        ]
+    },
+    "nisimnildm": {
+        "do": [
+            "daddy [verb] the balls in the room a cup .",
+            "lucy [verb] the food on the table a teddy .",
+            "mommy [verb] the food on the table a ball .",
+            "she [verb] the cup on the table some food .",
+            "he [verb] the red ball some cheerios ."
+        ],
+        "pp": [
+            "daddy [verb] a cup to the balls in the room .",
+            "lucy [verb] a teddy to the food on the table .",
+            "mommy [verb] a ball to the food on the table .",
+            "she [verb] some food to the cup on the table .",
+            "he [verb] some cheerios to the red ball ."
+        ]
+    },
+    "nisimnilim": {
+        "do": [
+            "mommy [verb] a red ball a toy .",
+            "daddy [verb] a ball in that room a cup .",
+            "he [verb] a cup on the table a ball .",
+            "nonna [verb] a cup on the table a teddy .",
+            "sam [verb] a toy in the room a teddy ."
+        ],
+        "pp": [
+            "mommy [verb] a toy to a red ball .",
+            "daddy [verb] a cup to a ball in that room .",
+            "he [verb] a ball to a cup on the table .",
+            "nonna [verb] a teddy to a cup on the table .",
+            "sam [verb] a teddy to a toy in the room ."
+        ]
+    },
+    "nisimnisdm": {
+        "do": [
+            "nonna [verb] the cup some balls .",
+            "daddy [verb] the food some milk .",
+            "sam [verb] the teddy some balls .",
+            "he [verb] the teddy some food .",
+            "mommy [verb] the ball some books ."
+        ],
+        "pp": [
+            "nonna [verb] some balls to the cup .",
+            "daddy [verb] some milk to the food .",
+            "sam [verb] some balls to the teddy .",
+            "he [verb] some food to the teddy .",
+            "mommy [verb] some books to the ball ."
+        ]
+    },
+    "nisimnisdu": {
+        "do": [
+            "mommy [verb] teddy a cup .",
+            "he [verb] dolly a ball .",
+            "she [verb] dolly some food .",
+            "nonna [verb] teddy some balls .",
+            "sam [verb] dolly some milk ."
+        ],
+        "pp": [
+            "mommy [verb] a cup to teddy .",
+            "he [verb] a ball to dolly .",
+            "she [verb] some food to dolly .",
+            "nonna [verb] some balls to teddy .",
+            "sam [verb] some milk to dolly ."
+        ]
+    },
+    "nisimnisim": {
+        "do": [
+            "she [verb] a teddy some balls .",
+            "daddy [verb] a teddy a cup .",
+            "lucy [verb] a ball some cheerios .",
+            "he [verb] some food some cheerios .",
+            "mommy [verb] a store a ball ."
+        ],
+        "pp": [
+            "she [verb] some balls to a teddy .",
+            "daddy [verb] a cup to a teddy .",
+            "lucy [verb] some cheerios to a ball .",
+            "he [verb] some cheerios to some food .",
+            "mommy [verb] a ball to a store ."
+        ]
+    },
+    "nisiupasdu": {
+        "do": [
+            "sam [verb] me cup .",
+            "daddy [verb] him pencils .",
+            "lucy [verb] him pencils .",
+            "nonna [verb] him pencils .",
+            "mommy [verb] her book ."
+        ],
+        "pp": [
+            "sam [verb] cup to me .",
+            "daddy [verb] pencils to him .",
+            "lucy [verb] pencils to him .",
+            "nonna [verb] pencils to him .",
+            "mommy [verb] book to her ."
+        ]
+    },
+    "nisiunaldm": {
+        "do": [
+            "mommy [verb] the small dog cheerios .",
+            "daddy [verb] the dog over there legos .",
+            "he [verb] the dog outside the house book .",
+            "lucy [verb] the cat over there pencils .",
+            "she [verb] the dog outside the house legos ."
+        ],
+        "pp": [
+            "mommy [verb] cheerios to the small dog .",
+            "daddy [verb] legos to the dog over there .",
+            "he [verb] book to the dog outside the house .",
+            "lucy [verb] pencils to the cat over there .",
+            "she [verb] legos to the dog outside the house ."
+        ]
+    },
+    "nisiunalim": {
+        "do": [
+            "he [verb] a small dog cup .",
+            "mommy [verb] a bear outside the house cup .",
+            "she [verb] a bear outside the house pencils .",
+            "daddy [verb] a cat outside the house pencils .",
+            "sam [verb] a cute cat legos ."
+        ],
+        "pp": [
+            "he [verb] cup to a small dog .",
+            "mommy [verb] cup to a bear outside the house .",
+            "she [verb] pencils to a bear outside the house .",
+            "daddy [verb] pencils to a cat outside the house .",
+            "sam [verb] legos to a cute cat ."
+        ]
+    },
+    "nisiunasdm": {
+        "do": [
+            "sam [verb] the bear cheerios .",
+            "nonna [verb] the cat cup .",
+            "lucy [verb] the bear legos .",
+            "he [verb] the cat pencils .",
+            "daddy [verb] the cat cheerios ."
+        ],
+        "pp": [
+            "sam [verb] cheerios to the bear .",
+            "nonna [verb] cup to the cat .",
+            "lucy [verb] legos to the bear .",
+            "he [verb] pencils to the cat .",
+            "daddy [verb] cheerios to the cat ."
+        ]
+    },
+    "nisiunasdu": {
+        "do": [
+            "mommy [verb] cat cup .",
+            "daddy [verb] bert cheerios .",
+            "lucy [verb] bear cheerios .",
+            "sam [verb] bert pencils .",
+            "he [verb] cat cup ."
+        ],
+        "pp": [
+            "mommy [verb] cup to cat .",
+            "daddy [verb] cheerios to bert .",
+            "lucy [verb] cheerios to bear .",
+            "sam [verb] pencils to bert .",
+            "he [verb] cup to cat ."
+        ]
+    },
+    "nisiunasim": {
+        "do": [
+            "he [verb] a dog book .",
+            "lucy [verb] a dog legos .",
+            "sam [verb] a dog legos .",
+            "she [verb] a dog book .",
+            "nonna [verb] a bear cheerios ."
+        ],
+        "pp": [
+            "he [verb] book to a dog .",
+            "lucy [verb] legos to a dog .",
+            "sam [verb] legos to a dog .",
+            "she [verb] book to a dog .",
+            "nonna [verb] cheerios to a bear ."
+        ]
+    },
+    "nisiunildm": {
+        "do": [
+            "lucy [verb] the food on the table pencils .",
+            "sam [verb] the toys in the room legos .",
+            "mommy [verb] the toys in the room cup .",
+            "nonna [verb] the food on the table legos .",
+            "he [verb] the food on the table cup ."
+        ],
+        "pp": [
+            "lucy [verb] pencils to the food on the table .",
+            "sam [verb] legos to the toys in the room .",
+            "mommy [verb] cup to the toys in the room .",
+            "nonna [verb] legos to the food on the table .",
+            "he [verb] cup to the food on the table ."
+        ]
+    },
+    "nisiunilim": {
+        "do": [
+            "sam [verb] a toy in the room legos .",
+            "she [verb] a store that is far away book .",
+            "lucy [verb] a toy in the room pencils .",
+            "nonna [verb] a ball in that room pencils .",
+            "he [verb] a red ball pencils ."
+        ],
+        "pp": [
+            "sam [verb] legos to a toy in the room .",
+            "she [verb] book to a store that is far away .",
+            "lucy [verb] pencils to a toy in the room .",
+            "nonna [verb] pencils to a ball in that room .",
+            "he [verb] pencils to a red ball ."
+        ]
+    },
+    "nisiunisdm": {
+        "do": [
+            "daddy [verb] the milk cup .",
+            "she [verb] the ball cup .",
+            "lucy [verb] the ball cup .",
+            "sam [verb] the milk pencils .",
+            "nonna [verb] the milk cheerios ."
+        ],
+        "pp": [
+            "daddy [verb] cup to the milk .",
+            "she [verb] cup to the ball .",
+            "lucy [verb] cup to the ball .",
+            "sam [verb] pencils to the milk .",
+            "nonna [verb] cheerios to the milk ."
+        ]
+    },
+    "nisiunisdu": {
+        "do": [
+            "mommy [verb] dolly cheerios .",
+            "sam [verb] teddy book .",
+            "daddy [verb] teddy legos .",
+            "she [verb] teddy cheerios .",
+            "he [verb] dolly cup ."
+        ],
+        "pp": [
+            "mommy [verb] cheerios to dolly .",
+            "sam [verb] book to teddy .",
+            "daddy [verb] legos to teddy .",
+            "she [verb] cheerios to teddy .",
+            "he [verb] cup to dolly ."
+        ]
+    },
+    "nisiunisim": {
+        "do": [
+            "daddy [verb] some balls legos .",
+            "she [verb] a store cup .",
+            "lucy [verb] some food cheerios .",
+            "he [verb] a teddy cheerios .",
+            "nonna [verb] some books legos ."
+        ],
+        "pp": [
+            "daddy [verb] legos to some balls .",
+            "she [verb] cup to a store .",
+            "lucy [verb] cheerios to some food .",
+            "he [verb] cheerios to a teddy .",
+            "nonna [verb] legos to some books ."
+        ]
+    }
+}
