@@ -236,7 +236,7 @@ fit <- lmer(diff ~ behavior + (1 + behavior | seed), data = coded)
 
 summary(fit)
 
-fit_do <- lmer(diff ~ behavior + (1 + behavior | seed), 
+fit_do <- lmer(diff ~ behavior + (1 | seed), 
                data = coded %>% filter(dative == "do"))
 
 summary(fit_do)
@@ -312,6 +312,42 @@ nabanana_results %>%
   )
 
 
+counts <- nabanana_results %>%
+  group_by(verb, behavior, dative, seed) %>%
+  summarize(
+    # ste = 1.96 * plotrix::std.error(diff),
+    diff = mean(diff)
+  ) %>%
+  ungroup() %>%
+  inner_join(nabanana_counts) %>%
+  mutate(seed = factor(seed), lemma = factor(lemma))
+# %>%
+#   group_by(behavior, dative, seed) %>%
+#   summarize(
+#     diff = mean(diff),
+#     freq = mean(n)
+#   ) %>%
+#   pivot_wider(names_from = behavior, values_from = c(diff, freq))
+
+fit_both <- lmer(diff ~ n + behavior + (1 | seed) + (1 | lemma), data = counts)
+fit_behavior <- lmer(diff ~ behavior + (1 | seed) + (1 | lemma), data = counts)
+fit_freq <- lmer(diff ~ n + (1 | seed) + (1 | lemma), data = counts)
+
+anova(fit_both, fit_behavior)
+anova(fit_both, fit_freq)
+
+summary(fit_both)
+
+nabanana_results %>%
+  group_by(verb, behavior, dative) %>%
+  summarize(
+    ste = 1.96 * plotrix::std.error(diff),
+    diff = mean(diff)
+  ) %>%
+  ungroup() %>%
+  inner_join(nabanana_counts) %>%
+  ggplot(aes(log(n+1), diff, color = behavior, shape = dative)) +
+  geom_point()
 
 nabanana_results %>%
   group_by(verb, behavior, dative) %>%

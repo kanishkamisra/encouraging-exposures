@@ -73,13 +73,21 @@ arunachalam_adaptation <- bind_rows(
   read_arunachalam_adaptation("3")
 )
 
-arunachalam_results <- bind_rows(
+arunachalam_results_raw <- bind_rows(
   read_arunachalam_results("1"),
   read_arunachalam_results("2"),
   read_arunachalam_results("3")
 ) %>% 
+  filter(state == "best")
+
+arunachalam_results <- arunachalam_results_raw %>%
+  # filter(val_performance > 0) %>%
+  # inner_join(arunachalam_adaptation %>% rename(adaptation_dative = dative)) %>%
   group_by(model, item_id, hypothesis_id, hypothesis_instance, adaptation_dative, generalization_dative, order) %>%
-  nest() %>% 
+  # summarize(
+  #   logprob = mean(logprob)
+  # ) %>%
+  nest() %>%
   mutate(
     best = map(data, function(x) {
       x %>%
@@ -90,7 +98,9 @@ arunachalam_results <- bind_rows(
   select(-data) %>%
   unnest(best) %>%
   ungroup() %>%
-  inner_join(arunachalam_adaptation %>% rename(adaptation_dative = dative))
+  inner_join(arunachalam_adaptation %>% rename(adaptation_dative = dative)) %>%
+  filter(val_performance > 0)
+  # inner_join(arunachalam_adaptation %>% rename(adaptation_dative = dative, item_id = item) %>% distinct(item_id, hypothesis_id, hypothesis_instance, adaptation_dative, theme_animacy, recipient_animacy))
 
 arunachalam_results %>%
   filter(recipient_animacy == "animate", theme_animacy == "inanimate") %>%
@@ -124,6 +134,50 @@ arunachalam_results %>%
   labs(
     x = "Exposure Dative",
     y = "log <em>p</em>(<span style='font-size: 11pt;'>DO</span>-usage) per token",
+    color = "Generalization Set",
+    shape = "Generalization Set"
+  ) +
+  theme(
+    axis.title.y = element_markdown(),
+    axis.text.x = element_markdown()
+  ) +
+  guides(color = "none", shape = "none")
+
+ggsave("paper/arunachalam-do.pdf", width = 4.72, height = 3.56, dpi = 300, device=cairo_pdf)
+
+arunachalam_results %>%
+  filter(recipient_animacy == "animate", theme_animacy == "inanimate") %>%
+  group_by(adaptation_dative, generalization_dative) %>%
+  summarize(
+    n = n(),
+    ste = 1.96 * plotrix::std.error(logprob),
+    logprob = mean(logprob)
+  ) %>%
+  ungroup() %>%
+  filter(generalization_dative == "do" | (adaptation_dative == "pp" & generalization_dative == "pp")) %>%
+  mutate(
+    adaptation_dative = str_to_upper(adaptation_dative),
+    generalization_dative = str_to_upper(generalization_dative),
+    # experiment = glue::glue("<span>{adaptation_dative} &#8594; {generalization_dative}</span>")
+    experiment = glue::glue("{adaptation_dative} to {generalization_dative}"),
+    experiment = factor(experiment, levels = c("PP to PP", "DO to DO", "PP to DO"))
+  ) %>%
+  # ggplot(aes(experiment, logprob, color = genset, shape = genset, group = interaction(seed, genset))) +
+  ggplot(aes(experiment, logprob)) +
+  geom_point(size = 3, color = "#4793AF") +
+  # geom_line() +
+  geom_errorbar(aes(ymin = logprob-ste, ymax = logprob+ste), color = "#4793AF", width = 0.1) +
+  # facet_grid(genset ~ context)
+  # facet_wrap(~ order, nrow = 1, scales = "free_y") +
+  scale_y_continuous(breaks = scales::pretty_breaks(5)) +
+  # ggh4x::facet_grid2(genset ~ context, scales = "free", independent = "y") +
+  # scale_color_brewer(palette = "BrBg") +
+  # scale_color_manual(values = c("#e9a3c9", "#a1d76a")) +
+  # scale_color_manual(values = c("#4793AF", "#FFC470")) +
+  scale_color_manual(values = c("#4793AF")) +
+  labs(
+    x = "Generalization Direction",
+    y = "log <em>p</em>(target) per token",
     color = "Generalization Set",
     shape = "Generalization Set"
   ) +
@@ -184,77 +238,77 @@ arunachalam_results %>%
 ggsave("paper/arunachalam-animacy.pdf", width=8.61, height=4.14, dpi=300, device=cairo_pdf)
 
 
-arunachalam_fit <- lmer(logprob ~ theme_animacy * exposure + (1 | model), 
-                        data = arunachalam_results %>% 
-                          filter(generalization_dative == "do", recipient_animacy == "animate") %>%
-                          mutate(
-                            theme_animacy = case_when(
-                              theme_animacy == "inanimate" ~ -0.5,
-                              TRUE ~ 0.5
-                            ),
-                            exposure = case_when(
-                              adaptation_dative == "do" ~ 0.5,
-                              TRUE ~ -0.5
-                            ),
-                            model = factor(model)
-                          ))
-
-summary(arunachalam_fit)
-
-emmeans(arunachalam_fit, ~ exposure | theme_animacy) %>%
-  contrast(simple = "each", combine = TRUE, adjust = "bonferroni")
-
-emmeans(arunachalam_fit, ~ exposure | theme_animacy) %>%
-  contrast(interaction = "pairwise", combine = TRUE, adjust = "bonferroni") %>%
-  as_tibble()
-
-emmeans(arunachalam_fit, ~ theme_animacy | exposure) %>%
-  contrast(simple = "each", combine = TRUE, adjust = "bonferroni") %>%
-  as_tibble() %>%
-  mutate(
-    estimate = estimate * 2,
-    exposure = case_when(
-      exposure == 0.5 ~ "DO",
-      exposure == -0.5 ~ "PP",
-      TRUE ~ exposure
-    ),
-    theme_animacy = case_when(
-      theme_animacy == 0.5 ~ "animate",
-      theme_animacy == -0.5 ~ "inanimate",
-      TRUE ~ theme_animacy
-    ),
-  ) %>%
-  filter(!str_detect(contrast, "-")) %>%
-  mutate(
-    contrast = str_remove(contrast, "0.5"),
-    t.ratio = format(round(t.ratio, 3), nsmall = 3),
-    estimate = format(round(estimate, 3), nsmall = 3), 
-    SE = format(round(SE, 3), nsmall = 3),
-    p = case_when(
-      p.value <= 0.001 ~ "$<.001$",
-      TRUE ~ glue("${round(p.value, digits=3)}$")
-    )
-  ) %>%
-  rename(t = t.ratio) %>%
-  select(-df, -p.value) 
-  
-
-
-emmip(arunachalam_fit, exposure ~ theme_animacy, CIs = TRUE, plotit = FALSE) %>%
-  as_tibble() %>%
-  mutate(
-    exposure = case_when(
-      exposure == 0.5 ~ "DO",
-      TRUE ~ "PP"
-    ),
-    theme_animacy = case_when(
-      theme_animacy == 0.5 ~ "animate",
-      TRUE ~ "inanimate"
-    )
-  ) %>%
-  ggplot(aes())
-
-emmeans(arunachalam_fit, pairwise ~ exposure + theme_animacy)
+# arunachalam_fit <- lmer(logprob ~ theme_animacy * exposure + (1 | model), 
+#                         data = arunachalam_results %>% 
+#                           filter(generalization_dative == "do", recipient_animacy == "animate") %>%
+#                           mutate(
+#                             theme_animacy = case_when(
+#                               theme_animacy == "inanimate" ~ -0.5,
+#                               TRUE ~ 0.5
+#                             ),
+#                             exposure = case_when(
+#                               adaptation_dative == "do" ~ 0.5,
+#                               TRUE ~ -0.5
+#                             ),
+#                             model = factor(model)
+#                           ))
+# 
+# summary(arunachalam_fit)
+# 
+# emmeans(arunachalam_fit, ~ exposure | theme_animacy) %>%
+#   contrast(simple = "each", combine = TRUE, adjust = "bonferroni")
+# 
+# emmeans(arunachalam_fit, ~ exposure | theme_animacy) %>%
+#   contrast(interaction = "pairwise", combine = TRUE, adjust = "bonferroni") %>%
+#   as_tibble()
+# 
+# emmeans(arunachalam_fit, ~ theme_animacy | exposure) %>%
+#   contrast(simple = "each", combine = TRUE, adjust = "bonferroni") %>%
+#   as_tibble() %>%
+#   mutate(
+#     estimate = estimate * 2,
+#     exposure = case_when(
+#       exposure == 0.5 ~ "DO",
+#       exposure == -0.5 ~ "PP",
+#       TRUE ~ exposure
+#     ),
+#     theme_animacy = case_when(
+#       theme_animacy == 0.5 ~ "animate",
+#       theme_animacy == -0.5 ~ "inanimate",
+#       TRUE ~ theme_animacy
+#     ),
+#   ) %>%
+#   filter(!str_detect(contrast, "-")) %>%
+#   mutate(
+#     contrast = str_remove(contrast, "0.5"),
+#     t.ratio = format(round(t.ratio, 3), nsmall = 3),
+#     estimate = format(round(estimate, 3), nsmall = 3), 
+#     SE = format(round(SE, 3), nsmall = 3),
+#     p = case_when(
+#       p.value <= 0.001 ~ "$<.001$",
+#       TRUE ~ glue("${round(p.value, digits=3)}$")
+#     )
+#   ) %>%
+#   rename(t = t.ratio) %>%
+#   select(-df, -p.value) 
+#   
+# 
+# 
+# emmip(arunachalam_fit, exposure ~ theme_animacy, CIs = TRUE, plotit = FALSE) %>%
+#   as_tibble() %>%
+#   mutate(
+#     exposure = case_when(
+#       exposure == 0.5 ~ "DO",
+#       TRUE ~ "PP"
+#     ),
+#     theme_animacy = case_when(
+#       theme_animacy == 0.5 ~ "animate",
+#       TRUE ~ "inanimate"
+#     )
+#   ) %>%
+#   ggplot(aes())
+# 
+# emmeans(arunachalam_fit, pairwise ~ exposure + theme_animacy)
 
 arunachalam_do_gen <- arunachalam_results %>% 
   filter(generalization_dative == "do", recipient_animacy == "animate") %>%

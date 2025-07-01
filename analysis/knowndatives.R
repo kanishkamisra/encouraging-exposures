@@ -182,12 +182,12 @@ combined <- bind_rows(
   dos_filtered %>% mutate(dative = "do")
 )
 
-combined %>% distinct(theme) %>% write_csv("data/aochildes-themes.csv")
-combined %>% distinct(recipient) %>% write_csv("data/aochildes-recipients.csv")
-
-combined %>%
-  count(lemma, sort=TRUE) %>%
-  write_csv("data/dative_lemmas.csv")
+# combined %>% distinct(theme) %>% write_csv("data/aochildes-themes.csv")
+# combined %>% distinct(recipient) %>% write_csv("data/aochildes-recipients.csv")
+# 
+# combined %>%
+#   count(lemma, sort=TRUE) %>%
+#   write_csv("data/dative_lemmas.csv")
 
 combined |>
   count(dative, verb_pos) %>%
@@ -415,7 +415,33 @@ bind_rows(
   write_csv("data/nana-naba-dative-contexts.csv")
 
 combined %>%
-  filter(!lemma %in% c("bat", "bounce", "drag", "flip", "flew", "haul", "kick", "sign", "carry", "deliver", "assign", "guarantee", "owe", "promise", "rent", "shoot", "trade", "address", "announce", "describe", "drop", "explain", "introduce", "lift", "mention", "return", "say", "whisper", "charge", "cost", "find", "save", "wish")) %>%
+  filter(lemma %in% c("bat", "bounce", "drag", "flip", "flew", "haul", "kick", "sign", "carry", "deliver", "assign", "guarantee", "owe", "promise", "rent", "shoot", "trade", "address", "announce", "describe", "drop", "explain", "introduce", "lift", "mention", "return", "say", "whisper", "charge", "cost", "find", "save", "wish")) %>% 
   count(lemma) %>%
-  filter(!lemma %in% removed_post, !lemma %in% removed_pre)
+  filter(!lemma %in% removed_post, !lemma %in% removed_pre) %>%
+  count(lemma)
 
+
+nabanana_freqs <- bind_rows(
+  combined %>% 
+    filter(lemma %in% c("charge", "cost", "find", "save", "wish"), dative == "do") %>% 
+    mutate(status = "NANA-DO"),
+  combined %>%
+    filter(lemma %in% c("address", "announce", "carry", "describe", "drop", "explain", "introduce", "lift", "mention", "return", "say", "whisper"), dative == "pp") %>%
+    mutate(status = "NANA-PP"),
+  combined %>%
+    filter(lemma %in% c("assign", "guarantee", "owe", "promise", "rent", "shoot", "trade")) %>%
+    mutate(status = "NABA-DO"),
+  combined %>%
+    filter(lemma %in% c("bat", "bounce", "drag", "flip", "flew", "haul", "kick", "sign", "deliver")) %>%
+    mutate(status = "NABA-PP")
+) %>%
+  filter(!lemma %in% c("charge", "find", "save", "shoot", "fly", "sign", "flip")) %>% 
+  count(status, lemma)
+
+
+nabanana_freqs %>%
+  group_by(status) %>%
+  summarize(
+    mean_frequency = mean(n),
+    ste = 1.96 * plotrix::std.error(n)
+  )

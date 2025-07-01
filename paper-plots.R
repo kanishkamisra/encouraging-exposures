@@ -361,24 +361,31 @@ ggsave("paper/conwell-demuth.pdf", width = 5.73, height = 5.03, dpi = 300, devic
 
 cd <- results %>%
   filter(adaptation_dative != generalization_dative) %>%
+  filter(unique_id %in% unique_ids) %>%
+  filter(context %in% c("Theme Given", "Recipient Given")) %>%
   pivot_longer(balanced_logprob:real_logprob, names_to = "genset", values_to = "logprob") %>%
   mutate(genset = str_remove(genset, "_logprob") %>% str_to_title()) %>%
   mutate(
     experiment = case_when(
-      adaptation_dative == "do" ~ 0.5,
-      TRUE ~ -0.5
+      adaptation_dative == "do" ~ 1,
+      TRUE ~ 0
     ),
     genset = case_when(
-      genset == "Balanced" ~ 0.5,
-      TRUE ~ -0.5
+      genset == "Balanced" ~ 1,
+      TRUE ~ 0
     ),
     model = factor(model)
   )
 
+fit_cd_synthetic <- lmer(logprob ~ experiment + (1 | model), data = cd %>% filter(genset == 1))
+fit_cd_natural <- lmer(logprob ~ experiment + (1 | model), data = cd %>% filter(genset == 0))
+
+summary(fit_cd_synthetic)
+summary(fit_cd_natural)
+
 fit_cd_givenness <- lmer(
-  logprob ~ experiment * genset + (1 + experiment * genset | model),
-  data = cd %>% 
-    filter(context %in% c("Theme Given", "Recipient Given"))
+  logprob ~ experiment * genset + (1 | model),
+  data = cd
 )
 
 summary(fit_cd_givenness)
@@ -412,6 +419,8 @@ fit_cd_nocontext <- lmer(
 
 summary(fit_cd_nocontext)
 emmeans(fit_cd_nocontext, pairwise ~ experiment | genset, adjust = "bonferroni")
+
+
 
 
 # diff way
