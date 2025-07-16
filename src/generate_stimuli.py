@@ -1,5 +1,6 @@
 import math
 import operator
+import pathlib
 import random
 import utils
 
@@ -276,8 +277,8 @@ for h_id, (combo, items) in enumerate(samples.items()):
     random.shuffle(agents)
 
     # different givenness orders when both are given:
-    theme_recipient = random.sample(range(1, 11), int(N/2))
-    recipient_theme = [x for x in range(1, 11) if x not in theme_recipient]
+    theme_recipient = random.sample(range(1, N+1), int(N/2))
+    recipient_theme = [x for x in range(1, N+1) if x not in theme_recipient]
 
     for h_item, (agent, item) in enumerate(zip(agents, items)):
         # raw_stimuli.append(item)
@@ -476,7 +477,7 @@ for h_id, (combo, items) in enumerate(samples.items()):
                             given_recipient = recipient
 
                         # -- actual stimuli
-                        if idx + 1 in theme_recipient:
+                        if h_item + 1 in theme_recipient:
                             prefix = template.substitute(
                                 agent=agent, arg1=given_theme, arg2=given_recipient
                             )
@@ -602,6 +603,8 @@ template_stimuli = defaultdict(list)
 for entry in raw_stimuli:
     template_stimuli[entry['template_id']].append(entry)
 
+pathlib.Path("data/experiments/final/").mkdir(exist_ok=True, parents=True)
+
 for k,v in template_stimuli.items():
-    write_stimuli(v, path = f"data/experiments/givenness_template_{k}.jsonl")
+    write_stimuli(v, path = f"data/experiments/final/givenness_template_{k}.jsonl")
 

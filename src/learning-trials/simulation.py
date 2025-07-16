@@ -128,6 +128,6 @@ if __name__ == "__main__":
     )
     parser.add_argument("--experiment_name", type=str, default="givenness_template_1")
     parser.add_argument("--device", type=str, default="cuda:0")
-    parser.add_argument("--results_dir", type=str, default="data/results/")
+    parser.add_argument("--results_dir", type=str, default="data/results/final")
     args = parser.parse_args()
     main(args)
