@@ -13,7 +13,7 @@ library(ggstance)
 
 read_adaptation <- function(template_num) {
   
-  stimuli <- glue("data/experiments/givenness_template_{template_num}.jsonl") %>% 
+  stimuli <- glue("data/experiments/final/givenness_template_{template_num}.jsonl") %>% 
     file() %>%
     stream_in() %>% 
     as_tibble() %>% 
@@ -32,7 +32,15 @@ read_adaptation <- function(template_num) {
   return(stimuli)
 }
 
-all_results <- dir_ls("data/results/simulation-results/", regexp = "*/results.csv", recurse = TRUE) %>%
+adaptation <- bind_rows(
+  read_adaptation(1),
+  read_adaptation(2),
+  read_adaptation(3),
+)
+
+adaptation %>% count(template)
+
+all_results <- dir_ls("data/results/simulation-results/final/", regexp = "*/results.csv", recurse = TRUE) %>%
   map_df(read_csv, .id = "file") %>%
   mutate(
     givenness_template = as.numeric(str_extract(file, "(?<=givenness_template_)(.*)(?=/smolm)")),
@@ -44,6 +52,24 @@ all_results <- dir_ls("data/results/simulation-results/", regexp = "*/results.cs
     givenness_template = factor(givenness_template),
     seed = factor(seed)
   )
+
+all_results %>%
+  pivot_longer(do:pp, names_to = "gen_dative", values_to = "score") %>%
+  filter(gen_dative != dative) %>%
+  mutate(
+    exp = glue("{dative} -> {gen_dative}"),
+    length_diff = case_when(
+      dative == "pp" ~ -1 * length_diff,
+      TRUE ~ length_diff
+    )
+  ) %>%
+  select(-file) %>% 
+  write_csv("data/results/final_results_250716.csv")
+
+invert <- function(x) {
+  stopifnot(x %in% c(0,1))
+  return(1-x)
+}
 
 haaps <- all_results %>%
   mutate(
@@ -109,6 +135,9 @@ haaps <- all_results %>%
       length_diff > 0 ~ 1,
       length_diff < 0 ~ -1
     ),
+    # recipient_pronominality = invert(recipient_pronominality),
+    # recipient_definiteness = invert(recipient_definiteness),
+    # recipient_givenness = invert(recipient_givenness),
     haap_theme = theme_pronominality + theme_animacy + theme_definiteness + theme_givenness,
     haap_recipient = recipient_pronominality + recipient_animacy + recipient_definiteness + recipient_givenness,
     haap_nolen = haap_theme + haap_recipient,
@@ -263,7 +292,7 @@ fit_haap_complex_do_pp <- lmer(pp ~ ha + ap +
 
 summary(fit_haap_complex_do_pp)
 
-fit_haap_complex_pp_do <- lmer(do ~ ha + ap + 
+fit_haap_complex_pp_do <- lmer(do ~ ha + ap +
                                  length_score + (1 | seed) +
                                  (1 | givenness_template), 
                                data = haaps %>% filter(dative == "pp"))
@@ -276,3 +305,18 @@ all_results %>%
     do = mean(do),
     pp = mean(pp)
   ) %>% View()
+
+haaps %>%pivot_longer(do:pp, names_to = "gen_dative", values_to = "score") %>%
+  filter(gen_dative != dative) %>%
+  mutate(
+    exp = glue("{dative} -> {gen_dative}"),
+    metric = haap
+  )  %>%
+  group_by(metric, exp, givenness_template) %>%
+  summarize(
+    score = mean(score)
+  ) %>%
+  ggplot(aes(metric, score)) +
+  geom_point() +
+  geom_smooth() +
+  facet_grid(givenness_template~exp)

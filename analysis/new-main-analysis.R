@@ -17,11 +17,21 @@ glue("data/experiments/givenness_template_1.jsonl") %>%
 
 read_adaptation <- function(template_num) {
   
-  stimuli <- glue("data/experiments/givenness_template_{template_num}.jsonl") %>% 
+  stimuli <- glue("data/experiments/final/givenness_template_{template_num}.jsonl") %>% 
     file() %>%
     stream_in() %>% 
     as_tibble() %>% 
-    mutate(givenness_template = template_num)
+    mutate(givenness_template = template_num) %>%
+    mutate(
+      theme_givenness = case_when(
+        template %in% c("agent-only", "agent-recipient") ~ "new",
+        TRUE ~ "given"
+      ),
+      recipient_givenness = case_when(
+        template %in% c("agent-only", "agent-theme") ~ "new",
+        TRUE ~ "given"
+      )
+    )
   
   return(stimuli)
 }
@@ -34,7 +44,7 @@ adaptation <- bind_rows(
 
 adaptation %>% count(givenness_template)
 
-all_results <- dir_ls("data/results/simulation-results/", regexp = "*/results.csv", recurse = TRUE) %>%
+all_results <- dir_ls("data/results/simulation-results/final/", regexp = "*/results.csv", recurse = TRUE) %>%
   map_df(read_csv, .id = "file") %>%
   mutate(
     givenness_template = as.numeric(str_extract(file, "(?<=givenness_template_)(.*)(?=/smolm)")),
@@ -67,7 +77,7 @@ all_results %>%
   geom_linerange(aes(ymin = score-cb, ymax = score+cb))
 
 all_results %>%
-  filter(template == "agent-only") %>%
+  # filter(template == "agent-only") %>%
   pivot_longer(do:pp, names_to = "gen_dative", values_to = "score") %>%
   group_by(dative, length_diff, gen_dative) %>%
   summarize(
@@ -84,7 +94,43 @@ all_results %>%
   ggplot(aes(length_diff, score, color = exp)) +
   geom_point()
 
+arunachalam <- all_results %>%
+  filter(template_type == "agent-2arg") %>%
+  filter(
+    recipient_animacy == "animate",
+    recipient_definiteness == "definite",
+    theme_definiteness == "definite",
+    theme_pronominality == "noun",
+    recipient_pronominality == "noun"
+  ) %>%
+  mutate(
+    theme_len = map_int(theme, function(x) {length(str_split(x, " ") %>% .[[1]])}),
+    recipient_len = map_int(recipient, function(x) {length(str_split(x, " ") %>% .[[1]])})
+  ) %>%
+  filter(theme_len <= 3, recipient_len <= 3) %>%
+  pivot_longer(do:pp, names_to = "gen_dative", values_to = "score") %>%
+  filter(gen_dative == "do") %>%
+  mutate(exp = glue("{dative} -> {gen_dative}"))
+
+arunachalam %>%
+  group_by(exp, theme_animacy) %>%
+  summarize(
+    n = n(),
+    sd = sd(score),
+    cb = qt(0.05/2, n-1, lower.tail = FALSE) * sd/sqrt(n),
+    score = mean(score)
+  ) %>%
+  ggplot(aes(theme_animacy, score)) +
+  geom_point() +
+  geom_linerange(aes(ymin = score-cb, ymax = score+cb)) +
+  facet_wrap(~exp)
+
+fit_sudha_do_do <- lmer(score ~ theme_animacy + (1 | seed), data = arunachalam %>% filter(dative == "do"))
+summary(fit_sudha_do_do)
+
 reg_data <- all_results %>%
+  # filter(theme != "them-a") %>%
+  # filter(recipient != "them-a") %>%
   mutate(
     theme_pronominality = case_when(
       theme_pronominality == "pronoun" ~ 0.5,
@@ -111,14 +157,17 @@ reg_data <- all_results %>%
       TRUE ~ -0.5
     ),
     theme_givenness = case_when(
-      template %in% c("agent-only", "agent-recipient") ~ 0,
-      TRUE ~ 1
+      # template %in% c("agent-only", "agent-recipient") ~ 0,
+      theme_givenness == "given" ~ 1,
+      TRUE ~ 0
     ),
     recipient_givenness = case_when(
-      template %in% c("agent-only", "agent-theme") ~ 0,
-      TRUE ~ 1
+      # template %in% c("agent-only", "agent-theme") ~ 0,
+      recipient_givenness == "given" ~ 1,
+      TRUE ~ 0
     )
   ) %>%
+  # filter(length_diff != 0) %>%
   filter(!(seed == 42 & givenness_template == 1))
 
 reg_data %>%
@@ -126,7 +175,7 @@ reg_data %>%
 
 fit_do_pp <- lmer(pp ~ theme_pronominality * theme_animacy * theme_definiteness +
                     recipient_pronominality * recipient_animacy * recipient_definiteness +
-                    theme_givenness + recipient_givenness + length_diff + 
+                    theme_givenness + recipient_givenness + length_diff +
                     (1|seed) + (1|givenness_template),
                   data = reg_data %>%
                     filter(dative == "do"))
@@ -169,11 +218,11 @@ emmip(fit_do_pp, recipient_pronominality ~ recipient_definiteness | recipient_an
 
 emmip(fit_do_pp, theme_pronominality ~ theme_definiteness | theme_animacy, CIs = TRUE)
 
-emmip(fit_do_pp, ~ recipient_definiteness, CIs = TRUE)
+emmip(fit_do_pp, ~ recipient_animacy, CIs = TRUE)
 
 fit_pp_do <- lmer(do ~ theme_pronominality * theme_animacy * theme_definiteness +
                     recipient_pronominality * recipient_animacy * recipient_definiteness +
-                    theme_givenness + recipient_givenness + length_diff + 
+                    theme_givenness + recipient_givenness + length_diff +
                     (1|seed) + (1|givenness_template),
                   data = reg_data %>%
                     filter(dative == "pp") %>%
@@ -206,6 +255,36 @@ emmip(fit_pp_do, recipient_pronominality ~ recipient_definiteness | recipient_an
   scale_color_manual(values = c("#7570b3","#e6ab02"), aesthetics = c("color", "fill")) +
   scale_shape_manual(values = c(15, 23)) +
   scale_y_continuous(breaks = scales::pretty_breaks()) +
+  labs(
+    x = "Recipient Definiteness",
+    y = "DO-generalization (EMM)",
+    color = "Recipient Pronominality",
+    fill = "Recipient Pronominality",
+    shape = "Recipient Pronominality",
+    linetype = "Recipient Pronominality"
+  )
+
+emmip(fit_pp_do, recipient_pronominality ~ recipient_definiteness, CIs = TRUE, plotit = FALSE) %>%
+  as_tibble() %>%
+  mutate(
+    recipient_pronominality = case_when(
+      recipient_pronominality == 0.5 ~ "Pronoun",
+      TRUE ~ "Nominal"
+    ),
+    recipient_definiteness = case_when(
+      recipient_definiteness == 0.5 ~ "Definite",
+      TRUE ~ "Indefinite"
+    )
+  ) %>%
+  ggplot(aes(recipient_definiteness, yvar, color = recipient_pronominality, fill = recipient_pronominality, shape = recipient_pronominality, group = recipient_pronominality)) +
+  geom_point(position = position_dodge(0.1), size = 3) +
+  geom_line(aes(linetype = recipient_pronominality), position = position_dodge(0.1), linewidth = 0.7) +
+  geom_errorbar(aes(ymin = LCL, ymax = UCL), width = 0.2, position = position_dodge(0.1)) +
+  # facet_wrap(~ recipient_animacy) +
+  # scale_color_brewer(palette="Dark2") +
+  scale_color_manual(values = c("#7570b3","#e6ab02"), aesthetics = c("color", "fill")) +
+  scale_shape_manual(values = c(15, 23)) +
+  # scale_y_continuous(breaks = scales::pretty_breaks(), limits = c(-5.6, -5.1)) +
   labs(
     x = "Recipient Definiteness",
     y = "DO-generalization (EMM)",
