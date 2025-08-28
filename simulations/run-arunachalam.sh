@@ -1,4 +1,5 @@
-declare -a seeds=(1709 1024 42 211 2409)
+# declare -a seeds=(1709 1024 42 211 2409)
+declare -a seeds=(210 924 1102 1729 7)
 
 for seed in ${seeds[@]}
 do
