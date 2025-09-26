@@ -202,6 +202,8 @@ for theme_features, recipient_features in argument_combos:
                 if not (
                     (lemma1 == "me" and lemma2 == "us")
                     or (lemma1 == "us" and lemma2 == "me")
+                    or (lemma1 == "them-i" and lemma2 == "them-a")
+                    or (lemma1 == "them-a" and lemma2 == "them-i")
                 ):
                     length_diff = len(item1.split(" ")) - len(item2.split(" "))
                     initial_sampling_space[length_diff].append((item1, item2))
@@ -223,7 +225,7 @@ hims = ["Ross", "Joseph", "Ethan", "Peter", "Thomas"]  # sample some names
 hers = ["Lily", "Nina", "Eve", "Catherine", "Sally"]  # sample some names
 thems_animate = ["those people", "the children", "the birds", "the ducks", "the pigs"]
 thems_inanimate = [
-    "the funny pictures",
+    "the pictures",
     "the crayons",
     "the photographs",
     "the candies",
@@ -277,8 +279,8 @@ for h_id, (combo, items) in enumerate(samples.items()):
     random.shuffle(agents)
 
     # different givenness orders when both are given:
-    theme_recipient = random.sample(range(1, N+1), int(N/2))
-    recipient_theme = [x for x in range(1, N+1) if x not in theme_recipient]
+    theme_recipient = random.sample(range(1, N + 1), int(N / 2))
+    recipient_theme = [x for x in range(1, N + 1) if x not in theme_recipient]
 
     for h_item, (agent, item) in enumerate(zip(agents, items)):
         # raw_stimuli.append(item)
@@ -544,67 +546,71 @@ print(f"Total stimuli (givenness): {len(raw_stimuli)}")
 
 # writing to files.
 
+
 def write_stimuli(lst, path):
     stimuli = []
     idx = 0
     for entry in lst:
-        stimuli.append({
-            "idx": idx+1,
-            "template_id": entry['template_id'],
-            "item": entry['item'],
-            "dative": "do",
-            "hypothesis_id": entry["hypothesis_id"],
-            "hypothesis_item": entry["hypothesis_item"],
-            "template_type": entry['template_type'],
-            "template": entry["template"],
-            "combo": entry["combo"],
-            "stimulus": f"{entry['prefix']}\n<s> {entry['do_sentence']}",
-            "agent": entry["agent"],
-            "theme": entry["theme"],
-            "recipient": entry["recipient"],
-            "theme_pronominality": entry["theme_pronominality"],
-            "theme_animacy": entry["theme_animacy"],
-            "theme_definiteness": entry["theme_definiteness"],
-            "recipient_pronominality": entry["recipient_pronominality"],
-            "recipient_animacy": entry["recipient_animacy"],
-            "recipient_definiteness": entry["recipient_definiteness"],
-            "length_diff": entry["length_diff"],
-        })
+        stimuli.append(
+            {
+                "idx": idx + 1,
+                "template_id": entry["template_id"],
+                "item": entry["item"],
+                "dative": "do",
+                "hypothesis_id": entry["hypothesis_id"],
+                "hypothesis_item": entry["hypothesis_item"],
+                "template_type": entry["template_type"],
+                "template": entry["template"],
+                "combo": entry["combo"],
+                "stimulus": f"{entry['prefix']}\n<s> {entry['do_sentence']}",
+                "agent": entry["agent"],
+                "theme": entry["theme"],
+                "recipient": entry["recipient"],
+                "theme_pronominality": entry["theme_pronominality"],
+                "theme_animacy": entry["theme_animacy"],
+                "theme_definiteness": entry["theme_definiteness"],
+                "recipient_pronominality": entry["recipient_pronominality"],
+                "recipient_animacy": entry["recipient_animacy"],
+                "recipient_definiteness": entry["recipient_definiteness"],
+                "length_diff": entry["length_diff"],
+            }
+        )
 
-        stimuli.append({
-            "idx": idx+2,
-            "template_id": entry['template_id'],
-            "item": entry['item'],
-            "dative": "pp",
-            "hypothesis_id": entry["hypothesis_id"],
-            "hypothesis_item": entry["hypothesis_item"],
-            "template_type": entry['template_type'],
-            "template": entry["template"],
-            "combo": entry["combo"],
-            "stimulus": f"{entry['prefix']}\n<s> {entry['po_sentence']}",
-            "agent": entry["agent"],
-            "theme": entry["theme"],
-            "recipient": entry["recipient"],
-            "theme_pronominality": entry["theme_pronominality"],
-            "theme_animacy": entry["theme_animacy"],
-            "theme_definiteness": entry["theme_definiteness"],
-            "recipient_pronominality": entry["recipient_pronominality"],
-            "recipient_animacy": entry["recipient_animacy"],
-            "recipient_definiteness": entry["recipient_definiteness"],
-            "length_diff": entry["length_diff"],
-        })
+        stimuli.append(
+            {
+                "idx": idx + 2,
+                "template_id": entry["template_id"],
+                "item": entry["item"],
+                "dative": "pp",
+                "hypothesis_id": entry["hypothesis_id"],
+                "hypothesis_item": entry["hypothesis_item"],
+                "template_type": entry["template_type"],
+                "template": entry["template"],
+                "combo": entry["combo"],
+                "stimulus": f"{entry['prefix']}\n<s> {entry['po_sentence']}",
+                "agent": entry["agent"],
+                "theme": entry["theme"],
+                "recipient": entry["recipient"],
+                "theme_pronominality": entry["theme_pronominality"],
+                "theme_animacy": entry["theme_animacy"],
+                "theme_definiteness": entry["theme_definiteness"],
+                "recipient_pronominality": entry["recipient_pronominality"],
+                "recipient_animacy": entry["recipient_animacy"],
+                "recipient_definiteness": entry["recipient_definiteness"],
+                "length_diff": entry["length_diff"],
+            }
+        )
 
-        idx+=2
+        idx += 2
 
     utils.write_jsonl(stimuli, file_path=path)
 
 
 template_stimuli = defaultdict(list)
 for entry in raw_stimuli:
-    template_stimuli[entry['template_id']].append(entry)
+    template_stimuli[entry["template_id"]].append(entry)
 
 pathlib.Path("data/experiments/final/").mkdir(exist_ok=True, parents=True)
 
-for k,v in template_stimuli.items():
-    write_stimuli(v, path = f"data/experiments/final/givenness_template_{k}.jsonl")
-
+for k, v in template_stimuli.items():
+    write_stimuli(v, path=f"data/experiments/final/givenness_template_{k}.jsonl")
