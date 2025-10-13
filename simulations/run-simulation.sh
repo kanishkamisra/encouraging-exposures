@@ -1,9 +1,9 @@
 declare -a templates=(1 2 3)
 declare -a seeds=(1709 1024 42 211 2409)
 
-for seed in ${seeds[@]}
+for template in ${templates[@]}
 do
-    for template in ${templates[@]}
+    for seed in ${seeds[@]}
     do
         python src/learning-trials/simulation.py \
             --model kanishka/smolm-aochildes-vocab_8192-layers_8-attn_8-hidden_256-inter_1024-lr_1e-3-seed_${seed} \
