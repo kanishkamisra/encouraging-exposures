@@ -11,6 +11,8 @@ library(DT)
 library(ggdist)
 library(ggstance)
 
+seeds = c(42, 211, 2409, 1709, 1024)
+
 stimuli <- glue("data/experiments/arunachalam-final.jsonl") %>% 
   file() %>%
   stream_in() %>% 
@@ -24,18 +26,25 @@ read_stimuli <- function(x) {
     inner_join(stimuli)
 }
 
-arunachalam <- dir_ls("data/results/simulation-results/arunachalam-final/arunachalam-final/", regexp = "*/results.csv", recurse = TRUE) %>%
+arunachalam <- dir_ls("data/results/simulation-results/arunachalam-final/", regexp = "*/results.csv", recurse = TRUE) %>%
   map_df(read_stimuli, .id = "file") %>%
   mutate(
     seed = as.numeric(str_extract(file, "(?<=seed_)(.*)(?=/results)"))
   ) %>%
   select(-file) %>%
+  filter(seed %in% seeds) %>%
   # filter(theme_pronominality != recipient_pronominality & theme_animacy != recipient_animacy & theme_definiteness != recipient_definiteness) %>%
   mutate(
-    seed = factor(seed)
+    seed = factor(seed),
   ) %>%
   pivot_longer(do:pp, names_to = "generalization_dative", values_to = "logprob") %>%
-  filter(generalization_dative == "do")
+  filter(generalization_dative == "do") %>%
+  mutate(
+    dative = case_when(
+      dative == "pp" ~ "PO",
+      dative == "do" ~ "DO"
+    )
+  )
 
 arunachalam  %>%
   group_by(dative, givenness_order) %>%
@@ -44,6 +53,20 @@ arunachalam  %>%
     sd = sd(logprob),
     conf = qt(1 - (0.05/2), n - 1) * sd/sqrt(n),
     diff = mean(logprob)
+  ) %>%
+  ungroup() %>%
+  ggplot(aes(dative, diff)) +
+  geom_point(size = 2.5) +
+  geom_linerange(aes(ymin = diff-conf, ymax = diff+conf)) +
+  facet_wrap(~givenness_order) +
+  theme_bw(base_size = 16, base_family = "Times") +
+  theme(
+    legend.position = "None",
+    panel.grid = element_blank()
+  ) +
+  labs(
+    x = "Exposure Dative",
+    y = "Avg. DO Log Prob\non Generalization Set"
   )
 
 reg_data <- arunachalam %>%
@@ -73,7 +96,16 @@ arunachalam  %>%
   ggplot(aes(theme_animacy, logprob)) +
   geom_point() +
   geom_linerange(aes(ymin = logprob-conf, ymax=logprob+conf))+
+  # facet_grid(seed~dative) +
   facet_wrap(~dative) +
+  # facet_grid(givenness_order ~ dative) +
+  theme_bw(base_size = 16, base_family = "Times") +
+  theme(
+    legend.position = "None",
+    panel.grid = element_blank()
+  ) +
   labs(
-    y = "Logprob of DO (generalization)"
+    # y = "Logprob of DO (generalization)"
+    x = "Theme Animacy",
+    y = "Avg. DO Log Prob\non Generalization Set"
   )

@@ -36,7 +36,7 @@ nabanana_results %>%
     conf = qt(1 - (0.05/2), n - 1) * sd/sqrt(n),
     diff = mean(diff)
   ) %>%
-  ungroup() %>%
+  ungroup() %>% View()
   mutate(
     version = case_when(
       model == ours ~ "Final",
@@ -56,7 +56,7 @@ nabanana_results %>%
   pivot_wider(names_from = behavior, values_from = diff) %>%
   mutate(
     diff_diff = naba - nana
-  ) %>%
+  ) %>% View()
   select(-naba, -nana) %>%
   ungroup() %>%
   mutate(

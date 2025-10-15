@@ -11,9 +11,9 @@ library(DT)
 library(ggdist)
 library(ggstance)
 
-read_adaptation <- function(template_num) {
+read_adaptation <- function(template_num, folder="final") {
   
-  stimuli <- glue("data/experiments/final/givenness_template_{template_num}.jsonl") %>% 
+  stimuli <- glue("data/experiments/{folder}/givenness_template_{template_num}.jsonl") %>% 
     file() %>%
     stream_in() %>% 
     as_tibble() %>% 
@@ -33,19 +33,34 @@ read_adaptation <- function(template_num) {
 }
 
 adaptation <- bind_rows(
-  read_adaptation(1),
-  read_adaptation(2),
-  read_adaptation(3),
+  bind_rows(
+    read_adaptation(1),
+    read_adaptation(2),
+    read_adaptation(3),
+  ),
+  bind_rows(
+    read_adaptation(1, "final-2arg"),
+    read_adaptation(2, "final-2arg"),
+    read_adaptation(3, "final-2arg"),
+  )
 )
 
 adaptation %>% count(template)
 
-all_results <- dir_ls("data/results/simulation-results/final/", regexp = "*/results.csv", recurse = TRUE) %>%
-  map_df(read_csv, .id = "file") %>%
-  mutate(
-    givenness_template = as.numeric(str_extract(file, "(?<=givenness_template_)(.*)(?=/smolm)")),
-    seed = as.numeric(str_extract(file, "(?<=seed_)(.*)(?=/results)"))
-  ) %>%
+all_results <- bind_rows(
+  dir_ls("data/results/simulation-results/final/", regexp = "*/results.csv", recurse = TRUE) %>%
+    map_df(read_csv, .id = "file") %>%
+    mutate(
+      givenness_template = as.numeric(str_extract(file, "(?<=givenness_template_)(.*)(?=/smolm)")),
+      seed = as.numeric(str_extract(file, "(?<=seed_)(.*)(?=/results)"))
+    ),
+  dir_ls("data/results/simulation-results/final-2arg/", regexp = "*/results.csv", recurse = TRUE) %>%
+    map_df(read_csv, .id = "file") %>%
+    mutate(
+      givenness_template = as.numeric(str_extract(file, "(?<=givenness_template_)(.*)(?=/smolm)")),
+      seed = as.numeric(str_extract(file, "(?<=seed_)(.*)(?=/results)"))
+    ) 
+) %>%
   inner_join(adaptation) %>%
   # filter(theme_pronominality != recipient_pronominality & theme_animacy != recipient_animacy & theme_definiteness != recipient_definiteness) %>%
   mutate(
@@ -53,18 +68,18 @@ all_results <- dir_ls("data/results/simulation-results/final/", regexp = "*/resu
     seed = factor(seed)
   )
 
-all_results %>%
-  pivot_longer(do:pp, names_to = "gen_dative", values_to = "score") %>%
-  filter(gen_dative != dative) %>%
-  mutate(
-    exp = glue("{dative} -> {gen_dative}"),
-    length_diff = case_when(
-      dative == "pp" ~ -1 * length_diff,
-      TRUE ~ length_diff
-    )
-  ) %>%
-  select(-file) %>% 
-  write_csv("data/results/final_results_250716.csv")
+# all_results %>%
+#   pivot_longer(do:pp, names_to = "gen_dative", values_to = "score") %>%
+#   filter(gen_dative != dative) %>%
+#   mutate(
+#     exp = glue("{dative} -> {gen_dative}"),
+#     length_diff = case_when(
+#       dative == "pp" ~ -1 * length_diff,
+#       TRUE ~ length_diff
+#     )
+#   ) %>%
+#   select(-file) %>% 
+#   write_csv("data/results/final_results_250716.csv")
 
 invert <- function(x) {
   stopifnot(x %in% c(0,1))
@@ -318,5 +333,5 @@ haaps %>%pivot_longer(do:pp, names_to = "gen_dative", values_to = "score") %>%
   ) %>%
   ggplot(aes(metric, score)) +
   geom_point() +
-  geom_smooth() +
+  geom_smooth(method = "lm") +
   facet_grid(givenness_template~exp)

@@ -1,6 +1,7 @@
 library(tidyverse)
 library(patchwork)
 library(fs)
+library(ggtext)
 
 ours = "smolm-aochildes-vocab_8192-layers_8-attn_8-hidden_256-inter_1024-lr_1e-3-seed_1024"
 
@@ -146,10 +147,120 @@ nabanana_overall_plot <- nabanana_results %>%
     shape = "Model"
   )
 
-layout <-"ABB
-ABB"
-combined <- zorro_overall_plot + nabanana_overall_plot & theme(legend.position = "top") 
+nabanana_joint_plot <- nabanana_results %>%
+  group_by(model, dative, behavior) %>%
+  summarize(
+    diff = mean(diff)
+  ) %>%
+  pivot_wider(names_from = behavior, values_from = diff) %>%
+  mutate(
+    diff_diff = naba - nana
+  ) %>%
+  select(-naba, -nana) %>%
+  pivot_wider(names_from = dative, values_from = diff_diff) %>%
+  mutate(
+    prod = do * pp
+  ) %>%
+  ungroup() %>%
+  mutate(
+    version = case_when(
+      model == ours ~ "Final",
+      TRUE ~ "Other"
+    )
+  ) %>%
+  ggplot(aes(x = "Joint (DO and PO)", prod, color = version, fill = version, shape = version, group = model)) +
+  # geom_point(size = 2.5, alpha = 0.8) +
+  geom_line(show.legend = FALSE) +
+  geom_point(position = position_jitter(seed = 42, width = 0.1), size = 2.5, alpha = 0.8) +
+  geom_hline(yintercept = 0.0, linetype = "dashed") +
+  scale_color_manual(values = c("#0868ac","#bdbdbd"), aesthetics = c("color", "fill")) +
+  scale_shape_manual(values = c(23, 21)) +
+  scale_y_continuous(limits = c(-0.1, 0.2)) +
+  theme_bw(base_size = 16, base_family = "Times") +
+  theme(
+    axis.text = element_text(color = "black"),
+    axis.text.x = element_markdown(color = "black"),
+    panel.grid = element_blank(),
+    legend.position = "top",
+    axis.title.x = element_blank(),
+  ) +
+  labs(
+    y = "Preference Difference\n(NABA - NANA)",
+    color = "Model",
+    fill = "Model",
+    shape = "Model"
+  )
+
+layout <-"ABBC
+ABBC"
+combined <- zorro_overall_plot + nabanana_overall_plot + nabanana_joint_plot & theme(legend.position = "top") 
 combined + plot_layout(guides = "collect", design=layout)
+
+# final LMs
+
+nabanana_final_results <- fs::dir_ls("data/nabanana/final/", regexp = "*.csv") %>%
+  map_df(read_csv, .id = "model") %>%
+  mutate(
+    seed = as.integer(str_extract(model, "(?<=seed_)(.*)(?=\\.csv)")),
+    model = str_extract(model, "(?<=data/nabanana/final/)(.*)(?=\\.csv)")
+  ) %>%
+  filter(seed %in% c(1709, 1024, 42, 211, 2409)) %>%
+  inner_join(nabananas) %>%
+  separate(verb_type, into = c("behavior", "dative"), sep = "-") %>%
+  mutate(
+    behavior = case_when(
+      verb == "carried" ~ "nana",
+      TRUE ~ behavior
+    ),
+    diff = case_when(
+      dative=="do" ~ pp_score - do_score,
+      TRUE ~ do_score - pp_score
+    )
+  ) %>%
+  filter(!verb %in% remove_list)
+
+nabanana_final_results %>%
+  # group_by(seed, dative, behavior) %>%
+  group_by(dative) %>%
+  mutate(
+    diff = scale(diff)
+  ) %>%
+  ungroup() %>%
+  group_by(dative, behavior) %>%
+  summarize(
+    n = n(),
+    sd = sd(diff),
+    conf = qt(1 - (0.05/2), n - 1) * sd/sqrt(n),
+    diff = mean(diff)
+  ) %>%
+  ungroup() %>%
+  mutate(
+    dative = glue::glue("{str_to_upper(dative)} verbs"),
+    behavior = str_to_upper(behavior),
+    behavior_val = case_when(
+      dative == "DO verbs" & behavior == "NABA" ~ glue("{behavior}\n(e.g., assign)"),
+      dative == "DO verbs" & behavior == "NANA" ~ glue("{behavior}\n(e.g., cost)"),
+      dative == "PP verbs" & behavior == "NABA" ~ glue("{behavior}\n(e.g., kick)"),
+      dative == "PP verbs" & behavior == "NANA" ~ glue("{behavior}\n(e.g., explain)")
+    )
+  ) %>%
+  ggplot(aes(behavior_val, diff)) +
+  geom_line() +
+  geom_point(size = 2.5) +
+  geom_linerange(aes(ymin = diff-conf, ymax = diff + conf)) +
+  scale_y_continuous(breaks = scales::pretty_breaks()) +
+  facet_wrap(~dative, scales = "free") +
+  theme_bw(base_size = 16, base_family = "Times") +
+  theme(
+    axis.text = element_text(color = "black"),
+    axis.text.x = element_markdown(color = "black"),
+    panel.grid = element_blank(),
+    legend.position = "top"
+  ) +
+  labs(
+    x = "Alternation Class",
+    y = "Alternation Behavior\n(z-scored)"
+  )
 
 # nabanana_results %>%
 #   group_by(model, dative, behavior) %>%
