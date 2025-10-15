@@ -9,8 +9,8 @@ do
             --model kanishka/smolm-aochildes-vocab_8192-layers_8-attn_8-hidden_256-inter_1024-lr_1e-3-seed_${seed} \
             --validation data/experiments/verbhood.json \
             --generalization data/experiments/generalization.jsonl \
-            --training data/experiments/final/givenness_template_${template}.jsonl \
+            --training data/experiments/final-2arg/givenness_template_${template}.jsonl \
             --experiment_name givenness_template_${template} \
-            --results_dir data/results/simulation-results/final/
+            --results_dir data/results/simulation-results/final-2arg/
     done
 done
