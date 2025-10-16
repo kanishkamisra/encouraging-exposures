@@ -153,6 +153,10 @@ haaps <- all_results %>%
     # recipient_pronominality = invert(recipient_pronominality),
     # recipient_definiteness = invert(recipient_definiteness),
     # recipient_givenness = invert(recipient_givenness),
+    # theme_pronominality = invert(theme_pronominality),
+    # theme_definiteness = invert(theme_definiteness),
+    # theme_givenness = invert(theme_givenness),
+    # theme_animacy = invert(theme_animacy),
     haap_theme = theme_pronominality + theme_animacy + theme_definiteness + theme_givenness,
     haap_recipient = recipient_pronominality + recipient_animacy + recipient_definiteness + recipient_givenness,
     haap_nolen = haap_theme + haap_recipient,
@@ -164,9 +168,9 @@ haaps <- all_results %>%
     ap = theme_animacy + recipient_animacy
   )
 
-haaps %>%
-  count(dative, haap_nolen) %>%
-  pivot_wider(names_from = dative, values_from = n)
+# haaps %>%
+#   count(dative, haap_nolen) %>%
+#   pivot_wider(names_from = dative, values_from = n)
 
 haaps %>%
   filter(givenness_template == 2, seed == 211) %>%

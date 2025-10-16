@@ -249,13 +249,13 @@ reg_data <- all_results %>%
     ),
     theme_givenness = case_when(
       # template %in% c("agent-only", "agent-recipient") ~ 0,
-      theme_givenness == "given" ~ 1,
-      TRUE ~ 0
+      theme_givenness == "given" ~ 0.5,
+      TRUE ~ -0.5
     ),
     recipient_givenness = case_when(
       # template %in% c("agent-only", "agent-theme") ~ 0,
-      recipient_givenness == "given" ~ 1,
-      TRUE ~ 0
+      recipient_givenness == "given" ~ 0.5,
+      TRUE ~ -0.5
     )
   ) 
 # %>%
@@ -265,14 +265,74 @@ reg_data <- all_results %>%
 reg_data %>%
   count(seed, givenness_template)
 
-fit_do_pp <- lmer(pp ~ theme_pronominality * theme_animacy * theme_definiteness +
-                    recipient_pronominality * recipient_animacy * recipient_definiteness +
-                    theme_givenness + recipient_givenness + length_diff +
-                    (1|seed) + (1|givenness_template),
+# options(contrasts=c("contr.sum", "contr.poly"))
+
+fit_do_pp <- lmer(pp ~ theme_pronominality * theme_animacy * theme_definiteness * theme_givenness +
+                    recipient_pronominality * recipient_animacy * recipient_definiteness * recipient_givenness + 
+                    length_diff + (1|seed) + (1|givenness_template),
                   data = reg_data %>%
                     filter(dative == "do"))
 
 summary(fit_do_pp)
+
+fit_pp_do <- lmer(pp ~ theme_pronominality * theme_animacy * theme_definiteness * theme_givenness +
+                    recipient_pronominality * recipient_animacy * recipient_definiteness * recipient_givenness + 
+                    length_diff + (1|seed) + (1|givenness_template),
+                  data = reg_data %>%
+                    filter(dative == "do"))
+
+summary(fit_pp_do)
+
+contrast_coded_results <- all_results %>%
+  mutate(
+    theme_animacy = factor(theme_animacy, levels = c("animate", "inanimate")),
+    recipient_animacy = factor(recipient_animacy, levels = c("animate", "inanimate")),
+    theme_pronominality = factor(theme_pronominality, levels = c("pronoun", "noun")),
+    recipient_pronominality = factor(recipient_pronominality, levels = c("pronoun", "noun")),
+    theme_definiteness = factor(theme_definiteness, levels = c("definite", "indefinite")),
+    recipient_definiteness = factor(recipient_definiteness, levels = c("definite", "indefinite")),
+    theme_givenness = factor(theme_givenness, levels = c("given", "new")),
+    recipient_givenness = factor(recipient_givenness, levels = c("given", "new"))
+  )
+contrasts(contrast_coded_results$theme_animacy) <- "contr.sum"
+contrasts(contrast_coded_results$recipient_animacy) <- "contr.sum"
+contrasts(contrast_coded_results$theme_pronominality) <- "contr.sum"
+contrasts(contrast_coded_results$recipient_pronominality) <- "contr.sum"
+contrasts(contrast_coded_results$theme_definiteness) <- "contr.sum"
+contrasts(contrast_coded_results$recipient_definiteness) <- "contr.sum"
+contrasts(contrast_coded_results$theme_givenness) <- "contr.sum"
+contrasts(contrast_coded_results$recipient_givenness) <- "contr.sum"
+
+fit_do_pp_special <- lmer(pp ~ theme_pronominality * theme_animacy * theme_definiteness +
+                    recipient_pronominality * recipient_animacy * recipient_definiteness +
+                    theme_givenness + recipient_givenness + length_diff +
+                    (1|seed) + (1|givenness_template),
+                  data = contrast_coded_results %>%
+                    filter(dative == "do"))
+
+summary(fit_do_pp_special)
+
+fit_do_pp_relative <- lmer(pp ~ theme_pronominality * theme_animacy * theme_definiteness * theme_givenness +
+                             recipient_pronominality * recipient_animacy * recipient_definiteness * recipient_givenness + 
+                             length_diff + (1|seed) + (1|givenness_template),
+                           data = contrast_coded_results %>%
+                             filter(dative == "do"))
+
+summary(fit_do_pp_relative)
+
+fit_pp_do_relative <- lmer(do ~ theme_pronominality * theme_animacy * theme_definiteness * theme_givenness +
+                             recipient_pronominality * recipient_animacy * recipient_definiteness * recipient_givenness + 
+                             length_diff + (1|seed) + (1|givenness_template),
+                          data = contrast_coded_results %>%
+                            filter(dative == "pp") %>% mutate(length_diff = -1 * length_diff))
+
+summary(fit_pp_do_relative)
+# car::Anova(fit_do_pp_special, type = 'III')
+car::Anova(fit_do_pp_special, type = 3, test.statistic = "F")
+
+emm <- emmeans(fit_do_pp_special, ~ recipient_pronominality + recipient_animacy | recipient_definiteness)
+simple_effects <- pairs(emm, by = "recipient_definiteness", adjust = "Tukey")
+summary(simple_effects)
 
 emmip(fit_do_pp, recipient_pronominality ~ recipient_definiteness | recipient_animacy, CIs = TRUE, plotit = FALSE) %>%
   as_tibble() %>%
@@ -420,6 +480,7 @@ emmip(fit_pp_do, recipient_pronominality ~ recipient_definiteness, CIs = TRUE, p
     linetype = "Recipient Pronominality"
   )
 
+
 emmip(fit_pp_do, theme_pronominality ~ theme_definiteness | theme_animacy, CIs = TRUE, plotit = FALSE) %>%
   as_tibble() %>%
   mutate(
@@ -450,7 +511,7 @@ emmip(fit_pp_do, theme_pronominality ~ theme_definiteness | theme_animacy, CIs =
     shape = "Theme Pronominality",
     linetype = "Theme Pronominality"
   )
-emmip(fit_pp_do, ~ theme_givenness, CIs = TRUE)
+emmip(fit_do_pp, ~ theme_givenness, CIs = TRUE)
 
 
 all_results %>%
