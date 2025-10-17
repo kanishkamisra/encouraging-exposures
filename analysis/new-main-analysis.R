@@ -91,6 +91,10 @@ adaptation <- bind_rows(
   )
 )
 
+adaptation %>% 
+  filter(givenness_template==1) %>%
+  write_csv("data/experiments/final-adaptation-25-10-16.csv")
+
 adaptation %>% count(template)
 
 all_results <- bind_rows(
