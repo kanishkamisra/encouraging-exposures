@@ -8,7 +8,7 @@ model_results <- read_csv("data/results/simulation-results/final-results-25-10-1
   select(-file) %>%
   select(idx, seed, givenness_template, dative, do, pp)
 
-multiverse2 <- fs::dir_ls("data/results/simulation-results/haap-25-10-18/") %>%
+multiverse <- fs::dir_ls("data/results/simulation-results/haap-25-10-18/") %>%
   map_df(read_csv, .id = "file") %>%
   inner_join(model_results) %>%
   mutate(
@@ -25,19 +25,20 @@ multiverse2 <- fs::dir_ls("data/results/simulation-results/haap-25-10-18/") %>%
     code_score_recipient = case_when(haap_recipient_multiplier ==-1 ~ 4-code_score_recipient, TRUE ~ code_score_recipient),
     code_score_theme = case_when(haap_theme_multiplier ==-1 ~ 4-code_score_theme, TRUE ~ code_score_theme),
     seed = factor(seed),
-    givenness_template = factor(givenness_template)
+    givenness_template = factor(givenness_template),
+    item = factor(item)
   )
 
-code2haap2 <- multiverse2 %>% 
+code2haap <- multiverse %>% 
   distinct(code_id, haap_do, haap_po, haap_do_theme, haap_po_theme, haap_do_recipient, haap_po_recipient, haap_multiplier, haap_theme_multiplier, haap_recipient_multiplier)
 
-fits_do2 <- multiverse2 %>%
+fits_do <- multiverse %>%
   filter(dative == "do") %>%
   group_by(code_id) %>%
   nest() %>%
   mutate(
     fit = map(data, function(x){
-      fitted <- lmer(pp ~ code_score_recipient + code_score_theme + length_score + (1|seed) + (1|givenness_template), data = x)
+      lmer(pp ~ code_score_recipient + code_score_theme + length_score + (1|seed) + (1|givenness_template), data = x)
     }),
     glanced = map(fit, function(x){
       broom.mixed::glance(x)
@@ -47,13 +48,13 @@ fits_do2 <- multiverse2 %>%
     })
   )
 
-fits_pp2 <- multiverse2 %>%
+fits_pp <- multiverse %>%
   filter(dative == "pp") %>%
   group_by(code_id) %>%
   nest() %>%
   mutate(
     fit = map(data, function(x){
-      fitted <- lmer(do ~ code_score_recipient + code_score_theme + length_score + (1|seed) + (1|givenness_template), data = x)
+      lmer(do ~ code_score_recipient + code_score_theme + length_score + (1|seed) + (1|givenness_template), data = x)
     }),
     glanced = map(fit, function(x){
       broom.mixed::glance(x)
@@ -63,21 +64,21 @@ fits_pp2 <- multiverse2 %>%
     })
   )
 
-fit.do.null <- lmer(pp ~ 1 + (1|seed) + (1|givenness_template), data = multiverse2 %>% filter(dative == "do", code_id == 0))
+fit.do.null <- lmer(pp ~ 1 + (1|seed) + (1|givenness_template), data = multiverse %>% filter(dative == "do", code_id == 0))
 null_do <- broom.mixed::glance(fit.do.null)
 
-fit.pp.null <- lmer(do ~ 1 + (1|seed) + (1|givenness_template), data = multiverse2 %>% filter(dative == "pp", code_id == 0))
+fit.pp.null <- lmer(do ~ 1 + (1|seed) + (1|givenness_template), data = multiverse %>% filter(dative == "pp", code_id == 0))
 null_pp <- broom.mixed::glance(fit.pp.null)
 
-fits_do2 %>% 
+fits_do %>% 
   select(-data, -glanced) %>% 
   unnest(tidied) %>% 
-  inner_join(code2haap2) %>% View()
+  inner_join(code2haap) %>% View()
 
-pp_fit <- fits_pp2 %>% 
+pp_fit <- fits_pp %>% 
   select(-data, -fit, -tidied) %>% 
   unnest(glanced) %>% 
-  inner_join(code2haap2)
+  inner_join(code2haap)
 
 pp_fit %>%
   mutate(
@@ -101,10 +102,10 @@ pp_fit %>%
   ) +
   labs(x = "Code ID", y = "&Delta;LogLik")
 
-do_fit <- fits_do2 %>% 
+do_fit <- fits_do %>% 
   select(-data, -fit, -tidied) %>% 
   unnest(glanced) %>% 
-  inner_join(code2haap2)
+  inner_join(code2haap)
 
 do_fit%>%
   mutate(
@@ -129,11 +130,11 @@ do_fit%>%
   labs(x = "Code ID", y = "&Delta;LogLik")
 
 
-fits_pp2 %>% 
+fits_pp %>% 
   select(-data, -fit, -glanced) %>% 
   unnest(tidied) %>% 
   filter(effect == "fixed", term != "(Intercept)") %>%
-  inner_join(code2haap2) %>%
+  inner_join(code2haap) %>%
   ungroup() %>%
   mutate(
     coding = case_when(
@@ -158,11 +159,11 @@ fits_pp2 %>%
     legend.position = "top"
   )
 
-fits_do2 %>% 
+fits_do %>% 
   select(-data, -fit, -glanced) %>% 
   unnest(tidied) %>% 
   filter(effect == "fixed", term != "(Intercept)") %>%
-  inner_join(code2haap2) %>%
+  inner_join(code2haap) %>%
   ungroup() %>%
   mutate(
     coding = case_when(
