@@ -35,7 +35,7 @@ arunachalam <- dir_ls("data/results/simulation-results/arunachalam-final/", rege
   filter(seed %in% seeds) %>%
   # filter(theme_pronominality != recipient_pronominality & theme_animacy != recipient_animacy & theme_definiteness != recipient_definiteness) %>%
   mutate(
-    seed = factor(seed),
+    seed = factor(seed, levels = c(42, 211, 2409, 1709, 1024)),
   ) %>%
   pivot_longer(do:pp, names_to = "generalization_dative", values_to = "logprob") %>%
   filter(generalization_dative == "do") %>%
@@ -47,7 +47,7 @@ arunachalam <- dir_ls("data/results/simulation-results/arunachalam-final/", rege
   )
 
 arunachalam  %>%
-  group_by(dative, givenness_order) %>%
+  group_by(dative, seed, givenness_order) %>%
   summarize(
     n = n(),
     sd = sd(logprob),
@@ -55,11 +55,21 @@ arunachalam  %>%
     diff = mean(logprob)
   ) %>%
   ungroup() %>%
-  ggplot(aes(dative, diff)) +
+  mutate(
+    givenness_order = case_when(
+      givenness_order == "recipient_theme" ~ "Recipient before Theme",
+      TRUE ~ "Theme before Recipient"
+    )
+  ) %>%
+  ggplot(aes(dative, diff, group = seed, color = seed)) +
   geom_point(size = 2.5) +
+  geom_line() +
   geom_linerange(aes(ymin = diff-conf, ymax = diff+conf)) +
   facet_wrap(~givenness_order) +
-  theme_bw(base_size = 16, base_family = "Times") +
+  scale_color_manual(values = c("#648FFF", "#785EF0", "#DC267F", "#FE6100", "#FFB000"), aesthetics = c("color", "fill")) +
+  scale_shape_manual(values = c(21,22,23,24,25)) +
+  # scale_y_continuous(limits = c(-7, -5)) +
+  theme_bw(base_size = 16, base_family = "Helvetica") +
   theme(
     legend.position = "None",
     panel.grid = element_blank()
@@ -94,12 +104,13 @@ arunachalam  %>%
     logprob = mean(logprob)
   ) %>%
   ggplot(aes(theme_animacy, logprob)) +
-  geom_point() +
+  geom_point(size = 2) +
   geom_linerange(aes(ymin = logprob-conf, ymax=logprob+conf))+
   # facet_grid(seed~dative) +
   facet_wrap(~dative) +
   # facet_grid(givenness_order ~ dative) +
-  theme_bw(base_size = 16, base_family = "Times") +
+  scale_y_continuous(limits = c(-7, -5.5)) +
+  theme_bw(base_size = 16, base_family = "Helvetica") +
   theme(
     legend.position = "None",
     panel.grid = element_blank()

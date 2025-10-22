@@ -9,11 +9,7 @@ library(emmeans)
 library(broom.mixed)
 library(DT)
 library(ggdist)
-
-glue("data/experiments/givenness_template_1.jsonl") %>% 
-  file() %>%
-  stream_in() %>% 
-  as_tibble()
+library(gridtext)
 
 # read_adaptation <- function(template_num) {
 #   
@@ -91,9 +87,9 @@ adaptation <- bind_rows(
   )
 )
 
-adaptation %>% 
-  filter(givenness_template==1) %>%
-  write_csv("data/experiments/final-adaptation-25-10-16.csv")
+# adaptation %>% 
+#   filter(givenness_template==1) %>%
+#   write_csv("data/experiments/final-adaptation-25-10-16.csv")
 
 adaptation %>% count(template)
 
@@ -140,21 +136,29 @@ all_results %>%
     )
   ) %>%
   mutate(
-    exp = glue("{dative} -> {gen_dative}"),
+    exp = glue("{dative} to {gen_dative}"),
+    seed = factor(seed, levels = c(42, 211, 2409, 1709, 1024))
   ) %>%
-  ggplot(aes(exp, score, shape = givenness_template, color = seed)) +
+  ggplot(aes(exp, score, shape = seed, color = seed, fill = seed)) +
   geom_point(size = 2) +
   geom_line(aes(group =  interaction(seed, givenness_template))) +
   geom_linerange(aes(ymin = score-cb, ymax = score+cb)) +
+  # geom_ribbon(aes(ymin = score-cb, ymax = score+cb, group =  interaction(seed, givenness_template)), color = NA, alpha = 0.2) +
   facet_wrap(~givenness_template) +
-  theme_bw(base_size = 16, base_family = "Times") +
+  # scale_color_brewer(palette = "Dark2", aesthetics = c("color", "fill")) +
+  scale_color_manual(values = c("#648FFF", "#785EF0", "#DC267F", "#FE6100", "#FFB000"), aesthetics = c("color", "fill")) +
+  scale_shape_manual(values = c(21,22,23,24,25)) +
+  scale_y_continuous(limits = c(-6.4, -5.4)) +
+  theme_bw(base_size = 16, base_family = "Helvetica") +
   theme(
     legend.position = "None",
-    panel.grid = element_blank()
+    panel.grid = element_blank(),
+    # axis.text = element_markdown(color = "black")
+    axis.text = element_text(color = "black")
   ) +
   labs(
     x = "Experiment",
-    y = "Generalization Score"
+    y = "Avg. Log Prob on\nGeneralization Set"
   )
 
 all_results %>%

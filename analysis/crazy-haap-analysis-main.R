@@ -70,6 +70,7 @@ null_do <- broom.mixed::glance(fit.do.null)
 fit.pp.null <- lmer(do ~ 1 + (1|seed) + (1|givenness_template), data = multiverse %>% filter(dative == "pp", code_id == 0))
 null_pp <- broom.mixed::glance(fit.pp.null)
 
+10
 fits_do %>% 
   select(-data, -glanced) %>% 
   unnest(tidied) %>% 
