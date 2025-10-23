@@ -63,10 +63,10 @@ zorro_overall_plot <- zorro_raw_results %>%
   ggplot(aes(x = "Overall", y = accuracy, color = version, fill = version, shape = version)) +
   geom_point(position = position_jitter(seed = 42, width = 0.1), size = 2.5, alpha = 0.8) +
   geom_hline(yintercept = 0.5, linetype = "dashed") +
-  scale_y_continuous(limit = c(0.5, 0.8), breaks = scales::pretty_breaks()) +
+  scale_y_continuous(limit = c(0.5, 0.8), breaks = scales::pretty_breaks(), labels = scales::percent_format()) +
   scale_color_manual(values = c("#0868ac","#bdbdbd"), aesthetics = c("color", "fill")) +
   scale_shape_manual(values = c(23, 21)) +
-  theme_bw(base_size = 16, base_family = "Times") +
+  theme_bw(base_size = 16, base_family = "Helvetica") +
   theme(
     axis.title.x = element_blank(),
     panel.grid = element_blank(),
@@ -80,6 +80,7 @@ zorro_overall_plot <- zorro_raw_results %>%
   )
 
 #451x308
+zorro_overall_plot
 
 nabananas <- read_csv("data/naba-nana-sentences-240428.csv")
 
@@ -133,15 +134,16 @@ nabanana_overall_plot <- nabanana_results %>%
   scale_color_manual(values = c("#0868ac","#bdbdbd"), aesthetics = c("color", "fill")) +
   scale_shape_manual(values = c(23, 21)) +
   scale_y_continuous(limits = c(-0.25, 0.5)) +
-  theme_bw(base_size = 16, base_family = "Times") +
+  theme_bw(base_size = 16, base_family = "Helvetica") +
   theme(
     axis.text = element_text(color = "black"),
+    axis.title = element_markdown(color = "black"),
     panel.grid = element_blank(),
     legend.position = "top"
   ) +
   labs(
     x = "Dative",
-    y = "Preference Difference\n(NABA - NANA)",
+    y = "&Delta;Alternation-Preference<br>(NABA - NANA)",
     color = "Model",
     fill = "Model",
     shape = "Model"
@@ -176,16 +178,16 @@ nabanana_joint_plot <- nabanana_results %>%
   scale_color_manual(values = c("#0868ac","#bdbdbd"), aesthetics = c("color", "fill")) +
   scale_shape_manual(values = c(23, 21)) +
   scale_y_continuous(limits = c(-0.1, 0.2)) +
-  theme_bw(base_size = 16, base_family = "Times") +
+  theme_bw(base_size = 16, base_family = "Helvetica") +
   theme(
     axis.text = element_text(color = "black"),
-    axis.text.x = element_markdown(color = "black"),
+    axis.title = element_markdown(color = "black"),
     panel.grid = element_blank(),
     legend.position = "top",
     axis.title.x = element_blank(),
   ) +
   labs(
-    y = "Preference Difference\n(NABA - NANA)",
+    y = "&Delta;Alternation-Preference<br>(NABA - NANA)",
     color = "Model",
     fill = "Model",
     shape = "Model"
@@ -227,6 +229,7 @@ nabanana_final_results %>%
   ) %>%
   ungroup() %>%
   group_by(dative, behavior) %>%
+  # group_by(seed, dative, behavior) %>%
   summarize(
     n = n(),
     sd = sd(diff),
@@ -238,10 +241,10 @@ nabanana_final_results %>%
     dative = glue::glue("{str_to_upper(dative)} verbs"),
     behavior = str_to_upper(behavior),
     behavior_val = case_when(
-      dative == "DO verbs" & behavior == "NABA" ~ glue("{behavior}\n(e.g., assign)"),
-      dative == "DO verbs" & behavior == "NANA" ~ glue("{behavior}\n(e.g., cost)"),
-      dative == "PP verbs" & behavior == "NABA" ~ glue("{behavior}\n(e.g., kick)"),
-      dative == "PP verbs" & behavior == "NANA" ~ glue("{behavior}\n(e.g., explain)")
+      dative == "DO verbs" & behavior == "NABA" ~ glue("{behavior}<br>(e.g., assign)"),
+      dative == "DO verbs" & behavior == "NANA" ~ glue("{behavior}<br>(e.g., cost)"),
+      dative == "PP verbs" & behavior == "NABA" ~ glue("{behavior}<br>(e.g., kick)"),
+      dative == "PP verbs" & behavior == "NANA" ~ glue("{behavior}<br>(e.g., explain)")
     )
   ) %>%
   ggplot(aes(behavior_val, diff)) +
@@ -250,7 +253,7 @@ nabanana_final_results %>%
   geom_linerange(aes(ymin = diff-conf, ymax = diff + conf)) +
   scale_y_continuous(breaks = scales::pretty_breaks()) +
   facet_wrap(~dative, scales = "free") +
-  theme_bw(base_size = 16, base_family = "Times") +
+  theme_bw(base_size = 16, base_family = "Helvetica") +
   theme(
     axis.text = element_text(color = "black"),
     axis.text.x = element_markdown(color = "black"),
@@ -259,7 +262,8 @@ nabanana_final_results %>%
   ) +
   labs(
     x = "Alternation Class",
-    y = "Alternation Behavior\n(z-scored)"
+    # y = "Alternation Behavior\n(z-scored)"
+    y = "Avg. Log Prob of\nAlternate Usage (z-scored)"
   )
 
 # nabanana_results %>%
