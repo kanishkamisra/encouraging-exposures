@@ -113,7 +113,8 @@ arunachalam  %>%
   theme_bw(base_size = 16, base_family = "Helvetica") +
   theme(
     legend.position = "None",
-    panel.grid = element_blank()
+    panel.grid = element_blank(),
+    axis.text=element_text(color = "black")
   ) +
   labs(
     # y = "Logprob of DO (generalization)"
