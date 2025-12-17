@@ -276,4 +276,53 @@ fits_do %>%
   )
 
 
-
+fits_do %>% 
+  select(-data, -fit, -glanced) %>% 
+  unnest(tidied) %>% 
+  filter(effect == "fixed", term != "(Intercept)") %>%
+  inner_join(code2haap) %>%
+  ungroup() %>%
+  mutate(
+    coding = case_when(
+      haap_do == TRUE ~ "HAAP-Both",
+      haap_do_theme == TRUE ~ "HAAP-Theme",
+      haap_do_recipient == TRUE ~ "HAAP-Recip",
+      TRUE ~ "Other"
+    )
+  ) %>%
+  filter(coding %in% c("HAAP-Recip", "HAAP-Both")) %>%
+  mutate(
+    type = case_when(
+      coding == "HAAP-Recip" ~ "HAAP-Recip",
+      TRUE ~ "HAAP-Both"
+    ),
+    term = case_when(
+      term == "length_score" ~ "&Delta;Length",
+      term == "code_score_theme" ~ "Theme",
+      term == "code_score_recipient" ~ "Recipient",
+    ),
+    term = factor(term, levels = rev(c("&Delta;Length", "Theme", "Recipient")))
+  ) %>%
+  ggplot(aes(estimate, term, color=type, shape = type, fill = type)) +
+  # ggplot(aes(estimate, term, color = coding)) +
+  geom_point(size = 2, position = position_jitter(height = 0.1, width = 0.01, seed = 1024)) +
+  geom_vline(xintercept = 0.0, linetype = "dashed") +
+  scale_shape_manual(values = c(23, 21)) +
+  scale_color_manual(
+    # values = c("#d95f02", "#e6ab02", "#CC79A7",  "#1f78b4", "#7570b3", "#1b9e77", "darkgrey"),
+    values = c("#d95f02", "#1f78b4"),
+    aesthetics = c("color", "fill")
+  ) +
+  theme_bw(base_size = 16, base_family = "Helvetica") +
+  theme(
+    legend.position = "top",
+    panel.grid = element_blank(),
+    axis.text.y = element_markdown(color = "black")
+  ) +
+  labs(
+    x = "Estimate",
+    y = "Term",
+    color = "Coding",
+    fill = "Coding",
+    shape = "Coding"
+  )

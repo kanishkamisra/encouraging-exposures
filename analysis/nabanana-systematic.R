@@ -22,8 +22,8 @@ nabanana_results <- fs::dir_ls("data/nabanana/systematic-search/", regexp = "*.c
       TRUE ~ behavior
     ),
     diff = case_when(
-      dative=="do" ~ pp_score - do_score,
-      TRUE ~ do_score - pp_score
+      dative=="do" ~ do_score - pp_score,
+      TRUE ~ pp_score - do_score
     )
   ) %>%
   filter(!verb %in% remove_list)
@@ -36,7 +36,7 @@ nabanana_results %>%
     conf = qt(1 - (0.05/2), n - 1) * sd/sqrt(n),
     diff = mean(diff)
   ) %>%
-  ungroup() %>% View()
+  ungroup() %>%
   mutate(
     version = case_when(
       model == ours ~ "Final",
@@ -55,8 +55,8 @@ nabanana_results %>%
   ) %>%
   pivot_wider(names_from = behavior, values_from = diff) %>%
   mutate(
-    diff_diff = naba - nana
-  ) %>% View()
+    diff_diff = nana - naba
+  ) %>% 
   select(-naba, -nana) %>%
   ungroup() %>%
   mutate(
@@ -81,7 +81,7 @@ nabanana_results %>%
   ) +
   labs(
     x = "Dative",
-    y = "Preference Difference\n(NABA - NANA)",
+    y = "Preference Difference\n(NANA - NABA)",
     color = "Model"
   )
   # pivot_wider(names_from = dative, values_from = diff_diff) %>%

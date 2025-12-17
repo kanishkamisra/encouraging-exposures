@@ -72,17 +72,87 @@ arunachalam  %>%
   theme_bw(base_size = 16, base_family = "Helvetica") +
   theme(
     legend.position = "None",
-    panel.grid = element_blank()
+    panel.grid = element_blank(),
   ) +
   labs(
     x = "Exposure Dative",
     y = "Avg. DO Log Prob\non Generalization Set"
   )
 
+# width 637, height 339
+
+arunachalam  %>%
+  group_by(dative, givenness_order) %>%
+  summarize(
+    n = n(),
+    sd = sd(logprob),
+    conf = qt(1 - (0.05/2), n - 1) * sd/sqrt(n),
+    diff = mean(logprob)
+  ) %>%
+  ungroup() %>%
+  mutate(
+    givenness_order = case_when(
+      givenness_order == "recipient_theme" ~ "Recipient before Theme",
+      TRUE ~ "Theme before Recipient"
+    )
+  ) %>%
+  ggplot(aes(dative, diff)) +
+  geom_point(size = 2.5) +
+  geom_line() +
+  geom_linerange(aes(ymin = diff-conf, ymax = diff+conf)) +
+  facet_wrap(~givenness_order) +
+  scale_y_continuous(limits = c(-7, -5.5)) +
+  theme_bw(base_size = 16, base_family = "Helvetica") +
+  theme(
+    legend.position = "None",
+    panel.grid = element_blank(),
+  ) +
+  labs(
+    x = "Exposure Dative",
+    y = "Avg. DO Log Prob\non Generalization Set"
+  )
+
+##
+
+arunachalam  %>%
+  mutate(
+    givenness_order = case_when(
+      givenness_order == "recipient_theme" ~ "Recipient before Theme",
+      TRUE ~ "Theme before Recipient"
+    )
+  ) %>%
+  ggplot(aes(dative, logprob)) +
+  geom_boxplot() +
+  # geom_point(size = 2.5) +
+  # geom_line() +
+  # geom_linerange(aes(ymin = diff-conf, ymax = diff+conf)) +
+  facet_wrap(~givenness_order) +
+  # scale_y_continuous(limits = c(-7, -5.5)) +
+  theme_bw(base_size = 16, base_family = "Helvetica") +
+  theme(
+    legend.position = "None",
+    panel.grid = element_blank(),
+  ) +
+  labs(
+    x = "Exposure Dative",
+    y = "Avg. DO Log Prob\non Generalization Set"
+  )
+
+arunachalam  %>%
+  mutate(
+    givenness_order = case_when(
+      givenness_order == "recipient_theme" ~ "Recipient before Theme",
+      TRUE ~ "Theme before Recipient"
+    )
+  ) %>%
+  ggplot(aes(logprob, color = dative, fill = dative)) +
+  geom_histogram(alpha = 0.2) +
+  facet_wrap(~givenness_order, nrow=2)
+
 reg_data <- arunachalam %>%
   mutate(
     dative = case_when(
-      dative == "pp" ~ 1,
+      dative == "PO" ~ 1,
       TRUE ~ 0
     ),
     theme_animacy = case_when(
@@ -92,24 +162,30 @@ reg_data <- arunachalam %>%
     givenness_order = factor(givenness_order)
   )
 
-fit_arunachalam <- lmer(logprob ~ dative * theme_animacy + (1 | seed) + (1 | givenness_order), data = reg_data)
+fit_arunachalam <- lmer(logprob ~ dative + (dative | seed) + (dative | givenness_order), data = reg_data)
 summary(fit_arunachalam)
 
+fit_theme <- lmer(logprob ~ theme_animacy + (theme_animacy|seed) + (theme_animacy | givenness_order), data = reg_data %>% filter(dative == 0))
+summary(fit_theme)
+
 arunachalam  %>%
-  group_by(dative, theme_animacy) %>%
+  group_by(dative, seed, theme_animacy) %>%
   summarize(
     n = n(),
     sd = sd(logprob),
     conf = qt(1 - (0.05/2), n - 1) * sd/sqrt(n),
     logprob = mean(logprob)
   ) %>%
+  ungroup() %>%
+  filter(dative == "DO") %>%
   ggplot(aes(theme_animacy, logprob)) +
   geom_point(size = 2) +
+  geom_line(aes(group = seed)) +
   geom_linerange(aes(ymin = logprob-conf, ymax=logprob+conf))+
   # facet_grid(seed~dative) +
-  facet_wrap(~dative) +
+  # facet_wrap(~dative) +
   # facet_grid(givenness_order ~ dative) +
-  scale_y_continuous(limits = c(-7, -5.5)) +
+  # scale_y_continuous(limits = c(-7, -6)) +
   theme_bw(base_size = 16, base_family = "Helvetica") +
   theme(
     legend.position = "None",
@@ -121,3 +197,114 @@ arunachalam  %>%
     x = "Theme Animacy",
     y = "Avg. DO Log Prob\non Generalization Set"
   )
+
+
+arunachalam  %>%
+  filter(dative == "DO") %>%
+  ggplot(aes(logprob, color = theme_animacy, fill = theme_animacy)) +
+  geom_histogram(alpha = 0.2) +
+  # facet_grid(seed~dative) +
+  # facet_wrap(~dative) +
+  # facet_grid(givenness_order ~ dative) +
+  # scale_y_continuous(limits = c(-7, -6)) +
+  theme_bw(base_size = 16, base_family = "Helvetica") +
+  theme(
+    legend.position = "None",
+    panel.grid = element_blank(),
+    axis.text=element_text(color = "black")
+  ) +
+  labs(
+    # y = "Logprob of DO (generalization)"
+    # x = "Theme Animacy",
+    x = "Avg. DO Log Prob\non Generalization Set"
+  )
+
+
+# ---Main Text Plots
+
+arunachalam  %>%
+  # group_by(dative) %>%
+  # summarize(
+  #   n = n(),
+  #   sd = sd(logprob),
+  #   conf = qt(1 - (0.05/2), n - 1) * sd/sqrt(n),
+  #   diff = mean(logprob)
+  # ) %>%
+  # ungroup() %>%
+  ggplot(aes(dative, logprob)) +
+  # geom_point(size = 2.5, ) +
+  geom_point(position = position_jitter(width = 0.2, seed=1024), alpha = 0.05) +
+  geom_boxplot(alpha = 0.2, outliers = FALSE, width = 0.2) +
+  # geom_linerange(aes(ymin = diff-conf, ymax = diff+conf)) +
+  # scale_y_continuous(limits = c(-7, -5.5)) +
+  theme_bw(base_size = 16, base_family = "Helvetica") +
+  theme(
+    legend.position = "None",
+    panel.grid = element_blank(),
+  ) +
+  labs(
+    x = "Exposure Dative",
+    y = "Avg. DO Log Prob\non Generalization Set"
+  )
+
+ggstatsplot::ggbetweenstats(arunachalam, x = dative, y = logprob)
+
+
+arunachalam  %>%
+  group_by(dative) %>%
+  summarize(
+    n = n(),
+    sd = sd(logprob),
+    conf = qt(1 - (0.05/2), n - 1) * sd/sqrt(n),
+    diff = mean(logprob)
+  ) %>%
+  ungroup() %>%
+  ggplot(aes(dative, diff)) +
+  geom_point(size = 2.5) +
+  geom_errorbar(aes(ymin = diff-conf, ymax = diff+conf), width = 0.2) +
+  scale_y_continuous(limits = c(-6.8, -5.6), breaks = scales::pretty_breaks()) +
+  theme_bw(base_size = 18, base_family = "Helvetica") +
+  theme(
+    legend.position = "None",
+    panel.grid = element_blank(),
+    axis.text = element_text(color = "black")
+  ) +
+  labs(
+    x = "Exposure Dative",
+    y = "Avg. DO Log Prob / token\non Generalization Set"
+  )
+
+ggsave("nature-submission/arunachalam-cross-structure.pdf", width = 4.51, height = 5.22, dpi = 300, device=cairo_pdf)
+
+
+arunachalam  %>%
+  group_by(dative, theme_animacy) %>%
+  summarize(
+    n = n(),
+    sd = sd(logprob),
+    conf = qt(1 - (0.05/2), n - 1) * sd/sqrt(n),
+    logprob = mean(logprob)
+  ) %>%
+  ungroup() %>%
+  filter(dative == "DO") %>%
+  ggplot(aes(theme_animacy, logprob)) +
+  geom_point(size = 2) +
+  geom_errorbar(aes(ymin = logprob-conf, ymax=logprob+conf), width = 0.2)+
+  # facet_grid(seed~dative) +
+  # facet_wrap(~dative) +
+  # facet_grid(givenness_order ~ dative) +
+  scale_y_continuous(limits = c(-7, -6.2)) +
+  theme_bw(base_size = 18, base_family = "Helvetica") +
+  theme(
+    legend.position = "None",
+    panel.grid = element_blank(),
+    axis.text=element_text(color = "black")
+  ) +
+  labs(
+    # y = "Logprob of DO (generalization)"
+    x = "Theme Animacy",
+    y = "Avg. DO Log Prob / token\non Generalization Set"
+  )
+
+ggsave("nature-submission/arunachalam-theme-animacy.pdf", width = 4.51, height = 5.22, dpi = 300, device=cairo_pdf)
+

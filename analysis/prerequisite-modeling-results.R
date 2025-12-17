@@ -2,6 +2,7 @@ library(tidyverse)
 library(patchwork)
 library(fs)
 library(ggtext)
+library(glue)
 
 ours = "smolm-aochildes-vocab_8192-layers_8-attn_8-hidden_256-inter_1024-lr_1e-3-seed_1024"
 
@@ -60,20 +61,23 @@ zorro_overall_plot <- zorro_raw_results %>%
     accuracy = mean(accuracy)
   ) %>% 
   ungroup() %>%
+  mutate(
+    version = factor(version, levels = c("Final", "Other"))
+  ) %>%
   ggplot(aes(x = "Overall", y = accuracy, color = version, fill = version, shape = version)) +
   geom_point(position = position_jitter(seed = 42, width = 0.1), size = 2.5, alpha = 0.8) +
   geom_hline(yintercept = 0.5, linetype = "dashed") +
-  scale_y_continuous(limit = c(0.5, 0.8), breaks = scales::pretty_breaks()) +
+  scale_y_continuous(limit = c(0.5, 0.8), breaks = scales::pretty_breaks(), labels = scales::percent_format(suffix = "")) +
   scale_color_manual(values = c("#0868ac","#bdbdbd"), aesthetics = c("color", "fill")) +
   scale_shape_manual(values = c(23, 21)) +
-  theme_bw(base_size = 16, base_family = "Times") +
+  theme_bw(base_size = 18, base_family = "Helvetica") +
   theme(
     axis.title.x = element_blank(),
     panel.grid = element_blank(),
     axis.text = element_text(color = "black")
   ) +
   labs(
-    y = "Zorro Accuracy", 
+    y = "Avg. Zorro Accuracy (in %)", 
     color = "Model",
     fill = "Model",
     shape = "Model"
@@ -133,7 +137,7 @@ nabanana_overall_plot <- nabanana_results %>%
   scale_color_manual(values = c("#0868ac","#bdbdbd"), aesthetics = c("color", "fill")) +
   scale_shape_manual(values = c(23, 21)) +
   scale_y_continuous(limits = c(-0.25, 0.5)) +
-  theme_bw(base_size = 16, base_family = "Times") +
+  theme_bw(base_size = 18, base_family = "Helvetica") +
   theme(
     axis.text = element_text(color = "black"),
     panel.grid = element_blank(),
@@ -141,7 +145,7 @@ nabanana_overall_plot <- nabanana_results %>%
   ) +
   labs(
     x = "Dative",
-    y = "Preference Difference\n(NABA - NANA)",
+    y = "Diff. in Alternation Preference\n(NABA - NANA)",
     color = "Model",
     fill = "Model",
     shape = "Model"
@@ -159,7 +163,7 @@ nabanana_joint_plot <- nabanana_results %>%
   select(-naba, -nana) %>%
   pivot_wider(names_from = dative, values_from = diff_diff) %>%
   mutate(
-    prod = do * pp
+    prod = (do + pp)/2
   ) %>%
   ungroup() %>%
   mutate(
@@ -175,8 +179,8 @@ nabanana_joint_plot <- nabanana_results %>%
   geom_hline(yintercept = 0.0, linetype = "dashed") +
   scale_color_manual(values = c("#0868ac","#bdbdbd"), aesthetics = c("color", "fill")) +
   scale_shape_manual(values = c(23, 21)) +
-  scale_y_continuous(limits = c(-0.1, 0.2)) +
-  theme_bw(base_size = 16, base_family = "Times") +
+  scale_y_continuous(limits = c(-0.1, 0.4)) +
+  theme_bw(base_size = 18, base_family = "Helvetica") +
   theme(
     axis.text = element_text(color = "black"),
     axis.text.x = element_markdown(color = "black"),
@@ -185,7 +189,7 @@ nabanana_joint_plot <- nabanana_results %>%
     axis.title.x = element_blank(),
   ) +
   labs(
-    y = "Preference Difference\n(NABA - NANA)",
+    y = "Diff. in Alternation Preference\n(NABA - NANA)",
     color = "Model",
     fill = "Model",
     shape = "Model"
@@ -195,6 +199,8 @@ layout <-"ABBC
 ABBC"
 combined <- zorro_overall_plot + nabanana_overall_plot + nabanana_joint_plot & theme(legend.position = "top") 
 combined + plot_layout(guides = "collect", design=layout)
+
+ggsave("nature-submission/prereq-selection-results.pdf", width = 10.46, height = 4.92, dpi=300, device=cairo_pdf)
 
 # final LMs
 
@@ -250,7 +256,7 @@ nabanana_final_results %>%
   geom_linerange(aes(ymin = diff-conf, ymax = diff + conf)) +
   scale_y_continuous(breaks = scales::pretty_breaks()) +
   facet_wrap(~dative, scales = "free") +
-  theme_bw(base_size = 16, base_family = "Times") +
+  theme_bw(base_size = 16, base_family = "Helvetica") +
   theme(
     axis.text = element_text(color = "black"),
     axis.text.x = element_markdown(color = "black"),
