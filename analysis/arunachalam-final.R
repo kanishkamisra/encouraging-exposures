@@ -251,6 +251,7 @@ ggstatsplot::ggbetweenstats(arunachalam, x = dative, y = logprob)
 
 
 arunachalam  %>%
+  filter(theme_animacy == "inanimate") %>%
   group_by(dative) %>%
   summarize(
     n = n(),
