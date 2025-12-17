@@ -44,6 +44,8 @@ multiverse %>%
 code2haap <- multiverse %>% 
   distinct(code_id, haap_do, haap_po, haap_do_theme, haap_po_theme, haap_do_recipient, haap_po_recipient, haap_multiplier, haap_theme_multiplier, haap_recipient_multiplier)
 
+code2haap %>% count(haap_do, haap_do_theme, haap_do_recipient) %>% View()
+
 fits_do <- multiverse %>%
   filter(dative == "do") %>%
   group_by(code_id) %>%
@@ -96,6 +98,11 @@ fits_do %>%
   unnest(tidied) %>% 
   inner_join(code2haap) %>% View()
 
+fits_do %>% 
+  select(-data, -tidied) %>% 
+  unnest(glanced) %>% 
+  inner_join(code2haap) %>% View()
+
 pp_fit <- fits_pp %>% 
   select(-data, -fit, -tidied) %>% 
   unnest(glanced) %>% 
@@ -118,8 +125,8 @@ pp_fit %>%
   ) %>%
   ungroup() %>%
   arrange(metric) %>%
-  mutate(id = row_number()) %>%
-  ggplot(aes(id, metric, color = coding, shape = coding, fill = coding)) +
+  # mutate(id = row_number()) %>%
+  ggplot(aes(code_id, metric, color = coding, shape = coding, fill = coding)) +
   geom_point(size = 2) +
   # scale_shape_manual(values = c(21,22,23,24,25,8,7)) +
   scale_shape_manual(values = c(23, 21,22,4)) +
@@ -155,8 +162,8 @@ do_fit%>%
   ) %>%
   ungroup() %>%
   arrange(metric) %>%
-  mutate(id = row_number()) %>%
-  ggplot(aes(id, metric, color = coding, shape = coding, fill=coding)) +
+  # mutate(id = row_number()) %>%
+  ggplot(aes(code_id, metric, color = coding, shape = coding, fill=coding)) +
   geom_point(size = 2) +
   scale_shape_manual(values = c(23, 21,22,4)) +
   scale_color_manual(
