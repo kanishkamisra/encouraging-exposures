@@ -162,7 +162,7 @@ reg_data <- arunachalam %>%
     givenness_order = factor(givenness_order)
   )
 
-fit_arunachalam <- lmer(logprob ~ dative + (dative | seed) + (dative | givenness_order), data = reg_data)
+fit_arunachalam <- lmer(logprob ~ dative + (dative | seed) + (dative | givenness_order), data = reg_data %>% filter(theme_animacy==0))
 summary(fit_arunachalam)
 
 fit_theme <- lmer(logprob ~ theme_animacy + (theme_animacy|seed) + (theme_animacy | givenness_order), data = reg_data %>% filter(dative == 0))
