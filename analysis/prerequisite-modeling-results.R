@@ -3,6 +3,8 @@ library(patchwork)
 library(fs)
 library(ggtext)
 library(glue)
+library(ggrepel)
+library(lmerTest)
 
 ours = "smolm-aochildes-vocab_8192-layers_8-attn_8-hidden_256-inter_1024-lr_1e-3-seed_1024"
 
@@ -202,6 +204,123 @@ combined + plot_layout(guides = "collect", design=layout)
 
 ggsave("nature-submission/prereq-selection-results.pdf", width = 10.46, height = 4.92, dpi=300, device=cairo_pdf)
 
+
+# reduced plot
+
+(zorro_overall_plot + nabanana_joint_plot & theme(legend.position = "top")) + plot_layout(guides = "collect")
+
+zorro_aggregate <- zorro_raw_results %>%
+  group_by(model, version) %>%
+  summarize(
+    accuracy = mean(accuracy)
+  ) %>% 
+  ungroup() %>%
+  mutate(
+    version = factor(version, levels = c("Final", "Other"))
+  )
+
+
+zorro_aggregate %>% 
+  filter(version == "Other") %>%
+  ggplot(aes(x = "Overall", y = accuracy)) +
+  geom_point(position = position_jitter(seed = 42, width = 0.1), size = 2.5, alpha = 0.8, color = "#bdbdbd", fill = "#bdbdbd") +
+  geom_point(data = zorro_aggregate %>% filter(version == "Final"), color = "#0868ac", fill = "#0868ac", size = 2.5, alpha = 0.8, shape = 23) +
+  # geom_curve(
+  #   xend = 0.2, yend = 0.7,
+  #   x = 0, y = 0.78,
+  #   # curvature = -0.3,
+  #   arrow = arrow(length = unit(2, "mm")),
+  #   color = "grey"
+  # ) +
+  geom_text_repel(
+    data = zorro_aggregate %>% filter(version == "Final"),
+    label = "Final\nModel",
+    color = "#0868ac",
+    size = 4,
+    family = "Helvetica",
+    fontface = "bold.italic",
+    # min.segment.length = 10
+    # max.overlaps = Inf
+    nudge_x = 0.3
+  ) +
+  geom_hline(yintercept = 0.5, linetype = "dashed") +
+  scale_y_continuous(limit = c(0.5, 0.8), breaks = scales::pretty_breaks(), labels = scales::percent_format(suffix = "")) +
+  scale_shape_manual(values = c(23, 21)) +
+  theme_bw(base_size = 18, base_family = "Helvetica") +
+  theme(
+    axis.title.x = element_blank(),
+    panel.grid = element_blank(),
+    axis.text = element_text(color = "black")
+  ) +
+  labs(
+    y = "Avg. Zorro Accuracy (%)"
+  )
+
+ggsave("nature-submission/zorro-labeled.pdf", height = 4, width = 2.94, dpi = 300, device=cairo_pdf)
+
+
+nabanana_results_agg <- nabanana_results %>%
+  group_by(model, dative, behavior) %>%
+  summarize(
+    diff = mean(diff)
+  ) %>%
+  pivot_wider(names_from = behavior, values_from = diff) %>%
+  mutate(
+    diff_diff = naba - nana
+  ) %>%
+  select(-naba, -nana) %>%
+  pivot_wider(names_from = dative, values_from = diff_diff) %>%
+  mutate(
+    prod = (do + pp)/2
+  ) %>%
+  ungroup() %>%
+  mutate(
+    version = case_when(
+      model == ours ~ "Final",
+      TRUE ~ "Other"
+    )
+  ) 
+
+nabanana_results_agg %>%
+  filter(version == "Other") %>%
+  ggplot(aes(x = "Joint (DO and PO)", prod)) +
+  # geom_point(size = 2.5, alpha = 0.8) +
+  geom_point(position = position_jitter(seed = 42, width = 0.1), size = 2.5, alpha = 0.8, color = "#bdbdbd") +
+  geom_point(data = nabanana_results_agg %>% filter(version=="Final"), size = 2.5, alpha = 0.8, color = "#0868ac", fill = "#0868ac", shape = 23) +
+  geom_hline(yintercept = 0.0, linetype = "dashed") +
+  geom_text_repel(
+    data = nabanana_results_agg %>% filter(version == "Final"),
+    label = "Final\nModel",
+    color = "#0868ac",
+    size = 4,
+    family = "Helvetica",
+    fontface = "bold.italic",
+    # min.segment.length = 10
+    # max.overlaps = Inf
+    nudge_x = 0.3
+  ) +
+  # scale_color_manual(values = c("#0868ac","#bdbdbd"), aesthetics = c("color", "fill")) +
+  # scale_shape_manual(values = c(23, 21)) +
+  scale_y_continuous(limits = c(-0.1, 0.4)) +
+  theme_bw(base_size = 18, base_family = "Helvetica") +
+  theme(
+    axis.text = element_text(color = "black"),
+    axis.text.x = element_markdown(color = "black"),
+    panel.grid = element_blank(),
+    legend.position = "top",
+    axis.title.x = element_blank(),
+  ) +
+  labs(
+    y = "Diff. in Alternation Preference\n(NABA - NANA)",
+    color = "Model",
+    fill = "Model",
+    shape = "Model"
+  )
+
+ggsave("nature-submission/nabanana-labeled.pdf", height = 4, width = 3.5, dpi = 300, device=cairo_pdf)
+
+
+
 # final LMs
 
 nabanana_final_results <- fs::dir_ls("data/nabanana/final/", regexp = "*.csv") %>%
@@ -226,6 +345,9 @@ nabanana_final_results <- fs::dir_ls("data/nabanana/final/", regexp = "*.csv") %
   filter(!verb %in% remove_list)
 
 nabanana_final_results %>%
+  mutate(
+    dative = case_when(dative == "pp" ~ "PO", TRUE ~ dative)
+  ) %>%
   # group_by(seed, dative, behavior) %>%
   group_by(dative) %>%
   mutate(
@@ -244,16 +366,73 @@ nabanana_final_results %>%
     dative = glue::glue("{str_to_upper(dative)} verbs"),
     behavior = str_to_upper(behavior),
     behavior_val = case_when(
+      dative == "DO verbs" & behavior == "NABA" ~ glue("{behavior}<br>(e.g., <i>assign</i>)"),
+      dative == "DO verbs" & behavior == "NANA" ~ glue("{behavior}<br>(e.g., <i>cost</i>)"),
+      dative == "PO verbs" & behavior == "NABA" ~ glue("{behavior}<br>(e.g., <i>kick</i>)"),
+      dative == "PO verbs" & behavior == "NANA" ~ glue("{behavior}<br>(e.g., <i>explain</i>)")
+    )
+  ) %>%
+  ggplot(aes(behavior_val, diff)) +
+  geom_point(size = 2.5) +
+  geom_errorbar(aes(ymin = diff-conf, ymax = diff + conf), width = 0.2) +
+  scale_y_continuous(breaks = scales::pretty_breaks()) +
+  facet_wrap(~dative, scales = "free") +
+  theme_bw(base_size = 16, base_family = "Helvetica") +
+  theme(
+    axis.text = element_text(color = "black"),
+    axis.text.x = element_markdown(color = "black"),
+    panel.grid = element_blank(),
+    legend.position = "top"
+  ) +
+  labs(
+    x = "Alternation Class",
+    y = "Alternation Behavior\n(z-scored)"
+  )
+
+ggsave("nature-submission/nabanana-final.pdf", width = 6.62, height = 4, dpi = 300, device = cairo_pdf)
+
+
+# nabanana_final_results
+nabanana_fit <- lmer(diff ~ dative * behavior + (dative * behavior | seed), data = nabanana_final_results)
+summary(nabanana_fit)
+
+fit_do <- lmer(diff ~ behavior + (1 | seed), data = nabanana_final_results %>% filter(dative == "do"))
+fit_pp <- lmer(diff ~ behavior + (1 | seed), data = nabanana_final_results %>% filter(dative == "pp"))
+
+summary(fit_do)
+summary(fit_pp)
+
+nabanana_final_results %>%
+  # group_by(seed, dative, behavior) %>%
+  group_by(dative) %>%
+  mutate(
+    diff = scale(diff)
+  ) %>%
+  ungroup() %>%
+  # group_by(dative, behavior) %>%
+  # summarize(
+  #   n = n(),
+  #   sd = sd(diff),
+  #   conf = qt(1 - (0.05/2), n - 1) * sd/sqrt(n),
+  #   diff = mean(diff)
+  # ) %>%
+  ungroup() %>%
+  mutate(
+    dative = glue::glue("{str_to_upper(dative)} verbs"),
+    behavior = str_to_upper(behavior),
+    behavior_val = case_when(
       dative == "DO verbs" & behavior == "NABA" ~ glue("{behavior}\n(e.g., assign)"),
       dative == "DO verbs" & behavior == "NANA" ~ glue("{behavior}\n(e.g., cost)"),
       dative == "PP verbs" & behavior == "NABA" ~ glue("{behavior}\n(e.g., kick)"),
       dative == "PP verbs" & behavior == "NANA" ~ glue("{behavior}\n(e.g., explain)")
     )
   ) %>%
-  ggplot(aes(behavior_val, diff)) +
-  geom_line() +
-  geom_point(size = 2.5) +
-  geom_linerange(aes(ymin = diff-conf, ymax = diff + conf)) +
+  ggplot(aes(diff, color = behavior_val,fill=behavior_val)) +
+  geom_density(alpha = 0.2) +
+  # geom_line() +
+  # geom_point(size = 0.3, position=position_jitter(seed=1024,width=0.1)) +
+  # geom_boxplot() +
+  # geom_linerange(aes(ymin = diff-conf, ymax = diff + conf)) +
   scale_y_continuous(breaks = scales::pretty_breaks()) +
   facet_wrap(~dative, scales = "free") +
   theme_bw(base_size = 16, base_family = "Helvetica") +
