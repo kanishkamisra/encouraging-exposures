@@ -60,6 +60,9 @@ phenomena_wise_results <- zorro_raw_results %>%
 zorro_overall_plot <- zorro_raw_results %>%
   group_by(model, version) %>%
   summarize(
+    n = n(),
+    sd = sd(accuracy),
+    cb = qt(1 - (0.05/2), n - 1) * sd/sqrt(n),
     accuracy = mean(accuracy)
   ) %>% 
   ungroup() %>%
@@ -317,7 +320,7 @@ nabanana_results_agg %>%
     shape = "Model"
   )
 
-ggsave("nature-submission/nabanana-labeled.pdf", height = 4, width = 3.5, dpi = 300, device=cairo_pdf)
+ggsave("nature-submission/nabanana-labeled.pdf", height = 4, width = 3.2, dpi = 300, device=cairo_pdf)
 
 
 
@@ -377,7 +380,7 @@ nabanana_final_results %>%
   geom_errorbar(aes(ymin = diff-conf, ymax = diff + conf), width = 0.2) +
   scale_y_continuous(breaks = scales::pretty_breaks()) +
   facet_wrap(~dative, scales = "free") +
-  theme_bw(base_size = 16, base_family = "Helvetica") +
+  theme_bw(base_size = 18, base_family = "Helvetica") +
   theme(
     axis.text = element_text(color = "black"),
     axis.text.x = element_markdown(color = "black"),
@@ -386,18 +389,21 @@ nabanana_final_results %>%
   ) +
   labs(
     x = "Alternation Class",
-    y = "Alternation Behavior\n(z-scored)"
+    y = "Alternation Preference\n(z-scored)"
   )
 
 ggsave("nature-submission/nabanana-final.pdf", width = 6.62, height = 4, dpi = 300, device = cairo_pdf)
 
-
+nabanana_reg <- nabanana_final_results %>%
+  mutate(
+    behavior = factor(behavior, levels=c("nana", "naba"))
+  )
 # nabanana_final_results
-nabanana_fit <- lmer(diff ~ dative * behavior + (dative * behavior | seed), data = nabanana_final_results)
+nabanana_fit <- lmer(diff ~ dative * behavior + (1 | seed), data = nabanana_reg)
 summary(nabanana_fit)
 
-fit_do <- lmer(diff ~ behavior + (1 | seed), data = nabanana_final_results %>% filter(dative == "do"))
-fit_pp <- lmer(diff ~ behavior + (1 | seed), data = nabanana_final_results %>% filter(dative == "pp"))
+fit_do <- lmer(diff ~ behavior + (1 | seed), data = nabanana_reg %>% filter(dative == "do"))
+fit_pp <- lmer(diff ~ behavior + (1 | seed), data = nabanana_reg %>% filter(dative == "pp"))
 
 summary(fit_do)
 summary(fit_pp)
