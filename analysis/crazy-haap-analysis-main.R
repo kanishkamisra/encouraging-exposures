@@ -4,8 +4,10 @@ library(lmerTest)
 library(patchwork)
 library(ggtext)
 
-model_results <- read_csv("data/results/simulation-results/final-results-25-10-16.csv") %>%
-  select(-file) %>%
+model_results_raw <- read_csv("data/results/simulation-results/final-results-25-10-16.csv") %>%
+  select(-file)
+
+model_results <- model_results_raw %>%
   select(idx, seed, givenness_template, dative, do, pp)
 
 multiverse <- fs::dir_ls("data/results/simulation-results/haap-25-10-18/") %>%
