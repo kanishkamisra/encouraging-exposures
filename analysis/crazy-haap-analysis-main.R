@@ -4,11 +4,83 @@ library(lmerTest)
 library(patchwork)
 library(ggtext)
 
+strings <- expand.grid(c("p", "n"), c("a", "i"), c("d", "i"), c("g", "n")) %>%
+  unite(string, c(Var1, Var2, Var3, Var4), sep="")
+
+possible_hypotheses <- expand_grid(strings, strings, .name_repair = "universal") %>%
+  janitor::clean_names() %>%
+  mutate(
+    hyp_string = glue::glue("{string_1}_{string_2}")
+  ) %>%
+  select(hyp_string)
+
 model_results_raw <- read_csv("data/results/simulation-results/final-results-25-10-16.csv") %>%
   select(-file)
 
 model_results <- model_results_raw %>%
   select(idx, seed, givenness_template, dative, do, pp)
+
+hypothesis_stats <- model_results_raw %>%
+  mutate(
+    theme_string = glue::glue(
+      "{substring(theme_pronominality, 1,1)}{substring(theme_animacy, 1,1)}{substring(theme_definiteness, 1,1)}{substring(theme_givenness, 1,1)}",
+    ),
+    recipient_string = glue::glue(
+      "{substring(recipient_pronominality, 1,1)}{substring(recipient_animacy, 1,1)}{substring(recipient_definiteness, 1,1)}{substring(recipient_givenness, 1,1)}"
+    ),
+    hyp_string =glue::glue("{theme_string}_{recipient_string}")
+  ) %>%
+  filter(dative=="do", givenness_template==1,seed==1024) %>%
+  count(hyp_string, length_diff) %>% 
+  add_count(hyp_string, name="nn")
+
+unique_hypotheses <- hypothesis_stats %>%
+  distinct(hyp_string)
+
+leftover <- possible_hypotheses %>%
+  anti_join(unique_hypotheses)
+
+leftover %>%
+  mutate(
+    def_given = str_detect(hyp_string, "(dn|ig)")
+  ) %>%
+  # count(def_given) %>% 
+  View()
+
+756
+
+model_results_raw %>%
+  mutate(
+    dative = case_when(dative == "do" ~ "DO", TRUE ~ "PO")
+  ) %>%
+  group_by(seed, givenness_template, dative) %>%
+  summarize(
+    n = n(),
+    sd = sd(verbhood_diff),
+    cb = qt(0.05/2, n-1, lower.tail = FALSE) * sd/sqrt(n),
+    diff = mean(verbhood_diff),
+    epoch = mean(best_epoch),
+    acc = mean(verbhood_diff > 0)
+  ) %>%
+  ggplot(aes(dative, diff)) +
+  geom_point(position=position_jitter(seed = 1024, width = 0.1)) +
+  geom_linerange(aes(ymin = diff-cb, ymax = diff+cb), position=position_jitter(seed = 1024, width = 0.1)) +
+  geom_hline(yintercept = 0, linetype="dashed") +
+  scale_y_continuous(limits = c(0, 2.5)) +
+  theme_bw(base_size = 16, base_family = "Helvetica") +
+  theme(
+    legend.position = "None",
+    panel.grid = element_blank(),
+    # axis.text = element_markdown(color = "black")
+    axis.text = element_text(color = "black")
+  ) +
+  labs(
+    x = "Exposure Dative",
+    y = "Verbhood"
+  )
+
+# 382w, 342h
+
 
 multiverse <- fs::dir_ls("data/results/simulation-results/haap-25-10-18/") %>%
   map_df(read_csv, .id = "file") %>%
