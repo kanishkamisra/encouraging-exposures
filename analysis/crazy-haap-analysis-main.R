@@ -81,7 +81,6 @@ model_results_raw %>%
 
 # 382w, 342h
 
-
 multiverse <- fs::dir_ls("data/results/simulation-results/haap-25-10-18/") %>%
   map_df(read_csv, .id = "file") %>%
   inner_join(model_results) %>%
@@ -137,6 +136,11 @@ code2haap <- multiverse %>%
   distinct(code_id, haap_do, haap_po, haap_do_theme, haap_po_theme, haap_do_recipient, haap_po_recipient, haap_multiplier, haap_theme_multiplier, haap_recipient_multiplier)
 
 code2haap %>% count(haap_do, haap_do_theme, haap_do_recipient) %>% View()
+
+redundant <- read_csv("data/results/simulation-results/redundant-haaps.csv") %>%
+  mutate(
+    red = TRUE
+  )
 
 fits_do <- multiverse %>%
   filter(dative == "do") %>%
@@ -217,7 +221,10 @@ pp_fit %>%
   ) %>%
   ungroup() %>%
   arrange(metric) %>%
-  mutate(id = row_number()) %>% View()
+  left_join(redundant) %>%
+  filter(is.na(red)) %>%
+  mutate(id = row_number()) %>%
+  View("PO")
   ggplot(aes(id, metric, color = coding, shape = coding, fill = coding)) +
   geom_point(size = 2) +
   # scale_shape_manual(values = c(21,22,23,24,25,8,7)) +
@@ -254,6 +261,8 @@ do_fit%>%
   ) %>%
   ungroup() %>%
   arrange(metric) %>%
+  left_join(redundant) %>%
+  filter(is.na(red)) %>%
   mutate(id = row_number()) %>%
   ggplot(aes(id, metric, color = coding, shape = coding, fill=coding)) +
   geom_point(size = 2) +
@@ -278,6 +287,8 @@ fits_pp %>%
   unnest(tidied) %>% 
   filter(effect == "fixed", term != "(Intercept)") %>%
   inner_join(code2haap) %>%
+  left_join(redundant) %>%
+  filter(is.na(red)) %>%
   ungroup() %>%
   mutate(
     coding = case_when(
@@ -299,7 +310,8 @@ fits_pp %>%
       term == "code_score_recipient" ~ "Recipient",
     ),
     term = factor(term, levels = rev(c("&Delta;Length", "Theme", "Recipient")))
-  ) %>%
+  ) %>% 
+  # View()
   ggplot(aes(estimate, term, color=type, shape=type, fill=type)) +
   # ggplot(aes(estimate, term, color = coding)) +
   geom_point(size = 2, position = position_jitter(height = 0.1, width = 0.01, seed = 1024)) +
@@ -323,11 +335,21 @@ fits_pp %>%
     shape = "Coding"
   )
 
+multiverse %>%
+  filter(code_id == 25, dative == "do") %>%
+  group_by(idx, score = code_score+length_score) %>%
+  summarize(pp = mean(pp)) %>%
+  ggplot(aes(score, pp)) +
+  geom_point() +
+  geom_smooth(method = "lm") 
+
 fits_do %>% 
   select(-data, -fit, -glanced) %>% 
   unnest(tidied) %>% 
   filter(effect == "fixed", term != "(Intercept)") %>%
   inner_join(code2haap) %>%
+  left_join(redundant) %>%
+  filter(is.na(red)) %>%
   ungroup() %>%
   mutate(
     coding = case_when(
@@ -379,6 +401,8 @@ fits_do %>%
   select(-data, -fit, -glanced) %>% 
   unnest(tidied) %>% 
   filter(effect == "fixed", term != "(Intercept)") %>%
+  left_join(redundant) %>%
+  filter(is.na(red)) %>%
   inner_join(code2haap) %>%
   ungroup() %>%
   mutate(
