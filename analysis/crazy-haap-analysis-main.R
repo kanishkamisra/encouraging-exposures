@@ -95,6 +95,7 @@ multiverse <- fs::dir_ls("data/results/simulation-results/haap-25-10-18/") %>%
       length_diff > 0 ~ log(length_diff)+1,
       length_diff < 0 ~ -(log(abs(length_diff))+1)
     ),
+    code_score_og = code_score,
     code_score = case_when(haap_multiplier ==-1 ~ 8-code_score, TRUE ~ code_score),
     code_score_recipient = case_when(haap_recipient_multiplier ==-1 ~ 4-code_score_recipient, TRUE ~ code_score_recipient),
     code_score_theme = case_when(haap_theme_multiplier ==-1 ~ 4-code_score_theme, TRUE ~ code_score_theme),
@@ -102,6 +103,19 @@ multiverse <- fs::dir_ls("data/results/simulation-results/haap-25-10-18/") %>%
     givenness_template = factor(givenness_template),
     item = factor(item)
   )
+
+# do_unique <- 
+multiverse %>%
+  filter(dative == "pp", givenness_template == 1, seed == 42) %>%
+  select(code_id, idx, code_score_og) %>% 
+  filter(code_id %in% c(65, 78)) %>%
+  pivot_wider(names_from = code_id, values_from = code_score_og) %>%
+  mutate(
+    # `78` = 8 - `78`,
+    diff = `65` - `78`
+  ) %>%
+  count(diff)
+  widyr::pairwise_dist(code_id, idx, code_score_og, method = "manhattan")
 
 multiverse %>%
   filter((haap_do==TRUE & dative=="do") | (haap_po==TRUE & dative == "pp"), givenness_template==1,seed==42) %>%
@@ -114,6 +128,10 @@ multiverse %>%
   labs(
     x = "HAAP"
   )
+
+multiverse %>%
+  filter(dative == "do") %>%
+  count(code_id, )
 
 code2haap <- multiverse %>% 
   distinct(code_id, haap_do, haap_po, haap_do_theme, haap_po_theme, haap_do_recipient, haap_po_recipient, haap_multiplier, haap_theme_multiplier, haap_recipient_multiplier)
@@ -199,8 +217,8 @@ pp_fit %>%
   ) %>%
   ungroup() %>%
   arrange(metric) %>%
-  # mutate(id = row_number()) %>%
-  ggplot(aes(code_id, metric, color = coding, shape = coding, fill = coding)) +
+  mutate(id = row_number()) %>% View()
+  ggplot(aes(id, metric, color = coding, shape = coding, fill = coding)) +
   geom_point(size = 2) +
   # scale_shape_manual(values = c(21,22,23,24,25,8,7)) +
   scale_shape_manual(values = c(23, 21,22,4)) +
@@ -236,8 +254,8 @@ do_fit%>%
   ) %>%
   ungroup() %>%
   arrange(metric) %>%
-  # mutate(id = row_number()) %>%
-  ggplot(aes(code_id, metric, color = coding, shape = coding, fill=coding)) +
+  mutate(id = row_number()) %>%
+  ggplot(aes(id, metric, color = coding, shape = coding, fill=coding)) +
   geom_point(size = 2) +
   scale_shape_manual(values = c(23, 21,22,4)) +
   scale_color_manual(
