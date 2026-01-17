@@ -18,7 +18,7 @@ model_results_raw <- read_csv("data/results/simulation-results/final-results-25-
   select(-file)
 
 model_results <- model_results_raw %>%
-  select(idx, seed, givenness_template, dative, do, pp)
+  select(idx, hypothesis_id, hypothesis_item, seed, givenness_template, dative, do, pp)
 
 hypothesis_stats <- model_results_raw %>%
   mutate(
@@ -43,9 +43,10 @@ leftover <- possible_hypotheses %>%
 leftover %>%
   mutate(
     def_given = str_detect(hyp_string, "(dn|ig)")
-  ) %>%
+  )
+# %>%
   # count(def_given) %>% 
-  View()
+  # View()
 
 756
 
@@ -81,6 +82,11 @@ model_results_raw %>%
 
 # 382w, 342h
 
+redundant <- read_csv("data/results/simulation-results/redundant-haaps.csv") %>%
+  mutate(
+    red = TRUE
+  )
+
 multiverse <- fs::dir_ls("data/results/simulation-results/haap-25-10-18/") %>%
   map_df(read_csv, .id = "file") %>%
   inner_join(model_results) %>%
@@ -101,20 +107,9 @@ multiverse <- fs::dir_ls("data/results/simulation-results/haap-25-10-18/") %>%
     seed = factor(seed),
     givenness_template = factor(givenness_template),
     item = factor(item)
-  )
-
-# do_unique <- 
-multiverse %>%
-  filter(dative == "pp", givenness_template == 1, seed == 42) %>%
-  select(code_id, idx, code_score_og) %>% 
-  filter(code_id %in% c(65, 78)) %>%
-  pivot_wider(names_from = code_id, values_from = code_score_og) %>%
-  mutate(
-    # `78` = 8 - `78`,
-    diff = `65` - `78`
   ) %>%
-  count(diff)
-  widyr::pairwise_dist(code_id, idx, code_score_og, method = "manhattan")
+  left_join(redundant) %>%
+  filter(is.na(red))
 
 multiverse %>%
   filter((haap_do==TRUE & dative=="do") | (haap_po==TRUE & dative == "pp"), givenness_template==1,seed==42) %>%
@@ -128,19 +123,12 @@ multiverse %>%
     x = "HAAP"
   )
 
-multiverse %>%
-  filter(dative == "do") %>%
-  count(code_id, )
-
 code2haap <- multiverse %>% 
   distinct(code_id, haap_do, haap_po, haap_do_theme, haap_po_theme, haap_do_recipient, haap_po_recipient, haap_multiplier, haap_theme_multiplier, haap_recipient_multiplier)
 
-code2haap %>% count(haap_do, haap_do_theme, haap_do_recipient) %>% View()
+# code2haap %>% count(haap_do, haap_do_theme, haap_do_recipient) %>% View()
 
-redundant <- read_csv("data/results/simulation-results/redundant-haaps.csv") %>%
-  mutate(
-    red = TRUE
-  )
+
 
 fits_do <- multiverse %>%
   filter(dative == "do") %>%
@@ -148,7 +136,8 @@ fits_do <- multiverse %>%
   nest() %>%
   mutate(
     fit = map(data, function(x){
-      lmer(pp ~ code_score_recipient + code_score_theme + length_score + (1|seed) + (1|givenness_template), data = x)
+      # lmer(pp ~ code_score_recipient + code_score_theme + length_score + (1|seed) + (1|givenness_template), data = x)
+      lmer(pp ~ code_score_recipient + code_score_theme + length_score + (1|seed) + (1|givenness_template) + (1|), data = x)
     }),
     glanced = map(fit, function(x){
       broom.mixed::glance(x)
@@ -221,8 +210,6 @@ pp_fit %>%
   ) %>%
   ungroup() %>%
   arrange(metric) %>%
-  left_join(redundant) %>%
-  filter(is.na(red)) %>%
   mutate(id = row_number()) %>%
   View("PO")
   ggplot(aes(id, metric, color = coding, shape = coding, fill = coding)) +
