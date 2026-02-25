@@ -231,23 +231,26 @@ arunachalam  %>%
   #   diff = mean(logprob)
   # ) %>%
   # ungroup() %>%
-  ggplot(aes(dative, logprob)) +
+  ggplot(aes(dative, logprob, color = dative)) +
   # geom_point(size = 2.5, ) +
-  geom_point(position = position_jitter(width = 0.2, seed=1024), alpha = 0.05) +
+  geom_point(position = position_jitter(width = 0.2, seed=1024), alpha = 0.03, size = 1) +
   geom_boxplot(alpha = 0.2, outliers = FALSE, width = 0.2) +
-  # geom_linerange(aes(ymin = diff-conf, ymax = diff+conf)) +
-  # scale_y_continuous(limits = c(-7, -5.5)) +
-  theme_bw(base_size = 16, base_family = "Helvetica") +
+  scale_y_continuous(limits=c(-14, -3.90), breaks = scales::pretty_breaks()) +
+  scale_color_manual(values = c("#7570b3", "#e6ab02")) +
+  theme_classic(base_size = 18, base_family = "Helvetica Neue") +
   theme(
     legend.position = "None",
     panel.grid = element_blank(),
   ) +
   labs(
     x = "Exposure Dative",
-    y = "Avg. DO Log Prob\non Generalization Set"
+    y = "Avg. DO Log Prob / token\non Generalization Set"
   )
 
-ggstatsplot::ggbetweenstats(arunachalam, x = dative, y = logprob)
+ggsave("nature-submission/arunachalam-cross-structure-box.pdf", width = 4.51, height = 5.22, dpi = 300, device=cairo_pdf)
+
+
+# ggstatsplot::ggbetweenstats(arunachalam, x = dative, y = logprob)
 
 
 arunachalam  %>%
@@ -260,11 +263,12 @@ arunachalam  %>%
     diff = mean(logprob)
   ) %>%
   ungroup() %>%
-  ggplot(aes(dative, diff)) +
+  ggplot(aes(dative, diff, color = dative)) +
   geom_point(size = 2.5) +
   geom_errorbar(aes(ymin = diff-conf, ymax = diff+conf), width = 0.2) +
   scale_y_continuous(limits = c(-6.8, -5.6), breaks = scales::pretty_breaks()) +
-  theme_bw(base_size = 18, base_family = "Helvetica") +
+  scale_color_manual(values = c("#7570b3", "#e6ab02")) +
+  theme_classic(base_size = 18, base_family = "Helvetica Neue") +
   theme(
     legend.position = "None",
     panel.grid = element_blank(),
@@ -279,6 +283,35 @@ ggsave("nature-submission/arunachalam-cross-structure.pdf", width = 4.51, height
 
 
 arunachalam  %>%
+  filter(dative == "DO") %>%
+  mutate(
+    theme_animacy = str_to_title(theme_animacy)
+  ) %>%
+  ggplot(aes(theme_animacy, logprob, color=theme_animacy)) +
+  geom_point(position = position_jitter(width = 0.2, seed=1024), alpha = 0.03, size = 1) +
+  geom_boxplot(alpha = 0.2, outliers = FALSE, width = 0.2) +
+  scale_y_continuous(limits=c(-14, -3.90), breaks = scales::pretty_breaks()) +
+  # scale_color_manual(values = c("#a6611a", "#018571")) +
+  scale_color_manual(values = c("#d8b365", "#5ab4ac")) +
+  theme_classic(base_size = 18, base_family = "Helvetica Neue") +
+  theme(
+    legend.position = "None",
+    panel.grid = element_blank(),
+    axis.text=element_text(color = "black")
+  ) +
+  labs(
+    # y = "Logprob of DO (generalization)"
+    x = "Theme Animacy",
+    y = "Avg. DO Log Prob / token\non Generalization Set"
+  )
+
+ggsave("nature-submission/arunachalam-theme-animacy-box.pdf", width = 4.51, height = 5.22, dpi = 300, device=cairo_pdf)
+
+
+arunachalam  %>%
+  mutate(
+    theme_animacy = str_to_title(theme_animacy)
+  ) %>%
   group_by(dative, theme_animacy) %>%
   summarize(
     n = n(),
@@ -288,14 +321,16 @@ arunachalam  %>%
   ) %>%
   ungroup() %>%
   filter(dative == "DO") %>%
-  ggplot(aes(theme_animacy, logprob)) +
+  ggplot(aes(theme_animacy, logprob, color = theme_animacy)) +
   geom_point(size = 2) +
   geom_errorbar(aes(ymin = logprob-conf, ymax=logprob+conf), width = 0.2)+
   # facet_grid(seed~dative) +
   # facet_wrap(~dative) +
   # facet_grid(givenness_order ~ dative) +
   scale_y_continuous(limits = c(-7, -6.2)) +
-  theme_bw(base_size = 18, base_family = "Helvetica") +
+  # scale_color_manual(values = c("#a6611a", "#018571")) +
+  scale_color_manual(values = c("#d8b365", "#5ab4ac")) +
+  theme_classic(base_size = 18, base_family = "Helvetica") +
   theme(
     legend.position = "None",
     panel.grid = element_blank(),

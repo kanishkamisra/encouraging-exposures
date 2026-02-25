@@ -75,7 +75,7 @@ zorro_overall_plot <- zorro_raw_results %>%
   scale_y_continuous(limit = c(0.5, 0.8), breaks = scales::pretty_breaks(), labels = scales::percent_format(suffix = "")) +
   scale_color_manual(values = c("#0868ac","#bdbdbd"), aesthetics = c("color", "fill")) +
   scale_shape_manual(values = c(23, 21)) +
-  theme_bw(base_size = 18, base_family = "Helvetica") +
+  theme_classic(base_size = 18, base_family = "Helvetica Neue") +
   theme(
     axis.title.x = element_blank(),
     panel.grid = element_blank(),
@@ -142,7 +142,7 @@ nabanana_overall_plot <- nabanana_results %>%
   scale_color_manual(values = c("#0868ac","#bdbdbd"), aesthetics = c("color", "fill")) +
   scale_shape_manual(values = c(23, 21)) +
   scale_y_continuous(limits = c(-0.25, 0.5)) +
-  theme_bw(base_size = 18, base_family = "Helvetica") +
+  theme_classic(base_size = 18, base_family = "Helvetica Neue") +
   theme(
     axis.text = element_text(color = "black"),
     panel.grid = element_blank(),
@@ -185,7 +185,7 @@ nabanana_joint_plot <- nabanana_results %>%
   scale_color_manual(values = c("#0868ac","#bdbdbd"), aesthetics = c("color", "fill")) +
   scale_shape_manual(values = c(23, 21)) +
   scale_y_continuous(limits = c(-0.1, 0.4)) +
-  theme_bw(base_size = 18, base_family = "Helvetica") +
+  theme_classic(base_size = 18, base_family = "Helvetica Neue") +
   theme(
     axis.text = element_text(color = "black"),
     axis.text.x = element_markdown(color = "black"),
@@ -240,8 +240,8 @@ zorro_aggregate %>%
     label = "Final\nModel",
     color = "#0868ac",
     size = 4,
-    family = "Helvetica",
-    fontface = "bold.italic",
+    family = "Helvetica Neue",
+    fontface = "bold",
     # min.segment.length = 10
     # max.overlaps = Inf
     nudge_x = 0.3
@@ -249,7 +249,7 @@ zorro_aggregate %>%
   geom_hline(yintercept = 0.5, linetype = "dashed") +
   scale_y_continuous(limit = c(0.5, 0.8), breaks = scales::pretty_breaks(), labels = scales::percent_format(suffix = "")) +
   scale_shape_manual(values = c(23, 21)) +
-  theme_bw(base_size = 18, base_family = "Helvetica") +
+  theme_classic(base_size = 18, base_family = "Helvetica Neue") +
   theme(
     axis.title.x = element_blank(),
     panel.grid = element_blank(),
@@ -296,8 +296,8 @@ nabanana_results_agg %>%
     label = "Final\nModel",
     color = "#0868ac",
     size = 4,
-    family = "Helvetica",
-    fontface = "bold.italic",
+    family = "Helvetica Neue",
+    fontface = "bold",
     # min.segment.length = 10
     # max.overlaps = Inf
     nudge_x = 0.3
@@ -305,7 +305,7 @@ nabanana_results_agg %>%
   # scale_color_manual(values = c("#0868ac","#bdbdbd"), aesthetics = c("color", "fill")) +
   # scale_shape_manual(values = c(23, 21)) +
   scale_y_continuous(limits = c(-0.1, 0.4)) +
-  theme_bw(base_size = 18, base_family = "Helvetica") +
+  theme_classic(base_size = 18, base_family = "Helvetica Neue") +
   theme(
     axis.text = element_text(color = "black"),
     axis.text.x = element_markdown(color = "black"),
@@ -375,17 +375,22 @@ nabanana_final_results %>%
       dative == "PO verbs" & behavior == "NANA" ~ glue("{behavior}<br>(e.g., <i>explain</i>)")
     )
   ) %>%
-  ggplot(aes(behavior_val, diff)) +
+  ggplot(aes(behavior_val, diff, color = behavior)) +
   geom_point(size = 2.5) +
   geom_errorbar(aes(ymin = diff-conf, ymax = diff + conf), width = 0.2) +
   scale_y_continuous(breaks = scales::pretty_breaks()) +
+  # scale_color_manual(values = c("#6C0345", "#2D9596"), aesthetics = c("color", "fill")) +
+  scale_color_manual(values = c("#e7298a", "#66a61e")) +
   facet_wrap(~dative, scales = "free") +
-  theme_bw(base_size = 18, base_family = "Helvetica") +
+  theme_classic(base_size = 18, base_family = "Helvetica Neue") +
   theme(
     axis.text = element_text(color = "black"),
     axis.text.x = element_markdown(color = "black"),
     panel.grid = element_blank(),
-    legend.position = "top"
+    strip.background = element_blank(),
+    # strip.text = element_text(face = "bold", size = 16),
+    strip.text = element_text(face = "bold", size = 16, family = "Helvetica Neue"),
+    legend.position = "none"
   ) +
   labs(
     x = "Alternation Class",

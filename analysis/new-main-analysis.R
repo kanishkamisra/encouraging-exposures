@@ -171,6 +171,49 @@ fit_conwell_demuth <- lmer(score ~ dative + (dative | seed) + (dative | givennes
 
 summary(fit_conwell_demuth)
 
+
+all_results %>%
+  pivot_longer(do:pp, names_to = "gen_dative", values_to = "score") %>%
+  # group_by(dative, gen_dative) %>%
+  # summarize(
+  #   n = n(),
+  #   sd = sd(score),
+  #   cb = qt(0.05/2, n-1, lower.tail = FALSE) * sd/sqrt(n),
+  #   score = mean(score)
+  # ) %>%
+  # ungroup() %>%
+  filter(dative != gen_dative) %>%
+  mutate(
+    dative = case_when(
+      dative == "pp" ~ "PO",
+      dative == "do" ~ "DO"
+    ),
+    gen_dative = case_when(
+      gen_dative == "pp" ~ "PO",
+      gen_dative == "do" ~ "DO"
+    )
+  ) %>%
+  mutate(
+    exp = glue("{dative} to {gen_dative}"),
+    # seed = factor(seed, levels = c(42, 211, 2409, 1709, 1024))
+  ) %>%
+  ggplot(aes(exp, score, givenness_template, color = exp)) +
+  geom_point(position = position_jitter(width = 0.2, seed=1024), alpha = 0.005, size = 1) +
+  geom_boxplot(alpha = 0.2, outliers = FALSE, width = 0.2) +
+  # scale_y_continuous(limits = c(-6.2, -5.6)) +
+  # scale_color_manual(values = c("#7570b3", "#e6ab02")) +
+  theme_classic(base_size = 18, base_family = "Helvetica Neue") +
+  theme(
+    legend.position = "None",
+    panel.grid = element_blank(),
+    # axis.text = element_markdown(color = "black")
+    axis.text = element_text(color = "black")
+  ) +
+  labs(
+    x = "Experiment",
+    y = "Avg. Log Prob / token on\nGeneralization Set"
+  )
+
 all_results %>%
   pivot_longer(do:pp, names_to = "gen_dative", values_to = "score") %>%
   group_by(dative, gen_dative) %>%
@@ -196,7 +239,7 @@ all_results %>%
     exp = glue("{dative} to {gen_dative}"),
     # seed = factor(seed, levels = c(42, 211, 2409, 1709, 1024))
   ) %>%
-  ggplot(aes(exp, score, givenness_template)) +
+  ggplot(aes(exp, score, givenness_template, color = exp)) +
   geom_point(size = 2) +
   # geom_line(aes(group =  interaction(seed, givenness_template))) +
   geom_errorbar(aes(ymin = score-cb, ymax = score+cb), width = 0.2) +
@@ -206,7 +249,8 @@ all_results %>%
   # scale_color_manual(values = c("#648FFF", "#785EF0", "#DC267F", "#FE6100", "#FFB000"), aesthetics = c("color", "fill")) +
   # scale_shape_manual(values = c(21,22,23,24,25)) +
   scale_y_continuous(limits = c(-6.2, -5.6)) +
-  theme_bw(base_size = 18, base_family = "Helvetica") +
+  scale_color_manual(values = c("#7570b3", "#e6ab02")) +
+  theme_classic(base_size = 18, base_family = "Helvetica") +
   theme(
     legend.position = "None",
     panel.grid = element_blank(),

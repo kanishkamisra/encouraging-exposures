@@ -68,7 +68,7 @@ model_results_raw %>%
   geom_linerange(aes(ymin = diff-cb, ymax = diff+cb), position=position_jitter(seed = 1024, width = 0.1)) +
   geom_hline(yintercept = 0, linetype="dashed") +
   scale_y_continuous(limits = c(0, 2.5)) +
-  theme_bw(base_size = 16, base_family = "Helvetica") +
+  theme_classic(base_size = 16, base_family = "Helvetica Neue") +
   theme(
     legend.position = "None",
     panel.grid = element_blank(),
@@ -109,14 +109,19 @@ multiverse <- fs::dir_ls("data/results/simulation-results/haap-25-10-18/") %>%
     item = factor(item),
     hypothesis_id = factor(hypothesis_id),
     hypothesis_item = factor(hypothesis_item),
-    hamming_do = case_when(
-      haap_multiplier == -1 ~ 8-hamming_do,
-      TRUE ~ hamming_do
+    length_score = case_when(
+      pronominality_direction == "reversed" & haap_theme_multiplier == 1 & haap_recipient_multiplier == 1 ~ -length_score,
+      TRUE ~ length_score
     ),
-    hamming_po = case_when(
-      haap_multiplier == -1 ~ 8-hamming_po,
-      TRUE ~ hamming_po
-    ),
+    # hypothesis_item = factor(hypothesis_item),
+    # hamming_do = case_when(
+    #   haap_multiplier == -1 ~ 8-hamming_do,
+    #   TRUE ~ hamming_do
+    # ),
+    # hamming_po = case_when(
+    #   haap_multiplier == -1 ~ 8-hamming_po,
+    #   TRUE ~ hamming_po
+    # ),
     score = code_score+length_score
   )
   # %>%
@@ -136,7 +141,7 @@ multiverse %>%
   )
 
 code2haap <- multiverse %>% 
-  distinct(code_id, haap_do, haap_po, haap_do_theme, haap_po_theme, haap_do_recipient, haap_po_recipient, haap_multiplier, haap_theme_multiplier, haap_recipient_multiplier, hamming_do, hamming_po)
+  distinct(code_id, haap_do, haap_po, haap_do_theme, haap_po_theme, haap_do_recipient, haap_po_recipient, haap_multiplier, haap_theme_multiplier, haap_recipient_multiplier)
 
 # code2haap %>% count(haap_do, haap_do_theme, haap_do_recipient) %>% View()
 
@@ -148,8 +153,8 @@ fits_do <- multiverse %>%
   nest() %>%
   mutate(
     fit = map(data, function(x){
-      lmer(pp ~ code_score_recipient + code_score_theme + length_score + (1|seed) + (1|givenness_template), data = x)
-      # lmer(pp ~ code_score_recipient + code_score_theme + length_score + (1|seed) + (1|givenness_template) + (1|hypothesis_id:hypothesis_item), data = x)
+      # lmer(pp ~ code_score_recipient + code_score_theme + length_score + (1|seed) + (1|givenness_template), data = x)
+      lmer(pp ~ code_score_recipient + code_score_theme + length_score + (1|seed) + (1|givenness_template) + (1|hypothesis_id:hypothesis_item), data = x)
       # lmer(pp ~ score + (1|seed) + (1|givenness_template) + (1|hypothesis_id:hypothesis_item), data = x)
     }),
     glanced = map(fit, function(x){
@@ -188,8 +193,8 @@ fits_pp <- multiverse %>%
   nest() %>%
   mutate(
     fit = map(data, function(x){
+      # lmer(do ~ code_score_recipient + code_score_theme + length_score + (1|seed) + (1|givenness_template), data = x)
       lmer(do ~ code_score_recipient + code_score_theme + length_score + (1|seed) + (1|givenness_template), data = x)
-      # lmer(do ~ code_score_recipient + code_score_theme + length_score + (1|seed) + (1|givenness_template) + (1|hypothesis_id:hypothesis_item), data = x)
       # lmer(do ~ score + (1|seed) + (1|givenness_template) + (1|hypothesis_id:hypothesis_item), data = x)
     }),
     # comparison = map2(data, fit, function(x, y) {
@@ -206,7 +211,7 @@ fits_pp <- multiverse %>%
   )
 
 multiverse %>%
-  filter(dative == "pp", code_id==75) %>% View()
+  filter(dative == "pp", code_id==75, givenness_template == 1, seed==42) %>% View()
 
 fits_pp_score <- multiverse %>%
   filter(dative == "pp") %>%
@@ -242,9 +247,11 @@ fits_pp_score <- multiverse %>%
 # broom.mixed::glance(fit_pp_haap)
 # null_pp
 
-fit.do.null <- lmer(pp ~ 1 + (1|seed) + (1|givenness_template), data = multiverse %>% filter(dative == "do", code_id == 15))
-fit.do.null_scores <- lmer(pp ~ 1 + (1|seed) + (1|givenness_template) + (1|hypothesis_id:hypothesis_item), data = multiverse %>% filter(dative == "do", code_id == 15))
+# fit.do.null <- lmer(pp ~ 1 + (1|seed) + (1|givenness_template), data = multiverse %>% filter(dative == "do", code_id == 15))
+fit.do.null <- lmer(pp ~ 1 + (1|seed) + (1|givenness_template) + (1|hypothesis_id:hypothesis_item), data = multiverse %>% filter(dative == "do", code_id == 15))
 null_do <- broom.mixed::glance(fit.do.null)
+
+fit.do.null_scores <- lmer(pp ~ 1 + (1|seed) + (1|givenness_template) + (1|hypothesis_id:hypothesis_item), data = multiverse %>% filter(dative == "do", code_id == 15))
 null_do_score <- broom.mixed::glance(fit.do.null_scores)
 
 # fit.haap <- lmer(pp ~ 1 + (1|seed) + (1|givenness_template), data = multiverse %>% filter(dative == "do", code_id == 15))
@@ -252,8 +259,10 @@ null_do_score <- broom.mixed::glance(fit.do.null_scores)
 # anova(fit.do.null, fit.haap) %>% tidy() %>% filter(!is.na(p.value)) %>% pull(p.value)
 
 fit.pp.null <- lmer(do ~ 1 + (1|seed) + (1|givenness_template), data = multiverse %>% filter(dative == "pp", code_id == 15))
-fit.pp.null_scores <- lmer(do ~ 1 + (1|seed) + (1|givenness_template) + (1|hypothesis_id:hypothesis_item), data = multiverse %>% filter(dative == "pp", code_id == 15))
+# fit.pp.null <- lmer(do ~ 1 + (1|seed) + (1|givenness_template) + (1|hypothesis_id:hypothesis_item), data = multiverse %>% filter(dative == "pp", code_id == 15))
 null_pp <- broom.mixed::glance(fit.pp.null)
+
+fit.pp.null_scores <- lmer(do ~ 1 + (1|seed) + (1|givenness_template) + (1|hypothesis_id:hypothesis_item), data = multiverse %>% filter(dative == "pp", code_id == 15))
 null_pp_score <- broom.mixed::glance(fit.pp.null_scores)
 
 # fits_do %>% 
@@ -296,20 +305,42 @@ pp_fit %>%
   scale_shape_manual(values = c(23, 21,22,4)) +
   scale_x_continuous(breaks = scales::pretty_breaks()) +
   # scale_color_brewer(palette = "Dark2", aesthetics = c("color", 'fill')) +
+  # scale_y_continuous(limits = c(0,1100), breaks = c(0,200,400,600,800)) +
   scale_color_manual(
     # values = c("#d95f02", "#e6ab02", "#CC79A7",  "#1f78b4", "#7570b3", "#1b9e77", "darkgrey"),
     # values = c("#d95f02", "#1f78b4", "#1b9e77", "darkgrey"),
     values = c("#d95f02", "#674ea7", "#6aa84f", "darkgrey"),
     aesthetics = c("color", "fill")
   ) +
-  theme_bw(base_size = 16, base_family = "Helvetica") +
-  theme(
-    axis.title.y = element_markdown()
+  guides(
+    fill=guide_legend(nrow=4, position = "inside"), 
+    color=guide_legend(nrow=4, position = "inside"),
+    shape=guide_legend(nrow=4, position = "inside"),  
   ) +
-  labs(x = "Code ID", y = "&Delta;LogLik")
+  theme_classic(base_size = 16, base_family = "Helvetica Neue") +
+  theme(
+    axis.title.y = element_markdown(),
+    panel.grid = element_blank(),
+    legend.position.inside = c(0.25,0.8),
+    # legend.position = "none"
+    # legend.position = "top",
+    # legend.title.position = "top",
+    # legend.title.align = 0.5,
+    legend.title = element_blank(),
+    legend.text = element_text(size = 10),
+    legend.background = element_rect(fill = "transparent"),
+    legend.key = element_rect(fill = "transparent"),
+    axis.text = element_text(color="black"),
+    plot.title = element_markdown()
+  ) +
+  labs(x = "Coding Scheme", y = "&Delta;LogLik")
+
+ggsave("nature-submission/coding-schemes-pp-do.pdf", height = 3.49, width = 4.05, dpi=300, device=cairo_pdf)
+ggsave("nature-submission/coding-schemes-pp-do.svg", height = 3.49, width = 4.05, dpi=300)
 
 # 579 349
 
+# FULL SCORE based model
 fits_pp_score %>% 
   select(-data, -fit, -tidied) %>% 
   unnest(glanced) %>% 
@@ -319,36 +350,58 @@ fits_pp_score %>%
       haap_po == TRUE ~ "HAAP-Both",
       haap_po_theme == TRUE ~ "HAAP-Theme",
       haap_po_recipient == TRUE ~ "HAAP-Recipient",
-      # haap_po_theme == TRUE & haap_do_recipient == FALSE ~ "HAAP-Theme",
-      # haap_po_theme == TRUE & haap_do_recipient == TRUE ~ "HAAP-Theme + InvHAAP-Recip",
-      # haap_po_recipient == TRUE & haap_do_theme == TRUE ~ "HAAP-Recip + InvHAAP-Theme",
-      # haap_po_recipient == TRUE & haap_do_theme == FALSE ~ "HAAP-Recip",
-      # haap_do_recipient == TRUE & haap_do_theme == TRUE ~ "InvHAAP-Both",
       TRUE ~ "Other"
     ),
+    coding_full = case_when(
+      haap_po == TRUE ~ "HAAP",
+      TRUE ~ "Counterfactual"
+    ),
+    coding_full = factor(coding_full, levels = c("HAAP", "Counterfactual")),
     metric = logLik - null_pp_score$logLik,
   ) %>%
   ungroup() %>%
   arrange(metric) %>%
   mutate(id = row_number()) %>%
-  View("PO")
-  ggplot(aes(id, metric, color = coding, shape = coding, fill = coding)) +
+  # View("PO-score")
+  # ggplot(aes(id, metric, color = coding, shape = coding, fill = coding)) +
+  ggplot(aes(id, metric, color = coding_full, shape = coding_full, fill = coding_full)) +
   geom_point(size = 2) +
-  # scale_shape_manual(values = c(21,22,23,24,25,8,7)) +
-  scale_shape_manual(values = c(23, 21,22,4)) +
+  # scale_shape_manual(values = c(23, 21,22,4)) +
+  scale_shape_manual(values = c(23, 4)) +
   scale_x_continuous(breaks = scales::pretty_breaks()) +
   # scale_color_brewer(palette = "Dark2", aesthetics = c("color", 'fill')) +
   scale_color_manual(
     # values = c("#d95f02", "#e6ab02", "#CC79A7",  "#1f78b4", "#7570b3", "#1b9e77", "darkgrey"),
     # values = c("#d95f02", "#1f78b4", "#1b9e77", "darkgrey"),
-    values = c("#d95f02", "#674ea7", "#6aa84f", "darkgrey"),
+    # values = c("#d95f02", "#674ea7", "#6aa84f", "darkgrey"),
+    values = c("#d95f02", "darkgrey"),
     aesthetics = c("color", "fill")
   ) +
-  theme_bw(base_size = 16, base_family = "Helvetica") +
-  theme(
-    axis.title.y = element_markdown()
+  guides(
+    fill=guide_legend(nrow=4, position = "inside"), 
+    color=guide_legend(nrow=4, position = "inside"),
+    shape=guide_legend(nrow=4, position = "inside"),  
   ) +
-  labs(x = "Code ID", y = "&Delta;LogLik")
+  theme_classic(base_size = 16, base_family = "Helvetica Neue Neue") +
+  theme(
+    axis.title.y = element_markdown(),
+    panel.grid = element_blank(),
+    legend.position.inside = c(0.25,0.8),
+    # legend.position = "none"
+    # legend.position = "top",
+    # legend.title.position = "top",
+    # legend.title.align = 0.5,
+    legend.title = element_blank(),
+    legend.text = element_text(size = 10),
+    legend.background = element_rect(fill = "transparent"),
+    legend.key = element_rect(fill = "transparent"),
+    axis.text = element_text(color="black"),
+    plot.title = element_markdown()
+  ) +
+  labs(x = "Coding Scheme", y = "&Delta;LogLik")
+
+ggsave("nature-submission/coding-schemes-pp-do-score.pdf", height = 3.49, width = 4.05, dpi=300, device=cairo_pdf)
+ggsave("nature-submission/coding-schemes-pp-do-score.svg", height = 3.49, width = 4.05, dpi=300)
 
 do_fit <- fits_do %>% 
   select(-data, -fit, -tidied) %>% 
@@ -364,13 +417,14 @@ do_fit%>%
       TRUE ~ "Other"
     ),
     metric = logLik - null_do$logLik,
+    metric2 = AIC - null_do$AIC
   ) %>%
   ungroup() %>%
   arrange(metric) %>%
   left_join(redundant) %>%
   filter(is.na(red)) %>%
   mutate(id = row_number()) %>%
-  View("DO")
+  # View("DO")
   ggplot(aes(id, metric, color = coding, shape = coding, fill=coding)) +
   # ggplot(aes(hamming_do, metric, color = coding, shape = coding, fill=coding)) +
   geom_point(size = 2) +
@@ -382,9 +436,9 @@ do_fit%>%
     aesthetics = c("color", "fill")
   ) +
   # scale_color_brewer(palette = "Dark2") +
-  scale_y_continuous(limits = c(300,900), breaks = scales::pretty_breaks()) +
+  # scale_y_continuous(limits = c(300,900), breaks = scales::pretty_breaks()) +
   # scale_y_continuous(limits = c(-10,250), breaks = scales::pretty_breaks()) +
-  # scale_y_continuous(limits = c(100,350), breaks = scales::pretty_breaks()) +
+  scale_y_continuous(limits = c(100,350), breaks = scales::pretty_breaks()) +
   scale_x_continuous(breaks = scales::pretty_breaks()) +
   # guides(fill=guide_legend(nrow=2), color=guide_legend(nrow=2), shape = guide_legend(nrow=2)) +
   guides(
@@ -392,7 +446,7 @@ do_fit%>%
     color=guide_legend(nrow=4, position = "inside"),
     shape=guide_legend(nrow=4, position = "inside"),  
   ) +
-  theme_bw(base_size = 16, base_family = "Helvetica") +
+  theme_classic(base_size = 16, base_family = "Helvetica Neue") +
   theme(
     axis.title.y = element_markdown(),
     panel.grid = element_blank(),
@@ -427,39 +481,45 @@ fits_do_score %>%
       haap_do_recipient == TRUE ~ "HAAP (Recipient only)",
       TRUE ~ "Other"
     ),
-    metric = logLik - null_do_score$logLik,
+    coding_full = case_when(
+      haap_do == TRUE ~ "HAAP",
+      TRUE ~ "Counterfactual"
+    ),
+    coding_full = factor(coding_full, levels = c("HAAP", "Counterfactual")),
+    metric = logLik - null_do_score$logLik
   ) %>%
   ungroup() %>%
   arrange(metric) %>%
   # left_join(redundant) %>%
   # filter(is.na(red)) %>%
   mutate(id = row_number()) %>%
-  ggplot(aes(id, metric, color = coding, shape = coding, fill=coding)) +
+  # View("DO-score")
+  # ggplot(aes(id, metric, color = coding, shape = coding, fill=coding)) +
   # ggplot(aes(hamming_do, metric, color = coding, shape = coding, fill=coding)) +
+  ggplot(aes(id, metric, color = coding_full, shape = coding_full, fill = coding_full)) +
   geom_point(size = 2) +
-  scale_shape_manual(values = c(23, 21,22,4)) +
+  # scale_shape_manual(values = c(23, 21,22,4)) +
+  scale_shape_manual(values = c(23, 4)) +
+  scale_x_continuous(breaks = scales::pretty_breaks()) +
+  scale_y_continuous(limits = c(-10,260), breaks = c(0,50,100,150,200,250)) +
+  # scale_color_brewer(palette = "Dark2", aesthetics = c("color", 'fill')) +
   scale_color_manual(
     # values = c("#d95f02", "#e6ab02", "#CC79A7",  "#1f78b4", "#7570b3", "#1b9e77", "darkgrey"),
     # values = c("#d95f02", "#1f78b4", "#1b9e77", "darkgrey"),
-    values = c("#d95f02", "#674ea7", "#6aa84f", "darkgrey"),
+    # values = c("#d95f02", "#674ea7", "#6aa84f", "darkgrey"),
+    values = c("#d95f02", "darkgrey"),
     aesthetics = c("color", "fill")
   ) +
-  # scale_color_brewer(palette = "Dark2") +
-  # scale_y_continuous(limits = c(300,900), breaks = scales::pretty_breaks()) +
-  # scale_y_continuous(limits = c(-10,250), breaks = scales::pretty_breaks()) +
-  # scale_y_continuous(limits = c(100,350), breaks = scales::pretty_breaks()) +
-  scale_x_continuous(breaks = scales::pretty_breaks()) +
-  # guides(fill=guide_legend(nrow=2), color=guide_legend(nrow=2), shape = guide_legend(nrow=2)) +
   guides(
     fill=guide_legend(nrow=4, position = "inside"), 
     color=guide_legend(nrow=4, position = "inside"),
     shape=guide_legend(nrow=4, position = "inside"),  
   ) +
-  theme_bw(base_size = 16, base_family = "Helvetica") +
+  theme_classic(base_size = 16, base_family = "Helvetica Neue") +
   theme(
     axis.title.y = element_markdown(),
     panel.grid = element_blank(),
-    legend.position.inside = c(0.29,0.8),
+    legend.position.inside = c(0.25,0.8),
     # legend.position = "none"
     # legend.position = "top",
     # legend.title.position = "top",
@@ -472,6 +532,42 @@ fits_do_score %>%
     plot.title = element_markdown()
   ) +
   labs(x = "Coding Scheme", y = "&Delta;LogLik")
+
+ggsave("nature-submission/coding-schemes-do-pp-score.pdf", height = 3.49, width = 4.05, dpi=300, device=cairo_pdf)
+ggsave("nature-submission/coding-schemes-do-pp-score.svg", height = 3.49, width = 4.05, dpi=300)
+
+
+pp_haap <- lmer(do ~ code_score_theme + code_score_recipient + length_score + 
+                  (1|seed) + (1|givenness_template),
+                data = multiverse %>% filter(dative == "pp", haap_po==TRUE))
+
+summary(pp_haap)
+
+do_haap <- lmer(pp ~ code_score_theme + code_score_recipient + length_score + 
+                  (1|seed) + (1|givenness_template) + (1 | hypothesis_id:hypothesis_item),
+                data = multiverse %>% filter(dative == "do", haap_do==TRUE))
+
+summary(do_haap)
+
+multiverse %>% filter(dative == "pp", haap_po==TRUE) %>%
+  group_by(seed, givenness_template) %>%
+  nest() %>%
+  mutate(
+    cor = map(data, function(x){
+      cor.test(x$code_score, x$do, method = "spearman") %>% tidy()
+    })
+  ) %>%
+  unnest(cor)
+
+multiverse %>% filter(dative == "do", haap_do==TRUE) %>%
+  group_by(seed, givenness_template) %>%
+  nest() %>%
+  mutate(
+    cor = map(data, function(x){
+      cor.test(x$code_score, x$pp, method = "spearman") %>% tidy()
+    })
+  ) %>%
+  unnest(cor)
 
 
 fits_pp %>% 
@@ -528,6 +624,175 @@ fits_pp %>%
     shape = "Coding"
   )
 
+
+
+# fits_pp %>% 
+#   select(-data, -fit, -glanced) %>% 
+#   unnest(tidied) %>% 
+#   filter(effect == "fixed", term != "(Intercept)") %>%
+#   inner_join(code2haap) %>%
+#   left_join(redundant) %>%
+#   filter(is.na(red)) %>%
+#   ungroup() %>%
+#   mutate(
+#     coding = case_when(
+#       haap_po == TRUE ~ "HAAP-Both",
+#       haap_po_theme == TRUE ~ "HAAP-Theme",
+#       haap_po_recipient == TRUE ~ "HAAP-Recip",
+#       TRUE ~ "Other"
+#     )
+#   ) %>% 
+#   filter(coding %in% c("HAAP-Theme", "HAAP-Both")) %>%
+#   mutate(
+#     type = case_when(
+#       coding == "HAAP-Theme" ~ "HAAP-Theme",
+#       TRUE ~ "HAAP-Both"
+#     ),
+#     term = case_when(
+#       term == "length_score" ~ "&Delta;Length",
+#       term == "code_score_theme" ~ "Theme",
+#       term == "code_score_recipient" ~ "Recipient",
+#     ),
+#     term = factor(term, levels = rev(c("&Delta;Length", "Theme", "Recipient")))
+#   ) %>% 
+#   filter(code_id == 75) %>%
+#   # View()
+#   # ggplot(aes(term, estimate, color=type, shape=type, fill=type)) +
+#   ggplot(aes(term, estimate)) +
+#   # ggplot(aes(estimate, term, color = coding)) +
+#   geom_point(size = 2, color = "#d95f02", fill = "#d95f02", shape = 23) +
+#   geom_errorbar(aes(ymin=conf.low, ymax=conf.high), width = 0.1, color = "#d95f02") +
+#   # geom_point(size = 2, position = position_jitter(width = 0.1, seed = 1024)) +
+#   # geom_errorbar(aes(ymin=conf.low, ymax=conf.high), position = position_jitter(width = 0.1, seed = 1024), width = 0.1) +
+#   geom_hline(yintercept = 0.0, linetype = "dashed") +
+#   scale_shape_manual(values = c(23, 22)) +
+#   scale_color_manual(
+#     values = c("#d95f02", "#1b9e77"),
+#     aesthetics = c("color", "fill")
+#   ) +
+#   theme_bw(base_size = 17, base_family = "Helvetica") +
+#   theme(
+#     legend.position = "top",
+#     panel.grid = element_blank(),
+#     axis.text.x = element_markdown(color = "black"),
+#     axis.text = element_text(color = "black")
+#   ) +
+#   labs(
+#     y = "Estimate",
+#     x = "Term"
+#   )
+
+
+# just haap
+
+fits_pp %>% 
+  select(-data, -fit, -glanced) %>% 
+  unnest(tidied) %>% 
+  filter(effect == "fixed", term != "(Intercept)") %>%
+  inner_join(code2haap) %>%
+  left_join(redundant) %>%
+  filter(is.na(red)) %>%
+  ungroup() %>%
+  mutate(
+    coding = case_when(
+      haap_po == TRUE ~ "HAAP-Both",
+      haap_po_theme == TRUE ~ "HAAP-Theme",
+      haap_po_recipient == TRUE ~ "HAAP-Recip",
+      TRUE ~ "Other"
+    )
+  ) %>% 
+  filter(coding %in% c("HAAP-Theme", "HAAP-Both")) %>%
+  mutate(
+    type = case_when(
+      coding == "HAAP-Theme" ~ "HAAP-Theme",
+      TRUE ~ "HAAP-Both"
+    ),
+    term = case_when(
+      term == "length_score" ~ "&Delta;Length",
+      term == "code_score_theme" ~ "Theme",
+      term == "code_score_recipient" ~ "Recipient",
+    ),
+    term = factor(term, levels = rev(c("&Delta;Length", "Theme", "Recipient")))
+  ) %>% 
+  filter(code_id == 75) %>%
+  ggplot(aes(term, estimate)) +
+  geom_hline(yintercept = 0.0, linetype = "dashed", linewidth = 0.4) +
+  geom_point(size = 2, color = "#d95f02", fill = "#d95f02", shape = 23) +
+  geom_errorbar(aes(ymin=conf.low, ymax=conf.high), width = 0.1, color = "#d95f02") +
+  scale_y_continuous(limits = c(-0.004,0.204)) +
+  theme_classic(base_size = 18, base_family = "Helvetica Neue") +
+  theme(
+    legend.position = "top",
+    panel.grid = element_blank(),
+    axis.text.x = element_markdown(color = "black"),
+    axis.text = element_text(color = "black")
+  ) +
+  labs(
+    y = "Estimate",
+    x = "Term"
+  )
+
+ggsave("nature-submission/lmer-result-haap-po.pdf", height = 4.68, width = 3.8, dpi = 300, device=cairo_pdf)
+ggsave("nature-submission/lmer-result-haap-po.svg", height = 4.68, width = 3.8, dpi = 300)
+
+
+# ------ ALTERNATE VERSION ------ #
+
+fits_pp %>% 
+  select(-data, -fit, -glanced) %>% 
+  unnest(tidied) %>% 
+  filter(effect == "fixed", term != "(Intercept)") %>%
+  inner_join(code2haap) %>%
+  left_join(redundant) %>%
+  filter(is.na(red)) %>%
+  ungroup() %>%
+  mutate(
+    coding = case_when(
+      haap_po == TRUE ~ "HAAP-Both",
+      haap_po_theme == TRUE ~ "HAAP-Theme",
+      haap_po_recipient == TRUE ~ "HAAP-Recip",
+      TRUE ~ "Other"
+    )
+  ) %>% 
+  filter(coding %in% c("HAAP-Theme", "HAAP-Both")) %>%
+  mutate(
+    type = case_when(
+      coding == "HAAP-Theme" ~ "HAAP-Theme",
+      TRUE ~ "HAAP-Both"
+    ),
+    term = case_when(
+      term == "length_score" ~ "&Delta;Length",
+      term == "code_score_theme" ~ "Theme",
+      term == "code_score_recipient" ~ "Recipient",
+    ),
+    term = factor(term, levels = rev(c("&Delta;Length", "Theme", "Recipient")))
+  ) %>% 
+  filter(code_id %in% c(78, 76, 75)) %>%
+  ggplot(aes(term, estimate, color=type, shape=type, fill=type, group = code_id)) +
+  # ggplot(aes(estimate, term, color = coding)) +
+  geom_point(size = 2, position = position_dodge(0.5)) +
+  geom_errorbar(aes(ymin=conf.low, ymax=conf.high), position = position_dodge(0.5), width = 0.1) +
+  geom_hline(yintercept = 0.0, linetype = "dashed") +
+  scale_shape_manual(values = c(23, 22)) +
+  scale_color_manual(
+    values = c("#d95f02", "#1b9e77"),
+    aesthetics = c("color", "fill")
+  ) +
+  theme_bw(base_size = 18, base_family = "Helvetica") +
+  theme(
+    legend.position = "top",
+    panel.grid = element_blank(),
+    axis.text.x = element_markdown(color = "black"),
+    axis.text = element_text(color = "black")
+  ) +
+  labs(
+    y = "Estimate",
+    x = "Term"
+  )
+
+# ------ ALTERNATE VERSION ------ #
+
+
 multiverse %>%
   filter(code_id == 25, dative == "do") %>%
   group_by(idx, score = code_score+length_score) %>%
@@ -575,7 +840,7 @@ fits_do %>%
     values = c("#d95f02", "#1f78b4"),
     aesthetics = c("color", "fill")
   ) +
-  theme_bw(base_size = 16, base_family = "Helvetica") +
+  theme_bw(base_size = 16, base_family = "Helvetica Neue") +
   theme(
     legend.position = "top",
     panel.grid = element_blank(),
@@ -589,6 +854,7 @@ fits_do %>%
     shape = "Coding"
   )
 
+# just haap
 
 fits_do %>% 
   select(-data, -fit, -glanced) %>% 
@@ -606,7 +872,7 @@ fits_do %>%
       TRUE ~ "Other"
     )
   ) %>%
-  filter(coding %in% c("HAAP-Recip", "HAAP-Both")) %>%
+  filter(coding %in% c("HAAP-Both")) %>%
   mutate(
     type = case_when(
       coding == "HAAP-Recip" ~ "HAAP-Recip",
@@ -619,26 +885,22 @@ fits_do %>%
     ),
     term = factor(term, levels = rev(c("&Delta;Length", "Theme", "Recipient")))
   ) %>%
-  ggplot(aes(estimate, term, color=type, shape = type, fill = type)) +
-  # ggplot(aes(estimate, term, color = coding)) +
-  geom_point(size = 2, position = position_jitter(height = 0.1, width = 0.01, seed = 1024)) +
-  geom_vline(xintercept = 0.0, linetype = "dashed") +
-  scale_shape_manual(values = c(23, 21)) +
-  scale_color_manual(
-    # values = c("#d95f02", "#e6ab02", "#CC79A7",  "#1f78b4", "#7570b3", "#1b9e77", "darkgrey"),
-    values = c("#d95f02", "#1f78b4"),
-    aesthetics = c("color", "fill")
-  ) +
-  theme_bw(base_size = 16, base_family = "Helvetica") +
+  ggplot(aes(term, estimate)) +
+  geom_hline(yintercept = 0.0, linetype = "dashed", linewidth = 0.4) +
+  geom_point(size = 2, color = "#d95f02", fill = "#d95f02", shape = 23) +
+  geom_errorbar(aes(ymin=conf.low, ymax=conf.high), width = 0.1, color = "#d95f02") +
+  scale_y_continuous(limits = c(-0.004,0.204)) +
+  theme_classic(base_size = 18, base_family = "Helvetica Neue") +
   theme(
     legend.position = "top",
     panel.grid = element_blank(),
-    axis.text.y = element_markdown(color = "black")
+    axis.text.x = element_markdown(color = "black"),
+    axis.text = element_text(color = "black")
   ) +
   labs(
-    x = "Estimate",
-    y = "Term",
-    color = "Coding",
-    fill = "Coding",
-    shape = "Coding"
+    y = "Estimate",
+    x = "Term"
   )
+
+ggsave("nature-submission/lmer-result-haap-do.pdf", height = 4.68, width = 3.8, dpi = 300, device=cairo_pdf)
+ggsave("nature-submission/lmer-result-haap-do.svg", height = 4.68, width = 3.8, dpi = 300)
