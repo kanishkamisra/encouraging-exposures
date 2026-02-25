@@ -54,7 +54,8 @@ model_results_raw %>%
   mutate(
     dative = case_when(dative == "do" ~ "DO", TRUE ~ "PO")
   ) %>%
-  group_by(seed, givenness_template, dative) %>%
+  # group_by(seed, givenness_template, dative) %>%
+  group_by(seed, dative) %>%
   summarize(
     n = n(),
     sd = sd(verbhood_diff),
@@ -77,7 +78,7 @@ model_results_raw %>%
   ) +
   labs(
     x = "Exposure Dative",
-    y = "Verbhood"
+    y = "Relative Verbhood"
   )
 
 # 382w, 342h
