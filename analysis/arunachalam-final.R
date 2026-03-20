@@ -151,21 +151,22 @@ arunachalam  %>%
 
 reg_data <- arunachalam %>%
   mutate(
-    dative = case_when(
-      dative == "PO" ~ 1,
-      TRUE ~ 0
-    ),
-    theme_animacy = case_when(
-      theme_animacy == "animate" ~ 1,
-      TRUE ~ 0
-    ),
+    # dative = case_when(
+    #   dative == "PO" ~ 1,
+    #   TRUE ~ 0
+    # ),
+    # theme_animacy = case_when(
+    #   theme_animacy == "animate" ~ 1,
+    #   TRUE ~ 0
+    # ),
+    dative = factor(dative),
     givenness_order = factor(givenness_order)
   )
 
-fit_arunachalam <- lmer(logprob ~ dative + (dative | seed) + (dative | givenness_order), data = reg_data %>% filter(theme_animacy==0))
+fit_arunachalam <- lmer(logprob ~ dative + (dative | seed) + (dative | givenness_order), data = reg_data %>% filter(theme_animacy=='inanimate'))
 summary(fit_arunachalam)
 
-fit_theme <- lmer(logprob ~ theme_animacy + (theme_animacy|seed) + (theme_animacy | givenness_order), data = reg_data %>% filter(dative == 0))
+fit_theme <- lmer(logprob ~ theme_animacy + (theme_animacy|seed) + (theme_animacy | givenness_order), data = reg_data %>% filter(dative == 'DO'))
 summary(fit_theme)
 
 arunachalam  %>%

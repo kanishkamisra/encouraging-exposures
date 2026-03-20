@@ -50,7 +50,7 @@ leftover %>%
 
 756
 
-model_results_raw %>%
+verbhood_delta <- model_results_raw %>%
   mutate(
     dative = case_when(dative == "do" ~ "DO", TRUE ~ "PO")
   ) %>%
@@ -74,22 +74,66 @@ model_results_raw %>%
     legend.position = "None",
     panel.grid = element_blank(),
     # axis.text = element_markdown(color = "black")
-    axis.text = element_text(color = "black")
+    axis.text = element_text(color = "black"),
+    axis.title.y = element_markdown()
   ) +
   labs(
     x = "Exposure Dative",
-    y = "Relative Verbhood"
+    # y = "Relative Verbhood"
+    y = "Verbhood &Delta;"
   )
 
+ggsave("nature-submission/verbhood-delta-results.pdf", width = 3.3, height = 3, dpi = 300, device = cairo_pdf)
+
 # 382w, 342h
+
+verbhood_acc <- model_results_raw %>%
+  mutate(
+    dative = case_when(dative == "do" ~ "DO", TRUE ~ "PO")
+  ) %>%
+  # group_by(seed, givenness_template, dative) %>%
+  group_by(seed, dative) %>%
+  summarize(
+    n = n(),
+    sd = sd(verbhood_diff),
+    cb = qt(0.05/2, n-1, lower.tail = FALSE) * sd/sqrt(n),
+    diff = mean(verbhood_diff),
+    epoch = mean(best_epoch),
+    acc = mean(verbhood_diff > 0)
+  ) %>%
+  ggplot(aes(dative, acc)) +
+  geom_point(position = position_jitter(seed = 10, width = 0.1)) +
+  geom_hline(yintercept = 0.5, linetype = "dashed") +
+  scale_y_continuous(limits = c(0,1), labels = scales::percent_format(suffix = "")) +
+  theme_classic(base_size = 16, base_family = "Helvetica Neue") +
+  theme(
+    legend.position = "None",
+    panel.grid = element_blank(),
+    # axis.text = element_markdown(color = "black")
+    axis.text = element_text(color = "black"),
+    axis.title.y = element_markdown()
+  ) +
+  labs(
+    x = "Exposure Dative",
+    # y = "Relative Verbhood"
+    y = "Verbhood Accuracy (%)"
+  )
+
+ggsave("nature-submission/verbhood-accuracy-results.pdf", width = 3.3, height = 3, dpi = 300, device = cairo_pdf)
+
+verbhood_delta / verbhood_acc
+
+ggsave("nature-submission/verbhood-results.pdf", height = 5.53, width = 3.3, dpi = 300, device = cairo_pdf)
 
 redundant <- read_csv("data/results/simulation-results/redundant-haaps.csv") %>%
   mutate(
     red = TRUE
   )
 
-multiverse <- fs::dir_ls("data/results/simulation-results/haap-25-10-18/") %>%
-  map_df(read_csv, .id = "file") %>%
+multiverse_raw <- fs::dir_ls("data/results/simulation-results/haap-25-10-18/") %>%
+  map_df(read_csv, .id = "file") 
+
+multiverse <- multiverse_raw %>%
   inner_join(model_results) %>%
   mutate(
     length_diff = case_when(
@@ -195,7 +239,7 @@ fits_pp <- multiverse %>%
   mutate(
     fit = map(data, function(x){
       # lmer(do ~ code_score_recipient + code_score_theme + length_score + (1|seed) + (1|givenness_template), data = x)
-      lmer(do ~ code_score_recipient + code_score_theme + length_score + (1|seed) + (1|givenness_template), data = x)
+      lmer(do ~ code_score_recipient + code_score_theme + length_score + (1|seed) + (1|givenness_template) + (1|hypothesis_id:hypothesis_item), data = x)
       # lmer(do ~ score + (1|seed) + (1|givenness_template) + (1|hypothesis_id:hypothesis_item), data = x)
     }),
     # comparison = map2(data, fit, function(x, y) {
@@ -259,7 +303,7 @@ null_do_score <- broom.mixed::glance(fit.do.null_scores)
 
 # anova(fit.do.null, fit.haap) %>% tidy() %>% filter(!is.na(p.value)) %>% pull(p.value)
 
-fit.pp.null <- lmer(do ~ 1 + (1|seed) + (1|givenness_template), data = multiverse %>% filter(dative == "pp", code_id == 15))
+fit.pp.null <- lmer(do ~ 1 + (1|seed) + (1|givenness_template) + (1|hypothesis_id:hypothesis_item), data = multiverse %>% filter(dative == "pp", code_id == 15))
 # fit.pp.null <- lmer(do ~ 1 + (1|seed) + (1|givenness_template) + (1|hypothesis_id:hypothesis_item), data = multiverse %>% filter(dative == "pp", code_id == 15))
 null_pp <- broom.mixed::glance(fit.pp.null)
 
@@ -383,7 +427,7 @@ fits_pp_score %>%
     color=guide_legend(nrow=4, position = "inside"),
     shape=guide_legend(nrow=4, position = "inside"),  
   ) +
-  theme_classic(base_size = 16, base_family = "Helvetica Neue Neue") +
+  theme_classic(base_size = 16, base_family = "Helvetica Neue") +
   theme(
     axis.title.y = element_markdown(),
     panel.grid = element_blank(),
@@ -538,11 +582,11 @@ ggsave("nature-submission/coding-schemes-do-pp-score.pdf", height = 3.49, width 
 ggsave("nature-submission/coding-schemes-do-pp-score.svg", height = 3.49, width = 4.05, dpi=300)
 
 
-pp_haap <- lmer(do ~ code_score_theme + code_score_recipient + length_score + 
-                  (1|seed) + (1|givenness_template),
+pp_haap2 <- lmer(do ~ code_score_theme + code_score_recipient + length_score + 
+                  (1|seed) + (1 | hypothesis_id:hypothesis_item),
                 data = multiverse %>% filter(dative == "pp", haap_po==TRUE))
 
-summary(pp_haap)
+summary(pp_haap2)
 
 do_haap <- lmer(pp ~ code_score_theme + code_score_recipient + length_score + 
                   (1|seed) + (1|givenness_template) + (1 | hypothesis_id:hypothesis_item),

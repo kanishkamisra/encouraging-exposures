@@ -408,7 +408,12 @@ nabanana_fit <- lmer(diff ~ dative * behavior + (1 | seed), data = nabanana_reg)
 summary(nabanana_fit)
 
 fit_do <- lmer(diff ~ behavior + (1 | seed), data = nabanana_reg %>% filter(dative == "do"))
+fit_do_null <- lmer(diff ~ 1 + (1|seed), data = nabanana_reg %>% filter(dative == "do"))
+anova(fit_do, fit_do_null)
+
 fit_pp <- lmer(diff ~ behavior + (1 | seed), data = nabanana_reg %>% filter(dative == "pp"))
+fit_pp_null <- lmer(diff ~ 1 + (1|seed), data = nabanana_reg %>% filter(dative == "pp"))
+anova(fit_pp, fit_pp_null)
 
 summary(fit_do)
 summary(fit_pp)
