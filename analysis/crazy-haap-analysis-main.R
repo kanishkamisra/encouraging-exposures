@@ -203,7 +203,7 @@ model_results_raw %>%
   ) %>%
   mutate(
     dative = case_when(dative == "pp" ~ "PO", TRUE ~ "DO")
-  )
+  ) %>% View()
 
 multiverse %>%
   filter((haap_do==TRUE & dative=="do") | (haap_po==TRUE & dative == "pp"), givenness_template==1,seed==42) %>%
