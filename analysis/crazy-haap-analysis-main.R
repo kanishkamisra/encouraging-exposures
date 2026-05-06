@@ -175,6 +175,38 @@ multiverse <- multiverse_raw %>%
 
 multiverse %>%
   filter((haap_do==TRUE & dative=="do") | (haap_po==TRUE & dative == "pp"), givenness_template==1,seed==42) %>%
+  mutate(
+    haap_score = code_score+length_score, 
+    dative = case_when(dative == "pp" ~ "PO", TRUE ~ "DO"), 
+    hypothesis_id = as.numeric(hypothesis_id),
+    hypothesis_item = as.numeric(hypothesis_item),
+    seed = as.numeric(seed),
+    givenness_template = as.numeric(givenness_template),
+    item = as.numeric(item)
+  ) %>%
+  inner_join(model_results_raw %>% select(-do, -pp))
+
+multiverse %>%
+  filter((haap_do==TRUE & dative=="do") | (haap_po==TRUE & dative == "pp"), givenness_template==1,seed==42) %>% 
+  count(idx)
+
+model_results_raw %>% 
+  filter(givenness_template==1, seed == 42) %>% 
+  inner_join(
+    multiverse %>%
+      filter(
+        (haap_do==TRUE & dative=="do") | (haap_po==TRUE & dative == "pp"), 
+        givenness_template==1, seed==42
+      ) %>%
+      mutate(haap_score = code_score+length_score) %>%
+      select(idx, dative, code_score, length_score, haap_score)
+  ) %>%
+  mutate(
+    dative = case_when(dative == "pp" ~ "PO", TRUE ~ "DO")
+  )
+
+multiverse %>%
+  filter((haap_do==TRUE & dative=="do") | (haap_po==TRUE & dative == "pp"), givenness_template==1,seed==42) %>%
   mutate(haap_score = code_score+length_score, dative = case_when(dative == "pp" ~ "PO", TRUE ~ "DO")) %>%
   ggplot(aes(haap_score, fill = dative)) +
   geom_histogram() + 
