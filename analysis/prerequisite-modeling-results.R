@@ -399,10 +399,16 @@ nabanana_final_results %>%
 
 ggsave("nature-submission/nabanana-final.pdf", width = 6.62, height = 4, dpi = 300, device = cairo_pdf)
 
+lemma_counts <- read_csv("data/nabanana_lemma_counts.csv")
+
+nabanana_final_results %>%
+  inner_join(lemma_counts)
+
 nabanana_reg <- nabanana_final_results %>%
   mutate(
     behavior = factor(behavior, levels=c("nana", "naba"))
-  )
+  ) %>%
+  inner_join(lemma_counts)
 # nabanana_final_results
 nabanana_fit <- lmer(diff ~ dative * behavior + (1 | seed), data = nabanana_reg)
 summary(nabanana_fit)

@@ -186,24 +186,43 @@ multiverse %>%
   ) %>%
   inner_join(model_results_raw %>% select(-do, -pp))
 
-multiverse %>%
-  filter((haap_do==TRUE & dative=="do") | (haap_po==TRUE & dative == "pp"), givenness_template==1,seed==42) %>% 
-  count(idx)
+# multiverse %>%
+#   filter((haap_do==TRUE & dative=="do") | (haap_po==TRUE & dative == "pp"), givenness_template==1,seed==42) %>% 
+#   count(idx)
 
-model_results_raw %>% 
-  filter(givenness_template==1, seed == 42) %>% 
+haaps <- model_results_raw %>% 
+  mutate(
+    givenness_template = factor(givenness_template),
+    seed = factor(seed),
+    hypothesis_id = factor(hypothesis_id),
+    hypothesis_item = factor(hypothesis_item)
+  ) %>%
+  # filter(givenness_template==1, seed == 211) %>%
   inner_join(
     multiverse %>%
       filter(
         (haap_do==TRUE & dative=="do") | (haap_po==TRUE & dative == "pp"), 
-        givenness_template==1, seed==42
+        # givenness_template==1, seed==42
       ) %>%
       mutate(haap_score = code_score+length_score) %>%
-      select(idx, dative, code_score, length_score, haap_score)
+      select(idx, dative, givenness_template, seed, hypothesis_id, hypothesis_item, code_id, code_score, length_score, haap_score, score)
   ) %>%
   mutate(
     dative = case_when(dative == "pp" ~ "PO", TRUE ~ "DO")
-  ) %>% View()
+  ) 
+
+haaps %>%
+  filter(theme_animacy=="inanimate", recipient_animacy == "animate") %>%
+  mutate(
+    altform = case_when(
+      dative == "DO" ~ pp,
+      TRUE ~ do
+    )
+  ) %>%
+  ggplot(aes(haap_score, altform, color = glue::glue("{givenness_template}-{seed}"))) + 
+  # geom_point() +
+  geom_smooth(method = "lm") +
+  facet_wrap(~dative, scales = "free")
 
 multiverse %>%
   filter((haap_do==TRUE & dative=="do") | (haap_po==TRUE & dative == "pp"), givenness_template==1,seed==42) %>%
@@ -619,6 +638,29 @@ pp_haap2 <- lmer(do ~ code_score_theme + code_score_recipient + length_score +
                 data = multiverse %>% filter(dative == "pp", haap_po==TRUE))
 
 summary(pp_haap2)
+
+pp_haap_main <- lmer(do ~ score + 
+                   (1|seed) + (1|givenness_template) + (1 | hypothesis_id:hypothesis_item),
+                 data = multiverse %>% filter(dative == "pp", haap_po==TRUE))
+
+
+multiverse %>% filter(dative == "pp", haap_po==TRUE) %>%
+  select(dative, do, seed, givenness_template, hypothesis_id, hypothesis_item)
+
+haaps %>% 
+  filter(dative == "PO") %>%
+  select(dative, do, seed, givenness_template, hypothesis_id, hypothesis_item)
+
+summary(pp_haap_main)
+
+pp_haap_main2 <- lmer(pp ~ score + (1 |seed) + (1|givenness_template) + (1+ score |hypothesis_id:hypothesis_item), 
+                      data = haaps %>% 
+                        filter(dative == "DO") %>% 
+                        mutate(
+                          altform = do,
+                        ))
+
+summary(pp_haap_main2)
 
 do_haap <- lmer(pp ~ code_score_theme + code_score_recipient + length_score + 
                   (1|seed) + (1|givenness_template) + (1 | hypothesis_id:hypothesis_item),

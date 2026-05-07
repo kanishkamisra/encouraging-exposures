@@ -10,6 +10,10 @@ nabananas <- read_csv("data/naba-nana-sentences-240428.csv")
 lemma_counts <- real_datives %>%
   count(lemma)
 
+lemma_counts %>% 
+  anti_join(real_datives %>% distinct(verb, lemma))
+  write_csv("data/nabanana_lemma_counts.csv")
+
 leftovers <- nabananas %>% distinct(verb) %>%
   anti_join(real_datives %>%
               add_count(lemma) %>%
@@ -41,6 +45,9 @@ nabanana_counts <- bind_rows(
   leftovers
 ) %>%
   inner_join(lemma_counts)
+
+nabanana_counts %>%
+  write_csv("data/nabanana_lemma_counts.csv")
 
 
 # remove_list <- c("charged", "traded", "shot")
