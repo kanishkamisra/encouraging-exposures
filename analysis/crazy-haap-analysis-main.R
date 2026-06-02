@@ -232,8 +232,13 @@ haaps2 <- multiverse %>%
   ) 
 
 haaps2 %>%
-  filter(seed == 42) %>% 
-  select(-do,-pp, -verbhood_diff, -seed) %>% 
+  # filter(seed == 42) %>% 
+  # select(-do,-pp, -verbhood_diff, -seed) %>% 
+  write_csv("data/haaps-w-lm-results.csv")
+
+haaps2 %>%
+  filter(seed == 42) %>%
+  select(-do,-pp, -verbhood_diff, -seed) %>%
   write_csv("data/haaps.csv")
 
 
