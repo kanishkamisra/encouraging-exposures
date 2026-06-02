@@ -1,0 +1,769 @@
+experiment_id,idx,dative,givenness_template,hypothesis_id,hypothesis_item,template_type,template,context,utterance,agent,theme,recipient,theme_animacy,recipient_animacy,theme_pronominality,recipient_pronominality,theme_definiteness,recipient_definiteness,theme_givenness,recipient_givenness,theme_length,recipient_length,binary_score,length_score,haap_score
+HAAP-2pv_DO2PO,4481,DO,1,281,1,agent-only,agent-only,"Do you see Sarah ?
+", Sarah [verb] a small horse a big cookie .,Sarah,a big cookie,a small horse,inanimate,animate,noun,noun,indefinite,indefinite,new,new,3,3,5,0,5
+HAAP-2pv_DO2PO,4481,DO,2,281,1,agent-only,agent-only,"Look it's Sarah !
+", Sarah [verb] a small horse a big cookie .,Sarah,a big cookie,a small horse,inanimate,animate,noun,noun,indefinite,indefinite,new,new,3,3,5,0,5
+HAAP-2pv_DO2PO,4481,DO,3,281,1,agent-only,agent-only,"Here's Sarah !
+", Sarah [verb] a small horse a big cookie .,Sarah,a big cookie,a small horse,inanimate,animate,noun,noun,indefinite,indefinite,new,new,3,3,5,0,5
+HAAP-2pv_DO2PO,4483,DO,1,281,2,agent-only,agent-only,"Do you see Jenny ?
+", Jenny [verb] a brown bear a thick book .,Jenny,a thick book,a brown bear,inanimate,animate,noun,noun,indefinite,indefinite,new,new,3,3,5,0,5
+HAAP-2pv_DO2PO,4483,DO,2,281,2,agent-only,agent-only,"Look it's Jenny !
+", Jenny [verb] a brown bear a thick book .,Jenny,a thick book,a brown bear,inanimate,animate,noun,noun,indefinite,indefinite,new,new,3,3,5,0,5
+HAAP-2pv_DO2PO,4483,DO,3,281,2,agent-only,agent-only,"Here's Jenny !
+", Jenny [verb] a brown bear a thick book .,Jenny,a thick book,a brown bear,inanimate,animate,noun,noun,indefinite,indefinite,new,new,3,3,5,0,5
+HAAP-2pv_DO2PO,4485,DO,1,281,3,agent-only,agent-only,"Do you see William ?
+", William [verb] a big horse some tool boxes .,William,some tool boxes,a big horse,inanimate,animate,noun,noun,indefinite,indefinite,new,new,3,3,5,0,5
+HAAP-2pv_DO2PO,4485,DO,2,281,3,agent-only,agent-only,"Look it's William !
+", William [verb] a big horse some tool boxes .,William,some tool boxes,a big horse,inanimate,animate,noun,noun,indefinite,indefinite,new,new,3,3,5,0,5
+HAAP-2pv_DO2PO,4485,DO,3,281,3,agent-only,agent-only,"Here's William !
+", William [verb] a big horse some tool boxes .,William,some tool boxes,a big horse,inanimate,animate,noun,noun,indefinite,indefinite,new,new,3,3,5,0,5
+HAAP-2pv_DO2PO,4487,DO,1,281,4,agent-only,agent-only,"Do you see Laura ?
+", Laura [verb] a big bear a red pencil .,Laura,a red pencil,a big bear,inanimate,animate,noun,noun,indefinite,indefinite,new,new,3,3,5,0,5
+HAAP-2pv_DO2PO,4487,DO,2,281,4,agent-only,agent-only,"Look it's Laura !
+", Laura [verb] a big bear a red pencil .,Laura,a red pencil,a big bear,inanimate,animate,noun,noun,indefinite,indefinite,new,new,3,3,5,0,5
+HAAP-2pv_DO2PO,4487,DO,3,281,4,agent-only,agent-only,"Here's Laura !
+", Laura [verb] a big bear a red pencil .,Laura,a red pencil,a big bear,inanimate,animate,noun,noun,indefinite,indefinite,new,new,3,3,5,0,5
+HAAP-2pv_DO2PO,4489,DO,1,281,5,agent-only,agent-only,"Do you see Alex ?
+", Alex [verb] a big horse some little cookies .,Alex,some little cookies,a big horse,inanimate,animate,noun,noun,indefinite,indefinite,new,new,3,3,5,0,5
+HAAP-2pv_DO2PO,4489,DO,2,281,5,agent-only,agent-only,"Look it's Alex !
+", Alex [verb] a big horse some little cookies .,Alex,some little cookies,a big horse,inanimate,animate,noun,noun,indefinite,indefinite,new,new,3,3,5,0,5
+HAAP-2pv_DO2PO,4489,DO,3,281,5,agent-only,agent-only,"Here's Alex !
+", Alex [verb] a big horse some little cookies .,Alex,some little cookies,a big horse,inanimate,animate,noun,noun,indefinite,indefinite,new,new,3,3,5,0,5
+HAAP-2pv_DO2PO,4491,DO,1,281,6,agent-only,agent-only,"Do you see Michael ?
+", Michael [verb] some little girls a big toy .,Michael,a big toy,some little girls,inanimate,animate,noun,noun,indefinite,indefinite,new,new,3,3,5,0,5
+HAAP-2pv_DO2PO,4491,DO,2,281,6,agent-only,agent-only,"Look it's Michael !
+", Michael [verb] some little girls a big toy .,Michael,a big toy,some little girls,inanimate,animate,noun,noun,indefinite,indefinite,new,new,3,3,5,0,5
+HAAP-2pv_DO2PO,4491,DO,3,281,6,agent-only,agent-only,"Here's Michael !
+", Michael [verb] some little girls a big toy .,Michael,a big toy,some little girls,inanimate,animate,noun,noun,indefinite,indefinite,new,new,3,3,5,0,5
+HAAP-2pv_DO2PO,4493,DO,1,281,7,agent-only,agent-only,"Do you see Mark ?
+", Mark [verb] some small horses a red ball .,Mark,a red ball,some small horses,inanimate,animate,noun,noun,indefinite,indefinite,new,new,3,3,5,0,5
+HAAP-2pv_DO2PO,4493,DO,2,281,7,agent-only,agent-only,"Look it's Mark !
+", Mark [verb] some small horses a red ball .,Mark,a red ball,some small horses,inanimate,animate,noun,noun,indefinite,indefinite,new,new,3,3,5,0,5
+HAAP-2pv_DO2PO,4493,DO,3,281,7,agent-only,agent-only,"Here's Mark !
+", Mark [verb] some small horses a red ball .,Mark,a red ball,some small horses,inanimate,animate,noun,noun,indefinite,indefinite,new,new,3,3,5,0,5
+HAAP-2pv_DO2PO,4495,DO,1,281,8,agent-only,agent-only,"Do you see Judy ?
+", Judy [verb] some naughty girls some blue balls .,Judy,some blue balls,some naughty girls,inanimate,animate,noun,noun,indefinite,indefinite,new,new,3,3,5,0,5
+HAAP-2pv_DO2PO,4495,DO,2,281,8,agent-only,agent-only,"Look it's Judy !
+", Judy [verb] some naughty girls some blue balls .,Judy,some blue balls,some naughty girls,inanimate,animate,noun,noun,indefinite,indefinite,new,new,3,3,5,0,5
+HAAP-2pv_DO2PO,4495,DO,3,281,8,agent-only,agent-only,"Here's Judy !
+", Judy [verb] some naughty girls some blue balls .,Judy,some blue balls,some naughty girls,inanimate,animate,noun,noun,indefinite,indefinite,new,new,3,3,5,0,5
+HAAP-min_DO2PO,5585,DO,1,375,1,agent-1arg,agent-theme,"Do you see William and the milk ?
+", William [verb] a girl with green hair it .,William,it,a girl with green hair,inanimate,animate,pronoun,noun,definite,indefinite,given,new,1,5,2,-2.386294361119891,-0.3862943611198908
+HAAP-min_DO2PO,5585,DO,2,375,1,agent-1arg,agent-theme,"Look it's William and the paper !
+", William [verb] a girl with green hair it .,William,it,a girl with green hair,inanimate,animate,pronoun,noun,definite,indefinite,given,new,1,5,2,-2.386294361119891,-0.3862943611198908
+HAAP-min_DO2PO,5585,DO,3,375,1,agent-1arg,agent-theme,"Here's William with the coffee !
+", William [verb] a girl with green hair it .,William,it,a girl with green hair,inanimate,animate,pronoun,noun,definite,indefinite,given,new,1,5,2,-2.386294361119891,-0.3862943611198908
+HAAP-min_DO2PO,5587,DO,1,375,2,agent-1arg,agent-theme,"Do you see Michael and the picture ?
+", Michael [verb] a bear with a bottle it .,Michael,it,a bear with a bottle,inanimate,animate,pronoun,noun,definite,indefinite,given,new,1,5,2,-2.386294361119891,-0.3862943611198908
+HAAP-min_DO2PO,5587,DO,2,375,2,agent-1arg,agent-theme,"Look it's Michael and the apple !
+", Michael [verb] a bear with a bottle it .,Michael,it,a bear with a bottle,inanimate,animate,pronoun,noun,definite,indefinite,given,new,1,5,2,-2.386294361119891,-0.3862943611198908
+HAAP-min_DO2PO,5587,DO,3,375,2,agent-1arg,agent-theme,"Here's Michael with the coffee !
+", Michael [verb] a bear with a bottle it .,Michael,it,a bear with a bottle,inanimate,animate,pronoun,noun,definite,indefinite,given,new,1,5,2,-2.386294361119891,-0.3862943611198908
+HAAP-min_DO2PO,5589,DO,1,375,3,agent-1arg,agent-theme,"Do you see Laura and the photographs ?
+", Laura [verb] a boy with round glasses them .,Laura,them-i,a boy with round glasses,inanimate,animate,pronoun,noun,definite,indefinite,given,new,1,5,2,-2.386294361119891,-0.3862943611198908
+HAAP-min_DO2PO,5589,DO,2,375,3,agent-1arg,agent-theme,"Look it's Laura and the pictures !
+", Laura [verb] a boy with round glasses them .,Laura,them-i,a boy with round glasses,inanimate,animate,pronoun,noun,definite,indefinite,given,new,1,5,2,-2.386294361119891,-0.3862943611198908
+HAAP-min_DO2PO,5589,DO,3,375,3,agent-1arg,agent-theme,"Here's Laura with the candies !
+", Laura [verb] a boy with round glasses them .,Laura,them-i,a boy with round glasses,inanimate,animate,pronoun,noun,definite,indefinite,given,new,1,5,2,-2.386294361119891,-0.3862943611198908
+HAAP-min_DO2PO,5591,DO,1,375,4,agent-1arg,agent-theme,"Do you see Alex and the pictures ?
+", Alex [verb] a horse with a saddle them .,Alex,them-i,a horse with a saddle,inanimate,animate,pronoun,noun,definite,indefinite,given,new,1,5,2,-2.386294361119891,-0.3862943611198908
+HAAP-min_DO2PO,5591,DO,2,375,4,agent-1arg,agent-theme,"Look it's Alex and the photographs !
+", Alex [verb] a horse with a saddle them .,Alex,them-i,a horse with a saddle,inanimate,animate,pronoun,noun,definite,indefinite,given,new,1,5,2,-2.386294361119891,-0.3862943611198908
+HAAP-min_DO2PO,5591,DO,3,375,4,agent-1arg,agent-theme,"Here's Alex with the candies !
+", Alex [verb] a horse with a saddle them .,Alex,them-i,a horse with a saddle,inanimate,animate,pronoun,noun,definite,indefinite,given,new,1,5,2,-2.386294361119891,-0.3862943611198908
+HAAP-min_DO2PO,5593,DO,1,375,5,agent-1arg,agent-theme,"Do you see Judy and the socks ?
+", Judy [verb] a bear with an apple them .,Judy,them-i,a bear with an apple,inanimate,animate,pronoun,noun,definite,indefinite,given,new,1,5,2,-2.386294361119891,-0.3862943611198908
+HAAP-min_DO2PO,5593,DO,2,375,5,agent-1arg,agent-theme,"Look it's Judy and the socks !
+", Judy [verb] a bear with an apple them .,Judy,them-i,a bear with an apple,inanimate,animate,pronoun,noun,definite,indefinite,given,new,1,5,2,-2.386294361119891,-0.3862943611198908
+HAAP-min_DO2PO,5593,DO,3,375,5,agent-1arg,agent-theme,"Here's Judy with the crayons !
+", Judy [verb] a bear with an apple them .,Judy,them-i,a bear with an apple,inanimate,animate,pronoun,noun,definite,indefinite,given,new,1,5,2,-2.386294361119891,-0.3862943611198908
+HAAP-min_DO2PO,5595,DO,1,375,6,agent-1arg,agent-theme,"Do you see Mark and the paper ?
+", Mark [verb] a boy with blue pants it .,Mark,it,a boy with blue pants,inanimate,animate,pronoun,noun,definite,indefinite,given,new,1,5,2,-2.386294361119891,-0.3862943611198908
+HAAP-min_DO2PO,5595,DO,2,375,6,agent-1arg,agent-theme,"Look it's Mark and the apple !
+", Mark [verb] a boy with blue pants it .,Mark,it,a boy with blue pants,inanimate,animate,pronoun,noun,definite,indefinite,given,new,1,5,2,-2.386294361119891,-0.3862943611198908
+HAAP-min_DO2PO,5595,DO,3,375,6,agent-1arg,agent-theme,"Here's Mark with the coffee !
+", Mark [verb] a boy with blue pants it .,Mark,it,a boy with blue pants,inanimate,animate,pronoun,noun,definite,indefinite,given,new,1,5,2,-2.386294361119891,-0.3862943611198908
+HAAP-min_DO2PO,5597,DO,1,375,7,agent-1arg,agent-theme,"Do you see Sarah and the candies ?
+", Sarah [verb] a girl with green hair them .,Sarah,them-i,a girl with green hair,inanimate,animate,pronoun,noun,definite,indefinite,given,new,1,5,2,-2.386294361119891,-0.3862943611198908
+HAAP-min_DO2PO,5597,DO,2,375,7,agent-1arg,agent-theme,"Look it's Sarah and the photographs !
+", Sarah [verb] a girl with green hair them .,Sarah,them-i,a girl with green hair,inanimate,animate,pronoun,noun,definite,indefinite,given,new,1,5,2,-2.386294361119891,-0.3862943611198908
+HAAP-min_DO2PO,5597,DO,3,375,7,agent-1arg,agent-theme,"Here's Sarah with the pictures !
+", Sarah [verb] a girl with green hair them .,Sarah,them-i,a girl with green hair,inanimate,animate,pronoun,noun,definite,indefinite,given,new,1,5,2,-2.386294361119891,-0.3862943611198908
+HAAP-min_DO2PO,5599,DO,1,375,8,agent-1arg,agent-theme,"Do you see Jenny and the photographs ?
+", Jenny [verb] a girl with long hair them .,Jenny,them-i,a girl with long hair,inanimate,animate,pronoun,noun,definite,indefinite,given,new,1,5,2,-2.386294361119891,-0.3862943611198908
+HAAP-min_DO2PO,5599,DO,2,375,8,agent-1arg,agent-theme,"Look it's Jenny and the pictures !
+", Jenny [verb] a girl with long hair them .,Jenny,them-i,a girl with long hair,inanimate,animate,pronoun,noun,definite,indefinite,given,new,1,5,2,-2.386294361119891,-0.3862943611198908
+HAAP-min_DO2PO,5599,DO,3,375,8,agent-1arg,agent-theme,"Here's Jenny with the candies !
+", Jenny [verb] a girl with long hair them .,Jenny,them-i,a girl with long hair,inanimate,animate,pronoun,noun,definite,indefinite,given,new,1,5,2,-2.386294361119891,-0.3862943611198908
+HAAP-min_DO2PO,5601,DO,1,376,1,agent-1arg,agent-theme,"Do you see Judy and the milk ?
+", Judy [verb] a cat that's on the tree it .,Judy,it,a cat that's on the tree,inanimate,animate,pronoun,noun,definite,indefinite,given,new,1,6,2,-2.6094379124341005,-0.6094379124341005
+HAAP-min_DO2PO,5601,DO,2,376,1,agent-1arg,agent-theme,"Look it's Judy and the coffee !
+", Judy [verb] a cat that's on the tree it .,Judy,it,a cat that's on the tree,inanimate,animate,pronoun,noun,definite,indefinite,given,new,1,6,2,-2.6094379124341005,-0.6094379124341005
+HAAP-min_DO2PO,5601,DO,3,376,1,agent-1arg,agent-theme,"Here's Judy with the milk !
+", Judy [verb] a cat that's on the tree it .,Judy,it,a cat that's on the tree,inanimate,animate,pronoun,noun,definite,indefinite,given,new,1,6,2,-2.6094379124341005,-0.6094379124341005
+HAAP-min_DO2PO,5603,DO,1,376,2,agent-1arg,agent-theme,"Do you see Jenny and the candies ?
+", Jenny [verb] a horse with the funny hat them .,Jenny,them-i,a horse with the funny hat,inanimate,animate,pronoun,noun,definite,indefinite,given,new,1,6,2,-2.6094379124341005,-0.6094379124341005
+HAAP-min_DO2PO,5603,DO,2,376,2,agent-1arg,agent-theme,"Look it's Jenny and the socks !
+", Jenny [verb] a horse with the funny hat them .,Jenny,them-i,a horse with the funny hat,inanimate,animate,pronoun,noun,definite,indefinite,given,new,1,6,2,-2.6094379124341005,-0.6094379124341005
+HAAP-min_DO2PO,5603,DO,3,376,2,agent-1arg,agent-theme,"Here's Jenny with the socks !
+", Jenny [verb] a horse with the funny hat them .,Jenny,them-i,a horse with the funny hat,inanimate,animate,pronoun,noun,definite,indefinite,given,new,1,6,2,-2.6094379124341005,-0.6094379124341005
+HAAP-min_DO2PO,5605,DO,1,376,3,agent-1arg,agent-theme,"Do you see Michael and the picture ?
+", Michael [verb] a cat that's in the hat it .,Michael,it,a cat that's in the hat,inanimate,animate,pronoun,noun,definite,indefinite,given,new,1,6,2,-2.6094379124341005,-0.6094379124341005
+HAAP-min_DO2PO,5605,DO,2,376,3,agent-1arg,agent-theme,"Look it's Michael and the paper !
+", Michael [verb] a cat that's in the hat it .,Michael,it,a cat that's in the hat,inanimate,animate,pronoun,noun,definite,indefinite,given,new,1,6,2,-2.6094379124341005,-0.6094379124341005
+HAAP-min_DO2PO,5605,DO,3,376,3,agent-1arg,agent-theme,"Here's Michael with the picture !
+", Michael [verb] a cat that's in the hat it .,Michael,it,a cat that's in the hat,inanimate,animate,pronoun,noun,definite,indefinite,given,new,1,6,2,-2.6094379124341005,-0.6094379124341005
+HAAP-min_DO2PO,5607,DO,1,376,4,agent-1arg,agent-theme,"Do you see Mark and the socks ?
+", Mark [verb] a boy who's on the bicycle them .,Mark,them-i,a boy who's on the bicycle,inanimate,animate,pronoun,noun,definite,indefinite,given,new,1,6,2,-2.6094379124341005,-0.6094379124341005
+HAAP-min_DO2PO,5607,DO,2,376,4,agent-1arg,agent-theme,"Look it's Mark and the socks !
+", Mark [verb] a boy who's on the bicycle them .,Mark,them-i,a boy who's on the bicycle,inanimate,animate,pronoun,noun,definite,indefinite,given,new,1,6,2,-2.6094379124341005,-0.6094379124341005
+HAAP-min_DO2PO,5607,DO,3,376,4,agent-1arg,agent-theme,"Here's Mark with the pictures !
+", Mark [verb] a boy who's on the bicycle them .,Mark,them-i,a boy who's on the bicycle,inanimate,animate,pronoun,noun,definite,indefinite,given,new,1,6,2,-2.6094379124341005,-0.6094379124341005
+HAAP-min_DO2PO,5609,DO,1,376,5,agent-1arg,agent-theme,"Do you see Sarah and the pictures ?
+", Sarah [verb] a bear who's on the chair them .,Sarah,them-i,a bear who's on the chair,inanimate,animate,pronoun,noun,definite,indefinite,given,new,1,6,2,-2.6094379124341005,-0.6094379124341005
+HAAP-min_DO2PO,5609,DO,2,376,5,agent-1arg,agent-theme,"Look it's Sarah and the pictures !
+", Sarah [verb] a bear who's on the chair them .,Sarah,them-i,a bear who's on the chair,inanimate,animate,pronoun,noun,definite,indefinite,given,new,1,6,2,-2.6094379124341005,-0.6094379124341005
+HAAP-min_DO2PO,5609,DO,3,376,5,agent-1arg,agent-theme,"Here's Sarah with the photographs !
+", Sarah [verb] a bear who's on the chair them .,Sarah,them-i,a bear who's on the chair,inanimate,animate,pronoun,noun,definite,indefinite,given,new,1,6,2,-2.6094379124341005,-0.6094379124341005
+HAAP-min_DO2PO,5611,DO,1,376,6,agent-1arg,agent-theme,"Do you see Laura and the picture ?
+", Laura [verb] a dog with a red head it .,Laura,it,a dog with a red head,inanimate,animate,pronoun,noun,definite,indefinite,given,new,1,6,2,-2.6094379124341005,-0.6094379124341005
+HAAP-min_DO2PO,5611,DO,2,376,6,agent-1arg,agent-theme,"Look it's Laura and the picture !
+", Laura [verb] a dog with a red head it .,Laura,it,a dog with a red head,inanimate,animate,pronoun,noun,definite,indefinite,given,new,1,6,2,-2.6094379124341005,-0.6094379124341005
+HAAP-min_DO2PO,5611,DO,3,376,6,agent-1arg,agent-theme,"Here's Laura with the apple !
+", Laura [verb] a dog with a red head it .,Laura,it,a dog with a red head,inanimate,animate,pronoun,noun,definite,indefinite,given,new,1,6,2,-2.6094379124341005,-0.6094379124341005
+HAAP-min_DO2PO,5613,DO,1,376,7,agent-1arg,agent-theme,"Do you see William and the candies ?
+", William [verb] a girl with the blue hat them .,William,them-i,a girl with the blue hat,inanimate,animate,pronoun,noun,definite,indefinite,given,new,1,6,2,-2.6094379124341005,-0.6094379124341005
+HAAP-min_DO2PO,5613,DO,2,376,7,agent-1arg,agent-theme,"Look it's William and the crayons !
+", William [verb] a girl with the blue hat them .,William,them-i,a girl with the blue hat,inanimate,animate,pronoun,noun,definite,indefinite,given,new,1,6,2,-2.6094379124341005,-0.6094379124341005
+HAAP-min_DO2PO,5613,DO,3,376,7,agent-1arg,agent-theme,"Here's William with the crayons !
+", William [verb] a girl with the blue hat them .,William,them-i,a girl with the blue hat,inanimate,animate,pronoun,noun,definite,indefinite,given,new,1,6,2,-2.6094379124341005,-0.6094379124341005
+HAAP-min_DO2PO,5615,DO,1,376,8,agent-1arg,agent-theme,"Do you see Alex and the apple ?
+", Alex [verb] a dog who's on a leash it .,Alex,it,a dog who's on a leash,inanimate,animate,pronoun,noun,definite,indefinite,given,new,1,6,2,-2.6094379124341005,-0.6094379124341005
+HAAP-min_DO2PO,5615,DO,2,376,8,agent-1arg,agent-theme,"Look it's Alex and the coffee !
+", Alex [verb] a dog who's on a leash it .,Alex,it,a dog who's on a leash,inanimate,animate,pronoun,noun,definite,indefinite,given,new,1,6,2,-2.6094379124341005,-0.6094379124341005
+HAAP-min_DO2PO,5615,DO,3,376,8,agent-1arg,agent-theme,"Here's Alex with the milk !
+", Alex [verb] a dog who's on a leash it .,Alex,it,a dog who's on a leash,inanimate,animate,pronoun,noun,definite,indefinite,given,new,1,6,2,-2.6094379124341005,-0.6094379124341005
+HAAP-min_DO2PO,5617,DO,1,377,1,agent-1arg,agent-theme,"Do you see Alex and the apple ?
+", Alex [verb] a dog with ears it .,Alex,it,a dog with ears,inanimate,animate,pronoun,noun,definite,indefinite,given,new,1,4,2,-2.09861228866811,-0.09861228866811
+HAAP-min_DO2PO,5617,DO,2,377,1,agent-1arg,agent-theme,"Look it's Alex and the milk !
+", Alex [verb] a dog with ears it .,Alex,it,a dog with ears,inanimate,animate,pronoun,noun,definite,indefinite,given,new,1,4,2,-2.09861228866811,-0.09861228866811
+HAAP-min_DO2PO,5617,DO,3,377,1,agent-1arg,agent-theme,"Here's Alex with the apple !
+", Alex [verb] a dog with ears it .,Alex,it,a dog with ears,inanimate,animate,pronoun,noun,definite,indefinite,given,new,1,4,2,-2.09861228866811,-0.09861228866811
+HAAP-min_DO2PO,5619,DO,1,377,2,agent-1arg,agent-theme,"Do you see Jenny and the pictures ?
+", Jenny [verb] a dog with ears them .,Jenny,them-i,a dog with ears,inanimate,animate,pronoun,noun,definite,indefinite,given,new,1,4,2,-2.09861228866811,-0.09861228866811
+HAAP-min_DO2PO,5619,DO,2,377,2,agent-1arg,agent-theme,"Look it's Jenny and the candies !
+", Jenny [verb] a dog with ears them .,Jenny,them-i,a dog with ears,inanimate,animate,pronoun,noun,definite,indefinite,given,new,1,4,2,-2.09861228866811,-0.09861228866811
+HAAP-min_DO2PO,5619,DO,3,377,2,agent-1arg,agent-theme,"Here's Jenny with the crayons !
+", Jenny [verb] a dog with ears them .,Jenny,them-i,a dog with ears,inanimate,animate,pronoun,noun,definite,indefinite,given,new,1,4,2,-2.09861228866811,-0.09861228866811
+HAAP-min_DO2PO,5621,DO,1,377,3,agent-1arg,agent-theme,"Do you see Michael and the crayons ?
+", Michael [verb] a girl with leaves them .,Michael,them-i,a girl with leaves,inanimate,animate,pronoun,noun,definite,indefinite,given,new,1,4,2,-2.09861228866811,-0.09861228866811
+HAAP-min_DO2PO,5621,DO,2,377,3,agent-1arg,agent-theme,"Look it's Michael and the pictures !
+", Michael [verb] a girl with leaves them .,Michael,them-i,a girl with leaves,inanimate,animate,pronoun,noun,definite,indefinite,given,new,1,4,2,-2.09861228866811,-0.09861228866811
+HAAP-min_DO2PO,5621,DO,3,377,3,agent-1arg,agent-theme,"Here's Michael with the crayons !
+", Michael [verb] a girl with leaves them .,Michael,them-i,a girl with leaves,inanimate,animate,pronoun,noun,definite,indefinite,given,new,1,4,2,-2.09861228866811,-0.09861228866811
+HAAP-min_DO2PO,5623,DO,1,377,4,agent-1arg,agent-theme,"Do you see Judy and the milk ?
+", Judy [verb] a girl with leaves it .,Judy,it,a girl with leaves,inanimate,animate,pronoun,noun,definite,indefinite,given,new,1,4,2,-2.09861228866811,-0.09861228866811
+HAAP-min_DO2PO,5623,DO,2,377,4,agent-1arg,agent-theme,"Look it's Judy and the milk !
+", Judy [verb] a girl with leaves it .,Judy,it,a girl with leaves,inanimate,animate,pronoun,noun,definite,indefinite,given,new,1,4,2,-2.09861228866811,-0.09861228866811
+HAAP-min_DO2PO,5623,DO,3,377,4,agent-1arg,agent-theme,"Here's Judy with the picture !
+", Judy [verb] a girl with leaves it .,Judy,it,a girl with leaves,inanimate,animate,pronoun,noun,definite,indefinite,given,new,1,4,2,-2.09861228866811,-0.09861228866811
+HAAP-min_DO2PO,5625,DO,1,377,5,agent-1arg,agent-theme,"Do you see Sarah and the milk ?
+", Sarah [verb] a dog with ears it .,Sarah,it,a dog with ears,inanimate,animate,pronoun,noun,definite,indefinite,given,new,1,4,2,-2.09861228866811,-0.09861228866811
+HAAP-min_DO2PO,5625,DO,2,377,5,agent-1arg,agent-theme,"Look it's Sarah and the milk !
+", Sarah [verb] a dog with ears it .,Sarah,it,a dog with ears,inanimate,animate,pronoun,noun,definite,indefinite,given,new,1,4,2,-2.09861228866811,-0.09861228866811
+HAAP-min_DO2PO,5625,DO,3,377,5,agent-1arg,agent-theme,"Here's Sarah with the picture !
+", Sarah [verb] a dog with ears it .,Sarah,it,a dog with ears,inanimate,animate,pronoun,noun,definite,indefinite,given,new,1,4,2,-2.09861228866811,-0.09861228866811
+HAAP-min_DO2PO,5627,DO,1,377,6,agent-1arg,agent-theme,"Do you see William and the photographs ?
+", William [verb] a dog with ears them .,William,them-i,a dog with ears,inanimate,animate,pronoun,noun,definite,indefinite,given,new,1,4,2,-2.09861228866811,-0.09861228866811
+HAAP-min_DO2PO,5627,DO,2,377,6,agent-1arg,agent-theme,"Look it's William and the crayons !
+", William [verb] a dog with ears them .,William,them-i,a dog with ears,inanimate,animate,pronoun,noun,definite,indefinite,given,new,1,4,2,-2.09861228866811,-0.09861228866811
+HAAP-min_DO2PO,5627,DO,3,377,6,agent-1arg,agent-theme,"Here's William with the socks !
+", William [verb] a dog with ears them .,William,them-i,a dog with ears,inanimate,animate,pronoun,noun,definite,indefinite,given,new,1,4,2,-2.09861228866811,-0.09861228866811
+HAAP-min_DO2PO,5629,DO,1,377,7,agent-1arg,agent-theme,"Do you see Mark and the crayons ?
+", Mark [verb] a girl with leaves them .,Mark,them-i,a girl with leaves,inanimate,animate,pronoun,noun,definite,indefinite,given,new,1,4,2,-2.09861228866811,-0.09861228866811
+HAAP-min_DO2PO,5629,DO,2,377,7,agent-1arg,agent-theme,"Look it's Mark and the crayons !
+", Mark [verb] a girl with leaves them .,Mark,them-i,a girl with leaves,inanimate,animate,pronoun,noun,definite,indefinite,given,new,1,4,2,-2.09861228866811,-0.09861228866811
+HAAP-min_DO2PO,5629,DO,3,377,7,agent-1arg,agent-theme,"Here's Mark with the socks !
+", Mark [verb] a girl with leaves them .,Mark,them-i,a girl with leaves,inanimate,animate,pronoun,noun,definite,indefinite,given,new,1,4,2,-2.09861228866811,-0.09861228866811
+HAAP-min_DO2PO,5631,DO,1,377,8,agent-1arg,agent-theme,"Do you see Laura and the coffee ?
+", Laura [verb] a girl with leaves it .,Laura,it,a girl with leaves,inanimate,animate,pronoun,noun,definite,indefinite,given,new,1,4,2,-2.09861228866811,-0.09861228866811
+HAAP-min_DO2PO,5631,DO,2,377,8,agent-1arg,agent-theme,"Look it's Laura and the picture !
+", Laura [verb] a girl with leaves it .,Laura,it,a girl with leaves,inanimate,animate,pronoun,noun,definite,indefinite,given,new,1,4,2,-2.09861228866811,-0.09861228866811
+HAAP-min_DO2PO,5631,DO,3,377,8,agent-1arg,agent-theme,"Here's Laura with the apple !
+", Laura [verb] a girl with leaves it .,Laura,it,a girl with leaves,inanimate,animate,pronoun,noun,definite,indefinite,given,new,1,4,2,-2.09861228866811,-0.09861228866811
+HAAP-max_DO2PO,10065,DO,1,927,1,agent-1arg,agent-recipient,"Do you see Alex and me ?
+", Alex [verb] me a cookie with chocolate frosting .,Alex,a cookie with chocolate frosting,me,inanimate,animate,noun,pronoun,indefinite,definite,new,given,5,1,8,2.386294361119891,10.38629436111989
+HAAP-max_DO2PO,10065,DO,2,927,1,agent-1arg,agent-recipient,"Look it's Alex and me !
+", Alex [verb] me a cookie with chocolate frosting .,Alex,a cookie with chocolate frosting,me,inanimate,animate,noun,pronoun,indefinite,definite,new,given,5,1,8,2.386294361119891,10.38629436111989
+HAAP-max_DO2PO,10065,DO,3,927,1,agent-1arg,agent-recipient,"Here's Alex with me !
+", Alex [verb] me a cookie with chocolate frosting .,Alex,a cookie with chocolate frosting,me,inanimate,animate,noun,pronoun,indefinite,definite,new,given,5,1,8,2.386294361119891,10.38629436111989
+HAAP-max_DO2PO,10067,DO,1,927,2,agent-1arg,agent-recipient,"Do you see Michael and the ducks ?
+", Michael [verb] them a cookie with chocolate frosting .,Michael,a cookie with chocolate frosting,them-a,inanimate,animate,noun,pronoun,indefinite,definite,new,given,5,1,8,2.386294361119891,10.38629436111989
+HAAP-max_DO2PO,10067,DO,2,927,2,agent-1arg,agent-recipient,"Look it's Michael and the birds !
+", Michael [verb] them a cookie with chocolate frosting .,Michael,a cookie with chocolate frosting,them-a,inanimate,animate,noun,pronoun,indefinite,definite,new,given,5,1,8,2.386294361119891,10.38629436111989
+HAAP-max_DO2PO,10067,DO,3,927,2,agent-1arg,agent-recipient,"Here's Michael with the ducks !
+", Michael [verb] them a cookie with chocolate frosting .,Michael,a cookie with chocolate frosting,them-a,inanimate,animate,noun,pronoun,indefinite,definite,new,given,5,1,8,2.386294361119891,10.38629436111989
+HAAP-max_DO2PO,10069,DO,1,927,3,agent-1arg,agent-recipient,"Do you see William and Sally ?
+", William [verb] her a cup with orange juice .,William,a cup with orange juice,her,inanimate,animate,noun,pronoun,indefinite,definite,new,given,5,1,8,2.386294361119891,10.38629436111989
+HAAP-max_DO2PO,10069,DO,2,927,3,agent-1arg,agent-recipient,"Look it's William and Catherine !
+", William [verb] her a cup with orange juice .,William,a cup with orange juice,her,inanimate,animate,noun,pronoun,indefinite,definite,new,given,5,1,8,2.386294361119891,10.38629436111989
+HAAP-max_DO2PO,10069,DO,3,927,3,agent-1arg,agent-recipient,"Here's William with Eve !
+", William [verb] her a cup with orange juice .,William,a cup with orange juice,her,inanimate,animate,noun,pronoun,indefinite,definite,new,given,5,1,8,2.386294361119891,10.38629436111989
+HAAP-max_DO2PO,10071,DO,1,927,4,agent-1arg,agent-recipient,"Do you see Judy and me ?
+", Judy [verb] me a cup with orange juice .,Judy,a cup with orange juice,me,inanimate,animate,noun,pronoun,indefinite,definite,new,given,5,1,8,2.386294361119891,10.38629436111989
+HAAP-max_DO2PO,10071,DO,2,927,4,agent-1arg,agent-recipient,"Look it's Judy and me !
+", Judy [verb] me a cup with orange juice .,Judy,a cup with orange juice,me,inanimate,animate,noun,pronoun,indefinite,definite,new,given,5,1,8,2.386294361119891,10.38629436111989
+HAAP-max_DO2PO,10071,DO,3,927,4,agent-1arg,agent-recipient,"Here's Judy with me !
+", Judy [verb] me a cup with orange juice .,Judy,a cup with orange juice,me,inanimate,animate,noun,pronoun,indefinite,definite,new,given,5,1,8,2.386294361119891,10.38629436111989
+HAAP-max_DO2PO,10073,DO,1,927,5,agent-1arg,agent-recipient,"Do you see Laura and Lily ?
+", Laura [verb] her a box with the blocks .,Laura,a box with the blocks,her,inanimate,animate,noun,pronoun,indefinite,definite,new,given,5,1,8,2.386294361119891,10.38629436111989
+HAAP-max_DO2PO,10073,DO,2,927,5,agent-1arg,agent-recipient,"Look it's Laura and Lily !
+", Laura [verb] her a box with the blocks .,Laura,a box with the blocks,her,inanimate,animate,noun,pronoun,indefinite,definite,new,given,5,1,8,2.386294361119891,10.38629436111989
+HAAP-max_DO2PO,10073,DO,3,927,5,agent-1arg,agent-recipient,"Here's Laura with Eve !
+", Laura [verb] her a box with the blocks .,Laura,a box with the blocks,her,inanimate,animate,noun,pronoun,indefinite,definite,new,given,5,1,8,2.386294361119891,10.38629436111989
+HAAP-max_DO2PO,10075,DO,1,927,6,agent-1arg,agent-recipient,"Do you see Mark and Sally ?
+", Mark [verb] her a cookie with chocolate frosting .,Mark,a cookie with chocolate frosting,her,inanimate,animate,noun,pronoun,indefinite,definite,new,given,5,1,8,2.386294361119891,10.38629436111989
+HAAP-max_DO2PO,10075,DO,2,927,6,agent-1arg,agent-recipient,"Look it's Mark and Catherine !
+", Mark [verb] her a cookie with chocolate frosting .,Mark,a cookie with chocolate frosting,her,inanimate,animate,noun,pronoun,indefinite,definite,new,given,5,1,8,2.386294361119891,10.38629436111989
+HAAP-max_DO2PO,10075,DO,3,927,6,agent-1arg,agent-recipient,"Here's Mark with Nina !
+", Mark [verb] her a cookie with chocolate frosting .,Mark,a cookie with chocolate frosting,her,inanimate,animate,noun,pronoun,indefinite,definite,new,given,5,1,8,2.386294361119891,10.38629436111989
+HAAP-max_DO2PO,10077,DO,1,927,7,agent-1arg,agent-recipient,"Do you see Sarah and me ?
+", Sarah [verb] me a cookie with pink frosting .,Sarah,a cookie with pink frosting,me,inanimate,animate,noun,pronoun,indefinite,definite,new,given,5,1,8,2.386294361119891,10.38629436111989
+HAAP-max_DO2PO,10077,DO,2,927,7,agent-1arg,agent-recipient,"Look it's Sarah and me !
+", Sarah [verb] me a cookie with pink frosting .,Sarah,a cookie with pink frosting,me,inanimate,animate,noun,pronoun,indefinite,definite,new,given,5,1,8,2.386294361119891,10.38629436111989
+HAAP-max_DO2PO,10077,DO,3,927,7,agent-1arg,agent-recipient,"Here's Sarah with me !
+", Sarah [verb] me a cookie with pink frosting .,Sarah,a cookie with pink frosting,me,inanimate,animate,noun,pronoun,indefinite,definite,new,given,5,1,8,2.386294361119891,10.38629436111989
+HAAP-max_DO2PO,10079,DO,1,927,8,agent-1arg,agent-recipient,"Do you see Jenny and Thomas ?
+", Jenny [verb] him a cup with no lid .,Jenny,a cup with no lid,him,inanimate,animate,noun,pronoun,indefinite,definite,new,given,5,1,8,2.386294361119891,10.38629436111989
+HAAP-max_DO2PO,10079,DO,2,927,8,agent-1arg,agent-recipient,"Look it's Jenny and Joseph !
+", Jenny [verb] him a cup with no lid .,Jenny,a cup with no lid,him,inanimate,animate,noun,pronoun,indefinite,definite,new,given,5,1,8,2.386294361119891,10.38629436111989
+HAAP-max_DO2PO,10079,DO,3,927,8,agent-1arg,agent-recipient,"Here's Jenny with Ross !
+", Jenny [verb] him a cup with no lid .,Jenny,a cup with no lid,him,inanimate,animate,noun,pronoun,indefinite,definite,new,given,5,1,8,2.386294361119891,10.38629436111989
+HAAP-max_DO2PO,10081,DO,1,928,1,agent-1arg,agent-recipient,"Do you see Alex and Catherine ?
+", Alex [verb] her a toy that's in the bag .,Alex,a toy that's in the bag,her,inanimate,animate,noun,pronoun,indefinite,definite,new,given,6,1,8,2.6094379124341005,10.6094379124341
+HAAP-max_DO2PO,10081,DO,2,928,1,agent-1arg,agent-recipient,"Look it's Alex and Nina !
+", Alex [verb] her a toy that's in the bag .,Alex,a toy that's in the bag,her,inanimate,animate,noun,pronoun,indefinite,definite,new,given,6,1,8,2.6094379124341005,10.6094379124341
+HAAP-max_DO2PO,10081,DO,3,928,1,agent-1arg,agent-recipient,"Here's Alex with Nina !
+", Alex [verb] her a toy that's in the bag .,Alex,a toy that's in the bag,her,inanimate,animate,noun,pronoun,indefinite,definite,new,given,6,1,8,2.6094379124341005,10.6094379124341
+HAAP-max_DO2PO,10083,DO,1,928,2,agent-1arg,agent-recipient,"Do you see Sarah and the ducks ?
+", Sarah [verb] them a pencil that's on the floor .,Sarah,a pencil that's on the floor,them-a,inanimate,animate,noun,pronoun,indefinite,definite,new,given,6,1,8,2.6094379124341005,10.6094379124341
+HAAP-max_DO2PO,10083,DO,2,928,2,agent-1arg,agent-recipient,"Look it's Sarah and the ducks !
+", Sarah [verb] them a pencil that's on the floor .,Sarah,a pencil that's on the floor,them-a,inanimate,animate,noun,pronoun,indefinite,definite,new,given,6,1,8,2.6094379124341005,10.6094379124341
+HAAP-max_DO2PO,10083,DO,3,928,2,agent-1arg,agent-recipient,"Here's Sarah with the ducks !
+", Sarah [verb] them a pencil that's on the floor .,Sarah,a pencil that's on the floor,them-a,inanimate,animate,noun,pronoun,indefinite,definite,new,given,6,1,8,2.6094379124341005,10.6094379124341
+HAAP-max_DO2PO,10085,DO,1,928,3,agent-1arg,agent-recipient,"Do you see Mark and Nina ?
+", Mark [verb] her a book that's on the floor .,Mark,a book that's on the floor,her,inanimate,animate,noun,pronoun,indefinite,definite,new,given,6,1,8,2.6094379124341005,10.6094379124341
+HAAP-max_DO2PO,10085,DO,2,928,3,agent-1arg,agent-recipient,"Look it's Mark and Eve !
+", Mark [verb] her a book that's on the floor .,Mark,a book that's on the floor,her,inanimate,animate,noun,pronoun,indefinite,definite,new,given,6,1,8,2.6094379124341005,10.6094379124341
+HAAP-max_DO2PO,10085,DO,3,928,3,agent-1arg,agent-recipient,"Here's Mark with Eve !
+", Mark [verb] her a book that's on the floor .,Mark,a book that's on the floor,her,inanimate,animate,noun,pronoun,indefinite,definite,new,given,6,1,8,2.6094379124341005,10.6094379124341
+HAAP-max_DO2PO,10087,DO,1,928,4,agent-1arg,agent-recipient,"Do you see Laura and me ?
+", Laura [verb] me a box with stuff in it .,Laura,a box with stuff in it,me,inanimate,animate,noun,pronoun,indefinite,definite,new,given,6,1,8,2.6094379124341005,10.6094379124341
+HAAP-max_DO2PO,10087,DO,2,928,4,agent-1arg,agent-recipient,"Look it's Laura and me !
+", Laura [verb] me a box with stuff in it .,Laura,a box with stuff in it,me,inanimate,animate,noun,pronoun,indefinite,definite,new,given,6,1,8,2.6094379124341005,10.6094379124341
+HAAP-max_DO2PO,10087,DO,3,928,4,agent-1arg,agent-recipient,"Here's Laura with me !
+", Laura [verb] me a box with stuff in it .,Laura,a box with stuff in it,me,inanimate,animate,noun,pronoun,indefinite,definite,new,given,6,1,8,2.6094379124341005,10.6094379124341
+HAAP-max_DO2PO,10089,DO,1,928,5,agent-1arg,agent-recipient,"Do you see Jenny and me ?
+", Jenny [verb] me a toy that's on the floor .,Jenny,a toy that's on the floor,me,inanimate,animate,noun,pronoun,indefinite,definite,new,given,6,1,8,2.6094379124341005,10.6094379124341
+HAAP-max_DO2PO,10089,DO,2,928,5,agent-1arg,agent-recipient,"Look it's Jenny and me !
+", Jenny [verb] me a toy that's on the floor .,Jenny,a toy that's on the floor,me,inanimate,animate,noun,pronoun,indefinite,definite,new,given,6,1,8,2.6094379124341005,10.6094379124341
+HAAP-max_DO2PO,10089,DO,3,928,5,agent-1arg,agent-recipient,"Here's Jenny with me !
+", Jenny [verb] me a toy that's on the floor .,Jenny,a toy that's on the floor,me,inanimate,animate,noun,pronoun,indefinite,definite,new,given,6,1,8,2.6094379124341005,10.6094379124341
+HAAP-max_DO2PO,10091,DO,1,928,6,agent-1arg,agent-recipient,"Do you see William and Lily ?
+", William [verb] her a cookie with m and ms .,William,a cookie with m and ms,her,inanimate,animate,noun,pronoun,indefinite,definite,new,given,6,1,8,2.6094379124341005,10.6094379124341
+HAAP-max_DO2PO,10091,DO,2,928,6,agent-1arg,agent-recipient,"Look it's William and Sally !
+", William [verb] her a cookie with m and ms .,William,a cookie with m and ms,her,inanimate,animate,noun,pronoun,indefinite,definite,new,given,6,1,8,2.6094379124341005,10.6094379124341
+HAAP-max_DO2PO,10091,DO,3,928,6,agent-1arg,agent-recipient,"Here's William with Sally !
+", William [verb] her a cookie with m and ms .,William,a cookie with m and ms,her,inanimate,animate,noun,pronoun,indefinite,definite,new,given,6,1,8,2.6094379124341005,10.6094379124341
+HAAP-max_DO2PO,10093,DO,1,928,7,agent-1arg,agent-recipient,"Do you see Judy and me ?
+", Judy [verb] me a toy that's in the basket .,Judy,a toy that's in the basket,me,inanimate,animate,noun,pronoun,indefinite,definite,new,given,6,1,8,2.6094379124341005,10.6094379124341
+HAAP-max_DO2PO,10093,DO,2,928,7,agent-1arg,agent-recipient,"Look it's Judy and me !
+", Judy [verb] me a toy that's in the basket .,Judy,a toy that's in the basket,me,inanimate,animate,noun,pronoun,indefinite,definite,new,given,6,1,8,2.6094379124341005,10.6094379124341
+HAAP-max_DO2PO,10093,DO,3,928,7,agent-1arg,agent-recipient,"Here's Judy with me !
+", Judy [verb] me a toy that's in the basket .,Judy,a toy that's in the basket,me,inanimate,animate,noun,pronoun,indefinite,definite,new,given,6,1,8,2.6094379124341005,10.6094379124341
+HAAP-max_DO2PO,10095,DO,1,928,8,agent-1arg,agent-recipient,"Do you see Michael and us ?
+", Michael [verb] us a ball that's on on top .,Michael,a ball that's on on top,us,inanimate,animate,noun,pronoun,indefinite,definite,new,given,6,1,8,2.6094379124341005,10.6094379124341
+HAAP-max_DO2PO,10095,DO,2,928,8,agent-1arg,agent-recipient,"Look it's Michael and us !
+", Michael [verb] us a ball that's on on top .,Michael,a ball that's on on top,us,inanimate,animate,noun,pronoun,indefinite,definite,new,given,6,1,8,2.6094379124341005,10.6094379124341
+HAAP-max_DO2PO,10095,DO,3,928,8,agent-1arg,agent-recipient,"Here's Michael with us !
+", Michael [verb] us a ball that's on on top .,Michael,a ball that's on on top,us,inanimate,animate,noun,pronoun,indefinite,definite,new,given,6,1,8,2.6094379124341005,10.6094379124341
+HAAP-max_DO2PO,10097,DO,1,929,1,agent-1arg,agent-recipient,"Do you see Jenny and me ?
+", Jenny [verb] me a book with pictures .,Jenny,a book with pictures,me,inanimate,animate,noun,pronoun,indefinite,definite,new,given,4,1,8,2.09861228866811,10.098612288668113
+HAAP-max_DO2PO,10097,DO,2,929,1,agent-1arg,agent-recipient,"Look it's Jenny and me !
+", Jenny [verb] me a book with pictures .,Jenny,a book with pictures,me,inanimate,animate,noun,pronoun,indefinite,definite,new,given,4,1,8,2.09861228866811,10.098612288668113
+HAAP-max_DO2PO,10097,DO,3,929,1,agent-1arg,agent-recipient,"Here's Jenny with me !
+", Jenny [verb] me a book with pictures .,Jenny,a book with pictures,me,inanimate,animate,noun,pronoun,indefinite,definite,new,given,4,1,8,2.09861228866811,10.098612288668113
+HAAP-max_DO2PO,10099,DO,1,929,2,agent-1arg,agent-recipient,"Do you see Sarah and Thomas ?
+", Sarah [verb] him a book with pictures .,Sarah,a book with pictures,him,inanimate,animate,noun,pronoun,indefinite,definite,new,given,4,1,8,2.09861228866811,10.098612288668113
+HAAP-max_DO2PO,10099,DO,2,929,2,agent-1arg,agent-recipient,"Look it's Sarah and Peter !
+", Sarah [verb] him a book with pictures .,Sarah,a book with pictures,him,inanimate,animate,noun,pronoun,indefinite,definite,new,given,4,1,8,2.09861228866811,10.098612288668113
+HAAP-max_DO2PO,10099,DO,3,929,2,agent-1arg,agent-recipient,"Here's Sarah with Ethan !
+", Sarah [verb] him a book with pictures .,Sarah,a book with pictures,him,inanimate,animate,noun,pronoun,indefinite,definite,new,given,4,1,8,2.09861228866811,10.098612288668113
+HAAP-max_DO2PO,10101,DO,1,929,3,agent-1arg,agent-recipient,"Do you see Laura and the ducks ?
+", Laura [verb] them a book with pictures .,Laura,a book with pictures,them-a,inanimate,animate,noun,pronoun,indefinite,definite,new,given,4,1,8,2.09861228866811,10.098612288668113
+HAAP-max_DO2PO,10101,DO,2,929,3,agent-1arg,agent-recipient,"Look it's Laura and the ducks !
+", Laura [verb] them a book with pictures .,Laura,a book with pictures,them-a,inanimate,animate,noun,pronoun,indefinite,definite,new,given,4,1,8,2.09861228866811,10.098612288668113
+HAAP-max_DO2PO,10101,DO,3,929,3,agent-1arg,agent-recipient,"Here's Laura with the pigs !
+", Laura [verb] them a book with pictures .,Laura,a book with pictures,them-a,inanimate,animate,noun,pronoun,indefinite,definite,new,given,4,1,8,2.09861228866811,10.098612288668113
+HAAP-max_DO2PO,10103,DO,1,929,4,agent-1arg,agent-recipient,"Do you see William and me ?
+", William [verb] me a cup with water .,William,a cup with water,me,inanimate,animate,noun,pronoun,indefinite,definite,new,given,4,1,8,2.09861228866811,10.098612288668113
+HAAP-max_DO2PO,10103,DO,2,929,4,agent-1arg,agent-recipient,"Look it's William and me !
+", William [verb] me a cup with water .,William,a cup with water,me,inanimate,animate,noun,pronoun,indefinite,definite,new,given,4,1,8,2.09861228866811,10.098612288668113
+HAAP-max_DO2PO,10103,DO,3,929,4,agent-1arg,agent-recipient,"Here's William with me !
+", William [verb] me a cup with water .,William,a cup with water,me,inanimate,animate,noun,pronoun,indefinite,definite,new,given,4,1,8,2.09861228866811,10.098612288668113
+HAAP-max_DO2PO,10105,DO,1,929,5,agent-1arg,agent-recipient,"Do you see Judy and those people ?
+", Judy [verb] them a cup with water .,Judy,a cup with water,them-a,inanimate,animate,noun,pronoun,indefinite,definite,new,given,4,1,8,2.09861228866811,10.098612288668113
+HAAP-max_DO2PO,10105,DO,2,929,5,agent-1arg,agent-recipient,"Look it's Judy and the children !
+", Judy [verb] them a cup with water .,Judy,a cup with water,them-a,inanimate,animate,noun,pronoun,indefinite,definite,new,given,4,1,8,2.09861228866811,10.098612288668113
+HAAP-max_DO2PO,10105,DO,3,929,5,agent-1arg,agent-recipient,"Here's Judy with the children !
+", Judy [verb] them a cup with water .,Judy,a cup with water,them-a,inanimate,animate,noun,pronoun,indefinite,definite,new,given,4,1,8,2.09861228866811,10.098612288668113
+HAAP-max_DO2PO,10107,DO,1,929,6,agent-1arg,agent-recipient,"Do you see Alex and Sally ?
+", Alex [verb] her a cup with water .,Alex,a cup with water,her,inanimate,animate,noun,pronoun,indefinite,definite,new,given,4,1,8,2.09861228866811,10.098612288668113
+HAAP-max_DO2PO,10107,DO,2,929,6,agent-1arg,agent-recipient,"Look it's Alex and Sally !
+", Alex [verb] her a cup with water .,Alex,a cup with water,her,inanimate,animate,noun,pronoun,indefinite,definite,new,given,4,1,8,2.09861228866811,10.098612288668113
+HAAP-max_DO2PO,10107,DO,3,929,6,agent-1arg,agent-recipient,"Here's Alex with Catherine !
+", Alex [verb] her a cup with water .,Alex,a cup with water,her,inanimate,animate,noun,pronoun,indefinite,definite,new,given,4,1,8,2.09861228866811,10.098612288668113
+HAAP-max_DO2PO,10109,DO,1,929,7,agent-1arg,agent-recipient,"Do you see Michael and us ?
+", Michael [verb] us a cup with water .,Michael,a cup with water,us,inanimate,animate,noun,pronoun,indefinite,definite,new,given,4,1,8,2.09861228866811,10.098612288668113
+HAAP-max_DO2PO,10109,DO,2,929,7,agent-1arg,agent-recipient,"Look it's Michael and us !
+", Michael [verb] us a cup with water .,Michael,a cup with water,us,inanimate,animate,noun,pronoun,indefinite,definite,new,given,4,1,8,2.09861228866811,10.098612288668113
+HAAP-max_DO2PO,10109,DO,3,929,7,agent-1arg,agent-recipient,"Here's Michael with us !
+", Michael [verb] us a cup with water .,Michael,a cup with water,us,inanimate,animate,noun,pronoun,indefinite,definite,new,given,4,1,8,2.09861228866811,10.098612288668113
+HAAP-max_DO2PO,10111,DO,1,929,8,agent-1arg,agent-recipient,"Do you see Mark and us ?
+", Mark [verb] us a book with pictures .,Mark,a book with pictures,us,inanimate,animate,noun,pronoun,indefinite,definite,new,given,4,1,8,2.09861228866811,10.098612288668113
+HAAP-max_DO2PO,10111,DO,2,929,8,agent-1arg,agent-recipient,"Look it's Mark and us !
+", Mark [verb] us a book with pictures .,Mark,a book with pictures,us,inanimate,animate,noun,pronoun,indefinite,definite,new,given,4,1,8,2.09861228866811,10.098612288668113
+HAAP-max_DO2PO,10111,DO,3,929,8,agent-1arg,agent-recipient,"Here's Mark with us !
+", Mark [verb] us a book with pictures .,Mark,a book with pictures,us,inanimate,animate,noun,pronoun,indefinite,definite,new,given,4,1,8,2.09861228866811,10.098612288668113
+HAAP-1pv_DO2PO,10785,DO,1,1044,1,agent-2arg,agent-recipient_theme,"Do you see Sarah and me and the apple ?
+", Sarah [verb] me it .,Sarah,it,me,inanimate,animate,pronoun,pronoun,definite,definite,given,given,1,1,5,0,5
+HAAP-1pv_DO2PO,10785,DO,2,1044,1,agent-2arg,agent-recipient_theme,"Look it's Sarah and me and the paper !
+", Sarah [verb] me it .,Sarah,it,me,inanimate,animate,pronoun,pronoun,definite,definite,given,given,1,1,5,0,5
+HAAP-1pv_DO2PO,10785,DO,3,1044,1,agent-2arg,agent-recipient_theme,"Here's Sarah with me and the milk !
+", Sarah [verb] me it .,Sarah,it,me,inanimate,animate,pronoun,pronoun,definite,definite,given,given,1,1,5,0,5
+HAAP-1pv_DO2PO,10787,DO,1,1044,2,agent-2arg,agent-theme_recipient,"Do you see Alex and the apple and Thomas ?
+", Alex [verb] him it .,Alex,it,him,inanimate,animate,pronoun,pronoun,definite,definite,given,given,1,1,5,0,5
+HAAP-1pv_DO2PO,10787,DO,2,1044,2,agent-2arg,agent-theme_recipient,"Look it's Alex and the milk and Peter !
+", Alex [verb] him it .,Alex,it,him,inanimate,animate,pronoun,pronoun,definite,definite,given,given,1,1,5,0,5
+HAAP-1pv_DO2PO,10787,DO,3,1044,2,agent-2arg,agent-theme_recipient,"Here's Alex with the apple and Ethan !
+", Alex [verb] him it .,Alex,it,him,inanimate,animate,pronoun,pronoun,definite,definite,given,given,1,1,5,0,5
+HAAP-1pv_DO2PO,10789,DO,1,1044,3,agent-2arg,agent-theme_recipient,"Do you see Michael and the apple and the birds ?
+", Michael [verb] them it .,Michael,it,them-a,inanimate,animate,pronoun,pronoun,definite,definite,given,given,1,1,5,0,5
+HAAP-1pv_DO2PO,10789,DO,2,1044,3,agent-2arg,agent-theme_recipient,"Look it's Michael and the picture and the birds !
+", Michael [verb] them it .,Michael,it,them-a,inanimate,animate,pronoun,pronoun,definite,definite,given,given,1,1,5,0,5
+HAAP-1pv_DO2PO,10789,DO,3,1044,3,agent-2arg,agent-theme_recipient,"Here's Michael with the picture and the birds !
+", Michael [verb] them it .,Michael,it,them-a,inanimate,animate,pronoun,pronoun,definite,definite,given,given,1,1,5,0,5
+HAAP-1pv_DO2PO,10791,DO,1,1044,4,agent-2arg,agent-theme_recipient,"Do you see Judy and the candies and Peter ?
+", Judy [verb] him them .,Judy,them-i,him,inanimate,animate,pronoun,pronoun,definite,definite,given,given,1,1,5,0,5
+HAAP-1pv_DO2PO,10791,DO,2,1044,4,agent-2arg,agent-theme_recipient,"Look it's Judy and the pictures and Ross !
+", Judy [verb] him them .,Judy,them-i,him,inanimate,animate,pronoun,pronoun,definite,definite,given,given,1,1,5,0,5
+HAAP-1pv_DO2PO,10791,DO,3,1044,4,agent-2arg,agent-theme_recipient,"Here's Judy with the photographs and Ethan !
+", Judy [verb] him them .,Judy,them-i,him,inanimate,animate,pronoun,pronoun,definite,definite,given,given,1,1,5,0,5
+HAAP-1pv_DO2PO,10793,DO,1,1044,5,agent-2arg,agent-recipient_theme,"Do you see Laura and Sally and the photographs ?
+", Laura [verb] her them .,Laura,them-i,her,inanimate,animate,pronoun,pronoun,definite,definite,given,given,1,1,5,0,5
+HAAP-1pv_DO2PO,10793,DO,2,1044,5,agent-2arg,agent-recipient_theme,"Look it's Laura and Sally and the pictures !
+", Laura [verb] her them .,Laura,them-i,her,inanimate,animate,pronoun,pronoun,definite,definite,given,given,1,1,5,0,5
+HAAP-1pv_DO2PO,10793,DO,3,1044,5,agent-2arg,agent-recipient_theme,"Here's Laura with Sally and the photographs !
+", Laura [verb] her them .,Laura,them-i,her,inanimate,animate,pronoun,pronoun,definite,definite,given,given,1,1,5,0,5
+HAAP-1pv_DO2PO,10795,DO,1,1044,6,agent-2arg,agent-recipient_theme,"Do you see Jenny and me and the pictures ?
+", Jenny [verb] me them .,Jenny,them-i,me,inanimate,animate,pronoun,pronoun,definite,definite,given,given,1,1,5,0,5
+HAAP-1pv_DO2PO,10795,DO,2,1044,6,agent-2arg,agent-recipient_theme,"Look it's Jenny and me and the candies !
+", Jenny [verb] me them .,Jenny,them-i,me,inanimate,animate,pronoun,pronoun,definite,definite,given,given,1,1,5,0,5
+HAAP-1pv_DO2PO,10795,DO,3,1044,6,agent-2arg,agent-recipient_theme,"Here's Jenny with me and the socks !
+", Jenny [verb] me them .,Jenny,them-i,me,inanimate,animate,pronoun,pronoun,definite,definite,given,given,1,1,5,0,5
+HAAP-1pv_DO2PO,10797,DO,1,1044,7,agent-2arg,agent-theme_recipient,"Do you see William and the coffee and Lily ?
+", William [verb] her it .,William,it,her,inanimate,animate,pronoun,pronoun,definite,definite,given,given,1,1,5,0,5
+HAAP-1pv_DO2PO,10797,DO,2,1044,7,agent-2arg,agent-theme_recipient,"Look it's William and the coffee and Lily !
+", William [verb] her it .,William,it,her,inanimate,animate,pronoun,pronoun,definite,definite,given,given,1,1,5,0,5
+HAAP-1pv_DO2PO,10797,DO,3,1044,7,agent-2arg,agent-theme_recipient,"Here's William with the picture and Catherine !
+", William [verb] her it .,William,it,her,inanimate,animate,pronoun,pronoun,definite,definite,given,given,1,1,5,0,5
+HAAP-1pv_DO2PO,10799,DO,1,1044,8,agent-2arg,agent-recipient_theme,"Do you see Mark and us and the coffee ?
+", Mark [verb] us it .,Mark,it,us,inanimate,animate,pronoun,pronoun,definite,definite,given,given,1,1,5,0,5
+HAAP-1pv_DO2PO,10799,DO,2,1044,8,agent-2arg,agent-recipient_theme,"Look it's Mark and us and the milk !
+", Mark [verb] us it .,Mark,it,us,inanimate,animate,pronoun,pronoun,definite,definite,given,given,1,1,5,0,5
+HAAP-1pv_DO2PO,10799,DO,3,1044,8,agent-2arg,agent-recipient_theme,"Here's Mark with us and the coffee !
+", Mark [verb] us it .,Mark,it,us,inanimate,animate,pronoun,pronoun,definite,definite,given,given,1,1,5,0,5
+HAAP-2pv_PO2DO,4482,PO,1,281,1,agent-only,agent-only,"Do you see Sarah ?
+", Sarah [verb] a big cookie to a small horse .,Sarah,a big cookie,a small horse,inanimate,animate,noun,noun,indefinite,indefinite,new,new,3,3,5,0,5
+HAAP-2pv_PO2DO,4482,PO,2,281,1,agent-only,agent-only,"Look it's Sarah !
+", Sarah [verb] a big cookie to a small horse .,Sarah,a big cookie,a small horse,inanimate,animate,noun,noun,indefinite,indefinite,new,new,3,3,5,0,5
+HAAP-2pv_PO2DO,4482,PO,3,281,1,agent-only,agent-only,"Here's Sarah !
+", Sarah [verb] a big cookie to a small horse .,Sarah,a big cookie,a small horse,inanimate,animate,noun,noun,indefinite,indefinite,new,new,3,3,5,0,5
+HAAP-2pv_PO2DO,4484,PO,1,281,2,agent-only,agent-only,"Do you see Jenny ?
+", Jenny [verb] a thick book to a brown bear .,Jenny,a thick book,a brown bear,inanimate,animate,noun,noun,indefinite,indefinite,new,new,3,3,5,0,5
+HAAP-2pv_PO2DO,4484,PO,2,281,2,agent-only,agent-only,"Look it's Jenny !
+", Jenny [verb] a thick book to a brown bear .,Jenny,a thick book,a brown bear,inanimate,animate,noun,noun,indefinite,indefinite,new,new,3,3,5,0,5
+HAAP-2pv_PO2DO,4484,PO,3,281,2,agent-only,agent-only,"Here's Jenny !
+", Jenny [verb] a thick book to a brown bear .,Jenny,a thick book,a brown bear,inanimate,animate,noun,noun,indefinite,indefinite,new,new,3,3,5,0,5
+HAAP-2pv_PO2DO,4486,PO,1,281,3,agent-only,agent-only,"Do you see William ?
+", William [verb] some tool boxes to a big horse .,William,some tool boxes,a big horse,inanimate,animate,noun,noun,indefinite,indefinite,new,new,3,3,5,0,5
+HAAP-2pv_PO2DO,4486,PO,2,281,3,agent-only,agent-only,"Look it's William !
+", William [verb] some tool boxes to a big horse .,William,some tool boxes,a big horse,inanimate,animate,noun,noun,indefinite,indefinite,new,new,3,3,5,0,5
+HAAP-2pv_PO2DO,4486,PO,3,281,3,agent-only,agent-only,"Here's William !
+", William [verb] some tool boxes to a big horse .,William,some tool boxes,a big horse,inanimate,animate,noun,noun,indefinite,indefinite,new,new,3,3,5,0,5
+HAAP-2pv_PO2DO,4488,PO,1,281,4,agent-only,agent-only,"Do you see Laura ?
+", Laura [verb] a red pencil to a big bear .,Laura,a red pencil,a big bear,inanimate,animate,noun,noun,indefinite,indefinite,new,new,3,3,5,0,5
+HAAP-2pv_PO2DO,4488,PO,2,281,4,agent-only,agent-only,"Look it's Laura !
+", Laura [verb] a red pencil to a big bear .,Laura,a red pencil,a big bear,inanimate,animate,noun,noun,indefinite,indefinite,new,new,3,3,5,0,5
+HAAP-2pv_PO2DO,4488,PO,3,281,4,agent-only,agent-only,"Here's Laura !
+", Laura [verb] a red pencil to a big bear .,Laura,a red pencil,a big bear,inanimate,animate,noun,noun,indefinite,indefinite,new,new,3,3,5,0,5
+HAAP-2pv_PO2DO,4490,PO,1,281,5,agent-only,agent-only,"Do you see Alex ?
+", Alex [verb] some little cookies to a big horse .,Alex,some little cookies,a big horse,inanimate,animate,noun,noun,indefinite,indefinite,new,new,3,3,5,0,5
+HAAP-2pv_PO2DO,4490,PO,2,281,5,agent-only,agent-only,"Look it's Alex !
+", Alex [verb] some little cookies to a big horse .,Alex,some little cookies,a big horse,inanimate,animate,noun,noun,indefinite,indefinite,new,new,3,3,5,0,5
+HAAP-2pv_PO2DO,4490,PO,3,281,5,agent-only,agent-only,"Here's Alex !
+", Alex [verb] some little cookies to a big horse .,Alex,some little cookies,a big horse,inanimate,animate,noun,noun,indefinite,indefinite,new,new,3,3,5,0,5
+HAAP-2pv_PO2DO,4492,PO,1,281,6,agent-only,agent-only,"Do you see Michael ?
+", Michael [verb] a big toy to some little girls .,Michael,a big toy,some little girls,inanimate,animate,noun,noun,indefinite,indefinite,new,new,3,3,5,0,5
+HAAP-2pv_PO2DO,4492,PO,2,281,6,agent-only,agent-only,"Look it's Michael !
+", Michael [verb] a big toy to some little girls .,Michael,a big toy,some little girls,inanimate,animate,noun,noun,indefinite,indefinite,new,new,3,3,5,0,5
+HAAP-2pv_PO2DO,4492,PO,3,281,6,agent-only,agent-only,"Here's Michael !
+", Michael [verb] a big toy to some little girls .,Michael,a big toy,some little girls,inanimate,animate,noun,noun,indefinite,indefinite,new,new,3,3,5,0,5
+HAAP-2pv_PO2DO,4494,PO,1,281,7,agent-only,agent-only,"Do you see Mark ?
+", Mark [verb] a red ball to some small horses .,Mark,a red ball,some small horses,inanimate,animate,noun,noun,indefinite,indefinite,new,new,3,3,5,0,5
+HAAP-2pv_PO2DO,4494,PO,2,281,7,agent-only,agent-only,"Look it's Mark !
+", Mark [verb] a red ball to some small horses .,Mark,a red ball,some small horses,inanimate,animate,noun,noun,indefinite,indefinite,new,new,3,3,5,0,5
+HAAP-2pv_PO2DO,4494,PO,3,281,7,agent-only,agent-only,"Here's Mark !
+", Mark [verb] a red ball to some small horses .,Mark,a red ball,some small horses,inanimate,animate,noun,noun,indefinite,indefinite,new,new,3,3,5,0,5
+HAAP-2pv_PO2DO,4496,PO,1,281,8,agent-only,agent-only,"Do you see Judy ?
+", Judy [verb] some blue balls to some naughty girls .,Judy,some blue balls,some naughty girls,inanimate,animate,noun,noun,indefinite,indefinite,new,new,3,3,5,0,5
+HAAP-2pv_PO2DO,4496,PO,2,281,8,agent-only,agent-only,"Look it's Judy !
+", Judy [verb] some blue balls to some naughty girls .,Judy,some blue balls,some naughty girls,inanimate,animate,noun,noun,indefinite,indefinite,new,new,3,3,5,0,5
+HAAP-2pv_PO2DO,4496,PO,3,281,8,agent-only,agent-only,"Here's Judy !
+", Judy [verb] some blue balls to some naughty girls .,Judy,some blue balls,some naughty girls,inanimate,animate,noun,noun,indefinite,indefinite,new,new,3,3,5,0,5
+HAAP-max_PO2DO,5586,PO,1,375,1,agent-1arg,agent-theme,"Do you see William and the milk ?
+", William [verb] it to a girl with green hair .,William,it,a girl with green hair,inanimate,animate,pronoun,noun,definite,indefinite,given,new,1,5,8,2.386294361119891,10.38629436111989
+HAAP-max_PO2DO,5586,PO,2,375,1,agent-1arg,agent-theme,"Look it's William and the paper !
+", William [verb] it to a girl with green hair .,William,it,a girl with green hair,inanimate,animate,pronoun,noun,definite,indefinite,given,new,1,5,8,2.386294361119891,10.38629436111989
+HAAP-max_PO2DO,5586,PO,3,375,1,agent-1arg,agent-theme,"Here's William with the coffee !
+", William [verb] it to a girl with green hair .,William,it,a girl with green hair,inanimate,animate,pronoun,noun,definite,indefinite,given,new,1,5,8,2.386294361119891,10.38629436111989
+HAAP-max_PO2DO,5588,PO,1,375,2,agent-1arg,agent-theme,"Do you see Michael and the picture ?
+", Michael [verb] it to a bear with a bottle .,Michael,it,a bear with a bottle,inanimate,animate,pronoun,noun,definite,indefinite,given,new,1,5,8,2.386294361119891,10.38629436111989
+HAAP-max_PO2DO,5588,PO,2,375,2,agent-1arg,agent-theme,"Look it's Michael and the apple !
+", Michael [verb] it to a bear with a bottle .,Michael,it,a bear with a bottle,inanimate,animate,pronoun,noun,definite,indefinite,given,new,1,5,8,2.386294361119891,10.38629436111989
+HAAP-max_PO2DO,5588,PO,3,375,2,agent-1arg,agent-theme,"Here's Michael with the coffee !
+", Michael [verb] it to a bear with a bottle .,Michael,it,a bear with a bottle,inanimate,animate,pronoun,noun,definite,indefinite,given,new,1,5,8,2.386294361119891,10.38629436111989
+HAAP-max_PO2DO,5590,PO,1,375,3,agent-1arg,agent-theme,"Do you see Laura and the photographs ?
+", Laura [verb] them to a boy with round glasses .,Laura,them-i,a boy with round glasses,inanimate,animate,pronoun,noun,definite,indefinite,given,new,1,5,8,2.386294361119891,10.38629436111989
+HAAP-max_PO2DO,5590,PO,2,375,3,agent-1arg,agent-theme,"Look it's Laura and the pictures !
+", Laura [verb] them to a boy with round glasses .,Laura,them-i,a boy with round glasses,inanimate,animate,pronoun,noun,definite,indefinite,given,new,1,5,8,2.386294361119891,10.38629436111989
+HAAP-max_PO2DO,5590,PO,3,375,3,agent-1arg,agent-theme,"Here's Laura with the candies !
+", Laura [verb] them to a boy with round glasses .,Laura,them-i,a boy with round glasses,inanimate,animate,pronoun,noun,definite,indefinite,given,new,1,5,8,2.386294361119891,10.38629436111989
+HAAP-max_PO2DO,5592,PO,1,375,4,agent-1arg,agent-theme,"Do you see Alex and the pictures ?
+", Alex [verb] them to a horse with a saddle .,Alex,them-i,a horse with a saddle,inanimate,animate,pronoun,noun,definite,indefinite,given,new,1,5,8,2.386294361119891,10.38629436111989
+HAAP-max_PO2DO,5592,PO,2,375,4,agent-1arg,agent-theme,"Look it's Alex and the photographs !
+", Alex [verb] them to a horse with a saddle .,Alex,them-i,a horse with a saddle,inanimate,animate,pronoun,noun,definite,indefinite,given,new,1,5,8,2.386294361119891,10.38629436111989
+HAAP-max_PO2DO,5592,PO,3,375,4,agent-1arg,agent-theme,"Here's Alex with the candies !
+", Alex [verb] them to a horse with a saddle .,Alex,them-i,a horse with a saddle,inanimate,animate,pronoun,noun,definite,indefinite,given,new,1,5,8,2.386294361119891,10.38629436111989
+HAAP-max_PO2DO,5594,PO,1,375,5,agent-1arg,agent-theme,"Do you see Judy and the socks ?
+", Judy [verb] them to a bear with an apple .,Judy,them-i,a bear with an apple,inanimate,animate,pronoun,noun,definite,indefinite,given,new,1,5,8,2.386294361119891,10.38629436111989
+HAAP-max_PO2DO,5594,PO,2,375,5,agent-1arg,agent-theme,"Look it's Judy and the socks !
+", Judy [verb] them to a bear with an apple .,Judy,them-i,a bear with an apple,inanimate,animate,pronoun,noun,definite,indefinite,given,new,1,5,8,2.386294361119891,10.38629436111989
+HAAP-max_PO2DO,5594,PO,3,375,5,agent-1arg,agent-theme,"Here's Judy with the crayons !
+", Judy [verb] them to a bear with an apple .,Judy,them-i,a bear with an apple,inanimate,animate,pronoun,noun,definite,indefinite,given,new,1,5,8,2.386294361119891,10.38629436111989
+HAAP-max_PO2DO,5596,PO,1,375,6,agent-1arg,agent-theme,"Do you see Mark and the paper ?
+", Mark [verb] it to a boy with blue pants .,Mark,it,a boy with blue pants,inanimate,animate,pronoun,noun,definite,indefinite,given,new,1,5,8,2.386294361119891,10.38629436111989
+HAAP-max_PO2DO,5596,PO,2,375,6,agent-1arg,agent-theme,"Look it's Mark and the apple !
+", Mark [verb] it to a boy with blue pants .,Mark,it,a boy with blue pants,inanimate,animate,pronoun,noun,definite,indefinite,given,new,1,5,8,2.386294361119891,10.38629436111989
+HAAP-max_PO2DO,5596,PO,3,375,6,agent-1arg,agent-theme,"Here's Mark with the coffee !
+", Mark [verb] it to a boy with blue pants .,Mark,it,a boy with blue pants,inanimate,animate,pronoun,noun,definite,indefinite,given,new,1,5,8,2.386294361119891,10.38629436111989
+HAAP-max_PO2DO,5598,PO,1,375,7,agent-1arg,agent-theme,"Do you see Sarah and the candies ?
+", Sarah [verb] them to a girl with green hair .,Sarah,them-i,a girl with green hair,inanimate,animate,pronoun,noun,definite,indefinite,given,new,1,5,8,2.386294361119891,10.38629436111989
+HAAP-max_PO2DO,5598,PO,2,375,7,agent-1arg,agent-theme,"Look it's Sarah and the photographs !
+", Sarah [verb] them to a girl with green hair .,Sarah,them-i,a girl with green hair,inanimate,animate,pronoun,noun,definite,indefinite,given,new,1,5,8,2.386294361119891,10.38629436111989
+HAAP-max_PO2DO,5598,PO,3,375,7,agent-1arg,agent-theme,"Here's Sarah with the pictures !
+", Sarah [verb] them to a girl with green hair .,Sarah,them-i,a girl with green hair,inanimate,animate,pronoun,noun,definite,indefinite,given,new,1,5,8,2.386294361119891,10.38629436111989
+HAAP-max_PO2DO,5600,PO,1,375,8,agent-1arg,agent-theme,"Do you see Jenny and the photographs ?
+", Jenny [verb] them to a girl with long hair .,Jenny,them-i,a girl with long hair,inanimate,animate,pronoun,noun,definite,indefinite,given,new,1,5,8,2.386294361119891,10.38629436111989
+HAAP-max_PO2DO,5600,PO,2,375,8,agent-1arg,agent-theme,"Look it's Jenny and the pictures !
+", Jenny [verb] them to a girl with long hair .,Jenny,them-i,a girl with long hair,inanimate,animate,pronoun,noun,definite,indefinite,given,new,1,5,8,2.386294361119891,10.38629436111989
+HAAP-max_PO2DO,5600,PO,3,375,8,agent-1arg,agent-theme,"Here's Jenny with the candies !
+", Jenny [verb] them to a girl with long hair .,Jenny,them-i,a girl with long hair,inanimate,animate,pronoun,noun,definite,indefinite,given,new,1,5,8,2.386294361119891,10.38629436111989
+HAAP-max_PO2DO,5602,PO,1,376,1,agent-1arg,agent-theme,"Do you see Judy and the milk ?
+", Judy [verb] it to a cat that's on the tree .,Judy,it,a cat that's on the tree,inanimate,animate,pronoun,noun,definite,indefinite,given,new,1,6,8,2.6094379124341005,10.6094379124341
+HAAP-max_PO2DO,5602,PO,2,376,1,agent-1arg,agent-theme,"Look it's Judy and the coffee !
+", Judy [verb] it to a cat that's on the tree .,Judy,it,a cat that's on the tree,inanimate,animate,pronoun,noun,definite,indefinite,given,new,1,6,8,2.6094379124341005,10.6094379124341
+HAAP-max_PO2DO,5602,PO,3,376,1,agent-1arg,agent-theme,"Here's Judy with the milk !
+", Judy [verb] it to a cat that's on the tree .,Judy,it,a cat that's on the tree,inanimate,animate,pronoun,noun,definite,indefinite,given,new,1,6,8,2.6094379124341005,10.6094379124341
+HAAP-max_PO2DO,5604,PO,1,376,2,agent-1arg,agent-theme,"Do you see Jenny and the candies ?
+", Jenny [verb] them to a horse with the funny hat .,Jenny,them-i,a horse with the funny hat,inanimate,animate,pronoun,noun,definite,indefinite,given,new,1,6,8,2.6094379124341005,10.6094379124341
+HAAP-max_PO2DO,5604,PO,2,376,2,agent-1arg,agent-theme,"Look it's Jenny and the socks !
+", Jenny [verb] them to a horse with the funny hat .,Jenny,them-i,a horse with the funny hat,inanimate,animate,pronoun,noun,definite,indefinite,given,new,1,6,8,2.6094379124341005,10.6094379124341
+HAAP-max_PO2DO,5604,PO,3,376,2,agent-1arg,agent-theme,"Here's Jenny with the socks !
+", Jenny [verb] them to a horse with the funny hat .,Jenny,them-i,a horse with the funny hat,inanimate,animate,pronoun,noun,definite,indefinite,given,new,1,6,8,2.6094379124341005,10.6094379124341
+HAAP-max_PO2DO,5606,PO,1,376,3,agent-1arg,agent-theme,"Do you see Michael and the picture ?
+", Michael [verb] it to a cat that's in the hat .,Michael,it,a cat that's in the hat,inanimate,animate,pronoun,noun,definite,indefinite,given,new,1,6,8,2.6094379124341005,10.6094379124341
+HAAP-max_PO2DO,5606,PO,2,376,3,agent-1arg,agent-theme,"Look it's Michael and the paper !
+", Michael [verb] it to a cat that's in the hat .,Michael,it,a cat that's in the hat,inanimate,animate,pronoun,noun,definite,indefinite,given,new,1,6,8,2.6094379124341005,10.6094379124341
+HAAP-max_PO2DO,5606,PO,3,376,3,agent-1arg,agent-theme,"Here's Michael with the picture !
+", Michael [verb] it to a cat that's in the hat .,Michael,it,a cat that's in the hat,inanimate,animate,pronoun,noun,definite,indefinite,given,new,1,6,8,2.6094379124341005,10.6094379124341
+HAAP-max_PO2DO,5608,PO,1,376,4,agent-1arg,agent-theme,"Do you see Mark and the socks ?
+", Mark [verb] them to a boy who's on the bicycle .,Mark,them-i,a boy who's on the bicycle,inanimate,animate,pronoun,noun,definite,indefinite,given,new,1,6,8,2.6094379124341005,10.6094379124341
+HAAP-max_PO2DO,5608,PO,2,376,4,agent-1arg,agent-theme,"Look it's Mark and the socks !
+", Mark [verb] them to a boy who's on the bicycle .,Mark,them-i,a boy who's on the bicycle,inanimate,animate,pronoun,noun,definite,indefinite,given,new,1,6,8,2.6094379124341005,10.6094379124341
+HAAP-max_PO2DO,5608,PO,3,376,4,agent-1arg,agent-theme,"Here's Mark with the pictures !
+", Mark [verb] them to a boy who's on the bicycle .,Mark,them-i,a boy who's on the bicycle,inanimate,animate,pronoun,noun,definite,indefinite,given,new,1,6,8,2.6094379124341005,10.6094379124341
+HAAP-max_PO2DO,5610,PO,1,376,5,agent-1arg,agent-theme,"Do you see Sarah and the pictures ?
+", Sarah [verb] them to a bear who's on the chair .,Sarah,them-i,a bear who's on the chair,inanimate,animate,pronoun,noun,definite,indefinite,given,new,1,6,8,2.6094379124341005,10.6094379124341
+HAAP-max_PO2DO,5610,PO,2,376,5,agent-1arg,agent-theme,"Look it's Sarah and the pictures !
+", Sarah [verb] them to a bear who's on the chair .,Sarah,them-i,a bear who's on the chair,inanimate,animate,pronoun,noun,definite,indefinite,given,new,1,6,8,2.6094379124341005,10.6094379124341
+HAAP-max_PO2DO,5610,PO,3,376,5,agent-1arg,agent-theme,"Here's Sarah with the photographs !
+", Sarah [verb] them to a bear who's on the chair .,Sarah,them-i,a bear who's on the chair,inanimate,animate,pronoun,noun,definite,indefinite,given,new,1,6,8,2.6094379124341005,10.6094379124341
+HAAP-max_PO2DO,5612,PO,1,376,6,agent-1arg,agent-theme,"Do you see Laura and the picture ?
+", Laura [verb] it to a dog with a red head .,Laura,it,a dog with a red head,inanimate,animate,pronoun,noun,definite,indefinite,given,new,1,6,8,2.6094379124341005,10.6094379124341
+HAAP-max_PO2DO,5612,PO,2,376,6,agent-1arg,agent-theme,"Look it's Laura and the picture !
+", Laura [verb] it to a dog with a red head .,Laura,it,a dog with a red head,inanimate,animate,pronoun,noun,definite,indefinite,given,new,1,6,8,2.6094379124341005,10.6094379124341
+HAAP-max_PO2DO,5612,PO,3,376,6,agent-1arg,agent-theme,"Here's Laura with the apple !
+", Laura [verb] it to a dog with a red head .,Laura,it,a dog with a red head,inanimate,animate,pronoun,noun,definite,indefinite,given,new,1,6,8,2.6094379124341005,10.6094379124341
+HAAP-max_PO2DO,5614,PO,1,376,7,agent-1arg,agent-theme,"Do you see William and the candies ?
+", William [verb] them to a girl with the blue hat .,William,them-i,a girl with the blue hat,inanimate,animate,pronoun,noun,definite,indefinite,given,new,1,6,8,2.6094379124341005,10.6094379124341
+HAAP-max_PO2DO,5614,PO,2,376,7,agent-1arg,agent-theme,"Look it's William and the crayons !
+", William [verb] them to a girl with the blue hat .,William,them-i,a girl with the blue hat,inanimate,animate,pronoun,noun,definite,indefinite,given,new,1,6,8,2.6094379124341005,10.6094379124341
+HAAP-max_PO2DO,5614,PO,3,376,7,agent-1arg,agent-theme,"Here's William with the crayons !
+", William [verb] them to a girl with the blue hat .,William,them-i,a girl with the blue hat,inanimate,animate,pronoun,noun,definite,indefinite,given,new,1,6,8,2.6094379124341005,10.6094379124341
+HAAP-max_PO2DO,5616,PO,1,376,8,agent-1arg,agent-theme,"Do you see Alex and the apple ?
+", Alex [verb] it to a dog who's on a leash .,Alex,it,a dog who's on a leash,inanimate,animate,pronoun,noun,definite,indefinite,given,new,1,6,8,2.6094379124341005,10.6094379124341
+HAAP-max_PO2DO,5616,PO,2,376,8,agent-1arg,agent-theme,"Look it's Alex and the coffee !
+", Alex [verb] it to a dog who's on a leash .,Alex,it,a dog who's on a leash,inanimate,animate,pronoun,noun,definite,indefinite,given,new,1,6,8,2.6094379124341005,10.6094379124341
+HAAP-max_PO2DO,5616,PO,3,376,8,agent-1arg,agent-theme,"Here's Alex with the milk !
+", Alex [verb] it to a dog who's on a leash .,Alex,it,a dog who's on a leash,inanimate,animate,pronoun,noun,definite,indefinite,given,new,1,6,8,2.6094379124341005,10.6094379124341
+HAAP-max_PO2DO,5618,PO,1,377,1,agent-1arg,agent-theme,"Do you see Alex and the apple ?
+", Alex [verb] it to a dog with ears .,Alex,it,a dog with ears,inanimate,animate,pronoun,noun,definite,indefinite,given,new,1,4,8,2.09861228866811,10.098612288668113
+HAAP-max_PO2DO,5618,PO,2,377,1,agent-1arg,agent-theme,"Look it's Alex and the milk !
+", Alex [verb] it to a dog with ears .,Alex,it,a dog with ears,inanimate,animate,pronoun,noun,definite,indefinite,given,new,1,4,8,2.09861228866811,10.098612288668113
+HAAP-max_PO2DO,5618,PO,3,377,1,agent-1arg,agent-theme,"Here's Alex with the apple !
+", Alex [verb] it to a dog with ears .,Alex,it,a dog with ears,inanimate,animate,pronoun,noun,definite,indefinite,given,new,1,4,8,2.09861228866811,10.098612288668113
+HAAP-max_PO2DO,5620,PO,1,377,2,agent-1arg,agent-theme,"Do you see Jenny and the pictures ?
+", Jenny [verb] them to a dog with ears .,Jenny,them-i,a dog with ears,inanimate,animate,pronoun,noun,definite,indefinite,given,new,1,4,8,2.09861228866811,10.098612288668113
+HAAP-max_PO2DO,5620,PO,2,377,2,agent-1arg,agent-theme,"Look it's Jenny and the candies !
+", Jenny [verb] them to a dog with ears .,Jenny,them-i,a dog with ears,inanimate,animate,pronoun,noun,definite,indefinite,given,new,1,4,8,2.09861228866811,10.098612288668113
+HAAP-max_PO2DO,5620,PO,3,377,2,agent-1arg,agent-theme,"Here's Jenny with the crayons !
+", Jenny [verb] them to a dog with ears .,Jenny,them-i,a dog with ears,inanimate,animate,pronoun,noun,definite,indefinite,given,new,1,4,8,2.09861228866811,10.098612288668113
+HAAP-max_PO2DO,5622,PO,1,377,3,agent-1arg,agent-theme,"Do you see Michael and the crayons ?
+", Michael [verb] them to a girl with leaves .,Michael,them-i,a girl with leaves,inanimate,animate,pronoun,noun,definite,indefinite,given,new,1,4,8,2.09861228866811,10.098612288668113
+HAAP-max_PO2DO,5622,PO,2,377,3,agent-1arg,agent-theme,"Look it's Michael and the pictures !
+", Michael [verb] them to a girl with leaves .,Michael,them-i,a girl with leaves,inanimate,animate,pronoun,noun,definite,indefinite,given,new,1,4,8,2.09861228866811,10.098612288668113
+HAAP-max_PO2DO,5622,PO,3,377,3,agent-1arg,agent-theme,"Here's Michael with the crayons !
+", Michael [verb] them to a girl with leaves .,Michael,them-i,a girl with leaves,inanimate,animate,pronoun,noun,definite,indefinite,given,new,1,4,8,2.09861228866811,10.098612288668113
+HAAP-max_PO2DO,5624,PO,1,377,4,agent-1arg,agent-theme,"Do you see Judy and the milk ?
+", Judy [verb] it to a girl with leaves .,Judy,it,a girl with leaves,inanimate,animate,pronoun,noun,definite,indefinite,given,new,1,4,8,2.09861228866811,10.098612288668113
+HAAP-max_PO2DO,5624,PO,2,377,4,agent-1arg,agent-theme,"Look it's Judy and the milk !
+", Judy [verb] it to a girl with leaves .,Judy,it,a girl with leaves,inanimate,animate,pronoun,noun,definite,indefinite,given,new,1,4,8,2.09861228866811,10.098612288668113
+HAAP-max_PO2DO,5624,PO,3,377,4,agent-1arg,agent-theme,"Here's Judy with the picture !
+", Judy [verb] it to a girl with leaves .,Judy,it,a girl with leaves,inanimate,animate,pronoun,noun,definite,indefinite,given,new,1,4,8,2.09861228866811,10.098612288668113
+HAAP-max_PO2DO,5626,PO,1,377,5,agent-1arg,agent-theme,"Do you see Sarah and the milk ?
+", Sarah [verb] it to a dog with ears .,Sarah,it,a dog with ears,inanimate,animate,pronoun,noun,definite,indefinite,given,new,1,4,8,2.09861228866811,10.098612288668113
+HAAP-max_PO2DO,5626,PO,2,377,5,agent-1arg,agent-theme,"Look it's Sarah and the milk !
+", Sarah [verb] it to a dog with ears .,Sarah,it,a dog with ears,inanimate,animate,pronoun,noun,definite,indefinite,given,new,1,4,8,2.09861228866811,10.098612288668113
+HAAP-max_PO2DO,5626,PO,3,377,5,agent-1arg,agent-theme,"Here's Sarah with the picture !
+", Sarah [verb] it to a dog with ears .,Sarah,it,a dog with ears,inanimate,animate,pronoun,noun,definite,indefinite,given,new,1,4,8,2.09861228866811,10.098612288668113
+HAAP-max_PO2DO,5628,PO,1,377,6,agent-1arg,agent-theme,"Do you see William and the photographs ?
+", William [verb] them to a dog with ears .,William,them-i,a dog with ears,inanimate,animate,pronoun,noun,definite,indefinite,given,new,1,4,8,2.09861228866811,10.098612288668113
+HAAP-max_PO2DO,5628,PO,2,377,6,agent-1arg,agent-theme,"Look it's William and the crayons !
+", William [verb] them to a dog with ears .,William,them-i,a dog with ears,inanimate,animate,pronoun,noun,definite,indefinite,given,new,1,4,8,2.09861228866811,10.098612288668113
+HAAP-max_PO2DO,5628,PO,3,377,6,agent-1arg,agent-theme,"Here's William with the socks !
+", William [verb] them to a dog with ears .,William,them-i,a dog with ears,inanimate,animate,pronoun,noun,definite,indefinite,given,new,1,4,8,2.09861228866811,10.098612288668113
+HAAP-max_PO2DO,5630,PO,1,377,7,agent-1arg,agent-theme,"Do you see Mark and the crayons ?
+", Mark [verb] them to a girl with leaves .,Mark,them-i,a girl with leaves,inanimate,animate,pronoun,noun,definite,indefinite,given,new,1,4,8,2.09861228866811,10.098612288668113
+HAAP-max_PO2DO,5630,PO,2,377,7,agent-1arg,agent-theme,"Look it's Mark and the crayons !
+", Mark [verb] them to a girl with leaves .,Mark,them-i,a girl with leaves,inanimate,animate,pronoun,noun,definite,indefinite,given,new,1,4,8,2.09861228866811,10.098612288668113
+HAAP-max_PO2DO,5630,PO,3,377,7,agent-1arg,agent-theme,"Here's Mark with the socks !
+", Mark [verb] them to a girl with leaves .,Mark,them-i,a girl with leaves,inanimate,animate,pronoun,noun,definite,indefinite,given,new,1,4,8,2.09861228866811,10.098612288668113
+HAAP-max_PO2DO,5632,PO,1,377,8,agent-1arg,agent-theme,"Do you see Laura and the coffee ?
+", Laura [verb] it to a girl with leaves .,Laura,it,a girl with leaves,inanimate,animate,pronoun,noun,definite,indefinite,given,new,1,4,8,2.09861228866811,10.098612288668113
+HAAP-max_PO2DO,5632,PO,2,377,8,agent-1arg,agent-theme,"Look it's Laura and the picture !
+", Laura [verb] it to a girl with leaves .,Laura,it,a girl with leaves,inanimate,animate,pronoun,noun,definite,indefinite,given,new,1,4,8,2.09861228866811,10.098612288668113
+HAAP-max_PO2DO,5632,PO,3,377,8,agent-1arg,agent-theme,"Here's Laura with the apple !
+", Laura [verb] it to a girl with leaves .,Laura,it,a girl with leaves,inanimate,animate,pronoun,noun,definite,indefinite,given,new,1,4,8,2.09861228866811,10.098612288668113
+HAAP-min_PO2DO,10066,PO,1,927,1,agent-1arg,agent-recipient,"Do you see Alex and me ?
+", Alex [verb] a cookie with chocolate frosting to me .,Alex,a cookie with chocolate frosting,me,inanimate,animate,noun,pronoun,indefinite,definite,new,given,5,1,2,-2.386294361119891,-0.3862943611198908
+HAAP-min_PO2DO,10066,PO,2,927,1,agent-1arg,agent-recipient,"Look it's Alex and me !
+", Alex [verb] a cookie with chocolate frosting to me .,Alex,a cookie with chocolate frosting,me,inanimate,animate,noun,pronoun,indefinite,definite,new,given,5,1,2,-2.386294361119891,-0.3862943611198908
+HAAP-min_PO2DO,10066,PO,3,927,1,agent-1arg,agent-recipient,"Here's Alex with me !
+", Alex [verb] a cookie with chocolate frosting to me .,Alex,a cookie with chocolate frosting,me,inanimate,animate,noun,pronoun,indefinite,definite,new,given,5,1,2,-2.386294361119891,-0.3862943611198908
+HAAP-min_PO2DO,10068,PO,1,927,2,agent-1arg,agent-recipient,"Do you see Michael and the ducks ?
+", Michael [verb] a cookie with chocolate frosting to them .,Michael,a cookie with chocolate frosting,them-a,inanimate,animate,noun,pronoun,indefinite,definite,new,given,5,1,2,-2.386294361119891,-0.3862943611198908
+HAAP-min_PO2DO,10068,PO,2,927,2,agent-1arg,agent-recipient,"Look it's Michael and the birds !
+", Michael [verb] a cookie with chocolate frosting to them .,Michael,a cookie with chocolate frosting,them-a,inanimate,animate,noun,pronoun,indefinite,definite,new,given,5,1,2,-2.386294361119891,-0.3862943611198908
+HAAP-min_PO2DO,10068,PO,3,927,2,agent-1arg,agent-recipient,"Here's Michael with the ducks !
+", Michael [verb] a cookie with chocolate frosting to them .,Michael,a cookie with chocolate frosting,them-a,inanimate,animate,noun,pronoun,indefinite,definite,new,given,5,1,2,-2.386294361119891,-0.3862943611198908
+HAAP-min_PO2DO,10070,PO,1,927,3,agent-1arg,agent-recipient,"Do you see William and Sally ?
+", William [verb] a cup with orange juice to her .,William,a cup with orange juice,her,inanimate,animate,noun,pronoun,indefinite,definite,new,given,5,1,2,-2.386294361119891,-0.3862943611198908
+HAAP-min_PO2DO,10070,PO,2,927,3,agent-1arg,agent-recipient,"Look it's William and Catherine !
+", William [verb] a cup with orange juice to her .,William,a cup with orange juice,her,inanimate,animate,noun,pronoun,indefinite,definite,new,given,5,1,2,-2.386294361119891,-0.3862943611198908
+HAAP-min_PO2DO,10070,PO,3,927,3,agent-1arg,agent-recipient,"Here's William with Eve !
+", William [verb] a cup with orange juice to her .,William,a cup with orange juice,her,inanimate,animate,noun,pronoun,indefinite,definite,new,given,5,1,2,-2.386294361119891,-0.3862943611198908
+HAAP-min_PO2DO,10072,PO,1,927,4,agent-1arg,agent-recipient,"Do you see Judy and me ?
+", Judy [verb] a cup with orange juice to me .,Judy,a cup with orange juice,me,inanimate,animate,noun,pronoun,indefinite,definite,new,given,5,1,2,-2.386294361119891,-0.3862943611198908
+HAAP-min_PO2DO,10072,PO,2,927,4,agent-1arg,agent-recipient,"Look it's Judy and me !
+", Judy [verb] a cup with orange juice to me .,Judy,a cup with orange juice,me,inanimate,animate,noun,pronoun,indefinite,definite,new,given,5,1,2,-2.386294361119891,-0.3862943611198908
+HAAP-min_PO2DO,10072,PO,3,927,4,agent-1arg,agent-recipient,"Here's Judy with me !
+", Judy [verb] a cup with orange juice to me .,Judy,a cup with orange juice,me,inanimate,animate,noun,pronoun,indefinite,definite,new,given,5,1,2,-2.386294361119891,-0.3862943611198908
+HAAP-min_PO2DO,10074,PO,1,927,5,agent-1arg,agent-recipient,"Do you see Laura and Lily ?
+", Laura [verb] a box with the blocks to her .,Laura,a box with the blocks,her,inanimate,animate,noun,pronoun,indefinite,definite,new,given,5,1,2,-2.386294361119891,-0.3862943611198908
+HAAP-min_PO2DO,10074,PO,2,927,5,agent-1arg,agent-recipient,"Look it's Laura and Lily !
+", Laura [verb] a box with the blocks to her .,Laura,a box with the blocks,her,inanimate,animate,noun,pronoun,indefinite,definite,new,given,5,1,2,-2.386294361119891,-0.3862943611198908
+HAAP-min_PO2DO,10074,PO,3,927,5,agent-1arg,agent-recipient,"Here's Laura with Eve !
+", Laura [verb] a box with the blocks to her .,Laura,a box with the blocks,her,inanimate,animate,noun,pronoun,indefinite,definite,new,given,5,1,2,-2.386294361119891,-0.3862943611198908
+HAAP-min_PO2DO,10076,PO,1,927,6,agent-1arg,agent-recipient,"Do you see Mark and Sally ?
+", Mark [verb] a cookie with chocolate frosting to her .,Mark,a cookie with chocolate frosting,her,inanimate,animate,noun,pronoun,indefinite,definite,new,given,5,1,2,-2.386294361119891,-0.3862943611198908
+HAAP-min_PO2DO,10076,PO,2,927,6,agent-1arg,agent-recipient,"Look it's Mark and Catherine !
+", Mark [verb] a cookie with chocolate frosting to her .,Mark,a cookie with chocolate frosting,her,inanimate,animate,noun,pronoun,indefinite,definite,new,given,5,1,2,-2.386294361119891,-0.3862943611198908
+HAAP-min_PO2DO,10076,PO,3,927,6,agent-1arg,agent-recipient,"Here's Mark with Nina !
+", Mark [verb] a cookie with chocolate frosting to her .,Mark,a cookie with chocolate frosting,her,inanimate,animate,noun,pronoun,indefinite,definite,new,given,5,1,2,-2.386294361119891,-0.3862943611198908
+HAAP-min_PO2DO,10078,PO,1,927,7,agent-1arg,agent-recipient,"Do you see Sarah and me ?
+", Sarah [verb] a cookie with pink frosting to me .,Sarah,a cookie with pink frosting,me,inanimate,animate,noun,pronoun,indefinite,definite,new,given,5,1,2,-2.386294361119891,-0.3862943611198908
+HAAP-min_PO2DO,10078,PO,2,927,7,agent-1arg,agent-recipient,"Look it's Sarah and me !
+", Sarah [verb] a cookie with pink frosting to me .,Sarah,a cookie with pink frosting,me,inanimate,animate,noun,pronoun,indefinite,definite,new,given,5,1,2,-2.386294361119891,-0.3862943611198908
+HAAP-min_PO2DO,10078,PO,3,927,7,agent-1arg,agent-recipient,"Here's Sarah with me !
+", Sarah [verb] a cookie with pink frosting to me .,Sarah,a cookie with pink frosting,me,inanimate,animate,noun,pronoun,indefinite,definite,new,given,5,1,2,-2.386294361119891,-0.3862943611198908
+HAAP-min_PO2DO,10080,PO,1,927,8,agent-1arg,agent-recipient,"Do you see Jenny and Thomas ?
+", Jenny [verb] a cup with no lid to him .,Jenny,a cup with no lid,him,inanimate,animate,noun,pronoun,indefinite,definite,new,given,5,1,2,-2.386294361119891,-0.3862943611198908
+HAAP-min_PO2DO,10080,PO,2,927,8,agent-1arg,agent-recipient,"Look it's Jenny and Joseph !
+", Jenny [verb] a cup with no lid to him .,Jenny,a cup with no lid,him,inanimate,animate,noun,pronoun,indefinite,definite,new,given,5,1,2,-2.386294361119891,-0.3862943611198908
+HAAP-min_PO2DO,10080,PO,3,927,8,agent-1arg,agent-recipient,"Here's Jenny with Ross !
+", Jenny [verb] a cup with no lid to him .,Jenny,a cup with no lid,him,inanimate,animate,noun,pronoun,indefinite,definite,new,given,5,1,2,-2.386294361119891,-0.3862943611198908
+HAAP-min_PO2DO,10082,PO,1,928,1,agent-1arg,agent-recipient,"Do you see Alex and Catherine ?
+", Alex [verb] a toy that's in the bag to her .,Alex,a toy that's in the bag,her,inanimate,animate,noun,pronoun,indefinite,definite,new,given,6,1,2,-2.6094379124341005,-0.6094379124341005
+HAAP-min_PO2DO,10082,PO,2,928,1,agent-1arg,agent-recipient,"Look it's Alex and Nina !
+", Alex [verb] a toy that's in the bag to her .,Alex,a toy that's in the bag,her,inanimate,animate,noun,pronoun,indefinite,definite,new,given,6,1,2,-2.6094379124341005,-0.6094379124341005
+HAAP-min_PO2DO,10082,PO,3,928,1,agent-1arg,agent-recipient,"Here's Alex with Nina !
+", Alex [verb] a toy that's in the bag to her .,Alex,a toy that's in the bag,her,inanimate,animate,noun,pronoun,indefinite,definite,new,given,6,1,2,-2.6094379124341005,-0.6094379124341005
+HAAP-min_PO2DO,10084,PO,1,928,2,agent-1arg,agent-recipient,"Do you see Sarah and the ducks ?
+", Sarah [verb] a pencil that's on the floor to them .,Sarah,a pencil that's on the floor,them-a,inanimate,animate,noun,pronoun,indefinite,definite,new,given,6,1,2,-2.6094379124341005,-0.6094379124341005
+HAAP-min_PO2DO,10084,PO,2,928,2,agent-1arg,agent-recipient,"Look it's Sarah and the ducks !
+", Sarah [verb] a pencil that's on the floor to them .,Sarah,a pencil that's on the floor,them-a,inanimate,animate,noun,pronoun,indefinite,definite,new,given,6,1,2,-2.6094379124341005,-0.6094379124341005
+HAAP-min_PO2DO,10084,PO,3,928,2,agent-1arg,agent-recipient,"Here's Sarah with the ducks !
+", Sarah [verb] a pencil that's on the floor to them .,Sarah,a pencil that's on the floor,them-a,inanimate,animate,noun,pronoun,indefinite,definite,new,given,6,1,2,-2.6094379124341005,-0.6094379124341005
+HAAP-min_PO2DO,10086,PO,1,928,3,agent-1arg,agent-recipient,"Do you see Mark and Nina ?
+", Mark [verb] a book that's on the floor to her .,Mark,a book that's on the floor,her,inanimate,animate,noun,pronoun,indefinite,definite,new,given,6,1,2,-2.6094379124341005,-0.6094379124341005
+HAAP-min_PO2DO,10086,PO,2,928,3,agent-1arg,agent-recipient,"Look it's Mark and Eve !
+", Mark [verb] a book that's on the floor to her .,Mark,a book that's on the floor,her,inanimate,animate,noun,pronoun,indefinite,definite,new,given,6,1,2,-2.6094379124341005,-0.6094379124341005
+HAAP-min_PO2DO,10086,PO,3,928,3,agent-1arg,agent-recipient,"Here's Mark with Eve !
+", Mark [verb] a book that's on the floor to her .,Mark,a book that's on the floor,her,inanimate,animate,noun,pronoun,indefinite,definite,new,given,6,1,2,-2.6094379124341005,-0.6094379124341005
+HAAP-min_PO2DO,10088,PO,1,928,4,agent-1arg,agent-recipient,"Do you see Laura and me ?
+", Laura [verb] a box with stuff in it to me .,Laura,a box with stuff in it,me,inanimate,animate,noun,pronoun,indefinite,definite,new,given,6,1,2,-2.6094379124341005,-0.6094379124341005
+HAAP-min_PO2DO,10088,PO,2,928,4,agent-1arg,agent-recipient,"Look it's Laura and me !
+", Laura [verb] a box with stuff in it to me .,Laura,a box with stuff in it,me,inanimate,animate,noun,pronoun,indefinite,definite,new,given,6,1,2,-2.6094379124341005,-0.6094379124341005
+HAAP-min_PO2DO,10088,PO,3,928,4,agent-1arg,agent-recipient,"Here's Laura with me !
+", Laura [verb] a box with stuff in it to me .,Laura,a box with stuff in it,me,inanimate,animate,noun,pronoun,indefinite,definite,new,given,6,1,2,-2.6094379124341005,-0.6094379124341005
+HAAP-min_PO2DO,10090,PO,1,928,5,agent-1arg,agent-recipient,"Do you see Jenny and me ?
+", Jenny [verb] a toy that's on the floor to me .,Jenny,a toy that's on the floor,me,inanimate,animate,noun,pronoun,indefinite,definite,new,given,6,1,2,-2.6094379124341005,-0.6094379124341005
+HAAP-min_PO2DO,10090,PO,2,928,5,agent-1arg,agent-recipient,"Look it's Jenny and me !
+", Jenny [verb] a toy that's on the floor to me .,Jenny,a toy that's on the floor,me,inanimate,animate,noun,pronoun,indefinite,definite,new,given,6,1,2,-2.6094379124341005,-0.6094379124341005
+HAAP-min_PO2DO,10090,PO,3,928,5,agent-1arg,agent-recipient,"Here's Jenny with me !
+", Jenny [verb] a toy that's on the floor to me .,Jenny,a toy that's on the floor,me,inanimate,animate,noun,pronoun,indefinite,definite,new,given,6,1,2,-2.6094379124341005,-0.6094379124341005
+HAAP-min_PO2DO,10092,PO,1,928,6,agent-1arg,agent-recipient,"Do you see William and Lily ?
+", William [verb] a cookie with m and ms to her .,William,a cookie with m and ms,her,inanimate,animate,noun,pronoun,indefinite,definite,new,given,6,1,2,-2.6094379124341005,-0.6094379124341005
+HAAP-min_PO2DO,10092,PO,2,928,6,agent-1arg,agent-recipient,"Look it's William and Sally !
+", William [verb] a cookie with m and ms to her .,William,a cookie with m and ms,her,inanimate,animate,noun,pronoun,indefinite,definite,new,given,6,1,2,-2.6094379124341005,-0.6094379124341005
+HAAP-min_PO2DO,10092,PO,3,928,6,agent-1arg,agent-recipient,"Here's William with Sally !
+", William [verb] a cookie with m and ms to her .,William,a cookie with m and ms,her,inanimate,animate,noun,pronoun,indefinite,definite,new,given,6,1,2,-2.6094379124341005,-0.6094379124341005
+HAAP-min_PO2DO,10094,PO,1,928,7,agent-1arg,agent-recipient,"Do you see Judy and me ?
+", Judy [verb] a toy that's in the basket to me .,Judy,a toy that's in the basket,me,inanimate,animate,noun,pronoun,indefinite,definite,new,given,6,1,2,-2.6094379124341005,-0.6094379124341005
+HAAP-min_PO2DO,10094,PO,2,928,7,agent-1arg,agent-recipient,"Look it's Judy and me !
+", Judy [verb] a toy that's in the basket to me .,Judy,a toy that's in the basket,me,inanimate,animate,noun,pronoun,indefinite,definite,new,given,6,1,2,-2.6094379124341005,-0.6094379124341005
+HAAP-min_PO2DO,10094,PO,3,928,7,agent-1arg,agent-recipient,"Here's Judy with me !
+", Judy [verb] a toy that's in the basket to me .,Judy,a toy that's in the basket,me,inanimate,animate,noun,pronoun,indefinite,definite,new,given,6,1,2,-2.6094379124341005,-0.6094379124341005
+HAAP-min_PO2DO,10096,PO,1,928,8,agent-1arg,agent-recipient,"Do you see Michael and us ?
+", Michael [verb] a ball that's on on top to us .,Michael,a ball that's on on top,us,inanimate,animate,noun,pronoun,indefinite,definite,new,given,6,1,2,-2.6094379124341005,-0.6094379124341005
+HAAP-min_PO2DO,10096,PO,2,928,8,agent-1arg,agent-recipient,"Look it's Michael and us !
+", Michael [verb] a ball that's on on top to us .,Michael,a ball that's on on top,us,inanimate,animate,noun,pronoun,indefinite,definite,new,given,6,1,2,-2.6094379124341005,-0.6094379124341005
+HAAP-min_PO2DO,10096,PO,3,928,8,agent-1arg,agent-recipient,"Here's Michael with us !
+", Michael [verb] a ball that's on on top to us .,Michael,a ball that's on on top,us,inanimate,animate,noun,pronoun,indefinite,definite,new,given,6,1,2,-2.6094379124341005,-0.6094379124341005
+HAAP-min_PO2DO,10098,PO,1,929,1,agent-1arg,agent-recipient,"Do you see Jenny and me ?
+", Jenny [verb] a book with pictures to me .,Jenny,a book with pictures,me,inanimate,animate,noun,pronoun,indefinite,definite,new,given,4,1,2,-2.09861228866811,-0.09861228866811
+HAAP-min_PO2DO,10098,PO,2,929,1,agent-1arg,agent-recipient,"Look it's Jenny and me !
+", Jenny [verb] a book with pictures to me .,Jenny,a book with pictures,me,inanimate,animate,noun,pronoun,indefinite,definite,new,given,4,1,2,-2.09861228866811,-0.09861228866811
+HAAP-min_PO2DO,10098,PO,3,929,1,agent-1arg,agent-recipient,"Here's Jenny with me !
+", Jenny [verb] a book with pictures to me .,Jenny,a book with pictures,me,inanimate,animate,noun,pronoun,indefinite,definite,new,given,4,1,2,-2.09861228866811,-0.09861228866811
+HAAP-min_PO2DO,10100,PO,1,929,2,agent-1arg,agent-recipient,"Do you see Sarah and Thomas ?
+", Sarah [verb] a book with pictures to him .,Sarah,a book with pictures,him,inanimate,animate,noun,pronoun,indefinite,definite,new,given,4,1,2,-2.09861228866811,-0.09861228866811
+HAAP-min_PO2DO,10100,PO,2,929,2,agent-1arg,agent-recipient,"Look it's Sarah and Peter !
+", Sarah [verb] a book with pictures to him .,Sarah,a book with pictures,him,inanimate,animate,noun,pronoun,indefinite,definite,new,given,4,1,2,-2.09861228866811,-0.09861228866811
+HAAP-min_PO2DO,10100,PO,3,929,2,agent-1arg,agent-recipient,"Here's Sarah with Ethan !
+", Sarah [verb] a book with pictures to him .,Sarah,a book with pictures,him,inanimate,animate,noun,pronoun,indefinite,definite,new,given,4,1,2,-2.09861228866811,-0.09861228866811
+HAAP-min_PO2DO,10102,PO,1,929,3,agent-1arg,agent-recipient,"Do you see Laura and the ducks ?
+", Laura [verb] a book with pictures to them .,Laura,a book with pictures,them-a,inanimate,animate,noun,pronoun,indefinite,definite,new,given,4,1,2,-2.09861228866811,-0.09861228866811
+HAAP-min_PO2DO,10102,PO,2,929,3,agent-1arg,agent-recipient,"Look it's Laura and the ducks !
+", Laura [verb] a book with pictures to them .,Laura,a book with pictures,them-a,inanimate,animate,noun,pronoun,indefinite,definite,new,given,4,1,2,-2.09861228866811,-0.09861228866811
+HAAP-min_PO2DO,10102,PO,3,929,3,agent-1arg,agent-recipient,"Here's Laura with the pigs !
+", Laura [verb] a book with pictures to them .,Laura,a book with pictures,them-a,inanimate,animate,noun,pronoun,indefinite,definite,new,given,4,1,2,-2.09861228866811,-0.09861228866811
+HAAP-min_PO2DO,10104,PO,1,929,4,agent-1arg,agent-recipient,"Do you see William and me ?
+", William [verb] a cup with water to me .,William,a cup with water,me,inanimate,animate,noun,pronoun,indefinite,definite,new,given,4,1,2,-2.09861228866811,-0.09861228866811
+HAAP-min_PO2DO,10104,PO,2,929,4,agent-1arg,agent-recipient,"Look it's William and me !
+", William [verb] a cup with water to me .,William,a cup with water,me,inanimate,animate,noun,pronoun,indefinite,definite,new,given,4,1,2,-2.09861228866811,-0.09861228866811
+HAAP-min_PO2DO,10104,PO,3,929,4,agent-1arg,agent-recipient,"Here's William with me !
+", William [verb] a cup with water to me .,William,a cup with water,me,inanimate,animate,noun,pronoun,indefinite,definite,new,given,4,1,2,-2.09861228866811,-0.09861228866811
+HAAP-min_PO2DO,10106,PO,1,929,5,agent-1arg,agent-recipient,"Do you see Judy and those people ?
+", Judy [verb] a cup with water to them .,Judy,a cup with water,them-a,inanimate,animate,noun,pronoun,indefinite,definite,new,given,4,1,2,-2.09861228866811,-0.09861228866811
+HAAP-min_PO2DO,10106,PO,2,929,5,agent-1arg,agent-recipient,"Look it's Judy and the children !
+", Judy [verb] a cup with water to them .,Judy,a cup with water,them-a,inanimate,animate,noun,pronoun,indefinite,definite,new,given,4,1,2,-2.09861228866811,-0.09861228866811
+HAAP-min_PO2DO,10106,PO,3,929,5,agent-1arg,agent-recipient,"Here's Judy with the children !
+", Judy [verb] a cup with water to them .,Judy,a cup with water,them-a,inanimate,animate,noun,pronoun,indefinite,definite,new,given,4,1,2,-2.09861228866811,-0.09861228866811
+HAAP-min_PO2DO,10108,PO,1,929,6,agent-1arg,agent-recipient,"Do you see Alex and Sally ?
+", Alex [verb] a cup with water to her .,Alex,a cup with water,her,inanimate,animate,noun,pronoun,indefinite,definite,new,given,4,1,2,-2.09861228866811,-0.09861228866811
+HAAP-min_PO2DO,10108,PO,2,929,6,agent-1arg,agent-recipient,"Look it's Alex and Sally !
+", Alex [verb] a cup with water to her .,Alex,a cup with water,her,inanimate,animate,noun,pronoun,indefinite,definite,new,given,4,1,2,-2.09861228866811,-0.09861228866811
+HAAP-min_PO2DO,10108,PO,3,929,6,agent-1arg,agent-recipient,"Here's Alex with Catherine !
+", Alex [verb] a cup with water to her .,Alex,a cup with water,her,inanimate,animate,noun,pronoun,indefinite,definite,new,given,4,1,2,-2.09861228866811,-0.09861228866811
+HAAP-min_PO2DO,10110,PO,1,929,7,agent-1arg,agent-recipient,"Do you see Michael and us ?
+", Michael [verb] a cup with water to us .,Michael,a cup with water,us,inanimate,animate,noun,pronoun,indefinite,definite,new,given,4,1,2,-2.09861228866811,-0.09861228866811
+HAAP-min_PO2DO,10110,PO,2,929,7,agent-1arg,agent-recipient,"Look it's Michael and us !
+", Michael [verb] a cup with water to us .,Michael,a cup with water,us,inanimate,animate,noun,pronoun,indefinite,definite,new,given,4,1,2,-2.09861228866811,-0.09861228866811
+HAAP-min_PO2DO,10110,PO,3,929,7,agent-1arg,agent-recipient,"Here's Michael with us !
+", Michael [verb] a cup with water to us .,Michael,a cup with water,us,inanimate,animate,noun,pronoun,indefinite,definite,new,given,4,1,2,-2.09861228866811,-0.09861228866811
+HAAP-min_PO2DO,10112,PO,1,929,8,agent-1arg,agent-recipient,"Do you see Mark and us ?
+", Mark [verb] a book with pictures to us .,Mark,a book with pictures,us,inanimate,animate,noun,pronoun,indefinite,definite,new,given,4,1,2,-2.09861228866811,-0.09861228866811
+HAAP-min_PO2DO,10112,PO,2,929,8,agent-1arg,agent-recipient,"Look it's Mark and us !
+", Mark [verb] a book with pictures to us .,Mark,a book with pictures,us,inanimate,animate,noun,pronoun,indefinite,definite,new,given,4,1,2,-2.09861228866811,-0.09861228866811
+HAAP-min_PO2DO,10112,PO,3,929,8,agent-1arg,agent-recipient,"Here's Mark with us !
+", Mark [verb] a book with pictures to us .,Mark,a book with pictures,us,inanimate,animate,noun,pronoun,indefinite,definite,new,given,4,1,2,-2.09861228866811,-0.09861228866811
+HAAP-1pv_PO2DO,10786,PO,1,1044,1,agent-2arg,agent-recipient_theme,"Do you see Sarah and me and the apple ?
+", Sarah [verb] it to me .,Sarah,it,me,inanimate,animate,pronoun,pronoun,definite,definite,given,given,1,1,5,0,5
+HAAP-1pv_PO2DO,10786,PO,2,1044,1,agent-2arg,agent-recipient_theme,"Look it's Sarah and me and the paper !
+", Sarah [verb] it to me .,Sarah,it,me,inanimate,animate,pronoun,pronoun,definite,definite,given,given,1,1,5,0,5
+HAAP-1pv_PO2DO,10786,PO,3,1044,1,agent-2arg,agent-recipient_theme,"Here's Sarah with me and the milk !
+", Sarah [verb] it to me .,Sarah,it,me,inanimate,animate,pronoun,pronoun,definite,definite,given,given,1,1,5,0,5
+HAAP-1pv_PO2DO,10788,PO,1,1044,2,agent-2arg,agent-theme_recipient,"Do you see Alex and the apple and Thomas ?
+", Alex [verb] it to him .,Alex,it,him,inanimate,animate,pronoun,pronoun,definite,definite,given,given,1,1,5,0,5
+HAAP-1pv_PO2DO,10788,PO,2,1044,2,agent-2arg,agent-theme_recipient,"Look it's Alex and the milk and Peter !
+", Alex [verb] it to him .,Alex,it,him,inanimate,animate,pronoun,pronoun,definite,definite,given,given,1,1,5,0,5
+HAAP-1pv_PO2DO,10788,PO,3,1044,2,agent-2arg,agent-theme_recipient,"Here's Alex with the apple and Ethan !
+", Alex [verb] it to him .,Alex,it,him,inanimate,animate,pronoun,pronoun,definite,definite,given,given,1,1,5,0,5
+HAAP-1pv_PO2DO,10790,PO,1,1044,3,agent-2arg,agent-theme_recipient,"Do you see Michael and the apple and the birds ?
+", Michael [verb] it to them .,Michael,it,them-a,inanimate,animate,pronoun,pronoun,definite,definite,given,given,1,1,5,0,5
+HAAP-1pv_PO2DO,10790,PO,2,1044,3,agent-2arg,agent-theme_recipient,"Look it's Michael and the picture and the birds !
+", Michael [verb] it to them .,Michael,it,them-a,inanimate,animate,pronoun,pronoun,definite,definite,given,given,1,1,5,0,5
+HAAP-1pv_PO2DO,10790,PO,3,1044,3,agent-2arg,agent-theme_recipient,"Here's Michael with the picture and the birds !
+", Michael [verb] it to them .,Michael,it,them-a,inanimate,animate,pronoun,pronoun,definite,definite,given,given,1,1,5,0,5
+HAAP-1pv_PO2DO,10792,PO,1,1044,4,agent-2arg,agent-theme_recipient,"Do you see Judy and the candies and Peter ?
+", Judy [verb] them to him .,Judy,them-i,him,inanimate,animate,pronoun,pronoun,definite,definite,given,given,1,1,5,0,5
+HAAP-1pv_PO2DO,10792,PO,2,1044,4,agent-2arg,agent-theme_recipient,"Look it's Judy and the pictures and Ross !
+", Judy [verb] them to him .,Judy,them-i,him,inanimate,animate,pronoun,pronoun,definite,definite,given,given,1,1,5,0,5
+HAAP-1pv_PO2DO,10792,PO,3,1044,4,agent-2arg,agent-theme_recipient,"Here's Judy with the photographs and Ethan !
+", Judy [verb] them to him .,Judy,them-i,him,inanimate,animate,pronoun,pronoun,definite,definite,given,given,1,1,5,0,5
+HAAP-1pv_PO2DO,10794,PO,1,1044,5,agent-2arg,agent-recipient_theme,"Do you see Laura and Sally and the photographs ?
+", Laura [verb] them to her .,Laura,them-i,her,inanimate,animate,pronoun,pronoun,definite,definite,given,given,1,1,5,0,5
+HAAP-1pv_PO2DO,10794,PO,2,1044,5,agent-2arg,agent-recipient_theme,"Look it's Laura and Sally and the pictures !
+", Laura [verb] them to her .,Laura,them-i,her,inanimate,animate,pronoun,pronoun,definite,definite,given,given,1,1,5,0,5
+HAAP-1pv_PO2DO,10794,PO,3,1044,5,agent-2arg,agent-recipient_theme,"Here's Laura with Sally and the photographs !
+", Laura [verb] them to her .,Laura,them-i,her,inanimate,animate,pronoun,pronoun,definite,definite,given,given,1,1,5,0,5
+HAAP-1pv_PO2DO,10796,PO,1,1044,6,agent-2arg,agent-recipient_theme,"Do you see Jenny and me and the pictures ?
+", Jenny [verb] them to me .,Jenny,them-i,me,inanimate,animate,pronoun,pronoun,definite,definite,given,given,1,1,5,0,5
+HAAP-1pv_PO2DO,10796,PO,2,1044,6,agent-2arg,agent-recipient_theme,"Look it's Jenny and me and the candies !
+", Jenny [verb] them to me .,Jenny,them-i,me,inanimate,animate,pronoun,pronoun,definite,definite,given,given,1,1,5,0,5
+HAAP-1pv_PO2DO,10796,PO,3,1044,6,agent-2arg,agent-recipient_theme,"Here's Jenny with me and the socks !
+", Jenny [verb] them to me .,Jenny,them-i,me,inanimate,animate,pronoun,pronoun,definite,definite,given,given,1,1,5,0,5
+HAAP-1pv_PO2DO,10798,PO,1,1044,7,agent-2arg,agent-theme_recipient,"Do you see William and the coffee and Lily ?
+", William [verb] it to her .,William,it,her,inanimate,animate,pronoun,pronoun,definite,definite,given,given,1,1,5,0,5
+HAAP-1pv_PO2DO,10798,PO,2,1044,7,agent-2arg,agent-theme_recipient,"Look it's William and the coffee and Lily !
+", William [verb] it to her .,William,it,her,inanimate,animate,pronoun,pronoun,definite,definite,given,given,1,1,5,0,5
+HAAP-1pv_PO2DO,10798,PO,3,1044,7,agent-2arg,agent-theme_recipient,"Here's William with the picture and Catherine !
+", William [verb] it to her .,William,it,her,inanimate,animate,pronoun,pronoun,definite,definite,given,given,1,1,5,0,5
+HAAP-1pv_PO2DO,10800,PO,1,1044,8,agent-2arg,agent-recipient_theme,"Do you see Mark and us and the coffee ?
+", Mark [verb] it to us .,Mark,it,us,inanimate,animate,pronoun,pronoun,definite,definite,given,given,1,1,5,0,5
+HAAP-1pv_PO2DO,10800,PO,2,1044,8,agent-2arg,agent-recipient_theme,"Look it's Mark and us and the milk !
+", Mark [verb] it to us .,Mark,it,us,inanimate,animate,pronoun,pronoun,definite,definite,given,given,1,1,5,0,5
+HAAP-1pv_PO2DO,10800,PO,3,1044,8,agent-2arg,agent-recipient_theme,"Here's Mark with us and the coffee !
+", Mark [verb] it to us .,Mark,it,us,inanimate,animate,pronoun,pronoun,definite,definite,given,given,1,1,5,0,5
